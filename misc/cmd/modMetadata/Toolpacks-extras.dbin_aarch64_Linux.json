@@ -87,7 +87,7 @@
     "size": "245.71 MB",
     "web_url": "https://inkscape.org",
     "build_script": "https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/inkscape.sh",
-    "extra_bins": "inkscape.AppImage,inkscape-dev.AppImage",
+    "extra_bins": "inkscape-dev.AppImage,inkscape.AppImage",
     "build_date": "2024-10-12T10:20:24",
     "note": "This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.com/inkscape/inkscape/-/pipelines)",
     "category": "graphics,multimedia"
