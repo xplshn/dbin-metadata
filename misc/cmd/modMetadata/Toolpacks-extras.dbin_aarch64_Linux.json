@@ -146,7 +146,7 @@
     "web_url": "https://signal.org",
     "build_script": "https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/signal-desktop.sh",
     "build_date": "2024-10-12T10:18:30",
-    "note": "Requires --no-sandbox to run\u003cbr\u003e(CI_VERIFIED: https://github.com/signalapp/Signal-Desktop/actions)",
+    "note": "Requires --no-sandbox to run, edit the .desktop/launcher \u0026 relogin\u003cbr\u003e(CI_VERIFIED: https://github.com/signalapp/Signal-Desktop/actions)",
     "category": "messenger,privacy"
   }
 ]
