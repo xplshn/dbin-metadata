@@ -1327,8 +1327,8 @@
   },
   {
     "name": "coreutils/stdbuf",
-    "b3sum": "f194c4a97f2c16130811308ccd0992edc2b92489fd77eaf8588d9643c81083e7",
-    "sha256": "a6d2b379279c912f6043bef4dc7d4b8932ec1cb0dc368bff8dcba0d9e6b3984c",
+    "b3sum": "a257d8a21d6a1cdc25732b0fd148d334d95d9d93bd57a35cb7338593abf14299",
+    "sha256": "df270da23c46b94414ea9070271b0c1afdc15ecff5c87e8d914232879833bb9f",
     "description": "GNU File, Shell, and Text utilities",
     "download_url": "https://bin.ajam.dev/arm64_v8a_Android/Baseutils/coreutils/stdbuf",
     "size": "527.77 KB",
@@ -1336,7 +1336,7 @@
     "web_url": "https://www.gnu.org/software/coreutils/",
     "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/coreutils.sh",
     "extra_bins": "[,b2sum,base32,base64,basename,basenc,cat,chcon,chgrp,chmod,chown,chroot,cksum,comm,cp,csplit,cut,date,dd,df,dir,dircolors,dirname,du,echo,env,expand,expr,factor,false,fmt,fold,groups,head,id,install,join,kill,link,ln,logname,ls,md5sum,mkdir,mkfifo,mknod,mktemp,mv,nice,nl,nohup,nproc,numfmt,od,paste,pathchk,pinky,pr,printenv,printf,ptx,pwd,readlink,realpath,rm,rmdir,runcon,seq,sha1sum,sha224sum,sha256sum,sha384sum,sha512sum,shred,shuf,sleep,sort,split,stat,stty,sum,sync,tac,tail,tee,test,timeout,touch,tr,true,truncate,tsort,tty,uname,unexpand,uniq,unlink,uptime,users,vdir,wc,who,whoami,yes",
-    "build_date": "2024-10-12T00:48:48"
+    "build_date": "2024-10-14T00:45:43"
   },
   {
     "name": "coreutils/stty",
@@ -1833,12 +1833,12 @@
     "name": "libarchive/awk",
     "description": "Multi-format archive and compression Tools",
     "download_url": "https://bin.ajam.dev/arm64_v8a_Android/Baseutils/libarchive/awk",
-    "size": "704.98 KB",
+    "size": "739.84 KB",
     "repo_url": "https://github.com/libarchive/libarchive",
     "web_url": "https://www.libarchive.org/",
     "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/libarchive.sh",
     "extra_bins": "bsdcat,bsdcpio,bsdunzip",
-    "build_date": "2023-08-17T16:09:36"
+    "build_date": "2024-03-31T11:18:52"
   },
   {
     "name": "libarchive/bsdcat",
@@ -1888,12 +1888,12 @@
     "name": "libarchive/c++",
     "description": "Multi-format archive and compression Tools",
     "download_url": "https://bin.ajam.dev/arm64_v8a_Android/Baseutils/libarchive/c++",
-    "size": "932.68 KB",
+    "size": "1.76 MB",
     "repo_url": "https://github.com/libarchive/libarchive",
     "web_url": "https://www.libarchive.org/",
     "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/libarchive.sh",
     "extra_bins": "bsdcat,bsdcpio,bsdunzip",
-    "build_date": "2023-05-13T13:37:48"
+    "build_date": "2024-04-14T13:16:05"
   },
   {
     "name": "libarchive/c89",
@@ -1921,166 +1921,166 @@
     "name": "libarchive/cc",
     "description": "Multi-format archive and compression Tools",
     "download_url": "https://bin.ajam.dev/arm64_v8a_Android/Baseutils/libarchive/cc",
-    "size": "928.58 KB",
+    "size": "1.76 MB",
     "repo_url": "https://github.com/libarchive/libarchive",
     "web_url": "https://www.libarchive.org/",
     "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/libarchive.sh",
     "extra_bins": "bsdcat,bsdcpio,bsdunzip",
-    "build_date": "2023-05-13T13:37:48"
+    "build_date": "2024-04-14T13:16:05"
   },
   {
     "name": "libarchive/lzcat",
     "description": "Multi-format archive and compression Tools",
     "download_url": "https://bin.ajam.dev/arm64_v8a_Android/Baseutils/libarchive/lzcat",
-    "size": "84.5 KB",
+    "size": "89.01 KB",
     "repo_url": "https://github.com/libarchive/libarchive",
     "web_url": "https://www.libarchive.org/",
     "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/libarchive.sh",
     "extra_bins": "bsdcat,bsdcpio,bsdunzip",
-    "build_date": "2022-04-08T18:36:38"
+    "build_date": "2024-08-09T08:18:21"
   },
   {
     "name": "libarchive/lzcmp",
     "description": "Multi-format archive and compression Tools",
     "download_url": "https://bin.ajam.dev/arm64_v8a_Android/Baseutils/libarchive/lzcmp",
-    "size": "7023 B",
+    "size": "7422 B",
     "repo_url": "https://github.com/libarchive/libarchive",
     "web_url": "https://www.libarchive.org/",
     "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/libarchive.sh",
     "extra_bins": "bsdcat,bsdcpio,bsdunzip",
-    "build_date": "2022-04-08T18:36:38"
+    "build_date": "2024-08-09T08:18:21"
   },
   {
     "name": "libarchive/lzdiff",
     "description": "Multi-format archive and compression Tools",
     "download_url": "https://bin.ajam.dev/arm64_v8a_Android/Baseutils/libarchive/lzdiff",
-    "size": "7023 B",
+    "size": "7422 B",
     "repo_url": "https://github.com/libarchive/libarchive",
     "web_url": "https://www.libarchive.org/",
     "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/libarchive.sh",
     "extra_bins": "bsdcat,bsdcpio,bsdunzip",
-    "build_date": "2022-04-08T18:36:38"
+    "build_date": "2024-08-09T08:18:21"
   },
   {
     "name": "libarchive/lzegrep",
     "description": "Multi-format archive and compression Tools",
     "download_url": "https://bin.ajam.dev/arm64_v8a_Android/Baseutils/libarchive/lzegrep",
-    "size": "6015 B",
+    "size": "10.33 KB",
     "repo_url": "https://github.com/libarchive/libarchive",
     "web_url": "https://www.libarchive.org/",
     "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/libarchive.sh",
     "extra_bins": "bsdcat,bsdcpio,bsdunzip",
-    "build_date": "2022-04-08T18:36:38"
+    "build_date": "2024-08-09T08:18:21"
   },
   {
     "name": "libarchive/lzfgrep",
     "description": "Multi-format archive and compression Tools",
     "download_url": "https://bin.ajam.dev/arm64_v8a_Android/Baseutils/libarchive/lzfgrep",
-    "size": "6015 B",
+    "size": "10.33 KB",
     "repo_url": "https://github.com/libarchive/libarchive",
     "web_url": "https://www.libarchive.org/",
     "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/libarchive.sh",
     "extra_bins": "bsdcat,bsdcpio,bsdunzip",
-    "build_date": "2022-04-08T18:36:38"
+    "build_date": "2024-08-09T08:18:21"
   },
   {
     "name": "libarchive/lzgrep",
     "description": "Multi-format archive and compression Tools",
     "download_url": "https://bin.ajam.dev/arm64_v8a_Android/Baseutils/libarchive/lzgrep",
-    "size": "6015 B",
+    "size": "10.33 KB",
     "repo_url": "https://github.com/libarchive/libarchive",
     "web_url": "https://www.libarchive.org/",
     "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/libarchive.sh",
     "extra_bins": "bsdcat,bsdcpio,bsdunzip",
-    "build_date": "2022-04-08T18:36:38"
+    "build_date": "2024-08-09T08:18:21"
   },
   {
     "name": "libarchive/lzless",
     "description": "Multi-format archive and compression Tools",
     "download_url": "https://bin.ajam.dev/arm64_v8a_Android/Baseutils/libarchive/lzless",
-    "size": "1799 B",
+    "size": "1813 B",
     "repo_url": "https://github.com/libarchive/libarchive",
     "web_url": "https://www.libarchive.org/",
     "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/libarchive.sh",
     "extra_bins": "bsdcat,bsdcpio,bsdunzip",
-    "build_date": "2022-04-08T18:36:38"
+    "build_date": "2024-08-09T08:18:21"
   },
   {
     "name": "libarchive/lzma",
     "description": "Multi-format archive and compression Tools",
     "download_url": "https://bin.ajam.dev/arm64_v8a_Android/Baseutils/libarchive/lzma",
-    "size": "84.5 KB",
+    "size": "89.01 KB",
     "repo_url": "https://github.com/libarchive/libarchive",
     "web_url": "https://www.libarchive.org/",
     "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/libarchive.sh",
     "extra_bins": "bsdcat,bsdcpio,bsdunzip",
-    "build_date": "2022-04-08T18:36:38"
+    "build_date": "2024-08-09T08:18:21"
   },
   {
     "name": "libarchive/lzmore",
     "description": "Multi-format archive and compression Tools",
     "download_url": "https://bin.ajam.dev/arm64_v8a_Android/Baseutils/libarchive/lzmore",
-    "size": "2162 B",
+    "size": "2190 B",
     "repo_url": "https://github.com/libarchive/libarchive",
     "web_url": "https://www.libarchive.org/",
     "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/libarchive.sh",
     "extra_bins": "bsdcat,bsdcpio,bsdunzip",
-    "build_date": "2022-04-08T18:36:38"
+    "build_date": "2024-08-09T08:18:21"
   },
   {
     "name": "libarchive/nawk",
     "description": "Multi-format archive and compression Tools",
     "download_url": "https://bin.ajam.dev/arm64_v8a_Android/Baseutils/libarchive/nawk",
-    "size": "704.98 KB",
+    "size": "739.84 KB",
     "repo_url": "https://github.com/libarchive/libarchive",
     "web_url": "https://www.libarchive.org/",
     "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/libarchive.sh",
     "extra_bins": "bsdcat,bsdcpio,bsdunzip",
-    "build_date": "2023-08-17T16:09:36"
+    "build_date": "2024-03-31T11:18:52"
   },
   {
     "name": "libarchive/pager",
     "description": "Multi-format archive and compression Tools",
     "download_url": "https://bin.ajam.dev/arm64_v8a_Android/Baseutils/libarchive/pager",
-    "size": "199.05 KB",
+    "size": "194.95 KB",
     "repo_url": "https://github.com/libarchive/libarchive",
     "web_url": "https://www.libarchive.org/",
     "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/libarchive.sh",
     "extra_bins": "bsdcat,bsdcpio,bsdunzip",
-    "build_date": "2024-04-28T02:17:45"
+    "build_date": "2024-04-28T17:29:40"
   },
   {
     "name": "libarchive/pidof",
     "description": "Multi-format archive and compression Tools",
     "download_url": "https://bin.ajam.dev/arm64_v8a_Android/Baseutils/libarchive/pidof",
-    "size": "31.11 KB",
+    "size": "26.86 KB",
     "repo_url": "https://github.com/libarchive/libarchive",
     "web_url": "https://www.libarchive.org/",
     "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/libarchive.sh",
     "extra_bins": "bsdcat,bsdcpio,bsdunzip",
-    "build_date": "2021-12-15T03:02:22"
+    "build_date": "2024-04-08T22:05:36"
   },
   {
     "name": "libarchive/unlzma",
     "description": "Multi-format archive and compression Tools",
     "download_url": "https://bin.ajam.dev/arm64_v8a_Android/Baseutils/libarchive/unlzma",
-    "size": "84.5 KB",
+    "size": "89.01 KB",
     "repo_url": "https://github.com/libarchive/libarchive",
     "web_url": "https://www.libarchive.org/",
     "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/libarchive.sh",
     "extra_bins": "bsdcat,bsdcpio,bsdunzip",
-    "build_date": "2022-04-08T18:36:38"
+    "build_date": "2024-08-09T08:18:21"
   },
   {
     "name": "libarchive/which",
     "description": "Multi-format archive and compression Tools",
     "download_url": "https://bin.ajam.dev/arm64_v8a_Android/Baseutils/libarchive/which",
-    "size": "946 B",
+    "size": "1080 B",
     "repo_url": "https://github.com/libarchive/libarchive",
     "web_url": "https://www.libarchive.org/",
     "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/libarchive.sh",
     "extra_bins": "bsdcat,bsdcpio,bsdunzip",
-    "build_date": "2022-03-23T19:34:54"
+    "build_date": "2024-03-31T14:32:33"
   },
   {
     "name": "link",
