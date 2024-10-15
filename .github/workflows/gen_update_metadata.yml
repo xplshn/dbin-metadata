@@ -120,6 +120,33 @@ jobs:
            popd >/dev/null
         continue-on-error: true
 
+              - name: Download and Run modMetadataAIO
+        run: |
+          #presets
+          set +x ; set +e
+          #-------------#
+          mkdir -p "$GITHUB_WORKSPACE/master/misc/cmd/modMetadataAIO-normal"
+          curl -qfsSL "https://raw.githubusercontent.com/xplshn/dbin/master/misc/cmd/modMetadataAIO/normal/modMetadataAIO.go" -o "$GITHUB_WORKSPACE/master/misc/cmd/modMetadataAIO/modMetadataAIO.go"
+          pushd "$GITHUB_WORKSPACE/master/misc/cmd/modMetadataAIO" >/dev/null
+          #Build
+           go mod init "github.com/xplshn/dbin/misc/cmd/modMetadataAIO/normal" ; go mod tidy
+           GOOS="linux" GOARCH="amd64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./modMetadataAIO"
+          #Run
+           "./modMetadataAIO"
+          #Cleanup
+           find . -type f ! -name "*.json" -delete
+          #Sanity check
+           if find . -maxdepth 1 -name "*.json" -type f -size +0b | grep -q .; then
+               export HAS_META="TRUE"
+               echo "HAS_META=$HAS_META" >> "$GITHUB_ENV"
+           else
+               export HAS_META="FALSE"
+               echo "HAS_META=$HAS_META" >> "$GITHUB_ENV"
+           fi
+          #End
+           popd >/dev/null
+        continue-on-error: true
+
       - name: Ensure Healthy Commit Nums (RESET ON >= 70)
         if: env.HAS_META == 'TRUE'
         run: |
