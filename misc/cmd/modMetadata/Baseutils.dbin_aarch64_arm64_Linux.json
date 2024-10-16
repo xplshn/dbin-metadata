@@ -1327,8 +1327,8 @@
   },
   {
     "name": "coreutils/stdbuf",
-    "b3sum": "a257d8a21d6a1cdc25732b0fd148d334d95d9d93bd57a35cb7338593abf14299",
-    "sha256": "df270da23c46b94414ea9070271b0c1afdc15ecff5c87e8d914232879833bb9f",
+    "b3sum": "4646d4249a561480830c0366975d1dc62e124943241166caa8d857ffaed268fc",
+    "sha256": "2887c71be24b07975339c67d1e71aa51e212ecb7aec46f45cdb73d80fba96b48",
     "description": "GNU File, Shell, and Text utilities",
     "download_url": "https://bin.ajam.dev/arm64_v8a_Android/Baseutils/coreutils/stdbuf",
     "size": "527.77 KB",
@@ -1336,7 +1336,7 @@
     "web_url": "https://www.gnu.org/software/coreutils/",
     "build_script": "https://github.com/Azathothas/Toolpacks/tree/main/.github/scripts/arm64_v8a_Android/bins/coreutils.sh",
     "extra_bins": "[,b2sum,base32,base64,basename,basenc,cat,chcon,chgrp,chmod,chown,chroot,cksum,comm,cp,csplit,cut,date,dd,df,dir,dircolors,dirname,du,echo,env,expand,expr,factor,false,fmt,fold,groups,head,id,install,join,kill,link,ln,logname,ls,md5sum,mkdir,mkfifo,mknod,mktemp,mv,nice,nl,nohup,nproc,numfmt,od,paste,pathchk,pinky,pr,printenv,printf,ptx,pwd,readlink,realpath,rm,rmdir,runcon,seq,sha1sum,sha224sum,sha256sum,sha384sum,sha512sum,shred,shuf,sleep,sort,split,stat,stty,sum,sync,tac,tail,tee,test,timeout,touch,tr,true,truncate,tsort,tty,uname,unexpand,uniq,unlink,uptime,users,vdir,wc,who,whoami,yes",
-    "build_date": "2024-10-14T00:45:43"
+    "build_date": "2024-10-16T00:49:39"
   },
   {
     "name": "coreutils/stty",
