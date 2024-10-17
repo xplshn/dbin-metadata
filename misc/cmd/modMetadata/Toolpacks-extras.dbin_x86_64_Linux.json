@@ -184,18 +184,6 @@
     "category": "graphics"
   },
   {
-    "name": "inkscape.AppImage",
-    "description": "FOSS Vector Graphics Editor (AppImage|NixAppImage)",
-    "download_url": "https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/inkscape.AppImage",
-    "size": "96.33 MB",
-    "web_url": "https://inkscape.org",
-    "build_script": "https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/inkscape.sh",
-    "extra_bins": "inkscape-dev.AppImage,inkscape.NixAppImage",
-    "build_date": "2024-10-17T13:07:35",
-    "note": "This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.com/inkscape/inkscape/-/pipelines)",
-    "category": "graphics,multimedia"
-  },
-  {
     "name": "inkscape-dev.AppImage",
     "description": "FOSS Vector Graphics Editor (AppImage|NixAppImage)",
     "download_url": "https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/inkscape-dev.AppImage",
@@ -208,13 +196,25 @@
     "category": "graphics,multimedia"
   },
   {
+    "name": "inkscape.AppImage",
+    "description": "FOSS Vector Graphics Editor (AppImage|NixAppImage)",
+    "download_url": "https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/inkscape.AppImage",
+    "size": "96.33 MB",
+    "web_url": "https://inkscape.org",
+    "build_script": "https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/inkscape.sh",
+    "extra_bins": "inkscape-dev.AppImage,inkscape.NixAppImage",
+    "build_date": "2024-10-17T13:07:35",
+    "note": "This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.com/inkscape/inkscape/-/pipelines)",
+    "category": "graphics,multimedia"
+  },
+  {
     "name": "inkscape.NixAppImage",
     "description": "FOSS Vector Graphics Editor (AppImage|NixAppImage)",
     "download_url": "https://huggingface.co/datasets/Azathothas/Toolpacks-Extras/resolve/main/x86_64-Linux/inkscape.NixAppImage",
     "size": "96.35 MB",
     "web_url": "https://inkscape.org",
     "build_script": "https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/inkscape.sh",
-    "extra_bins": "inkscape.AppImage,inkscape-dev.AppImage",
+    "extra_bins": "inkscape-dev.AppImage,inkscape.AppImage",
     "build_date": "2024-10-17T12:55:03",
     "note": "This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.com/inkscape/inkscape/-/pipelines)",
     "category": "graphics,multimedia"
