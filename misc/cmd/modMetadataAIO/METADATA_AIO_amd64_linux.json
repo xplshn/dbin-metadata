@@ -19838,7 +19838,7 @@
       "bin_name": "signal-desktop.NixAppImage",
       "name": "signal-desktop.NixAppImage",
       "description": "A private messenger for Windows, macOS, and Linux (NixAppImage)",
-      "note": "Requires --no-sandbox to run, edit the .desktop/launcher \u0026 relogin\u003cbr\u003e(CI_VERIFIED: https://github.com/signalapp/Signal-Desktop/actions)",
+      "note": "signal-desktop.NixAppImage Requires --no-sandbox to run, edit the .desktop/launcher \u0026 relogin\u003cbr\u003esignal-desktop.FlatImage is based on CachyOS \u0026 has Sandbox+Keyring Support\u003cbr\u003e(CI_VERIFIED: https://github.com/signalapp/Signal-Desktop/actions)",
       "version": "7.27.0",
       "download_url": "https://pkg.ajam.dev/x86_64/signal-desktop.NixAppImage",
       "size": "429.46 MB",
@@ -19850,6 +19850,7 @@
       "build_script": "https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/x86_64-Linux/pkgs/signal-desktop.sh",
       "build_log": "https://pkg.ajam.dev/x86_64/signal-desktop.log",
       "category": "messenger,privacy",
+      "extra_bins": "signal-desktop.FlatImage",
       "icon": "https://pkg.ajam.dev/x86_64/signal-desktop.icon.png"
     },
     {
