@@ -6,7 +6,7 @@
     "size": "54.23 MB",
     "web_url": "https://86box.readthedocs.io",
     "build_script": "https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/86box.sh",
-    "build_date": "2024-10-23T15:48:32",
+    "build_date": "2024-10-24T12:15:31",
     "note": "You need to download ROMS (https://86box.readthedocs.io/en/latest/usage/roms.html)\u003cbr\u003e(CI_VERIFIED: https://github.com/86Box/86Box/actions)",
     "category": "emulator,hypervisor"
   },
@@ -18,7 +18,7 @@
     "web_url": "https://github.com/mgord9518/aisap",
     "build_script": "https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/aisap.sh",
     "extra_bins": "aisap.shimg",
-    "build_date": "2024-10-23T15:52:57",
+    "build_date": "2024-10-24T12:26:19",
     "note": "This PKG was built from Source using appimagetool (CI_VERIFIED: https://github.com/mgord9518/aisap/actions)",
     "category": "cli,sandbox"
   },
@@ -29,7 +29,7 @@
     "size": "11.07 MB",
     "web_url": "https://developer.android.com/tools/releases/platform-tools",
     "build_script": "https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/android-tools.sh",
-    "build_date": "2024-10-23T15:54:42",
+    "build_date": "2024-10-24T12:28:22",
     "note": "This PKG was built from Source using go-appimagetool, BUT the src has no CI (CI_VERIFIED: NONE)",
     "category": "android,utility"
   },
@@ -40,7 +40,7 @@
     "size": "12.27 MB",
     "web_url": "https://dunst-project.org",
     "build_script": "https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/dunst.sh",
-    "build_date": "2024-10-23T15:57:31",
+    "build_date": "2024-10-24T12:30:25",
     "note": "This PKG was built from Source using go-appimagetool",
     "category": "daemon,notification"
   },
@@ -52,7 +52,7 @@
     "web_url": "https://floorp.app",
     "build_script": "https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/floorp.sh",
     "extra_bins": "floorp.AppImage",
-    "build_date": "2024-10-23T16:01:38",
+    "build_date": "2024-10-24T12:34:26",
     "note": "This PKG has Multiple Formats (CI_VERIFIED: https://github.com/Floorp-Projects/Floorp/actions)",
     "category": "browser,firefox-fork"
   },
@@ -64,7 +64,7 @@
     "web_url": "https://imagemagick.org",
     "build_script": "https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/imagemagick.sh",
     "extra_bins": "magick.dwfs.AppBundle",
-    "build_date": "2024-10-23T16:17:38",
+    "build_date": "2024-10-24T12:48:18",
     "note": "This PKG has Multiple Formats \u003cbr\u003e(CI_VERIFIED: https://github.com/ImageMagick/ImageMagick/actions)",
     "category": "graphics"
   },
@@ -76,7 +76,7 @@
     "web_url": "https://imagemagick.org",
     "build_script": "https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/imagemagick.sh",
     "extra_bins": "magick.AppImage",
-    "build_date": "2024-10-23T16:17:37",
+    "build_date": "2024-10-24T12:48:17",
     "note": "This PKG has Multiple Formats \u003cbr\u003e(CI_VERIFIED: https://github.com/ImageMagick/ImageMagick/actions)",
     "category": "graphics"
   },
@@ -88,7 +88,7 @@
     "web_url": "https://inkscape.org",
     "build_script": "https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/inkscape.sh",
     "extra_bins": "inkscape-dev.AppImage,inkscape.AppImage",
-    "build_date": "2024-10-23T16:04:10",
+    "build_date": "2024-10-24T12:37:15",
     "note": "This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.com/inkscape/inkscape/-/pipelines)",
     "category": "graphics,multimedia"
   },
@@ -100,7 +100,7 @@
     "web_url": "https://librewolf.net",
     "build_script": "https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/librewolf.sh",
     "extra_bins": "librewolf.NixAppImage",
-    "build_date": "2024-10-23T16:04:54",
+    "build_date": "2024-10-24T12:37:38",
     "note": "This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.com/librewolf-community/browser/appimage/-/pipelines)",
     "category": "browser,privacy"
   },
@@ -112,7 +112,7 @@
     "web_url": "https://librewolf.net",
     "build_script": "https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/librewolf.sh",
     "extra_bins": "librewolf.AppImage",
-    "build_date": "2024-10-23T16:07:39",
+    "build_date": "2024-10-24T12:39:19",
     "note": "This PKG has Multiple Formats (CI_VERIFIED: https://gitlab.com/librewolf-community/browser/appimage/-/pipelines)",
     "category": "browser,privacy"
   },
@@ -123,7 +123,7 @@
     "size": "175.18 MB",
     "web_url": "https://persepolisdm.github.io",
     "build_script": "https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/persepolis.sh",
-    "build_date": "2024-10-23T16:11:34",
+    "build_date": "2024-10-24T12:44:24",
     "note": "(CI_VERIFIED: NONE)",
     "category": "downloader,multimedia"
   },
@@ -134,7 +134,7 @@
     "size": "24.25 MB",
     "web_url": "https://github.com/ryujinx-mirror/ryujinx",
     "build_script": "https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/ryujinx.sh",
-    "build_date": "2024-10-23T16:12:57",
+    "build_date": "2024-10-24T12:45:44",
     "note": "(CI_VERIFIED: https://github.com/ryujinx-mirror/ryujinx/actions)",
     "category": "emulator"
   },
@@ -145,7 +145,7 @@
     "size": "395.37 MB",
     "web_url": "https://signal.org",
     "build_script": "https://github.com/Azathothas/Toolpacks-Extras/blob/main/.github/scripts/aarch64-Linux/pkgs/signal-desktop.sh",
-    "build_date": "2024-10-23T16:17:09",
+    "build_date": "2024-10-24T12:47:48",
     "note": "Requires --no-sandbox to run, edit the .desktop/launcher \u0026 relogin\u003cbr\u003e(CI_VERIFIED: https://github.com/signalapp/Signal-Desktop/actions)",
     "category": "messenger,privacy"
   }
