@@ -152,6 +152,33 @@ jobs:
           pushd "$GITHUB_WORKSPACE/master" >/dev/null 2>&1 && git pull origin master && popd >/dev/null 2>&1
         continue-on-error: true
 
+        - name: Download and run AM-compat metadata generator (for AM to support the AppBundleHUB repo)
+        run: |
+          #presets
+          set +x ; set +e
+          #-------------#
+          mkdir -p "$GITHUB_WORKSPACE/master/misc/cmd/AM-support"
+          curl -qfsSL "https://raw.githubusercontent.com/xplshn/dbin/master/misc/cmd/AM-support/meta-to-am.go" -o "$GITHUB_WORKSPACE/master/misc/cmd/AM-support/meta-to-am.go"
+          pushd "$GITHUB_WORKSPACE/master/misc/AM-support/meta-to-am.go" >/dev/null
+          #Build
+           go mod init "github.com/xplshn/dbin/misc/cmd/AM-support/meta-to-am.go" ; go mod tidy
+           GOOS="linux" GOARCH="amd64" CGO_ENABLED="0" go build -v -ldflags="-buildid= -s -w -extldflags '-static'" -o "./meta-to-am.go"
+          #Run
+           "./meta-to-am.go"
+          #Cleanup
+           find . -type f ! -name "*.json" -delete
+          #Sanity check
+           if find . -maxdepth 1 -name "*.json" -type f -size +0b | grep -q .; then
+               export HAS_META="TRUE"
+               echo "HAS_META=$HAS_META" >> "$GITHUB_ENV"
+           else
+               export HAS_META="FALSE"
+               echo "HAS_META=$HAS_META" >> "$GITHUB_ENV"
+           fi
+          #End
+           popd >/dev/null
+        continue-on-error: true
+
       - name: Get DateTime
         if: env.HAS_META == 'TRUE'
         run: |
