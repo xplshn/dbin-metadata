@@ -38,7 +38,8 @@ jobs:
           run_generator() {
             SCRIPT_URL="$1"
             FOLDER_NAME="$2"
-
+            BEFORE_SIZE=$(du -b "$GITHUB_WORKSPACE/master/misc/cmd/$FOLDER_NAME" 2>/dev/null | awk '{print $1}')
+            
             mkdir -p "$GITHUB_WORKSPACE/master/misc/cmd/$FOLDER_NAME"
             curl -sL "$SCRIPT_URL" -o "$GITHUB_WORKSPACE/master/misc/cmd/$FOLDER_NAME/main.go"
             cd "$GITHUB_WORKSPACE/master/misc/cmd/$FOLDER_NAME" || { echo "Failed to change directory"; exit 1; }
@@ -55,7 +56,19 @@ jobs:
 
             # Clean up intermediate files
             find . -type f ! -name "*.json" -delete
+
+            # After metadata generation, check the new size of the directory
+            AFTER_SIZE=$(du -b "$GITHUB_WORKSPACE/master/misc/cmd/$FOLDER_NAME" 2>/dev/null | awk '{print $1}')
+            SIZE_DIFF=$((AFTER_SIZE - BEFORE_SIZE))
+
+            # Exclude files that lost >= 500 KB
+            if [ $SIZE_DIFF -ge 512000 ]; then
+              echo -e "\033[31mWarning: The size of files in $FOLDER_NAME has decreased by more than 500 KB ($SIZE_DIFF bytes). These files will not be committed.\033[0m"
+              EXCLUDED_FILES="$EXCLUDED_FILES $FOLDER_NAME"
+            fi
           }
+
+          EXCLUDED_FILES=""
 
           run_generator "https://raw.githubusercontent.com/xplshn/dbin/master/misc/cmd/modMetadataAIO/modMetadataAIO.go" "modMetadataAIO" || { echo "Failed to generate modMetadataAIO metadata"; exit 1; }
           run_generator "https://raw.githubusercontent.com/xplshn/dbin/master/misc/cmd/modMetadataAIO-ng/modMetadataAIO-ng.go" "modMetadataAIO-ng" || { echo "Failed to generate modMetadataAIO-ng metadata"; exit 1; }
@@ -88,17 +101,37 @@ jobs:
           echo "UTC_TIME=$UTC_TIME" >> $GITHUB_ENV
         shell: sh
 
-      - uses: stefanzweifel/git-auto-commit-action@v5
-        if: env.HAS_META == 'TRUE'
-        with:
-          repository: ./master
-          commit_user_name: xplshn
-          commit_user_email: xplshn@murena.io
-          commit_message: "✅ Updated (Metadata) 🛍️🧬 <-- ${{ env.UTC_TIME }} ⌚"
-
-      - name: Exit & Fail if Metadata Generation Failed
-        if: env.HAS_META == 'FALSE'
+      - name: Debug: Log HAS_META Value
         run: |
-          echo "Metadata generation failed. No new metadata found." 
+          echo "HAS_META value: $HAS_META"
+        shell: sh
+
+      - name: Commit Files (Excluding Files with Size Loss >= 500 KB)
+        if: env.HAS_META == 'TRUE' && env.METADATA_SIZE_ISSUE != 'TRUE'
+        run: |
+          # Stage all files except the excluded ones
+          git add --all
+
+          # Unstage files that were excluded
+          for EXCLUDED_FILE in $EXCLUDED_FILES; do
+            git reset "$EXCLUDED_FILE"
+          done
+
+          # Check if there are any changes to commit
+          if git diff --cached --exit-code; then
+            echo "No changes to commit."
+          else
+            git commit -m "✅ Updated (Metadata) 🛍️🧬 <-- ${{ env.UTC_TIME }} ⌚"
+            git push origin master
+          fi
+        shell: sh
+
+      - name: Exit & Fail if Metadata Generation Failed or Size Issue
+        if: env.HAS_META == 'FALSE' || env.METADATA_SIZE_ISSUE == 'TRUE'
+        run: |
+          if [ "$METADATA_SIZE_ISSUE" == "TRUE" ]; then
+            echo "Files that have lost >= 500 KB will not be pushed."
+          fi
+          echo "Metadata generation failed or size issue detected. No new metadata found."
           exit 0
         shell: sh
