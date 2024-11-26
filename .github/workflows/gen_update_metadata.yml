@@ -152,7 +152,7 @@ jobs:
           pushd "$GITHUB_WORKSPACE/master" >/dev/null 2>&1 && git pull origin master && popd >/dev/null 2>&1
         continue-on-error: true
 
-        - name: Download and run AM-compat metadata generator (for AM to support the AppBundleHUB repo)
+      - name: Download and run AM-compat metadata generator (for AM to support the AppBundleHUB repo)
         run: |
           #presets
           set +x ; set +e
