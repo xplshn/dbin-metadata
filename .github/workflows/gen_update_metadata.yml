@@ -44,7 +44,7 @@ jobs:
             cd "$GITHUB_WORKSPACE/master/misc/cmd/$folder_name"
 
             go mod init "github.com/xplshn/$folder_name" && go mod tidy
-            go run *.go
+            go run ./main.go
 
             # Check if JSON files were generated
             if find . -name "*.json" -type f -size +0b | grep -q .; then
