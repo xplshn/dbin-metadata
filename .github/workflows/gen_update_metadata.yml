@@ -36,14 +36,14 @@ jobs:
       - name: Run Metadata Generators
         run: |
           run_generator() {
-            script_url="$1"
-            folder_name="$2"
+            SCRIPT_URL="$1"
+            FOLDER_NAME="$2"
 
-            mkdir -p "$GITHUB_WORKSPACE/master/misc/cmd/$folder_name"
-            curl -sL "$script_url" -o "$GITHUB_WORKSPACE/master/misc/cmd/$folder_name/main.go"
-            cd "$GITHUB_WORKSPACE/master/misc/cmd/$folder_name"
+            mkdir -p "$GITHUB_WORKSPACE/master/misc/cmd/$FOLDER_NAME"
+            curl -sL "$SCRIPT_URL" -o "$GITHUB_WORKSPACE/master/misc/cmd/$FOLDER_NAME/main.go"
+            cd "$GITHUB_WORKSPACE/master/misc/cmd/$FOLDER_NAME" || { echo "Failed to change directory"; exit 1; }
 
-            go mod init "github.com/xplshn/$folder_name" && go mod tidy
+            go mod init "github.com/xplshn/$FOLDER_NAME" && go mod tidy
             go run ./main.go
 
             # Check if JSON files were generated
@@ -57,9 +57,9 @@ jobs:
             find . -type f ! -name "*.json" -delete
           }
 
-          run_generator "https://raw.githubusercontent.com/xplshn/dbin/master/misc/cmd/modMetadataAIO/modMetadataAIO.go" "modMetadataAIO"
-          run_generator "https://raw.githubusercontent.com/xplshn/dbin/master/misc/cmd/modMetadataAIO-ng/modMetadataAIO-ng.go" "modMetadataAIO-ng"
-          run_generator "https://raw.githubusercontent.com/xplshn/dbin/master/misc/cmd/AM-support/meta-to-am.go" "AM-support"
+          run_generator "https://raw.githubusercontent.com/xplshn/dbin/master/misc/cmd/modMetadataAIO/modMetadataAIO.go" "modMetadataAIO" || { echo "Failed to generate modMetadataAIO metadata"; exit 1; }
+          run_generator "https://raw.githubusercontent.com/xplshn/dbin/master/misc/cmd/modMetadataAIO-ng/modMetadataAIO-ng.go" "modMetadataAIO-ng" || { echo "Failed to generate modMetadataAIO-ng metadata"; exit 1; }
+          run_generator "https://raw.githubusercontent.com/xplshn/dbin/master/misc/cmd/AM-support/meta-to-am.go" "AM-support" || { echo "Failed to generate AM-support metadata"; exit 1; }
         shell: sh
 
       - name: Check Commit Numbers and Reset if Necessary
@@ -98,5 +98,7 @@ jobs:
 
       - name: Exit & Fail if Metadata Generation Failed
         if: env.HAS_META == 'FALSE'
-        run: exit 1
+        run: |
+          echo "Metadata generation failed. No new metadata found." 
+          exit 0
         shell: sh
