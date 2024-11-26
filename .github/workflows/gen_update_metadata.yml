@@ -101,7 +101,7 @@ jobs:
           echo "UTC_TIME=$UTC_TIME" >> $GITHUB_ENV
         shell: sh
 
-      - name: Debug: Log HAS_META Value
+      - name: "Debug: Log HAS_META Value"
         run: |
           echo "HAS_META value: $HAS_META"
         shell: sh
