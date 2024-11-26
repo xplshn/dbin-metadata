@@ -8,10 +8,16 @@ on:
 jobs:
   gen-metadata:
     runs-on: ubuntu-latest
+    container: alpine:latest
     permissions:
       contents: write
 
     steps:
+      - name: Install Dependencies
+        run: |
+          apk add --no-cache \
+            git curl go bash make alpine-sdk
+
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
@@ -26,32 +32,32 @@ jobs:
           echo "USER_AGENT=$USER_AGENT" >> $GITHUB_ENV
         shell: sh
 
-      - name: Install Golang
-        run: |
-          mkdir -p /tmp/go-install
-          curl -sL "https://git.io/go-installer" | bash -s -- -v latest -i /tmp/go-install
-          echo "PATH=/tmp/go-install/bin:$PATH" >> $GITHUB_ENV
-        shell: sh
-
       - name: Run Metadata Generators
         run: |
           run_generator() {
             SCRIPT_URL="$1"
             FOLDER_NAME="$2"
-            BEFORE_SIZE=$(du -b "$GITHUB_WORKSPACE/master/misc/cmd/$FOLDER_NAME" 2>/dev/null | awk '{print $1}')
+            
+            # Calculate initial size, handling case where directory might not exist
+            BEFORE_SIZE=0
+            if [ -d "$GITHUB_WORKSPACE/master/misc/cmd/$FOLDER_NAME" ]; then
+              BEFORE_SIZE=$(du -b "$GITHUB_WORKSPACE/master/misc/cmd/$FOLDER_NAME" 2>/dev/null | awk '{print $1}')
+            fi
             
             mkdir -p "$GITHUB_WORKSPACE/master/misc/cmd/$FOLDER_NAME"
             curl -sL "$SCRIPT_URL" -o "$GITHUB_WORKSPACE/master/misc/cmd/$FOLDER_NAME/main.go"
-            cd "$GITHUB_WORKSPACE/master/misc/cmd/$FOLDER_NAME" || { echo "Failed to change directory"; exit 1; }
+            cd "$GITHUB_WORKSPACE/master/misc/cmd/$FOLDER_NAME" || { echo "Failed to change directory"; return 1; }
 
             go mod init "github.com/xplshn/$FOLDER_NAME" && go mod tidy
             go run ./main.go
 
-            # Check if JSON files were generated
-            if find . -name "*.json" -type f -size +0b | grep -q .; then
-              echo "HAS_META=TRUE" >> $GITHUB_ENV
+            # Explicitly set HAS_META based on JSON file generation
+            JSON_COUNT=$(find . -name "*.json" -type f -size +0b | wc -l)
+            if [ "$JSON_COUNT" -gt 0 ]; then
+              echo "HAS_META=TRUE" >> "$GITHUB_ENV"
+              echo "METADATA_SIZE_ISSUE=FALSE" >> "$GITHUB_ENV"
             else
-              echo "HAS_META=FALSE" >> $GITHUB_ENV
+              echo "HAS_META=FALSE" >> "$GITHUB_ENV"
             fi
 
             # Clean up intermediate files
@@ -62,22 +68,27 @@ jobs:
             SIZE_DIFF=$((AFTER_SIZE - BEFORE_SIZE))
 
             # Exclude files that lost >= 500 KB
-            if [ $SIZE_DIFF -ge 512000 ]; then
+            if [ "$SIZE_DIFF" -lt -512000 ]; then
               echo -e "\033[31mWarning: The size of files in $FOLDER_NAME has decreased by more than 500 KB ($SIZE_DIFF bytes). These files will not be committed.\033[0m"
-              EXCLUDED_FILES="$EXCLUDED_FILES $FOLDER_NAME"
+              echo "METADATA_SIZE_ISSUE=TRUE" >> "$GITHUB_ENV"
+              echo "$FOLDER_NAME" >> "$GITHUB_WORKSPACE/excluded_files.txt"
             fi
           }
 
-          EXCLUDED_FILES=""
+          # Reset environment variables and files
+          echo "HAS_META=FALSE" >> "$GITHUB_ENV"
+          echo "METADATA_SIZE_ISSUE=FALSE" >> "$GITHUB_ENV"
+          : > "$GITHUB_WORKSPACE/excluded_files.txt"
 
-          run_generator "https://raw.githubusercontent.com/xplshn/dbin/master/misc/cmd/modMetadataAIO/modMetadataAIO.go" "modMetadataAIO" || { echo "Failed to generate modMetadataAIO metadata"; exit 1; }
-          run_generator "https://raw.githubusercontent.com/xplshn/dbin/master/misc/cmd/modMetadataAIO-ng/modMetadataAIO-ng.go" "modMetadataAIO-ng" || { echo "Failed to generate modMetadataAIO-ng metadata"; exit 1; }
-          run_generator "https://raw.githubusercontent.com/xplshn/dbin/master/misc/cmd/AM-support/meta-to-am.go" "AM-support" || { echo "Failed to generate AM-support metadata"; exit 1; }
+          run_generator "https://raw.githubusercontent.com/xplshn/dbin/master/misc/cmd/modMetadataAIO/modMetadataAIO.go" "modMetadataAIO" || true
+          run_generator "https://raw.githubusercontent.com/xplshn/dbin/master/misc/cmd/modMetadataAIO-ng/modMetadataAIO-ng.go" "modMetadataAIO-ng" || true
+          run_generator "https://raw.githubusercontent.com/xplshn/dbin/master/misc/cmd/AM-support/meta-to-am.go" "AM-support" || true
         shell: sh
 
       - name: Check Commit Numbers and Reset if Necessary
         if: env.HAS_META == 'TRUE'
         run: |
+          cd "$GITHUB_WORKSPACE/master"
           git fetch --depth=1
           COMMIT_NUMS=$(git rev-list --count HEAD)
 
@@ -101,35 +112,34 @@ jobs:
           echo "UTC_TIME=$UTC_TIME" >> $GITHUB_ENV
         shell: sh
 
-      - name: "Debug: Log HAS_META Value"
-        run: |
-          echo "HAS_META value: $HAS_META"
-        shell: sh
-
       - name: Commit Files (Excluding Files with Size Loss >= 500 KB)
         if: env.HAS_META == 'TRUE' && env.METADATA_SIZE_ISSUE != 'TRUE'
         run: |
-          # Stage all files except the excluded ones
+          cd "$GITHUB_WORKSPACE/master"
+          
+          # Stage all files
           git add --all
 
-          # Unstage files that were excluded
-          for EXCLUDED_FILE in $EXCLUDED_FILES; do
-            git reset "$EXCLUDED_FILE"
-          done
+          # Unstage excluded files
+          while IFS= read -r EXCLUDED_FILE; do
+            [ -n "$EXCLUDED_FILE" ] && git reset "$EXCLUDED_FILE"
+          done < "$GITHUB_WORKSPACE/excluded_files.txt"
 
           # Check if there are any changes to commit
-          if git diff --cached --exit-code; then
-            echo "No changes to commit."
-          else
-            git commit -m "✅ Updated (Metadata) 🛍️🧬 <-- ${{ env.UTC_TIME }} ⌚"
+          if ! git diff --cached --quiet; then
+            git config user.name 'GitHub Action'
+            git config user.email 'action@github.com'
+            git commit -m "✅ Updated (Metadata) 🛍️🧬 <-- $UTC_TIME ⌚"
             git push origin master
+          else
+            echo "No changes to commit."
           fi
         shell: sh
 
       - name: Exit & Fail if Metadata Generation Failed or Size Issue
         if: env.HAS_META == 'FALSE' || env.METADATA_SIZE_ISSUE == 'TRUE'
         run: |
-          if [ "$METADATA_SIZE_ISSUE" == "TRUE" ]; then
+          if [ "$METADATA_SIZE_ISSUE" = "TRUE" ]; then
             echo "Files that have lost >= 500 KB will not be pushed."
           fi
           echo "Metadata generation failed or size issue detected. No new metadata found."
