@@ -139,12 +139,12 @@ jobs:
           
           # Stage all files
           git add --all
-    
+          
           # Unstage excluded files
           while IFS= read -r EXCLUDED_FILE; do
-            [ -n "$EXCLUDED_FILE" ] && git reset "$EXCLUDED_FILE"
+            [ -n "$EXCLUDED_FILE" ] && git reset -- "$EXCLUDED_FILE"
           done < "$GITHUB_WORKSPACE/excluded_files.txt"
-    
+          
           # Check if there are any changes to commit
           if ! git diff --cached --quiet; then
             git config user.name 'GitHub Action'
@@ -155,7 +155,7 @@ jobs:
             echo "No changes to commit."
           fi
         shell: sh
-    
+
       - name: Exit & Report Metadata Generation Status
         run: |
           if [ "$HAS_META" = "FALSE" ]; then
