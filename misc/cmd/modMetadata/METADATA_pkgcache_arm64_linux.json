@@ -1,6 +1,98 @@
 {
   "pkgcache": [
     {
+      "pkg": "clamtk.runimage",
+      "pkg_name": "clamtk",
+      "pkg_id": "runimage.debian.clamtk",
+      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk?tag=6.07-aarch64-linux\u0026download=clamtk.png",
+      "description": "GTK front-end for Clam Antivirus",
+      "version": "6.07",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/clamtk/runimage/debian/stable/clamtk/6.07-aarch64-linux/clamtk.runimage",
+      "size": "84 MB",
+      "bsum": "095d5bfecbd1ce821ad0866751d00858ecbd925ce39ab361a4e7d7e76820384a",
+      "shasum": "6fd8033e1ab47d88d47114da5bff15c8dea30dfc4501e916e75856d8a4b94c45",
+      "build_date": "2025-02-12T18:54:21Z",
+      "src_urls": [
+        "https://github.com/dave-theunsub/clamtk",
+        "https://gitlab.com/dave_m/clamtk"
+      ],
+      "web_urls": [
+        "https://github.com/dave-theunsub/clamtk"
+      ],
+      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/clamtk/runimage.debian.stable.yaml",
+      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk?tag=6.07-aarch64-linux\u0026download=clamtk.log",
+      "provides": "clamtk",
+      "notes": [
+        "This Package has been marked 'deprecaed': https://gitlab.com/dave_m/clamtk/-/issues/144",
+        "Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage",
+        "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
+        "[PORTABLE] (Works on AnyLinux)"
+      ],
+      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk:6.07-aarch64-linux",
+      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk@sha256:6fd8033e1ab47d88d47114da5bff15c8dea30dfc4501e916e75856d8a4b94c45",
+      "rank": 13
+    },
+    {
+      "pkg": "file.appimage",
+      "pkg_name": "file",
+      "pkg_id": "ppkg.bundle.file.stable",
+      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/file/appimage/ppkg/stable/file?tag=5.45-aarch64-linux\u0026download=file.svg",
+      "description": "Determine the type of a file from its contents",
+      "version": "5.45",
+      "size": "2.3 MB",
+      "bsum": "dadfb448b4e4599c0391a0a7239abbad8a6947b629d05e11ec09e1910671799c",
+      "shasum": "a3dab7d637bef7d9a71b384e8870fea15d9c85c033e6bc822c94a11d0969c13a",
+      "build_date": "2025-02-13T19:20:52Z",
+      "src_urls": [
+        "https://github.com/file/file"
+      ],
+      "web_urls": [
+        "https://www.darwinsys.com/file/",
+        "https://github.com/file/file"
+      ],
+      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/file/appimage.ppkg.stable.yaml",
+      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/file/appimage/ppkg/stable/file?tag=5.45-aarch64-linux\u0026download=file.log",
+      "provides": "file",
+      "notes": [
+        "Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core",
+        "[PORTABLE] (Works on AnyLinux)",
+        "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
+      ],
+      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/file/appimage/ppkg/stable/file:5.45-aarch64-linux",
+      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/file/appimage/ppkg/stable/file@sha256:a3dab7d637bef7d9a71b384e8870fea15d9c85c033e6bc822c94a11d0969c13a",
+      "rank": 36
+    },
+    {
+      "pkg": "ghex.runimage",
+      "pkg_name": "ghex",
+      "pkg_id": "runimage.alpine.ghex",
+      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghex/runimage/alpine/stable/ghex?tag=46.0-aarch64-linux\u0026download=ghex.svg",
+      "description": "A simple Binary/Hex editor",
+      "version": "46.0",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/ghex/runimage/alpine/stable/ghex/46.0-aarch64-linux/ghex.runimage",
+      "size": "136 MB",
+      "bsum": "a726115ad19dc86e9c37483dfc185ad81c25befc43403f1d6db2c504d2cdbba4",
+      "shasum": "f30b20ab5997f4498bd9fcf99c16b4a3132033dddc8d604a2f36bdced64c3b67",
+      "build_date": "2025-02-01T19:23:56Z",
+      "src_urls": [
+        "https://gitlab.gnome.org/GNOME/ghex"
+      ],
+      "web_urls": [
+        "https://wiki.gnome.org/Apps/Ghex"
+      ],
+      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/ghex/runimage.alpine.stable.yaml",
+      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghex/runimage/alpine/stable/ghex?tag=46.0-aarch64-linux\u0026download=ghex.log",
+      "provides": "ghex",
+      "notes": [
+        "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
+        "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
+        "[PORTABLE] (Works on AnyLinux)"
+      ],
+      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/ghex/runimage/alpine/stable/ghex:46.0-aarch64-linux",
+      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/ghex/runimage/alpine/stable/ghex@sha256:f30b20ab5997f4498bd9fcf99c16b4a3132033dddc8d604a2f36bdced64c3b67",
+      "rank": 20
+    },
+    {
       "pkg": "ghostty.appimage",
       "pkg_name": "ghostty",
       "pkg_id": "github.com.psadi.ghostty-appimage.stable",
@@ -28,6 +120,650 @@
       "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty:v1.1.0_1-aarch64-linux",
       "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty@sha256:39b9fa3df408b07427eb2e0cdb4b6abd67f0db64efa13e23128d7cd4a1b3110b",
       "rank": 17
+    },
+    {
+      "pkg": "telegram-desktop.nixappimage",
+      "pkg_name": "telegram-desktop",
+      "pkg_id": "nixpkgs.telegram-desktop",
+      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop?tag=5.10.7-aarch64-linux\u0026download=telegram-desktop.png",
+      "description": "Official desktop version of Telegram messaging app",
+      "version": "5.10.7",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop/5.10.7-aarch64-linux/telegram-desktop.nixappimage",
+      "size": "358 MB",
+      "bsum": "48b826668449cae29c8d6c490367ea01979eeb5f0f831714e2e3f71c9eccaab7",
+      "shasum": "f228bf0195a35609b22b91833c7d82c05eb2bda3f3dd312810d73a91275a9554",
+      "build_date": "2025-02-08T19:22:52Z",
+      "src_urls": [
+        "https://github.com/telegramdesktop/tdesktop"
+      ],
+      "web_urls": [
+        "https://desktop.telegram.org",
+        "https://github.com/telegramdesktop/tdesktop"
+      ],
+      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/telegram-desktop/nixappimage.nixpkgs.stable.yaml",
+      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop?tag=5.10.7-aarch64-linux\u0026download=telegram-desktop.log",
+      "provides": "telegram-desktop==Telegram-Desktop",
+      "notes": [
+        "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
+        "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
+        "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
+        "[PORTABLE] (Works on AnyLinux)"
+      ],
+      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop:5.10.7-aarch64-linux",
+      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop@sha256:f228bf0195a35609b22b91833c7d82c05eb2bda3f3dd312810d73a91275a9554",
+      "rank": 10
+    },
+    {
+      "pkg": "gearlever.nixappimage",
+      "pkg_name": "gearlever",
+      "pkg_id": "nixpkgs.gearlever",
+      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/gearlever/nixappimage/nixpkgs/stable/gearlever?tag=2.3.2-aarch64-linux\u0026download=gearlever.svg",
+      "description": "Manage AppImages with ease",
+      "version": "2.3.2",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/gearlever/nixappimage/nixpkgs/stable/gearlever/2.3.2-aarch64-linux/gearlever.nixappimage",
+      "size": "309 MB",
+      "bsum": "4d69bd1eb494f1556fde9596c5f1ac7d06eb5433016b1ed19b2355569824eeee",
+      "shasum": "26bd5fe743f4d3278e1c7fcebc9ee4e38af675b9e434ab37cde23bfb1d39dc1f",
+      "build_date": "2025-01-26T17:48:53Z",
+      "src_urls": [
+        "https://github.com/mijorus/gearlever"
+      ],
+      "web_urls": [
+        "https://gearlever.mijorus.it",
+        "https://mijorus.it/projects/gearlever"
+      ],
+      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/gearlever/nixappimage.nixpkgs.stable.yaml",
+      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/gearlever/nixappimage/nixpkgs/stable/gearlever?tag=2.3.2-aarch64-linux\u0026download=gearlever.log",
+      "provides": "gearlever",
+      "notes": [
+        "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
+        "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
+        "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
+        "[PORTABLE] (Works on AnyLinux)"
+      ],
+      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/gearlever/nixappimage/nixpkgs/stable/gearlever:2.3.2-aarch64-linux",
+      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/gearlever/nixappimage/nixpkgs/stable/gearlever@sha256:26bd5fe743f4d3278e1c7fcebc9ee4e38af675b9e434ab37cde23bfb1d39dc1f",
+      "rank": 11
+    },
+    {
+      "pkg": "krita.runimage",
+      "pkg_name": "krita",
+      "pkg_id": "runimage.alpine.krita",
+      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/krita/runimage/alpine/stable/krita?tag=5.2.9-aarch64-linux\u0026download=krita.png",
+      "description": "A free and open source painting application",
+      "version": "5.2.9",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/krita/runimage/alpine/stable/krita/5.2.9-aarch64-linux/krita.runimage",
+      "size": "199 MB",
+      "bsum": "853126ca467bab7543ee74accf87d1fa3328d24b57bad4e68433cd4118b82da0",
+      "shasum": "7b480ef1c8316e2dad3d60bae7c38445bda88471325e0c72f45656b105871042",
+      "build_date": "2025-02-03T15:06:09Z",
+      "src_urls": [
+        "https://gitlab.alpinelinux.org/alpine/aports/-/tree/master/community/krita"
+      ],
+      "web_urls": [
+        "https://krita.org",
+        "https://invent.kde.org/graphics/krita"
+      ],
+      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/krita/runimage.alpine.stable.yaml",
+      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/krita/runimage/alpine/stable/krita?tag=5.2.9-aarch64-linux\u0026download=krita.log",
+      "provides": "krita",
+      "notes": [
+        "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
+        "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
+        "[PORTABLE] (Works on AnyLinux)"
+      ],
+      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/krita/runimage/alpine/stable/krita:5.2.9-aarch64-linux",
+      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/krita/runimage/alpine/stable/krita@sha256:7b480ef1c8316e2dad3d60bae7c38445bda88471325e0c72f45656b105871042",
+      "rank": 21
+    },
+    {
+      "pkg": "rustdesk.appimage",
+      "pkg_name": "rustdesk",
+      "pkg_id": "github.com.rustdesk.rustdesk.stable",
+      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk?tag=1.3.7-aarch64-linux\u0026download=rustdesk.svg",
+      "description": "FOSS Remote desktop application",
+      "version": "1.3.7",
+      "size": "63 MB",
+      "bsum": "2cc782eee4ed8297dd4b8de058d8d72d266103007d5b1090acf3cb5e8d11204d",
+      "shasum": "4a0b8b26951899f60b8169cb7cfe9ec62f9684eeb088a68903a59f2d9cb2b945",
+      "build_date": "2025-02-08T08:53:20Z",
+      "src_urls": [
+        "https://github.com/rustdesk/rustdesk"
+      ],
+      "web_urls": [
+        "https://github.com/rustdesk/rustdesk",
+        "https://rustdesk.com"
+      ],
+      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/rustdesk/appimage.official.stable.yaml",
+      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk?tag=1.3.7-aarch64-linux\u0026download=rustdesk.log",
+      "provides": "rustdesk",
+      "notes": [
+        "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/rustdesk/rustdesk"
+      ],
+      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk:1.3.7-aarch64-linux",
+      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk@sha256:4a0b8b26951899f60b8169cb7cfe9ec62f9684eeb088a68903a59f2d9cb2b945",
+      "rank": 29
+    },
+    {
+      "pkg": "zen-browser.appimage",
+      "pkg_name": "zen-browser",
+      "pkg_id": "github.com.zen-browser.desktop.stable",
+      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.7.6b-aarch64-linux\u0026download=zen-browser.png",
+      "description": "Performance oriented Firefox-based web browser",
+      "version": "1.7.6b",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/zen-browser/appimage/official/stable/zen-browser/1.7.5b-aarch64-linux/zen-browser.appimage",
+      "size": "97 MB",
+      "bsum": "b8d626dc6835d389e4276e3aebb61f30b367e4a799d6fd07bbbbf0849553686e",
+      "shasum": "2b9dca6ff106cc6dddc4f6f5514be43fac692bdae78b4acd0ea337c44e79287a",
+      "build_date": "2025-02-09T18:56:57Z",
+      "src_urls": [
+        "https://github.com/zen-browser/desktop"
+      ],
+      "web_urls": [
+        "https://zen-browser.app",
+        "https://github.com/zen-browser/desktop"
+      ],
+      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.stable.yaml",
+      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.7.6b-aarch64-linux\u0026download=zen-browser.log",
+      "provides": "zen-browser==zen",
+      "notes": [
+        "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop"
+      ],
+      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser:1.7.6b-aarch64-linux",
+      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser@sha256:2b9dca6ff106cc6dddc4f6f5514be43fac692bdae78b4acd0ea337c44e79287a",
+      "rank": 31
+    },
+    {
+      "pkg": "chromium.nixappimage",
+      "pkg_name": "chromium",
+      "pkg_id": "nixpkgs.chromium",
+      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium?tag=133.0.6943.53-aarch64-linux\u0026download=chromium.png",
+      "description": "Open source web browser from Google (Stable)",
+      "version": "133.0.6943.53",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/chromium/nixappimage/nixpkgs/stable/chromium/133.0.6943.53-aarch64-linux/chromium.nixappimage",
+      "size": "356 MB",
+      "bsum": "f6f069adbf255a3c13e4bb1b40f3b7202cfe0bb001c013d5e23a5b744bedb65d",
+      "shasum": "678bd18ca997e4eed698900abce8d702eab3b06e1a0eeb3ffb652c894de13a7e",
+      "build_date": "2025-02-08T19:07:12Z",
+      "src_urls": [
+        "https://github.com/chromium/chromium"
+      ],
+      "web_urls": [
+        "https://www.chromium.org",
+        "https://chromium.googlesource.com/chromium/src",
+        "https://github.com/chromium/chromium"
+      ],
+      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/chromium/nixappimage.nixpkgs.stable.yaml",
+      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium?tag=133.0.6943.53-aarch64-linux\u0026download=chromium.log",
+      "provides": "chromium==chromium-browser",
+      "notes": [
+        "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
+        "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
+        "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
+        "[PORTABLE] (Works on AnyLinux)"
+      ],
+      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium:133.0.6943.53-aarch64-linux",
+      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium@sha256:678bd18ca997e4eed698900abce8d702eab3b06e1a0eeb3ffb652c894de13a7e",
+      "rank": 3
+    },
+    {
+      "pkg": "neovim.nixappimage",
+      "pkg_name": "neovim",
+      "pkg_id": "nixpkgs.neovim",
+      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/neovim/nixappimage/nixpkgs/stable/neovim?tag=0.10.4-aarch64-linux\u0026download=neovim.png",
+      "description": "Vim text editor fork focused on extensibility and agility",
+      "version": "0.10.4",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/neovim/nixappimage/nixpkgs/stable/neovim/0.10.4-aarch64-linux/neovim.nixappimage",
+      "size": "31 MB",
+      "bsum": "04aaab1fc993de9b33fdeda9329752630e315b5a83abc9f7053f8bb01d13b712",
+      "shasum": "0afda49629c7b1fe1484d486b10a7e8cc735d6b29fd4878f02b5ac5ade12af4e",
+      "build_date": "2025-02-01T19:32:45Z",
+      "src_urls": [
+        "https://github.com/neovim/neovim"
+      ],
+      "web_urls": [
+        "https://neovim.io",
+        "https://neovim.org"
+      ],
+      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/neovim/nixappimage.nixpkgs.stable.yaml",
+      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/neovim/nixappimage/nixpkgs/stable/neovim?tag=0.10.4-aarch64-linux\u0026download=neovim.log",
+      "provides": "neovim=\u003envim",
+      "notes": [
+        "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
+        "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
+        "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
+        "[PORTABLE] (Works on AnyLinux)"
+      ],
+      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/neovim/nixappimage/nixpkgs/stable/neovim:0.10.4-aarch64-linux",
+      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/neovim/nixappimage/nixpkgs/stable/neovim@sha256:0afda49629c7b1fe1484d486b10a7e8cc735d6b29fd4878f02b5ac5ade12af4e",
+      "rank": 6
+    },
+    {
+      "pkg": "ryujinx.appimage",
+      "pkg_name": "ryujinx",
+      "pkg_id": "github.com.Ryubing.Ryujinx.canary",
+      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx?tag=1.2.357-aarch64-linux\u0026download=ryujinx.svg",
+      "description": "Nintendo Switch Emulator (Canary)",
+      "version": "1.2.357",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/ryujinx/appimage/official/canary/ryujinx/1.2.357-aarch64-linux/ryujinx.appimage",
+      "size": "29 MB",
+      "bsum": "ec0e6bdeedd0a58676f746130843f920a9256feab119c1787aab8439783ea796",
+      "shasum": "d4b16be8cf8c8c472db124754f45da859d5875d81cb4ef0bf2c4c3a504a026fb",
+      "build_date": "2025-02-08T08:52:44Z",
+      "src_urls": [
+        "https://github.com/Ryubing/Canary-Releases"
+      ],
+      "web_urls": [
+        "https://github.com/Ryubing/Ryujinx"
+      ],
+      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/ryujinx/appimage.official.canary.yaml",
+      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx?tag=1.2.357-aarch64-linux\u0026download=ryujinx.log",
+      "provides": "ryujinx",
+      "notes": [
+        "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/ryujinx/ryujinx"
+      ],
+      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx:1.2.357-aarch64-linux",
+      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx@sha256:d4b16be8cf8c8c472db124754f45da859d5875d81cb4ef0bf2c4c3a504a026fb",
+      "rank": 26
+    },
+    {
+      "pkg": "wezterm.runimage",
+      "pkg_name": "wezterm",
+      "pkg_id": "runimage.alpine.wezterm",
+      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/wezterm/runimage/alpine/stable/wezterm?tag=20240203.110809-aarch64-linux\u0026download=wezterm.png",
+      "description": "A GPU-accelerated cross-platform terminal emulator and multiplexer",
+      "version": "20240203.110809",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/wezterm/runimage/alpine/stable/wezterm/20240203.110809-aarch64-linux/wezterm.runimage",
+      "size": "105 MB",
+      "bsum": "0fd934ea58d3b26f10f7cec2d928af04113f75230ef4213489350bbea23da8e7",
+      "shasum": "164f2937f7beabf72b0f443b328d3bc8d0b0c15f6cd0ee6e75a66678e36ae1bf",
+      "build_date": "2025-01-27T18:42:11Z",
+      "src_urls": [
+        "https://github.com/wez/wezterm"
+      ],
+      "web_urls": [
+        "https://wezfurlong.org/wezterm/"
+      ],
+      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/wezterm/runimage.alpine.stable.yaml",
+      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/wezterm/runimage/alpine/stable/wezterm?tag=20240203.110809-aarch64-linux\u0026download=wezterm.log",
+      "provides": "wezterm==open-wezterm-here,wezterm==strip-ansi-escapes,wezterm==wezterm-gui,wezterm==wezterm-mux-server",
+      "notes": [
+        "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
+        "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
+        "Requires Fonts (On Host): https://wezfurlong.org/wezterm/config/fonts.html",
+        "[PORTABLE] (Works on AnyLinux)"
+      ],
+      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/wezterm/runimage/alpine/stable/wezterm:20240203.110809-aarch64-linux",
+      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/wezterm/runimage/alpine/stable/wezterm@sha256:164f2937f7beabf72b0f443b328d3bc8d0b0c15f6cd0ee6e75a66678e36ae1bf",
+      "rank": 18
+    },
+    {
+      "pkg": "86box.appimage",
+      "pkg_name": "86box",
+      "pkg_id": "github.com.86Box.86Box.stable",
+      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/86box/appimage/official/stable/86box?tag=v4.2.1-aarch64-linux\u0026download=86box.png",
+      "description": "Emulator of x86-based machines",
+      "version": "v4.2.1",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/86box/appimage/official/stable/86box/v4.2.1-aarch64-linux/86box.appimage",
+      "size": "52 MB",
+      "bsum": "74d358d3f38d0f2692676fca718870bee9069b3bd25c7c6eefe1c4f155607f91",
+      "shasum": "6d98eb41392380d6d7fd5c9f10f95aa080c8ba9517b96a8e34b5ad7e847ae1d3",
+      "build_date": "2025-01-26T16:47:34Z",
+      "src_urls": [
+        "https://github.com/86Box/86Box"
+      ],
+      "web_urls": [
+        "https://86box.net",
+        "https://86box.readthedocs.io"
+      ],
+      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/86box/appimage.official.stable.yaml",
+      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/86box/appimage/official/stable/86box?tag=v4.2.1-aarch64-linux\u0026download=86box.log",
+      "provides": "86box",
+      "notes": [
+        "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/86Box/86Box",
+        "You need to download ROMS: https://86box.readthedocs.io/en/latest/usage/roms.html"
+      ],
+      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/86box/appimage/official/stable/86box:v4.2.1-aarch64-linux",
+      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/86box/appimage/official/stable/86box@sha256:6d98eb41392380d6d7fd5c9f10f95aa080c8ba9517b96a8e34b5ad7e847ae1d3",
+      "rank": 1
+    },
+    {
+      "pkg": "git.appimage",
+      "pkg_name": "git",
+      "pkg_id": "ppkg.bundle.git.stable",
+      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/git/appimage/ppkg/stable/git?tag=2.48.1-aarch64-linux\u0026download=git.png",
+      "description": "Fast, scalable, distributed revision control system",
+      "version": "2.48.1",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/git/appimage/ppkg/stable/git/2.48.1-aarch64-linux/git.appimage",
+      "size": "33 MB",
+      "bsum": "4d8b23dad4f52348cc2ceca0187d952de29e113805e0a51c2e1f86e28d10d183",
+      "shasum": "891d481363331f486de96f42ecc486c1debaa4cc5a352558a97a320945308575",
+      "build_date": "2025-02-10T08:41:12Z",
+      "src_urls": [
+        "https://github.com/git/git"
+      ],
+      "web_urls": [
+        "https://git-scm.com/"
+      ],
+      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/git/appimage.ppkg.stable.yaml",
+      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/git/appimage/ppkg/stable/git?tag=2.48.1-aarch64-linux\u0026download=git.log",
+      "provides": "git==git-add,git==git-am,git==git-annotate,git==git-apply,git==git-archive,git==git-bisect,git==git-blame,git==git-branch,git==git-bugreport,git==git-bundle,git==git-cat-file,git==git-check-attr,git==git-check-ignore,git==git-check-mailmap,git==git-checkout,git==git-checkout-index,git==git-checkout--worker,git==git-check-ref-format,git==git-cherry,git==git-cherry-pick,git==git-clean,git==git-clone,git==git-column,git==git-commit,git==git-commit-graph,git==git-commit-tree,git==git-config,git==git-count-objects,git==git-credential,git==git-credential-cache,git==git-credential-cache--daemon,git==git-credential-store,git==git-describe,git==git-diagnose,git==git-diff,git==git-diff-files,git==git-diff-index,git==git-difftool,git==git-difftool--helper,git==git-diff-tree,git==git-fast-export,git==git-fetch,git==git-fetch-pack,git==git-filter-branch,git==git-fmt-merge-msg,git==git-for-each-ref,git==git-for-each-repo,git==git-format-patch,git==git-fsck,git==git-fsck-objects,git==git-fsmonitor--daemon,git==git-gc,git==git-get-tar-commit-id,git==git-grep,git==git-hash-object,git==git-help,git==git-hook,git==git-http-fetch,git==git-http-push,git==git-index-pack,git==git-init,git==git-init-db,git==git-interpret-trailers,git==git-log,git==git-ls-files,git==git-ls-remote,git==git-ls-tree,git==git-mailinfo,git==git-mailsplit,git==git-maintenance,git==git-merge,git==git-merge-base,git==git-merge-file,git==git-merge-index,git==git-merge-octopus,git==git-merge-one-file,git==git-merge-ours,git==git-merge-recursive,git==git-merge-resolve,git==git-merge-subtree,git==git-mergetool,git==git-mergetool--lib,git==git-merge-tree,git==git-mktag,git==git-mktree,git==git-multi-pack-index,git==git-mv,git==git-name-rev,git==git-notes,git==git-pack-objects,git==git-pack-redundant,git==git-pack-refs,git==git-patch-id,git==git-prune,git==git-prune-packed,git==git-pull,git==git-push,git==git-quiltimport,git==git-range-diff,git==git-read-tree,git==git-rebase,git==git-receive-pack,git==git-reflog,git==git-refs,git==git-remote,git==git-remote-ext,git==git-remote-fd,git==git-remote-ftp,git==git-remote-ftps,git==git-remote-http,git==git-remote-https,git==git-repack,git==git-replace,git==git-replay,git==git-request-pull,git==git-rerere,git==git-reset,git==git-restore,git==git-revert,git==git-rev-list,git==git-rev-parse,git==git-rm,git==git-send-pack,git==git-shell,git==git-sh-i18n,git==git-sh-i18n--envsubst,git==git-shortlog,git==git-show,git==git-show-branch,git==git-show-index,git==git-show-ref,git==git-sh-setup,git==git-sparse-checkout,git==git-stage,git==git-stash,git==git-status,git==git-stripspace,git==git-submodule,git==git-submodule--helper,git==git-switch,git==git-symbolic-ref,git==git-tag,git==git-unpack-file,git==git-unpack-objects,git==git-update-index,git==git-update-ref,git==git-update-server-info,git==git-upload-archive,git==git-upload-pack,git==git-var,git==git-verify-commit,git==git-verify-pack,git==git-verify-tag,git==git-version,git==git-web--browse,git==git-whatchanged,git==git-worktree,git==git-write-tree",
+      "notes": [
+        "Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core",
+        "[PORTABLE] (Works on AnyLinux)",
+        "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
+      ],
+      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/git/appimage/ppkg/stable/git:2.48.1-aarch64-linux",
+      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/git/appimage/ppkg/stable/git@sha256:891d481363331f486de96f42ecc486c1debaa4cc5a352558a97a320945308575",
+      "rank": 30
+    },
+    {
+      "pkg": "zen-browser.appimage",
+      "pkg_name": "zen-browser",
+      "pkg_id": "github.com.zen-browser.desktop.twilight",
+      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.7.7t_2025-02-12at11_40_35_-aarch64-linux\u0026download=zen-browser.png",
+      "description": "Performance oriented Firefox-based web browser (Twilight)",
+      "version": "Twilightbuild-1.7.7t(2025-02-12at11:40:35)",
+      "size": "97 MB",
+      "bsum": "cc36b7bb346afd04567640073601f5eaa71b93dda1fb9ac0937383ac56e74f78",
+      "shasum": "03d1e24c718db991dd633d25d92a81eb8dc2996e4970a9c6f0a1090366f1b683",
+      "build_date": "2025-02-12T18:58:51Z",
+      "src_urls": [
+        "https://github.com/zen-browser/desktop"
+      ],
+      "web_urls": [
+        "https://zen-browser.app",
+        "https://github.com/zen-browser/desktop"
+      ],
+      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.twilight.yaml",
+      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.7.7t_2025-02-12at11_40_35_-aarch64-linux\u0026download=zen-browser.log",
+      "provides": "zen-browser==zen",
+      "notes": [
+        "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop"
+      ],
+      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:Twilightbuild-1.7.7t_2025-02-12at11_40_35_-aarch64-linux",
+      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser@sha256:03d1e24c718db991dd633d25d92a81eb8dc2996e4970a9c6f0a1090366f1b683",
+      "rank": 33
+    },
+    {
+      "pkg": "falkon.runimage",
+      "pkg_name": "falkon",
+      "pkg_id": "runimage.alpine.falkon",
+      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/falkon/runimage/alpine/stable/falkon?tag=24.12.2-aarch64-linux\u0026download=falkon.png",
+      "description": "Fast, lightweight web browser based on QtWebEngine",
+      "version": "24.12.2",
+      "size": "256 MB",
+      "bsum": "3344b6ded938ea8a79d47913757cec2d605e38bc9c27bb01ec3b692c5e0d1bc5",
+      "shasum": "16a4921da4be2286aa1415d70ad191762a542e5a7c684ff01e6e024f720955e6",
+      "build_date": "2025-02-13T19:20:32Z",
+      "src_urls": [
+        "https://gitlab.alpinelinux.org/alpine/aports/-/tree/master/community/falkon"
+      ],
+      "web_urls": [
+        "https://apps.kde.org/falkon",
+        "https://invent.kde.org/network/falkon",
+        "https://github.com/KDE/falkon"
+      ],
+      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/falkon/runimage.alpine.stable.yaml",
+      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/falkon/runimage/alpine/stable/falkon?tag=24.12.2-aarch64-linux\u0026download=falkon.log",
+      "provides": "falkon",
+      "notes": [
+        "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
+        "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
+        "[PORTABLE] (Works on AnyLinux)"
+      ],
+      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/falkon/runimage/alpine/stable/falkon:24.12.2-aarch64-linux",
+      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/falkon/runimage/alpine/stable/falkon@sha256:16a4921da4be2286aa1415d70ad191762a542e5a7c684ff01e6e024f720955e6",
+      "rank": 35
+    },
+    {
+      "pkg": "git.runimage",
+      "pkg_name": "git",
+      "pkg_id": "runimage.alpine.git",
+      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/git/runimage/alpine/stable/git?tag=2.48.1-aarch64-linux\u0026download=git.png",
+      "description": "Fast, scalable, distributed revision control system",
+      "version": "2.48.1",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/git/runimage/alpine/stable/git/2.48.1-aarch64-linux/git.runimage",
+      "size": "39 MB",
+      "bsum": "e6ea580d2d66336b7b393f892b5a92e07ef6ab28043a6e6d93330a433b8de593",
+      "shasum": "bac4e0c8e87884ef44cb67c9a4b5dbf3cc3723a86968f062e01f36665ca0747e",
+      "build_date": "2025-02-01T19:25:13Z",
+      "src_urls": [
+        "https://github.com/git/git"
+      ],
+      "web_urls": [
+        "https://git-scm.com/"
+      ],
+      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/git/runimage.alpine.stable.yaml",
+      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/git/runimage/alpine/stable/git?tag=2.48.1-aarch64-linux\u0026download=git.log",
+      "provides": "git==git-add,git==git-am,git==git-annotate,git==git-apply,git==git-archive,git==git-bisect,git==git-blame,git==git-branch,git==git-bugreport,git==git-bundle,git==git-cat-file,git==git-check-attr,git==git-check-ignore,git==git-check-mailmap,git==git-checkout,git==git-checkout-index,git==git-checkout--worker,git==git-check-ref-format,git==git-cherry,git==git-cherry-pick,git==git-clean,git==git-clone,git==git-column,git==git-commit,git==git-commit-graph,git==git-commit-tree,git==git-config,git==git-count-objects,git==git-credential,git==git-credential-cache,git==git-credential-cache--daemon,git==git-credential-store,git==git-describe,git==git-diagnose,git==git-diff,git==git-diff-files,git==git-diff-index,git==git-difftool,git==git-difftool--helper,git==git-diff-tree,git==git-fast-export,git==git-fetch,git==git-fetch-pack,git==git-filter-branch,git==git-fmt-merge-msg,git==git-for-each-ref,git==git-for-each-repo,git==git-format-patch,git==git-fsck,git==git-fsck-objects,git==git-fsmonitor--daemon,git==git-gc,git==git-get-tar-commit-id,git==git-grep,git==git-hash-object,git==git-help,git==git-hook,git==git-http-fetch,git==git-http-push,git==git-index-pack,git==git-init,git==git-init-db,git==git-interpret-trailers,git==git-log,git==git-ls-files,git==git-ls-remote,git==git-ls-tree,git==git-mailinfo,git==git-mailsplit,git==git-maintenance,git==git-merge,git==git-merge-base,git==git-merge-file,git==git-merge-index,git==git-merge-octopus,git==git-merge-one-file,git==git-merge-ours,git==git-merge-recursive,git==git-merge-resolve,git==git-merge-subtree,git==git-mergetool,git==git-mergetool--lib,git==git-merge-tree,git==git-mktag,git==git-mktree,git==git-multi-pack-index,git==git-mv,git==git-name-rev,git==git-notes,git==git-pack-objects,git==git-pack-redundant,git==git-pack-refs,git==git-patch-id,git==git-prune,git==git-prune-packed,git==git-pull,git==git-push,git==git-quiltimport,git==git-range-diff,git==git-read-tree,git==git-rebase,git==git-receive-pack,git==git-reflog,git==git-refs,git==git-remote,git==git-remote-ext,git==git-remote-fd,git==git-remote-ftp,git==git-remote-ftps,git==git-remote-http,git==git-remote-https,git==git-repack,git==git-replace,git==git-replay,git==git-request-pull,git==git-rerere,git==git-reset,git==git-restore,git==git-revert,git==git-rev-list,git==git-rev-parse,git==git-rm,git==git-send-pack,git==git-shell,git==git-sh-i18n,git==git-sh-i18n--envsubst,git==git-shortlog,git==git-show,git==git-show-branch,git==git-show-index,git==git-show-ref,git==git-sh-setup,git==git-sparse-checkout,git==git-stage,git==git-stash,git==git-status,git==git-stripspace,git==git-submodule,git==git-submodule--helper,git==git-switch,git==git-symbolic-ref,git==git-tag,git==git-unpack-file,git==git-unpack-objects,git==git-update-index,git==git-update-ref,git==git-update-server-info,git==git-upload-archive,git==git-upload-pack,git==git-var,git==git-verify-commit,git==git-verify-pack,git==git-verify-tag,git==git-version,git==git-web--browse,git==git-whatchanged,git==git-worktree,git==git-write-tree",
+      "notes": [
+        "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
+        "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
+        "[PORTABLE] (Works on AnyLinux)",
+        "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
+      ],
+      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/git/runimage/alpine/stable/git:2.48.1-aarch64-linux",
+      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/git/runimage/alpine/stable/git@sha256:bac4e0c8e87884ef44cb67c9a4b5dbf3cc3723a86968f062e01f36665ca0747e",
+      "rank": 19
+    },
+    {
+      "pkg": "inkscape.runimage",
+      "pkg_name": "inkscape",
+      "pkg_id": "runimage.alpine.inkscape",
+      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/inkscape/runimage/alpine/stable/inkscape?tag=1.4-aarch64-linux\u0026download=inkscape.png",
+      "description": "FOSS Vector Graphics Editor",
+      "version": "1.4",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/inkscape/runimage/alpine/stable/inkscape/1.4-aarch64-linux/inkscape.runimage",
+      "size": "74 MB",
+      "bsum": "552c6f7c05f889b9aefa1ea30b07ce340ef105b71b3178e1585806b49c30296a",
+      "shasum": "687da8ef2fb14d8327c8c556762e9f4260ed160616e43db612572eb5151de74e",
+      "build_date": "2025-02-02T14:34:36Z",
+      "src_urls": [
+        "https://gitlab.alpinelinux.org/alpine/aports/-/tree/master/community/inkscape"
+      ],
+      "web_urls": [
+        "https://inkscape.org"
+      ],
+      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/inkscape/runimage.alpine.stable.yaml",
+      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/inkscape/runimage/alpine/stable/inkscape?tag=1.4-aarch64-linux\u0026download=inkscape.log",
+      "provides": "inkscape",
+      "notes": [
+        "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
+        "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
+        "[PORTABLE] (Works on AnyLinux)"
+      ],
+      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/inkscape/runimage/alpine/stable/inkscape:1.4-aarch64-linux",
+      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/inkscape/runimage/alpine/stable/inkscape@sha256:687da8ef2fb14d8327c8c556762e9f4260ed160616e43db612572eb5151de74e",
+      "rank": 24
+    },
+    {
+      "pkg": "simplex-desktop.nixappimage",
+      "pkg_name": "simplex-desktop",
+      "pkg_id": "nixpkgs.simplex-chat-desktop",
+      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/simplex-desktop/nixappimage/nixpkgs/stable/simplex-desktop?tag=6.2.4-aarch64-linux\u0026download=simplex-desktop.png",
+      "description": "Desktop application for SimpleX Chat, A 100% private-by-design chat platform",
+      "version": "6.2.4",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/simplex-desktop/nixappimage/nixpkgs/stable/simplex-desktop/6.2.4-aarch64-linux/simplex-desktop.nixappimage",
+      "size": "524 MB",
+      "bsum": "8072aaf291948fef898be5c1a8d17b1a488f69d3d8a46d620bf40e8b398b99ee",
+      "shasum": "702309f406e4d91d12044e67c3f0335c9642f20e1c81aca65974a88c41460a34",
+      "build_date": "2025-01-26T18:22:34Z",
+      "src_urls": [
+        "https://github.com/simplex-chat/simplex-chat"
+      ],
+      "web_urls": [
+        "https://simplex.chat",
+        "https://github.com/simplex-chat/simplex-chat"
+      ],
+      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/simplex-desktop/nixappimage.nixpkgs.stable.yaml",
+      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/simplex-desktop/nixappimage/nixpkgs/stable/simplex-desktop?tag=6.2.4-aarch64-linux\u0026download=simplex-desktop.log",
+      "provides": "simplex-desktop==simplex-chat-desktop",
+      "notes": [
+        "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
+        "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
+        "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
+        "[PORTABLE] (Works on AnyLinux)"
+      ],
+      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/simplex-desktop/nixappimage/nixpkgs/stable/simplex-desktop:6.2.4-aarch64-linux",
+      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/simplex-desktop/nixappimage/nixpkgs/stable/simplex-desktop@sha256:702309f406e4d91d12044e67c3f0335c9642f20e1c81aca65974a88c41460a34",
+      "rank": 9
+    },
+    {
+      "pkg": "xhost.archive",
+      "pkg_name": "xhost",
+      "pkg_id": "sharun.wrappe.alpine.xhost",
+      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/xhost/archive/wrappe/alpine/xhost?tag=1.0.10-aarch64-linux\u0026download=xhost.png",
+      "description": "Utility to control X server access",
+      "version": "1.0.10",
+      "size": "1.4 MB",
+      "bsum": "6eb53b6d46bae482ac2593325536154ecc93b67af03c5aa1cccf1a669ca66545",
+      "shasum": "de4c91ff46e7bdba4e3e62159b821e9294c88710b58ee23389697efc9be024a0",
+      "build_date": "2025-02-13T19:20:32Z",
+      "src_urls": [
+        "https://gitlab.freedesktop.org/xorg/app/xhost"
+      ],
+      "web_urls": [
+        "https://gitlab.freedesktop.org/xorg/app/xhost"
+      ],
+      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/xhost/archive.wrappe.alpine.yaml",
+      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/xhost/archive/wrappe/alpine/xhost?tag=1.0.10-aarch64-linux\u0026download=xhost.log",
+      "provides": "xhost",
+      "notes": [
+        "Built Using Sharun [alpine]. Check/Report @ https://github.com/VHSgunzo/sharun",
+        "Learn more @ https://docs.pkgforge.dev/formats/packages/archive",
+        "[PORTABLE] (Works on AnyLinux)",
+        "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
+      ],
+      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/xhost/archive/wrappe/alpine/xhost:1.0.10-aarch64-linux",
+      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/xhost/archive/wrappe/alpine/xhost@sha256:de4c91ff46e7bdba4e3e62159b821e9294c88710b58ee23389697efc9be024a0",
+      "rank": 37
+    },
+    {
+      "pkg": "blender.runimage",
+      "pkg_name": "blender",
+      "pkg_id": "runimage.debian.blender",
+      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/blender/runimage/debian/stable/blender?tag=4.3.2-aarch64-linux\u0026download=blender.svg",
+      "description": "A fully integrated 3D graphics creation suite",
+      "version": "4.3.2",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/blender/runimage/debian/stable/blender/4.3.2-aarch64-linux/blender.runimage",
+      "size": "305 MB",
+      "bsum": "3de3aa87f258e32544f64d302aca117ff1fcb344458b36646d4b36d3494678e5",
+      "shasum": "ecf3940a965f483026c4a1ae476a6f68eecad7be9965f06473e569f592693214",
+      "build_date": "2025-01-26T16:54:51Z",
+      "src_urls": [
+        "https://blender.org",
+        "https://github.com/blender/blender"
+      ],
+      "web_urls": [
+        "https://blender.org"
+      ],
+      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/blender/runimage.debian.stable.yaml",
+      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/blender/runimage/debian/stable/blender?tag=4.3.2-aarch64-linux\u0026download=blender.log",
+      "provides": "blender",
+      "notes": [
+        "Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage",
+        "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
+        "[PORTABLE] (Works on AnyLinux)"
+      ],
+      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/blender/runimage/debian/stable/blender:4.3.2-aarch64-linux",
+      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/blender/runimage/debian/stable/blender@sha256:ecf3940a965f483026c4a1ae476a6f68eecad7be9965f06473e569f592693214",
+      "rank": 12
+    },
+    {
+      "pkg": "chromium.nixappimage",
+      "pkg_name": "chromium",
+      "pkg_id": "nixpkgs.ungoogled-chromium",
+      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium?tag=133.0.6943.53-aarch64-linux\u0026download=chromium.png",
+      "description": "Open source web browser from Google, with dependencies on Google web services removed (Ungoogled)",
+      "version": "133.0.6943.53",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/chromium/nixappimage/nixpkgs/ungoogled/chromium/132.0.6834.159-aarch64-linux/chromium.nixappimage",
+      "size": "358 MB",
+      "bsum": "908598a9be110e22948ae48384d6b0311d880a73e6dfe61e48a9ee7d60e30f35",
+      "shasum": "4aca0f3c11f04bc2516aa6bcf942bde122d9c5b2cf0f80f5eb83dc73bfcdf568",
+      "build_date": "2025-02-10T19:01:04Z",
+      "src_urls": [
+        "https://github.com/ungoogled-software/ungoogled-chromium"
+      ],
+      "web_urls": [
+        "https://github.com/ungoogled-software/ungoogled-chromium"
+      ],
+      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/chromium/nixappimage.nixpkgs.ungoogled.yaml",
+      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium?tag=133.0.6943.53-aarch64-linux\u0026download=chromium.log",
+      "provides": "chromium:ungoogled-chromium,chromium==chromium-browser",
+      "notes": [
+        "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
+        "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
+        "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
+        "[PORTABLE] (Works on AnyLinux)"
+      ],
+      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium:133.0.6943.53-aarch64-linux",
+      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium@sha256:4aca0f3c11f04bc2516aa6bcf942bde122d9c5b2cf0f80f5eb83dc73bfcdf568",
+      "rank": 2
+    },
+    {
+      "pkg": "flameshot.nixappimage",
+      "pkg_name": "flameshot",
+      "pkg_id": "nixpkgs.flameshot",
+      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/flameshot/nixappimage/nixpkgs/unstable/flameshot?tag=12.1.0-unstable-2025-02-01-aarch64-linux\u0026download=flameshot.png",
+      "description": "Powerful and simple to use screenshot software",
+      "version": "12.1.0-unstable-2025-02-01",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/flameshot/nixappimage/nixpkgs/unstable/flameshot/12.1.0-unstable-2025-02-01-aarch64-linux/flameshot.nixappimage",
+      "size": "98 MB",
+      "bsum": "b2b0f2920e5152dc84d80569b95294d9cdec35071326f99c9b367769dad03038",
+      "shasum": "bd69f524e4e131f00b8485c924fe333ce72ad3976f4f2e29816ba9d3ef1429a0",
+      "build_date": "2025-02-03T19:07:22Z",
+      "src_urls": [
+        "https://github.com/flameshot/flameshot"
+      ],
+      "web_urls": [
+        "https://flameshot.org",
+        "https://github.com/flameshot-org/flameshot"
+      ],
+      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/flameshot/nixappimage.nixpkgs.unstable.yaml",
+      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/flameshot/nixappimage/nixpkgs/unstable/flameshot?tag=12.1.0-unstable-2025-02-01-aarch64-linux\u0026download=flameshot.log",
+      "provides": "flameshot",
+      "notes": [
+        "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
+        "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
+        "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
+        "[PORTABLE] (Works on AnyLinux)"
+      ],
+      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/flameshot/nixappimage/nixpkgs/unstable/flameshot:12.1.0-unstable-2025-02-01-aarch64-linux",
+      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/flameshot/nixappimage/nixpkgs/unstable/flameshot@sha256:bd69f524e4e131f00b8485c924fe333ce72ad3976f4f2e29816ba9d3ef1429a0",
+      "rank": 8
+    },
+    {
+      "pkg": "helix.nixappimage",
+      "pkg_name": "helix",
+      "pkg_id": "nixpkgs.helix",
+      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/helix/nixappimage/nixpkgs/stable/helix?tag=25.01.1-aarch64-linux\u0026download=helix.png",
+      "description": "Fast modal terminal-based text editor",
+      "version": "25.01.1",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/helix/nixappimage/nixpkgs/stable/helix/25.01.1-aarch64-linux/helix.nixappimage",
+      "size": "28 MB",
+      "bsum": "1454d175f77eb982e4cd50a0255d1c77e751fd57dc37cafe62eaed93fc9b6f38",
+      "shasum": "582810e6025aa6270368c714f355f781bb1f24e4631b7b13322b1a024a657918",
+      "build_date": "2025-01-26T17:50:52Z",
+      "src_urls": [
+        "https://github.com/helix-editor/helix"
+      ],
+      "web_urls": [
+        "https://helix-editor.com",
+        "https://github.com/helix-editor/helix"
+      ],
+      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/helix/nixappimage.nixpkgs.stable.yaml",
+      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/helix/nixappimage/nixpkgs/stable/helix?tag=25.01.1-aarch64-linux\u0026download=helix.log",
+      "provides": "helix==hx",
+      "notes": [
+        "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
+        "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
+        "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
+        "[PORTABLE] (Works on AnyLinux)"
+      ],
+      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/helix/nixappimage/nixpkgs/stable/helix:25.01.1-aarch64-linux",
+      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/helix/nixappimage/nixpkgs/stable/helix@sha256:582810e6025aa6270368c714f355f781bb1f24e4631b7b13322b1a024a657918",
+      "rank": 5
     },
     {
       "pkg": "jless.appimage",
@@ -62,14 +798,15 @@
     {
       "pkg": "rustdesk.appimage",
       "pkg_name": "rustdesk",
-      "pkg_id": "github.com.rustdesk.rustdesk.stable",
-      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk?tag=1.3.7-aarch64-linux\u0026download=rustdesk.svg",
-      "description": "FOSS Remote desktop application",
-      "version": "1.3.7",
+      "pkg_id": "github.com.rustdesk.rustdesk.nightly",
+      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk?tag=250204T131430-aarch64-linux\u0026download=rustdesk.svg",
+      "description": "FOSS Remote desktop application (Nightly)",
+      "version": "250204T131430",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/rustdesk/appimage/official/nightly/rustdesk/250204T131430-aarch64-linux/rustdesk.appimage",
       "size": "63 MB",
-      "bsum": "2cc782eee4ed8297dd4b8de058d8d72d266103007d5b1090acf3cb5e8d11204d",
-      "shasum": "4a0b8b26951899f60b8169cb7cfe9ec62f9684eeb088a68903a59f2d9cb2b945",
-      "build_date": "2025-02-08T08:53:20Z",
+      "bsum": "8c42dce3dcf4ebdff5b256fa874b635d7ed8d0543525155d3aa98828be25a46e",
+      "shasum": "cad14ce25b459a6c5578521449894cbf117e176bb8bddeb8717733f6179c9900",
+      "build_date": "2025-02-08T08:53:01Z",
       "src_urls": [
         "https://github.com/rustdesk/rustdesk"
       ],
@@ -77,76 +814,45 @@
         "https://github.com/rustdesk/rustdesk",
         "https://rustdesk.com"
       ],
-      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/rustdesk/appimage.official.stable.yaml",
-      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk?tag=1.3.7-aarch64-linux\u0026download=rustdesk.log",
+      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/rustdesk/appimage.official.nightly.yaml",
+      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk?tag=250204T131430-aarch64-linux\u0026download=rustdesk.log",
       "provides": "rustdesk",
       "notes": [
         "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/rustdesk/rustdesk"
       ],
-      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk:1.3.7-aarch64-linux",
-      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk@sha256:4a0b8b26951899f60b8169cb7cfe9ec62f9684eeb088a68903a59f2d9cb2b945",
-      "rank": 29
+      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk:250204T131430-aarch64-linux",
+      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk@sha256:cad14ce25b459a6c5578521449894cbf117e176bb8bddeb8717733f6179c9900",
+      "rank": 28
     },
     {
-      "pkg": "tangent.appimage",
-      "pkg_name": "tangent",
-      "pkg_id": "github.com.suchnsuch.Tangent.alpha",
-      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent?tag=0.9.0-alpha.7-aarch64-linux\u0026download=tangent.png",
-      "description": "A clean and powerful open source notes app (alpha)",
-      "version": "0.9.0-alpha.7",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/tangent/appimage/official/alpha/tangent/0.9.0-alpha.7-aarch64-linux/tangent.appimage",
-      "size": "92 MB",
-      "bsum": "b7188757bfc5f4ee93235cac80b22267f8d640dd4eabb606f8b81e46405ae914",
-      "shasum": "be790e46abb005b6708babb268cbe59fe2ce63849fb8a1790478327eeb791df4",
-      "build_date": "2025-01-31T09:15:33Z",
+      "pkg": "element-desktop.runimage",
+      "pkg_name": "element-desktop",
+      "pkg_id": "runimage.alpine.element-desktop",
+      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/element-desktop/runimage/alpine/stable/element-desktop?tag=1.11.91-aarch64-linux\u0026download=element-desktop.png",
+      "description": "A glossy Matrix collaboration client for desktop",
+      "version": "1.11.91",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/element-desktop/runimage/alpine/stable/element-desktop/1.11.91-aarch64-linux/element-desktop.runimage",
+      "size": "209 MB",
+      "bsum": "64a852712f03bb50529106442b1c6d1110c2e0c052c98774d17152e5c416e386",
+      "shasum": "a022b408dd49cb1f3254e7e3d360c241573c15e09a16f0d025dd36a93f4b1965",
+      "build_date": "2025-02-08T08:52:10Z",
       "src_urls": [
-        "https://www.tangentnotes.com/Download",
-        "https://github.com/suchnsuch/Tangent"
+        "https://gitlab.alpinelinux.org/alpine/aports/-/tree/master/testing/element-desktop"
       ],
       "web_urls": [
-        "https://www.tangentnotes.com"
+        "https://github.com/element-hq/element-desktop"
       ],
-      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/tangent/appimage.official.alpha.yaml",
-      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent?tag=0.9.0-alpha.7-aarch64-linux\u0026download=tangent.log",
-      "provides": "tangent=\u003etangent-alpha",
+      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/element-desktop/runimage.alpine.stable.yaml",
+      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/element-desktop/runimage/alpine/stable/element-desktop?tag=1.11.91-aarch64-linux\u0026download=element-desktop.log",
+      "provides": "element-desktop:riot-desktop",
       "notes": [
-        "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/suchnsuch/Tangent"
-      ],
-      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent:0.9.0-alpha.7-aarch64-linux",
-      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent@sha256:be790e46abb005b6708babb268cbe59fe2ce63849fb8a1790478327eeb791df4",
-      "rank": 16
-    },
-    {
-      "pkg": "flameshot.nixappimage",
-      "pkg_name": "flameshot",
-      "pkg_id": "nixpkgs.flameshot",
-      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/flameshot/nixappimage/nixpkgs/unstable/flameshot?tag=12.1.0-unstable-2025-02-01-aarch64-linux\u0026download=flameshot.png",
-      "description": "Powerful and simple to use screenshot software",
-      "version": "12.1.0-unstable-2025-02-01",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/flameshot/nixappimage/nixpkgs/unstable/flameshot/12.1.0-unstable-2025-02-01-aarch64-linux/flameshot.nixappimage",
-      "size": "98 MB",
-      "bsum": "b2b0f2920e5152dc84d80569b95294d9cdec35071326f99c9b367769dad03038",
-      "shasum": "bd69f524e4e131f00b8485c924fe333ce72ad3976f4f2e29816ba9d3ef1429a0",
-      "build_date": "2025-02-03T19:07:22Z",
-      "src_urls": [
-        "https://github.com/flameshot/flameshot"
-      ],
-      "web_urls": [
-        "https://flameshot.org",
-        "https://github.com/flameshot-org/flameshot"
-      ],
-      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/flameshot/nixappimage.nixpkgs.unstable.yaml",
-      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/flameshot/nixappimage/nixpkgs/unstable/flameshot?tag=12.1.0-unstable-2025-02-01-aarch64-linux\u0026download=flameshot.log",
-      "provides": "flameshot",
-      "notes": [
-        "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
-        "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
-        "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
+        "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
+        "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
         "[PORTABLE] (Works on AnyLinux)"
       ],
-      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/flameshot/nixappimage/nixpkgs/unstable/flameshot:12.1.0-unstable-2025-02-01-aarch64-linux",
-      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/flameshot/nixappimage/nixpkgs/unstable/flameshot@sha256:bd69f524e4e131f00b8485c924fe333ce72ad3976f4f2e29816ba9d3ef1429a0",
-      "rank": 8
+      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/element-desktop/runimage/alpine/stable/element-desktop:1.11.91-aarch64-linux",
+      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/element-desktop/runimage/alpine/stable/element-desktop@sha256:a022b408dd49cb1f3254e7e3d360c241573c15e09a16f0d025dd36a93f4b1965",
+      "rank": 25
     },
     {
       "pkg": "kdenlive.runimage",
@@ -209,64 +915,61 @@
       "rank": 15
     },
     {
-      "pkg": "xhost.archive",
-      "pkg_name": "xhost",
-      "pkg_id": "sharun.wrappe.alpine.xhost",
-      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/xhost/archive/wrappe/alpine/xhost?tag=1.0.10-aarch64-linux\u0026download=xhost.png",
-      "description": "Utility to control X server access",
-      "version": "1.0.10",
-      "size": "1.4 MB",
-      "bsum": "6eb53b6d46bae482ac2593325536154ecc93b67af03c5aa1cccf1a669ca66545",
-      "shasum": "de4c91ff46e7bdba4e3e62159b821e9294c88710b58ee23389697efc9be024a0",
-      "build_date": "2025-02-13T19:20:32Z",
+      "pkg": "vesktop.appimage",
+      "pkg_name": "vesktop",
+      "pkg_id": "github.com.Vencord.Vesktop",
+      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop?tag=v1.5.5-aarch64-linux\u0026download=vesktop.png",
+      "description": "A custom Discord App aiming to give you better performance and improve linux support",
+      "version": "v1.5.5",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/vesktop/appimage/official/stable/vesktop/v1.5.5-aarch64-linux/vesktop.appimage",
+      "size": "88 MB",
+      "bsum": "23ea2c16182780f2e461e5862eb0561f9bcc14781f28f3a530af951edcc961db",
+      "shasum": "29012bac525d3c58a5920c9b4e51411c64cc9229d8e4c68fcc1894ee7f9ad0e6",
+      "build_date": "2025-02-10T19:08:34Z",
       "src_urls": [
-        "https://gitlab.freedesktop.org/xorg/app/xhost"
+        "https://github.com/Vencord/Vesktop"
       ],
       "web_urls": [
-        "https://gitlab.freedesktop.org/xorg/app/xhost"
+        "https://github.com/Vencord/Vesktop"
       ],
-      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/xhost/archive.wrappe.alpine.yaml",
-      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/xhost/archive/wrappe/alpine/xhost?tag=1.0.10-aarch64-linux\u0026download=xhost.log",
-      "provides": "xhost",
+      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/vesktop/appimage.official.stable.yaml",
+      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop?tag=v1.5.5-aarch64-linux\u0026download=vesktop.log",
+      "provides": "vesktop",
       "notes": [
-        "Built Using Sharun [alpine]. Check/Report @ https://github.com/VHSgunzo/sharun",
-        "Learn more @ https://docs.pkgforge.dev/formats/packages/archive",
-        "[PORTABLE] (Works on AnyLinux)",
-        "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
+        "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/Vencord/Vesktop"
       ],
-      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/xhost/archive/wrappe/alpine/xhost:1.0.10-aarch64-linux",
-      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/xhost/archive/wrappe/alpine/xhost@sha256:de4c91ff46e7bdba4e3e62159b821e9294c88710b58ee23389697efc9be024a0",
-      "rank": 37
+      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop:v1.5.5-aarch64-linux",
+      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop@sha256:29012bac525d3c58a5920c9b4e51411c64cc9229d8e4c68fcc1894ee7f9ad0e6",
+      "rank": 4
     },
     {
-      "pkg": "86box.appimage",
-      "pkg_name": "86box",
-      "pkg_id": "github.com.86Box.86Box.stable",
-      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/86box/appimage/official/stable/86box?tag=v4.2.1-aarch64-linux\u0026download=86box.png",
-      "description": "Emulator of x86-based machines",
-      "version": "v4.2.1",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/86box/appimage/official/stable/86box/v4.2.1-aarch64-linux/86box.appimage",
-      "size": "52 MB",
-      "bsum": "74d358d3f38d0f2692676fca718870bee9069b3bd25c7c6eefe1c4f155607f91",
-      "shasum": "6d98eb41392380d6d7fd5c9f10f95aa080c8ba9517b96a8e34b5ad7e847ae1d3",
-      "build_date": "2025-01-26T16:47:34Z",
+      "pkg": "zen-browser.appimage",
+      "pkg_name": "zen-browser",
+      "pkg_id": "github.com.zen-browser.desktop.beta",
+      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser?tag=1.0.2-b.5-aarch64-linux\u0026download=zen-browser.png",
+      "description": "Performance oriented Firefox-based web browser (Beta)",
+      "version": "1.0.2-b.5",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/zen-browser/appimage/official/beta/zen-browser/1.0.2-b.5-aarch64-linux/zen-browser.appimage",
+      "size": "95 MB",
+      "bsum": "38a2beaf8a46cc005ea54619c93bf718a50b059ff884587e15dff38ffeab322e",
+      "shasum": "98aafee82186fca80707294ec59044991749bfeac47c80ad7f58b5eb874a248c",
+      "build_date": "2025-01-26T18:33:48Z",
       "src_urls": [
-        "https://github.com/86Box/86Box"
+        "https://github.com/zen-browser/desktop"
       ],
       "web_urls": [
-        "https://86box.net",
-        "https://86box.readthedocs.io"
+        "https://zen-browser.app",
+        "https://github.com/zen-browser/desktop"
       ],
-      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/86box/appimage.official.stable.yaml",
-      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/86box/appimage/official/stable/86box?tag=v4.2.1-aarch64-linux\u0026download=86box.log",
-      "provides": "86box",
+      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.beta.yaml",
+      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser?tag=1.0.2-b.5-aarch64-linux\u0026download=zen-browser.log",
+      "provides": "zen-browser==zen",
       "notes": [
-        "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/86Box/86Box",
-        "You need to download ROMS: https://86box.readthedocs.io/en/latest/usage/roms.html"
+        "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop"
       ],
-      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/86box/appimage/official/stable/86box:v4.2.1-aarch64-linux",
-      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/86box/appimage/official/stable/86box@sha256:6d98eb41392380d6d7fd5c9f10f95aa080c8ba9517b96a8e34b5ad7e847ae1d3",
-      "rank": 1
+      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser:1.0.2-b.5-aarch64-linux",
+      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser@sha256:98aafee82186fca80707294ec59044991749bfeac47c80ad7f58b5eb874a248c",
+      "rank": 32
     },
     {
       "pkg": "akregator.runimage",
@@ -332,62 +1035,32 @@
       "rank": 7
     },
     {
-      "pkg": "inkscape.runimage",
-      "pkg_name": "inkscape",
-      "pkg_id": "runimage.alpine.inkscape",
-      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/inkscape/runimage/alpine/stable/inkscape?tag=1.4-aarch64-linux\u0026download=inkscape.png",
-      "description": "FOSS Vector Graphics Editor",
-      "version": "1.4",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/inkscape/runimage/alpine/stable/inkscape/1.4-aarch64-linux/inkscape.runimage",
-      "size": "74 MB",
-      "bsum": "552c6f7c05f889b9aefa1ea30b07ce340ef105b71b3178e1585806b49c30296a",
-      "shasum": "687da8ef2fb14d8327c8c556762e9f4260ed160616e43db612572eb5151de74e",
-      "build_date": "2025-02-02T14:34:36Z",
+      "pkg": "escrcpy.appimage",
+      "pkg_name": "escrcpy",
+      "pkg_id": "github.com.viarotel-org.escrcpy",
+      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/escrcpy/appimage/official/stable/escrcpy?tag=v1.28.6-aarch64-linux\u0026download=escrcpy.png",
+      "description": "Graphical Scrcpy to display and control Android, devices",
+      "version": "v1.28.6",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/escrcpy/appimage/official/stable/escrcpy/v1.28.4-aarch64-linux/escrcpy.appimage",
+      "size": "122 MB",
+      "bsum": "60ec57e3daf7b27222b75ee82716928affbb152f4ce8795bce68260f4d3a8a74",
+      "shasum": "9ecfd301cd23e845af0bd3ee3ab65c0bed2dcb589889d42fe4a235772cd7fc25",
+      "build_date": "2025-02-05T18:54:09Z",
       "src_urls": [
-        "https://gitlab.alpinelinux.org/alpine/aports/-/tree/master/community/inkscape"
+        "https://github.com/viarotel-org/escrcpy"
       ],
       "web_urls": [
-        "https://inkscape.org"
+        "https://github.com/viarotel-org/escrcpy"
       ],
-      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/inkscape/runimage.alpine.stable.yaml",
-      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/inkscape/runimage/alpine/stable/inkscape?tag=1.4-aarch64-linux\u0026download=inkscape.log",
-      "provides": "inkscape",
+      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/escrcpy/appimage.official.stable.yaml",
+      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/escrcpy/appimage/official/stable/escrcpy?tag=v1.28.6-aarch64-linux\u0026download=escrcpy.log",
+      "provides": "escrcpy",
       "notes": [
-        "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
-        "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
-        "[PORTABLE] (Works on AnyLinux)"
+        "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/viarotel-org/escrcpy"
       ],
-      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/inkscape/runimage/alpine/stable/inkscape:1.4-aarch64-linux",
-      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/inkscape/runimage/alpine/stable/inkscape@sha256:687da8ef2fb14d8327c8c556762e9f4260ed160616e43db612572eb5151de74e",
-      "rank": 24
-    },
-    {
-      "pkg": "ryujinx.appimage",
-      "pkg_name": "ryujinx",
-      "pkg_id": "github.com.Ryubing.Ryujinx.canary",
-      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx?tag=1.2.357-aarch64-linux\u0026download=ryujinx.svg",
-      "description": "Nintendo Switch Emulator (Canary)",
-      "version": "1.2.357",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/ryujinx/appimage/official/canary/ryujinx/1.2.357-aarch64-linux/ryujinx.appimage",
-      "size": "29 MB",
-      "bsum": "ec0e6bdeedd0a58676f746130843f920a9256feab119c1787aab8439783ea796",
-      "shasum": "d4b16be8cf8c8c472db124754f45da859d5875d81cb4ef0bf2c4c3a504a026fb",
-      "build_date": "2025-02-08T08:52:44Z",
-      "src_urls": [
-        "https://github.com/Ryubing/Canary-Releases"
-      ],
-      "web_urls": [
-        "https://github.com/Ryubing/Ryujinx"
-      ],
-      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/ryujinx/appimage.official.canary.yaml",
-      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx?tag=1.2.357-aarch64-linux\u0026download=ryujinx.log",
-      "provides": "ryujinx",
-      "notes": [
-        "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/ryujinx/ryujinx"
-      ],
-      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx:1.2.357-aarch64-linux",
-      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx@sha256:d4b16be8cf8c8c472db124754f45da859d5875d81cb4ef0bf2c4c3a504a026fb",
-      "rank": 26
+      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/escrcpy/appimage/official/stable/escrcpy:v1.28.6-aarch64-linux",
+      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/escrcpy/appimage/official/stable/escrcpy@sha256:9ecfd301cd23e845af0bd3ee3ab65c0bed2dcb589889d42fe4a235772cd7fc25",
+      "rank": 23
     },
     {
       "pkg": "ryujinx.appimage",
@@ -418,706 +1091,33 @@
       "rank": 27
     },
     {
-      "pkg": "zen-browser.appimage",
-      "pkg_name": "zen-browser",
-      "pkg_id": "github.com.zen-browser.desktop.beta",
-      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser?tag=1.0.2-b.5-aarch64-linux\u0026download=zen-browser.png",
-      "description": "Performance oriented Firefox-based web browser (Beta)",
-      "version": "1.0.2-b.5",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/zen-browser/appimage/official/beta/zen-browser/1.0.2-b.5-aarch64-linux/zen-browser.appimage",
-      "size": "95 MB",
-      "bsum": "38a2beaf8a46cc005ea54619c93bf718a50b059ff884587e15dff38ffeab322e",
-      "shasum": "98aafee82186fca80707294ec59044991749bfeac47c80ad7f58b5eb874a248c",
-      "build_date": "2025-01-26T18:33:48Z",
+      "pkg": "tangent.appimage",
+      "pkg_name": "tangent",
+      "pkg_id": "github.com.suchnsuch.Tangent.alpha",
+      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent?tag=0.9.0-alpha.7-aarch64-linux\u0026download=tangent.png",
+      "description": "A clean and powerful open source notes app (alpha)",
+      "version": "0.9.0-alpha.7",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/tangent/appimage/official/alpha/tangent/0.9.0-alpha.7-aarch64-linux/tangent.appimage",
+      "size": "92 MB",
+      "bsum": "b7188757bfc5f4ee93235cac80b22267f8d640dd4eabb606f8b81e46405ae914",
+      "shasum": "be790e46abb005b6708babb268cbe59fe2ce63849fb8a1790478327eeb791df4",
+      "build_date": "2025-01-31T09:15:33Z",
       "src_urls": [
-        "https://github.com/zen-browser/desktop"
+        "https://www.tangentnotes.com/Download",
+        "https://github.com/suchnsuch/Tangent"
       ],
       "web_urls": [
-        "https://zen-browser.app",
-        "https://github.com/zen-browser/desktop"
+        "https://www.tangentnotes.com"
       ],
-      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.beta.yaml",
-      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser?tag=1.0.2-b.5-aarch64-linux\u0026download=zen-browser.log",
-      "provides": "zen-browser==zen",
+      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/tangent/appimage.official.alpha.yaml",
+      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent?tag=0.9.0-alpha.7-aarch64-linux\u0026download=tangent.log",
+      "provides": "tangent=\u003etangent-alpha",
       "notes": [
-        "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop"
-      ],
-      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser:1.0.2-b.5-aarch64-linux",
-      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser@sha256:98aafee82186fca80707294ec59044991749bfeac47c80ad7f58b5eb874a248c",
-      "rank": 32
-    },
-    {
-      "pkg": "escrcpy.appimage",
-      "pkg_name": "escrcpy",
-      "pkg_id": "github.com.viarotel-org.escrcpy",
-      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/escrcpy/appimage/official/stable/escrcpy?tag=v1.28.6-aarch64-linux\u0026download=escrcpy.png",
-      "description": "Graphical Scrcpy to display and control Android, devices",
-      "version": "v1.28.6",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/escrcpy/appimage/official/stable/escrcpy/v1.28.4-aarch64-linux/escrcpy.appimage",
-      "size": "122 MB",
-      "bsum": "60ec57e3daf7b27222b75ee82716928affbb152f4ce8795bce68260f4d3a8a74",
-      "shasum": "9ecfd301cd23e845af0bd3ee3ab65c0bed2dcb589889d42fe4a235772cd7fc25",
-      "build_date": "2025-02-05T18:54:09Z",
-      "src_urls": [
-        "https://github.com/viarotel-org/escrcpy"
-      ],
-      "web_urls": [
-        "https://github.com/viarotel-org/escrcpy"
-      ],
-      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/escrcpy/appimage.official.stable.yaml",
-      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/escrcpy/appimage/official/stable/escrcpy?tag=v1.28.6-aarch64-linux\u0026download=escrcpy.log",
-      "provides": "escrcpy",
-      "notes": [
-        "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/viarotel-org/escrcpy"
-      ],
-      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/escrcpy/appimage/official/stable/escrcpy:v1.28.6-aarch64-linux",
-      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/escrcpy/appimage/official/stable/escrcpy@sha256:9ecfd301cd23e845af0bd3ee3ab65c0bed2dcb589889d42fe4a235772cd7fc25",
-      "rank": 23
-    },
-    {
-      "pkg": "rustdesk.appimage",
-      "pkg_name": "rustdesk",
-      "pkg_id": "github.com.rustdesk.rustdesk.nightly",
-      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk?tag=250204T131430-aarch64-linux\u0026download=rustdesk.svg",
-      "description": "FOSS Remote desktop application (Nightly)",
-      "version": "250204T131430",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/rustdesk/appimage/official/nightly/rustdesk/250204T131430-aarch64-linux/rustdesk.appimage",
-      "size": "63 MB",
-      "bsum": "8c42dce3dcf4ebdff5b256fa874b635d7ed8d0543525155d3aa98828be25a46e",
-      "shasum": "cad14ce25b459a6c5578521449894cbf117e176bb8bddeb8717733f6179c9900",
-      "build_date": "2025-02-08T08:53:01Z",
-      "src_urls": [
-        "https://github.com/rustdesk/rustdesk"
-      ],
-      "web_urls": [
-        "https://github.com/rustdesk/rustdesk",
-        "https://rustdesk.com"
-      ],
-      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/rustdesk/appimage.official.nightly.yaml",
-      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk?tag=250204T131430-aarch64-linux\u0026download=rustdesk.log",
-      "provides": "rustdesk",
-      "notes": [
-        "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/rustdesk/rustdesk"
-      ],
-      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk:250204T131430-aarch64-linux",
-      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk@sha256:cad14ce25b459a6c5578521449894cbf117e176bb8bddeb8717733f6179c9900",
-      "rank": 28
-    },
-    {
-      "pkg": "wezterm.runimage",
-      "pkg_name": "wezterm",
-      "pkg_id": "runimage.alpine.wezterm",
-      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/wezterm/runimage/alpine/stable/wezterm?tag=20240203.110809-aarch64-linux\u0026download=wezterm.png",
-      "description": "A GPU-accelerated cross-platform terminal emulator and multiplexer",
-      "version": "20240203.110809",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/wezterm/runimage/alpine/stable/wezterm/20240203.110809-aarch64-linux/wezterm.runimage",
-      "size": "105 MB",
-      "bsum": "0fd934ea58d3b26f10f7cec2d928af04113f75230ef4213489350bbea23da8e7",
-      "shasum": "164f2937f7beabf72b0f443b328d3bc8d0b0c15f6cd0ee6e75a66678e36ae1bf",
-      "build_date": "2025-01-27T18:42:11Z",
-      "src_urls": [
-        "https://github.com/wez/wezterm"
-      ],
-      "web_urls": [
-        "https://wezfurlong.org/wezterm/"
-      ],
-      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/wezterm/runimage.alpine.stable.yaml",
-      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/wezterm/runimage/alpine/stable/wezterm?tag=20240203.110809-aarch64-linux\u0026download=wezterm.log",
-      "provides": "wezterm==open-wezterm-here,wezterm==strip-ansi-escapes,wezterm==wezterm-gui,wezterm==wezterm-mux-server",
-      "notes": [
-        "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
-        "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
-        "Requires Fonts (On Host): https://wezfurlong.org/wezterm/config/fonts.html",
-        "[PORTABLE] (Works on AnyLinux)"
-      ],
-      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/wezterm/runimage/alpine/stable/wezterm:20240203.110809-aarch64-linux",
-      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/wezterm/runimage/alpine/stable/wezterm@sha256:164f2937f7beabf72b0f443b328d3bc8d0b0c15f6cd0ee6e75a66678e36ae1bf",
-      "rank": 18
-    },
-    {
-      "pkg": "zen-browser.appimage",
-      "pkg_name": "zen-browser",
-      "pkg_id": "github.com.zen-browser.desktop.twilight",
-      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.7.7t_2025-02-12at11_40_35_-aarch64-linux\u0026download=zen-browser.png",
-      "description": "Performance oriented Firefox-based web browser (Twilight)",
-      "version": "Twilightbuild-1.7.7t(2025-02-12at11:40:35)",
-      "size": "97 MB",
-      "bsum": "cc36b7bb346afd04567640073601f5eaa71b93dda1fb9ac0937383ac56e74f78",
-      "shasum": "03d1e24c718db991dd633d25d92a81eb8dc2996e4970a9c6f0a1090366f1b683",
-      "build_date": "2025-02-12T18:58:51Z",
-      "src_urls": [
-        "https://github.com/zen-browser/desktop"
-      ],
-      "web_urls": [
-        "https://zen-browser.app",
-        "https://github.com/zen-browser/desktop"
-      ],
-      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.twilight.yaml",
-      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.7.7t_2025-02-12at11_40_35_-aarch64-linux\u0026download=zen-browser.log",
-      "provides": "zen-browser==zen",
-      "notes": [
-        "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop"
-      ],
-      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:Twilightbuild-1.7.7t_2025-02-12at11_40_35_-aarch64-linux",
-      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser@sha256:03d1e24c718db991dd633d25d92a81eb8dc2996e4970a9c6f0a1090366f1b683",
-      "rank": 33
-    },
-    {
-      "pkg": "element-desktop.runimage",
-      "pkg_name": "element-desktop",
-      "pkg_id": "runimage.alpine.element-desktop",
-      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/element-desktop/runimage/alpine/stable/element-desktop?tag=1.11.91-aarch64-linux\u0026download=element-desktop.png",
-      "description": "A glossy Matrix collaboration client for desktop",
-      "version": "1.11.91",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/element-desktop/runimage/alpine/stable/element-desktop/1.11.91-aarch64-linux/element-desktop.runimage",
-      "size": "209 MB",
-      "bsum": "64a852712f03bb50529106442b1c6d1110c2e0c052c98774d17152e5c416e386",
-      "shasum": "a022b408dd49cb1f3254e7e3d360c241573c15e09a16f0d025dd36a93f4b1965",
-      "build_date": "2025-02-08T08:52:10Z",
-      "src_urls": [
-        "https://gitlab.alpinelinux.org/alpine/aports/-/tree/master/testing/element-desktop"
-      ],
-      "web_urls": [
-        "https://github.com/element-hq/element-desktop"
-      ],
-      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/element-desktop/runimage.alpine.stable.yaml",
-      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/element-desktop/runimage/alpine/stable/element-desktop?tag=1.11.91-aarch64-linux\u0026download=element-desktop.log",
-      "provides": "element-desktop:riot-desktop",
-      "notes": [
-        "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
-        "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
-        "[PORTABLE] (Works on AnyLinux)"
-      ],
-      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/element-desktop/runimage/alpine/stable/element-desktop:1.11.91-aarch64-linux",
-      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/element-desktop/runimage/alpine/stable/element-desktop@sha256:a022b408dd49cb1f3254e7e3d360c241573c15e09a16f0d025dd36a93f4b1965",
-      "rank": 25
-    },
-    {
-      "pkg": "file.appimage",
-      "pkg_name": "file",
-      "pkg_id": "ppkg.bundle.file.stable",
-      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/file/appimage/ppkg/stable/file?tag=5.45-aarch64-linux\u0026download=file.svg",
-      "description": "Determine the type of a file from its contents",
-      "version": "5.45",
-      "size": "2.3 MB",
-      "bsum": "dadfb448b4e4599c0391a0a7239abbad8a6947b629d05e11ec09e1910671799c",
-      "shasum": "a3dab7d637bef7d9a71b384e8870fea15d9c85c033e6bc822c94a11d0969c13a",
-      "build_date": "2025-02-13T19:20:52Z",
-      "src_urls": [
-        "https://github.com/file/file"
-      ],
-      "web_urls": [
-        "https://www.darwinsys.com/file/",
-        "https://github.com/file/file"
-      ],
-      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/file/appimage.ppkg.stable.yaml",
-      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/file/appimage/ppkg/stable/file?tag=5.45-aarch64-linux\u0026download=file.log",
-      "provides": "file",
-      "notes": [
-        "Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core",
-        "[PORTABLE] (Works on AnyLinux)",
-        "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-      ],
-      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/file/appimage/ppkg/stable/file:5.45-aarch64-linux",
-      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/file/appimage/ppkg/stable/file@sha256:a3dab7d637bef7d9a71b384e8870fea15d9c85c033e6bc822c94a11d0969c13a",
-      "rank": 36
-    },
-    {
-      "pkg": "gearlever.nixappimage",
-      "pkg_name": "gearlever",
-      "pkg_id": "nixpkgs.gearlever",
-      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/gearlever/nixappimage/nixpkgs/stable/gearlever?tag=2.3.2-aarch64-linux\u0026download=gearlever.svg",
-      "description": "Manage AppImages with ease",
-      "version": "2.3.2",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/gearlever/nixappimage/nixpkgs/stable/gearlever/2.3.2-aarch64-linux/gearlever.nixappimage",
-      "size": "309 MB",
-      "bsum": "4d69bd1eb494f1556fde9596c5f1ac7d06eb5433016b1ed19b2355569824eeee",
-      "shasum": "26bd5fe743f4d3278e1c7fcebc9ee4e38af675b9e434ab37cde23bfb1d39dc1f",
-      "build_date": "2025-01-26T17:48:53Z",
-      "src_urls": [
-        "https://github.com/mijorus/gearlever"
-      ],
-      "web_urls": [
-        "https://gearlever.mijorus.it",
-        "https://mijorus.it/projects/gearlever"
-      ],
-      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/gearlever/nixappimage.nixpkgs.stable.yaml",
-      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/gearlever/nixappimage/nixpkgs/stable/gearlever?tag=2.3.2-aarch64-linux\u0026download=gearlever.log",
-      "provides": "gearlever",
-      "notes": [
-        "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
-        "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
-        "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
-        "[PORTABLE] (Works on AnyLinux)"
-      ],
-      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/gearlever/nixappimage/nixpkgs/stable/gearlever:2.3.2-aarch64-linux",
-      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/gearlever/nixappimage/nixpkgs/stable/gearlever@sha256:26bd5fe743f4d3278e1c7fcebc9ee4e38af675b9e434ab37cde23bfb1d39dc1f",
-      "rank": 11
-    },
-    {
-      "pkg": "git.appimage",
-      "pkg_name": "git",
-      "pkg_id": "ppkg.bundle.git.stable",
-      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/git/appimage/ppkg/stable/git?tag=2.48.1-aarch64-linux\u0026download=git.png",
-      "description": "Fast, scalable, distributed revision control system",
-      "version": "2.48.1",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/git/appimage/ppkg/stable/git/2.48.1-aarch64-linux/git.appimage",
-      "size": "33 MB",
-      "bsum": "4d8b23dad4f52348cc2ceca0187d952de29e113805e0a51c2e1f86e28d10d183",
-      "shasum": "891d481363331f486de96f42ecc486c1debaa4cc5a352558a97a320945308575",
-      "build_date": "2025-02-10T08:41:12Z",
-      "src_urls": [
-        "https://github.com/git/git"
-      ],
-      "web_urls": [
-        "https://git-scm.com/"
-      ],
-      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/git/appimage.ppkg.stable.yaml",
-      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/git/appimage/ppkg/stable/git?tag=2.48.1-aarch64-linux\u0026download=git.log",
-      "provides": "git==git-add,git==git-am,git==git-annotate,git==git-apply,git==git-archive,git==git-bisect,git==git-blame,git==git-branch,git==git-bugreport,git==git-bundle,git==git-cat-file,git==git-check-attr,git==git-check-ignore,git==git-check-mailmap,git==git-checkout,git==git-checkout-index,git==git-checkout--worker,git==git-check-ref-format,git==git-cherry,git==git-cherry-pick,git==git-clean,git==git-clone,git==git-column,git==git-commit,git==git-commit-graph,git==git-commit-tree,git==git-config,git==git-count-objects,git==git-credential,git==git-credential-cache,git==git-credential-cache--daemon,git==git-credential-store,git==git-describe,git==git-diagnose,git==git-diff,git==git-diff-files,git==git-diff-index,git==git-difftool,git==git-difftool--helper,git==git-diff-tree,git==git-fast-export,git==git-fetch,git==git-fetch-pack,git==git-filter-branch,git==git-fmt-merge-msg,git==git-for-each-ref,git==git-for-each-repo,git==git-format-patch,git==git-fsck,git==git-fsck-objects,git==git-fsmonitor--daemon,git==git-gc,git==git-get-tar-commit-id,git==git-grep,git==git-hash-object,git==git-help,git==git-hook,git==git-http-fetch,git==git-http-push,git==git-index-pack,git==git-init,git==git-init-db,git==git-interpret-trailers,git==git-log,git==git-ls-files,git==git-ls-remote,git==git-ls-tree,git==git-mailinfo,git==git-mailsplit,git==git-maintenance,git==git-merge,git==git-merge-base,git==git-merge-file,git==git-merge-index,git==git-merge-octopus,git==git-merge-one-file,git==git-merge-ours,git==git-merge-recursive,git==git-merge-resolve,git==git-merge-subtree,git==git-mergetool,git==git-mergetool--lib,git==git-merge-tree,git==git-mktag,git==git-mktree,git==git-multi-pack-index,git==git-mv,git==git-name-rev,git==git-notes,git==git-pack-objects,git==git-pack-redundant,git==git-pack-refs,git==git-patch-id,git==git-prune,git==git-prune-packed,git==git-pull,git==git-push,git==git-quiltimport,git==git-range-diff,git==git-read-tree,git==git-rebase,git==git-receive-pack,git==git-reflog,git==git-refs,git==git-remote,git==git-remote-ext,git==git-remote-fd,git==git-remote-ftp,git==git-remote-ftps,git==git-remote-http,git==git-remote-https,git==git-repack,git==git-replace,git==git-replay,git==git-request-pull,git==git-rerere,git==git-reset,git==git-restore,git==git-revert,git==git-rev-list,git==git-rev-parse,git==git-rm,git==git-send-pack,git==git-shell,git==git-sh-i18n,git==git-sh-i18n--envsubst,git==git-shortlog,git==git-show,git==git-show-branch,git==git-show-index,git==git-show-ref,git==git-sh-setup,git==git-sparse-checkout,git==git-stage,git==git-stash,git==git-status,git==git-stripspace,git==git-submodule,git==git-submodule--helper,git==git-switch,git==git-symbolic-ref,git==git-tag,git==git-unpack-file,git==git-unpack-objects,git==git-update-index,git==git-update-ref,git==git-update-server-info,git==git-upload-archive,git==git-upload-pack,git==git-var,git==git-verify-commit,git==git-verify-pack,git==git-verify-tag,git==git-version,git==git-web--browse,git==git-whatchanged,git==git-worktree,git==git-write-tree",
-      "notes": [
-        "Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core",
-        "[PORTABLE] (Works on AnyLinux)",
-        "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-      ],
-      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/git/appimage/ppkg/stable/git:2.48.1-aarch64-linux",
-      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/git/appimage/ppkg/stable/git@sha256:891d481363331f486de96f42ecc486c1debaa4cc5a352558a97a320945308575",
-      "rank": 30
-    },
-    {
-      "pkg": "simplex-desktop.nixappimage",
-      "pkg_name": "simplex-desktop",
-      "pkg_id": "nixpkgs.simplex-chat-desktop",
-      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/simplex-desktop/nixappimage/nixpkgs/stable/simplex-desktop?tag=6.2.4-aarch64-linux\u0026download=simplex-desktop.png",
-      "description": "Desktop application for SimpleX Chat, A 100% private-by-design chat platform",
-      "version": "6.2.4",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/simplex-desktop/nixappimage/nixpkgs/stable/simplex-desktop/6.2.4-aarch64-linux/simplex-desktop.nixappimage",
-      "size": "524 MB",
-      "bsum": "8072aaf291948fef898be5c1a8d17b1a488f69d3d8a46d620bf40e8b398b99ee",
-      "shasum": "702309f406e4d91d12044e67c3f0335c9642f20e1c81aca65974a88c41460a34",
-      "build_date": "2025-01-26T18:22:34Z",
-      "src_urls": [
-        "https://github.com/simplex-chat/simplex-chat"
-      ],
-      "web_urls": [
-        "https://simplex.chat",
-        "https://github.com/simplex-chat/simplex-chat"
-      ],
-      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/simplex-desktop/nixappimage.nixpkgs.stable.yaml",
-      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/simplex-desktop/nixappimage/nixpkgs/stable/simplex-desktop?tag=6.2.4-aarch64-linux\u0026download=simplex-desktop.log",
-      "provides": "simplex-desktop==simplex-chat-desktop",
-      "notes": [
-        "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
-        "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
-        "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
-        "[PORTABLE] (Works on AnyLinux)"
-      ],
-      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/simplex-desktop/nixappimage/nixpkgs/stable/simplex-desktop:6.2.4-aarch64-linux",
-      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/simplex-desktop/nixappimage/nixpkgs/stable/simplex-desktop@sha256:702309f406e4d91d12044e67c3f0335c9642f20e1c81aca65974a88c41460a34",
-      "rank": 9
-    },
-    {
-      "pkg": "clamtk.runimage",
-      "pkg_name": "clamtk",
-      "pkg_id": "runimage.debian.clamtk",
-      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk?tag=6.07-aarch64-linux\u0026download=clamtk.png",
-      "description": "GTK front-end for Clam Antivirus",
-      "version": "6.07",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/clamtk/runimage/debian/stable/clamtk/6.07-aarch64-linux/clamtk.runimage",
-      "size": "84 MB",
-      "bsum": "095d5bfecbd1ce821ad0866751d00858ecbd925ce39ab361a4e7d7e76820384a",
-      "shasum": "6fd8033e1ab47d88d47114da5bff15c8dea30dfc4501e916e75856d8a4b94c45",
-      "build_date": "2025-02-12T18:54:21Z",
-      "src_urls": [
-        "https://github.com/dave-theunsub/clamtk",
-        "https://gitlab.com/dave_m/clamtk"
-      ],
-      "web_urls": [
-        "https://github.com/dave-theunsub/clamtk"
-      ],
-      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/clamtk/runimage.debian.stable.yaml",
-      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk?tag=6.07-aarch64-linux\u0026download=clamtk.log",
-      "provides": "clamtk",
-      "notes": [
-        "This Package has been marked 'deprecaed': https://gitlab.com/dave_m/clamtk/-/issues/144",
-        "Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage",
-        "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
-        "[PORTABLE] (Works on AnyLinux)"
-      ],
-      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk:6.07-aarch64-linux",
-      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk@sha256:6fd8033e1ab47d88d47114da5bff15c8dea30dfc4501e916e75856d8a4b94c45",
-      "rank": 13
-    },
-    {
-      "pkg": "ghex.runimage",
-      "pkg_name": "ghex",
-      "pkg_id": "runimage.alpine.ghex",
-      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghex/runimage/alpine/stable/ghex?tag=46.0-aarch64-linux\u0026download=ghex.svg",
-      "description": "A simple Binary/Hex editor",
-      "version": "46.0",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/ghex/runimage/alpine/stable/ghex/46.0-aarch64-linux/ghex.runimage",
-      "size": "136 MB",
-      "bsum": "a726115ad19dc86e9c37483dfc185ad81c25befc43403f1d6db2c504d2cdbba4",
-      "shasum": "f30b20ab5997f4498bd9fcf99c16b4a3132033dddc8d604a2f36bdced64c3b67",
-      "build_date": "2025-02-01T19:23:56Z",
-      "src_urls": [
-        "https://gitlab.gnome.org/GNOME/ghex"
-      ],
-      "web_urls": [
-        "https://wiki.gnome.org/Apps/Ghex"
-      ],
-      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/ghex/runimage.alpine.stable.yaml",
-      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghex/runimage/alpine/stable/ghex?tag=46.0-aarch64-linux\u0026download=ghex.log",
-      "provides": "ghex",
-      "notes": [
-        "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
-        "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
-        "[PORTABLE] (Works on AnyLinux)"
-      ],
-      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/ghex/runimage/alpine/stable/ghex:46.0-aarch64-linux",
-      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/ghex/runimage/alpine/stable/ghex@sha256:f30b20ab5997f4498bd9fcf99c16b4a3132033dddc8d604a2f36bdced64c3b67",
-      "rank": 20
-    },
-    {
-      "pkg": "helix.nixappimage",
-      "pkg_name": "helix",
-      "pkg_id": "nixpkgs.helix",
-      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/helix/nixappimage/nixpkgs/stable/helix?tag=25.01.1-aarch64-linux\u0026download=helix.png",
-      "description": "Fast modal terminal-based text editor",
-      "version": "25.01.1",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/helix/nixappimage/nixpkgs/stable/helix/25.01.1-aarch64-linux/helix.nixappimage",
-      "size": "28 MB",
-      "bsum": "1454d175f77eb982e4cd50a0255d1c77e751fd57dc37cafe62eaed93fc9b6f38",
-      "shasum": "582810e6025aa6270368c714f355f781bb1f24e4631b7b13322b1a024a657918",
-      "build_date": "2025-01-26T17:50:52Z",
-      "src_urls": [
-        "https://github.com/helix-editor/helix"
-      ],
-      "web_urls": [
-        "https://helix-editor.com",
-        "https://github.com/helix-editor/helix"
-      ],
-      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/helix/nixappimage.nixpkgs.stable.yaml",
-      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/helix/nixappimage/nixpkgs/stable/helix?tag=25.01.1-aarch64-linux\u0026download=helix.log",
-      "provides": "helix==hx",
-      "notes": [
-        "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
-        "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
-        "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
-        "[PORTABLE] (Works on AnyLinux)"
-      ],
-      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/helix/nixappimage/nixpkgs/stable/helix:25.01.1-aarch64-linux",
-      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/helix/nixappimage/nixpkgs/stable/helix@sha256:582810e6025aa6270368c714f355f781bb1f24e4631b7b13322b1a024a657918",
-      "rank": 5
-    },
-    {
-      "pkg": "telegram-desktop.nixappimage",
-      "pkg_name": "telegram-desktop",
-      "pkg_id": "nixpkgs.telegram-desktop",
-      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop?tag=5.10.7-aarch64-linux\u0026download=telegram-desktop.png",
-      "description": "Official desktop version of Telegram messaging app",
-      "version": "5.10.7",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop/5.10.7-aarch64-linux/telegram-desktop.nixappimage",
-      "size": "358 MB",
-      "bsum": "48b826668449cae29c8d6c490367ea01979eeb5f0f831714e2e3f71c9eccaab7",
-      "shasum": "f228bf0195a35609b22b91833c7d82c05eb2bda3f3dd312810d73a91275a9554",
-      "build_date": "2025-02-08T19:22:52Z",
-      "src_urls": [
-        "https://github.com/telegramdesktop/tdesktop"
-      ],
-      "web_urls": [
-        "https://desktop.telegram.org",
-        "https://github.com/telegramdesktop/tdesktop"
-      ],
-      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/telegram-desktop/nixappimage.nixpkgs.stable.yaml",
-      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop?tag=5.10.7-aarch64-linux\u0026download=telegram-desktop.log",
-      "provides": "telegram-desktop==Telegram-Desktop",
-      "notes": [
-        "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
-        "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
-        "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
-        "[PORTABLE] (Works on AnyLinux)"
-      ],
-      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop:5.10.7-aarch64-linux",
-      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop@sha256:f228bf0195a35609b22b91833c7d82c05eb2bda3f3dd312810d73a91275a9554",
-      "rank": 10
-    },
-    {
-      "pkg": "blender.runimage",
-      "pkg_name": "blender",
-      "pkg_id": "runimage.debian.blender",
-      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/blender/runimage/debian/stable/blender?tag=4.3.2-aarch64-linux\u0026download=blender.svg",
-      "description": "A fully integrated 3D graphics creation suite",
-      "version": "4.3.2",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/blender/runimage/debian/stable/blender/4.3.2-aarch64-linux/blender.runimage",
-      "size": "305 MB",
-      "bsum": "3de3aa87f258e32544f64d302aca117ff1fcb344458b36646d4b36d3494678e5",
-      "shasum": "ecf3940a965f483026c4a1ae476a6f68eecad7be9965f06473e569f592693214",
-      "build_date": "2025-01-26T16:54:51Z",
-      "src_urls": [
-        "https://blender.org",
-        "https://github.com/blender/blender"
-      ],
-      "web_urls": [
-        "https://blender.org"
-      ],
-      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/blender/runimage.debian.stable.yaml",
-      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/blender/runimage/debian/stable/blender?tag=4.3.2-aarch64-linux\u0026download=blender.log",
-      "provides": "blender",
-      "notes": [
-        "Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage",
-        "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
-        "[PORTABLE] (Works on AnyLinux)"
-      ],
-      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/blender/runimage/debian/stable/blender:4.3.2-aarch64-linux",
-      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/blender/runimage/debian/stable/blender@sha256:ecf3940a965f483026c4a1ae476a6f68eecad7be9965f06473e569f592693214",
-      "rank": 12
-    },
-    {
-      "pkg": "chromium.nixappimage",
-      "pkg_name": "chromium",
-      "pkg_id": "nixpkgs.ungoogled-chromium",
-      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium?tag=133.0.6943.53-aarch64-linux\u0026download=chromium.png",
-      "description": "Open source web browser from Google, with dependencies on Google web services removed (Ungoogled)",
-      "version": "133.0.6943.53",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/chromium/nixappimage/nixpkgs/ungoogled/chromium/132.0.6834.159-aarch64-linux/chromium.nixappimage",
-      "size": "358 MB",
-      "bsum": "908598a9be110e22948ae48384d6b0311d880a73e6dfe61e48a9ee7d60e30f35",
-      "shasum": "4aca0f3c11f04bc2516aa6bcf942bde122d9c5b2cf0f80f5eb83dc73bfcdf568",
-      "build_date": "2025-02-10T19:01:04Z",
-      "src_urls": [
-        "https://github.com/ungoogled-software/ungoogled-chromium"
-      ],
-      "web_urls": [
-        "https://github.com/ungoogled-software/ungoogled-chromium"
-      ],
-      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/chromium/nixappimage.nixpkgs.ungoogled.yaml",
-      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium?tag=133.0.6943.53-aarch64-linux\u0026download=chromium.log",
-      "provides": "chromium:ungoogled-chromium,chromium==chromium-browser",
-      "notes": [
-        "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
-        "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
-        "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
-        "[PORTABLE] (Works on AnyLinux)"
-      ],
-      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium:133.0.6943.53-aarch64-linux",
-      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium@sha256:4aca0f3c11f04bc2516aa6bcf942bde122d9c5b2cf0f80f5eb83dc73bfcdf568",
-      "rank": 2
-    },
-    {
-      "pkg": "falkon.runimage",
-      "pkg_name": "falkon",
-      "pkg_id": "runimage.alpine.falkon",
-      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/falkon/runimage/alpine/stable/falkon?tag=24.12.2-aarch64-linux\u0026download=falkon.png",
-      "description": "Fast, lightweight web browser based on QtWebEngine",
-      "version": "24.12.2",
-      "size": "256 MB",
-      "bsum": "3344b6ded938ea8a79d47913757cec2d605e38bc9c27bb01ec3b692c5e0d1bc5",
-      "shasum": "16a4921da4be2286aa1415d70ad191762a542e5a7c684ff01e6e024f720955e6",
-      "build_date": "2025-02-13T19:20:32Z",
-      "src_urls": [
-        "https://gitlab.alpinelinux.org/alpine/aports/-/tree/master/community/falkon"
-      ],
-      "web_urls": [
-        "https://apps.kde.org/falkon",
-        "https://invent.kde.org/network/falkon",
-        "https://github.com/KDE/falkon"
-      ],
-      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/falkon/runimage.alpine.stable.yaml",
-      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/falkon/runimage/alpine/stable/falkon?tag=24.12.2-aarch64-linux\u0026download=falkon.log",
-      "provides": "falkon",
-      "notes": [
-        "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
-        "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
-        "[PORTABLE] (Works on AnyLinux)"
-      ],
-      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/falkon/runimage/alpine/stable/falkon:24.12.2-aarch64-linux",
-      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/falkon/runimage/alpine/stable/falkon@sha256:16a4921da4be2286aa1415d70ad191762a542e5a7c684ff01e6e024f720955e6",
-      "rank": 35
-    },
-    {
-      "pkg": "git.runimage",
-      "pkg_name": "git",
-      "pkg_id": "runimage.alpine.git",
-      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/git/runimage/alpine/stable/git?tag=2.48.1-aarch64-linux\u0026download=git.png",
-      "description": "Fast, scalable, distributed revision control system",
-      "version": "2.48.1",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/git/runimage/alpine/stable/git/2.48.1-aarch64-linux/git.runimage",
-      "size": "39 MB",
-      "bsum": "e6ea580d2d66336b7b393f892b5a92e07ef6ab28043a6e6d93330a433b8de593",
-      "shasum": "bac4e0c8e87884ef44cb67c9a4b5dbf3cc3723a86968f062e01f36665ca0747e",
-      "build_date": "2025-02-01T19:25:13Z",
-      "src_urls": [
-        "https://github.com/git/git"
-      ],
-      "web_urls": [
-        "https://git-scm.com/"
-      ],
-      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/git/runimage.alpine.stable.yaml",
-      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/git/runimage/alpine/stable/git?tag=2.48.1-aarch64-linux\u0026download=git.log",
-      "provides": "git==git-add,git==git-am,git==git-annotate,git==git-apply,git==git-archive,git==git-bisect,git==git-blame,git==git-branch,git==git-bugreport,git==git-bundle,git==git-cat-file,git==git-check-attr,git==git-check-ignore,git==git-check-mailmap,git==git-checkout,git==git-checkout-index,git==git-checkout--worker,git==git-check-ref-format,git==git-cherry,git==git-cherry-pick,git==git-clean,git==git-clone,git==git-column,git==git-commit,git==git-commit-graph,git==git-commit-tree,git==git-config,git==git-count-objects,git==git-credential,git==git-credential-cache,git==git-credential-cache--daemon,git==git-credential-store,git==git-describe,git==git-diagnose,git==git-diff,git==git-diff-files,git==git-diff-index,git==git-difftool,git==git-difftool--helper,git==git-diff-tree,git==git-fast-export,git==git-fetch,git==git-fetch-pack,git==git-filter-branch,git==git-fmt-merge-msg,git==git-for-each-ref,git==git-for-each-repo,git==git-format-patch,git==git-fsck,git==git-fsck-objects,git==git-fsmonitor--daemon,git==git-gc,git==git-get-tar-commit-id,git==git-grep,git==git-hash-object,git==git-help,git==git-hook,git==git-http-fetch,git==git-http-push,git==git-index-pack,git==git-init,git==git-init-db,git==git-interpret-trailers,git==git-log,git==git-ls-files,git==git-ls-remote,git==git-ls-tree,git==git-mailinfo,git==git-mailsplit,git==git-maintenance,git==git-merge,git==git-merge-base,git==git-merge-file,git==git-merge-index,git==git-merge-octopus,git==git-merge-one-file,git==git-merge-ours,git==git-merge-recursive,git==git-merge-resolve,git==git-merge-subtree,git==git-mergetool,git==git-mergetool--lib,git==git-merge-tree,git==git-mktag,git==git-mktree,git==git-multi-pack-index,git==git-mv,git==git-name-rev,git==git-notes,git==git-pack-objects,git==git-pack-redundant,git==git-pack-refs,git==git-patch-id,git==git-prune,git==git-prune-packed,git==git-pull,git==git-push,git==git-quiltimport,git==git-range-diff,git==git-read-tree,git==git-rebase,git==git-receive-pack,git==git-reflog,git==git-refs,git==git-remote,git==git-remote-ext,git==git-remote-fd,git==git-remote-ftp,git==git-remote-ftps,git==git-remote-http,git==git-remote-https,git==git-repack,git==git-replace,git==git-replay,git==git-request-pull,git==git-rerere,git==git-reset,git==git-restore,git==git-revert,git==git-rev-list,git==git-rev-parse,git==git-rm,git==git-send-pack,git==git-shell,git==git-sh-i18n,git==git-sh-i18n--envsubst,git==git-shortlog,git==git-show,git==git-show-branch,git==git-show-index,git==git-show-ref,git==git-sh-setup,git==git-sparse-checkout,git==git-stage,git==git-stash,git==git-status,git==git-stripspace,git==git-submodule,git==git-submodule--helper,git==git-switch,git==git-symbolic-ref,git==git-tag,git==git-unpack-file,git==git-unpack-objects,git==git-update-index,git==git-update-ref,git==git-update-server-info,git==git-upload-archive,git==git-upload-pack,git==git-var,git==git-verify-commit,git==git-verify-pack,git==git-verify-tag,git==git-version,git==git-web--browse,git==git-whatchanged,git==git-worktree,git==git-write-tree",
-      "notes": [
-        "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
-        "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
-        "[PORTABLE] (Works on AnyLinux)",
-        "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-      ],
-      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/git/runimage/alpine/stable/git:2.48.1-aarch64-linux",
-      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/git/runimage/alpine/stable/git@sha256:bac4e0c8e87884ef44cb67c9a4b5dbf3cc3723a86968f062e01f36665ca0747e",
-      "rank": 19
-    },
-    {
-      "pkg": "vesktop.appimage",
-      "pkg_name": "vesktop",
-      "pkg_id": "github.com.Vencord.Vesktop",
-      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop?tag=v1.5.5-aarch64-linux\u0026download=vesktop.png",
-      "description": "A custom Discord App aiming to give you better performance and improve linux support",
-      "version": "v1.5.5",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/vesktop/appimage/official/stable/vesktop/v1.5.5-aarch64-linux/vesktop.appimage",
-      "size": "88 MB",
-      "bsum": "23ea2c16182780f2e461e5862eb0561f9bcc14781f28f3a530af951edcc961db",
-      "shasum": "29012bac525d3c58a5920c9b4e51411c64cc9229d8e4c68fcc1894ee7f9ad0e6",
-      "build_date": "2025-02-10T19:08:34Z",
-      "src_urls": [
-        "https://github.com/Vencord/Vesktop"
-      ],
-      "web_urls": [
-        "https://github.com/Vencord/Vesktop"
-      ],
-      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/vesktop/appimage.official.stable.yaml",
-      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop?tag=v1.5.5-aarch64-linux\u0026download=vesktop.log",
-      "provides": "vesktop",
-      "notes": [
-        "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/Vencord/Vesktop"
-      ],
-      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop:v1.5.5-aarch64-linux",
-      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop@sha256:29012bac525d3c58a5920c9b4e51411c64cc9229d8e4c68fcc1894ee7f9ad0e6",
-      "rank": 4
-    },
-    {
-      "pkg": "chromium.nixappimage",
-      "pkg_name": "chromium",
-      "pkg_id": "nixpkgs.chromium",
-      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium?tag=133.0.6943.53-aarch64-linux\u0026download=chromium.png",
-      "description": "Open source web browser from Google (Stable)",
-      "version": "133.0.6943.53",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/chromium/nixappimage/nixpkgs/stable/chromium/133.0.6943.53-aarch64-linux/chromium.nixappimage",
-      "size": "356 MB",
-      "bsum": "f6f069adbf255a3c13e4bb1b40f3b7202cfe0bb001c013d5e23a5b744bedb65d",
-      "shasum": "678bd18ca997e4eed698900abce8d702eab3b06e1a0eeb3ffb652c894de13a7e",
-      "build_date": "2025-02-08T19:07:12Z",
-      "src_urls": [
-        "https://github.com/chromium/chromium"
-      ],
-      "web_urls": [
-        "https://www.chromium.org",
-        "https://chromium.googlesource.com/chromium/src",
-        "https://github.com/chromium/chromium"
-      ],
-      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/chromium/nixappimage.nixpkgs.stable.yaml",
-      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium?tag=133.0.6943.53-aarch64-linux\u0026download=chromium.log",
-      "provides": "chromium==chromium-browser",
-      "notes": [
-        "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
-        "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
-        "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
-        "[PORTABLE] (Works on AnyLinux)"
-      ],
-      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium:133.0.6943.53-aarch64-linux",
-      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium@sha256:678bd18ca997e4eed698900abce8d702eab3b06e1a0eeb3ffb652c894de13a7e",
-      "rank": 3
-    },
-    {
-      "pkg": "krita.runimage",
-      "pkg_name": "krita",
-      "pkg_id": "runimage.alpine.krita",
-      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/krita/runimage/alpine/stable/krita?tag=5.2.9-aarch64-linux\u0026download=krita.png",
-      "description": "A free and open source painting application",
-      "version": "5.2.9",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/krita/runimage/alpine/stable/krita/5.2.9-aarch64-linux/krita.runimage",
-      "size": "199 MB",
-      "bsum": "853126ca467bab7543ee74accf87d1fa3328d24b57bad4e68433cd4118b82da0",
-      "shasum": "7b480ef1c8316e2dad3d60bae7c38445bda88471325e0c72f45656b105871042",
-      "build_date": "2025-02-03T15:06:09Z",
-      "src_urls": [
-        "https://gitlab.alpinelinux.org/alpine/aports/-/tree/master/community/krita"
-      ],
-      "web_urls": [
-        "https://krita.org",
-        "https://invent.kde.org/graphics/krita"
-      ],
-      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/krita/runimage.alpine.stable.yaml",
-      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/krita/runimage/alpine/stable/krita?tag=5.2.9-aarch64-linux\u0026download=krita.log",
-      "provides": "krita",
-      "notes": [
-        "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
-        "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
-        "[PORTABLE] (Works on AnyLinux)"
-      ],
-      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/krita/runimage/alpine/stable/krita:5.2.9-aarch64-linux",
-      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/krita/runimage/alpine/stable/krita@sha256:7b480ef1c8316e2dad3d60bae7c38445bda88471325e0c72f45656b105871042",
-      "rank": 21
-    },
-    {
-      "pkg": "neovim.nixappimage",
-      "pkg_name": "neovim",
-      "pkg_id": "nixpkgs.neovim",
-      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/neovim/nixappimage/nixpkgs/stable/neovim?tag=0.10.4-aarch64-linux\u0026download=neovim.png",
-      "description": "Vim text editor fork focused on extensibility and agility",
-      "version": "0.10.4",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/neovim/nixappimage/nixpkgs/stable/neovim/0.10.4-aarch64-linux/neovim.nixappimage",
-      "size": "31 MB",
-      "bsum": "04aaab1fc993de9b33fdeda9329752630e315b5a83abc9f7053f8bb01d13b712",
-      "shasum": "0afda49629c7b1fe1484d486b10a7e8cc735d6b29fd4878f02b5ac5ade12af4e",
-      "build_date": "2025-02-01T19:32:45Z",
-      "src_urls": [
-        "https://github.com/neovim/neovim"
-      ],
-      "web_urls": [
-        "https://neovim.io",
-        "https://neovim.org"
-      ],
-      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/neovim/nixappimage.nixpkgs.stable.yaml",
-      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/neovim/nixappimage/nixpkgs/stable/neovim?tag=0.10.4-aarch64-linux\u0026download=neovim.log",
-      "provides": "neovim=\u003envim",
-      "notes": [
-        "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
-        "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
-        "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
-        "[PORTABLE] (Works on AnyLinux)"
-      ],
-      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/neovim/nixappimage/nixpkgs/stable/neovim:0.10.4-aarch64-linux",
-      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/neovim/nixappimage/nixpkgs/stable/neovim@sha256:0afda49629c7b1fe1484d486b10a7e8cc735d6b29fd4878f02b5ac5ade12af4e",
-      "rank": 6
-    },
-    {
-      "pkg": "zen-browser.appimage",
-      "pkg_name": "zen-browser",
-      "pkg_id": "github.com.zen-browser.desktop.stable",
-      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.7.6b-aarch64-linux\u0026download=zen-browser.png",
-      "description": "Performance oriented Firefox-based web browser",
-      "version": "1.7.6b",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/zen-browser/appimage/official/stable/zen-browser/1.7.5b-aarch64-linux/zen-browser.appimage",
-      "size": "97 MB",
-      "bsum": "b8d626dc6835d389e4276e3aebb61f30b367e4a799d6fd07bbbbf0849553686e",
-      "shasum": "2b9dca6ff106cc6dddc4f6f5514be43fac692bdae78b4acd0ea337c44e79287a",
-      "build_date": "2025-02-09T18:56:57Z",
-      "src_urls": [
-        "https://github.com/zen-browser/desktop"
-      ],
-      "web_urls": [
-        "https://zen-browser.app",
-        "https://github.com/zen-browser/desktop"
-      ],
-      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.stable.yaml",
-      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.7.6b-aarch64-linux\u0026download=zen-browser.log",
-      "provides": "zen-browser==zen",
-      "notes": [
-        "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop"
-      ],
-      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser:1.7.6b-aarch64-linux",
-      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser@sha256:2b9dca6ff106cc6dddc4f6f5514be43fac692bdae78b4acd0ea337c44e79287a",
-      "rank": 31
+        "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/suchnsuch/Tangent"
+      ],
+      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent:0.9.0-alpha.7-aarch64-linux",
+      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent@sha256:be790e46abb005b6708babb268cbe59fe2ce63849fb8a1790478327eeb791df4",
+      "rank": 16
     }
   ]
 }
