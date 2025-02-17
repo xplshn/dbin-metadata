@@ -234,7 +234,7 @@
       ],
       "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx:1.2.357-x86_64-linux",
       "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx@sha256:d5ccb6d775a6b657814a37cba78d5d77273cb31ced848a1e3866b01df4bde017",
-      "rank": 123
+      "rank": 122
     },
     {
       "pkg": "ryujinx.appimage",
@@ -243,6 +243,7 @@
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx?tag=1.2.81-x86_64-linux\u0026download=ryujinx.svg",
       "description": "Nintendo Switch Emulator",
       "version": "1.2.81",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/ryujinx/appimage/official/stable/ryujinx/1.2.81-x86_64-linux/ryujinx.appimage",
       "size": "30 MB",
       "bsum": "1124866004c803549e81c65c94ff30351cb18b9836750d92cbbe63bfaee08a83",
       "shasum": "bdb7e246bb9136940fc00b6578322ac51c1ed92bb8933310df262192372c24d8",
@@ -261,7 +262,7 @@
       ],
       "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx:1.2.81-x86_64-linux",
       "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx@sha256:bdb7e246bb9136940fc00b6578322ac51c1ed92bb8933310df262192372c24d8",
-      "rank": 122
+      "rank": 123
     },
     {
       "pkg": "amdgpu_top.appimage",
@@ -298,7 +299,7 @@
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/vscodium/appimage/official/stable/vscodium?tag=1.97.2.25045-x86_64-linux\u0026download=vscodium.png",
       "description": "Visual Studio Code without MS branding/telemetry/licensing",
       "version": "1.97.2.25045",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/vscodium/appimage/official/stable/vscodium/1.97.0.25037-x86_64-linux/vscodium.appimage",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/vscodium/appimage/official/stable/vscodium/1.97.2.25045-x86_64-linux/vscodium.appimage",
       "size": "113 MB",
       "bsum": "c150189d7429557378477de41e3792fb624f05dc54d0756251e367dab6082141",
       "shasum": "d94388589fde7687b9a49a43d02d2c975e17da77d42731c5883bd0b3e4ecbd9f",
@@ -527,7 +528,7 @@
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/akuse/appimage/official/stable/akuse?tag=1.10.1-x86_64-linux\u0026download=akuse.png",
       "description": "Simple and easy to use anime streaming desktop app without ads",
       "version": "1.10.1",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/akuse/appimage/official/stable/akuse/1.9.0-x86_64-linux/akuse.appimage",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/akuse/appimage/official/stable/akuse/1.10.1-x86_64-linux/akuse.appimage",
       "size": "87 MB",
       "bsum": "3550eac0ac82b0f39c638377bb6ea2372af57097b285229e986b88dccc7600e1",
       "shasum": "2c93bcfd250dffacf3fe792708f70f77a9fa1f8103e974dc39725138f1eba959",
@@ -583,7 +584,7 @@
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/altair/appimage/official/stable/altair?tag=v8.1.5-x86_64-linux\u0026download=altair.png",
       "description": "A beautiful feature-rich GraphQL Client",
       "version": "v8.1.5",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/altair/appimage/official/stable/altair/v8.1.4-x86_64-linux/altair.appimage",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/altair/appimage/official/stable/altair/v8.1.5-x86_64-linux/altair.appimage",
       "size": "154 MB",
       "bsum": "696b54c86393d508cf0bba2482bd1c9e9b1bf26be13eda4be87b440eb78afbce",
       "shasum": "19b5159f4367514068292f91b0889ab2bda474ef09b1bd9332d43a1b151b02b2",
@@ -981,7 +982,7 @@
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/spotify/appimage/ivan-hc/stable/spotify?tag=1.2.56.502.6824-x86_64-linux\u0026download=spotify.png",
       "description": "A proprietary music streaming service",
       "version": "1.2.56.502.6824",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/spotify/appimage/ivan-hc/stable/spotify/1.2.53.440.72582-x86_64-linux/spotify.appimage",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/spotify/appimage/ivan-hc/stable/spotify/1.2.56.502.6824-x86_64-linux/spotify.appimage",
       "size": "128 MB",
       "bsum": "03800c9cc5924d83b14995af24884f06c16faf375d4cfe7be00a4a153911e605",
       "shasum": "b59a79cc6ed739256e9df19351b7de6870b6ca1f55bce1ea67d3945bb141692b",
@@ -1038,7 +1039,7 @@
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/signal-desktop/appimage/karo-solutions/stable/signal-desktop?tag=v7.42.0-x86_64-linux\u0026download=signal-desktop.png",
       "description": "Private, simple, and secure messenger",
       "version": "v7.42.0",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/signal-desktop/appimage/karo-solutions/stable/signal-desktop/v7.41.0-x86_64-linux/signal-desktop.appimage",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/signal-desktop/appimage/karo-solutions/stable/signal-desktop/v7.42.0-x86_64-linux/signal-desktop.appimage",
       "size": "148 MB",
       "bsum": "109bd84b689a796c005bfa9f9623bf6f7bf4aa623b4900a10a4fe20cbc25f7d9",
       "shasum": "dea3ef380eaaa66f7a32f12440d13c64d15b68c77c45616b8de7e0aa5d63f8bb",
@@ -1087,64 +1088,6 @@
       "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/melonds/appimage/official/stable/melonds:1.0rc-x86_64-linux",
       "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/melonds/appimage/official/stable/melonds@sha256:b4b57e79ad317f8590adeff5bf73233d312886e6c726931e653033c743eb8371",
       "rank": 141
-    },
-    {
-      "pkg": "player432hz/powerliminalsplayer.appimage",
-      "pkg_name": "powerliminalsplayer",
-      "pkg_id": "github.com.mysteryx93.HanumanInstituteApps",
-      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/powerliminalsplayer?tag=v3.3.2-x86_64-linux\u0026download=powerliminalsplayer.svg",
-      "description": "Plays multiple audios simultaneously at varying speeds [player432hz]",
-      "version": "v3.3.2",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/player432hz/appimage/official/stable/powerliminalsplayer/v3.3.2-x86_64-linux/player432hz.appimage",
-      "size": "31 MB",
-      "bsum": "fc0ff685f8ea016f38122d56798543f143b67704ae539bce081dd197e94c4884",
-      "shasum": "840c5c8ad8d0a7bc5e8daa166dd56259e20b20dda0cc4e7868d1ce70f0c9e9cf",
-      "build_date": "2025-01-26T22:57:44Z",
-      "src_urls": [
-        "https://github.com/mysteryx93/HanumanInstituteApps"
-      ],
-      "web_urls": [
-        "https://github.com/mysteryx93/HanumanInstituteApps",
-        "https://github.com/mysteryx93/HanumanInstituteApps/wiki"
-      ],
-      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/player432hz/appimage.official.stable.yaml",
-      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/powerliminalsplayer?tag=v3.3.2-x86_64-linux\u0026download=powerliminalsplayer.log",
-      "provides": "converter432hz==Converter432Hz,player432hz==Player432Hz,powerliminalsplayer==PowerliminalsPlayer,yangdownloader==YangDownloader",
-      "notes": [
-        "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/mysteryx93/HanumanInstituteApps"
-      ],
-      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/powerliminalsplayer:v3.3.2-x86_64-linux",
-      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/powerliminalsplayer@sha256:840c5c8ad8d0a7bc5e8daa166dd56259e20b20dda0cc4e7868d1ce70f0c9e9cf",
-      "rank": 45
-    },
-    {
-      "pkg": "player432hz.appimage",
-      "pkg_name": "player432hz",
-      "pkg_id": "github.com.mysteryx93.HanumanInstituteApps",
-      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/player432hz?tag=v3.3.2-x86_64-linux\u0026download=player432hz.svg",
-      "description": "Plays music in 432Hz [player432hz]",
-      "version": "v3.3.2",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/player432hz/appimage/official/stable/player432hz/v3.3.2-x86_64-linux/player432hz.appimage",
-      "size": "23 MB",
-      "bsum": "ea6fb7c680779492bc5843566955b5f0023a3bde7df144ea6fe16d4efbf51d2a",
-      "shasum": "c66dbfc5eed92833648ea2759ab69e6ab221419f7f6d635a3e9414bfbb0957e2",
-      "build_date": "2025-01-12T02:57:11Z",
-      "src_urls": [
-        "https://github.com/mysteryx93/HanumanInstituteApps"
-      ],
-      "web_urls": [
-        "https://github.com/mysteryx93/HanumanInstituteApps",
-        "https://github.com/mysteryx93/HanumanInstituteApps/wiki"
-      ],
-      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/player432hz/appimage.official.stable.yaml",
-      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/player432hz?tag=v3.3.2-x86_64-linux\u0026download=player432hz.log",
-      "provides": "converter432hz==Converter432Hz,player432hz==Player432Hz,powerliminalsplayer==PowerliminalsPlayer,yangdownloader==YangDownloader",
-      "notes": [
-        "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/mysteryx93/HanumanInstituteApps"
-      ],
-      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/player432hz:v3.3.2-x86_64-linux",
-      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/player432hz@sha256:c66dbfc5eed92833648ea2759ab69e6ab221419f7f6d635a3e9414bfbb0957e2",
-      "rank": 48
     },
     {
       "pkg": "player432hz/converter432hz.appimage",
@@ -1202,7 +1145,65 @@
       ],
       "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/yangdownloader:v3.3.2-x86_64-linux",
       "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/yangdownloader@sha256:96f5bffe1a38f9e3e597129dc91117ba649af52c2393d62fde1d882dbaaf1698",
+      "rank": 45
+    },
+    {
+      "pkg": "player432hz.appimage",
+      "pkg_name": "player432hz",
+      "pkg_id": "github.com.mysteryx93.HanumanInstituteApps",
+      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/player432hz?tag=v3.3.2-x86_64-linux\u0026download=player432hz.svg",
+      "description": "Plays music in 432Hz [player432hz]",
+      "version": "v3.3.2",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/player432hz/appimage/official/stable/player432hz/v3.3.2-x86_64-linux/player432hz.appimage",
+      "size": "23 MB",
+      "bsum": "ea6fb7c680779492bc5843566955b5f0023a3bde7df144ea6fe16d4efbf51d2a",
+      "shasum": "c66dbfc5eed92833648ea2759ab69e6ab221419f7f6d635a3e9414bfbb0957e2",
+      "build_date": "2025-01-12T02:57:11Z",
+      "src_urls": [
+        "https://github.com/mysteryx93/HanumanInstituteApps"
+      ],
+      "web_urls": [
+        "https://github.com/mysteryx93/HanumanInstituteApps",
+        "https://github.com/mysteryx93/HanumanInstituteApps/wiki"
+      ],
+      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/player432hz/appimage.official.stable.yaml",
+      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/player432hz?tag=v3.3.2-x86_64-linux\u0026download=player432hz.log",
+      "provides": "converter432hz==Converter432Hz,player432hz==Player432Hz,powerliminalsplayer==PowerliminalsPlayer,yangdownloader==YangDownloader",
+      "notes": [
+        "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/mysteryx93/HanumanInstituteApps"
+      ],
+      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/player432hz:v3.3.2-x86_64-linux",
+      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/player432hz@sha256:c66dbfc5eed92833648ea2759ab69e6ab221419f7f6d635a3e9414bfbb0957e2",
       "rank": 47
+    },
+    {
+      "pkg": "player432hz/powerliminalsplayer.appimage",
+      "pkg_name": "powerliminalsplayer",
+      "pkg_id": "github.com.mysteryx93.HanumanInstituteApps",
+      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/powerliminalsplayer?tag=v3.3.2-x86_64-linux\u0026download=powerliminalsplayer.svg",
+      "description": "Plays multiple audios simultaneously at varying speeds [player432hz]",
+      "version": "v3.3.2",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/player432hz/appimage/official/stable/powerliminalsplayer/v3.3.2-x86_64-linux/player432hz.appimage",
+      "size": "31 MB",
+      "bsum": "fc0ff685f8ea016f38122d56798543f143b67704ae539bce081dd197e94c4884",
+      "shasum": "840c5c8ad8d0a7bc5e8daa166dd56259e20b20dda0cc4e7868d1ce70f0c9e9cf",
+      "build_date": "2025-01-26T22:57:44Z",
+      "src_urls": [
+        "https://github.com/mysteryx93/HanumanInstituteApps"
+      ],
+      "web_urls": [
+        "https://github.com/mysteryx93/HanumanInstituteApps",
+        "https://github.com/mysteryx93/HanumanInstituteApps/wiki"
+      ],
+      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/player432hz/appimage.official.stable.yaml",
+      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/powerliminalsplayer?tag=v3.3.2-x86_64-linux\u0026download=powerliminalsplayer.log",
+      "provides": "converter432hz==Converter432Hz,player432hz==Player432Hz,powerliminalsplayer==PowerliminalsPlayer,yangdownloader==YangDownloader",
+      "notes": [
+        "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/mysteryx93/HanumanInstituteApps"
+      ],
+      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/powerliminalsplayer:v3.3.2-x86_64-linux",
+      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/powerliminalsplayer@sha256:840c5c8ad8d0a7bc5e8daa166dd56259e20b20dda0cc4e7868d1ce70f0c9e9cf",
+      "rank": 48
     },
     {
       "pkg": "neovim.appimage",
@@ -1240,6 +1241,7 @@
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/citron/appimage/pkgforge-dev/stable/citron?tag=20250209-150600-x86_64-linux\u0026download=citron.png",
       "description": "Nintendo Switch emulator forked from yuzu",
       "version": "20250209-150600",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/citron/appimage/pkgforge-dev/stable/citron/20250209-150600-x86_64-linux/citron.appimage",
       "size": "140 MB",
       "bsum": "d1bc1cde900a4b7c12f08851f2ffac92cec695c49e4676ccbb4057716ae0148f",
       "shasum": "d28713cc1cca87216228c7caa33385e3a7bb33743d0af4bbe6168acb83082f16",
@@ -1260,7 +1262,7 @@
       ],
       "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/citron/appimage/pkgforge-dev/stable/citron:20250209-150600-x86_64-linux",
       "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/citron/appimage/pkgforge-dev/stable/citron@sha256:d28713cc1cca87216228c7caa33385e3a7bb33743d0af4bbe6168acb83082f16",
-      "rank": 128
+      "rank": 129
     },
     {
       "pkg": "citron.appimage",
@@ -1269,6 +1271,7 @@
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/citron/appimage/pkgforge-dev/v3/citron?tag=20250209-150600-x86_64-linux\u0026download=citron.png",
       "description": "Nintendo Switch emulator forked from yuzu (x86-64-v3)",
       "version": "20250209-150600",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/citron/appimage/pkgforge-dev/v3/citron/20250209-150600-x86_64-linux/citron.appimage",
       "size": "140 MB",
       "bsum": "0f050e51ffb0b7fcb9df7b62698f986eb5c45e71c4906edd2560b1280b49e6cf",
       "shasum": "70d4530b9c282787cb34123d1582e1ca040ef2d161595cb9ef0d8b9154614c75",
@@ -1290,7 +1293,7 @@
       ],
       "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/citron/appimage/pkgforge-dev/v3/citron:20250209-150600-x86_64-linux",
       "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/citron/appimage/pkgforge-dev/v3/citron@sha256:70d4530b9c282787cb34123d1582e1ca040ef2d161595cb9ef0d8b9154614c75",
-      "rank": 129
+      "rank": 128
     },
     {
       "pkg": "cromite.appimage",
@@ -1299,7 +1302,7 @@
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/cromite/appimage/pkgforge-dev/stable/cromite?tag=v133.0.6943.99-x86_64-linux\u0026download=cromite.png",
       "description": "A Bromite fork with ad blocking and privacy enhancements",
       "version": "v133.0.6943.99",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/cromite/appimage/pkgforge-dev/stable/cromite/v132.0.6834.163-x86_64-linux/cromite.appimage",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/cromite/appimage/pkgforge-dev/stable/cromite/v133.0.6943.99-x86_64-linux/cromite.appimage",
       "size": "217 MB",
       "bsum": "6212e50eeed29375a3d7b355dbe2935697d0523539a1f3bc5dc8c1836d32ef2e",
       "shasum": "87090576c106359d6faf187e793c5cef5d5e397aed82ed354fd8c9402f7065ab",
@@ -1421,7 +1424,7 @@
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/torzu/appimage/pkgforge-dev/stable/torzu?tag=20250216-151949-x86_64-linux\u0026download=torzu.png",
       "description": "Fork of yuzu, an open-source Nintendo Switch emulator",
       "version": "20250216-151949",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/torzu/appimage/pkgforge-dev/stable/torzu/r27204.6ead42919-x86_64-linux/torzu.appimage",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/torzu/appimage/pkgforge-dev/stable/torzu/20250216-151949-x86_64-linux/torzu.appimage",
       "size": "128 MB",
       "bsum": "7cf2f9e1ca92cfdd63602b5c0a7b7ff63be437d7b00c8d56010a483fcb583bcc",
       "shasum": "8e4a077c73123d71556a29e48055ed0d94af67ab635d71a8f3e801413db763ef",
@@ -1450,6 +1453,7 @@
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/torzu/appimage/pkgforge-dev/v3/torzu?tag=20250216-151949-x86_64-linux\u0026download=torzu.png",
       "description": "Fork of yuzu, an open-source Nintendo Switch emulator (x86-64-v3)",
       "version": "20250216-151949",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/torzu/appimage/pkgforge-dev/v3/torzu/20250216-151949-x86_64-linux/torzu.appimage",
       "size": "128 MB",
       "bsum": "448fa584d3d753ea9bd9cdb285bb0df2af6ea729125d8bbdffb54d4f01fdc4d4",
       "shasum": "e994aa08add1c99dcf4d91452d9adaaaa0045108a34b70a3ca8adf7643c09a6b",
@@ -1508,7 +1512,7 @@
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/mpv/appimage/pkgforge-dev/stable/mpv?tag=v0.39.0-775-g834f99e46-x86_64-linux\u0026download=mpv.png",
       "description": "General Purpose Command line video player",
       "version": "v0.39.0-775-g834f99e46",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/mpv/appimage/pkgforge-dev/stable/mpv/v0.39.0-756-ge4b64fba9-x86_64-linux/mpv.appimage",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/mpv/appimage/pkgforge-dev/stable/mpv/v0.39.0-775-g834f99e46-x86_64-linux/mpv.appimage",
       "size": "35 MB",
       "bsum": "7a455ca9f9c4bb4bbbfac85857651b7e46ff387dbf196d1ec1d1bd0a357fcb31",
       "shasum": "04831b092167b2fa56560ef2e0afac8f503f1016487403ea93da06fe8b5f1d06",
@@ -1570,7 +1574,7 @@
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/strawberry/appimage/pkgforge-dev/stable/strawberry?tag=1.2.7-1-x86_64-linux\u0026download=strawberry.png",
       "description": "A Audio Player and Music Collection Organizer",
       "version": "1.2.7-1",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/strawberry/appimage/pkgforge-dev/stable/strawberry/1.2.6-1-x86_64-linux/strawberry.appimage",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/strawberry/appimage/pkgforge-dev/stable/strawberry/1.2.7-1-x86_64-linux/strawberry.appimage",
       "size": "88 MB",
       "bsum": "4defc935fed998f9cde77788112266ce6f0986da79e843a1ea6531729f19bf7e",
       "shasum": "61c16747c59ad4050fe724183932febc2116286398bb799e5bc04da871f1de51",
@@ -1601,7 +1605,7 @@
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty?tag=v1.1.2_1-x86_64-linux\u0026download=ghostty.png",
       "description": "Fast, native, feature-rich terminal emulator pushing modern features",
       "version": "v1.1.2+1",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/ghostty/appimage/psadi/stable/ghostty/v1.1.2-x86_64-linux/ghostty.appimage",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/ghostty/appimage/psadi/stable/ghostty/v1.1.2_1-x86_64-linux/ghostty.appimage",
       "size": "77 MB",
       "bsum": "c0e104f80db130a9a98ab23e350b49066c009b357e8270e953ddbf8725b95070",
       "shasum": "fee97835b42abd7e5c0675917d40c577b1173f330dc7e7ba1815f11c9abe2f59",
@@ -1659,6 +1663,7 @@
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk?tag=1.3.7-x86_64-linux\u0026download=rustdesk.svg",
       "description": "FOSS Remote desktop application",
       "version": "1.3.7",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/rustdesk/appimage/official/stable/rustdesk/1.3.7-x86_64-linux/rustdesk.appimage",
       "size": "65 MB",
       "bsum": "6c3f6ce8b6b86cbf88fe02ddbb895b84bc88c488c125fc0ef66c3230eec9d2c9",
       "shasum": "ee25b8a862da8b771f74b124b1158cfaefe07fb54642ce9cbd8f623f8ef8c131",
@@ -1687,7 +1692,7 @@
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/simplex-desktop/appimage/official/stable/simplex-desktop?tag=v6.2.5-x86_64-linux\u0026download=simplex-desktop.png",
       "description": "Desktop application for SimpleX Chat, A 100% private-by-design chat platform",
       "version": "v6.2.5",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/simplex-desktop/appimage/official/stable/simplex-desktop/v6.2.4-x86_64-linux/simplex-desktop.appimage",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/simplex-desktop/appimage/official/stable/simplex-desktop/v6.2.5-x86_64-linux/simplex-desktop.appimage",
       "size": "257 MB",
       "bsum": "1e439c3aa78887ee38032e5b3640388f5d3d718214288952da372007c971381c",
       "shasum": "ec0ff6160077e52c813b51996a00a1c0dcad167d9a4b33e200505e1e4df5e9bc",
@@ -1737,7 +1742,7 @@
       ],
       "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/brave/appimage/srevinsaju/beta/brave:v1.76.47-x86_64-linux",
       "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/brave/appimage/srevinsaju/beta/brave@sha256:944f3d490c6181f100b446be95148f5204d4ac138e7e49347dbaf83e05baf615",
-      "rank": 31
+      "rank": 32
     },
     {
       "pkg": "brave.appimage",
@@ -1767,7 +1772,7 @@
       ],
       "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/brave/appimage/srevinsaju/nightly/brave:v1.77.1-x86_64-linux",
       "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/brave/appimage/srevinsaju/nightly/brave@sha256:ddc704c0b5c44485ba4621915073ceb9dc5d7560ba6089400ba779b88728b578",
-      "rank": 32
+      "rank": 31
     },
     {
       "pkg": "firefox.appimage",
@@ -1797,7 +1802,7 @@
       ],
       "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/beta/firefox:136.0.20250214091859-x86_64-linux",
       "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/beta/firefox@sha256:a8d5864559eaf7f9cfcaa793cea2988f10892a23a1bc63719e98019492f860b8",
-      "rank": 61
+      "rank": 58
     },
     {
       "pkg": "firefox.appimage",
@@ -1806,7 +1811,7 @@
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/firefox/appimage/srevinsaju/dev/firefox?tag=136.0.20250214091859-x86_64-linux\u0026download=firefox.png",
       "description": "A web browser built from Firefox source tree (DEV)",
       "version": "136.0.20250214091859",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/firefox/appimage/srevinsaju/dev/firefox/135.0.20250124091819-x86_64-linux/firefox.appimage",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/firefox/appimage/srevinsaju/dev/firefox/136.0.20250214091859-x86_64-linux/firefox.appimage",
       "size": "100 MB",
       "bsum": "76d8b44f70be76420c533111871e2a845e971554531d2919b71cea55981fe96c",
       "shasum": "1a3bfb2c839bc6df3ca4eb70c63c42c673b598b7a274cb43492b2bb62680ede7",
@@ -1827,7 +1832,7 @@
       ],
       "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/dev/firefox:136.0.20250214091859-x86_64-linux",
       "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/dev/firefox@sha256:1a3bfb2c839bc6df3ca4eb70c63c42c673b598b7a274cb43492b2bb62680ede7",
-      "rank": 60
+      "rank": 62
     },
     {
       "pkg": "firefox.appimage",
@@ -1866,6 +1871,7 @@
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/firefox/appimage/srevinsaju/nightly/firefox?tag=137.0.20250216085220-x86_64-linux\u0026download=firefox.png",
       "description": "A web browser built from Firefox source tree (Nightly)",
       "version": "137.0.20250216085220",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/firefox/appimage/srevinsaju/nightly/firefox/137.0.20250216085220-x86_64-linux/firefox.appimage",
       "size": "93 MB",
       "bsum": "a6e86fddd35b115ac2c5799da586665ac6ebec9cc6bb6869b89ed3357ba3b45e",
       "shasum": "4bafb563c5dbd6ad2d6b3802d64f0d00e53a49315d6c932ae7504c0fcb3a95a9",
@@ -1886,7 +1892,7 @@
       ],
       "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/nightly/firefox:137.0.20250216085220-x86_64-linux",
       "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/nightly/firefox@sha256:4bafb563c5dbd6ad2d6b3802d64f0d00e53a49315d6c932ae7504c0fcb3a95a9",
-      "rank": 62
+      "rank": 61
     },
     {
       "pkg": "firefox.appimage",
@@ -1916,7 +1922,7 @@
       ],
       "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/stable/firefox:135.0.20250130195129-x86_64-linux",
       "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/stable/firefox@sha256:ab33ff5b568484a40feaa8bf61d90aab132878f40346962c4e63addd97ee011d",
-      "rank": 58
+      "rank": 60
     },
     {
       "pkg": "discord/discord-canary.appimage",
@@ -1954,7 +1960,7 @@
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/discord-ptb/appimage/srevinsaju/ptb/discord-ptb?tag=0.0.131-x86_64-linux\u0026download=discord-ptb.png",
       "description": "All-in-one cross-platform voice and text chat for gamers (Public Test Beta)",
       "version": "0.0.131",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/discord-ptb/appimage/srevinsaju/ptb/discord-ptb/0.0.130-x86_64-linux/discord-ptb.appimage",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/discord-ptb/appimage/srevinsaju/ptb/discord-ptb/0.0.131-x86_64-linux/discord-ptb.appimage",
       "size": "83 MB",
       "bsum": "8e54b739ba30c4ce67e7e41d93cf508d4d80c154cd43213dde981a9445a0adc0",
       "shasum": "98f98868c3cb2522d047fefb8fc8edca16e738f128b1a63fba64cd5e11bb01c7",
@@ -1983,6 +1989,7 @@
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/discord/appimage/srevinsaju/stable/discord?tag=0.0.85-x86_64-linux\u0026download=discord.png",
       "description": "All-in-one cross-platform voice and text chat for gamers",
       "version": "0.0.85",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/discord/appimage/srevinsaju/stable/discord/0.0.85-x86_64-linux/discord.appimage",
       "size": "82 MB",
       "bsum": "c8e162f6fe2b980c3aafdbed5109ea3800ff835c9d57c63416f48afa6558b393",
       "shasum": "42b9d81095f029ea26ec3498e72af870a1a25bf5381ac641c95cc7e702ce17a3",
@@ -2126,7 +2133,7 @@
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/escrcpy/appimage/official/stable/escrcpy?tag=v1.28.6-x86_64-linux\u0026download=escrcpy.png",
       "description": "Graphical Scrcpy to display and control Android, devices",
       "version": "v1.28.6",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/escrcpy/appimage/official/stable/escrcpy/v1.28.4-x86_64-linux/escrcpy.appimage",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/escrcpy/appimage/official/stable/escrcpy/v1.28.6-x86_64-linux/escrcpy.appimage",
       "size": "238 MB",
       "bsum": "03615aa560e4c318b23fc2557c9c5ea9326d650ac9f29c043baa768481df4e24",
       "shasum": "e31e2be8654e1d78232c441cfb54616e8b3b5e3a3fd0e0e925f2ae5b4b604b1f",
@@ -2230,7 +2237,7 @@
       ],
       "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser:1.0.2-b.5-x86_64-linux",
       "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser@sha256:7da2733c7b6313743ef56a4f9b52e2a787fb44942b85675353e3056825f2d978",
-      "rank": 154
+      "rank": 153
     },
     {
       "pkg": "zen-browser.appimage",
@@ -2259,7 +2266,7 @@
       ],
       "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser:1.7.6b-x86_64-linux",
       "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser@sha256:189bb1a28315ea1df1a1807d840f42685e20ec9508276724e7f862429f3d639a",
-      "rank": 153
+      "rank": 154
     },
     {
       "pkg": "zen-browser.appimage",
@@ -2268,7 +2275,7 @@
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.7.7t_2025-02-16at06_51_50_-x86_64-linux\u0026download=zen-browser.png",
       "description": "Performance oriented Firefox-based web browser (Twilight)",
       "version": "Twilightbuild-1.7.7t(2025-02-16at06:51:50)",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/zen-browser/appimage/official/twilight/zen-browser/Twilightbuild-1.7.7t_2025-02-14at19_14_03_-x86_64-linux/zen-browser.appimage",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/zen-browser/appimage/official/twilight/zen-browser/Twilightbuild-1.7.7t_2025-02-16at06_51_50_-x86_64-linux/zen-browser.appimage",
       "size": "104 MB",
       "bsum": "91b11ec09eabd5e7adc3097a2f7075854432d8052f6d47142c4609673f8381b1",
       "shasum": "d220a55411ac5ab9ebb312e27ab5c720eed4580783e8d90567bf7cc6191e8462",
@@ -2345,7 +2352,7 @@
       ],
       "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/kdenlive/appimage/official/nightly/kdenlive:2025-02-12-x86_64-linux",
       "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/kdenlive/appimage/official/nightly/kdenlive@sha256:e5099aa96aebabebc3230add9f875fab86bde4c300d1f6b1cd8af898395c9f24",
-      "rank": 156
+      "rank": 157
     },
     {
       "pkg": "kdenlive.appimage",
@@ -2354,6 +2361,7 @@
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/kdenlive/appimage/official/stable/kdenlive?tag=24.12.2-x86_64-linux\u0026download=kdenlive.png",
       "description": "FOSS video editor, based on MLT Framework and KDE Frameworks",
       "version": "24.12.2",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/kdenlive/appimage/official/stable/kdenlive/24.12.2-x86_64-linux/kdenlive.appimage",
       "size": "200 MB",
       "bsum": "acadaaa1524815ea6052e9a648adae58ea5dd8fb2cbcc88f65baeae26a38e047",
       "shasum": "3c23fe6046be5ced4a2836f089da9033b6a17f788db04c77ca62f918dee57d3f",
@@ -2373,7 +2381,7 @@
       ],
       "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/kdenlive/appimage/official/stable/kdenlive:24.12.2-x86_64-linux",
       "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/kdenlive/appimage/official/stable/kdenlive@sha256:3c23fe6046be5ced4a2836f089da9033b6a17f788db04c77ca62f918dee57d3f",
-      "rank": 157
+      "rank": 156
     },
     {
       "pkg": "krita.appimage",
@@ -2382,6 +2390,7 @@
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/krita/appimage/official/next/krita?tag=2025-02-15-x86_64-linux\u0026download=krita.png",
       "description": "A free and open source painting application (Alpha/Next)",
       "version": "2025-02-15",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/krita/appimage/official/next/krita/2025-02-15-x86_64-linux/krita.appimage",
       "size": "297 MB",
       "bsum": "f134fd069f1e08748ebf54966e337f822abeea3f7a518cecda58ef998a6a1359",
       "shasum": "d7ace9ace0c211b25b5b6d83fe65eed0951df550bcd1d4268ca4e558d0d50ece",
@@ -2462,7 +2471,7 @@
       ],
       "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/fresh-basic/libreoffice:25.2.1.1-x86_64-linux",
       "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/fresh-basic/libreoffice@sha256:b5cfccc305f9c8ad565460713d256d39977395898403ad263d2867c9568328c7",
-      "rank": 95
+      "rank": 94
     },
     {
       "pkg": "libreoffice.appimage",
@@ -2471,7 +2480,7 @@
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/libreoffice/appimage/official/fresh-full/libreoffice?tag=25.2.1.1-x86_64-linux\u0026download=libreoffice.png",
       "description": "A free and open source painting application (fresh-full)",
       "version": "25.2.1.1",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/libreoffice/appimage/official/fresh-full/libreoffice/25.2.0.3-x86_64-linux/libreoffice.appimage",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/libreoffice/appimage/official/fresh-full/libreoffice/25.2.1.1-x86_64-linux/libreoffice.appimage",
       "size": "372 MB",
       "bsum": "4fcb92fe3bb0347d1c4fe19990c4064abddfd2adf560d6d509a796ac09d16dd4",
       "shasum": "7487730ba551e45f33d64ffff3297981fd717bd858a1891cb5d73dfaa4753403",
@@ -2494,7 +2503,7 @@
       ],
       "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/fresh-full/libreoffice:25.2.1.1-x86_64-linux",
       "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/fresh-full/libreoffice@sha256:7487730ba551e45f33d64ffff3297981fd717bd858a1891cb5d73dfaa4753403",
-      "rank": 93
+      "rank": 98
     },
     {
       "pkg": "libreoffice.appimage",
@@ -2526,7 +2535,7 @@
       ],
       "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/fresh-standard/libreoffice:25.2.1.1-x86_64-linux",
       "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/fresh-standard/libreoffice@sha256:14d55dfe58422fb35a87ca3fb37dce6544766f901a2e8a12c83496d11263a295",
-      "rank": 98
+      "rank": 97
     },
     {
       "pkg": "libreoffice.appimage",
@@ -2590,7 +2599,7 @@
       ],
       "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/still-full/libreoffice:25.2.1.1-x86_64-linux",
       "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/still-full/libreoffice@sha256:6a877186af0326405d21f5793e5841a7bbbae33ca3749ccbe45a6da0885cd689",
-      "rank": 94
+      "rank": 95
     },
     {
       "pkg": "libreoffice.appimage",
@@ -2622,7 +2631,7 @@
       ],
       "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/still-standard/libreoffice:25.2.1.1-x86_64-linux",
       "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/still-standard/libreoffice@sha256:ce341d28188733f9c2db1841581c4ee0d96a57a5c52504141c14e9e4b1d31ce2",
-      "rank": 97
+      "rank": 93
     },
     {
       "pkg": "qbittorrent.appimage",
@@ -2752,7 +2761,7 @@
       ],
       "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium:133.0.6943.53-x86_64-linux",
       "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium@sha256:d727ea3c1dc88044e8ad7423066643efa1f21ab29a35f0f747a93666c24fcda6",
-      "rank": 3
+      "rank": 2
     },
     {
       "pkg": "discord.nixappimage",
@@ -2761,7 +2770,7 @@
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/discord/nixappimage/nixpkgs/stable/discord?tag=0.0.84-x86_64-linux\u0026download=discord.png",
       "description": "All-in-one cross-platform voice and text chat for gamers",
       "version": "0.0.84",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/discord/nixappimage/nixpkgs/stable/discord/0.0.83-x86_64-linux/discord.nixappimage",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/discord/nixappimage/nixpkgs/stable/discord/0.0.84-x86_64-linux/discord.nixappimage",
       "size": "219 MB",
       "bsum": "bdbcb94845ad1359d174e33dc18253229c735d75de5b06b74af1fdc3ff3aaff3",
       "shasum": "8ebee6a8ec7d367d1151fc5788602b7d6fba35f401f6d30441de143c8bee7c80",
@@ -2792,6 +2801,7 @@
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/discord/nixappimage/nixpkgs/canary/discord?tag=0.0.585-x86_64-linux\u0026download=discord.png",
       "description": "All-in-one cross-platform voice and text chat for gamers (Canary)",
       "version": "0.0.585",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/discord/nixappimage/nixpkgs/canary/discord/0.0.585-x86_64-linux/discord.nixappimage",
       "size": "219 MB",
       "bsum": "4fc2211a5a76f07fa772f87be34ff38851a78e528624c45fa276e08f12e5f14a",
       "shasum": "44d04cdb1b6d7f1588efc888600cc2af32fd3253cbd1b8154a80c47010de813d",
@@ -2813,7 +2823,7 @@
       ],
       "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/discord/nixappimage/nixpkgs/canary/discord:0.0.585-x86_64-linux",
       "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/discord/nixappimage/nixpkgs/canary/discord@sha256:44d04cdb1b6d7f1588efc888600cc2af32fd3253cbd1b8154a80c47010de813d",
-      "rank": 56
+      "rank": 55
     },
     {
       "pkg": "discord.nixappimage",
@@ -2844,7 +2854,7 @@
       ],
       "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/discord/nixappimage/nixpkgs/development/discord:0.0.68-x86_64-linux",
       "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/discord/nixappimage/nixpkgs/development/discord@sha256:b806f5e0c4a0333c45c20e3de4260b85a3199a85598e2f1a54c600069640abe1",
-      "rank": 57
+      "rank": 56
     },
     {
       "pkg": "discord.nixappimage",
@@ -2853,7 +2863,7 @@
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/discord/nixappimage/nixpkgs/ptb/discord?tag=0.0.130-x86_64-linux\u0026download=discord.png",
       "description": "All-in-one cross-platform voice and text chat for gamers (Public Test Beta)",
       "version": "0.0.130",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/discord/nixappimage/nixpkgs/ptb/discord/0.0.128-x86_64-linux/discord.nixappimage",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/discord/nixappimage/nixpkgs/ptb/discord/0.0.130-x86_64-linux/discord.nixappimage",
       "size": "219 MB",
       "bsum": "ae36f03680cc7967d9a17879991c6cc4be8ee72a57661a12c2450c5008a56c88",
       "shasum": "af82c25ecf994ae9a57f23da959636f28ac2184c26e5592577bf8d9f9c966535",
@@ -2875,7 +2885,7 @@
       ],
       "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/discord/nixappimage/nixpkgs/ptb/discord:0.0.130-x86_64-linux",
       "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/discord/nixappimage/nixpkgs/ptb/discord@sha256:af82c25ecf994ae9a57f23da959636f28ac2184c26e5592577bf8d9f9c966535",
-      "rank": 55
+      "rank": 57
     },
     {
       "pkg": "flameshot.nixappimage",
@@ -2884,7 +2894,7 @@
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/flameshot/nixappimage/nixpkgs/unstable/flameshot?tag=12.1.0-unstable-2025-02-01-x86_64-linux\u0026download=flameshot.png",
       "description": "Powerful and simple to use screenshot software",
       "version": "12.1.0-unstable-2025-02-01",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/flameshot/nixappimage/nixpkgs/unstable/flameshot/12.1.0-unstable-2025-01-19-x86_64-linux/flameshot.nixappimage",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/flameshot/nixappimage/nixpkgs/unstable/flameshot/12.1.0-unstable-2025-02-01-x86_64-linux/flameshot.nixappimage",
       "size": "98 MB",
       "bsum": "32f876405ef4bc848e68336ad659e4e1ab6007e75e4a10d52d68912c119a4716",
       "shasum": "f42654dbe1a8fda6ab5cd36d91c0a36641e80f5fc3a8bd11ef1630e868d7c5e5",
@@ -3044,7 +3054,7 @@
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop?tag=5.10.7-x86_64-linux\u0026download=telegram-desktop.png",
       "description": "Official desktop version of Telegram messaging app",
       "version": "5.10.7",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop/5.10.5-x86_64-linux/telegram-desktop.nixappimage",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop/5.10.7-x86_64-linux/telegram-desktop.nixappimage",
       "size": "370 MB",
       "bsum": "a14d217787c6a7534c06fd9766ef26b3d5ac1420074c0d71693836324d509f0b",
       "shasum": "f24140521dc744656c742feed8d4f2e562d5a47acfad94f58172836aafcf3e8c",
@@ -3098,7 +3108,7 @@
       ],
       "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium:133.0.6943.53-x86_64-linux",
       "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium@sha256:661bf659843683b99307445f162f18440b6ee76e284bc5b228774d2b05473f94",
-      "rank": 2
+      "rank": 3
     },
     {
       "pkg": "file.appimage",
@@ -3229,7 +3239,7 @@
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/element-desktop/runimage/alpine/stable/element-desktop?tag=1.11.92-x86_64-linux\u0026download=element-desktop.png",
       "description": "A glossy Matrix collaboration client for desktop",
       "version": "1.11.92",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/element-desktop/runimage/alpine/stable/element-desktop/1.11.91-x86_64-linux/element-desktop.runimage",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/element-desktop/runimage/alpine/stable/element-desktop/1.11.92-x86_64-linux/element-desktop.runimage",
       "size": "219 MB",
       "bsum": "170ef616c3590ca3be0b5331af0458c842e7575cac0aff26f8a905ff7c91f30b",
       "shasum": "fbfc720b83c3a7430636fc36466e384d16f25f7f04e85d137a16c4918be6b72c",
@@ -3259,6 +3269,7 @@
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/falkon/runimage/alpine/stable/falkon?tag=24.12.2-x86_64-linux\u0026download=falkon.png",
       "description": "Fast, lightweight web browser based on QtWebEngine",
       "version": "24.12.2",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/falkon/runimage/alpine/stable/falkon/24.12.2-x86_64-linux/falkon.runimage",
       "size": "273 MB",
       "bsum": "73d0f0a5e9c1fbf0c97f6ab8a52926c68408a976e5ca737cbf9b8e72ad083e56",
       "shasum": "2b0eb39348235a08e46f8fc6d29a478acc93590fcbc5236da5f4efa9d1450f22",
@@ -3381,7 +3392,7 @@
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/kdenlive/runimage/alpine/stable/kdenlive?tag=24.12.2-x86_64-linux\u0026download=kdenlive.png",
       "description": "FOSS video editor, based on MLT Framework and KDE Frameworks",
       "version": "24.12.2",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/kdenlive/runimage/alpine/stable/kdenlive/24.12.1-x86_64-linux/kdenlive.runimage",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/kdenlive/runimage/alpine/stable/kdenlive/24.12.2-x86_64-linux/kdenlive.runimage",
       "size": "249 MB",
       "bsum": "a5daa069b7309b67c115c1b922e06459be09e37eaed7037c015dc3cc486f4de0",
       "shasum": "6366b9a3db30c2ad4af517163b4a78e8202cb84ccabb7911892071e6c0c705b4",
@@ -3443,6 +3454,7 @@
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/nmap/runimage/alpine/stable/nmap?tag=7.95-x86_64-linux\u0026download=nmap.png",
       "description": "Network exploration tool and security/port scanner",
       "version": "7.95",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/nmap/runimage/alpine/stable/nmap/7.95-x86_64-linux/nmap.runimage",
       "size": "43 MB",
       "bsum": "0f8394a60c2af3d7596ae39ac2ce852efef6e31e6e823a371c00942f6776da3e",
       "shasum": "a25cccabe40c280f9bc9543bd41d18b7cb1ac04f8f0465885f5ce273df509e74",
@@ -3505,7 +3517,7 @@
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/steam/runimage/archlinux/stable/steam?tag=1.0.0.82-x86_64-linux\u0026download=steam.png",
       "description": "A video game digital distribution service and storefront from Valve",
       "version": "1.0.0.82",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/steam/runimage/archlinux/stable/steam/1.0.0.81-x86_64-linux/steam.runimage",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/steam/runimage/archlinux/stable/steam/1.0.0.82-x86_64-linux/steam.runimage",
       "size": "340 MB",
       "bsum": "0dece8af07ef49ca6bf244eef05dfb77007ebbdc6eb16bedface31e447bfb708",
       "shasum": "64ae0ef0d966d27a5199d1adec134ef230e9aed9d08d628f2212d1c6e9326dee",
@@ -3528,7 +3540,7 @@
       ],
       "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/steam/runimage/archlinux/stable/steam:1.0.0.82-x86_64-linux",
       "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/steam/runimage/archlinux/stable/steam@sha256:64ae0ef0d966d27a5199d1adec134ef230e9aed9d08d628f2212d1c6e9326dee",
-      "rank": 72
+      "rank": 71
     },
     {
       "pkg": "ddnet.runimage",
@@ -3650,7 +3662,7 @@
       ],
       "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/gimp/runimage/cachyos/git/gimp:3.0.0.RC1.r40.0cd0206917-x86_64-linux",
       "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/gimp/runimage/cachyos/git/gimp@sha256:50b9ec779d3c2b0109f685b747048be40edfdcbc018e399e55ed7f037ee2d3a7",
-      "rank": 100
+      "rank": 101
     },
     {
       "pkg": "gimp.runimage",
@@ -3681,7 +3693,7 @@
       ],
       "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/gimp/runimage/cachyos/stable/gimp:2.10.38-x86_64-linux",
       "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/gimp/runimage/cachyos/stable/gimp@sha256:7f6a7c5d0e2ca776c4c84da3a8eeadb0ec9dd92c450bf21ea23c93dd5f58b98c",
-      "rank": 101
+      "rank": 100
     },
     {
       "pkg": "gnome-boxes.runimage",
@@ -3721,7 +3733,7 @@
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/goverlay/runimage/cachyos/git/goverlay?tag=1.2.r9.g514d63d-x86_64-linux\u0026download=goverlay.png",
       "description": "GUI for configuring Vulkan/OpenGL overlays (Git)",
       "version": "1.2.r9.g514d63d",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/goverlay/runimage/cachyos/git/goverlay/1.1.1.r10.g4cd2c3f-x86_64-linux/goverlay.runimage",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/goverlay/runimage/cachyos/git/goverlay/1.2.r9.g514d63d-x86_64-linux/goverlay.runimage",
       "size": "247 MB",
       "bsum": "17ef53441c0ca2f8b2f1724cfd8d7394e2beabe256677596d7e3aa359a818b49",
       "shasum": "44450892ce031136aac68e55795b372577edb2db9f18d22f4866355d9104c0d0",
@@ -4220,7 +4232,7 @@
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/steam/runimage/cachyos/stable/steam?tag=1.0.0.82-x86_64-linux\u0026download=steam.png",
       "description": "A video game digital distribution service and storefront from Valve",
       "version": "1.0.0.82",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/steam/runimage/cachyos/stable/steam/1.0.0.81-x86_64-linux/steam.runimage",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/steam/runimage/cachyos/stable/steam/1.0.0.82-x86_64-linux/steam.runimage",
       "size": "385 MB",
       "bsum": "09757acd75f66f3ef92e7dfe1a453c298825d6ae144770e8ccf0db76844f3c17",
       "shasum": "b410bb06eb34f518b0306c569bd53bea48e942d07f179899208946569f2568fb",
@@ -4243,7 +4255,7 @@
       ],
       "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/steam/runimage/cachyos/stable/steam:1.0.0.82-x86_64-linux",
       "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/steam/runimage/cachyos/stable/steam@sha256:b410bb06eb34f518b0306c569bd53bea48e942d07f179899208946569f2568fb",
-      "rank": 71
+      "rank": 72
     },
     {
       "pkg": "wezterm.runimage",
@@ -4437,6 +4449,7 @@
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ultimmc/runimage/debian/stable/ultimmc?tag=250201T005842-x86_64-linux\u0026download=ultimmc.png",
       "description": "Offline Minecraft launcher",
       "version": "250201T005842",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/ultimmc/runimage/debian/stable/ultimmc/250201T005842-x86_64-linux/ultimmc.runimage",
       "size": "151 MB",
       "bsum": "e7958ed1e397a9472a5690e53631f5943735b988e1bf395f464ef0dd513eb7be",
       "shasum": "e0f998d139821908d026f88b43f5c6f6079cc9e4a659b6b4903da99aef5eb0c3",
