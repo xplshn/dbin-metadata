@@ -1148,35 +1148,6 @@
       "rank": 47
     },
     {
-      "pkg": "player432hz/yangdownloader.appimage",
-      "pkg_name": "yangdownloader",
-      "pkg_id": "github.com.mysteryx93.HanumanInstituteApps",
-      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/yangdownloader?tag=v3.3.2-x86_64-linux\u0026download=yangdownloader.svg",
-      "description": "Downloads best-quality audio and video from YouTube [player432hz]",
-      "version": "v3.3.2",
-      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/player432hz/appimage/official/stable/yangdownloader/v3.3.2-x86_64-linux/player432hz.appimage",
-      "size": "39 MB",
-      "bsum": "f0278c77af1ecbdbdec5080d1844abdbe8c133804987f3f860585b45a15332bf",
-      "shasum": "96f5bffe1a38f9e3e597129dc91117ba649af52c2393d62fde1d882dbaaf1698",
-      "build_date": "2025-01-26T22:57:45Z",
-      "src_urls": [
-        "https://github.com/mysteryx93/HanumanInstituteApps"
-      ],
-      "web_urls": [
-        "https://github.com/mysteryx93/HanumanInstituteApps",
-        "https://github.com/mysteryx93/HanumanInstituteApps/wiki"
-      ],
-      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/player432hz/appimage.official.stable.yaml",
-      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/yangdownloader?tag=v3.3.2-x86_64-linux\u0026download=yangdownloader.log",
-      "provides": "converter432hz==Converter432Hz,player432hz==Player432Hz,powerliminalsplayer==PowerliminalsPlayer,yangdownloader==YangDownloader",
-      "notes": [
-        "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/mysteryx93/HanumanInstituteApps"
-      ],
-      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/yangdownloader:v3.3.2-x86_64-linux",
-      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/yangdownloader@sha256:96f5bffe1a38f9e3e597129dc91117ba649af52c2393d62fde1d882dbaaf1698",
-      "rank": 48
-    },
-    {
       "pkg": "player432hz.appimage",
       "pkg_name": "player432hz",
       "pkg_id": "github.com.mysteryx93.HanumanInstituteApps",
@@ -1204,6 +1175,35 @@
       "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/player432hz:v3.3.2-x86_64-linux",
       "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/player432hz@sha256:c66dbfc5eed92833648ea2759ab69e6ab221419f7f6d635a3e9414bfbb0957e2",
       "rank": 45
+    },
+    {
+      "pkg": "player432hz/yangdownloader.appimage",
+      "pkg_name": "yangdownloader",
+      "pkg_id": "github.com.mysteryx93.HanumanInstituteApps",
+      "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/yangdownloader?tag=v3.3.2-x86_64-linux\u0026download=yangdownloader.svg",
+      "description": "Downloads best-quality audio and video from YouTube [player432hz]",
+      "version": "v3.3.2",
+      "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/player432hz/appimage/official/stable/yangdownloader/v3.3.2-x86_64-linux/player432hz.appimage",
+      "size": "39 MB",
+      "bsum": "f0278c77af1ecbdbdec5080d1844abdbe8c133804987f3f860585b45a15332bf",
+      "shasum": "96f5bffe1a38f9e3e597129dc91117ba649af52c2393d62fde1d882dbaaf1698",
+      "build_date": "2025-01-26T22:57:45Z",
+      "src_urls": [
+        "https://github.com/mysteryx93/HanumanInstituteApps"
+      ],
+      "web_urls": [
+        "https://github.com/mysteryx93/HanumanInstituteApps",
+        "https://github.com/mysteryx93/HanumanInstituteApps/wiki"
+      ],
+      "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/player432hz/appimage.official.stable.yaml",
+      "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/yangdownloader?tag=v3.3.2-x86_64-linux\u0026download=yangdownloader.log",
+      "provides": "converter432hz==Converter432Hz,player432hz==Player432Hz,powerliminalsplayer==PowerliminalsPlayer,yangdownloader==YangDownloader",
+      "notes": [
+        "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/mysteryx93/HanumanInstituteApps"
+      ],
+      "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/yangdownloader:v3.3.2-x86_64-linux",
+      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/yangdownloader@sha256:96f5bffe1a38f9e3e597129dc91117ba649af52c2393d62fde1d882dbaaf1698",
+      "rank": 48
     },
     {
       "pkg": "neovim.appimage",
