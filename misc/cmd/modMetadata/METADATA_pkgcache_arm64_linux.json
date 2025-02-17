@@ -63,7 +63,7 @@
       "rank": 1
     },
     {
-      "pkg": "ryujinx/ryujinx",
+      "pkg": "ryujinx.appimage",
       "pkg_name": "ryujinx",
       "pkg_id": "github.com.Ryubing.Ryujinx.canary",
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx?tag=1.2.357-aarch64-linux\u0026download=ryujinx.svg",
@@ -91,7 +91,7 @@
       "rank": 29
     },
     {
-      "pkg": "ryujinx/ryujinx",
+      "pkg": "ryujinx.appimage",
       "pkg_name": "ryujinx",
       "pkg_id": "github.com.Ryubing.Ryujinx.stable",
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx?tag=1.2.81-aarch64-linux\u0026download=ryujinx.svg",
@@ -176,7 +176,7 @@
       "rank": 15
     },
     {
-      "pkg": "rustdesk/rustdesk",
+      "pkg": "rustdesk.appimage",
       "pkg_name": "rustdesk",
       "pkg_id": "github.com.rustdesk.rustdesk.nightly",
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk?tag=250204T131430-aarch64-linux\u0026download=rustdesk.svg",
@@ -205,7 +205,7 @@
       "rank": 27
     },
     {
-      "pkg": "rustdesk/rustdesk",
+      "pkg": "rustdesk.appimage",
       "pkg_name": "rustdesk",
       "pkg_id": "github.com.rustdesk.rustdesk.stable",
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk?tag=1.3.7-aarch64-linux\u0026download=rustdesk.svg",
@@ -234,7 +234,7 @@
       "rank": 26
     },
     {
-      "pkg": "tangent/tangent",
+      "pkg": "tangent.appimage",
       "pkg_name": "tangent",
       "pkg_id": "github.com.suchnsuch.Tangent",
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/tangent/appimage/official/stable/tangent?tag=0.8.4-aarch64-linux\u0026download=tangent.png",
@@ -263,7 +263,7 @@
       "rank": 17
     },
     {
-      "pkg": "tangent/tangent",
+      "pkg": "tangent.appimage",
       "pkg_name": "tangent",
       "pkg_id": "github.com.suchnsuch.Tangent.alpha",
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent?tag=0.9.0-alpha.7-aarch64-linux\u0026download=tangent.png",
@@ -320,7 +320,7 @@
       "rank": 23
     },
     {
-      "pkg": "zen-browser/zen-browser",
+      "pkg": "zen-browser.appimage",
       "pkg_name": "zen-browser",
       "pkg_id": "github.com.zen-browser.desktop.beta",
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser?tag=1.0.2-b.5-aarch64-linux\u0026download=zen-browser.png",
@@ -349,7 +349,7 @@
       "rank": 40
     },
     {
-      "pkg": "zen-browser/zen-browser",
+      "pkg": "zen-browser.appimage",
       "pkg_name": "zen-browser",
       "pkg_id": "github.com.zen-browser.desktop.stable",
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.7.6b-aarch64-linux\u0026download=zen-browser.png",
@@ -378,7 +378,7 @@
       "rank": 42
     },
     {
-      "pkg": "zen-browser/zen-browser",
+      "pkg": "zen-browser.appimage",
       "pkg_name": "zen-browser",
       "pkg_id": "github.com.zen-browser.desktop.twilight",
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.7.7t_2025-02-16at06_51_50_-aarch64-linux\u0026download=zen-browser.png",
@@ -440,7 +440,7 @@
       "rank": 7
     },
     {
-      "pkg": "chromium/chromium",
+      "pkg": "chromium.nixappimage",
       "pkg_name": "chromium",
       "pkg_id": "nixpkgs.chromium",
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium?tag=133.0.6943.53-aarch64-linux\u0026download=chromium.png",
@@ -665,7 +665,7 @@
       "rank": 10
     },
     {
-      "pkg": "chromium/chromium",
+      "pkg": "chromium.nixappimage",
       "pkg_name": "chromium",
       "pkg_id": "nixpkgs.ungoogled-chromium",
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium?tag=133.0.6943.53-aarch64-linux\u0026download=chromium.png",
@@ -727,7 +727,7 @@
       "rank": 34
     },
     {
-      "pkg": "git/git",
+      "pkg": "git.appimage",
       "pkg_name": "git",
       "pkg_id": "ppkg.bundle.git.stable",
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/git/appimage/ppkg/stable/git?tag=2.48.1-aarch64-linux\u0026download=git.png",
@@ -910,7 +910,7 @@
       "rank": 20
     },
     {
-      "pkg": "git/git",
+      "pkg": "git.runimage",
       "pkg_name": "git",
       "pkg_id": "runimage.alpine.git",
       "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/git/runimage/alpine/stable/git?tag=2.48.1-aarch64-linux\u0026download=git.png",
