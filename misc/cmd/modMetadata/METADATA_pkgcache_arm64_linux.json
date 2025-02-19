@@ -346,7 +346,7 @@
       ],
       "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser:1.0.2-b.5-aarch64-linux",
       "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser@sha256:98aafee82186fca80707294ec59044991749bfeac47c80ad7f58b5eb874a248c",
-      "rank": 42
+      "rank": 40
     },
     {
       "pkg": "zen-browser.appimage",
@@ -375,7 +375,7 @@
       ],
       "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser:1.7.6b-aarch64-linux",
       "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser@sha256:2b9dca6ff106cc6dddc4f6f5514be43fac692bdae78b4acd0ea337c44e79287a",
-      "rank": 40
+      "rank": 42
     },
     {
       "pkg": "zen-browser.appimage",
@@ -470,7 +470,7 @@
       ],
       "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium:133.0.6943.98-aarch64-linux",
       "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium@sha256:3810e5fc154ea4e6d43bdd9a5017553d372343b22821396ec3e6c2668dcad76b",
-      "rank": 44
+      "rank": 45
     },
     {
       "pkg": "flameshot.nixappimage",
@@ -693,7 +693,7 @@
       ],
       "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium:133.0.6943.98-aarch64-linux",
       "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium@sha256:37274e9cfc1b666c53f273d14d60317fe3c5fc79babf875ffa79e16cd88ee7aa",
-      "rank": 45
+      "rank": 44
     },
     {
       "pkg": "file.appimage",
@@ -1135,9 +1135,9 @@
       "version": "6.07",
       "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/clamtk/runimage/debian/stable/clamtk/6.07-aarch64-linux/clamtk.runimage",
       "size": "85 MB",
-      "bsum": "e7441614f141698548b90692c029071a2db3a3ca600be005cf2df35b4bd970a1",
-      "shasum": "3ce3a5171aec691184ef7c038c979027774d5146bf6a3a4e18fa81592972275f",
-      "build_date": "2025-02-17T20:03:02Z",
+      "bsum": "b5ea954cebf49006be6c8e41a81a3c8b4e2275a21ab8bea1f82d32c0608045d3",
+      "shasum": "eea89e79d06d07e60291163db2ddc065a3e99b232205a86186026af8ed795b84",
+      "build_date": "2025-02-18T18:57:26Z",
       "src_urls": [
         "https://github.com/dave-theunsub/clamtk",
         "https://gitlab.com/dave_m/clamtk"
@@ -1155,7 +1155,7 @@
         "[PORTABLE] (Works on AnyLinux)"
       ],
       "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk:6.07-aarch64-linux",
-      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk@sha256:3ce3a5171aec691184ef7c038c979027774d5146bf6a3a4e18fa81592972275f",
+      "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk@sha256:eea89e79d06d07e60291163db2ddc065a3e99b232205a86186026af8ed795b84",
       "rank": 10
     }
   ]
