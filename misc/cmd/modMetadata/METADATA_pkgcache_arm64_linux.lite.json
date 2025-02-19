@@ -84,7 +84,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx:1.2.357-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx@sha256:d4b16be8cf8c8c472db124754f45da859d5875d81cb4ef0bf2c4c3a504a026fb",
-   "rank": 23
+   "rank": 24
   },
   {
    "pkg": "ryujinx.appimage",
@@ -110,7 +110,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx:1.2.81-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx@sha256:ae7602d73ae32b4a0192b8b7517373df953a61241fa97de395f3bc82a956a0cd",
-   "rank": 24
+   "rank": 23
   },
   {
    "pkg": "vesktop.appimage",
@@ -190,7 +190,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk:250204T131430-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk@sha256:cad14ce25b459a6c5578521449894cbf117e176bb8bddeb8717733f6179c9900",
-   "rank": 26
+   "rank": 25
   },
   {
    "pkg": "rustdesk.appimage",
@@ -217,7 +217,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk:1.3.7-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk@sha256:4a0b8b26951899f60b8169cb7cfe9ec62f9684eeb088a68903a59f2d9cb2b945",
-   "rank": 25
+   "rank": 26
   },
   {
    "pkg": "tangent.appimage",
@@ -279,7 +279,7 @@
    "pkg_id": "github.com.viarotel-org.escrcpy",
    "description": "Graphical Scrcpy to display and control Android, devices",
    "version": "v1.28.7",
-   "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/escrcpy/appimage/official/stable/escrcpy/v1.28.6-aarch64-linux/escrcpy.appimage",
+   "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/escrcpy/appimage/official/stable/escrcpy/v1.28.7-aarch64-linux/escrcpy.appimage",
    "size": "122 MB",
    "bsum": "9ba156269c74575fe7eaa91566a5ea124b099465d219a17f86437c5b9079ebaa",
    "shasum": "f3bd719a7a27220668101e980da3b9f7c1a5b6134b255893137c61a65e779654",
@@ -359,7 +359,7 @@
    "pkg_id": "github.com.zen-browser.desktop.twilight",
    "description": "Performance oriented Firefox-based web browser (Twilight)",
    "version": "1.8t_2025-02-17",
-   "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/zen-browser/appimage/official/twilight/zen-browser/Twilightbuild-1.7.7t_2025-02-16at06_51_50_-aarch64-linux/zen-browser.appimage",
+   "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/zen-browser/appimage/official/twilight/zen-browser/1.8t_2025-02-17-aarch64-linux/zen-browser.appimage",
    "size": "97 MB",
    "bsum": "049f11e986be5930000ff516d120b7ceefe25462eee86d53db06e239d1406bb1",
    "shasum": "1e1494d5a00780162d0b86bce39e974e37036f9f27a849e9ad39990a815329d5",
@@ -440,7 +440,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium:133.0.6943.98-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium@sha256:3810e5fc154ea4e6d43bdd9a5017553d372343b22821396ec3e6c2668dcad76b",
-   "rank": 45
+   "rank": 44
   },
   {
    "pkg": "flameshot.nixappimage",
@@ -649,7 +649,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium:133.0.6943.98-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium@sha256:37274e9cfc1b666c53f273d14d60317fe3c5fc79babf875ffa79e16cd88ee7aa",
-   "rank": 44
+   "rank": 45
   },
   {
    "pkg": "file.appimage",
