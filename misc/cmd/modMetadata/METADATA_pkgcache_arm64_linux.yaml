@@ -150,7 +150,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/ryujinx/ryujinx
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx:1.2.357-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx@sha256:d4b16be8cf8c8c472db124754f45da859d5875d81cb4ef0bf2c4c3a504a026fb
-  rank: 19
+  rank: 20
 - pkg: ryujinx.appimage
   pkg_name: ryujinx
   pkg_id: github.com.Ryubing.Ryujinx.stable
@@ -173,7 +173,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/ryujinx/ryujinx
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx:1.2.81-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx@sha256:ae7602d73ae32b4a0192b8b7517373df953a61241fa97de395f3bc82a956a0cd
-  rank: 20
+  rank: 19
 - pkg: vesktop.appimage
   pkg_name: vesktop
   pkg_id: github.com.Vencord.Vesktop
@@ -292,7 +292,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/suchnsuch/Tangent
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/stable/tangent:0.8.4-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/stable/tangent@sha256:485714d12dafd7f55d32f8eb41a5c8345dff259d7a96e370fb818d68a9beec28
-  rank: 10
+  rank: 9
 - pkg: tangent.appimage
   pkg_name: tangent
   pkg_id: github.com.suchnsuch.Tangent.alpha
@@ -316,7 +316,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/suchnsuch/Tangent
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent:0.9.0-alpha.7-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent@sha256:be790e46abb005b6708babb268cbe59fe2ce63849fb8a1790478327eeb791df4
-  rank: 9
+  rank: 10
 - pkg: escrcpy.appimage
   pkg_name: escrcpy
   pkg_id: github.com.viarotel-org.escrcpy
@@ -387,30 +387,30 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser:1.7.6b-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser@sha256:2b9dca6ff106cc6dddc4f6f5514be43fac692bdae78b4acd0ea337c44e79287a
-  rank: 89
+  rank: 87
 - pkg: zen-browser.appimage
   pkg_name: zen-browser
   pkg_id: github.com.zen-browser.desktop.twilight
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=1.8t_2025-02-21-aarch64-linux&download=zen-browser.png
+  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=1.8t_2025-02-22-aarch64-linux&download=zen-browser.png
   description: Performance oriented Firefox-based web browser (Twilight)
-  version: 1.8t_2025-02-21
+  version: 1.8t_2025-02-22
   size: 98 MB
-  bsum: 4e85cef7ec598311bf07adb8e7f4049fc442d577777371e36238c978677b40e7
-  shasum: a18c99536bddc63ff5a591f5e406c7b0217cc97cfc9f68412acaf147a90185b7
-  build_date: "2025-02-21T19:07:28Z"
+  bsum: 4f0a95539135bf0f51c3c6c21febb3e73364bce12a83dc92fff0ef59ccde0b36
+  shasum: 67f9324bbb311962a21d179d395aacc80b32f255a597e246369da4426b98f19c
+  build_date: "2025-02-22T20:08:33Z"
   src_urls:
   - https://github.com/zen-browser/desktop
   web_urls:
   - https://zen-browser.app
   - https://github.com/zen-browser/desktop
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.twilight.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=1.8t_2025-02-21-aarch64-linux&download=zen-browser.log
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=1.8t_2025-02-22-aarch64-linux&download=zen-browser.log
   provides: zen-browser==zen
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:1.8t_2025-02-21-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser@sha256:a18c99536bddc63ff5a591f5e406c7b0217cc97cfc9f68412acaf147a90185b7
-  rank: 87
+  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:1.8t_2025-02-22-aarch64-linux
+  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser@sha256:67f9324bbb311962a21d179d395aacc80b32f255a597e246369da4426b98f19c
+  rank: 89
 - pkg: brave.nixappimage
   pkg_name: brave
   pkg_id: nixpkgs.brave
@@ -442,14 +442,13 @@ pkgcache:
 - pkg: chromium.nixappimage
   pkg_name: chromium
   pkg_id: nixpkgs.chromium
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium?tag=133.0.6943.98-aarch64-linux&download=chromium.png
+  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium?tag=133.0.6943.126-aarch64-linux&download=chromium.png
   description: Open source web browser from Google (Stable)
-  version: 133.0.6943.98
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/chromium/nixappimage/nixpkgs/stable/chromium/133.0.6943.53-aarch64-linux/chromium.nixappimage
+  version: 133.0.6943.126
   size: 356 MB
-  bsum: ac0fdd9d7ec838debae7fcb9552bbdce01796cef16f7ad81b2939bf7fc27b097
-  shasum: 3810e5fc154ea4e6d43bdd9a5017553d372343b22821396ec3e6c2668dcad76b
-  build_date: "2025-02-17T19:38:11Z"
+  bsum: b033023d0cb56e2df7d9036e897b3e99c8c65d80548a65c57ab406e6ed6cd557
+  shasum: 42ec3ddc5a71b25f371385ec1d129a2af1290e80496fd2a07436041182f1e4b3
+  build_date: "2025-02-22T19:37:27Z"
   src_urls:
   - https://github.com/chromium/chromium
   web_urls:
@@ -457,16 +456,16 @@ pkgcache:
   - https://chromium.googlesource.com/chromium/src
   - https://github.com/chromium/chromium
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/chromium/nixappimage.nixpkgs.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium?tag=133.0.6943.98-aarch64-linux&download=chromium.log
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium?tag=133.0.6943.126-aarch64-linux&download=chromium.log
   provides: chromium==chromium-browser
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium:133.0.6943.98-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium@sha256:3810e5fc154ea4e6d43bdd9a5017553d372343b22821396ec3e6c2668dcad76b
-  rank: 83
+  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium:133.0.6943.126-aarch64-linux
+  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium@sha256:42ec3ddc5a71b25f371385ec1d129a2af1290e80496fd2a07436041182f1e4b3
+  rank: 82
 - pkg: flameshot.nixappimage
   pkg_name: flameshot
   pkg_id: nixpkgs.flameshot
@@ -632,29 +631,28 @@ pkgcache:
 - pkg: chromium.nixappimage
   pkg_name: chromium
   pkg_id: nixpkgs.ungoogled-chromium
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium?tag=133.0.6943.98-aarch64-linux&download=chromium.png
+  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium?tag=133.0.6943.126-aarch64-linux&download=chromium.png
   description: Open source web browser from Google, with dependencies on Google web services removed (Ungoogled)
-  version: 133.0.6943.98
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/chromium/nixappimage/nixpkgs/ungoogled/chromium/133.0.6943.53-aarch64-linux/chromium.nixappimage
+  version: 133.0.6943.126
   size: 358 MB
-  bsum: 6617739a4bbd0ae357e1aa382b3a66c026a77ce8d8051fc7f9c8194369c7b162
-  shasum: 37274e9cfc1b666c53f273d14d60317fe3c5fc79babf875ffa79e16cd88ee7aa
-  build_date: "2025-02-17T19:59:54Z"
+  bsum: 8710e036661b083009f601e8fa725849fa5fe1f0a1bbc2907815b390c5d6e160
+  shasum: efac306fb3c263d7a0bac2d48967f6a0334cae1d5abf288ca409c257335fc5ee
+  build_date: "2025-02-22T20:03:33Z"
   src_urls:
   - https://github.com/ungoogled-software/ungoogled-chromium
   web_urls:
   - https://github.com/ungoogled-software/ungoogled-chromium
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/chromium/nixappimage.nixpkgs.ungoogled.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium?tag=133.0.6943.98-aarch64-linux&download=chromium.log
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium?tag=133.0.6943.126-aarch64-linux&download=chromium.log
   provides: chromium:ungoogled-chromium,chromium==chromium-browser
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium:133.0.6943.98-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium@sha256:37274e9cfc1b666c53f273d14d60317fe3c5fc79babf875ffa79e16cd88ee7aa
-  rank: 82
+  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium:133.0.6943.126-aarch64-linux
+  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium@sha256:efac306fb3c263d7a0bac2d48967f6a0334cae1d5abf288ca409c257335fc5ee
+  rank: 83
 - pkg: file.appimage
   pkg_name: file
   pkg_id: ppkg.bundle.file.stable
@@ -1024,9 +1022,9 @@ pkgcache:
   version: "6.07"
   download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/clamtk/runimage/debian/stable/clamtk/6.07-aarch64-linux/clamtk.runimage
   size: 85 MB
-  bsum: 973f3f4510f1dbaa2d24882aaaf6220e608bdb5e688689afcb8953a03231c2d4
-  shasum: 845d0b476f0df4b8f0e033b94694efcdf1294b3773c815221d482b3ce8609558
-  build_date: "2025-02-21T18:57:38Z"
+  bsum: 817a93c4ba95962ef33e0e5d70d0a6b83de2f01236b95c4c711fc260aee73c50
+  shasum: 08ddada453c8fe0297139a8e2c284fbe618da48798d12b5db238d70445d700e2
+  build_date: "2025-02-22T20:07:16Z"
   src_urls:
   - https://github.com/dave-theunsub/clamtk
   - https://gitlab.com/dave_m/clamtk
@@ -1041,5 +1039,5 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk:6.07-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk@sha256:845d0b476f0df4b8f0e033b94694efcdf1294b3773c815221d482b3ce8609558
+  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk@sha256:08ddada453c8fe0297139a8e2c284fbe618da48798d12b5db238d70445d700e2
   rank: 5
