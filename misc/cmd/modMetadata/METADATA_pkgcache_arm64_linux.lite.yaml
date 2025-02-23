@@ -146,7 +146,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/ryujinx/ryujinx
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx:1.2.357-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx@sha256:d4b16be8cf8c8c472db124754f45da859d5875d81cb4ef0bf2c4c3a504a026fb
-  rank: 20
+  rank: 19
 - pkg: ryujinx.appimage
   pkg_name: ryujinx
   pkg_id: github.com.Ryubing.Ryujinx.stable
@@ -167,7 +167,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/ryujinx/ryujinx
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx:1.2.81-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx@sha256:ae7602d73ae32b4a0192b8b7517373df953a61241fa97de395f3bc82a956a0cd
-  rank: 19
+  rank: 20
 - pkg: vesktop.appimage
   pkg_name: vesktop
   pkg_id: github.com.Vencord.Vesktop
@@ -369,6 +369,7 @@ pkgcache:
   pkg_id: github.com.zen-browser.desktop.twilight
   description: Performance oriented Firefox-based web browser (Twilight)
   version: 1.8t_2025-02-22
+  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/zen-browser/appimage/official/twilight/zen-browser/1.8t_2025-02-22-aarch64-linux/zen-browser.appimage
   size: 98 MB
   bsum: 4f0a95539135bf0f51c3c6c21febb3e73364bce12a83dc92fff0ef59ccde0b36
   shasum: 67f9324bbb311962a21d179d395aacc80b32f255a597e246369da4426b98f19c
@@ -416,6 +417,7 @@ pkgcache:
   pkg_id: nixpkgs.chromium
   description: Open source web browser from Google (Stable)
   version: 133.0.6943.126
+  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/chromium/nixappimage/nixpkgs/stable/chromium/133.0.6943.126-aarch64-linux/chromium.nixappimage
   size: 356 MB
   bsum: b033023d0cb56e2df7d9036e897b3e99c8c65d80548a65c57ab406e6ed6cd557
   shasum: 42ec3ddc5a71b25f371385ec1d129a2af1290e80496fd2a07436041182f1e4b3
@@ -435,7 +437,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium:133.0.6943.126-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium@sha256:42ec3ddc5a71b25f371385ec1d129a2af1290e80496fd2a07436041182f1e4b3
-  rank: 82
+  rank: 83
 - pkg: flameshot.nixappimage
   pkg_name: flameshot
   pkg_id: nixpkgs.flameshot
@@ -608,7 +610,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium:133.0.6943.126-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium@sha256:efac306fb3c263d7a0bac2d48967f6a0334cae1d5abf288ca409c257335fc5ee
-  rank: 83
+  rank: 82
 - pkg: file.appimage
   pkg_name: file
   pkg_id: ppkg.bundle.file.stable
