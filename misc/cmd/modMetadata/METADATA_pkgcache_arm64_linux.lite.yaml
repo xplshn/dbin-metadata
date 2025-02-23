@@ -103,6 +103,32 @@ pkgcache:
   pkg_name: ""
 - pkg: ""
   pkg_name: ""
+- pkg: ""
+  pkg_name: ""
+- pkg: ""
+  pkg_name: ""
+- pkg: ""
+  pkg_name: ""
+- pkg: ""
+  pkg_name: ""
+- pkg: ""
+  pkg_name: ""
+- pkg: ""
+  pkg_name: ""
+- pkg: ""
+  pkg_name: ""
+- pkg: ""
+  pkg_name: ""
+- pkg: ""
+  pkg_name: ""
+- pkg: ""
+  pkg_name: ""
+- pkg: ""
+  pkg_name: ""
+- pkg: ""
+  pkg_name: ""
+- pkg: ""
+  pkg_name: ""
 - pkg: 86box.appimage
   pkg_name: 86box
   pkg_id: github.com.86Box.86Box.stable
@@ -276,7 +302,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/suchnsuch/Tangent
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/stable/tangent:0.8.4-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/stable/tangent@sha256:485714d12dafd7f55d32f8eb41a5c8345dff259d7a96e370fb818d68a9beec28
-  rank: 10
+  rank: 9
 - pkg: tangent.appimage
   pkg_name: tangent
   pkg_id: github.com.suchnsuch.Tangent.alpha
@@ -298,7 +324,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/suchnsuch/Tangent
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent:0.9.0-alpha.7-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent@sha256:be790e46abb005b6708babb268cbe59fe2ce63849fb8a1790478327eeb791df4
-  rank: 9
+  rank: 10
 - pkg: escrcpy.appimage
   pkg_name: escrcpy
   pkg_id: github.com.viarotel-org.escrcpy
@@ -363,7 +389,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser:1.7.6b-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser@sha256:2b9dca6ff106cc6dddc4f6f5514be43fac692bdae78b4acd0ea337c44e79287a
-  rank: 87
+  rank: 89
 - pkg: zen-browser.appimage
   pkg_name: zen-browser
   pkg_id: github.com.zen-browser.desktop.twilight
@@ -385,7 +411,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:1.8t_2025-02-22-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser@sha256:67f9324bbb311962a21d179d395aacc80b32f255a597e246369da4426b98f19c
-  rank: 89
+  rank: 87
 - pkg: brave.nixappimage
   pkg_name: brave
   pkg_id: nixpkgs.brave
