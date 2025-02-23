@@ -153,7 +153,7 @@ pkgcache:
   - "You need to download ROMS: https://86box.readthedocs.io/en/latest/usage/roms.html"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/86box/appimage/official/stable/86box:v4.2.1-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/86box/appimage/official/stable/86box@sha256:6d98eb41392380d6d7fd5c9f10f95aa080c8ba9517b96a8e34b5ad7e847ae1d3
-  rank: 80
+  rank: 92
 - pkg: ryujinx.appimage
   pkg_name: ryujinx
   pkg_id: github.com.Ryubing.Ryujinx.canary
@@ -176,7 +176,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/ryujinx/ryujinx
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx:1.2.357-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx@sha256:d4b16be8cf8c8c472db124754f45da859d5875d81cb4ef0bf2c4c3a504a026fb
-  rank: 19
+  rank: 16
 - pkg: ryujinx.appimage
   pkg_name: ryujinx
   pkg_id: github.com.Ryubing.Ryujinx.stable
@@ -199,7 +199,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/ryujinx/ryujinx
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx:1.2.81-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx@sha256:ae7602d73ae32b4a0192b8b7517373df953a61241fa97de395f3bc82a956a0cd
-  rank: 20
+  rank: 17
 - pkg: vesktop.appimage
   pkg_name: vesktop
   pkg_id: github.com.Vencord.Vesktop
@@ -222,7 +222,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/Vencord/Vesktop
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop:v1.5.5-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop@sha256:29012bac525d3c58a5920c9b4e51411c64cc9229d8e4c68fcc1894ee7f9ad0e6
-  rank: 86
+  rank: 99
 - pkg: ghostty.appimage
   pkg_name: ghostty
   pkg_id: github.com.psadi.ghostty-appimage.stable
@@ -246,7 +246,7 @@ pkgcache:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/psadi/ghostty-appimage
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty:v1.1.2_1-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty@sha256:a029d74a2dd83f8bb434e5cbc34d5cc653078cc800305845dbf4ccb7db589833
-  rank: 7
+  rank: 4
 - pkg: rustdesk.appimage
   pkg_name: rustdesk
   pkg_id: github.com.rustdesk.rustdesk.nightly
@@ -270,7 +270,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/rustdesk/rustdesk
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk:250204T131430-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk@sha256:cad14ce25b459a6c5578521449894cbf117e176bb8bddeb8717733f6179c9900
-  rank: 22
+  rank: 19
 - pkg: rustdesk.appimage
   pkg_name: rustdesk
   pkg_id: github.com.rustdesk.rustdesk.stable
@@ -294,7 +294,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/rustdesk/rustdesk
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk:1.3.7-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk@sha256:4a0b8b26951899f60b8169cb7cfe9ec62f9684eeb088a68903a59f2d9cb2b945
-  rank: 21
+  rank: 18
 - pkg: tangent.appimage
   pkg_name: tangent
   pkg_id: github.com.suchnsuch.Tangent
@@ -318,7 +318,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/suchnsuch/Tangent
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/stable/tangent:0.8.4-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/stable/tangent@sha256:485714d12dafd7f55d32f8eb41a5c8345dff259d7a96e370fb818d68a9beec28
-  rank: 9
+  rank: 7
 - pkg: tangent.appimage
   pkg_name: tangent
   pkg_id: github.com.suchnsuch.Tangent.alpha
@@ -342,7 +342,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/suchnsuch/Tangent
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent:0.9.0-alpha.7-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent@sha256:be790e46abb005b6708babb268cbe59fe2ce63849fb8a1790478327eeb791df4
-  rank: 10
+  rank: 6
 - pkg: escrcpy.appimage
   pkg_name: escrcpy
   pkg_id: github.com.viarotel-org.escrcpy
@@ -365,7 +365,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/viarotel-org/escrcpy
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/escrcpy/appimage/official/stable/escrcpy:v1.28.7-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/escrcpy/appimage/official/stable/escrcpy@sha256:f3bd719a7a27220668101e980da3b9f7c1a5b6134b255893137c61a65e779654
-  rank: 14
+  rank: 11
 - pkg: zen-browser.appimage
   pkg_name: zen-browser
   pkg_id: github.com.zen-browser.desktop.beta
@@ -389,7 +389,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser:1.0.2-b.5-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser@sha256:98aafee82186fca80707294ec59044991749bfeac47c80ad7f58b5eb874a248c
-  rank: 88
+  rank: 100
 - pkg: zen-browser.appimage
   pkg_name: zen-browser
   pkg_id: github.com.zen-browser.desktop.stable
@@ -413,7 +413,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser:1.7.6b-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser@sha256:2b9dca6ff106cc6dddc4f6f5514be43fac692bdae78b4acd0ea337c44e79287a
-  rank: 89
+  rank: 101
 - pkg: zen-browser.appimage
   pkg_name: zen-browser
   pkg_id: github.com.zen-browser.desktop.twilight
@@ -437,7 +437,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:1.8t_2025-02-22-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser@sha256:67f9324bbb311962a21d179d395aacc80b32f255a597e246369da4426b98f19c
-  rank: 87
+  rank: 102
 - pkg: brave.nixappimage
   pkg_name: brave
   pkg_id: nixpkgs.brave
@@ -465,7 +465,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/brave/nixappimage/nixpkgs/stable/brave:1.75.178-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/brave/nixappimage/nixpkgs/stable/brave@sha256:e4e5005fc3b1413c00b0831b6ecb00d940a3ad546221ba156e33cb66930711de
-  rank: 81
+  rank: 93
 - pkg: chromium.nixappimage
   pkg_name: chromium
   pkg_id: nixpkgs.chromium
@@ -493,7 +493,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium:133.0.6943.126-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium@sha256:42ec3ddc5a71b25f371385ec1d129a2af1290e80496fd2a07436041182f1e4b3
-  rank: 83
+  rank: 78
 - pkg: flameshot.nixappimage
   pkg_name: flameshot
   pkg_id: nixpkgs.flameshot
@@ -520,7 +520,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/flameshot/nixappimage/nixpkgs/unstable/flameshot:12.1.0-unstable-2025-02-01-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/flameshot/nixappimage/nixpkgs/unstable/flameshot@sha256:bd69f524e4e131f00b8485c924fe333ce72ad3976f4f2e29816ba9d3ef1429a0
-  rank: 3
+  rank: 94
 - pkg: gearlever.nixappimage
   pkg_name: gearlever
   pkg_id: nixpkgs.gearlever
@@ -547,7 +547,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/gearlever/nixappimage/nixpkgs/stable/gearlever:2.3.2-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/gearlever/nixappimage/nixpkgs/stable/gearlever@sha256:26bd5fe743f4d3278e1c7fcebc9ee4e38af675b9e434ab37cde23bfb1d39dc1f
-  rank: 4
+  rank: 1
 - pkg: helix.nixappimage
   pkg_name: helix
   pkg_id: nixpkgs.helix
@@ -574,7 +574,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/helix/nixappimage/nixpkgs/stable/helix:25.01.1-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/helix/nixappimage/nixpkgs/stable/helix@sha256:582810e6025aa6270368c714f355f781bb1f24e4631b7b13322b1a024a657918
-  rank: 84
+  rank: 95
 - pkg: neovim.nixappimage
   pkg_name: neovim
   pkg_id: nixpkgs.neovim
@@ -601,7 +601,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/neovim/nixappimage/nixpkgs/stable/neovim:0.10.4-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/neovim/nixappimage/nixpkgs/stable/neovim@sha256:0afda49629c7b1fe1484d486b10a7e8cc735d6b29fd4878f02b5ac5ade12af4e
-  rank: 85
+  rank: 96
 - pkg: simplex-desktop.nixappimage
   pkg_name: simplex-desktop
   pkg_id: nixpkgs.simplex-chat-desktop
@@ -628,7 +628,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/simplex-desktop/nixappimage/nixpkgs/stable/simplex-desktop:6.2.5-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/simplex-desktop/nixappimage/nixpkgs/stable/simplex-desktop@sha256:83729458177c6a1f4a46aaf5eb36281c8504bef14a1f298407f916843e6114b3
-  rank: 2
+  rank: 97
 - pkg: telegram-desktop.nixappimage
   pkg_name: telegram-desktop
   pkg_id: nixpkgs.telegram-desktop
@@ -655,7 +655,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop:5.11.1-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop@sha256:f8d0a77ff4ee77de5072c01885ab05eba4c280abf597ea6c7a902784c844e11b
-  rank: 1
+  rank: 98
 - pkg: chromium.nixappimage
   pkg_name: chromium
   pkg_id: nixpkgs.ungoogled-chromium
@@ -680,7 +680,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium:133.0.6943.126-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium@sha256:efac306fb3c263d7a0bac2d48967f6a0334cae1d5abf288ca409c257335fc5ee
-  rank: 82
+  rank: 77
 - pkg: file.appimage
   pkg_name: file
   pkg_id: ppkg.bundle.file.stable
@@ -706,7 +706,7 @@ pkgcache:
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/file/appimage/ppkg/stable/file:5.45-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/file/appimage/ppkg/stable/file@sha256:a3dab7d637bef7d9a71b384e8870fea15d9c85c033e6bc822c94a11d0969c13a
-  rank: 28
+  rank: 25
 - pkg: git.appimage
   pkg_name: git
   pkg_id: ppkg.bundle.git.stable
@@ -731,7 +731,7 @@ pkgcache:
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/git/appimage/ppkg/stable/git:2.48.1-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/git/appimage/ppkg/stable/git@sha256:891d481363331f486de96f42ecc486c1debaa4cc5a352558a97a320945308575
-  rank: 23
+  rank: 20
 - pkg: jless.appimage
   pkg_name: jless
   pkg_id: ppkg.bundle.jless.stable
@@ -757,7 +757,7 @@ pkgcache:
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/jless/appimage/ppkg/stable/jless:0.9.0-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/jless/appimage/ppkg/stable/jless@sha256:eba462514cd5a5d46b198564fc9032c390424518229025ae544fdbac23c97fff
-  rank: 29
+  rank: 26
 - pkg: akregator.runimage
   pkg_name: akregator
   pkg_id: runimage.alpine.akregator
@@ -782,7 +782,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/akregator/runimage/alpine/stable/akregator:24.12.2-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/akregator/runimage/alpine/stable/akregator@sha256:c2d8634f33bb8e0fa65d613e91e6405b2f2edb26b307d5f5edc2b64b9efbb5a6
-  rank: 8
+  rank: 5
 - pkg: element-desktop.runimage
   pkg_name: element-desktop
   pkg_id: runimage.alpine.element-desktop
@@ -807,7 +807,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/element-desktop/runimage/alpine/stable/element-desktop:1.11.92-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/element-desktop/runimage/alpine/stable/element-desktop@sha256:90baae338c09530b885dbb71a9ee902a18f36835a688bd102e05a87976e119e2
-  rank: 18
+  rank: 15
 - pkg: falkon.runimage
   pkg_name: falkon
   pkg_id: runimage.alpine.falkon
@@ -834,7 +834,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/falkon/runimage/alpine/stable/falkon:24.12.2-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/falkon/runimage/alpine/stable/falkon@sha256:16a4921da4be2286aa1415d70ad191762a542e5a7c684ff01e6e024f720955e6
-  rank: 24
+  rank: 21
 - pkg: ghex.runimage
   pkg_name: ghex
   pkg_id: runimage.alpine.ghex
@@ -859,7 +859,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/ghex/runimage/alpine/stable/ghex:46.0-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/ghex/runimage/alpine/stable/ghex@sha256:f30b20ab5997f4498bd9fcf99c16b4a3132033dddc8d604a2f36bdced64c3b67
-  rank: 13
+  rank: 10
 - pkg: git.runimage
   pkg_name: git
   pkg_id: runimage.alpine.git
@@ -885,7 +885,7 @@ pkgcache:
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/git/runimage/alpine/stable/git:2.48.1-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/git/runimage/alpine/stable/git@sha256:bac4e0c8e87884ef44cb67c9a4b5dbf3cc3723a86968f062e01f36665ca0747e
-  rank: 12
+  rank: 9
 - pkg: inkscape.runimage
   pkg_name: inkscape
   pkg_id: runimage.alpine.inkscape
@@ -910,7 +910,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/inkscape/runimage/alpine/stable/inkscape:1.4-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/inkscape/runimage/alpine/stable/inkscape@sha256:687da8ef2fb14d8327c8c556762e9f4260ed160616e43db612572eb5151de74e
-  rank: 17
+  rank: 14
 - pkg: kdenlive.runimage
   pkg_name: kdenlive
   pkg_id: runimage.alpine.kdenlive
@@ -936,7 +936,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/kdenlive/runimage/alpine/stable/kdenlive:24.12.2-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/kdenlive/runimage/alpine/stable/kdenlive@sha256:0edc7eb783c2530a43290742a7cf920fd0d3aa25b979a766a11cdb346b9567f1
-  rank: 15
+  rank: 12
 - pkg: krita.runimage
   pkg_name: krita
   pkg_id: runimage.alpine.krita
@@ -962,7 +962,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/krita/runimage/alpine/stable/krita:5.2.9-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/krita/runimage/alpine/stable/krita@sha256:7b480ef1c8316e2dad3d60bae7c38445bda88471325e0c72f45656b105871042
-  rank: 16
+  rank: 13
 - pkg: nmap/nmap.runimage
   pkg_name: nmap
   pkg_id: runimage.alpine.nmap
@@ -989,7 +989,7 @@ pkgcache:
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/nmap/runimage/alpine/stable/nmap:7.95-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/nmap/runimage/alpine/stable/nmap@sha256:375f301aefa9b8811277b31c9943a5bdda1b663dae0c3b0582541361a33b0ba3
-  rank: 30
+  rank: 27
 - pkg: wezterm.runimage
   pkg_name: wezterm
   pkg_id: runimage.alpine.wezterm
@@ -1015,7 +1015,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/wezterm/runimage/alpine/stable/wezterm:20240203.110809-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/wezterm/runimage/alpine/stable/wezterm@sha256:164f2937f7beabf72b0f443b328d3bc8d0b0c15f6cd0ee6e75a66678e36ae1bf
-  rank: 11
+  rank: 8
 - pkg: blender.runimage
   pkg_name: blender
   pkg_id: runimage.debian.blender
@@ -1041,7 +1041,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/blender/runimage/debian/stable/blender:4.3.2-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/blender/runimage/debian/stable/blender@sha256:ecf3940a965f483026c4a1ae476a6f68eecad7be9965f06473e569f592693214
-  rank: 6
+  rank: 3
 - pkg: clamtk.runimage
   pkg_name: clamtk
   pkg_id: runimage.debian.clamtk
@@ -1068,4 +1068,4 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk:6.07-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk@sha256:08ddada453c8fe0297139a8e2c284fbe618da48798d12b5db238d70445d700e2
-  rank: 5
+  rank: 2
