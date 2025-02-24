@@ -302,7 +302,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/86box/appimage/official/stable/86box:v4.2.1-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/86box/appimage/official/stable/86box@sha256:6d98eb41392380d6d7fd5c9f10f95aa080c8ba9517b96a8e34b5ad7e847ae1d3",
-   "rank": 92
+   "rank": 94
   },
   {
    "pkg": "ryujinx.appimage",
@@ -380,7 +380,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop:v1.5.5-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop@sha256:29012bac525d3c58a5920c9b4e51411c64cc9229d8e4c68fcc1894ee7f9ad0e6",
-   "rank": 99
+   "rank": 101
   },
   {
    "pkg": "ghostty.appimage",
@@ -488,7 +488,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/stable/tangent:0.8.4-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/stable/tangent@sha256:485714d12dafd7f55d32f8eb41a5c8345dff259d7a96e370fb818d68a9beec28",
-   "rank": 7
+   "rank": 6
   },
   {
    "pkg": "tangent.appimage",
@@ -515,7 +515,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent:0.9.0-alpha.7-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent@sha256:be790e46abb005b6708babb268cbe59fe2ce63849fb8a1790478327eeb791df4",
-   "rank": 6
+   "rank": 7
   },
   {
    "pkg": "escrcpy.appimage",
@@ -568,7 +568,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser:1.0.2-b.5-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser@sha256:98aafee82186fca80707294ec59044991749bfeac47c80ad7f58b5eb874a248c",
-   "rank": 102
+   "rank": 103
   },
   {
    "pkg": "zen-browser.appimage",
@@ -595,7 +595,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser:1.7.6b-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser@sha256:2b9dca6ff106cc6dddc4f6f5514be43fac692bdae78b4acd0ea337c44e79287a",
-   "rank": 100
+   "rank": 104
   },
   {
    "pkg": "zen-browser.appimage",
@@ -622,7 +622,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:1.8t_2025-02-23-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser@sha256:8dbfe77d5b98b7a385be9d3a250edbb7b7bf95940187999b44b0d63d0539bd17",
-   "rank": 101
+   "rank": 102
   },
   {
    "pkg": "brave.nixappimage",
@@ -653,7 +653,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/brave/nixappimage/nixpkgs/stable/brave:1.75.178-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/brave/nixappimage/nixpkgs/stable/brave@sha256:e4e5005fc3b1413c00b0831b6ecb00d940a3ad546221ba156e33cb66930711de",
-   "rank": 93
+   "rank": 95
   },
   {
    "pkg": "chromium.nixappimage",
@@ -714,7 +714,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/flameshot/nixappimage/nixpkgs/unstable/flameshot:12.1.0-unstable-2025-02-01-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/flameshot/nixappimage/nixpkgs/unstable/flameshot@sha256:bd69f524e4e131f00b8485c924fe333ce72ad3976f4f2e29816ba9d3ef1429a0",
-   "rank": 94
+   "rank": 96
   },
   {
    "pkg": "gearlever.nixappimage",
@@ -774,7 +774,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/helix/nixappimage/nixpkgs/stable/helix:25.01.1-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/helix/nixappimage/nixpkgs/stable/helix@sha256:582810e6025aa6270368c714f355f781bb1f24e4631b7b13322b1a024a657918",
-   "rank": 95
+   "rank": 97
   },
   {
    "pkg": "neovim.nixappimage",
@@ -804,7 +804,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/neovim/nixappimage/nixpkgs/stable/neovim:0.10.4-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/neovim/nixappimage/nixpkgs/stable/neovim@sha256:0afda49629c7b1fe1484d486b10a7e8cc735d6b29fd4878f02b5ac5ade12af4e",
-   "rank": 96
+   "rank": 98
   },
   {
    "pkg": "simplex-desktop.nixappimage",
@@ -834,7 +834,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/simplex-desktop/nixappimage/nixpkgs/stable/simplex-desktop:6.2.5-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/simplex-desktop/nixappimage/nixpkgs/stable/simplex-desktop@sha256:83729458177c6a1f4a46aaf5eb36281c8504bef14a1f298407f916843e6114b3",
-   "rank": 97
+   "rank": 99
   },
   {
    "pkg": "telegram-desktop.nixappimage",
@@ -864,7 +864,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop:5.11.1-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop@sha256:f8d0a77ff4ee77de5072c01885ab05eba4c280abf597ea6c7a902784c844e11b",
-   "rank": 98
+   "rank": 100
   },
   {
    "pkg": "chromium.nixappimage",
