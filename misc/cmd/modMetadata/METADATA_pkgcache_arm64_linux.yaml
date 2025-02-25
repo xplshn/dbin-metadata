@@ -161,7 +161,7 @@ pkgcache:
   - "You need to download ROMS: https://86box.readthedocs.io/en/latest/usage/roms.html"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/86box/appimage/official/stable/86box:v4.2.1-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/86box/appimage/official/stable/86box@sha256:6d98eb41392380d6d7fd5c9f10f95aa080c8ba9517b96a8e34b5ad7e847ae1d3
-  rank: 96
+  rank: 95
 - pkg: ryujinx.appimage
   pkg_name: ryujinx
   pkg_id: github.com.Ryubing.Ryujinx.canary
@@ -207,7 +207,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/ryujinx/ryujinx
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx:1.2.81-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx@sha256:ae7602d73ae32b4a0192b8b7517373df953a61241fa97de395f3bc82a956a0cd
-  rank: 17
+  rank: 15
 - pkg: vesktop.appimage
   pkg_name: vesktop
   pkg_id: github.com.Vencord.Vesktop
@@ -254,7 +254,7 @@ pkgcache:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/psadi/ghostty-appimage
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty:v1.1.2_1-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty@sha256:a029d74a2dd83f8bb434e5cbc34d5cc653078cc800305845dbf4ccb7db589833
-  rank: 4
+  rank: 3
 - pkg: rustdesk.appimage
   pkg_name: rustdesk
   pkg_id: github.com.rustdesk.rustdesk.nightly
@@ -278,7 +278,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/rustdesk/rustdesk
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk:250204T131430-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk@sha256:cad14ce25b459a6c5578521449894cbf117e176bb8bddeb8717733f6179c9900
-  rank: 18
+  rank: 17
 - pkg: rustdesk.appimage
   pkg_name: rustdesk
   pkg_id: github.com.rustdesk.rustdesk.stable
@@ -302,7 +302,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/rustdesk/rustdesk
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk:1.3.7-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk@sha256:4a0b8b26951899f60b8169cb7cfe9ec62f9684eeb088a68903a59f2d9cb2b945
-  rank: 19
+  rank: 18
 - pkg: tangent.appimage
   pkg_name: tangent
   pkg_id: github.com.suchnsuch.Tangent
@@ -326,7 +326,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/suchnsuch/Tangent
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/stable/tangent:0.8.4-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/stable/tangent@sha256:485714d12dafd7f55d32f8eb41a5c8345dff259d7a96e370fb818d68a9beec28
-  rank: 7
+  rank: 5
 - pkg: tangent.appimage
   pkg_name: tangent
   pkg_id: github.com.suchnsuch.Tangent.alpha
@@ -373,7 +373,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/viarotel-org/escrcpy
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/escrcpy/appimage/official/stable/escrcpy:v1.28.7-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/escrcpy/appimage/official/stable/escrcpy@sha256:f3bd719a7a27220668101e980da3b9f7c1a5b6134b255893137c61a65e779654
-  rank: 11
+  rank: 10
 - pkg: zen-browser.appimage
   pkg_name: zen-browser
   pkg_id: github.com.zen-browser.desktop.beta
@@ -397,66 +397,64 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser:1.0.2-b.5-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser@sha256:98aafee82186fca80707294ec59044991749bfeac47c80ad7f58b5eb874a248c
-  rank: 104
+  rank: 105
 - pkg: zen-browser.appimage
   pkg_name: zen-browser
   pkg_id: github.com.zen-browser.desktop.stable
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.7.6b-aarch64-linux&download=zen-browser.png
+  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.8b-aarch64-linux&download=zen-browser.png
   description: Performance oriented Firefox-based web browser
-  version: 1.7.6b
+  version: 1.8b
   download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/zen-browser/appimage/official/stable/zen-browser/1.7.6b-aarch64-linux/zen-browser.appimage
-  size: 97 MB
-  bsum: b8d626dc6835d389e4276e3aebb61f30b367e4a799d6fd07bbbbf0849553686e
-  shasum: 2b9dca6ff106cc6dddc4f6f5514be43fac692bdae78b4acd0ea337c44e79287a
-  build_date: "2025-02-09T18:56:57Z"
+  size: 98 MB
+  bsum: 110b490c408b0e44aa18d7fac1cfd688a944be58fc9af4e55d9ec35a459a2a09
+  shasum: 47b561b2bb509adc38dd539ada8ab8afab7471042ea0869843c31bc8b0ed4acc
+  build_date: "2025-02-24T19:48:43Z"
   src_urls:
   - https://github.com/zen-browser/desktop
   web_urls:
   - https://zen-browser.app
   - https://github.com/zen-browser/desktop
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.7.6b-aarch64-linux&download=zen-browser.log
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.8b-aarch64-linux&download=zen-browser.log
   provides: zen-browser==zen
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser:1.7.6b-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser@sha256:2b9dca6ff106cc6dddc4f6f5514be43fac692bdae78b4acd0ea337c44e79287a
-  rank: 105
+  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser:1.8b-aarch64-linux
+  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser@sha256:47b561b2bb509adc38dd539ada8ab8afab7471042ea0869843c31bc8b0ed4acc
+  rank: 104
 - pkg: zen-browser.appimage
   pkg_name: zen-browser
   pkg_id: github.com.zen-browser.desktop.twilight
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=1.8t_2025-02-23-aarch64-linux&download=zen-browser.png
+  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.8.1t_2025-02-24at09_55_52_-aarch64-linux&download=zen-browser.png
   description: Performance oriented Firefox-based web browser (Twilight)
-  version: 1.8t_2025-02-23
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/zen-browser/appimage/official/twilight/zen-browser/1.8t_2025-02-22-aarch64-linux/zen-browser.appimage
+  version: Twilightbuild-1.8.1t(2025-02-24at09:55:52)
   size: 98 MB
-  bsum: 6505a9288befbb719cb1bab8494c502a1dd788fb28899122cbcdb692672a858e
-  shasum: 8dbfe77d5b98b7a385be9d3a250edbb7b7bf95940187999b44b0d63d0539bd17
-  build_date: "2025-02-23T18:58:28Z"
+  bsum: 32314e96efeaa40231087bb7f18e4966ee3b0e114675c1be343f1d0fe8538717
+  shasum: 84b2933b370002446413edacb87e8de9ed7e8efc2ba2669bbfde7cd336593119
+  build_date: "2025-02-24T19:49:27Z"
   src_urls:
   - https://github.com/zen-browser/desktop
   web_urls:
   - https://zen-browser.app
   - https://github.com/zen-browser/desktop
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.twilight.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=1.8t_2025-02-23-aarch64-linux&download=zen-browser.log
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.8.1t_2025-02-24at09_55_52_-aarch64-linux&download=zen-browser.log
   provides: zen-browser==zen
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:1.8t_2025-02-23-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser@sha256:8dbfe77d5b98b7a385be9d3a250edbb7b7bf95940187999b44b0d63d0539bd17
+  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:Twilightbuild-1.8.1t_2025-02-24at09_55_52_-aarch64-linux
+  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser@sha256:84b2933b370002446413edacb87e8de9ed7e8efc2ba2669bbfde7cd336593119
   rank: 106
 - pkg: brave.nixappimage
   pkg_name: brave
   pkg_id: nixpkgs.brave
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/brave/nixappimage/nixpkgs/stable/brave?tag=1.75.178-aarch64-linux&download=brave.png
+  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/brave/nixappimage/nixpkgs/stable/brave?tag=1.75.180-aarch64-linux&download=brave.png
   description: Privacy-oriented browser for Desktop and Laptop computers
-  version: 1.75.178
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/brave/nixappimage/nixpkgs/stable/brave/1.75.175-aarch64-linux/brave.nixappimage
-  size: 380 MB
-  bsum: 3624269167004d2293451efda020e42e6b10771357c9d50b9cf731f0c3c45828
-  shasum: e4e5005fc3b1413c00b0831b6ecb00d940a3ad546221ba156e33cb66930711de
-  build_date: "2025-02-17T19:14:55Z"
+  version: 1.75.180
+  size: 379 MB
+  bsum: 8079cf32df445a226fd00157b37e5bef1af852b80a4f9d6555ceea550cdbf6a2
+  shasum: 40015547d4dee1fd9db30b350fc0398268c82b70415baf56613cbf90aad9650b
+  build_date: "2025-02-24T19:20:59Z"
   src_urls:
   - https://github.com/brave/brave-browser
   web_urls:
@@ -464,16 +462,16 @@ pkgcache:
   - https://github.com/brave/brave-browser
   - https://github.com/srevinsaju/Brave-AppImage
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/brave/nixappimage.nixpkgs.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/brave/nixappimage/nixpkgs/stable/brave?tag=1.75.178-aarch64-linux&download=brave.log
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/brave/nixappimage/nixpkgs/stable/brave?tag=1.75.180-aarch64-linux&download=brave.log
   provides: brave
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/brave/nixappimage/nixpkgs/stable/brave:1.75.178-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/brave/nixappimage/nixpkgs/stable/brave@sha256:e4e5005fc3b1413c00b0831b6ecb00d940a3ad546221ba156e33cb66930711de
-  rank: 97
+  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/brave/nixappimage/nixpkgs/stable/brave:1.75.180-aarch64-linux
+  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/brave/nixappimage/nixpkgs/stable/brave@sha256:40015547d4dee1fd9db30b350fc0398268c82b70415baf56613cbf90aad9650b
+  rank: 96
 - pkg: chromium.nixappimage
   pkg_name: chromium
   pkg_id: nixpkgs.chromium
@@ -501,7 +499,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium:133.0.6943.126-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium@sha256:42ec3ddc5a71b25f371385ec1d129a2af1290e80496fd2a07436041182f1e4b3
-  rank: 78
+  rank: 91
 - pkg: flameshot.nixappimage
   pkg_name: flameshot
   pkg_id: nixpkgs.flameshot
@@ -528,7 +526,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/flameshot/nixappimage/nixpkgs/unstable/flameshot:12.1.0-unstable-2025-02-01-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/flameshot/nixappimage/nixpkgs/unstable/flameshot@sha256:bd69f524e4e131f00b8485c924fe333ce72ad3976f4f2e29816ba9d3ef1429a0
-  rank: 98
+  rank: 97
 - pkg: gearlever.nixappimage
   pkg_name: gearlever
   pkg_id: nixpkgs.gearlever
@@ -555,7 +553,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/gearlever/nixappimage/nixpkgs/stable/gearlever:2.3.2-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/gearlever/nixappimage/nixpkgs/stable/gearlever@sha256:26bd5fe743f4d3278e1c7fcebc9ee4e38af675b9e434ab37cde23bfb1d39dc1f
-  rank: 1
+  rank: 98
 - pkg: helix.nixappimage
   pkg_name: helix
   pkg_id: nixpkgs.helix
@@ -688,7 +686,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium:133.0.6943.126-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium@sha256:efac306fb3c263d7a0bac2d48967f6a0334cae1d5abf288ca409c257335fc5ee
-  rank: 77
+  rank: 90
 - pkg: file.appimage
   pkg_name: file
   pkg_id: ppkg.bundle.file.stable
@@ -714,7 +712,7 @@ pkgcache:
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/file/appimage/ppkg/stable/file:5.45-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/file/appimage/ppkg/stable/file@sha256:a3dab7d637bef7d9a71b384e8870fea15d9c85c033e6bc822c94a11d0969c13a
-  rank: 25
+  rank: 21
 - pkg: git.appimage
   pkg_name: git
   pkg_id: ppkg.bundle.git.stable
@@ -739,7 +737,7 @@ pkgcache:
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/git/appimage/ppkg/stable/git:2.48.1-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/git/appimage/ppkg/stable/git@sha256:891d481363331f486de96f42ecc486c1debaa4cc5a352558a97a320945308575
-  rank: 20
+  rank: 19
 - pkg: jless.appimage
   pkg_name: jless
   pkg_id: ppkg.bundle.jless.stable
@@ -765,7 +763,7 @@ pkgcache:
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/jless/appimage/ppkg/stable/jless:0.9.0-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/jless/appimage/ppkg/stable/jless@sha256:eba462514cd5a5d46b198564fc9032c390424518229025ae544fdbac23c97fff
-  rank: 26
+  rank: 25
 - pkg: akregator.runimage
   pkg_name: akregator
   pkg_id: runimage.alpine.akregator
@@ -790,7 +788,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/akregator/runimage/alpine/stable/akregator:24.12.2-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/akregator/runimage/alpine/stable/akregator@sha256:c2d8634f33bb8e0fa65d613e91e6405b2f2edb26b307d5f5edc2b64b9efbb5a6
-  rank: 5
+  rank: 4
 - pkg: element-desktop.runimage
   pkg_name: element-desktop
   pkg_id: runimage.alpine.element-desktop
@@ -815,7 +813,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/element-desktop/runimage/alpine/stable/element-desktop:1.11.92-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/element-desktop/runimage/alpine/stable/element-desktop@sha256:90baae338c09530b885dbb71a9ee902a18f36835a688bd102e05a87976e119e2
-  rank: 15
+  rank: 14
 - pkg: falkon.runimage
   pkg_name: falkon
   pkg_id: runimage.alpine.falkon
@@ -842,7 +840,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/falkon/runimage/alpine/stable/falkon:24.12.2-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/falkon/runimage/alpine/stable/falkon@sha256:16a4921da4be2286aa1415d70ad191762a542e5a7c684ff01e6e024f720955e6
-  rank: 21
+  rank: 20
 - pkg: ghex.runimage
   pkg_name: ghex
   pkg_id: runimage.alpine.ghex
@@ -867,7 +865,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/ghex/runimage/alpine/stable/ghex:46.0-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/ghex/runimage/alpine/stable/ghex@sha256:f30b20ab5997f4498bd9fcf99c16b4a3132033dddc8d604a2f36bdced64c3b67
-  rank: 10
+  rank: 9
 - pkg: git.runimage
   pkg_name: git
   pkg_id: runimage.alpine.git
@@ -893,7 +891,7 @@ pkgcache:
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/git/runimage/alpine/stable/git:2.48.1-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/git/runimage/alpine/stable/git@sha256:bac4e0c8e87884ef44cb67c9a4b5dbf3cc3723a86968f062e01f36665ca0747e
-  rank: 9
+  rank: 8
 - pkg: inkscape.runimage
   pkg_name: inkscape
   pkg_id: runimage.alpine.inkscape
@@ -918,7 +916,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/inkscape/runimage/alpine/stable/inkscape:1.4-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/inkscape/runimage/alpine/stable/inkscape@sha256:687da8ef2fb14d8327c8c556762e9f4260ed160616e43db612572eb5151de74e
-  rank: 14
+  rank: 13
 - pkg: kdenlive.runimage
   pkg_name: kdenlive
   pkg_id: runimage.alpine.kdenlive
@@ -944,7 +942,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/kdenlive/runimage/alpine/stable/kdenlive:24.12.2-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/kdenlive/runimage/alpine/stable/kdenlive@sha256:0edc7eb783c2530a43290742a7cf920fd0d3aa25b979a766a11cdb346b9567f1
-  rank: 12
+  rank: 11
 - pkg: krita.runimage
   pkg_name: krita
   pkg_id: runimage.alpine.krita
@@ -970,7 +968,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/krita/runimage/alpine/stable/krita:5.2.9-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/krita/runimage/alpine/stable/krita@sha256:7b480ef1c8316e2dad3d60bae7c38445bda88471325e0c72f45656b105871042
-  rank: 13
+  rank: 12
 - pkg: nmap/nmap.runimage
   pkg_name: nmap
   pkg_id: runimage.alpine.nmap
@@ -997,7 +995,7 @@ pkgcache:
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/nmap/runimage/alpine/stable/nmap:7.95-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/nmap/runimage/alpine/stable/nmap@sha256:375f301aefa9b8811277b31c9943a5bdda1b663dae0c3b0582541361a33b0ba3
-  rank: 27
+  rank: 26
 - pkg: wezterm.runimage
   pkg_name: wezterm
   pkg_id: runimage.alpine.wezterm
@@ -1023,7 +1021,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/wezterm/runimage/alpine/stable/wezterm:20240203.110809-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/wezterm/runimage/alpine/stable/wezterm@sha256:164f2937f7beabf72b0f443b328d3bc8d0b0c15f6cd0ee6e75a66678e36ae1bf
-  rank: 8
+  rank: 7
 - pkg: blender.runimage
   pkg_name: blender
   pkg_id: runimage.debian.blender
@@ -1049,7 +1047,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/blender/runimage/debian/stable/blender:4.3.2-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/blender/runimage/debian/stable/blender@sha256:ecf3940a965f483026c4a1ae476a6f68eecad7be9965f06473e569f592693214
-  rank: 3
+  rank: 2
 - pkg: clamtk.runimage
   pkg_name: clamtk
   pkg_id: runimage.debian.clamtk
@@ -1058,9 +1056,9 @@ pkgcache:
   version: "6.07"
   download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/clamtk/runimage/debian/stable/clamtk/6.07-aarch64-linux/clamtk.runimage
   size: 85 MB
-  bsum: cf808174490082e0527f4b112f569b842565313f6b2a1f22fbcc10b549cd27d9
-  shasum: 92d2b2f67e844fcfa46fb9e6659ff1cb5a2cc455e5b10bc67766300e31b6f8b7
-  build_date: "2025-02-23T18:53:48Z"
+  bsum: 2aaac6467dfdbaf6633cf0d9839389182ba005db792687753e9d2b30a3e45f02
+  shasum: 4b386bfcccafbe3d84a18bead75954bb4f00e71fb8562e82534a852790da32ac
+  build_date: "2025-02-24T19:24:38Z"
   src_urls:
   - https://github.com/dave-theunsub/clamtk
   - https://gitlab.com/dave_m/clamtk
@@ -1075,5 +1073,5 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk:6.07-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk@sha256:92d2b2f67e844fcfa46fb9e6659ff1cb5a2cc455e5b10bc67766300e31b6f8b7
-  rank: 2
+  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk@sha256:4b386bfcccafbe3d84a18bead75954bb4f00e71fb8562e82534a852790da32ac
+  rank: 1
