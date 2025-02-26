@@ -32,7 +32,7 @@ jobs:
           #echo "USER_AGENT=$USER_AGENT" >> $GITHUB_ENV
           
           # Initialize metadata generation tracking
-          echo "TOTAL_GENERATORS=3" >> $GITHUB_ENV
+          echo "TOTAL_GENERATORS=4" >> $GITHUB_ENV
           echo "SUCCESSFUL_GENERATORS=0" >> $GITHUB_ENV
         shell: sh
     
