@@ -27,9 +27,9 @@ jobs:
       - name: Setup Environment Variables
         run: |
           SYSTMP=$(dirname $(mktemp -u))
-          #USER_AGENT=$(curl -sL 'https://pub.ajam.dev/repos/Azathothas/Wordlists/Misc/User-Agents/ua_chrome_macos_latest.txt')
+          USER_AGENT=$(curl -sL 'https://pub.ajam.dev/repos/Azathothas/Wordlists/Misc/User-Agents/ua_chrome_macos_latest.txt')
           echo "SYSTMP=$SYSTMP" >> $GITHUB_ENV
-          #echo "USER_AGENT=$USER_AGENT" >> $GITHUB_ENV
+          echo "USER_AGENT=$USER_AGENT" >> $GITHUB_ENV
           
           # Initialize metadata generation tracking
           echo "TOTAL_GENERATORS=4" >> $GITHUB_ENV
