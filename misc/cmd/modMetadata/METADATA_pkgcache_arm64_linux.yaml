@@ -292,7 +292,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/rustdesk/rustdesk
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk:250204T131430-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk@sha256:cad14ce25b459a6c5578521449894cbf117e176bb8bddeb8717733f6179c9900
-  rank: 18
+  rank: 17
 - pkg: rustdesk.appimage
   pkg_name: rustdesk
   pkg_id: github.com.rustdesk.rustdesk.stable
@@ -316,7 +316,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/rustdesk/rustdesk
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk:1.3.7-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk@sha256:4a0b8b26951899f60b8169cb7cfe9ec62f9684eeb088a68903a59f2d9cb2b945
-  rank: 17
+  rank: 18
 - pkg: tangent.appimage
   pkg_name: tangent
   pkg_id: github.com.suchnsuch.Tangent
@@ -340,7 +340,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/suchnsuch/Tangent
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/stable/tangent:0.8.4-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/stable/tangent@sha256:485714d12dafd7f55d32f8eb41a5c8345dff259d7a96e370fb818d68a9beec28
-  rank: 5
+  rank: 6
 - pkg: tangent.appimage
   pkg_name: tangent
   pkg_id: github.com.suchnsuch.Tangent.alpha
@@ -364,7 +364,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/suchnsuch/Tangent
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent:0.9.0-alpha.7-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent@sha256:be790e46abb005b6708babb268cbe59fe2ce63849fb8a1790478327eeb791df4
-  rank: 6
+  rank: 5
 - pkg: escrcpy.appimage
   pkg_name: escrcpy
   pkg_id: github.com.viarotel-org.escrcpy
@@ -411,7 +411,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser:1.0.2-b.5-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser@sha256:98aafee82186fca80707294ec59044991749bfeac47c80ad7f58b5eb874a248c
-  rank: 112
+  rank: 113
 - pkg: zen-browser.appimage
   pkg_name: zen-browser
   pkg_id: github.com.zen-browser.desktop.stable
@@ -435,7 +435,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser:1.8.2b-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser@sha256:fe1d895afd594cfc17ee1c28476a7d6d01cfe68e565d078331d10588f35ef3aa
-  rank: 113
+  rank: 111
 - pkg: zen-browser.appimage
   pkg_name: zen-browser
   pkg_id: github.com.zen-browser.desktop.twilight
@@ -459,7 +459,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:Twilightbuild-1.8.2t_2025-02-25at23_11_44_-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser@sha256:53128fd99aeb768434af821d97d3b4df74e047f7e774d8a2b1b4f51fdac4b0cf
-  rank: 111
+  rank: 112
 - pkg: brave.nixappimage
   pkg_name: brave
   pkg_id: nixpkgs.brave
