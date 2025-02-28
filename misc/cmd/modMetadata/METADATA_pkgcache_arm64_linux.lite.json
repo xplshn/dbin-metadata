@@ -305,6 +305,30 @@
    "pkg_name": ""
   },
   {
+   "pkg": "",
+   "pkg_name": ""
+  },
+  {
+   "pkg": "",
+   "pkg_name": ""
+  },
+  {
+   "pkg": "",
+   "pkg_name": ""
+  },
+  {
+   "pkg": "",
+   "pkg_name": ""
+  },
+  {
+   "pkg": "",
+   "pkg_name": ""
+  },
+  {
+   "pkg": "",
+   "pkg_name": ""
+  },
+  {
    "pkg": "86box.appimage",
    "pkg_name": "86box",
    "pkg_id": "github.com.86Box.86Box.stable",
@@ -462,7 +486,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk:250204T131430-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk@sha256:cad14ce25b459a6c5578521449894cbf117e176bb8bddeb8717733f6179c9900",
-   "rank": 18
+   "rank": 17
   },
   {
    "pkg": "rustdesk.appimage",
@@ -489,7 +513,33 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk:1.3.7-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk@sha256:4a0b8b26951899f60b8169cb7cfe9ec62f9684eeb088a68903a59f2d9cb2b945",
-   "rank": 17
+   "rank": 18
+  },
+  {
+   "pkg": "pixelpulse2.appimage",
+   "pkg_name": "pixelpulse2",
+   "pkg_id": "github.com.sounddrill31.pixelpulse2",
+   "description": "Pixelpulse2 is a user interface for analog systems exploration.",
+   "version": "12865715397",
+   "size": "107 MB",
+   "bsum": "f372309b2ea9846a91112adafb4002531b664634b9444c4b06ad11d3ac4edaae",
+   "shasum": "af8e17db2cbe523df000bfc838df1b31c3040e3994ec75a60e4bef616d1a9dbb",
+   "build_date": "2025-02-28T17:48:22Z",
+   "src_urls": [
+    "https://github.com/sounddrill31/Pixelpulse2"
+   ],
+   "web_urls": [
+    "https://wiki.analog.com/university/tools/m1k/pixelpulse",
+    "https://sounddrill31.github.io/Pixelpulse2/"
+   ],
+   "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/pixelpulse2/appimage.sounddrill31.stable.yaml",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/pixelpulse2/appimage/sounddrill31/stable/pixelpulse2?tag=12865715397-aarch64-linux\u0026download=pixelpulse2.log",
+   "notes": [
+    "Pre Built AppImage, with Build-related changes. Check/Report @ https://github.com/sounddrill31/Pixelpulse2"
+   ],
+   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/pixelpulse2/appimage/sounddrill31/stable/pixelpulse2:12865715397-aarch64-linux",
+   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/pixelpulse2/appimage/sounddrill31/stable/pixelpulse2@sha256:af8e17db2cbe523df000bfc838df1b31c3040e3994ec75a60e4bef616d1a9dbb",
+   "rank": 115
   },
   {
    "pkg": "tangent.appimage",
@@ -596,7 +646,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser:1.0.2-b.5-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser@sha256:98aafee82186fca80707294ec59044991749bfeac47c80ad7f58b5eb874a248c",
-   "rank": 112
+   "rank": 113
   },
   {
    "pkg": "zen-browser.appimage",
@@ -623,7 +673,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser:1.8.2b-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser@sha256:fe1d895afd594cfc17ee1c28476a7d6d01cfe68e565d078331d10588f35ef3aa",
-   "rank": 111
+   "rank": 112
   },
   {
    "pkg": "zen-browser.appimage",
@@ -650,7 +700,34 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:Twilightbuild-1.8.2t_2025-02-25at23_11_44_-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser@sha256:53128fd99aeb768434af821d97d3b4df74e047f7e774d8a2b1b4f51fdac4b0cf",
-   "rank": 113
+   "rank": 111
+  },
+  {
+   "pkg": "librewolf.appimage",
+   "pkg_name": "librewolf",
+   "pkg_id": "gitlab.com.librewolf-community.browser.appimage.stable",
+   "description": "A fork of Firefox, focused on privacy, security and freedom",
+   "version": "v135.0-1",
+   "size": "87 MB",
+   "bsum": "abf041bd62f3e8f72b3c67fb0fc51ae3dd1d0e74c1aa71d397ab0d4114c53293",
+   "shasum": "24774858a34ed5a969f27d29c753ed5539d7a1d27639b45cfcd806175002c97d",
+   "build_date": "2025-02-28T17:47:49Z",
+   "src_urls": [
+    "https://gitlab.com/librewolf-community/browser/appimage"
+   ],
+   "web_urls": [
+    "https://librewolf.net",
+    "https://librewolf-community.gitlab.io",
+    "https://gitlab.com/librewolf-community/browser/appimage"
+   ],
+   "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/librewolf/appimage.official.stable.yaml",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/librewolf/appimage/official/stable/librewolf?tag=v135.0-1-aarch64-linux\u0026download=librewolf.log",
+   "notes": [
+    "Pre Built AppImage Fetched from Upstream. Check/Report @ https://gitlab.com/librewolf-community/browser/appimage"
+   ],
+   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/librewolf/appimage/official/stable/librewolf:v135.0-1-aarch64-linux",
+   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/librewolf/appimage/official/stable/librewolf@sha256:24774858a34ed5a969f27d29c753ed5539d7a1d27639b45cfcd806175002c97d",
+   "rank": 114
   },
   {
    "pkg": "brave.nixappimage",
