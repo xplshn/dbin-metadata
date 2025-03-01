@@ -498,7 +498,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk:250204T131430-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk@sha256:cad14ce25b459a6c5578521449894cbf117e176bb8bddeb8717733f6179c9900",
-   "rank": 18
+   "rank": 17
   },
   {
    "pkg": "rustdesk.appimage",
@@ -527,19 +527,19 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk:1.3.7-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk@sha256:4a0b8b26951899f60b8169cb7cfe9ec62f9684eeb088a68903a59f2d9cb2b945",
-   "rank": 17
+   "rank": 18
   },
   {
    "pkg": "pixelpulse2.appimage",
    "pkg_name": "pixelpulse2",
    "pkg_id": "github.com.sounddrill31.pixelpulse2",
-   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/pixelpulse2/appimage/sounddrill31/stable/pixelpulse2?tag=13594536757-aarch64-linux\u0026download=pixelpulse2.png",
+   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/pixelpulse2/appimage/sounddrill31/stable/pixelpulse2?tag=13595063368-aarch64-linux\u0026download=pixelpulse2.png",
    "description": "Pixelpulse2 is a user interface for analog systems exploration.",
-   "version": "13594536757",
+   "version": "13595063368",
    "size": "111 MB",
-   "bsum": "06833b00152186bb416ff0899e90f6e5c795ceeac546d0e28a1bde406b49f6d7",
-   "shasum": "dc59ffa682b7df564188a4435c9bfc8c7c742dbf8ce9ae171859e7da898ebf5a",
-   "build_date": "2025-02-28T19:02:58Z",
+   "bsum": "f3e8c7e55f866a5c13d2b8e7cfd8d323a30da702569ce68765bdbeddb19e3029",
+   "shasum": "12a74a1c72f2ffdeecd78a157788698ed27dfed8e9f4362fe67ad989bfe95e42",
+   "build_date": "2025-03-01T03:59:39Z",
    "src_urls": [
     "https://github.com/sounddrill31/Pixelpulse2"
    ],
@@ -548,13 +548,15 @@
     "https://sounddrill31.github.io/Pixelpulse2/"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/pixelpulse2/appimage.sounddrill31.stable.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/pixelpulse2/appimage/sounddrill31/stable/pixelpulse2?tag=13594536757-aarch64-linux\u0026download=pixelpulse2.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/pixelpulse2/appimage/sounddrill31/stable/pixelpulse2?tag=13595063368-aarch64-linux\u0026download=pixelpulse2.log",
    "provides": "pixelpulse2",
    "notes": [
-    "Pre Built AppImage, with Build-related changes. Check/Report @ https://github.com/sounddrill31/Pixelpulse2"
+    "Pre Built AppImage, with Build-related changes. Check/Report @ https://github.com/sounddrill31/Pixelpulse2",
+    "Run it with --getudev flag the first time to configure udev rules. It may not detect the board otherwise",
+    "To reduce crashes, plug in your device after configuring the udev rule and opening the app"
    ],
-   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/pixelpulse2/appimage/sounddrill31/stable/pixelpulse2:13594536757-aarch64-linux",
-   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/pixelpulse2/appimage/sounddrill31/stable/pixelpulse2@sha256:dc59ffa682b7df564188a4435c9bfc8c7c742dbf8ce9ae171859e7da898ebf5a",
+   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/pixelpulse2/appimage/sounddrill31/stable/pixelpulse2:13595063368-aarch64-linux",
+   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/pixelpulse2/appimage/sounddrill31/stable/pixelpulse2@sha256:12a74a1c72f2ffdeecd78a157788698ed27dfed8e9f4362fe67ad989bfe95e42",
    "rank": 100
   },
   {
@@ -670,7 +672,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser:1.0.2-b.5-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser@sha256:98aafee82186fca80707294ec59044991749bfeac47c80ad7f58b5eb874a248c",
-   "rank": 120
+   "rank": 121
   },
   {
    "pkg": "zen-browser.appimage",
@@ -727,7 +729,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:Twilightbuild-1.8.2t_2025-02-28at07_38_17_-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser@sha256:ea2da4b366473b6a631a690c89126c12095a77762c7ad3c77df552c9329f9c3f",
-   "rank": 121
+   "rank": 120
   },
   {
    "pkg": "librewolf.appimage",
@@ -821,7 +823,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium:133.0.6943.141-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium@sha256:d41220b4b016b34bf0432d13e5a8b4efa44f45869b9be6e3ee2296966a0ddb2d",
-   "rank": 104
+   "rank": 103
   },
   {
    "pkg": "flameshot.nixappimage",
@@ -1044,7 +1046,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium:133.0.6943.126-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium@sha256:efac306fb3c263d7a0bac2d48967f6a0334cae1d5abf288ca409c257335fc5ee",
-   "rank": 103
+   "rank": 104
   },
   {
    "pkg": "file.appimage",
