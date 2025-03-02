@@ -356,7 +356,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/86box/appimage/official/stable/86box:v4.2.1-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/86box/appimage/official/stable/86box@sha256:6d98eb41392380d6d7fd5c9f10f95aa080c8ba9517b96a8e34b5ad7e847ae1d3",
-   "rank": 101
+   "rank": 106
   },
   {
    "pkg": "ryujinx.appimage",
@@ -440,7 +440,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop:v1.5.5-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop@sha256:29012bac525d3c58a5920c9b4e51411c64cc9229d8e4c68fcc1894ee7f9ad0e6",
-   "rank": 106
+   "rank": 109
   },
   {
    "pkg": "ghostty.appimage",
@@ -536,6 +536,7 @@
    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/pixelpulse2/appimage/sounddrill31/stable/pixelpulse2?tag=13595063368-aarch64-linux\u0026download=pixelpulse2.png",
    "description": "Pixelpulse2 is a user interface for analog systems exploration.",
    "version": "13595063368",
+   "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/pixelpulse2/appimage/sounddrill31/stable/pixelpulse2/13595063368-aarch64-linux/pixelpulse2.appimage",
    "size": "111 MB",
    "bsum": "f3e8c7e55f866a5c13d2b8e7cfd8d323a30da702569ce68765bdbeddb19e3029",
    "shasum": "12a74a1c72f2ffdeecd78a157788698ed27dfed8e9f4362fe67ad989bfe95e42",
@@ -557,7 +558,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/pixelpulse2/appimage/sounddrill31/stable/pixelpulse2:13595063368-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/pixelpulse2/appimage/sounddrill31/stable/pixelpulse2@sha256:12a74a1c72f2ffdeecd78a157788698ed27dfed8e9f4362fe67ad989bfe95e42",
-   "rank": 100
+   "rank": 95
   },
   {
    "pkg": "tangent.appimage",
@@ -672,7 +673,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser:1.0.2-b.5-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser@sha256:98aafee82186fca80707294ec59044991749bfeac47c80ad7f58b5eb874a248c",
-   "rank": 121
+   "rank": 120
   },
   {
    "pkg": "zen-browser.appimage",
@@ -681,7 +682,7 @@
    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.8.2b-aarch64-linux\u0026download=zen-browser.png",
    "description": "Performance oriented Firefox-based web browser",
    "version": "1.8.2b",
-   "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/zen-browser/appimage/official/stable/zen-browser/1.8.1b-aarch64-linux/zen-browser.appimage",
+   "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/zen-browser/appimage/official/stable/zen-browser/1.8.2b-aarch64-linux/zen-browser.appimage",
    "size": "98 MB",
    "bsum": "fe35a9e30095dd04a7a688fb30ab429d22f9009f5412eee5cee4971da7a1e264",
    "shasum": "fe1d895afd594cfc17ee1c28476a7d6d01cfe68e565d078331d10588f35ef3aa",
@@ -729,7 +730,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:Twilightbuild-1.8.2t_2025-03-01at13_25_05_-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser@sha256:44a6b551221e1ec59eaa6ce91770be0c8568be168dc6a3aacc00e2c0c8c2a203",
-   "rank": 120
+   "rank": 121
   },
   {
    "pkg": "librewolf.appimage",
@@ -790,7 +791,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/brave/nixappimage/nixpkgs/stable/brave:1.75.180-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/brave/nixappimage/nixpkgs/stable/brave@sha256:40015547d4dee1fd9db30b350fc0398268c82b70415baf56613cbf90aad9650b",
-   "rank": 102
+   "rank": 107
   },
   {
    "pkg": "chromium.nixappimage",
@@ -823,7 +824,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium:133.0.6943.141-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium@sha256:d41220b4b016b34bf0432d13e5a8b4efa44f45869b9be6e3ee2296966a0ddb2d",
-   "rank": 103
+   "rank": 104
   },
   {
    "pkg": "flameshot.nixappimage",
@@ -832,7 +833,7 @@
    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/flameshot/nixappimage/nixpkgs/unstable/flameshot?tag=12.1.0-unstable-2025-02-12-aarch64-linux\u0026download=flameshot.png",
    "description": "Powerful and simple to use screenshot software",
    "version": "12.1.0-unstable-2025-02-12",
-   "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/flameshot/nixappimage/nixpkgs/unstable/flameshot/12.1.0-unstable-2025-02-01-aarch64-linux/flameshot.nixappimage",
+   "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/flameshot/nixappimage/nixpkgs/unstable/flameshot/12.1.0-unstable-2025-02-12-aarch64-linux/flameshot.nixappimage",
    "size": "99 MB",
    "bsum": "d71c1bc081aeaad2ba6c1c6ace12843301357203989d11bb71c14c522d0d3da9",
    "shasum": "284b4894fd6b156a0d9117f77d42342c074d2f1c9484e4d17aa0e85b4629f6c1",
@@ -919,7 +920,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/helix/nixappimage/nixpkgs/stable/helix:25.01.1-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/helix/nixappimage/nixpkgs/stable/helix@sha256:582810e6025aa6270368c714f355f781bb1f24e4631b7b13322b1a024a657918",
-   "rank": 105
+   "rank": 108
   },
   {
    "pkg": "neovim.nixappimage",
@@ -992,7 +993,7 @@
    "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop?tag=5.11.1-aarch64-linux\u0026download=telegram-desktop.png",
    "description": "Official desktop version of Telegram messaging app",
    "version": "5.11.1",
-   "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop/5.10.7-aarch64-linux/telegram-desktop.nixappimage",
+   "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop/5.11.1-aarch64-linux/telegram-desktop.nixappimage",
    "size": "358 MB",
    "bsum": "6a6a101d658f6b3213ce4d09f052b2a112eab150336b319593fd7ad5aa6ca09b",
    "shasum": "f8d0a77ff4ee77de5072c01885ab05eba4c280abf597ea6c7a902784c844e11b",
@@ -1046,7 +1047,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium:133.0.6943.141-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium@sha256:5d65ce5044730802570c62e8c5f83e119dde8d25cf2ef3d7733f101c9c9f1eeb",
-   "rank": 104
+   "rank": 105
   },
   {
    "pkg": "file.appimage",
