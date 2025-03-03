@@ -181,6 +181,8 @@ pkgcache:
   - https://86box.readthedocs.io
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/86box/appimage.official.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/86box/appimage/official/stable/86box?tag=v4.2.1-aarch64-linux&download=86box.log
+  snapshots:
+  - v4.2.1-aarch64-linux[v4.2.1]
   provides: 86box
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/86Box/86Box
@@ -251,6 +253,8 @@ pkgcache:
   - https://github.com/Vencord/Vesktop
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/vesktop/appimage.official.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop?tag=v1.5.5-aarch64-linux&download=vesktop.log
+  snapshots:
+  - v1.5.4-aarch64-linux[v1.5.4]
   provides: vesktop
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/Vencord/Vesktop
@@ -301,6 +305,12 @@ pkgcache:
   - https://github.com/ghostty-org/ghostty
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/ghostty/appimage.psadi.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty?tag=v1.1.2_2-aarch64-linux&download=ghostty.log
+  snapshots:
+  - v1.0.1_4-aarch64-linux[v1.0.1+4]
+  - v1.1.0-aarch64-linux[v1.1.0]
+  - v1.1.0_1-aarch64-linux[v1.1.0+1]
+  - v1.1.2-aarch64-linux[v1.1.2]
+  - v1.1.2_1-aarch64-linux[v1.1.2+1]
   provides: ghostty
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/psadi/ghostty-appimage
@@ -373,6 +383,8 @@ pkgcache:
   - https://www.tangentnotes.com
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/tangent/appimage.official.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/tangent/appimage/official/stable/tangent?tag=0.8.4-aarch64-linux&download=tangent.log
+  snapshots:
+  - 0.8.4-aarch64-linux[0.8.4]
   provides: tangent
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/suchnsuch/Tangent
@@ -397,6 +409,9 @@ pkgcache:
   - https://www.tangentnotes.com
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/tangent/appimage.official.alpha.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent?tag=0.9.0-alpha.8-aarch64-linux&download=tangent.log
+  snapshots:
+  - 0.9.0-alpha.6-aarch64-linux[0.9.0-alpha.6]
+  - 0.9.0-alpha.7-aarch64-linux[0.9.0-alpha.7]
   provides: tangent=>tangent-alpha
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/suchnsuch/Tangent
@@ -420,6 +435,9 @@ pkgcache:
   - https://github.com/viarotel-org/escrcpy
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/escrcpy/appimage.official.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/escrcpy/appimage/official/stable/escrcpy?tag=v1.28.7-aarch64-linux&download=escrcpy.log
+  snapshots:
+  - v1.28.4-aarch64-linux[v1.28.4]
+  - v1.28.6-aarch64-linux[v1.28.6]
   provides: escrcpy
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/viarotel-org/escrcpy
@@ -444,6 +462,8 @@ pkgcache:
   - https://github.com/zen-browser/desktop
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.beta.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser?tag=1.0.2-b.5-aarch64-linux&download=zen-browser.log
+  snapshots:
+  - 1.0.2-b.5-aarch64-linux[1.0.2-b.5]
   provides: zen-browser==zen
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
@@ -468,6 +488,15 @@ pkgcache:
   - https://github.com/zen-browser/desktop
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.8.2b-aarch64-linux&download=zen-browser.log
+  snapshots:
+  - 1.7b-aarch64-linux[1.7b]
+  - 1.7.1b-aarch64-linux[1.7.1b]
+  - 1.7.2b-aarch64-linux[1.7.2b]
+  - 1.7.4b-aarch64-linux[1.7.4b]
+  - 1.7.5b-aarch64-linux[1.7.5b]
+  - 1.7.6b-aarch64-linux[1.7.6b]
+  - 1.8b-aarch64-linux[1.8b]
+  - 1.8.1b-aarch64-linux[1.8.1b]
   provides: zen-browser==zen
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
@@ -491,6 +520,34 @@ pkgcache:
   - https://github.com/zen-browser/desktop
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.twilight.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.8.2t_2025-03-02at13_03_49_-aarch64-linux&download=zen-browser.log
+  snapshots:
+  - 1.7t_2025-01-15-aarch64-linux[1.7t_2025-01-15]
+  - 1.7t_2025-01-16-aarch64-linux[1.7t_2025-01-16]
+  - Twilightbuild-1.7.2t_2025-01-21at22_18_15_-aarch64-linux[Twilightbuild-1.7.2t(2025-01-21at22:18:15)]
+  - Twilightbuild-1.7.2t_2025-01-25at23_03_24_-aarch64-linux[Twilightbuild-1.7.2t(2025-01-25at23:03:24)]
+  - Twilightbuild-1.7.4t_2025-01-30at23_03_43_-aarch64-linux[Twilightbuild-1.7.4t(2025-01-30at23:03:43)]
+  - Twilightbuild-1.7.4t_2025-02-01at09_34_05_-aarch64-linux[Twilightbuild-1.7.4t(2025-02-01at09:34:05)]
+  - Twilightbuild-1.7.4t_2025-02-01at23_12_22_-aarch64-linux[Twilightbuild-1.7.4t(2025-02-01at23:12:22)]
+  - Twilightbuild-1.7.4t_2025-02-02at16_58_54_-aarch64-linux[Twilightbuild-1.7.4t(2025-02-02at16:58:54)]
+  - Twilightbuild-1.7.5t_2025-02-04at10_17_36_-aarch64-linux[Twilightbuild-1.7.5t(2025-02-04at10:17:36)]
+  - Twilightbuild-1.7.6t_2025-02-05at14_21_09_-aarch64-linux[Twilightbuild-1.7.6t(2025-02-05at14:21:09)]
+  - Twilightbuild-1.7.6t_2025-02-07at13_39_46_-aarch64-linux[Twilightbuild-1.7.6t(2025-02-07at13:39:46)]
+  - Twilightbuild-1.7.7t_2025-02-08at23_03_35_-aarch64-linux[Twilightbuild-1.7.7t(2025-02-08at23:03:35)]
+  - Twilightbuild-1.7.7t_2025-02-09at23_03_26_-aarch64-linux[Twilightbuild-1.7.7t(2025-02-09at23:03:26)]
+  - Twilightbuild-1.7.7t_2025-02-11at12_46_32_-aarch64-linux[Twilightbuild-1.7.7t(2025-02-11at12:46:32)]
+  - Twilightbuild-1.7.7t_2025-02-12at11_40_35_-aarch64-linux[Twilightbuild-1.7.7t(2025-02-12at11:40:35)]
+  - Twilightbuild-1.7.7t_2025-02-14at19_14_03_-aarch64-linux[Twilightbuild-1.7.7t(2025-02-14at19:14:03)]
+  - Twilightbuild-1.7.7t_2025-02-16at06_51_50_-aarch64-linux[Twilightbuild-1.7.7t(2025-02-16at06:51:50)]
+  - 1.8t_2025-02-17-aarch64-linux[1.8t_2025-02-17]
+  - 1.8t_2025-02-19-aarch64-linux[1.8t_2025-02-19]
+  - 1.8t_2025-02-21-aarch64-linux[1.8t_2025-02-21]
+  - 1.8t_2025-02-22-aarch64-linux[1.8t_2025-02-22]
+  - 1.8t_2025-02-23-aarch64-linux[1.8t_2025-02-23]
+  - Twilightbuild-1.8.1t_2025-02-24at09_55_52_-aarch64-linux[Twilightbuild-1.8.1t(2025-02-24at09:55:52)]
+  - Twilightbuild-1.8.1t_2025-02-25at14_25_38_-aarch64-linux[Twilightbuild-1.8.1t(2025-02-25at14:25:38)]
+  - Twilightbuild-1.8.2t_2025-02-25at23_11_44_-aarch64-linux[Twilightbuild-1.8.2t(2025-02-25at23:11:44)]
+  - Twilightbuild-1.8.2t_2025-02-28at07_38_17_-aarch64-linux[Twilightbuild-1.8.2t(2025-02-28at07:38:17)]
+  - Twilightbuild-1.8.2t_2025-03-01at13_25_05_-aarch64-linux[Twilightbuild-1.8.2t(2025-03-01at13:25:05)]
   provides: zen-browser==zen
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
@@ -539,6 +596,13 @@ pkgcache:
   - https://github.com/srevinsaju/Brave-AppImage
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/brave/nixappimage.nixpkgs.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/brave/nixappimage/nixpkgs/stable/brave?tag=1.75.180-aarch64-linux&download=brave.log
+  snapshots:
+  - 1.73.104-aarch64-linux[1.73.104]
+  - 1.74.48-aarch64-linux[1.74.48]
+  - 1.74.50-aarch64-linux[1.74.50]
+  - 1.74.51-aarch64-linux[1.74.51]
+  - 1.75.175-aarch64-linux[1.75.175]
+  - 1.75.178-aarch64-linux[1.75.178]
   provides: brave
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
@@ -567,6 +631,14 @@ pkgcache:
   - https://github.com/chromium/chromium
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/chromium/nixappimage.nixpkgs.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium?tag=133.0.6943.141-aarch64-linux&download=chromium.log
+  snapshots:
+  - 131.0.6778.264-aarch64-linux[131.0.6778.264]
+  - 132.0.6834.83-aarch64-linux[132.0.6834.83]
+  - 132.0.6834.110-aarch64-linux[132.0.6834.110]
+  - 132.0.6834.159-aarch64-linux[132.0.6834.159]
+  - 133.0.6943.53-aarch64-linux[133.0.6943.53]
+  - 133.0.6943.98-aarch64-linux[133.0.6943.98]
+  - 133.0.6943.126-aarch64-linux[133.0.6943.126]
   provides: chromium==chromium-browser
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
@@ -594,6 +666,10 @@ pkgcache:
   - https://github.com/flameshot-org/flameshot
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/flameshot/nixappimage.nixpkgs.unstable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/flameshot/nixappimage/nixpkgs/unstable/flameshot?tag=12.1.0-unstable-2025-02-12-aarch64-linux&download=flameshot.log
+  snapshots:
+  - 12.1.0-unstable-2024-12-03-aarch64-linux[12.1.0-unstable-2024-12-03]
+  - 12.1.0-unstable-2025-01-19-aarch64-linux[12.1.0-unstable-2025-01-19]
+  - 12.1.0-unstable-2025-02-01-aarch64-linux[12.1.0-unstable-2025-02-01]
   provides: flameshot
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
@@ -621,6 +697,8 @@ pkgcache:
   - https://mijorus.it/projects/gearlever
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/gearlever/nixappimage.nixpkgs.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/gearlever/nixappimage/nixpkgs/stable/gearlever?tag=2.3.2-aarch64-linux&download=gearlever.log
+  snapshots:
+  - 2.3.2-aarch64-linux[2.3.2]
   provides: gearlever
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
@@ -648,6 +726,9 @@ pkgcache:
   - https://github.com/helix-editor/helix
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/helix/nixappimage.nixpkgs.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/helix/nixappimage/nixpkgs/stable/helix?tag=25.01.1-aarch64-linux&download=helix.log
+  snapshots:
+  - 25.01-aarch64-linux[25.01]
+  - 25.01.1-aarch64-linux[25.01.1]
   provides: helix==hx
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
@@ -675,6 +756,8 @@ pkgcache:
   - https://neovim.org
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/neovim/nixappimage.nixpkgs.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/neovim/nixappimage/nixpkgs/stable/neovim?tag=0.10.4-aarch64-linux&download=neovim.log
+  snapshots:
+  - 0.10.3-aarch64-linux[0.10.3]
   provides: neovim=>nvim
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
@@ -702,6 +785,9 @@ pkgcache:
   - https://github.com/simplex-chat/simplex-chat
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/simplex-desktop/nixappimage.nixpkgs.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/simplex-desktop/nixappimage/nixpkgs/stable/simplex-desktop?tag=6.2.5-aarch64-linux&download=simplex-desktop.log
+  snapshots:
+  - 6.2.3-aarch64-linux[6.2.3]
+  - 6.2.4-aarch64-linux[6.2.4]
   provides: simplex-desktop==simplex-chat-desktop
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
@@ -729,6 +815,11 @@ pkgcache:
   - https://github.com/telegramdesktop/tdesktop
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/telegram-desktop/nixappimage.nixpkgs.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop?tag=5.11.1-aarch64-linux&download=telegram-desktop.log
+  snapshots:
+  - 5.10.2-aarch64-linux[5.10.2]
+  - 5.10.3-aarch64-linux[5.10.3]
+  - 5.10.5-aarch64-linux[5.10.5]
+  - 5.10.7-aarch64-linux[5.10.7]
   provides: telegram-desktop==Telegram-Desktop
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
@@ -755,6 +846,14 @@ pkgcache:
   - https://github.com/ungoogled-software/ungoogled-chromium
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/chromium/nixappimage.nixpkgs.ungoogled.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium?tag=133.0.6943.141-aarch64-linux&download=chromium.log
+  snapshots:
+  - 131.0.6778.264-aarch64-linux[131.0.6778.264]
+  - 132.0.6834.83-aarch64-linux[132.0.6834.83]
+  - 132.0.6834.110-aarch64-linux[132.0.6834.110]
+  - 132.0.6834.159-aarch64-linux[132.0.6834.159]
+  - 133.0.6943.53-aarch64-linux[133.0.6943.53]
+  - 133.0.6943.98-aarch64-linux[133.0.6943.98]
+  - 133.0.6943.126-aarch64-linux[133.0.6943.126]
   provides: chromium:ungoogled-chromium,chromium==chromium-browser
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
@@ -781,6 +880,8 @@ pkgcache:
   - https://gitlab.kitware.com/cmake/cmake
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/cmake/appimage.ppkg.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/cmake/appimage/ppkg/stable/cmake?tag=3.31.5-aarch64-linux&download=cmake.log
+  snapshots:
+  - 3.31.5-aarch64-linux[3.31.5]
   provides: cmake==cpack,cmake==ctest
   notes:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
@@ -832,6 +933,8 @@ pkgcache:
   - https://github.com/FreeRDP/FreeRDP
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/freerdp/appimage.ppkg.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/freerdp/appimage/ppkg/stable/freerdp?tag=3.12.0-aarch64-linux&download=freerdp.log
+  snapshots:
+  - 3.12.0-aarch64-linux[3.12.0]
   provides: freerdp==freerdp-proxy,freerdp==freerdp-shadow-cli,freerdp==winpr-hash,freerdp==winpr-makecert,freerdp==wlfreerdp,freerdp==xfreerdp
   notes:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
@@ -908,6 +1011,9 @@ pkgcache:
   - https://apps.kde.org/akregator
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/akregator/runimage.alpine.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/akregator/runimage/alpine/stable/akregator?tag=24.12.2-aarch64-linux&download=akregator.log
+  snapshots:
+  - 24.12.0-aarch64-linux[24.12.0]
+  - 24.12.1-aarch64-linux[24.12.1]
   provides: akregator
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
@@ -933,6 +1039,9 @@ pkgcache:
   - https://github.com/element-hq/element-desktop
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/element-desktop/runimage.alpine.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/element-desktop/runimage/alpine/stable/element-desktop?tag=1.11.93-aarch64-linux&download=element-desktop.log
+  snapshots:
+  - 1.11.91-aarch64-linux[1.11.91]
+  - 1.11.92-aarch64-linux[1.11.92]
   provides: element-desktop:riot-desktop
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
@@ -1062,6 +1171,8 @@ pkgcache:
   - https://invent.kde.org/multimedia/kdenlive
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/kdenlive/runimage.alpine.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/kdenlive/runimage/alpine/stable/kdenlive?tag=24.12.2-aarch64-linux&download=kdenlive.log
+  snapshots:
+  - 24.12.1-aarch64-linux[24.12.1]
   provides: kdenlive
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
@@ -1088,6 +1199,8 @@ pkgcache:
   - https://invent.kde.org/graphics/krita
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/krita/runimage.alpine.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/krita/runimage/alpine/stable/krita?tag=5.2.9-aarch64-linux&download=krita.log
+  snapshots:
+  - 5.2.6-aarch64-linux[5.2.6]
   provides: krita
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
@@ -1193,6 +1306,8 @@ pkgcache:
   - https://github.com/dave-theunsub/clamtk
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/clamtk/runimage.debian.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk?tag=6.07-aarch64-linux&download=clamtk.log
+  snapshots:
+  - 6.07-aarch64-linux[6.07]
   provides: clamtk
   notes:
   - "This Package has been marked 'deprecaed': https://gitlab.com/dave_m/clamtk/-/issues/144"

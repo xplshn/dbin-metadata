@@ -395,6 +395,9 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/0ad/appimage.0ad-matters.prerelease.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/0ad/appimage/0ad-matters/prerelease/0ad?tag=v0.0.27-rc1-27645-alpha-x86_64-linux\u0026download=0ad.log",
+   "snapshots": [
+    "v0.0.27-rc1-27645-alpha-x86_64-linux[v0.0.27-rc1-27645-alpha]"
+   ],
    "provides": "0ad",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/0ad-matters/0ad-appimage",
@@ -428,6 +431,9 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/0ad/appimage.0ad-matters.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/0ad/appimage/0ad-matters/stable/0ad?tag=v0.27.0-x86_64-linux\u0026download=0ad.log",
+   "snapshots": [
+    "v0.0.26-alpha-x86_64-linux[v0.0.26-alpha]"
+   ],
    "provides": "0ad",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/0ad-matters/0ad-appimage"
@@ -457,6 +463,9 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/86box/appimage.official.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/86box/appimage/official/stable/86box?tag=v4.2.1-x86_64-linux\u0026download=86box.log",
+   "snapshots": [
+    "v4.2.1-x86_64-linux[v4.2.1]"
+   ],
    "provides": "86box",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/86Box/86Box",
@@ -487,6 +496,9 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/acreom/appimage.official.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/acreom/appimage/official/stable/acreom?tag=v1.20.4-x86_64-linux\u0026download=acreom.log",
+   "snapshots": [
+    "v1.20.4-x86_64-linux[v1.20.4]"
+   ],
    "provides": "acreom",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/Acreom/app"
@@ -515,6 +527,10 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/agregore/appimage.official.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/agregore/appimage/official/stable/agregore?tag=v2.8.2-x86_64-linux\u0026download=agregore.log",
+   "snapshots": [
+    "v2.6.3-x86_64-linux[v2.6.3]",
+    "v2.7.0-x86_64-linux[v2.7.0]"
+   ],
    "provides": "agregore",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/AgregoreWeb/agregore-browser"
@@ -544,6 +560,9 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/advanced-passgen/appimage.official.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/advanced-passgen/appimage/official/stable/advanced-passgen?tag=v2.5.2-x86_64-linux\u0026download=advanced-passgen.log",
+   "snapshots": [
+    "v2.5.2-x86_64-linux[v2.5.2]"
+   ],
    "provides": "advanced-passgen",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/CodeDead/Advanced-PassGen"
@@ -572,6 +591,12 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/xash3d-fwgs/appimage.official.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/xash3d-fwgs/appimage/official/stable/xash3d-fwgs?tag=250302T173149-x86_64-linux\u0026download=xash3d-fwgs.log",
+   "snapshots": [
+    "250224T010841-x86_64-linux[250224T010841]",
+    "250225T170538-x86_64-linux[250225T170538]",
+    "250226T142114-x86_64-linux[250226T142114]",
+    "250301T195431-x86_64-linux[250301T195431]"
+   ],
    "provides": "xash3d-fwgs",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/FWGS/xash3d-fwgs"
@@ -656,6 +681,10 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/amdgpu_top/appimage.official.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/amdgpu_top/appimage/official/stable/amdgpu_top?tag=v0.10.3-x86_64-linux\u0026download=amdgpu_top.log",
+   "snapshots": [
+    "v0.10.1-x86_64-linux[v0.10.1]",
+    "v0.10.2-x86_64-linux[v0.10.2]"
+   ],
    "provides": "amdgpu_top",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/Umio-Yasuno/amdgpu_top"
@@ -685,6 +714,10 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/vscodium/appimage.official.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/vscodium/appimage/official/stable/vscodium?tag=1.97.2.25045-x86_64-linux\u0026download=vscodium.log",
+   "snapshots": [
+    "1.96.4.25026-x86_64-linux[1.96.4.25026]",
+    "1.97.0.25037-x86_64-linux[1.97.0.25037]"
+   ],
    "provides": "vscodium==codium",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/VSCodium/vscodium"
@@ -713,6 +746,9 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/vesktop/appimage.official.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop?tag=v1.5.5-x86_64-linux\u0026download=vesktop.log",
+   "snapshots": [
+    "v1.5.4-x86_64-linux[v1.5.4]"
+   ],
    "provides": "vesktop",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/Vencord/Vesktop"
@@ -742,6 +778,10 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/actual/appimage.official.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/actual/appimage/official/stable/actual?tag=v25.3.0-x86_64-linux\u0026download=actual.log",
+   "snapshots": [
+    "v25.1.0-x86_64-linux[v25.1.0]",
+    "v25.2.1-x86_64-linux[v25.2.1]"
+   ],
    "provides": "actual",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/actualbudget/actual"
@@ -770,6 +810,9 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/advanced-rest-client/appimage.official.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/advanced-rest-client/appimage/official/stable/advanced-rest-client?tag=v17.0.9-x86_64-linux\u0026download=advanced-rest-client.log",
+   "snapshots": [
+    "v17.0.9-x86_64-linux[v17.0.9]"
+   ],
    "provides": "advanced-rest-client",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/advanced-rest-client/arc-electron"
@@ -798,6 +841,12 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/affine/appimage.official.canary-1.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/affine/appimage/official/canary-1/affine?tag=v0.20.3-canary.1-x86_64-linux\u0026download=affine.log",
+   "snapshots": [
+    "v0.20.0-canary.1-x86_64-linux[v0.20.0-canary.1]",
+    "v0.20.0-canary.11-x86_64-linux[v0.20.0-canary.11]",
+    "v0.20.0-canary.15-x86_64-linux[v0.20.0-canary.15]",
+    "v0.20.0-canary.16-x86_64-linux[v0.20.0-canary.16]"
+   ],
    "provides": "affine",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/toeverything/AFFiNE"
@@ -827,6 +876,9 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/affine/appimage.official.canary-2.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/affine/appimage/official/canary-2/affine?tag=v0.20.0-canary.2-x86_64-linux\u0026download=affine.log",
+   "snapshots": [
+    "v0.20.0-canary.2-x86_64-linux[v0.20.0-canary.2]"
+   ],
    "provides": "affine",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/toeverything/AFFiNE"
@@ -855,6 +907,12 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/affine/appimage.official.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/affine/appimage/official/stable/affine?tag=v0.20.3-x86_64-linux\u0026download=affine.log",
+   "snapshots": [
+    "v0.19.5-x86_64-linux[v0.19.5]",
+    "v0.19.6-x86_64-linux[v0.19.6]",
+    "v0.20.0-x86_64-linux[v0.20.0]",
+    "v0.20.2-x86_64-linux[v0.20.2]"
+   ],
    "provides": "affine",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/toeverything/AFFiNE"
@@ -883,6 +941,9 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/air-controller-desktop/appimage.official.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/air-controller-desktop/appimage/official/stable/air-controller-desktop?tag=0.4.0-x86_64-linux\u0026download=air-controller-desktop.log",
+   "snapshots": [
+    "0.4.0-x86_64-linux[0.4.0]"
+   ],
    "provides": "air-controller-desktop",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/air-controller/air-controller-desktop"
@@ -911,6 +972,9 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/akuse/appimage.official.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/akuse/appimage/official/stable/akuse?tag=1.10.1-x86_64-linux\u0026download=akuse.log",
+   "snapshots": [
+    "1.9.0-x86_64-linux[1.9.0]"
+   ],
    "provides": "akuse",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/akuse-app/akuse"
@@ -939,6 +1003,9 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/allusion/appimage.official.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/allusion/appimage/official/stable/allusion?tag=v1.0.0-rc.10-x86_64-linux\u0026download=allusion.log",
+   "snapshots": [
+    "v1.0.0-rc.10-x86_64-linux[v1.0.0-rc.10]"
+   ],
    "provides": "allusion",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/allusion-app/Allusion"
@@ -969,6 +1036,11 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/altair/appimage.official.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/altair/appimage/official/stable/altair?tag=v8.1.6-x86_64-linux\u0026download=altair.log",
+   "snapshots": [
+    "v8.1.3-x86_64-linux[v8.1.3]",
+    "v8.1.4-x86_64-linux[v8.1.4]",
+    "v8.1.5-x86_64-linux[v8.1.5]"
+   ],
    "provides": "altair",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/altair-graphql/altair"
@@ -998,6 +1070,12 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/altus/appimage.official.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/altus/appimage/official/stable/altus?tag=5.5.3-x86_64-linux\u0026download=altus.log",
+   "snapshots": [
+    "5.4.0-x86_64-linux[5.4.0]",
+    "5.4.1-x86_64-linux[5.4.1]",
+    "5.5.1-x86_64-linux[5.5.1]",
+    "5.5.2-x86_64-linux[5.5.2]"
+   ],
    "provides": "altus",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/amanharwara/altus"
@@ -1164,6 +1242,9 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/alexandria/appimage.official.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/alexandria/appimage/official/stable/alexandria?tag=v0.13.1-x86_64-linux\u0026download=alexandria.log",
+   "snapshots": [
+    "v0.13.1-x86_64-linux[v0.13.1]"
+   ],
    "provides": "alexandria",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/btpf/Alexandria"
@@ -1192,6 +1273,9 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/qbittorrent-enhanced/appimage.official.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/qbittorrent-enhanced/appimage/official/stable/qbittorrent-enhanced?tag=release-5.0.4.10-x86_64-linux\u0026download=qbittorrent-enhanced.log",
+   "snapshots": [
+    "release-5.0.3.10-x86_64-linux[release-5.0.3.10]"
+   ],
    "provides": "qbittorrent-enhanced",
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/qbittorrent-enhanced/appimage/official/stable/qbittorrent-enhanced:release-5.0.4.10-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/qbittorrent-enhanced/appimage/official/stable/qbittorrent-enhanced@sha256:895a33f1cc0e8d06b38ea60fd4f56bae5ee1b3fd4b60705c0bd0c5ab34bcfd30",
@@ -1217,6 +1301,9 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/android-messages/appimage.official.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/android-messages/appimage/official/stable/android-messages?tag=v5.6.0-x86_64-linux\u0026download=android-messages.log",
+   "snapshots": [
+    "v5.6.0-x86_64-linux[v5.6.0]"
+   ],
    "provides": "android-messages==Android-Messages",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/OrangeDrangon/android-messages-desktop"
@@ -1246,6 +1333,10 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/aaaaxy/appimage.official.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/aaaaxy/appimage/official/stable/aaaaxy?tag=v1.6.0-x86_64-linux\u0026download=aaaaxy.log",
+   "snapshots": [
+    "v1.5.250-x86_64-linux[v1.5.250]",
+    "v1.5.256-x86_64-linux[v1.5.256]"
+   ],
    "provides": "aaaaxy",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/divVerent/aaaaxy"
@@ -1275,6 +1366,9 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/peazip/appimage.ferion11.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/peazip/appimage/ferion11/stable/peazip?tag=v10.3.0-x86_64-linux\u0026download=peazip.log",
+   "snapshots": [
+    "v10.2.0-x86_64-linux[v10.2.0]"
+   ],
    "provides": "peazip",
    "notes": [
     "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/ferion11/PeaZip_Appimage"
@@ -1304,6 +1398,9 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/flameshot/appimage.official.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/flameshot/appimage/official/stable/flameshot?tag=v12.1.0-x86_64-linux\u0026download=flameshot.log",
+   "snapshots": [
+    "v12.1.0-x86_64-linux[v12.1.0]"
+   ],
    "provides": "flameshot",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/flameshot-org/flameshot"
@@ -1332,6 +1429,13 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/android-knot/appimage.official.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/knot/appimage/official/stable/knot?tag=1.2.11-x86_64-linux\u0026download=knot.log",
+   "snapshots": [
+    "1.2.06-x86_64-linux[1.2.06]",
+    "1.2.07-x86_64-linux[1.2.07]",
+    "1.2.08-x86_64-linux[1.2.08]",
+    "1.2.09-x86_64-linux[1.2.09]",
+    "1.2.10-x86_64-linux[1.2.10]"
+   ],
    "provides": "knot",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/ic005k/Knot"
@@ -1360,6 +1464,10 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/abiword/appimage.ivan-hc.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/abiword/appimage/ivan-hc/stable/abiword?tag=3.0.6-x86_64-linux\u0026download=abiword.log",
+   "snapshots": [
+    "3.0.6-2-3.4.4-2-x86_64-linux[3.0.6-2-3.4.4-2]",
+    "3.0.6-2-4.2-x86_64-linux[3.0.6-2-4.2]"
+   ],
    "provides": "abiword",
    "notes": [
     "Community Created AppImage based on JuNest. Check/Report @ https://github.com/ivan-hc/Abiword-appimage"
@@ -1420,6 +1528,9 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/spotify/appimage.ivan-hc.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/spotify/appimage/ivan-hc/stable/spotify?tag=1.2.56.502.6824-x86_64-linux\u0026download=spotify.log",
+   "snapshots": [
+    "1.2.53.440.72582-x86_64-linux[1.2.53.440.72582]"
+   ],
    "provides": "spotify",
    "notes": [
     "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/ivan-hc/Spotify-appimage"
@@ -1448,6 +1559,9 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/kdeutils/appimage.ivan-hc.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/kdeutils/appimage/ivan-hc/stable/kdeutils?tag=24.12-x86_64-linux\u0026download=kdeutils.log",
+   "snapshots": [
+    "24.12-x86_64-linux[24.12]"
+   ],
    "provides": "kdeutils=\u003eark,kdeutils=\u003efilelight,kdeutils=\u003efrancis,kdeutils=\u003eisoimagewriter,kdeutils=\u003ekalm,kdeutils=\u003ekate,kdeutils=\u003ekbackup,kdeutils=\u003ekcalc,kdeutils=\u003ekcharselect,kdeutils=\u003ekclock,kdeutils=\u003ekdebugsettings,kdeutils=\u003ekdf,kdeutils=\u003ekdialog,kdeutils:kde-utilities,kdeutils=\u003ekeditbookmarks,kdeutils=\u003ekeysmith,kdeutils=\u003ekfind,kdeutils=\u003ekgpg,kdeutils=\u003ekongress,kdeutils=\u003ekrecorder,kdeutils=\u003ekteatime,kdeutils=\u003ektimer,kdeutils=\u003ektrip,kdeutils=\u003ekweather,kdeutils=\u003ekwrite,kdeutils=\u003eskanpage,kdeutils=\u003esweeper,kdeutils=\u003etelly-skout",
    "notes": [
     "Community Created AppImage. Check/Report @ https://github.com/ivan-hc/KDE-utils-appimage"
@@ -1477,6 +1591,12 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/signal-desktop/appimage.karo-solutions.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/signal-desktop/appimage/karo-solutions/stable/signal-desktop?tag=v7.44.0-x86_64-linux\u0026download=signal-desktop.log",
+   "snapshots": [
+    "v7.40.0-x86_64-linux[v7.40.0]",
+    "v7.41.0-x86_64-linux[v7.41.0]",
+    "v7.42.0-x86_64-linux[v7.42.0]",
+    "v7.43.0-x86_64-linux[v7.43.0]"
+   ],
    "provides": "signal-desktop",
    "notes": [
     "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/karo-solutions/Signal-Desktop-AppImage"
@@ -1563,6 +1683,9 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/player432hz/appimage.official.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/powerliminalsplayer?tag=v3.3.2-x86_64-linux\u0026download=powerliminalsplayer.log",
+   "snapshots": [
+    "v3.3.2-x86_64-linux[v3.3.2]"
+   ],
    "provides": "converter432hz==Converter432Hz,player432hz==Player432Hz,powerliminalsplayer==PowerliminalsPlayer,yangdownloader==YangDownloader",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/mysteryx93/HanumanInstituteApps"
@@ -1592,6 +1715,9 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/player432hz/appimage.official.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/yangdownloader?tag=v3.3.2-x86_64-linux\u0026download=yangdownloader.log",
+   "snapshots": [
+    "v3.3.2-x86_64-linux[v3.3.2]"
+   ],
    "provides": "converter432hz==Converter432Hz,player432hz==Player432Hz,powerliminalsplayer==PowerliminalsPlayer,yangdownloader==YangDownloader",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/mysteryx93/HanumanInstituteApps"
@@ -1650,6 +1776,9 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/neovim/appimage.official.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/neovim/appimage/official/stable/neovim?tag=v0.10.4-x86_64-linux\u0026download=neovim.log",
+   "snapshots": [
+    "v0.10.3-x86_64-linux[v0.10.3]"
+   ],
    "provides": "neovim=\u003envim",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/neovim/neovim"
@@ -1679,6 +1808,10 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/citron/appimage.pkgforge-dev.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/citron/appimage/pkgforge-dev/stable/citron?tag=0.5-x86_64-linux\u0026download=citron.log",
+   "snapshots": [
+    "0.4-x86_64-linux[0.4]",
+    "20250209-150600-x86_64-linux[20250209-150600]"
+   ],
    "provides": "citron",
    "notes": [
     "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Citron-AppImage",
@@ -1709,6 +1842,10 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/citron/appimage.pkgforge-dev.v3.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/citron/appimage/pkgforge-dev/v3/citron?tag=0.5-x86_64-linux\u0026download=citron.log",
+   "snapshots": [
+    "0.4-x86_64-linux[0.4]",
+    "20250209-150600-x86_64-linux[20250209-150600]"
+   ],
    "provides": "citron",
    "notes": [
     "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Citron-AppImage",
@@ -1740,6 +1877,14 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/cromite/appimage.pkgforge-dev.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/cromite/appimage/pkgforge-dev/stable/cromite?tag=v133.0.6943.127-x86_64-linux\u0026download=cromite.log",
+   "snapshots": [
+    "v132.0.6834.83-x86_64-linux[v132.0.6834.83]",
+    "v131.0.6778.205-x86_64-linux[v131.0.6778.205]",
+    "20250126-192202-x86_64-linux[20250126-192202]",
+    "v132.0.6834.122-x86_64-linux[v132.0.6834.122]",
+    "v132.0.6834.163-x86_64-linux[v132.0.6834.163]",
+    "v133.0.6943.99-x86_64-linux[v133.0.6943.99]"
+   ],
    "provides": "cromite==cromite-browser",
    "notes": [
     "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Cromite-AppImage",
@@ -1801,6 +1946,10 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/obs-studio/appimage.pkgforge-dev.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/obs-studio/appimage/pkgforge-dev/stable/obs-studio?tag=20250222-035321-x86_64-linux\u0026download=obs-studio.log",
+   "snapshots": [
+    "31.0.0-4-x86_64-linux[31.0.0-4]",
+    "31.0.1-2-x86_64-linux[31.0.1-2]"
+   ],
    "provides": "obs-studio",
    "notes": [
     "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/OBS-Studio-AppImage",
@@ -1832,6 +1981,10 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/ppsspp/appimage.pkgforge-dev.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ppsspp/appimage/pkgforge-dev/stable/ppsspp?tag=1.18.1-3-x86_64-linux\u0026download=ppsspp.log",
+   "snapshots": [
+    "1.18.1-2-x86_64-linux[1.18.1-2]",
+    "1.17.1-1-x86_64-linux[1.17.1-1]"
+   ],
    "provides": "ppsspp",
    "notes": [
     "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/PPSSPP-AppImage",
@@ -1861,6 +2014,11 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/torzu/appimage.pkgforge-dev.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/torzu/appimage/pkgforge-dev/stable/torzu?tag=r27206.eaa9c9e3a-x86_64-linux\u0026download=torzu.log",
+   "snapshots": [
+    "r27198.02cfee3f1-x86_64-linux[r27198.02cfee3f1]",
+    "r27204.6ead42919-x86_64-linux[r27204.6ead42919]",
+    "20250216-151949-x86_64-linux[20250216-151949]"
+   ],
    "provides": "torzu",
    "notes": [
     "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Torzu-AppImage",
@@ -1890,6 +2048,11 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/torzu/appimage.pkgforge-dev.v3.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/torzu/appimage/pkgforge-dev/v3/torzu?tag=r27206.eaa9c9e3a-x86_64-linux\u0026download=torzu.log",
+   "snapshots": [
+    "r27198.02cfee3f1-x86_64-linux[r27198.02cfee3f1]",
+    "r27204.6ead42919-x86_64-linux[r27204.6ead42919]",
+    "20250216-151949-x86_64-linux[20250216-151949]"
+   ],
    "provides": "torzu",
    "notes": [
     "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Torzu-AppImage",
@@ -1921,6 +2084,9 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/android-tools/appimage.pkgforge-dev.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/android-tools/appimage/pkgforge-dev/stable/android-tools?tag=35.0.2-x86_64-linux\u0026download=android-tools.log",
+   "snapshots": [
+    "35.0.2-x86_64-linux[35.0.2]"
+   ],
    "provides": "android-tools=\u003eadb,android-tools=\u003eetc1tool,android-tools=\u003efastboot,android-tools=\u003ehprof-conv,android-tools=\u003emake_f2fs,android-tools=\u003emake_f2fs_casefold,android-tools=\u003emke2fs,android-tools=\u003esqlite3",
    "notes": [
     "Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/android-tools-AppImage"
@@ -1951,6 +2117,17 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/mpv/appimage.pkgforge-dev.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/mpv/appimage/pkgforge-dev/stable/mpv?tag=v0.39.0-933-g630a036f6-x86_64-linux\u0026download=mpv.log",
+   "snapshots": [
+    "v0.39.0-613-g7a59a12b76-x86_64-linux[v0.39.0-613-g7a59a12b76]",
+    "v0.39.0-615-gca211b5b88-x86_64-linux[v0.39.0-615-gca211b5b88]",
+    "v0.39.0-625-gdf3872e318-x86_64-linux[v0.39.0-625-gdf3872e318]",
+    "v0.39.0-699-g694817121a-x86_64-linux[v0.39.0-699-g694817121a]",
+    "v0.39.0-716-g86383aef95-x86_64-linux[v0.39.0-716-g86383aef95]",
+    "v0.39.0-723-g38ad1ed03b-x86_64-linux[v0.39.0-723-g38ad1ed03b]",
+    "v0.39.0-756-ge4b64fba9-x86_64-linux[v0.39.0-756-ge4b64fba9]",
+    "v0.39.0-775-g834f99e46-x86_64-linux[v0.39.0-775-g834f99e46]",
+    "v0.39.0-876-gb848ffad1-x86_64-linux[v0.39.0-876-gb848ffad1]"
+   ],
    "provides": "mpv",
    "notes": [
     "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/mpv-AppImage",
@@ -2013,6 +2190,9 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/puddletag/appimage.pkgforge-dev.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/puddletag/appimage/pkgforge-dev/stable/puddletag?tag=20250217-182502-x86_64-linux\u0026download=puddletag.log",
+   "snapshots": [
+    "2.4.0-x86_64-linux[2.4.0]"
+   ],
    "provides": "puddletag",
    "notes": [
     "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/puddletag-AppImage",
@@ -2044,6 +2224,11 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/strawberry/appimage.pkgforge-dev.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/strawberry/appimage/pkgforge-dev/stable/strawberry?tag=1.2.7-2-x86_64-linux\u0026download=strawberry.log",
+   "snapshots": [
+    "1.2.4-1-x86_64-linux[1.2.4-1]",
+    "1.2.6-1-x86_64-linux[1.2.6-1]",
+    "1.2.7-1-x86_64-linux[1.2.7-1]"
+   ],
    "provides": "strawberry",
    "notes": [
     "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/strawberry-AppImage",
@@ -2074,6 +2259,14 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/ghostty/appimage.psadi.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty?tag=v1.1.2_2-x86_64-linux\u0026download=ghostty.log",
+   "snapshots": [
+    "v1.0.1_2-x86_64-linux[v1.0.1+2]",
+    "v1.0.1_4-x86_64-linux[v1.0.1+4]",
+    "v1.1.0-x86_64-linux[v1.1.0]",
+    "v1.1.0_1-x86_64-linux[v1.1.0+1]",
+    "v1.1.2-x86_64-linux[v1.1.2]",
+    "v1.1.2_1-x86_64-linux[v1.1.2+1]"
+   ],
    "provides": "ghostty",
    "notes": [
     "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/psadi/ghostty-appimage"
@@ -2161,6 +2354,9 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/simplex-desktop/appimage.official.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/simplex-desktop/appimage/official/stable/simplex-desktop?tag=v6.2.5-x86_64-linux\u0026download=simplex-desktop.log",
+   "snapshots": [
+    "v6.2.4-x86_64-linux[v6.2.4]"
+   ],
    "provides": "simplex-desktop==simplex-chat-desktop",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/simplex-chat/simplex-chat"
@@ -2191,6 +2387,14 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/brave/appimage.srevinsaju.beta.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/brave/appimage/srevinsaju/beta/brave?tag=v1.76.47-x86_64-linux\u0026download=brave.log",
+   "snapshots": [
+    "v1.75.160-x86_64-linux[v1.75.160]",
+    "v1.75.161-x86_64-linux[v1.75.161]",
+    "v1.75.162-x86_64-linux[v1.75.162]",
+    "v1.75.163-x86_64-linux[v1.75.163]",
+    "v1.75.164-x86_64-linux[v1.75.164]",
+    "v1.75.167-x86_64-linux[v1.75.167]"
+   ],
    "provides": "brave",
    "notes": [
     "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Brave-AppImage"
@@ -2221,6 +2425,14 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/brave/appimage.srevinsaju.nightly.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/brave/appimage/srevinsaju/nightly/brave?tag=v1.77.1-x86_64-linux\u0026download=brave.log",
+   "snapshots": [
+    "v1.76.15-x86_64-linux[v1.76.15]",
+    "v1.76.18-x86_64-linux[v1.76.18]",
+    "v1.76.20-x86_64-linux[v1.76.20]",
+    "v1.76.23-x86_64-linux[v1.76.23]",
+    "v1.76.28-x86_64-linux[v1.76.28]",
+    "v1.76.38-x86_64-linux[v1.76.38]"
+   ],
    "provides": "brave",
    "notes": [
     "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Brave-AppImage"
@@ -2280,6 +2492,20 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/firefox/appimage.srevinsaju.beta.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/firefox/appimage/srevinsaju/beta/firefox?tag=136.0.20250221091531-x86_64-linux\u0026download=firefox.log",
+   "snapshots": [
+    "135.0.20250113112036-x86_64-linux[135.0.20250113112036]",
+    "135.0.20250115091607-x86_64-linux[135.0.20250115091607]",
+    "135.0.20250117102618-x86_64-linux[135.0.20250117102618]",
+    "135.0.20250120093501-x86_64-linux[135.0.20250120093501]",
+    "135.0.20250124091819-x86_64-linux[135.0.20250124091819]",
+    "136.0.20250204100018-x86_64-linux[136.0.20250204100018]",
+    "136.0.20250205091800-x86_64-linux[136.0.20250205091800]",
+    "136.0.20250207091649-x86_64-linux[136.0.20250207091649]",
+    "136.0.20250210091604-x86_64-linux[136.0.20250210091604]",
+    "136.0.20250214091859-x86_64-linux[136.0.20250214091859]",
+    "136.0.20250217120651-x86_64-linux[136.0.20250217120651]",
+    "136.0.20250219092102-x86_64-linux[136.0.20250219092102]"
+   ],
    "provides": "firefox=\u003efirefox-beta",
    "notes": [
     "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Firefox-Appimage"
@@ -2310,6 +2536,16 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/firefox/appimage.srevinsaju.dev.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/firefox/appimage/srevinsaju/dev/firefox?tag=136.0.20250221091531-x86_64-linux\u0026download=firefox.log",
+   "snapshots": [
+    "135.0.20250113112036-x86_64-linux[135.0.20250113112036]",
+    "135.0.20250115091607-x86_64-linux[135.0.20250115091607]",
+    "135.0.20250117102618-x86_64-linux[135.0.20250117102618]",
+    "135.0.20250120093501-x86_64-linux[135.0.20250120093501]",
+    "135.0.20250124091819-x86_64-linux[135.0.20250124091819]",
+    "136.0.20250214091859-x86_64-linux[136.0.20250214091859]",
+    "136.0.20250217120651-x86_64-linux[136.0.20250217120651]",
+    "136.0.20250219092102-x86_64-linux[136.0.20250219092102]"
+   ],
    "provides": "firefox=\u003efirefox-dev",
    "notes": [
     "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Firefox-Appimage"
@@ -2340,6 +2576,9 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/firefox/appimage.srevinsaju.esr.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/firefox/appimage/srevinsaju/esr/firefox?tag=128.7.20250127191809-x86_64-linux\u0026download=firefox.log",
+   "snapshots": [
+    "128.6.20241218153108-x86_64-linux[128.6.20241218153108]"
+   ],
    "provides": "firefox=\u003efirefox-esr",
    "notes": [
     "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Firefox-Appimage"
@@ -2370,6 +2609,40 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/firefox/appimage.srevinsaju.nightly.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/firefox/appimage/srevinsaju/nightly/firefox?tag=137.0.20250301214334-x86_64-linux\u0026download=firefox.log",
+   "snapshots": [
+    "136.0.20250115042832-x86_64-linux[136.0.20250115042832]",
+    "136.0.20250115215720-x86_64-linux[136.0.20250115215720]",
+    "136.0.20250119092932-x86_64-linux[136.0.20250119092932]",
+    "136.0.20250121034512-x86_64-linux[136.0.20250121034512]",
+    "136.0.20250126092804-x86_64-linux[136.0.20250126092804]",
+    "136.0.20250130092924-x86_64-linux[136.0.20250130092924]",
+    "136.0.20250131051218-x86_64-linux[136.0.20250131051218]",
+    "136.0.20250201090348-x86_64-linux[136.0.20250201090348]",
+    "136.0.20250202091256-x86_64-linux[136.0.20250202091256]",
+    "136.0.20250202210625-x86_64-linux[136.0.20250202210625]",
+    "137.0.20250204093233-x86_64-linux[137.0.20250204093233]",
+    "137.0.20250204214027-x86_64-linux[137.0.20250204214027]",
+    "137.0.20250207045558-x86_64-linux[137.0.20250207045558]",
+    "137.0.20250207164009-x86_64-linux[137.0.20250207164009]",
+    "137.0.20250209092944-x86_64-linux[137.0.20250209092944]",
+    "137.0.20250210093033-x86_64-linux[137.0.20250210093033]",
+    "137.0.20250211090130-x86_64-linux[137.0.20250211090130]",
+    "137.0.20250211214755-x86_64-linux[137.0.20250211214755]",
+    "137.0.20250214095524-x86_64-linux[137.0.20250214095524]",
+    "137.0.20250215092323-x86_64-linux[137.0.20250215092323]",
+    "137.0.20250216085220-x86_64-linux[137.0.20250216085220]",
+    "137.0.20250217092040-x86_64-linux[137.0.20250217092040]",
+    "137.0.20250218093115-x86_64-linux[137.0.20250218093115]",
+    "137.0.20250218205441-x86_64-linux[137.0.20250218205441]",
+    "137.0.20250220214610-x86_64-linux[137.0.20250220214610]",
+    "137.0.20250222091445-x86_64-linux[137.0.20250222091445]",
+    "137.0.20250223093828-x86_64-linux[137.0.20250223093828]",
+    "137.0.20250224094139-x86_64-linux[137.0.20250224094139]",
+    "137.0.20250224170755-x86_64-linux[137.0.20250224170755]",
+    "137.0.20250226090206-x86_64-linux[137.0.20250226090206]",
+    "137.0.20250227215252-x86_64-linux[137.0.20250227215252]",
+    "137.0.20250301091711-x86_64-linux[137.0.20250301091711]"
+   ],
    "provides": "firefox=\u003efirefox-nightly",
    "notes": [
     "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Firefox-Appimage"
@@ -2400,6 +2673,11 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/firefox/appimage.srevinsaju.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/firefox/appimage/srevinsaju/stable/firefox?tag=135.0.20250216192613-x86_64-linux\u0026download=firefox.log",
+   "snapshots": [
+    "134.0.20250113121357-x86_64-linux[134.0.20250113121357]",
+    "134.0.20250120135430-x86_64-linux[134.0.20250120135430]",
+    "135.0.20250130195129-x86_64-linux[135.0.20250130195129]"
+   ],
    "provides": "firefox",
    "notes": [
     "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Firefox-Appimage"
@@ -2428,6 +2706,22 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/discord/appimage.srevinsaju.canary.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/discord-canary/appimage/srevinsaju/canary/discord-canary?tag=0.0.601-x86_64-linux\u0026download=discord-canary.log",
+   "snapshots": [
+    "0.0.560-x86_64-linux[0.0.560]",
+    "0.0.574-x86_64-linux[0.0.574]",
+    "0.0.580-x86_64-linux[0.0.580]",
+    "0.0.581-x86_64-linux[0.0.581]",
+    "0.0.583-x86_64-linux[0.0.583]",
+    "0.0.584-x86_64-linux[0.0.584]",
+    "0.0.585-x86_64-linux[0.0.585]",
+    "0.0.586-x86_64-linux[0.0.586]",
+    "0.0.587-x86_64-linux[0.0.587]",
+    "0.0.591-x86_64-linux[0.0.591]",
+    "0.0.594-x86_64-linux[0.0.594]",
+    "0.0.597-x86_64-linux[0.0.597]",
+    "0.0.598-x86_64-linux[0.0.598]",
+    "0.0.600-x86_64-linux[0.0.600]"
+   ],
    "provides": "discord-canary",
    "notes": [
     "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/discord-appimage"
@@ -2457,6 +2751,14 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/discord/appimage.srevinsaju.ptb.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/discord-ptb/appimage/srevinsaju/ptb/discord-ptb?tag=0.0.132-x86_64-linux\u0026download=discord-ptb.log",
+   "snapshots": [
+    "0.0.125-x86_64-linux[0.0.125]",
+    "0.0.127-x86_64-linux[0.0.127]",
+    "0.0.128-x86_64-linux[0.0.128]",
+    "0.0.129-x86_64-linux[0.0.129]",
+    "0.0.130-x86_64-linux[0.0.130]",
+    "0.0.131-x86_64-linux[0.0.131]"
+   ],
    "provides": "discord-ptb",
    "notes": [
     "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/discord-appimage"
@@ -2486,6 +2788,15 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/discord/appimage.srevinsaju.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/discord/appimage/srevinsaju/stable/discord?tag=0.0.87-x86_64-linux\u0026download=discord.log",
+   "snapshots": [
+    "0.0.80-x86_64-linux[0.0.80]",
+    "0.0.81-x86_64-linux[0.0.81]",
+    "0.0.82-x86_64-linux[0.0.82]",
+    "0.0.83-x86_64-linux[0.0.83]",
+    "0.0.84-x86_64-linux[0.0.84]",
+    "0.0.85-x86_64-linux[0.0.85]",
+    "0.0.86-x86_64-linux[0.0.86]"
+   ],
    "provides": "discord",
    "notes": [
     "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/discord-appimage"
@@ -2515,6 +2826,9 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/tangent/appimage.official.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/tangent/appimage/official/stable/tangent?tag=0.8.4-x86_64-linux\u0026download=tangent.log",
+   "snapshots": [
+    "0.8.4-x86_64-linux[0.8.4]"
+   ],
    "provides": "tangent",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/suchnsuch/Tangent"
@@ -2544,6 +2858,10 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/tangent/appimage.official.alpha.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent?tag=0.9.0-alpha.8-x86_64-linux\u0026download=tangent.log",
+   "snapshots": [
+    "0.9.0-alpha.6-x86_64-linux[0.9.0-alpha.6]",
+    "0.9.0-alpha.7-x86_64-linux[0.9.0-alpha.7]"
+   ],
    "provides": "tangent=\u003etangent-alpha",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/suchnsuch/Tangent"
@@ -2601,6 +2919,9 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/telegram-desktop/dynamic.official.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/telegram-desktop/dynamic/official/stable/telegram-desktop?tag=v5.10.6-x86_64-linux\u0026download=telegram-desktop.log",
+   "snapshots": [
+    "v5.10.3-x86_64-linux[v5.10.3]"
+   ],
    "provides": "telegram-desktop==Telegram-Desktop",
    "notes": [
     "Pre Built Binary Fetched from Upstream. Check/Report @ https://github.com/telegramdesktop/tdesktop"
@@ -2629,6 +2950,10 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/escrcpy/appimage.official.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/escrcpy/appimage/official/stable/escrcpy?tag=v1.28.7-x86_64-linux\u0026download=escrcpy.log",
+   "snapshots": [
+    "v1.28.4-x86_64-linux[v1.28.4]",
+    "v1.28.6-x86_64-linux[v1.28.6]"
+   ],
    "provides": "escrcpy",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/viarotel-org/escrcpy"
@@ -2684,6 +3009,9 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/9launcher/appimage.official.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/9launcher/appimage/official/stable/9launcher?tag=v.1.3.1-x86_64-linux\u0026download=9launcher.log",
+   "snapshots": [
+    "v.1.3.1-x86_64-linux[v.1.3.1]"
+   ],
    "provides": "9launcher",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/wearrrrr/9Launcher"
@@ -2712,6 +3040,9 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/wezterm/appimage.official.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/wezterm/appimage/official/stable/wezterm?tag=20240203-110809-5046fc22-x86_64-linux\u0026download=wezterm.log",
+   "snapshots": [
+    "20240203-110809-5046fc22-x86_64-linux[20240203-110809-5046fc22]"
+   ],
    "provides": "wezterm",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/wez/wezterm"
@@ -2741,6 +3072,9 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.beta.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser?tag=1.0.2-b.5-x86_64-linux\u0026download=zen-browser.log",
+   "snapshots": [
+    "1.0.2-b.5-x86_64-linux[1.0.2-b.5]"
+   ],
    "provides": "zen-browser==zen",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop"
@@ -2770,6 +3104,16 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.8.2b-x86_64-linux\u0026download=zen-browser.log",
+   "snapshots": [
+    "1.7b-x86_64-linux[1.7b]",
+    "1.7.1b-x86_64-linux[1.7.1b]",
+    "1.7.2b-x86_64-linux[1.7.2b]",
+    "1.7.4b-x86_64-linux[1.7.4b]",
+    "1.7.5b-x86_64-linux[1.7.5b]",
+    "1.7.6b-x86_64-linux[1.7.6b]",
+    "1.8b-x86_64-linux[1.8b]",
+    "1.8.1b-x86_64-linux[1.8.1b]"
+   ],
    "provides": "zen-browser==zen",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop"
@@ -2798,6 +3142,36 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.twilight.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.8.2t_2025-03-02at13_03_49_-x86_64-linux\u0026download=zen-browser.log",
+   "snapshots": [
+    "1.7t_2025-01-15-x86_64-linux[1.7t_2025-01-15]",
+    "1.7t_2025-01-16-x86_64-linux[1.7t_2025-01-16]",
+    "1.7t_2025-01-19-x86_64-linux[1.7t_2025-01-19]",
+    "Twilightbuild-1.7.2t_2025-01-21at22_18_15_-x86_64-linux[Twilightbuild-1.7.2t(2025-01-21at22:18:15)]",
+    "Twilightbuild-1.7.2t_2025-01-25at23_03_24_-x86_64-linux[Twilightbuild-1.7.2t(2025-01-25at23:03:24)]",
+    "Twilightbuild-1.7.4t_2025-01-30at23_03_43_-x86_64-linux[Twilightbuild-1.7.4t(2025-01-30at23:03:43)]",
+    "Twilightbuild-1.7.4t_2025-02-01at09_34_05_-x86_64-linux[Twilightbuild-1.7.4t(2025-02-01at09:34:05)]",
+    "Twilightbuild-1.7.4t_2025-02-01at23_12_22_-x86_64-linux[Twilightbuild-1.7.4t(2025-02-01at23:12:22)]",
+    "Twilightbuild-1.7.4t_2025-02-02at16_58_54_-x86_64-linux[Twilightbuild-1.7.4t(2025-02-02at16:58:54)]",
+    "Twilightbuild-1.7.5t_2025-02-04at10_17_36_-x86_64-linux[Twilightbuild-1.7.5t(2025-02-04at10:17:36)]",
+    "Twilightbuild-1.7.6t_2025-02-05at14_21_09_-x86_64-linux[Twilightbuild-1.7.6t(2025-02-05at14:21:09)]",
+    "Twilightbuild-1.7.6t_2025-02-07at13_39_46_-x86_64-linux[Twilightbuild-1.7.6t(2025-02-07at13:39:46)]",
+    "Twilightbuild-1.7.7t_2025-02-08at23_03_35_-x86_64-linux[Twilightbuild-1.7.7t(2025-02-08at23:03:35)]",
+    "Twilightbuild-1.7.7t_2025-02-09at23_03_26_-x86_64-linux[Twilightbuild-1.7.7t(2025-02-09at23:03:26)]",
+    "Twilightbuild-1.7.7t_2025-02-11at12_46_32_-x86_64-linux[Twilightbuild-1.7.7t(2025-02-11at12:46:32)]",
+    "Twilightbuild-1.7.7t_2025-02-12at11_40_35_-x86_64-linux[Twilightbuild-1.7.7t(2025-02-12at11:40:35)]",
+    "Twilightbuild-1.7.7t_2025-02-14at19_14_03_-x86_64-linux[Twilightbuild-1.7.7t(2025-02-14at19:14:03)]",
+    "Twilightbuild-1.7.7t_2025-02-16at06_51_50_-x86_64-linux[Twilightbuild-1.7.7t(2025-02-16at06:51:50)]",
+    "1.8t_2025-02-17-x86_64-linux[1.8t_2025-02-17]",
+    "1.8t_2025-02-19-x86_64-linux[1.8t_2025-02-19]",
+    "1.8t_2025-02-21-x86_64-linux[1.8t_2025-02-21]",
+    "1.8t_2025-02-22-x86_64-linux[1.8t_2025-02-22]",
+    "1.8t_2025-02-23-x86_64-linux[1.8t_2025-02-23]",
+    "Twilightbuild-1.8.1t_2025-02-24at09_55_52_-x86_64-linux[Twilightbuild-1.8.1t(2025-02-24at09:55:52)]",
+    "Twilightbuild-1.8.1t_2025-02-25at14_25_38_-x86_64-linux[Twilightbuild-1.8.1t(2025-02-25at14:25:38)]",
+    "Twilightbuild-1.8.2t_2025-02-25at23_11_44_-x86_64-linux[Twilightbuild-1.8.2t(2025-02-25at23:11:44)]",
+    "Twilightbuild-1.8.2t_2025-02-28at07_38_17_-x86_64-linux[Twilightbuild-1.8.2t(2025-02-28at07:38:17)]",
+    "Twilightbuild-1.8.2t_2025-03-01at13_25_05_-x86_64-linux[Twilightbuild-1.8.2t(2025-03-01at13:25:05)]"
+   ],
    "provides": "zen-browser==zen",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop"
@@ -2854,6 +3228,21 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/kdenlive/appimage.official.nightly.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/kdenlive/appimage/official/nightly/kdenlive?tag=2025-02-28-x86_64-linux\u0026download=kdenlive.log",
+   "snapshots": [
+    "2025-02-02-x86_64-linux[2025-02-02]",
+    "2025-02-04-x86_64-linux[2025-02-04]",
+    "2025-02-07-x86_64-linux[2025-02-07]",
+    "2025-02-09-x86_64-linux[2025-02-09]",
+    "2025-02-10-x86_64-linux[2025-02-10]",
+    "2025-02-12-x86_64-linux[2025-02-12]",
+    "2025-02-17-x86_64-linux[2025-02-17]",
+    "2025-02-18-x86_64-linux[2025-02-18]",
+    "2025-02-22-x86_64-linux[2025-02-22]",
+    "2025-02-23-x86_64-linux[2025-02-23]",
+    "2025-02-24-x86_64-linux[2025-02-24]",
+    "2025-02-25-x86_64-linux[2025-02-25]",
+    "2025-02-26-x86_64-linux[2025-02-26]"
+   ],
    "provides": "kdenlive",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://invent.kde.org/multimedia/kdenlive"
@@ -2911,6 +3300,31 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/krita/appimage.official.next.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/krita/appimage/official/next/krita?tag=2025-03-01-x86_64-linux\u0026download=krita.log",
+   "snapshots": [
+    "2025-02-01-x86_64-linux[2025-02-01]",
+    "2025-02-02-x86_64-linux[2025-02-02]",
+    "2025-02-03-x86_64-linux[2025-02-03]",
+    "2025-02-04-x86_64-linux[2025-02-04]",
+    "2025-02-06-x86_64-linux[2025-02-06]",
+    "2025-02-07-x86_64-linux[2025-02-07]",
+    "2025-02-08-x86_64-linux[2025-02-08]",
+    "2025-02-09-x86_64-linux[2025-02-09]",
+    "2025-02-10-x86_64-linux[2025-02-10]",
+    "2025-02-11-x86_64-linux[2025-02-11]",
+    "2025-02-14-x86_64-linux[2025-02-14]",
+    "2025-02-15-x86_64-linux[2025-02-15]",
+    "2025-02-16-x86_64-linux[2025-02-16]",
+    "2025-02-17-x86_64-linux[2025-02-17]",
+    "2025-02-18-x86_64-linux[2025-02-18]",
+    "2025-02-20-x86_64-linux[2025-02-20]",
+    "2025-02-21-x86_64-linux[2025-02-21]",
+    "2025-02-22-x86_64-linux[2025-02-22]",
+    "2025-02-23-x86_64-linux[2025-02-23]",
+    "2025-02-25-x86_64-linux[2025-02-25]",
+    "2025-02-26-x86_64-linux[2025-02-26]",
+    "2025-02-27-x86_64-linux[2025-02-27]",
+    "2025-02-28-x86_64-linux[2025-02-28]"
+   ],
    "provides": "krita",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://invent.kde.org/graphics/krita"
@@ -2970,6 +3384,10 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/libreoffice/appimage.official.fresh-basic.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/libreoffice/appimage/official/fresh-basic/libreoffice?tag=25.2.1.2-x86_64-linux\u0026download=libreoffice.log",
+   "snapshots": [
+    "25.2.0.3-x86_64-linux[25.2.0.3]",
+    "25.2.1.1-x86_64-linux[25.2.1.1]"
+   ],
    "provides": "libreoffice",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://libreoffice.org",
@@ -3002,6 +3420,10 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/libreoffice/appimage.official.fresh-full.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/libreoffice/appimage/official/fresh-full/libreoffice?tag=25.2.1.2-x86_64-linux\u0026download=libreoffice.log",
+   "snapshots": [
+    "25.2.0.3-x86_64-linux[25.2.0.3]",
+    "25.2.1.1-x86_64-linux[25.2.1.1]"
+   ],
    "provides": "libreoffice",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://libreoffice.org",
@@ -3034,6 +3456,10 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/libreoffice/appimage.official.fresh-standard.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/libreoffice/appimage/official/fresh-standard/libreoffice?tag=25.2.1.2-x86_64-linux\u0026download=libreoffice.log",
+   "snapshots": [
+    "25.2.0.3-x86_64-linux[25.2.0.3]",
+    "25.2.1.1-x86_64-linux[25.2.1.1]"
+   ],
    "provides": "libreoffice",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://libreoffice.org",
@@ -3066,6 +3492,10 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/libreoffice/appimage.official.still-basic.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/libreoffice/appimage/official/still-basic/libreoffice?tag=25.2.1.2-x86_64-linux\u0026download=libreoffice.log",
+   "snapshots": [
+    "25.2.0.3-x86_64-linux[25.2.0.3]",
+    "25.2.1.1-x86_64-linux[25.2.1.1]"
+   ],
    "provides": "libreoffice",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://libreoffice.org",
@@ -3098,6 +3528,10 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/libreoffice/appimage.official.still-full.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/libreoffice/appimage/official/still-full/libreoffice?tag=25.2.1.2-x86_64-linux\u0026download=libreoffice.log",
+   "snapshots": [
+    "25.2.0.3-x86_64-linux[25.2.0.3]",
+    "25.2.1.1-x86_64-linux[25.2.1.1]"
+   ],
    "provides": "libreoffice",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://libreoffice.org",
@@ -3130,6 +3564,10 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/libreoffice/appimage.official.still-standard.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/libreoffice/appimage/official/still-standard/libreoffice?tag=25.2.1.2-x86_64-linux\u0026download=libreoffice.log",
+   "snapshots": [
+    "25.2.0.3-x86_64-linux[25.2.0.3]",
+    "25.2.1.1-x86_64-linux[25.2.1.1]"
+   ],
    "provides": "libreoffice",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://libreoffice.org",
@@ -3225,6 +3663,9 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/qbittorrent/appimage.official.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/qbittorrent/appimage/official/stable/qbittorrent?tag=5.1.0-x86_64-linux\u0026download=qbittorrent.log",
+   "snapshots": [
+    "5.0.3-x86_64-linux[5.0.3]"
+   ],
    "provides": "qbittorrent",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://www.qbittorrent.org/download"
@@ -3255,6 +3696,14 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/brave/nixappimage.nixpkgs.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/brave/nixappimage/nixpkgs/stable/brave?tag=1.75.180-x86_64-linux\u0026download=brave.log",
+   "snapshots": [
+    "1.73.104-x86_64-linux[1.73.104]",
+    "1.74.48-x86_64-linux[1.74.48]",
+    "1.74.50-x86_64-linux[1.74.50]",
+    "1.74.51-x86_64-linux[1.74.51]",
+    "1.75.175-x86_64-linux[1.75.175]",
+    "1.75.178-x86_64-linux[1.75.178]"
+   ],
    "provides": "brave",
    "notes": [
     "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
@@ -3288,6 +3737,15 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/chromium/nixappimage.nixpkgs.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium?tag=133.0.6943.141-x86_64-linux\u0026download=chromium.log",
+   "snapshots": [
+    "131.0.6778.264-x86_64-linux[131.0.6778.264]",
+    "132.0.6834.83-x86_64-linux[132.0.6834.83]",
+    "132.0.6834.110-x86_64-linux[132.0.6834.110]",
+    "132.0.6834.159-x86_64-linux[132.0.6834.159]",
+    "133.0.6943.53-x86_64-linux[133.0.6943.53]",
+    "133.0.6943.98-x86_64-linux[133.0.6943.98]",
+    "133.0.6943.126-x86_64-linux[133.0.6943.126]"
+   ],
    "provides": "chromium==chromium-browser",
    "notes": [
     "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
@@ -3319,6 +3777,14 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/discord/nixappimage.nixpkgs.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/discord/nixappimage/nixpkgs/stable/discord?tag=0.0.86-x86_64-linux\u0026download=discord.log",
+   "snapshots": [
+    "0.0.79-x86_64-linux[0.0.79]",
+    "0.0.80-x86_64-linux[0.0.80]",
+    "0.0.81-x86_64-linux[0.0.81]",
+    "0.0.83-x86_64-linux[0.0.83]",
+    "0.0.84-x86_64-linux[0.0.84]",
+    "0.0.85-x86_64-linux[0.0.85]"
+   ],
    "provides": "discord",
    "notes": [
     "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
@@ -3350,6 +3816,13 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/discord/nixappimage.nixpkgs.canary.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/discord/nixappimage/nixpkgs/canary/discord?tag=0.0.594-x86_64-linux\u0026download=discord.log",
+   "snapshots": [
+    "0.0.556-x86_64-linux[0.0.556]",
+    "0.0.569-x86_64-linux[0.0.569]",
+    "0.0.574-x86_64-linux[0.0.574]",
+    "0.0.581-x86_64-linux[0.0.581]",
+    "0.0.585-x86_64-linux[0.0.585]"
+   ],
    "provides": "discord=\u003ediscord-canary",
    "notes": [
     "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
@@ -3381,6 +3854,10 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/discord/nixappimage.nixpkgs.development.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/discord/nixappimage/nixpkgs/development/discord?tag=0.0.68-x86_64-linux\u0026download=discord.log",
+   "snapshots": [
+    "0.0.61-x86_64-linux[0.0.61]",
+    "0.0.67-x86_64-linux[0.0.67]"
+   ],
    "provides": "discord=\u003ediscord-development",
    "notes": [
     "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
@@ -3412,6 +3889,13 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/discord/nixappimage.nixpkgs.ptb.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/discord/nixappimage/nixpkgs/ptb/discord?tag=0.0.132-x86_64-linux\u0026download=discord.log",
+   "snapshots": [
+    "0.0.124-x86_64-linux[0.0.124]",
+    "0.0.126-x86_64-linux[0.0.126]",
+    "0.0.127-x86_64-linux[0.0.127]",
+    "0.0.128-x86_64-linux[0.0.128]",
+    "0.0.130-x86_64-linux[0.0.130]"
+   ],
    "provides": "discord=\u003ediscord-ptb",
    "notes": [
     "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
@@ -3444,6 +3928,11 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/flameshot/nixappimage.nixpkgs.unstable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/flameshot/nixappimage/nixpkgs/unstable/flameshot?tag=12.1.0-unstable-2025-02-12-x86_64-linux\u0026download=flameshot.log",
+   "snapshots": [
+    "12.1.0-unstable-2024-12-03-x86_64-linux[12.1.0-unstable-2024-12-03]",
+    "12.1.0-unstable-2025-01-19-x86_64-linux[12.1.0-unstable-2025-01-19]",
+    "12.1.0-unstable-2025-02-01-x86_64-linux[12.1.0-unstable-2025-02-01]"
+   ],
    "provides": "flameshot",
    "notes": [
     "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
@@ -3476,6 +3965,9 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/gearlever/nixappimage.nixpkgs.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/gearlever/nixappimage/nixpkgs/stable/gearlever?tag=2.3.2-x86_64-linux\u0026download=gearlever.log",
+   "snapshots": [
+    "2.3.2-x86_64-linux[2.3.2]"
+   ],
    "provides": "gearlever",
    "notes": [
     "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
@@ -3508,6 +4000,10 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/helix/nixappimage.nixpkgs.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/helix/nixappimage/nixpkgs/stable/helix?tag=25.01.1-x86_64-linux\u0026download=helix.log",
+   "snapshots": [
+    "25.01-x86_64-linux[25.01]",
+    "25.01.1-x86_64-linux[25.01.1]"
+   ],
    "provides": "helix==hx",
    "notes": [
     "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
@@ -3540,6 +4036,9 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/neovim/nixappimage.nixpkgs.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/neovim/nixappimage/nixpkgs/stable/neovim?tag=0.10.4-x86_64-linux\u0026download=neovim.log",
+   "snapshots": [
+    "0.10.3-x86_64-linux[0.10.3]"
+   ],
    "provides": "neovim=\u003envim",
    "notes": [
     "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
@@ -3572,6 +4071,10 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/simplex-desktop/nixappimage.nixpkgs.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/simplex-desktop/nixappimage/nixpkgs/stable/simplex-desktop?tag=6.2.5-x86_64-linux\u0026download=simplex-desktop.log",
+   "snapshots": [
+    "6.2.3-x86_64-linux[6.2.3]",
+    "6.2.4-x86_64-linux[6.2.4]"
+   ],
    "provides": "simplex-desktop==simplex-chat-desktop",
    "notes": [
     "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
@@ -3604,6 +4107,12 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/telegram-desktop/nixappimage.nixpkgs.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop?tag=5.11.1-x86_64-linux\u0026download=telegram-desktop.log",
+   "snapshots": [
+    "5.10.2-x86_64-linux[5.10.2]",
+    "5.10.3-x86_64-linux[5.10.3]",
+    "5.10.5-x86_64-linux[5.10.5]",
+    "5.10.7-x86_64-linux[5.10.7]"
+   ],
    "provides": "telegram-desktop==Telegram-Desktop",
    "notes": [
     "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
@@ -3634,6 +4143,14 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/chromium/nixappimage.nixpkgs.ungoogled.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium?tag=133.0.6943.126-x86_64-linux\u0026download=chromium.log",
+   "snapshots": [
+    "131.0.6778.264-x86_64-linux[131.0.6778.264]",
+    "132.0.6834.83-x86_64-linux[132.0.6834.83]",
+    "132.0.6834.110-x86_64-linux[132.0.6834.110]",
+    "132.0.6834.159-x86_64-linux[132.0.6834.159]",
+    "133.0.6943.53-x86_64-linux[133.0.6943.53]",
+    "133.0.6943.98-x86_64-linux[133.0.6943.98]"
+   ],
    "provides": "chromium:ungoogled-chromium,chromium==chromium-browser",
    "notes": [
     "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
@@ -3726,6 +4243,9 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/freerdp/appimage.ppkg.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/freerdp/appimage/ppkg/stable/freerdp?tag=3.12.0-x86_64-linux\u0026download=freerdp.log",
+   "snapshots": [
+    "3.12.0-x86_64-linux[3.12.0]"
+   ],
    "provides": "freerdp==freerdp-proxy,freerdp==freerdp-shadow-cli,freerdp==winpr-hash,freerdp==winpr-makecert,freerdp==wlfreerdp,freerdp==xfreerdp",
    "notes": [
     "Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core",
@@ -3817,6 +4337,10 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/akregator/runimage.alpine.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/akregator/runimage/alpine/stable/akregator?tag=24.12.2-x86_64-linux\u0026download=akregator.log",
+   "snapshots": [
+    "24.12.0-x86_64-linux[24.12.0]",
+    "24.12.1-x86_64-linux[24.12.1]"
+   ],
    "provides": "akregator",
    "notes": [
     "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
@@ -3847,6 +4371,10 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/element-desktop/runimage.alpine.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/element-desktop/runimage/alpine/stable/element-desktop?tag=1.11.93-x86_64-linux\u0026download=element-desktop.log",
+   "snapshots": [
+    "1.11.91-x86_64-linux[1.11.91]",
+    "1.11.92-x86_64-linux[1.11.92]"
+   ],
    "provides": "element-desktop:riot-desktop",
    "notes": [
     "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
@@ -4001,6 +4529,9 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/kdenlive/runimage.alpine.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/kdenlive/runimage/alpine/stable/kdenlive?tag=24.12.2-x86_64-linux\u0026download=kdenlive.log",
+   "snapshots": [
+    "24.12.1-x86_64-linux[24.12.1]"
+   ],
    "provides": "kdenlive",
    "notes": [
     "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
@@ -4032,6 +4563,9 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/krita/runimage.alpine.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/krita/runimage/alpine/stable/krita?tag=5.2.9-x86_64-linux\u0026download=krita.log",
+   "snapshots": [
+    "5.2.6-x86_64-linux[5.2.6]"
+   ],
    "provides": "krita",
    "notes": [
     "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
@@ -4127,6 +4661,9 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/steam/runimage.archlinux.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/steam/runimage/archlinux/stable/steam?tag=1.0.0.82-x86_64-linux\u0026download=steam.log",
+   "snapshots": [
+    "1.0.0.81-x86_64-linux[1.0.0.81]"
+   ],
    "provides": "steam",
    "notes": [
     "Built Using RunImage [archlinux]. Check/Report @ https://github.com/VHSgunzo/runimage",
@@ -4157,6 +4694,10 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/ddnet/runimage.cachyos.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ddnet/runimage/cachyos/stable/ddnet?tag=19.0-x86_64-linux\u0026download=ddnet.log",
+   "snapshots": [
+    "18.9.1-x86_64-linux[18.9.1]",
+    "19.0-x86_64-linux[19.0]"
+   ],
    "provides": "ddnet=\u003eDDNet,ddnet=\u003eDDNet-server",
    "notes": [
     "Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage",
@@ -4371,6 +4912,10 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/goverlay/runimage.cachyos.git.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/goverlay/runimage/cachyos/git/goverlay?tag=1.2.r26.g30ffcd0-x86_64-linux\u0026download=goverlay.log",
+   "snapshots": [
+    "1.1.1.r10.g4cd2c3f-x86_64-linux[1.1.1.r10.g4cd2c3f]",
+    "1.2.r9.g514d63d-x86_64-linux[1.2.r9.g514d63d]"
+   ],
    "provides": "goverlay",
    "notes": [
     "Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage",
@@ -4402,6 +4947,9 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/goverlay/runimage.cachyos.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/goverlay/runimage/cachyos/stable/goverlay?tag=1.3-x86_64-linux\u0026download=goverlay.log",
+   "snapshots": [
+    "1.2-x86_64-linux[1.2]"
+   ],
    "provides": "goverlay",
    "notes": [
     "Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage",
@@ -4526,6 +5074,9 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/kdeutils/runimage.cachyos.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/kdeutils/runimage/cachyos/stable/kdeutils?tag=24.12-x86_64-linux\u0026download=kdeutils.log",
+   "snapshots": [
+    "24.12-x86_64-linux[24.12]"
+   ],
    "provides": "kdeutils=\u003eark,kdeutils=\u003efilelight,kdeutils=\u003efrancis,kdeutils=\u003eisoimagewriter,kdeutils=\u003ekalk,kdeutils=\u003ekalm,kdeutils=\u003ekate,kdeutils=\u003ekbackup,kdeutils=\u003ekcalc,kdeutils=\u003ekcharselect,kdeutils=\u003ekclock,kdeutils=\u003ekdebugsettings,kdeutils:kde-utilities,kdeutils=\u003ekdf,kdeutils=\u003ekdialog,kdeutils=\u003ekeditbookmarks,kdeutils=\u003ekeysmith,kdeutils=\u003ekfind,kdeutils=\u003ekgpg,kdeutils=\u003ekongress,kdeutils=\u003ekonsole,kdeutils=\u003ekrecorder,kdeutils=\u003ekteatime,kdeutils=\u003ektimer,kdeutils=\u003ektrip,kdeutils=\u003ekwalletmanager,kdeutils=\u003ekweather,kdeutils=\u003ekwrite,kdeutils=\u003emarkdownpart,kdeutils=\u003eskanpage,kdeutils=\u003esweeper,kdeutils=\u003etelly-skout,kdeutils=\u003eyakuake",
    "notes": [
     "Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage",
@@ -4587,6 +5138,9 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/lazarus/runimage.cachyos.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/lazarus/runimage/cachyos/stable/lazarus?tag=3.8-x86_64-linux\u0026download=lazarus.log",
+   "snapshots": [
+    "3.8-x86_64-linux[3.8]"
+   ],
    "provides": "lazarus",
    "notes": [
     "Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage",
@@ -4651,6 +5205,12 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/librewolf/runimage.cachyos.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/librewolf/runimage/cachyos/stable/librewolf?tag=135.0.1_1-x86_64-linux\u0026download=librewolf.log",
+   "snapshots": [
+    "134.0.1-x86_64-linux[134.0.1]",
+    "134.0.2-x86_64-linux[134.0.2]",
+    "135.0-x86_64-linux[135.0]",
+    "135.0.1-x86_64-linux[135.0.1]"
+   ],
    "provides": "librewolf",
    "notes": [
     "Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage",
@@ -4682,6 +5242,9 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/mcpelauncher/runimage.cachyos.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/mcpelauncher/runimage/cachyos/stable/mcpelauncher?tag=1.2.0.r0.gfe07760-x86_64-linux\u0026download=mcpelauncher.log",
+   "snapshots": [
+    "1.0.1.r2.gf282e17-x86_64-linux[1.0.1.r2.gf282e17]"
+   ],
    "provides": "mcpelauncher=\u003emcpelauncher-client,mcpelauncher=\u003emcpelauncher-error,mcpelauncher=\u003emcpelauncher-webview,mcpelauncher=\u003emcpelauncher-extract,mcpelauncher=\u003emcpelauncher-ui-qt",
    "notes": [
     "Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage",
@@ -4776,6 +5339,9 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/ruffle/runimage.cachyos.nightly.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ruffle/runimage/cachyos/nightly/ruffle?tag=0.1.0-x86_64-linux\u0026download=ruffle.log",
+   "snapshots": [
+    "0.1.0___channel____date__-_-x86_64-linux[0.1.0+$_channel+${_date//-}]"
+   ],
    "provides": "ruffle",
    "notes": [
     "Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage",
@@ -4840,6 +5406,9 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/steam/runimage.cachyos.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/steam/runimage/cachyos/stable/steam?tag=1.0.0.82-x86_64-linux\u0026download=steam.log",
+   "snapshots": [
+    "1.0.0.81-x86_64-linux[1.0.0.81]"
+   ],
    "provides": "steam",
    "notes": [
     "Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage",
@@ -4933,6 +5502,9 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/blender/runimage.debian.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/blender/runimage/debian/stable/blender?tag=4.3.2-x86_64-linux\u0026download=blender.log",
+   "snapshots": [
+    "4.3.2-x86_64-linux[4.3.2]"
+   ],
    "provides": "blender",
    "notes": [
     "Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage",
@@ -4964,6 +5536,9 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/clamtk/runimage.debian.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk?tag=6.07-x86_64-linux\u0026download=clamtk.log",
+   "snapshots": [
+    "6.07-x86_64-linux[6.07]"
+   ],
    "provides": "clamtk",
    "notes": [
     "This Package has been marked 'deprecaed': https://gitlab.com/dave_m/clamtk/-/issues/144",
@@ -5056,6 +5631,9 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/funkin/runimage.debian.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/funkin/runimage/debian/stable/funkin?tag=v0.5.3-x86_64-linux\u0026download=funkin.log",
+   "snapshots": [
+    "v0.5.3-x86_64-linux[v0.5.3]"
+   ],
    "provides": "funkin==Funkin",
    "notes": [
     "Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage",
@@ -5116,6 +5694,9 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/ultimmc/runimage.debian.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ultimmc/runimage/debian/stable/ultimmc?tag=250301T010230jq_error_writingoutputfailed_Brokenpipe-x86_64-linux\u0026download=ultimmc.log",
+   "snapshots": [
+    "250201T005842-x86_64-linux[250201T005842]"
+   ],
    "provides": "ultimmc==UltimMC",
    "notes": [
     "Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage",
