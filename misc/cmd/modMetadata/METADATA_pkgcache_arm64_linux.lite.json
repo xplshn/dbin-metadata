@@ -597,7 +597,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk:250204T131430-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk@sha256:cad14ce25b459a6c5578521449894cbf117e176bb8bddeb8717733f6179c9900",
-   "rank": 16
+   "rank": 17
   },
   {
    "pkg": "rustdesk.appimage",
@@ -624,7 +624,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk:1.3.7-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk@sha256:4a0b8b26951899f60b8169cb7cfe9ec62f9684eeb088a68903a59f2d9cb2b945",
-   "rank": 17
+   "rank": 16
   },
   {
    "pkg": "tangent.appimage",
@@ -654,7 +654,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/stable/tangent:0.8.4-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/stable/tangent@sha256:485714d12dafd7f55d32f8eb41a5c8345dff259d7a96e370fb818d68a9beec28",
-   "rank": 4
+   "rank": 5
   },
   {
    "pkg": "tangent.appimage",
@@ -685,7 +685,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent:0.9.0-alpha.8-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent@sha256:6a2a0845a277598c5712bd3ea77ae0605c36f8c6fcc7326698a59784ee9bdcd1",
-   "rank": 5
+   "rank": 4
   },
   {
    "pkg": "escrcpy.appimage",
@@ -745,7 +745,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser:1.0.2-b.5-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser@sha256:98aafee82186fca80707294ec59044991749bfeac47c80ad7f58b5eb874a248c",
-   "rank": 133
+   "rank": 134
   },
   {
    "pkg": "zen-browser.appimage",
@@ -782,7 +782,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser:1.8.2b-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser@sha256:fe1d895afd594cfc17ee1c28476a7d6d01cfe68e565d078331d10588f35ef3aa",
-   "rank": 135
+   "rank": 133
   },
   {
    "pkg": "zen-browser.appimage",
@@ -839,7 +839,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:Twilightbuild-1.8.2t_2025-03-04at14_22_07_-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser@sha256:065c1766bb336a37dd925536e913ba53cfd25857925898139bb77c15778e093b",
-   "rank": 134
+   "rank": 135
   },
   {
    "pkg": "librewolf.appimage",
@@ -874,6 +874,7 @@
    "pkg_id": "nixpkgs.brave",
    "description": "Privacy-oriented browser for Desktop and Laptop computers",
    "version": "1.75.180",
+   "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/brave/nixappimage/nixpkgs/stable/brave/1.75.180-aarch64-linux/brave.nixappimage",
    "size": "379 MB",
    "bsum": "8079cf32df445a226fd00157b37e5bef1af852b80a4f9d6555ceea550cdbf6a2",
    "shasum": "40015547d4dee1fd9db30b350fc0398268c82b70415baf56613cbf90aad9650b",
@@ -944,7 +945,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium:133.0.6943.141-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium@sha256:d41220b4b016b34bf0432d13e5a8b4efa44f45869b9be6e3ee2296966a0ddb2d",
-   "rank": 110
+   "rank": 109
   },
   {
    "pkg": "flameshot.nixappimage",
@@ -1187,7 +1188,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium:133.0.6943.141-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium@sha256:5d65ce5044730802570c62e8c5f83e119dde8d25cf2ef3d7733f101c9c9f1eeb",
-   "rank": 109
+   "rank": 110
   },
   {
    "pkg": "cmake.appimage",
@@ -1465,7 +1466,7 @@
    "pkg_id": "runimage.alpine.ghex",
    "description": "A simple Binary/Hex editor",
    "version": "46.2",
-   "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/ghex/runimage/alpine/stable/ghex/46.0-aarch64-linux/ghex.runimage",
+   "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/ghex/runimage/alpine/stable/ghex/46.2-aarch64-linux/ghex.runimage",
    "size": "135 MB",
    "bsum": "3085027f86369a46f7124cf699445093d336bc326319a5df628e094da4312c0b",
    "shasum": "ce8ce06e2f502321d145575d05c15e9e50c07286df67f10bee68f2072b25c811",
