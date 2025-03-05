@@ -461,7 +461,7 @@
    "size": "88 MB",
    "bsum": "23ea2c16182780f2e461e5862eb0561f9bcc14781f28f3a530af951edcc961db",
    "shasum": "29012bac525d3c58a5920c9b4e51411c64cc9229d8e4c68fcc1894ee7f9ad0e6",
-   "build_date": "2025-02-10T19:08:34Z",
+   "build_date": "2025-03-05T15:04:48Z",
    "src_urls": [
     "https://github.com/Vencord/Vesktop"
    ],
@@ -471,7 +471,8 @@
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/vesktop/appimage.official.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop?tag=v1.5.5-aarch64-linux\u0026download=vesktop.log",
    "snapshots": [
-    "v1.5.4-aarch64-linux[v1.5.4]"
+    "v1.5.4-aarch64-linux[v1.5.4]",
+    "v1.5.5-aarch64-linux[v1.5.5]"
    ],
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/Vencord/Vesktop"
@@ -748,7 +749,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser:1.0.2-b.5-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser@sha256:98aafee82186fca80707294ec59044991749bfeac47c80ad7f58b5eb874a248c",
-   "rank": 134
+   "rank": 133
   },
   {
    "pkg": "zen-browser.appimage",
@@ -785,7 +786,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser:1.8.2b-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser@sha256:fe1d895afd594cfc17ee1c28476a7d6d01cfe68e565d078331d10588f35ef3aa",
-   "rank": 135
+   "rank": 134
   },
   {
    "pkg": "zen-browser.appimage",
@@ -842,7 +843,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:Twilightbuild-1.8.2t_2025-03-04at14_22_07_-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser@sha256:065c1766bb336a37dd925536e913ba53cfd25857925898139bb77c15778e093b",
-   "rank": 133
+   "rank": 135
   },
   {
    "pkg": "librewolf.appimage",
@@ -948,7 +949,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium:133.0.6943.141-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium@sha256:d41220b4b016b34bf0432d13e5a8b4efa44f45869b9be6e3ee2296966a0ddb2d",
-   "rank": 109
+   "rank": 110
   },
   {
    "pkg": "flameshot.nixappimage",
@@ -1191,7 +1192,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium:133.0.6943.141-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium@sha256:5d65ce5044730802570c62e8c5f83e119dde8d25cf2ef3d7733f101c9c9f1eeb",
-   "rank": 110
+   "rank": 109
   },
   {
    "pkg": "cmake.appimage",
