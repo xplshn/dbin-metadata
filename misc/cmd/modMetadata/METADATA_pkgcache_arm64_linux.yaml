@@ -335,32 +335,32 @@ pkgcache:
 - pkg: ghostty.appimage
   pkg_name: ghostty
   pkg_id: github.com.psadi.ghostty-appimage.stable
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty?tag=v1.1.2_2-aarch64-linux&download=ghostty.png
+  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty?tag=v1.1.2_3-aarch64-linux&download=ghostty.png
   description: Fast, native, feature-rich terminal emulator pushing modern features
-  version: v1.1.2+2
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/ghostty/appimage/psadi/stable/ghostty/v1.1.2_1-aarch64-linux/ghostty.appimage
+  version: v1.1.2+3
   size: 76 MB
-  bsum: a0f1e540cd1be6111301698c49ceda964f1f6090d21b8612df2e32afafabcb40
-  shasum: e4b16dd3cde7ea4c915c2a1b4f4a73945f6211c9e3339790f27f37cd7de17257
-  build_date: "2025-02-28T18:54:42Z"
+  bsum: d7be04cd83a777fd465cc48f873d345fd1277f1bebd928c964021350ee37b472
+  shasum: bc01419e2b8598e9479f6fa0e37e2d242e25eb0ef0465704e0195fc11570fed3
+  build_date: "2025-03-04T19:05:55Z"
   src_urls:
   - https://github.com/psadi/ghostty-appimage
   web_urls:
   - https://ghostty.org
   - https://github.com/ghostty-org/ghostty
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/ghostty/appimage.psadi.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty?tag=v1.1.2_2-aarch64-linux&download=ghostty.log
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty?tag=v1.1.2_3-aarch64-linux&download=ghostty.log
   snapshots:
   - v1.0.1_4-aarch64-linux[v1.0.1+4]
   - v1.1.0-aarch64-linux[v1.1.0]
   - v1.1.0_1-aarch64-linux[v1.1.0+1]
   - v1.1.2-aarch64-linux[v1.1.2]
   - v1.1.2_1-aarch64-linux[v1.1.2+1]
+  - v1.1.2_2-aarch64-linux[v1.1.2+2]
   provides: ghostty
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/psadi/ghostty-appimage
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty:v1.1.2_2-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty@sha256:e4b16dd3cde7ea4c915c2a1b4f4a73945f6211c9e3339790f27f37cd7de17257
+  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty:v1.1.2_3-aarch64-linux
+  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty@sha256:bc01419e2b8598e9479f6fa0e37e2d242e25eb0ef0465704e0195fc11570fed3
   rank: 1
 - pkg: rustdesk.appimage
   pkg_name: rustdesk
@@ -385,7 +385,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/rustdesk/rustdesk
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk:250204T131430-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk@sha256:cad14ce25b459a6c5578521449894cbf117e176bb8bddeb8717733f6179c9900
-  rank: 17
+  rank: 16
 - pkg: rustdesk.appimage
   pkg_name: rustdesk
   pkg_id: github.com.rustdesk.rustdesk.stable
@@ -409,7 +409,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/rustdesk/rustdesk
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk:1.3.7-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk@sha256:4a0b8b26951899f60b8169cb7cfe9ec62f9684eeb088a68903a59f2d9cb2b945
-  rank: 16
+  rank: 17
 - pkg: tangent.appimage
   pkg_name: tangent
   pkg_id: github.com.suchnsuch.Tangent
@@ -435,7 +435,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/suchnsuch/Tangent
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/stable/tangent:0.8.4-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/stable/tangent@sha256:485714d12dafd7f55d32f8eb41a5c8345dff259d7a96e370fb818d68a9beec28
-  rank: 5
+  rank: 4
 - pkg: tangent.appimage
   pkg_name: tangent
   pkg_id: github.com.suchnsuch.Tangent.alpha
@@ -462,7 +462,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/suchnsuch/Tangent
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent:0.9.0-alpha.8-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent@sha256:6a2a0845a277598c5712bd3ea77ae0605c36f8c6fcc7326698a59784ee9bdcd1
-  rank: 4
+  rank: 5
 - pkg: escrcpy.appimage
   pkg_name: escrcpy
   pkg_id: github.com.viarotel-org.escrcpy
@@ -551,20 +551,20 @@ pkgcache:
 - pkg: zen-browser.appimage
   pkg_name: zen-browser
   pkg_id: github.com.zen-browser.desktop.twilight
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.8.2t_2025-03-03at09_57_11_-aarch64-linux&download=zen-browser.png
+  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.8.2t_2025-03-04at14_22_07_-aarch64-linux&download=zen-browser.png
   description: Performance oriented Firefox-based web browser (Twilight)
-  version: Twilightbuild-1.8.2t(2025-03-03at09:57:11)
+  version: Twilightbuild-1.8.2t(2025-03-04at14:22:07)
   size: 99 MB
-  bsum: d7fea3beb823f460837fe5fb054f72a34033f5c861bd82574a25d168309c2dfc
-  shasum: 871e1ea48547930cfbde92fd8d85145569218c5b127c987d56adbd24e05b019f
-  build_date: "2025-03-03T19:47:49Z"
+  bsum: 8ccacbe9b84d0acd289d6982d6b4778c25daef08709965f354c267a1258f3b1c
+  shasum: 065c1766bb336a37dd925536e913ba53cfd25857925898139bb77c15778e093b
+  build_date: "2025-03-04T19:16:29Z"
   src_urls:
   - https://github.com/zen-browser/desktop
   web_urls:
   - https://zen-browser.app
   - https://github.com/zen-browser/desktop
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.twilight.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.8.2t_2025-03-03at09_57_11_-aarch64-linux&download=zen-browser.log
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.8.2t_2025-03-04at14_22_07_-aarch64-linux&download=zen-browser.log
   snapshots:
   - 1.7t_2025-01-15-aarch64-linux[1.7t_2025-01-15]
   - 1.7t_2025-01-16-aarch64-linux[1.7t_2025-01-16]
@@ -594,11 +594,12 @@ pkgcache:
   - Twilightbuild-1.8.2t_2025-02-28at07_38_17_-aarch64-linux[Twilightbuild-1.8.2t(2025-02-28at07:38:17)]
   - Twilightbuild-1.8.2t_2025-03-01at13_25_05_-aarch64-linux[Twilightbuild-1.8.2t(2025-03-01at13:25:05)]
   - Twilightbuild-1.8.2t_2025-03-02at13_03_49_-aarch64-linux[Twilightbuild-1.8.2t(2025-03-02at13:03:49)]
+  - Twilightbuild-1.8.2t_2025-03-03at09_57_11_-aarch64-linux[Twilightbuild-1.8.2t(2025-03-03at09:57:11)]
   provides: zen-browser==zen
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:Twilightbuild-1.8.2t_2025-03-03at09_57_11_-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser@sha256:871e1ea48547930cfbde92fd8d85145569218c5b127c987d56adbd24e05b019f
+  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:Twilightbuild-1.8.2t_2025-03-04at14_22_07_-aarch64-linux
+  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser@sha256:065c1766bb336a37dd925536e913ba53cfd25857925898139bb77c15778e093b
   rank: 134
 - pkg: librewolf.appimage
   pkg_name: librewolf
@@ -693,7 +694,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium:133.0.6943.141-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium@sha256:d41220b4b016b34bf0432d13e5a8b4efa44f45869b9be6e3ee2296966a0ddb2d
-  rank: 109
+  rank: 110
 - pkg: flameshot.nixappimage
   pkg_name: flameshot
   pkg_id: nixpkgs.flameshot
@@ -908,7 +909,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium:133.0.6943.141-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium@sha256:5d65ce5044730802570c62e8c5f83e119dde8d25cf2ef3d7733f101c9c9f1eeb
-  rank: 110
+  rank: 109
 - pkg: cmake.appimage
   pkg_name: cmake
   pkg_id: ppkg.bundle.cmake.stable
@@ -1064,7 +1065,7 @@ pkgcache:
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/xrdp/appimage/ppkg/stable/xrdp:0.10.2-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/xrdp/appimage/ppkg/stable/xrdp@sha256:a015cee867dfe9173051040931b75c94a8e67e0c187f90e1f88c3a45b18659de
-  rank: 129
+  rank: 127
 - pkg: akregator.runimage
   pkg_name: akregator
   pkg_id: runimage.alpine.akregator
@@ -1151,27 +1152,29 @@ pkgcache:
 - pkg: ghex.runimage
   pkg_name: ghex
   pkg_id: runimage.alpine.ghex
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghex/runimage/alpine/stable/ghex?tag=46.0-aarch64-linux&download=ghex.svg
+  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghex/runimage/alpine/stable/ghex?tag=46.2-aarch64-linux&download=ghex.svg
   description: A simple Binary/Hex editor
-  version: "46.0"
+  version: "46.2"
   download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/ghex/runimage/alpine/stable/ghex/46.0-aarch64-linux/ghex.runimage
-  size: 136 MB
-  bsum: a726115ad19dc86e9c37483dfc185ad81c25befc43403f1d6db2c504d2cdbba4
-  shasum: f30b20ab5997f4498bd9fcf99c16b4a3132033dddc8d604a2f36bdced64c3b67
-  build_date: "2025-02-01T19:23:56Z"
+  size: 135 MB
+  bsum: 3085027f86369a46f7124cf699445093d336bc326319a5df628e094da4312c0b
+  shasum: ce8ce06e2f502321d145575d05c15e9e50c07286df67f10bee68f2072b25c811
+  build_date: "2025-03-04T18:56:58Z"
   src_urls:
   - https://gitlab.gnome.org/GNOME/ghex
   web_urls:
   - https://wiki.gnome.org/Apps/Ghex
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/ghex/runimage.alpine.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghex/runimage/alpine/stable/ghex?tag=46.0-aarch64-linux&download=ghex.log
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghex/runimage/alpine/stable/ghex?tag=46.2-aarch64-linux&download=ghex.log
+  snapshots:
+  - 46.0-aarch64-linux[46.0]
   provides: ghex
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/ghex/runimage/alpine/stable/ghex:46.0-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/ghex/runimage/alpine/stable/ghex@sha256:f30b20ab5997f4498bd9fcf99c16b4a3132033dddc8d604a2f36bdced64c3b67
+  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/ghex/runimage/alpine/stable/ghex:46.2-aarch64-linux
+  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/ghex/runimage/alpine/stable/ghex@sha256:ce8ce06e2f502321d145575d05c15e9e50c07286df67f10bee68f2072b25c811
   rank: 8
 - pkg: git.runimage
   pkg_name: git
@@ -1367,9 +1370,9 @@ pkgcache:
   version: "6.07"
   download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/clamtk/runimage/debian/stable/clamtk/6.07-aarch64-linux/clamtk.runimage
   size: 84 MB
-  bsum: 9224729f78bc0b146f91882fe9596a2921261b553a3949d2880db40c388da511
-  shasum: 8fadf666bc4d092238dcf10dcea399a6cabad8ff99abca05ef5a1aba9fb3303e
-  build_date: "2025-03-03T19:06:25Z"
+  bsum: fb250a9467c6ed69049c84e41dc5587191cbb8a352dc8e7a23e0f77308f17426
+  shasum: 8638093ca9724b0af8934c5dcdfed4f4774f0411fc3674f0daefca0018db3696
+  build_date: "2025-03-04T18:58:19Z"
   src_urls:
   - https://github.com/dave-theunsub/clamtk
   - https://gitlab.com/dave_m/clamtk
@@ -1386,5 +1389,5 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk:6.07-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk@sha256:8fadf666bc4d092238dcf10dcea399a6cabad8ff99abca05ef5a1aba9fb3303e
+  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk@sha256:8638093ca9724b0af8934c5dcdfed4f4774f0411fc3674f0daefca0018db3696
   rank: 131
