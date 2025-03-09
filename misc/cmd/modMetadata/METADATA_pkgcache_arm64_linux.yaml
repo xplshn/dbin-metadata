@@ -254,7 +254,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/ryujinx/ryujinx
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx:1.2.357-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx@sha256:d4b16be8cf8c8c472db124754f45da859d5875d81cb4ef0bf2c4c3a504a026fb
-  rank: 16
+  rank: 15
 - pkg: ryujinx.appimage
   pkg_name: ryujinx
   pkg_id: github.com.Ryubing.Ryujinx.stable
@@ -277,7 +277,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/ryujinx/ryujinx
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx:1.2.81-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx@sha256:ae7602d73ae32b4a0192b8b7517373df953a61241fa97de395f3bc82a956a0cd
-  rank: 15
+  rank: 16
 - pkg: vesktop.appimage
   pkg_name: vesktop
   pkg_id: github.com.Vencord.Vesktop
@@ -539,25 +539,25 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser:1.0.2-b.5-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser@sha256:98aafee82186fca80707294ec59044991749bfeac47c80ad7f58b5eb874a248c
-  rank: 143
+  rank: 142
 - pkg: zen-browser.appimage
   pkg_name: zen-browser
   pkg_id: github.com.zen-browser.desktop.stable
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.8.2b-aarch64-linux&download=zen-browser.png
+  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.9b-aarch64-linux&download=zen-browser.png
   description: Performance oriented Firefox-based web browser
-  version: 1.8.2b
+  version: 1.9b
   download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/zen-browser/appimage/official/stable/zen-browser/1.8.2b-aarch64-linux/zen-browser.appimage
-  size: 98 MB
-  bsum: fe35a9e30095dd04a7a688fb30ab429d22f9009f5412eee5cee4971da7a1e264
-  shasum: fe1d895afd594cfc17ee1c28476a7d6d01cfe68e565d078331d10588f35ef3aa
-  build_date: "2025-02-26T20:17:28Z"
+  size: 92 MB
+  bsum: d43ec53e654e884e74f4afe8d06b9657c8db0347652526c2e2b2e79525b4cd65
+  shasum: dde14a34851fe329a42d34d86b49b7a06e0265152a69d802836389192b467be4
+  build_date: "2025-03-08T20:20:35Z"
   src_urls:
   - https://github.com/zen-browser/desktop
   web_urls:
   - https://zen-browser.app
   - https://github.com/zen-browser/desktop
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.8.2b-aarch64-linux&download=zen-browser.log
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.9b-aarch64-linux&download=zen-browser.log
   snapshots:
   - 1.7b-aarch64-linux[1.7b]
   - 1.7.1b-aarch64-linux[1.7.1b]
@@ -567,29 +567,30 @@ pkgcache:
   - 1.7.6b-aarch64-linux[1.7.6b]
   - 1.8b-aarch64-linux[1.8b]
   - 1.8.1b-aarch64-linux[1.8.1b]
+  - 1.8.2b-aarch64-linux[1.8.2b]
   provides: zen-browser==zen
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser:1.8.2b-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser@sha256:fe1d895afd594cfc17ee1c28476a7d6d01cfe68e565d078331d10588f35ef3aa
-  rank: 142
+  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser:1.9b-aarch64-linux
+  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser@sha256:dde14a34851fe329a42d34d86b49b7a06e0265152a69d802836389192b467be4
+  rank: 143
 - pkg: zen-browser.appimage
   pkg_name: zen-browser
   pkg_id: github.com.zen-browser.desktop.twilight
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=1.9t_2025-03-06-aarch64-linux&download=zen-browser.png
+  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=1.9t_2025-03-07-aarch64-linux&download=zen-browser.png
   description: Performance oriented Firefox-based web browser (Twilight)
-  version: 1.9t_2025-03-06
-  size: 99 MB
-  bsum: a9e5003673285ca34ae339b8af7ce1c2d6b57944f93fa8f00ef105c0cde41a94
-  shasum: 8fc3869eaacff10821378d3facabd2c65af3042f30a316fc8f8832a393209eef
-  build_date: "2025-03-07T19:08:38Z"
+  version: 1.9t_2025-03-07
+  size: 92 MB
+  bsum: c554d9d109684cae57afaf2e165df0d419dbc972af0bbafea36d9f3cd2136da8
+  shasum: 776e7b6a7578558bfd2a5490b999cc9e8b63df575f84b878db168a98541ed69f
+  build_date: "2025-03-08T20:21:24Z"
   src_urls:
   - https://github.com/zen-browser/desktop
   web_urls:
   - https://zen-browser.app
   - https://github.com/zen-browser/desktop
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.twilight.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=1.9t_2025-03-06-aarch64-linux&download=zen-browser.log
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=1.9t_2025-03-07-aarch64-linux&download=zen-browser.log
   snapshots:
   - 1.7t_2025-01-15-aarch64-linux[1.7t_2025-01-15]
   - 1.7t_2025-01-16-aarch64-linux[1.7t_2025-01-16]
@@ -622,11 +623,12 @@ pkgcache:
   - Twilightbuild-1.8.2t_2025-03-03at09_57_11_-aarch64-linux[Twilightbuild-1.8.2t(2025-03-03at09:57:11)]
   - Twilightbuild-1.8.2t_2025-03-04at14_22_07_-aarch64-linux[Twilightbuild-1.8.2t(2025-03-04at14:22:07)]
   - Twilightbuild-1.8.2t_2025-03-05at12_06_34_-aarch64-linux[Twilightbuild-1.8.2t(2025-03-05at12:06:34)]
+  - 1.9t_2025-03-06-aarch64-linux[1.9t_2025-03-06]
   provides: zen-browser==zen
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:1.9t_2025-03-06-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser@sha256:8fc3869eaacff10821378d3facabd2c65af3042f30a316fc8f8832a393209eef
+  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:1.9t_2025-03-07-aarch64-linux
+  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser@sha256:776e7b6a7578558bfd2a5490b999cc9e8b63df575f84b878db168a98541ed69f
   rank: 144
 - pkg: librewolf.appimage
   pkg_name: librewolf
@@ -694,14 +696,13 @@ pkgcache:
 - pkg: chromium.nixappimage
   pkg_name: chromium
   pkg_id: nixpkgs.chromium
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium?tag=133.0.6943.141-aarch64-linux&download=chromium.png
+  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium?tag=134.0.6998.35-aarch64-linux&download=chromium.png
   description: Open source web browser from Google (Stable)
-  version: 133.0.6943.141
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/chromium/nixappimage/nixpkgs/stable/chromium/133.0.6943.126-aarch64-linux/chromium.nixappimage
-  size: 357 MB
-  bsum: 89726e3ad10ccd1d6d8ecf9bf2722534529daca14550382cf4c44c0ae54ad69e
-  shasum: d41220b4b016b34bf0432d13e5a8b4efa44f45869b9be6e3ee2296966a0ddb2d
-  build_date: "2025-02-26T19:31:26Z"
+  version: 134.0.6998.35
+  size: 358 MB
+  bsum: 73492e7477604c6d51e4d1daccffbe789ef8e463a6d7d913ee6878e2a2ce6604
+  shasum: 68096a5dd07811b28bdc379943d404af7e09608dcda5a7eb8557baeff9ccbb32
+  build_date: "2025-03-08T19:35:55Z"
   src_urls:
   - https://github.com/chromium/chromium
   web_urls:
@@ -709,7 +710,7 @@ pkgcache:
   - https://chromium.googlesource.com/chromium/src
   - https://github.com/chromium/chromium
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/chromium/nixappimage.nixpkgs.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium?tag=133.0.6943.141-aarch64-linux&download=chromium.log
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium?tag=134.0.6998.35-aarch64-linux&download=chromium.log
   snapshots:
   - 131.0.6778.264-aarch64-linux[131.0.6778.264]
   - 132.0.6834.83-aarch64-linux[132.0.6834.83]
@@ -718,15 +719,16 @@ pkgcache:
   - 133.0.6943.53-aarch64-linux[133.0.6943.53]
   - 133.0.6943.98-aarch64-linux[133.0.6943.98]
   - 133.0.6943.126-aarch64-linux[133.0.6943.126]
+  - 133.0.6943.141-aarch64-linux[133.0.6943.141]
   provides: chromium==chromium-browser
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium:133.0.6943.141-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium@sha256:d41220b4b016b34bf0432d13e5a8b4efa44f45869b9be6e3ee2296966a0ddb2d
-  rank: 130
+  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium:134.0.6998.35-aarch64-linux
+  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium@sha256:68096a5dd07811b28bdc379943d404af7e09608dcda5a7eb8557baeff9ccbb32
+  rank: 131
 - pkg: flameshot.nixappimage
   pkg_name: flameshot
   pkg_id: nixpkgs.flameshot
@@ -941,7 +943,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium:133.0.6943.141-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium@sha256:5d65ce5044730802570c62e8c5f83e119dde8d25cf2ef3d7733f101c9c9f1eeb
-  rank: 131
+  rank: 130
 - pkg: cmake.appimage
   pkg_name: cmake
   pkg_id: ppkg.bundle.cmake.stable
@@ -1402,9 +1404,9 @@ pkgcache:
   version: "6.07"
   download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/clamtk/runimage/debian/stable/clamtk/6.07-aarch64-linux/clamtk.runimage
   size: 79 MB
-  bsum: 5cc414d969550e3bd806b7fba5ea6ec6a18e763210db3f52b75a4db4ab88acc9
-  shasum: 2590dc64288d8e3aaf67d8aae452e5dce89f57e4cdf47ccb4ff7b676dc5a4f40
-  build_date: "2025-03-07T18:56:49Z"
+  bsum: f7937716dca4e1599f645b4936138cd5dac355ecc394cb81a08e023272d98b7a
+  shasum: 82f95a27b8d7db0bf1e4acc0f6c2d70357710d777c4f814387cc280f2539b164
+  build_date: "2025-03-08T19:47:26Z"
   src_urls:
   - https://github.com/dave-theunsub/clamtk
   - https://gitlab.com/dave_m/clamtk
@@ -1421,5 +1423,5 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk:6.07-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk@sha256:2590dc64288d8e3aaf67d8aae452e5dce89f57e4cdf47ccb4ff7b676dc5a4f40
+  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk@sha256:82f95a27b8d7db0bf1e4acc0f6c2d70357710d777c4f814387cc280f2539b164
   rank: 134

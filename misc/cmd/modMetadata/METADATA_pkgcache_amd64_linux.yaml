@@ -406,19 +406,19 @@ pkgcache:
 - pkg: xash3d-fwgs.appimage
   pkg_name: xash3d-fwgs
   pkg_id: github.com.FWGS.xash3d-fwgs
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/xash3d-fwgs/appimage/official/stable/xash3d-fwgs?tag=250306T162424-x86_64-linux&download=xash3d-fwgs.png
+  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/xash3d-fwgs/appimage/official/stable/xash3d-fwgs?tag=250307T234812-x86_64-linux&download=xash3d-fwgs.png
   description: Heavily modified fork of an original Xash3D Engine for Half Life
-  version: 250306T162424
+  version: 250307T234812
   size: 13 MB
-  bsum: 8332670b7931424479736ad487008e0c948dfcbec5659eab5a5838a074da1c5c
-  shasum: 1f5ff54a8da30a330aba92afd501a3f4b48413f67294173193997fa8a1502063
-  build_date: "2025-03-07T19:14:24Z"
+  bsum: 3c71503cba158066d562afebce151b460671907c9e07c510945f1d52e0024cfd
+  shasum: ff1d0fd52d9538721ed0d4cf10eeeb6d0a3c7485dc34baa6d56572df8d4ebd5f
+  build_date: "2025-03-08T20:51:02Z"
   src_urls:
   - https://github.com/FWGS/xash3d-fwgs
   web_urls:
   - https://github.com/FWGS/xash3d-fwgs
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/xash3d-fwgs/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/xash3d-fwgs/appimage/official/stable/xash3d-fwgs?tag=250306T162424-x86_64-linux&download=xash3d-fwgs.log
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/xash3d-fwgs/appimage/official/stable/xash3d-fwgs?tag=250307T234812-x86_64-linux&download=xash3d-fwgs.log
   snapshots:
   - 250224T010841-x86_64-linux[250224T010841]
   - 250225T170538-x86_64-linux[250225T170538]
@@ -427,11 +427,12 @@ pkgcache:
   - 250302T173149-x86_64-linux[250302T173149]
   - 250303T201127-x86_64-linux[250303T201127]
   - 250305T195007-x86_64-linux[250305T195007]
+  - 250306T162424-x86_64-linux[250306T162424]
   provides: xash3d-fwgs
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/FWGS/xash3d-fwgs
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/xash3d-fwgs/appimage/official/stable/xash3d-fwgs:250306T162424-x86_64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/xash3d-fwgs/appimage/official/stable/xash3d-fwgs@sha256:1f5ff54a8da30a330aba92afd501a3f4b48413f67294173193997fa8a1502063
+  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/xash3d-fwgs/appimage/official/stable/xash3d-fwgs:250307T234812-x86_64-linux
+  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/xash3d-fwgs/appimage/official/stable/xash3d-fwgs@sha256:ff1d0fd52d9538721ed0d4cf10eeeb6d0a3c7485dc34baa6d56572df8d4ebd5f
   rank: 195
 - pkg: ryujinx.appimage
   pkg_name: ryujinx
@@ -455,7 +456,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/ryujinx/ryujinx
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx:1.2.357-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx@sha256:d5ccb6d775a6b657814a37cba78d5d77273cb31ced848a1e3866b01df4bde017
-  rank: 72
+  rank: 73
 - pkg: ryujinx.appimage
   pkg_name: ryujinx
   pkg_id: github.com.Ryubing.Ryujinx.stable
@@ -478,7 +479,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/ryujinx/ryujinx
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx:1.2.81-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx@sha256:bdb7e246bb9136940fc00b6578322ac51c1ed92bb8933310df262192372c24d8
-  rank: 73
+  rank: 72
 - pkg: amdgpu_top.appimage
   pkg_name: amdgpu_top
   pkg_id: github.com.Umio-Yasuno.amdgpu_top
@@ -637,7 +638,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/toeverything/AFFiNE
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/affine/appimage/official/canary-1/affine:v0.20.3-canary.1-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/affine/appimage/official/canary-1/affine@sha256:5992f612e9c3838902a469ab1ca810eae3934a9293ae66782c7e42f8fdb38fda
-  rank: 19
+  rank: 21
 - pkg: affine.appimage
   pkg_name: affine
   pkg_id: github.com.affine-mirror.affine.canary.2
@@ -663,7 +664,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/toeverything/AFFiNE
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/affine/appimage/official/canary-2/affine:v0.20.5-canary.2-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/affine/appimage/official/canary-2/affine@sha256:cb7b30e2338ba4033fbca3dd2948a75b966c823aeaa042c6987599319b528037
-  rank: 20
+  rank: 19
 - pkg: affine.appimage
   pkg_name: affine
   pkg_id: github.com.affine-mirror.affine.stable
@@ -692,7 +693,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/toeverything/AFFiNE
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/affine/appimage/official/stable/affine:v0.20.4-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/affine/appimage/official/stable/affine@sha256:66cdf0796633462801bccfc544971fb41186e64c39baa2d3c1a3c2744a91d7f5
-  rank: 21
+  rank: 20
 - pkg: air-controller-desktop.appimage
   pkg_name: air-controller-desktop
   pkg_id: github.com.air-controller.air-controller-desktop
@@ -801,31 +802,31 @@ pkgcache:
 - pkg: altus.appimage
   pkg_name: altus
   pkg_id: github.com.amanharwara.altus
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/altus/appimage/official/stable/altus?tag=5.5.3-x86_64-linux&download=altus.png
+  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/altus/appimage/official/stable/altus?tag=5.6.0-x86_64-linux&download=altus.png
   description: Desktop client for WhatsApp Web with themes, notifications and multiple account support
-  version: 5.5.3
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/altus/appimage/official/stable/altus/5.5.2-x86_64-linux/altus.appimage
+  version: 5.6.0
   size: 104 MB
-  bsum: a48a25b42c0382bdfa583039909d4de784721d67c889e3b9a87c95c698ddf695
-  shasum: 46f93716eeac47e7bb20167d68c5aef6f7917749fffece0e41f2a4092d0e2d4c
-  build_date: "2025-02-28T18:52:12Z"
+  bsum: 6c02983a14eed406773fc37aaaf898e7b1b3990f086e07db493c31ece97bbdfa
+  shasum: 769b9aa92f3d2bcbf1d148058968e6e0918f83c44728e62d6c42621a180e7516
+  build_date: "2025-03-08T18:42:40Z"
   src_urls:
   - https://github.com/amanharwara/altus
   web_urls:
   - https://github.com/amanharwara/altus
   - https://gitlab.com/amanharwara/altus
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/altus/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/altus/appimage/official/stable/altus?tag=5.5.3-x86_64-linux&download=altus.log
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/altus/appimage/official/stable/altus?tag=5.6.0-x86_64-linux&download=altus.log
   snapshots:
   - 5.4.0-x86_64-linux[5.4.0]
   - 5.4.1-x86_64-linux[5.4.1]
   - 5.5.1-x86_64-linux[5.5.1]
   - 5.5.2-x86_64-linux[5.5.2]
+  - 5.5.3-x86_64-linux[5.5.3]
   provides: altus
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/amanharwara/altus
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/altus/appimage/official/stable/altus:5.5.3-x86_64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/altus/appimage/official/stable/altus@sha256:46f93716eeac47e7bb20167d68c5aef6f7917749fffece0e41f2a4092d0e2d4c
+  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/altus/appimage/official/stable/altus:5.6.0-x86_64-linux
+  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/altus/appimage/official/stable/altus@sha256:769b9aa92f3d2bcbf1d148058968e6e0918f83c44728e62d6c42621a180e7516
   rank: 12
 - pkg: waydroid-helper.appimage
   pkg_name: waydroid-helper
@@ -875,7 +876,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/benjamimgois/goverlay
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/goverlay/appimage/official/nightly/goverlay:250307T002559-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/goverlay/appimage/official/nightly/goverlay@sha256:28056fe3c289d1add917121841fc8f28085594df6555a13b0ffe41964a4cdd6d
-  rank: 231
+  rank: 230
 - pkg: goverlay.appimage
   pkg_name: goverlay
   pkg_id: github.com.benjamimgois.goverlay.stable
@@ -899,7 +900,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/benjamimgois/goverlay
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/goverlay/appimage/official/stable/goverlay:1.3-2-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/goverlay/appimage/official/stable/goverlay@sha256:28056fe3c289d1add917121841fc8f28085594df6555a13b0ffe41964a4cdd6d
-  rank: 230
+  rank: 231
 - pkg: alexandria.appimage
   pkg_name: alexandria
   pkg_id: github.com.btpf.Alexandria
@@ -1309,7 +1310,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/mysteryx93/HanumanInstituteApps
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/yangdownloader:v3.3.2-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/yangdownloader@sha256:96f5bffe1a38f9e3e597129dc91117ba649af52c2393d62fde1d882dbaaf1698
-  rank: 44
+  rank: 43
 - pkg: player432hz/powerliminalsplayer.appimage
   pkg_name: powerliminalsplayer
   pkg_id: github.com.mysteryx93.HanumanInstituteApps
@@ -1335,7 +1336,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/mysteryx93/HanumanInstituteApps
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/powerliminalsplayer:v3.3.2-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/powerliminalsplayer@sha256:840c5c8ad8d0a7bc5e8daa166dd56259e20b20dda0cc4e7868d1ce70f0c9e9cf
-  rank: 45
+  rank: 44
 - pkg: player432hz/player432hz.appimage
   pkg_name: player432hz
   pkg_id: github.com.mysteryx93.HanumanInstituteApps
@@ -1359,7 +1360,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/mysteryx93/HanumanInstituteApps
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/player432hz:v3.3.2-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/player432hz@sha256:c66dbfc5eed92833648ea2759ab69e6ab221419f7f6d635a3e9414bfbb0957e2
-  rank: 43
+  rank: 42
 - pkg: player432hz/converter432hz.appimage
   pkg_name: converter432hz
   pkg_id: github.com.mysteryx93.HanumanInstituteApps
@@ -1383,7 +1384,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/mysteryx93/HanumanInstituteApps
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/converter432hz:v3.3.2-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/converter432hz@sha256:c1129993b676ad888909bae67150600bb153f3b9feb08599b612a68f4b033599
-  rank: 42
+  rank: 45
 - pkg: neovim.appimage
   pkg_name: neovim
   pkg_id: github.com.neovim.neovim.stable
@@ -1668,14 +1669,13 @@ pkgcache:
 - pkg: mpv.appimage
   pkg_name: mpv
   pkg_id: github.com.pkgforge-dev.mpv-AppImage.stable
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/mpv/appimage/pkgforge-dev/stable/mpv?tag=v0.39.0-933-g630a036f6-x86_64-linux&download=mpv.png
+  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/mpv/appimage/pkgforge-dev/stable/mpv?tag=v0.39.0-992-g561156217-x86_64-linux&download=mpv.png
   description: General Purpose Command line video player
-  version: v0.39.0-933-g630a036f6
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/mpv/appimage/pkgforge-dev/stable/mpv/v0.39.0-876-gb848ffad1-x86_64-linux/mpv.appimage
-  size: 49 MB
-  bsum: e2acb19ad3bd0d56ed35617ec748934514a2cd46d8bc2a4afdbfb48b0ee0bc16
-  shasum: d038dc82d4fe321956ace7a4f441f98436795e456f7c9a215d3eecbec527a5e8
-  build_date: "2025-03-02T19:02:56Z"
+  version: v0.39.0-992-g561156217
+  size: 48 MB
+  bsum: 45fac4b20e0ce0088475968ba6bb01f8c4e72924ee37425a528e73f79ab77995
+  shasum: c686de90cc0225011716107945072a1bc71f730db3b021c7dd891af2846b453c
+  build_date: "2025-03-08T20:40:08Z"
   src_urls:
   - https://github.com/pkgforge-dev/mpv-AppImage
   web_urls:
@@ -1683,7 +1683,7 @@ pkgcache:
   - https://github.com/mpv-player/mpv
   - https://github.com/pkgforge-dev/mpv-AppImage
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/mpv/appimage.pkgforge-dev.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/mpv/appimage/pkgforge-dev/stable/mpv?tag=v0.39.0-933-g630a036f6-x86_64-linux&download=mpv.log
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/mpv/appimage/pkgforge-dev/stable/mpv?tag=v0.39.0-992-g561156217-x86_64-linux&download=mpv.log
   snapshots:
   - v0.39.0-613-g7a59a12b76-x86_64-linux[v0.39.0-613-g7a59a12b76]
   - v0.39.0-615-gca211b5b88-x86_64-linux[v0.39.0-615-gca211b5b88]
@@ -1694,12 +1694,13 @@ pkgcache:
   - v0.39.0-756-ge4b64fba9-x86_64-linux[v0.39.0-756-ge4b64fba9]
   - v0.39.0-775-g834f99e46-x86_64-linux[v0.39.0-775-g834f99e46]
   - v0.39.0-876-gb848ffad1-x86_64-linux[v0.39.0-876-gb848ffad1]
+  - v0.39.0-933-g630a036f6-x86_64-linux[v0.39.0-933-g630a036f6]
   provides: mpv
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/mpv-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/mpv/appimage/pkgforge-dev/stable/mpv:v0.39.0-933-g630a036f6-x86_64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/mpv/appimage/pkgforge-dev/stable/mpv@sha256:d038dc82d4fe321956ace7a4f441f98436795e456f7c9a215d3eecbec527a5e8
+  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/mpv/appimage/pkgforge-dev/stable/mpv:v0.39.0-992-g561156217-x86_64-linux
+  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/mpv/appimage/pkgforge-dev/stable/mpv@sha256:c686de90cc0225011716107945072a1bc71f730db3b021c7dd891af2846b453c
   rank: 7
 - pkg: pixelpulse2.appimage
   pkg_name: pixelpulse2
@@ -1841,7 +1842,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/rustdesk/rustdesk
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk:250204T131430-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk@sha256:2f8f2dd1888c2134802c363a238b74efd85a3eed9a61542c3919685e6a419444
-  rank: 75
+  rank: 74
 - pkg: rustdesk.appimage
   pkg_name: rustdesk
   pkg_id: github.com.rustdesk.rustdesk.stable
@@ -1865,7 +1866,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/rustdesk/rustdesk
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk:1.3.7-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk@sha256:ee25b8a862da8b771f74b124b1158cfaefe07fb54642ce9cbd8f623f8ef8c131
-  rank: 74
+  rank: 75
 - pkg: simplex-desktop.appimage
   pkg_name: simplex-desktop
   pkg_id: github.com.simplex-chat.simplex-chat
@@ -1925,17 +1926,17 @@ pkgcache:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Brave-AppImage
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/brave/appimage/srevinsaju/beta/brave:v1.77.76-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/brave/appimage/srevinsaju/beta/brave@sha256:b55a2f6b6f8f663a9102e9d7a7c07f9c38f59963d4225e14e502a36c5f66fef1
-  rank: 219
+  rank: 218
 - pkg: brave.appimage
   pkg_name: brave
   pkg_id: github.com.srevinsaju.Brave-AppImage.nightly
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/brave/appimage/srevinsaju/nightly/brave?tag=v1.78.26-x86_64-linux&download=brave.png
+  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/brave/appimage/srevinsaju/nightly/brave?tag=v1.78.27-x86_64-linux&download=brave.png
   description: Privacy-oriented browser for Desktop and Laptop computers (Nightly)
-  version: v1.78.26
+  version: v1.78.27
   size: 158 MB
-  bsum: e5cabcf8c42cbbb0c3f4512707ea5c4999eda90da33f4f6fd273412682c371ce
-  shasum: 831b124f4679bd893e0e0b44d2ffa9782c13802cbb3ef63362c952dd0572dc7b
-  build_date: "2025-03-07T18:52:35Z"
+  bsum: dea0b572842f631cc8160cc5c632e089cf04b117f45417792a11f0f1e786cecc
+  shasum: 3a2e46b79912acbcc146c09667668e4c91589f6b6eb14e07c032c272d436d147
+  build_date: "2025-03-08T19:54:01Z"
   src_urls:
   - https://github.com/srevinsaju/Brave-AppImage
   web_urls:
@@ -1943,7 +1944,7 @@ pkgcache:
   - https://github.com/brave/brave-browser
   - https://github.com/srevinsaju/Brave-AppImage
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/brave/appimage.srevinsaju.nightly.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/brave/appimage/srevinsaju/nightly/brave?tag=v1.78.26-x86_64-linux&download=brave.log
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/brave/appimage/srevinsaju/nightly/brave?tag=v1.78.27-x86_64-linux&download=brave.log
   snapshots:
   - v1.76.15-x86_64-linux[v1.76.15]
   - v1.76.18-x86_64-linux[v1.76.18]
@@ -1954,12 +1955,13 @@ pkgcache:
   - v1.77.1-x86_64-linux[v1.77.1]
   - v1.78.16-x86_64-linux[v1.78.16]
   - v1.78.17-x86_64-linux[v1.78.17]
+  - v1.78.26-x86_64-linux[v1.78.26]
   provides: brave
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Brave-AppImage
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/brave/appimage/srevinsaju/nightly/brave:v1.78.26-x86_64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/brave/appimage/srevinsaju/nightly/brave@sha256:831b124f4679bd893e0e0b44d2ffa9782c13802cbb3ef63362c952dd0572dc7b
-  rank: 220
+  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/brave/appimage/srevinsaju/nightly/brave:v1.78.27-x86_64-linux
+  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/brave/appimage/srevinsaju/nightly/brave@sha256:3a2e46b79912acbcc146c09667668e4c91589f6b6eb14e07c032c272d436d147
+  rank: 219
 - pkg: brave.appimage
   pkg_name: brave
   pkg_id: github.com.srevinsaju.Brave-AppImage.stable
@@ -1983,17 +1985,17 @@ pkgcache:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Brave-AppImage
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/brave/appimage/srevinsaju/stable/brave:v1.74.51-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/brave/appimage/srevinsaju/stable/brave@sha256:9fcd5a3912cb9c605abe48caed52b2a944d983ae85b4437e99712cb5baa983dc
-  rank: 218
+  rank: 220
 - pkg: firefox.appimage
   pkg_name: firefox
   pkg_id: github.com.srevinsaju.Firefox-Appimage.beta
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/firefox/appimage/srevinsaju/beta/firefox?tag=137.0.20250305105816-x86_64-linux&download=firefox.png
+  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/firefox/appimage/srevinsaju/beta/firefox?tag=137.0.20250307103915-x86_64-linux&download=firefox.png
   description: A web browser built from Firefox source tree (Beta)
-  version: 137.0.20250305105816
+  version: 137.0.20250307103915
   size: 84 MB
-  bsum: ed1f53aa5c4b1c4c92f4843c4b787a45a0e7a83118645b5beda64258b70cf2f0
-  shasum: 0d1847d5bfb533e8f0e4c76bfbc46505ceb3bfecff97ef05b3ffaf4097ca3fee
-  build_date: "2025-03-07T18:53:44Z"
+  bsum: 17da325471c9d35b3044326112e426f7431b5ed9fedbdf49364b43df23096d91
+  shasum: e497488e7cf87446131873e9990c79cc92773900c3a2817e42fec1e8ac730c00
+  build_date: "2025-03-08T20:23:50Z"
   src_urls:
   - https://github.com/srevinsaju/Firefox-Appimage
   web_urls:
@@ -2001,7 +2003,7 @@ pkgcache:
   - https://hg.mozilla.org/mozilla-central
   - https://github.com/srevinsaju/Firefox-Appimage
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/firefox/appimage.srevinsaju.beta.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/firefox/appimage/srevinsaju/beta/firefox?tag=137.0.20250305105816-x86_64-linux&download=firefox.log
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/firefox/appimage/srevinsaju/beta/firefox?tag=137.0.20250307103915-x86_64-linux&download=firefox.log
   snapshots:
   - 135.0.20250113112036-x86_64-linux[135.0.20250113112036]
   - 135.0.20250115091607-x86_64-linux[135.0.20250115091607]
@@ -2017,22 +2019,23 @@ pkgcache:
   - 136.0.20250219092102-x86_64-linux[136.0.20250219092102]
   - 136.0.20250221091531-x86_64-linux[136.0.20250221091531]
   - 137.0.20250303103151-x86_64-linux[137.0.20250303103151]
+  - 137.0.20250305105816-x86_64-linux[137.0.20250305105816]
   provides: firefox=>firefox-beta
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Firefox-Appimage
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/beta/firefox:137.0.20250305105816-x86_64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/beta/firefox@sha256:0d1847d5bfb533e8f0e4c76bfbc46505ceb3bfecff97ef05b3ffaf4097ca3fee
-  rank: 248
+  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/beta/firefox:137.0.20250307103915-x86_64-linux
+  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/beta/firefox@sha256:e497488e7cf87446131873e9990c79cc92773900c3a2817e42fec1e8ac730c00
+  rank: 244
 - pkg: firefox.appimage
   pkg_name: firefox
   pkg_id: github.com.srevinsaju.Firefox-Appimage.dev
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/firefox/appimage/srevinsaju/dev/firefox?tag=137.0.20250305105816-x86_64-linux&download=firefox.png
+  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/firefox/appimage/srevinsaju/dev/firefox?tag=137.0.20250307103915-x86_64-linux&download=firefox.png
   description: A web browser built from Firefox source tree (DEV)
-  version: 137.0.20250305105816
+  version: 137.0.20250307103915
   size: 84 MB
-  bsum: 90065b66ab841cc4ea3f067fab64491318582740cc62ddf15e4db58ea9a28597
-  shasum: e467088d98501af1eb829c13b19801d2cb81d07b231c35b215f8f1e3d551e570
-  build_date: "2025-03-07T18:52:06Z"
+  bsum: 455cb7fa9564b667d5d5dea8383c8ab729884752a606477e20f22dd19c2f5a00
+  shasum: a5f11122ba63444fc434e15356b3265faf4062f2ca64d5d497437b9db329a6e9
+  build_date: "2025-03-08T20:27:47Z"
   src_urls:
   - https://github.com/srevinsaju/Firefox-Appimage
   web_urls:
@@ -2040,7 +2043,7 @@ pkgcache:
   - https://hg.mozilla.org/mozilla-central
   - https://github.com/srevinsaju/Firefox-Appimage
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/firefox/appimage.srevinsaju.dev.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/firefox/appimage/srevinsaju/dev/firefox?tag=137.0.20250305105816-x86_64-linux&download=firefox.log
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/firefox/appimage/srevinsaju/dev/firefox?tag=137.0.20250307103915-x86_64-linux&download=firefox.log
   snapshots:
   - 135.0.20250113112036-x86_64-linux[135.0.20250113112036]
   - 135.0.20250115091607-x86_64-linux[135.0.20250115091607]
@@ -2052,12 +2055,13 @@ pkgcache:
   - 136.0.20250219092102-x86_64-linux[136.0.20250219092102]
   - 136.0.20250221091531-x86_64-linux[136.0.20250221091531]
   - 137.0.20250303103151-x86_64-linux[137.0.20250303103151]
+  - 137.0.20250305105816-x86_64-linux[137.0.20250305105816]
   provides: firefox=>firefox-dev
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Firefox-Appimage
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/dev/firefox:137.0.20250305105816-x86_64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/dev/firefox@sha256:e467088d98501af1eb829c13b19801d2cb81d07b231c35b215f8f1e3d551e570
-  rank: 244
+  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/dev/firefox:137.0.20250307103915-x86_64-linux
+  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/dev/firefox@sha256:a5f11122ba63444fc434e15356b3265faf4062f2ca64d5d497437b9db329a6e9
+  rank: 245
 - pkg: firefox.appimage
   pkg_name: firefox
   pkg_id: github.com.srevinsaju.Firefox-Appimage.esr
@@ -2089,13 +2093,13 @@ pkgcache:
 - pkg: firefox.appimage
   pkg_name: firefox
   pkg_id: github.com.srevinsaju.Firefox-Appimage.nightly
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/firefox/appimage/srevinsaju/nightly/firefox?tag=138.0.20250307090837-x86_64-linux&download=firefox.png
+  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/firefox/appimage/srevinsaju/nightly/firefox?tag=138.0.20250308090017-x86_64-linux&download=firefox.png
   description: A web browser built from Firefox source tree (Nightly)
-  version: 138.0.20250307090837
+  version: 138.0.20250308090017
   size: 93 MB
-  bsum: 441d05479a1f349745dda51627016255d021f05568938df6e81a89d15d6dfb40
-  shasum: ac5090f3d3f4853f595ce885bfabe469f816396de2d1e5ebc92abf7b4d3b014d
-  build_date: "2025-03-07T18:59:02Z"
+  bsum: 844ca7e8a7b93117b07081b03e6a33a88b7004c789118f57987761f48d14384a
+  shasum: 9ebb1ab3599a520c1a6b19f3fd8b11000041e189b6385bcd34333ddfac5f7087
+  build_date: "2025-03-08T20:33:02Z"
   src_urls:
   - https://github.com/srevinsaju/Firefox-Appimage
   web_urls:
@@ -2103,7 +2107,7 @@ pkgcache:
   - https://hg.mozilla.org/mozilla-central
   - https://github.com/srevinsaju/Firefox-Appimage
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/firefox/appimage.srevinsaju.nightly.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/firefox/appimage/srevinsaju/nightly/firefox?tag=138.0.20250307090837-x86_64-linux&download=firefox.log
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/firefox/appimage/srevinsaju/nightly/firefox?tag=138.0.20250308090017-x86_64-linux&download=firefox.log
   snapshots:
   - 136.0.20250115042832-x86_64-linux[136.0.20250115042832]
   - 136.0.20250115215720-x86_64-linux[136.0.20250115215720]
@@ -2141,11 +2145,12 @@ pkgcache:
   - 137.0.20250303090051-x86_64-linux[137.0.20250303090051]
   - 138.0.20250304094020-x86_64-linux[138.0.20250304094020]
   - 138.0.20250304213504-x86_64-linux[138.0.20250304213504]
+  - 138.0.20250307090837-x86_64-linux[138.0.20250307090837]
   provides: firefox=>firefox-nightly
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Firefox-Appimage
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/nightly/firefox:138.0.20250307090837-x86_64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/nightly/firefox@sha256:ac5090f3d3f4853f595ce885bfabe469f816396de2d1e5ebc92abf7b4d3b014d
+  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/nightly/firefox:138.0.20250308090017-x86_64-linux
+  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/nightly/firefox@sha256:9ebb1ab3599a520c1a6b19f3fd8b11000041e189b6385bcd34333ddfac5f7087
   rank: 247
 - pkg: firefox.appimage
   pkg_name: firefox
@@ -2176,24 +2181,24 @@ pkgcache:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Firefox-Appimage
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/stable/firefox:136.0.20250227124745-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/stable/firefox@sha256:bf357bc2f362f2ea2bdda3adb4a923f06072f67eddc5b79db8d0014ac6a93896
-  rank: 245
+  rank: 248
 - pkg: discord/discord-canary.appimage
   pkg_name: discord-canary
   pkg_id: github.com.srevinsaju.discord-AppImage.canary
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/discord-canary/appimage/srevinsaju/canary/discord-canary?tag=0.0.605-x86_64-linux&download=discord-canary.png
+  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/discord-canary/appimage/srevinsaju/canary/discord-canary?tag=0.0.606-x86_64-linux&download=discord-canary.png
   description: All-in-one cross-platform voice and text chat for gamers (Canary)
-  version: 0.0.605
+  version: 0.0.606
   size: 83 MB
-  bsum: 89c8b11cd769f14fc4aa89d8f04d844df8124c222515b51b2782f7cba94cc641
-  shasum: 5aa71cf1f677b3546eae74a69bd6d30feed56372554591bd144e0d2165f40a3e
-  build_date: "2025-03-05T20:00:03Z"
+  bsum: 78bd348927077bea761e8ec9caad16f7ae363784817cfe12eecd6884819a93fb
+  shasum: 35b18a0e69247566c4c7098e40adbff686519c39aba3e21941c6d2e6bb982d59
+  build_date: "2025-03-08T20:20:19Z"
   src_urls:
   - https://github.com/srevinsaju/discord-appimage
   web_urls:
   - https://discordapp.com
   - https://github.com/srevinsaju/discord-appimage
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/discord/appimage.srevinsaju.canary.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/discord-canary/appimage/srevinsaju/canary/discord-canary?tag=0.0.605-x86_64-linux&download=discord-canary.log
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/discord-canary/appimage/srevinsaju/canary/discord-canary?tag=0.0.606-x86_64-linux&download=discord-canary.log
   snapshots:
   - 0.0.560-x86_64-linux[0.0.560]
   - 0.0.574-x86_64-linux[0.0.574]
@@ -2211,11 +2216,12 @@ pkgcache:
   - 0.0.600-x86_64-linux[0.0.600]
   - 0.0.601-x86_64-linux[0.0.601]
   - 0.0.602-x86_64-linux[0.0.602]
+  - 0.0.605-x86_64-linux[0.0.605]
   provides: discord-canary
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/discord-appimage
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/discord-canary/appimage/srevinsaju/canary/discord-canary:0.0.605-x86_64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/discord-canary/appimage/srevinsaju/canary/discord-canary@sha256:5aa71cf1f677b3546eae74a69bd6d30feed56372554591bd144e0d2165f40a3e
+  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/discord-canary/appimage/srevinsaju/canary/discord-canary:0.0.606-x86_64-linux
+  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/discord-canary/appimage/srevinsaju/canary/discord-canary@sha256:35b18a0e69247566c4c7098e40adbff686519c39aba3e21941c6d2e6bb982d59
   rank: 6
 - pkg: discord/discord-ptb.appimage
   pkg_name: discord-ptb
@@ -2506,25 +2512,24 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser:1.0.2-b.5-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser@sha256:7da2733c7b6313743ef56a4f9b52e2a787fb44942b85675353e3056825f2d978
-  rank: 266
+  rank: 264
 - pkg: zen-browser.appimage
   pkg_name: zen-browser
   pkg_id: github.com.zen-browser.desktop.stable
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.8.2b-x86_64-linux&download=zen-browser.png
+  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.9b-x86_64-linux&download=zen-browser.png
   description: Performance oriented Firefox-based web browser
-  version: 1.8.2b
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/zen-browser/appimage/official/stable/zen-browser/1.8.1b-x86_64-linux/zen-browser.appimage
-  size: 107 MB
-  bsum: 56b52b860473e4cb6782ef58468be775612754e9a7c9d1e26380e7bc06601c94
-  shasum: 859889f092f32e1b43d56f0302ca37c81009621144fa72446d025ae7d0168e75
-  build_date: "2025-02-26T21:22:31Z"
+  version: 1.9b
+  size: 102 MB
+  bsum: cfdf64a194eafe665895199f4c53698835bd786781064a05ed0782cbac4dd246
+  shasum: eb1f938b614b73137b101bf7328baa5ea1f367714dca08f885799b58ed43e010
+  build_date: "2025-03-08T21:02:56Z"
   src_urls:
   - https://github.com/zen-browser/desktop
   web_urls:
   - https://zen-browser.app
   - https://github.com/zen-browser/desktop
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.8.2b-x86_64-linux&download=zen-browser.log
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.9b-x86_64-linux&download=zen-browser.log
   snapshots:
   - 1.7b-x86_64-linux[1.7b]
   - 1.7.1b-x86_64-linux[1.7.1b]
@@ -2534,29 +2539,30 @@ pkgcache:
   - 1.7.6b-x86_64-linux[1.7.6b]
   - 1.8b-x86_64-linux[1.8b]
   - 1.8.1b-x86_64-linux[1.8.1b]
+  - 1.8.2b-x86_64-linux[1.8.2b]
   provides: zen-browser==zen
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser:1.8.2b-x86_64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser@sha256:859889f092f32e1b43d56f0302ca37c81009621144fa72446d025ae7d0168e75
+  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser:1.9b-x86_64-linux
+  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser@sha256:eb1f938b614b73137b101bf7328baa5ea1f367714dca08f885799b58ed43e010
   rank: 265
 - pkg: zen-browser.appimage
   pkg_name: zen-browser
   pkg_id: github.com.zen-browser.desktop.twilight
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=1.9t_2025-03-06-x86_64-linux&download=zen-browser.png
+  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=1.9t_2025-03-07-x86_64-linux&download=zen-browser.png
   description: Performance oriented Firefox-based web browser (Twilight)
-  version: 1.9t_2025-03-06
-  size: 106 MB
-  bsum: fbfcd6e398c4d94f3b4e8dafadcaa1f8c5d3ed0620bb20d3e96a8ad828529a42
-  shasum: 766c38eba2620f5406595c5fdce7137ff2e090827fbe8726d85e1a1c8e8a7710
-  build_date: "2025-03-07T19:07:27Z"
+  version: 1.9t_2025-03-07
+  size: 100 MB
+  bsum: d7dc7a7f74083173f5af4fa57f98b132ec3c2f42633e4fcff5af2aaa746a7170
+  shasum: 14c349caae6398ab6734827634814914a8acda04faf983fcb9603c0bbd2ec0c0
+  build_date: "2025-03-08T21:05:10Z"
   src_urls:
   - https://github.com/zen-browser/desktop
   web_urls:
   - https://zen-browser.app
   - https://github.com/zen-browser/desktop
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.twilight.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=1.9t_2025-03-06-x86_64-linux&download=zen-browser.log
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=1.9t_2025-03-07-x86_64-linux&download=zen-browser.log
   snapshots:
   - 1.7t_2025-01-15-x86_64-linux[1.7t_2025-01-15]
   - 1.7t_2025-01-16-x86_64-linux[1.7t_2025-01-16]
@@ -2590,12 +2596,13 @@ pkgcache:
   - Twilightbuild-1.8.2t_2025-03-03at09_57_11_-x86_64-linux[Twilightbuild-1.8.2t(2025-03-03at09:57:11)]
   - Twilightbuild-1.8.2t_2025-03-04at14_22_07_-x86_64-linux[Twilightbuild-1.8.2t(2025-03-04at14:22:07)]
   - Twilightbuild-1.8.2t_2025-03-05at12_06_34_-x86_64-linux[Twilightbuild-1.8.2t(2025-03-05at12:06:34)]
+  - 1.9t_2025-03-06-x86_64-linux[1.9t_2025-03-06]
   provides: zen-browser==zen
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:1.9t_2025-03-06-x86_64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser@sha256:766c38eba2620f5406595c5fdce7137ff2e090827fbe8726d85e1a1c8e8a7710
-  rank: 264
+  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:1.9t_2025-03-07-x86_64-linux
+  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser@sha256:14c349caae6398ab6734827634814914a8acda04faf983fcb9603c0bbd2ec0c0
+  rank: 266
 - pkg: inkscape.appimage
   pkg_name: inkscape
   pkg_id: gitlab.com.inkscape.inkscape
@@ -2622,20 +2629,20 @@ pkgcache:
 - pkg: kdenlive.appimage
   pkg_name: kdenlive
   pkg_id: gitlab.com.kdenlive.kdenlive.nightly
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/kdenlive/appimage/official/nightly/kdenlive?tag=2025-03-07-x86_64-linux&download=kdenlive.png
+  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/kdenlive/appimage/official/nightly/kdenlive?tag=2025-03-08-x86_64-linux&download=kdenlive.png
   description: FOSS video editor, based on MLT Framework and KDE Frameworks (Nightly)
-  version: "2025-03-07"
+  version: "2025-03-08"
   size: 183 MB
-  bsum: 6be38a471b51932324d8bae29c734339f4775c6915888ed08755b8018d95d70e
-  shasum: 7b30e96dbe01125a21c7154bb8f099451afa6aa20d30a94aad3abfacd51d8a27
-  build_date: "2025-03-07T19:50:46Z"
+  bsum: 6a959ea5d0359c0206b8dc4c0126460b21dcb8aaa35b1d3720956d97642b0465
+  shasum: 1385634040adaa9644579102b24d063133abae41e31186795299caefc82c771b
+  build_date: "2025-03-08T20:33:56Z"
   src_urls:
   - https://kdenlive.org/en/download/
   web_urls:
   - https://apps.kde.org/kdenlive
   - https://invent.kde.org/multimedia/kdenlive
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/kdenlive/appimage.official.nightly.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/kdenlive/appimage/official/nightly/kdenlive?tag=2025-03-07-x86_64-linux&download=kdenlive.log
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/kdenlive/appimage/official/nightly/kdenlive?tag=2025-03-08-x86_64-linux&download=kdenlive.log
   snapshots:
   - 2025-02-02-x86_64-linux[2025-02-02]
   - 2025-02-04-x86_64-linux[2025-02-04]
@@ -2653,11 +2660,12 @@ pkgcache:
   - 2025-02-28-x86_64-linux[2025-02-28]
   - 2025-03-03-x86_64-linux[2025-03-03]
   - 2025-03-04-x86_64-linux[2025-03-04]
+  - 2025-03-07-x86_64-linux[2025-03-07]
   provides: kdenlive
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://invent.kde.org/multimedia/kdenlive
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/kdenlive/appimage/official/nightly/kdenlive:2025-03-07-x86_64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/kdenlive/appimage/official/nightly/kdenlive@sha256:7b30e96dbe01125a21c7154bb8f099451afa6aa20d30a94aad3abfacd51d8a27
+  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/kdenlive/appimage/official/nightly/kdenlive:2025-03-08-x86_64-linux
+  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/kdenlive/appimage/official/nightly/kdenlive@sha256:1385634040adaa9644579102b24d063133abae41e31186795299caefc82c771b
   rank: 201
 - pkg: kdenlive.appimage
   pkg_name: kdenlive
@@ -2686,20 +2694,20 @@ pkgcache:
 - pkg: krita.appimage
   pkg_name: krita
   pkg_id: gitlab.com.krita.krita.next
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/krita/appimage/official/next/krita?tag=2025-03-06-x86_64-linux&download=krita.png
+  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/krita/appimage/official/next/krita?tag=2025-03-07-x86_64-linux&download=krita.png
   description: A free and open source painting application (Alpha/Next)
-  version: "2025-03-06"
+  version: "2025-03-07"
   size: 297 MB
-  bsum: 8f7e1a080f5e721b4b385779c0dc9c0ec533c96ed956d0d9f6311ef780ef18aa
-  shasum: 37fbbb2cffc7cf7a2b473c80bfc92fd56eee73de2bb45d9916600eb99684e753
-  build_date: "2025-03-07T19:05:21Z"
+  bsum: f258a732009fc19f4ecfe9a7bcec7f2440f976eacf2e5f0119e0eb878e59a58f
+  shasum: d5df99919e9c295ad568eed19b37d3f9dc767095334d41db771bce6d5bb9b48c
+  build_date: "2025-03-08T20:37:09Z"
   src_urls:
   - https://krita.org/en/download/
   web_urls:
   - https://krita.org
   - https://invent.kde.org/graphics/krita
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/krita/appimage.official.next.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/krita/appimage/official/next/krita?tag=2025-03-06-x86_64-linux&download=krita.log
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/krita/appimage/official/next/krita?tag=2025-03-07-x86_64-linux&download=krita.log
   snapshots:
   - 2025-02-01-x86_64-linux[2025-02-01]
   - 2025-02-02-x86_64-linux[2025-02-02]
@@ -2728,12 +2736,13 @@ pkgcache:
   - 2025-03-02-x86_64-linux[2025-03-02]
   - 2025-03-03-x86_64-linux[2025-03-03]
   - 2025-03-04-x86_64-linux[2025-03-04]
+  - 2025-03-06-x86_64-linux[2025-03-06]
   provides: krita
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://invent.kde.org/graphics/krita
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/krita/appimage/official/next/krita:2025-03-06-x86_64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/krita/appimage/official/next/krita@sha256:37fbbb2cffc7cf7a2b473c80bfc92fd56eee73de2bb45d9916600eb99684e753
-  rank: 111
+  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/krita/appimage/official/next/krita:2025-03-07-x86_64-linux
+  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/krita/appimage/official/next/krita@sha256:d5df99919e9c295ad568eed19b37d3f9dc767095334d41db771bce6d5bb9b48c
+  rank: 110
 - pkg: krita.appimage
   pkg_name: krita
   pkg_id: gitlab.com.krita.krita.stable
@@ -2757,7 +2766,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://invent.kde.org/graphics/krita
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/krita/appimage/official/stable/krita:5.2.9-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/krita/appimage/official/stable/krita@sha256:7ec00f6675bd7cc45520d16417a15ea8393609e0de90663e8ccbc730df23b2bb
-  rank: 110
+  rank: 111
 - pkg: libreoffice.appimage
   pkg_name: libreoffice
   pkg_id: gitlab.com.libreoffice.libreoffice.fresh-basic
@@ -2787,7 +2796,7 @@ pkgcache:
   - This version includes support only for the default language i.e English (US)
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/fresh-basic/libreoffice:25.2.1.2-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/fresh-basic/libreoffice@sha256:b5cfccc305f9c8ad565460713d256d39977395898403ad263d2867c9568328c7
-  rank: 93
+  rank: 89
 - pkg: libreoffice.appimage
   pkg_name: libreoffice
   pkg_id: gitlab.com.libreoffice.libreoffice.fresh-full
@@ -2817,7 +2826,7 @@ pkgcache:
   - This version includes support for all languages supported by LibreOffice
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/fresh-full/libreoffice:25.2.1.2-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/fresh-full/libreoffice@sha256:7487730ba551e45f33d64ffff3297981fd717bd858a1891cb5d73dfaa4753403
-  rank: 88
+  rank: 92
 - pkg: libreoffice.appimage
   pkg_name: libreoffice
   pkg_id: gitlab.com.libreoffice.libreoffice.fresh-standard
@@ -2847,7 +2856,7 @@ pkgcache:
   - "This version includes support for: English (US and GB), Arabic, Chinese (Simplified and Traditional), French, German, Italian, Japanese, Korean, Portuguese (Brazilian and Portugal), Russian, and Spanish"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/fresh-standard/libreoffice:25.2.1.2-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/fresh-standard/libreoffice@sha256:14d55dfe58422fb35a87ca3fb37dce6544766f901a2e8a12c83496d11263a295
-  rank: 91
+  rank: 90
 - pkg: libreoffice.appimage
   pkg_name: libreoffice
   pkg_id: gitlab.com.libreoffice.libreoffice.still-basic
@@ -2877,7 +2886,7 @@ pkgcache:
   - This version includes support only for the default language i.e English (US)
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/still-basic/libreoffice:25.2.1.2-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/still-basic/libreoffice@sha256:a64e986621cee7726c248888c440e5c49b390f6c704de89ab17057b1dc53226d
-  rank: 92
+  rank: 93
 - pkg: libreoffice.appimage
   pkg_name: libreoffice
   pkg_id: gitlab.com.libreoffice.libreoffice.still-full
@@ -2907,7 +2916,7 @@ pkgcache:
   - This version includes support for all languages supported by LibreOffice
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/still-full/libreoffice:25.2.1.2-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/still-full/libreoffice@sha256:6332f3845de1ad835fff7a69ac5405e86f09932354d2585a7ab82415d1a8ac9f
-  rank: 90
+  rank: 91
 - pkg: libreoffice.appimage
   pkg_name: libreoffice
   pkg_id: gitlab.com.libreoffice.libreoffice.still-standard
@@ -2937,7 +2946,7 @@ pkgcache:
   - "This version includes support for: English (US and GB), Arabic, Chinese (Simplified and Traditional), French, German, Italian, Japanese, Korean, Portuguese (Brazilian and Portugal), Russian, and Spanish"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/still-standard/libreoffice:25.2.1.2-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/still-standard/libreoffice@sha256:9b736a13bb35f92431fde8571e8e8863d6db27b09f2d47c442589f372dc23d33
-  rank: 89
+  rank: 88
 - pkg: librewolf.appimage
   pkg_name: librewolf
   pkg_id: gitlab.com.librewolf-community.browser.appimage.stable
@@ -2991,7 +3000,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://www.qbittorrent.org/download
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/qbittorrent/appimage/official/beta/qbittorrent:5.1.0-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/qbittorrent/appimage/official/beta/qbittorrent@sha256:c79fb7bf0655a6a0f3c5e0d2c5a05d4b29b8eeed3f266afcae1cee48632dde4a
-  rank: 121
+  rank: 122
 - pkg: qbittorrent.appimage
   pkg_name: qbittorrent
   pkg_id: gitlab.com.qbittorrent.qbittorrent.stable
@@ -3020,7 +3029,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://www.qbittorrent.org/download
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/qbittorrent/appimage/official/stable/qbittorrent:5.1.0-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/qbittorrent/appimage/official/stable/qbittorrent@sha256:11cb1397545cfb70f72c2ac3949f9a88db2b6ba862b65b852d8852e8967f0f07
-  rank: 122
+  rank: 121
 - pkg: brave.nixappimage
   pkg_name: brave
   pkg_id: nixpkgs.brave
@@ -3060,14 +3069,14 @@ pkgcache:
 - pkg: chromium.nixappimage
   pkg_name: chromium
   pkg_id: nixpkgs.chromium
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium?tag=133.0.6943.141-x86_64-linux&download=chromium.png
+  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium?tag=134.0.6998.35-x86_64-linux&download=chromium.png
   description: Open source web browser from Google (Stable)
-  version: 133.0.6943.141
+  version: 134.0.6998.35
   download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/chromium/nixappimage/nixpkgs/stable/chromium/133.0.6943.141-x86_64-linux/chromium.nixappimage
-  size: 370 MB
-  bsum: 867f86738304f5816e4cba409e0e8e2c052424466a6eaa2231b45c00510749a9
-  shasum: 5b3d58900747ee7f3a157151237f07dd04d5f0469e5fda6f403730277d644eac
-  build_date: "2025-02-26T19:39:34Z"
+  size: 371 MB
+  bsum: d06ccce70b8920252c0416fd83e428740f9f93d42d9a292776580965e1c46e57
+  shasum: 8f39ac4290cf61e55a304a6d617acef004d7afc7b4a22ffa6cc16b245e233e55
+  build_date: "2025-03-08T20:03:53Z"
   src_urls:
   - https://github.com/chromium/chromium
   web_urls:
@@ -3075,7 +3084,7 @@ pkgcache:
   - https://chromium.googlesource.com/chromium/src
   - https://github.com/chromium/chromium
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/chromium/nixappimage.nixpkgs.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium?tag=133.0.6943.141-x86_64-linux&download=chromium.log
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium?tag=134.0.6998.35-x86_64-linux&download=chromium.log
   snapshots:
   - 131.0.6778.264-x86_64-linux[131.0.6778.264]
   - 132.0.6834.83-x86_64-linux[132.0.6834.83]
@@ -3084,14 +3093,15 @@ pkgcache:
   - 133.0.6943.53-x86_64-linux[133.0.6943.53]
   - 133.0.6943.98-x86_64-linux[133.0.6943.98]
   - 133.0.6943.126-x86_64-linux[133.0.6943.126]
+  - 133.0.6943.141-x86_64-linux[133.0.6943.141]
   provides: chromium==chromium-browser
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium:133.0.6943.141-x86_64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium@sha256:5b3d58900747ee7f3a157151237f07dd04d5f0469e5fda6f403730277d644eac
+  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium:134.0.6998.35-x86_64-linux
+  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium@sha256:8f39ac4290cf61e55a304a6d617acef004d7afc7b4a22ffa6cc16b245e233e55
   rank: 252
 - pkg: discord/discord.nixappimage
   pkg_name: discord
@@ -3187,7 +3197,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/discord/nixappimage/nixpkgs/development/discord:0.0.68-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/discord/nixappimage/nixpkgs/development/discord@sha256:b806f5e0c4a0333c45c20e3de4260b85a3199a85598e2f1a54c600069640abe1
-  rank: 35
+  rank: 38
 - pkg: discord/discord.nixappimage
   pkg_name: discord
   pkg_id: nixpkgs.discord-ptb
@@ -3219,7 +3229,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/discord/nixappimage/nixpkgs/ptb/discord:0.0.132-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/discord/nixappimage/nixpkgs/ptb/discord@sha256:05bffaa6bc045ea5d4ab58048601af6d11561838b41ba20752aebaf70e38ecb4
-  rank: 38
+  rank: 35
 - pkg: flameshot.nixappimage
   pkg_name: flameshot
   pkg_id: nixpkgs.flameshot
@@ -3887,7 +3897,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/steam/runimage/archlinux/stable/steam:1.0.0.82-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/steam/runimage/archlinux/stable/steam@sha256:64ae0ef0d966d27a5199d1adec134ef230e9aed9d08d628f2212d1c6e9326dee
-  rank: 55
+  rank: 56
 - pkg: ddnet.runimage
   pkg_name: ddnet
   pkg_id: runimage.cachyos.ddnet
@@ -3895,9 +3905,9 @@ pkgcache:
   description: Cooperative online platform game based on Teeworlds
   version: "19.0"
   size: 302 MB
-  bsum: cb5833495fbadd0e1ad8c66fcfc14e53a998f04961b5ebcf7712c6819650493e
-  shasum: 6b0a97bb82d83db56b0e3a6827dcbc6c4f851f5b211dc1103aefecada90652cd
-  build_date: "2025-03-07T18:55:56Z"
+  bsum: 8d73d2d875f37611d25b6995028363551fde24359ea50821322bbe66521f7d8c
+  shasum: a227c521474bf9c85e5326c1b94dfd9cb3753ec31f4604f8c2f3e3fe8ad2dbe6
+  build_date: "2025-03-08T20:16:07Z"
   src_urls:
   - https://github.com/ddnet/ddnet
   web_urls:
@@ -3914,7 +3924,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/ddnet/runimage/cachyos/stable/ddnet:19.0-x86_64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/ddnet/runimage/cachyos/stable/ddnet@sha256:6b0a97bb82d83db56b0e3a6827dcbc6c4f851f5b211dc1103aefecada90652cd
+  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/ddnet/runimage/cachyos/stable/ddnet@sha256:a227c521474bf9c85e5326c1b94dfd9cb3753ec31f4604f8c2f3e3fe8ad2dbe6
   rank: 52
 - pkg: fdm.runimage
   pkg_name: fdm
@@ -3940,7 +3950,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/fdm/runimage/cachyos/stable/fdm:6.25.2.6046-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/fdm/runimage/cachyos/stable/fdm@sha256:2bc862e70a1482439af40a89065d30585324cbc47484c9528b8d7f256f1af26e
-  rank: 106
+  rank: 107
 - pkg: ffdec.runimage
   pkg_name: ffdec
   pkg_id: runimage.cachyos.ffdec
@@ -4097,7 +4107,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/goverlay/runimage/cachyos/git/goverlay:1.2.r26.g30ffcd0-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/goverlay/runimage/cachyos/git/goverlay@sha256:5e4dba031c597e44a2f9d7fee034a8ab81d4d2fad52e121ee7bb70395ee26bc6
-  rank: 94
+  rank: 95
 - pkg: goverlay.runimage
   pkg_name: goverlay
   pkg_id: runimage.cachyos.goverlay.stable
@@ -4125,7 +4135,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/goverlay/runimage/cachyos/stable/goverlay:1.3_2-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/goverlay/runimage/cachyos/stable/goverlay@sha256:d4d6f71ad1f560180a2ac70a71149ccba8ba06d5d9571879699997d96186c8d2
-  rank: 95
+  rank: 94
 - pkg: gpt4all.runimage
   pkg_name: gpt4all
   pkg_id: runimage.cachyos.gpt4all.git
@@ -4459,14 +4469,14 @@ pkgcache:
 - pkg: spotube.runimage
   pkg_name: spotube
   pkg_id: runimage.cachyos.spotube
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/spotube/runimage/cachyos/stable/spotube?tag=3.9.0-x86_64-linux&download=spotube.png
+  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/spotube/runimage/cachyos/stable/spotube?tag=4.0.0-x86_64-linux&download=spotube.png
   description: FOSS Spotify Client
-  version: 3.9.0
+  version: 4.0.0
   download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/spotube/runimage/cachyos/stable/spotube/3.9.0-x86_64-linux/spotube.runimage
-  size: 331 MB
-  bsum: 4456a4d6ee03fd2bc7d06f14e007c4909006e2c09d3852d02be19e141cdf0c80
-  shasum: 63df1fb5090ad70b9d2e1f910aa7e6e0680b614cec20945fb91801865b8d5536
-  build_date: "2025-02-08T08:58:45Z"
+  size: 337 MB
+  bsum: 31e71d1d7bc4689c4ea52b9e1c2cc5f1c753c5794950b95ebb3c860d5cb771f6
+  shasum: 7e4858dfb8b612b3a8ca253d4634909fd7e504ca8adad1d4866be8316d86700b
+  build_date: "2025-03-08T20:50:17Z"
   src_urls:
   - https://codeberg.org/spotube/source
   - https://github.com/KRTirtho/spotube
@@ -4474,14 +4484,16 @@ pkgcache:
   - https://spotube.krtirtho.dev
   - https://github.com/KRTirtho/spotube
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/spotube/runimage.cachyos.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/spotube/runimage/cachyos/stable/spotube?tag=3.9.0-x86_64-linux&download=spotube.log
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/spotube/runimage/cachyos/stable/spotube?tag=4.0.0-x86_64-linux&download=spotube.log
+  snapshots:
+  - 3.9.0-x86_64-linux[3.9.0]
   provides: spotube
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/spotube/runimage/cachyos/stable/spotube:3.9.0-x86_64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/spotube/runimage/cachyos/stable/spotube@sha256:63df1fb5090ad70b9d2e1f910aa7e6e0680b614cec20945fb91801865b8d5536
+  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/spotube/runimage/cachyos/stable/spotube:4.0.0-x86_64-linux
+  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/spotube/runimage/cachyos/stable/spotube@sha256:7e4858dfb8b612b3a8ca253d4634909fd7e504ca8adad1d4866be8316d86700b
   rank: 161
 - pkg: steam.runimage
   pkg_name: steam
@@ -4511,7 +4523,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/steam/runimage/cachyos/stable/steam:1.0.0.82-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/steam/runimage/cachyos/stable/steam@sha256:b410bb06eb34f518b0306c569bd53bea48e942d07f179899208946569f2568fb
-  rank: 56
+  rank: 55
 - pkg: vscodium.runimage
   pkg_name: vscodium
   pkg_id: runimage.cachyos.steam
@@ -4600,9 +4612,9 @@ pkgcache:
   version: "6.07"
   download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/clamtk/runimage/debian/stable/clamtk/6.07-x86_64-linux/clamtk.runimage
   size: 83 MB
-  bsum: fffdb3ead507a3e973fa04310e5f48c45bb5bcfeb954ad26a21015c333739d50
-  shasum: dc45d6a02c64d8c9ba43494db73c5568d73c202b6fa6d1ba29dc3482b63942af
-  build_date: "2025-03-07T18:53:11Z"
+  bsum: 84bd58081d45c8618d0b4034c5e1aff3d1a9950e94dc26b824e0aad65228b084
+  shasum: 5d6b7befced9ba933d86aa042a5f7df52c29dc713f25a4773bcb625edc8fe813
+  build_date: "2025-03-08T20:08:12Z"
   src_urls:
   - https://github.com/dave-theunsub/clamtk
   - https://gitlab.com/dave_m/clamtk
@@ -4619,7 +4631,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk:6.07-x86_64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk@sha256:dc45d6a02c64d8c9ba43494db73c5568d73c202b6fa6d1ba29dc3482b63942af
+  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk@sha256:5d6b7befced9ba933d86aa042a5f7df52c29dc713f25a4773bcb625edc8fe813
   rank: 256
 - pkg: deltapatcher.runimage
   pkg_name: deltapatcher
@@ -4672,7 +4684,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/fdm/runimage/debian/stable/fdm:6.26-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/fdm/runimage/debian/stable/fdm@sha256:38707745c8fdf125f8d179775f7d177598b92e330be4e3be494d50e1bcea27c8
-  rank: 107
+  rank: 106
 - pkg: funkin.runimage
   pkg_name: funkin
   pkg_id: runimage.debian.funkin
