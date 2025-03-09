@@ -301,6 +301,7 @@ pkgcache:
   pkg_id: github.com.caido.caido.stable
   description: Lightweight web security auditing toolkit
   version: v0.46.0
+  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/caido/appimage/official/stable/caido/v0.46.0-aarch64-linux/caido.appimage
   size: 151 MB
   bsum: db87ecb26f9eff0ce2c7927d64a864696b34dd3729e9d6d465e34c73cdb94260
   shasum: 247266a3df6f58f1cf7b3d8a64f6dacc2c79893238ada5f0c4d47a39823020b4
@@ -545,12 +546,13 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser:1.9b-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser@sha256:dde14a34851fe329a42d34d86b49b7a06e0265152a69d802836389192b467be4
-  rank: 143
+  rank: 144
 - pkg: zen-browser.appimage
   pkg_name: zen-browser
   pkg_id: github.com.zen-browser.desktop.twilight
   description: Performance oriented Firefox-based web browser (Twilight)
   version: 1.9t_2025-03-07
+  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/zen-browser/appimage/official/twilight/zen-browser/1.9t_2025-03-07-aarch64-linux/zen-browser.appimage
   size: 92 MB
   bsum: c554d9d109684cae57afaf2e165df0d419dbc972af0bbafea36d9f3cd2136da8
   shasum: 776e7b6a7578558bfd2a5490b999cc9e8b63df575f84b878db168a98541ed69f
@@ -599,7 +601,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:1.9t_2025-03-07-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser@sha256:776e7b6a7578558bfd2a5490b999cc9e8b63df575f84b878db168a98541ed69f
-  rank: 144
+  rank: 143
 - pkg: librewolf.appimage
   pkg_name: librewolf
   pkg_id: gitlab.com.librewolf-community.browser.appimage.stable
@@ -1020,6 +1022,7 @@ pkgcache:
   pkg_id: ppkg.bundle.xrdp.stable
   description: Open source Remote Desktop Protocol (RDP) server [xrdp]
   version: 0.10.2
+  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/xrdp/appimage/ppkg/stable/xrdp/0.10.2-aarch64-linux/xrdp.appimage
   size: 7.5 MB
   bsum: c7c7cef981acae0677b361d6be1a7647399990bdf87d03a98c628ef22a6f0d00
   shasum: a015cee867dfe9173051040931b75c94a8e67e0c187f90e1f88c3a45b18659de
@@ -1069,7 +1072,7 @@ pkgcache:
   pkg_id: runimage.alpine.element-desktop
   description: A glossy Matrix collaboration client for desktop
   version: 1.11.93
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/element-desktop/runimage/alpine/stable/element-desktop/1.11.92-aarch64-linux/element-desktop.runimage
+  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/element-desktop/runimage/alpine/stable/element-desktop/1.11.93-aarch64-linux/element-desktop.runimage
   size: 210 MB
   bsum: 5d190c73393ba3db8352d4aa7c694cb6963e83dabd505d8f8fc7b6f81f5a48af
   shasum: 6e9841025c1ea0260e9d40c3c2b7c23e076f2604e215bb3aed50daaff9c52e75
