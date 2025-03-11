@@ -467,7 +467,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx:1.2.357-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx@sha256:d4b16be8cf8c8c472db124754f45da859d5875d81cb4ef0bf2c4c3a504a026fb",
-   "rank": 18
+   "rank": 19
   },
   {
    "pkg": "ryujinx.appimage",
@@ -493,7 +493,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx:1.2.81-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx@sha256:ae7602d73ae32b4a0192b8b7517373df953a61241fa97de395f3bc82a956a0cd",
-   "rank": 19
+   "rank": 18
   },
   {
    "pkg": "vesktop.appimage",
@@ -560,11 +560,11 @@
    "pkg_name": "pixelpulse2",
    "pkg_id": "github.com.pkgforge-dev.pixelpulse2",
    "description": "Pixelpulse2 is a user interface for analog systems exploration.",
-   "version": "13618778201",
+   "version": "13751580923",
    "size": "111 MB",
-   "bsum": "1d2594715988c7ec8838d9e5c8da5e23c8c9504fbe31e0951dd7a0a48f8b02fd",
-   "shasum": "51968f6c15d5578426cc0ad3749959f0583a7b22d2b2c6f9881355469b39e60f",
-   "build_date": "2025-03-03T19:28:21Z",
+   "bsum": "da15ef570925c33a625ada5eeca9218ed7231cb8bd55a28bbc43a3f60172fdc7",
+   "shasum": "605f30cce0a7d652f93cb8c66c588c5bd63135451caa46296c0a9057c74fb0da",
+   "build_date": "2025-03-10T19:15:10Z",
    "src_urls": [
     "https://github.com/pkgforge-dev/Pixelpulse2-AppImage"
    ],
@@ -573,9 +573,10 @@
     "https://sounddrill31.github.io/Pixelpulse2/"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/pixelpulse2/appimage.pkgforge-dev.stable.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/pixelpulse2/appimage/pkgforge-dev/stable/pixelpulse2?tag=13618778201-aarch64-linux\u0026download=pixelpulse2.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/pixelpulse2/appimage/pkgforge-dev/stable/pixelpulse2?tag=13751580923-aarch64-linux\u0026download=pixelpulse2.log",
    "snapshots": [
-    "13615527848-aarch64-linux[13615527848]"
+    "13615527848-aarch64-linux[13615527848]",
+    "13618778201-aarch64-linux[13618778201]"
    ],
    "notes": [
     "Pre Built AppImage, with Build-related changes. Check/Report @ https://github.com/pkgforge-dev/Pixelpulse2-AppImage",
@@ -583,8 +584,8 @@
     "Run it with --getudev flag the first time to configure udev rules. It may not detect the board otherwise",
     "To reduce crashes, plug in your device after configuring the udev rule and opening the app"
    ],
-   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/pixelpulse2/appimage/pkgforge-dev/stable/pixelpulse2:13618778201-aarch64-linux",
-   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/pixelpulse2/appimage/pkgforge-dev/stable/pixelpulse2@sha256:51968f6c15d5578426cc0ad3749959f0583a7b22d2b2c6f9881355469b39e60f",
+   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/pixelpulse2/appimage/pkgforge-dev/stable/pixelpulse2:13751580923-aarch64-linux",
+   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/pixelpulse2/appimage/pkgforge-dev/stable/pixelpulse2@sha256:605f30cce0a7d652f93cb8c66c588c5bd63135451caa46296c0a9057c74fb0da",
    "rank": 106
   },
   {
@@ -794,7 +795,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser:1.0.2-b.5-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser@sha256:98aafee82186fca80707294ec59044991749bfeac47c80ad7f58b5eb874a248c",
-   "rank": 146
+   "rank": 144
   },
   {
    "pkg": "zen-browser.appimage",
@@ -832,19 +833,18 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser:1.9b-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser@sha256:dde14a34851fe329a42d34d86b49b7a06e0265152a69d802836389192b467be4",
-   "rank": 144
+   "rank": 145
   },
   {
    "pkg": "zen-browser.appimage",
    "pkg_name": "zen-browser",
    "pkg_id": "github.com.zen-browser.desktop.twilight",
    "description": "Performance oriented Firefox-based web browser (Twilight)",
-   "version": "Twilightbuild-1.9.1t(2025-03-09at14:35:21)",
-   "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/zen-browser/appimage/official/twilight/zen-browser/1.9t_2025-03-07-aarch64-linux/zen-browser.appimage",
+   "version": "Twilightbuild-1.9.1t(2025-03-10at15:43:55)",
    "size": "92 MB",
-   "bsum": "87d916e085571c49c49c3d44acb8da19ac0bdae7dcb8ece5bac6f6287f621721",
-   "shasum": "a09ef5b8338a392ce83ef5f7a914bf3d0da9dbbbe57e19dde494ae02a21223df",
-   "build_date": "2025-03-09T19:01:53Z",
+   "bsum": "bed46b2878bd72c4a1c0771a1f78275a01cf8b8837b279bcf57a32d7c77e8311",
+   "shasum": "88dce9892165069a5aae24b83d9c1262d9419bb8b8302b63149f17e1fac2eeaa",
+   "build_date": "2025-03-10T19:32:11Z",
    "src_urls": [
     "https://github.com/zen-browser/desktop"
    ],
@@ -853,7 +853,7 @@
     "https://github.com/zen-browser/desktop"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.twilight.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.9.1t_2025-03-09at14_35_21_-aarch64-linux\u0026download=zen-browser.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.9.1t_2025-03-10at15_43_55_-aarch64-linux\u0026download=zen-browser.log",
    "snapshots": [
     "1.7t_2025-01-15-aarch64-linux[1.7t_2025-01-15]",
     "1.7t_2025-01-16-aarch64-linux[1.7t_2025-01-16]",
@@ -887,14 +887,15 @@
     "Twilightbuild-1.8.2t_2025-03-04at14_22_07_-aarch64-linux[Twilightbuild-1.8.2t(2025-03-04at14:22:07)]",
     "Twilightbuild-1.8.2t_2025-03-05at12_06_34_-aarch64-linux[Twilightbuild-1.8.2t(2025-03-05at12:06:34)]",
     "1.9t_2025-03-06-aarch64-linux[1.9t_2025-03-06]",
-    "1.9t_2025-03-07-aarch64-linux[1.9t_2025-03-07]"
+    "1.9t_2025-03-07-aarch64-linux[1.9t_2025-03-07]",
+    "Twilightbuild-1.9.1t_2025-03-09at14_35_21_-aarch64-linux[Twilightbuild-1.9.1t(2025-03-09at14:35:21)]"
    ],
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop"
    ],
-   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:Twilightbuild-1.9.1t_2025-03-09at14_35_21_-aarch64-linux",
-   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser@sha256:a09ef5b8338a392ce83ef5f7a914bf3d0da9dbbbe57e19dde494ae02a21223df",
-   "rank": 145
+   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:Twilightbuild-1.9.1t_2025-03-10at15_43_55_-aarch64-linux",
+   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser@sha256:88dce9892165069a5aae24b83d9c1262d9419bb8b8302b63149f17e1fac2eeaa",
+   "rank": 146
   },
   {
    "pkg": "librewolf.appimage",
@@ -925,7 +926,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/librewolf/appimage/official/stable/librewolf:v136.0-2-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/librewolf/appimage/official/stable/librewolf@sha256:314cc6dd413804f112b919d937d98b26c58896e9d8a1b39e1d7886b27868780e",
-   "rank": 92
+   "rank": 93
   },
   {
    "pkg": "brave.nixappimage",
@@ -1005,7 +1006,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium:134.0.6998.35-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium@sha256:68096a5dd07811b28bdc379943d404af7e09608dcda5a7eb8557baeff9ccbb32",
-   "rank": 133
+   "rank": 134
   },
   {
    "pkg": "flameshot.nixappimage",
@@ -1248,7 +1249,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium:133.0.6943.141-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium@sha256:5d65ce5044730802570c62e8c5f83e119dde8d25cf2ef3d7733f101c9c9f1eeb",
-   "rank": 134
+   "rank": 133
   },
   {
    "pkg": "cmake.appimage",
@@ -1396,7 +1397,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/jless/appimage/ppkg/stable/jless:0.9.0-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/jless/appimage/ppkg/stable/jless@sha256:eba462514cd5a5d46b198564fc9032c390424518229025ae544fdbac23c97fff",
-   "rank": 27
+   "rank": 30
   },
   {
    "pkg": "xrdp.appimage",
@@ -1701,7 +1702,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/nmap/runimage/alpine/stable/nmap:7.95-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/nmap/runimage/alpine/stable/nmap@sha256:375f301aefa9b8811277b31c9943a5bdda1b663dae0c3b0582541361a33b0ba3",
-   "rank": 28
+   "rank": 31
   },
   {
    "pkg": "wezterm.runimage",
@@ -1769,9 +1770,9 @@
    "version": "6.07",
    "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/clamtk/runimage/debian/stable/clamtk/6.07-aarch64-linux/clamtk.runimage",
    "size": "79 MB",
-   "bsum": "4f19b71c8f8cc69c7e124907e5ab68d7341d05c7c301d58922f350517c045bd6",
-   "shasum": "8c1cd86914a3d42c5195dfe3dcd0f35d532b2b4e1bd7a428a39be8ff6c60cae3",
-   "build_date": "2025-03-09T18:50:18Z",
+   "bsum": "59759b0a0f2fa6ab7a8106b8b2e61f4337af603a2ca7ce0017002ba066445f76",
+   "shasum": "244abbb753c494090951be8ef714731e32c32c6567aabbb4a17f269776044ef8",
+   "build_date": "2025-03-10T19:07:26Z",
    "src_urls": [
     "https://github.com/dave-theunsub/clamtk",
     "https://gitlab.com/dave_m/clamtk"
@@ -1791,7 +1792,7 @@
     "[PORTABLE] (Works on AnyLinux)"
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk:6.07-aarch64-linux",
-   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk@sha256:8c1cd86914a3d42c5195dfe3dcd0f35d532b2b4e1bd7a428a39be8ff6c60cae3",
+   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk@sha256:244abbb753c494090951be8ef714731e32c32c6567aabbb4a17f269776044ef8",
    "rank": 136
   }
  ]
