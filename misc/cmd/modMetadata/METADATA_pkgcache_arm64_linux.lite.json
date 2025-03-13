@@ -467,7 +467,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx:1.2.357-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx@sha256:d4b16be8cf8c8c472db124754f45da859d5875d81cb4ef0bf2c4c3a504a026fb",
-   "rank": 22
+   "rank": 21
   },
   {
    "pkg": "ryujinx.appimage",
@@ -493,7 +493,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx:1.2.81-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx@sha256:ae7602d73ae32b4a0192b8b7517373df953a61241fa97de395f3bc82a956a0cd",
-   "rank": 21
+   "rank": 22
   },
   {
    "pkg": "vesktop.appimage",
@@ -704,7 +704,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/stable/tangent:0.8.4-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/stable/tangent@sha256:485714d12dafd7f55d32f8eb41a5c8345dff259d7a96e370fb818d68a9beec28",
-   "rank": 4
+   "rank": 3
   },
   {
    "pkg": "tangent.appimage",
@@ -735,7 +735,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent:0.9.0-alpha.8-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent@sha256:6a2a0845a277598c5712bd3ea77ae0605c36f8c6fcc7326698a59784ee9bdcd1",
-   "rank": 3
+   "rank": 4
   },
   {
    "pkg": "escrcpy.appimage",
@@ -795,19 +795,18 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser:1.0.2-b.5-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser@sha256:98aafee82186fca80707294ec59044991749bfeac47c80ad7f58b5eb874a248c",
-   "rank": 143
+   "rank": 145
   },
   {
    "pkg": "zen-browser.appimage",
    "pkg_name": "zen-browser",
    "pkg_id": "github.com.zen-browser.desktop.stable",
    "description": "Performance oriented Firefox-based web browser",
-   "version": "1.9b",
-   "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/zen-browser/appimage/official/stable/zen-browser/1.8.2b-aarch64-linux/zen-browser.appimage",
+   "version": "1.9.1b",
    "size": "92 MB",
-   "bsum": "d43ec53e654e884e74f4afe8d06b9657c8db0347652526c2e2b2e79525b4cd65",
-   "shasum": "dde14a34851fe329a42d34d86b49b7a06e0265152a69d802836389192b467be4",
-   "build_date": "2025-03-08T20:20:35Z",
+   "bsum": "eef0934ab53290e5653c24cc75ec0e265956b84094f02b3a2d0433cbaba3004e",
+   "shasum": "1a102e45ac6143e223bc41dfcbd324f8781bdf3d17c5a95d34f80501a76f1df5",
+   "build_date": "2025-03-12T21:43:05Z",
    "src_urls": [
     "https://github.com/zen-browser/desktop"
    ],
@@ -816,7 +815,7 @@
     "https://github.com/zen-browser/desktop"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.stable.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.9b-aarch64-linux\u0026download=zen-browser.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.9.1b-aarch64-linux\u0026download=zen-browser.log",
    "snapshots": [
     "1.7b-aarch64-linux[1.7b]",
     "1.7.1b-aarch64-linux[1.7.1b]",
@@ -826,25 +825,26 @@
     "1.7.6b-aarch64-linux[1.7.6b]",
     "1.8b-aarch64-linux[1.8b]",
     "1.8.1b-aarch64-linux[1.8.1b]",
-    "1.8.2b-aarch64-linux[1.8.2b]"
+    "1.8.2b-aarch64-linux[1.8.2b]",
+    "1.9b-aarch64-linux[1.9b]"
    ],
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop"
    ],
-   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser:1.9b-aarch64-linux",
-   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser@sha256:dde14a34851fe329a42d34d86b49b7a06e0265152a69d802836389192b467be4",
-   "rank": 145
+   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser:1.9.1b-aarch64-linux",
+   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser@sha256:1a102e45ac6143e223bc41dfcbd324f8781bdf3d17c5a95d34f80501a76f1df5",
+   "rank": 144
   },
   {
    "pkg": "zen-browser.appimage",
    "pkg_name": "zen-browser",
    "pkg_id": "github.com.zen-browser.desktop.twilight",
    "description": "Performance oriented Firefox-based web browser (Twilight)",
-   "version": "Twilightbuild-1.9.1t(2025-03-10at23:03:30)",
+   "version": "Twilightbuild-1.9.1t(2025-03-11at23:03:26)",
    "size": "92 MB",
-   "bsum": "cdc8ca0711307129c390bbb9d7ea96661736ebd9eb233fb8ffaa175b6f159585",
-   "shasum": "7f4d9ca6dea3c9b8b51e156ba5c5f5c64318b3b8473da7a90e0b54115664f309",
-   "build_date": "2025-03-11T19:18:18Z",
+   "bsum": "c0864fef0b24c56cfe9cff94f0fd9eaa63a9fc90d65b4a2ae7d4b1a635a883c4",
+   "shasum": "3dd290f24cb2eac5c1d8dc11c42eee425159b6ebc0130b2e76a86b712c6e7837",
+   "build_date": "2025-03-12T21:43:57Z",
    "src_urls": [
     "https://github.com/zen-browser/desktop"
    ],
@@ -853,7 +853,7 @@
     "https://github.com/zen-browser/desktop"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.twilight.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.9.1t_2025-03-10at23_03_30_-aarch64-linux\u0026download=zen-browser.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.9.1t_2025-03-11at23_03_26_-aarch64-linux\u0026download=zen-browser.log",
    "snapshots": [
     "1.7t_2025-01-15-aarch64-linux[1.7t_2025-01-15]",
     "1.7t_2025-01-16-aarch64-linux[1.7t_2025-01-16]",
@@ -889,14 +889,15 @@
     "1.9t_2025-03-06-aarch64-linux[1.9t_2025-03-06]",
     "1.9t_2025-03-07-aarch64-linux[1.9t_2025-03-07]",
     "Twilightbuild-1.9.1t_2025-03-09at14_35_21_-aarch64-linux[Twilightbuild-1.9.1t(2025-03-09at14:35:21)]",
-    "Twilightbuild-1.9.1t_2025-03-10at15_43_55_-aarch64-linux[Twilightbuild-1.9.1t(2025-03-10at15:43:55)]"
+    "Twilightbuild-1.9.1t_2025-03-10at15_43_55_-aarch64-linux[Twilightbuild-1.9.1t(2025-03-10at15:43:55)]",
+    "Twilightbuild-1.9.1t_2025-03-10at23_03_30_-aarch64-linux[Twilightbuild-1.9.1t(2025-03-10at23:03:30)]"
    ],
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop"
    ],
-   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:Twilightbuild-1.9.1t_2025-03-10at23_03_30_-aarch64-linux",
-   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser@sha256:7f4d9ca6dea3c9b8b51e156ba5c5f5c64318b3b8473da7a90e0b54115664f309",
-   "rank": 144
+   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:Twilightbuild-1.9.1t_2025-03-11at23_03_26_-aarch64-linux",
+   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser@sha256:3dd290f24cb2eac5c1d8dc11c42eee425159b6ebc0130b2e76a86b712c6e7837",
+   "rank": 143
   },
   {
    "pkg": "librewolf.appimage",
@@ -934,12 +935,11 @@
    "pkg_name": "brave",
    "pkg_id": "nixpkgs.brave",
    "description": "Privacy-oriented browser for Desktop and Laptop computers",
-   "version": "1.75.181",
-   "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/brave/nixappimage/nixpkgs/stable/brave/1.75.180-aarch64-linux/brave.nixappimage",
-   "size": "379 MB",
-   "bsum": "48e5f5b49e62d16cc33ca54311a613f8600df082865e504cb0585ae5b5cb5cb3",
-   "shasum": "956787de2ace85087c090baa20eb544eccd3827747e3c0776104d916b4c4cdc4",
-   "build_date": "2025-03-05T19:46:44Z",
+   "version": "1.76.73",
+   "size": "382 MB",
+   "bsum": "4d0e44a8f80cb394f3d2cde07ea781ce255b5c672a9e308b074de30b10dff280",
+   "shasum": "5120cf91f750e1dc1785d5559642ea704f2eaa2097ff787732acdf8370060546",
+   "build_date": "2025-03-12T19:49:06Z",
    "src_urls": [
     "https://github.com/brave/brave-browser"
    ],
@@ -949,7 +949,7 @@
     "https://github.com/srevinsaju/Brave-AppImage"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/brave/nixappimage.nixpkgs.stable.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/brave/nixappimage/nixpkgs/stable/brave?tag=1.75.181-aarch64-linux\u0026download=brave.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/brave/nixappimage/nixpkgs/stable/brave?tag=1.76.73-aarch64-linux\u0026download=brave.log",
    "snapshots": [
     "1.73.104-aarch64-linux[1.73.104]",
     "1.74.48-aarch64-linux[1.74.48]",
@@ -957,7 +957,8 @@
     "1.74.51-aarch64-linux[1.74.51]",
     "1.75.175-aarch64-linux[1.75.175]",
     "1.75.178-aarch64-linux[1.75.178]",
-    "1.75.180-aarch64-linux[1.75.180]"
+    "1.75.180-aarch64-linux[1.75.180]",
+    "1.75.181-aarch64-linux[1.75.181]"
    ],
    "notes": [
     "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
@@ -965,8 +966,8 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/brave/nixappimage/nixpkgs/stable/brave:1.75.181-aarch64-linux",
-   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/brave/nixappimage/nixpkgs/stable/brave@sha256:956787de2ace85087c090baa20eb544eccd3827747e3c0776104d916b4c4cdc4",
+   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/brave/nixappimage/nixpkgs/stable/brave:1.76.73-aarch64-linux",
+   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/brave/nixappimage/nixpkgs/stable/brave@sha256:5120cf91f750e1dc1785d5559642ea704f2eaa2097ff787732acdf8370060546",
    "rank": 134
   },
   {
@@ -974,11 +975,11 @@
    "pkg_name": "chromium",
    "pkg_id": "nixpkgs.chromium",
    "description": "Open source web browser from Google (Stable)",
-   "version": "134.0.6998.35",
+   "version": "134.0.6998.88",
    "size": "358 MB",
-   "bsum": "73492e7477604c6d51e4d1daccffbe789ef8e463a6d7d913ee6878e2a2ce6604",
-   "shasum": "68096a5dd07811b28bdc379943d404af7e09608dcda5a7eb8557baeff9ccbb32",
-   "build_date": "2025-03-08T19:35:55Z",
+   "bsum": "7f0cde2ba3becc3c5e4260e91335d73a98a91945578be179dd698a0aa0b83f3f",
+   "shasum": "4d7f773c5821f6a8adf2cc9a463be9bfe865fdd037436db9c2e3e052909e5fca",
+   "build_date": "2025-03-12T20:22:12Z",
    "src_urls": [
     "https://github.com/chromium/chromium"
    ],
@@ -988,7 +989,7 @@
     "https://github.com/chromium/chromium"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/chromium/nixappimage.nixpkgs.stable.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium?tag=134.0.6998.35-aarch64-linux\u0026download=chromium.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium?tag=134.0.6998.88-aarch64-linux\u0026download=chromium.log",
    "snapshots": [
     "131.0.6778.264-aarch64-linux[131.0.6778.264]",
     "132.0.6834.83-aarch64-linux[132.0.6834.83]",
@@ -997,7 +998,8 @@
     "133.0.6943.53-aarch64-linux[133.0.6943.53]",
     "133.0.6943.98-aarch64-linux[133.0.6943.98]",
     "133.0.6943.126-aarch64-linux[133.0.6943.126]",
-    "133.0.6943.141-aarch64-linux[133.0.6943.141]"
+    "133.0.6943.141-aarch64-linux[133.0.6943.141]",
+    "134.0.6998.35-aarch64-linux[134.0.6998.35]"
    ],
    "notes": [
     "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
@@ -1005,9 +1007,9 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium:134.0.6998.35-aarch64-linux",
-   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium@sha256:68096a5dd07811b28bdc379943d404af7e09608dcda5a7eb8557baeff9ccbb32",
-   "rank": 131
+   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium:134.0.6998.88-aarch64-linux",
+   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium@sha256:4d7f773c5821f6a8adf2cc9a463be9bfe865fdd037436db9c2e3e052909e5fca",
+   "rank": 132
   },
   {
    "pkg": "flameshot.nixappimage",
@@ -1219,12 +1221,12 @@
    "pkg_name": "chromium",
    "pkg_id": "nixpkgs.ungoogled-chromium",
    "description": "Open source web browser from Google, with dependencies on Google web services removed (Ungoogled)",
-   "version": "133.0.6943.141",
+   "version": "134.0.6998.35",
    "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/chromium/nixappimage/nixpkgs/ungoogled/chromium/133.0.6943.141-aarch64-linux/chromium.nixappimage",
    "size": "359 MB",
-   "bsum": "564f7418efdda697abfac4c5ed97b5b9da73f11ee1dd73f3d37879a12dd27853",
-   "shasum": "5d65ce5044730802570c62e8c5f83e119dde8d25cf2ef3d7733f101c9c9f1eeb",
-   "build_date": "2025-03-01T19:33:47Z",
+   "bsum": "87d4f5d39fae54cc6719709c4d097ff022d632bb90f5ef7865c9f39edde22f15",
+   "shasum": "8e9d756cf2c4ba969e0eb25dbafdf4934627b6c21a3ddf91c450cc0e2e574dbe",
+   "build_date": "2025-03-12T20:55:01Z",
    "src_urls": [
     "https://github.com/ungoogled-software/ungoogled-chromium"
    ],
@@ -1232,7 +1234,7 @@
     "https://github.com/ungoogled-software/ungoogled-chromium"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/chromium/nixappimage.nixpkgs.ungoogled.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium?tag=133.0.6943.141-aarch64-linux\u0026download=chromium.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium?tag=134.0.6998.35-aarch64-linux\u0026download=chromium.log",
    "snapshots": [
     "131.0.6778.264-aarch64-linux[131.0.6778.264]",
     "132.0.6834.83-aarch64-linux[132.0.6834.83]",
@@ -1240,7 +1242,8 @@
     "132.0.6834.159-aarch64-linux[132.0.6834.159]",
     "133.0.6943.53-aarch64-linux[133.0.6943.53]",
     "133.0.6943.98-aarch64-linux[133.0.6943.98]",
-    "133.0.6943.126-aarch64-linux[133.0.6943.126]"
+    "133.0.6943.126-aarch64-linux[133.0.6943.126]",
+    "133.0.6943.141-aarch64-linux[133.0.6943.141]"
    ],
    "notes": [
     "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
@@ -1248,9 +1251,9 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium:133.0.6943.141-aarch64-linux",
-   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium@sha256:5d65ce5044730802570c62e8c5f83e119dde8d25cf2ef3d7733f101c9c9f1eeb",
-   "rank": 132
+   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium:134.0.6998.35-aarch64-linux",
+   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium@sha256:8e9d756cf2c4ba969e0eb25dbafdf4934627b6c21a3ddf91c450cc0e2e574dbe",
+   "rank": 131
   },
   {
    "pkg": "cmake.appimage",
@@ -1466,12 +1469,12 @@
    "pkg_name": "element-desktop",
    "pkg_id": "runimage.alpine.element-desktop",
    "description": "A glossy Matrix collaboration client for desktop",
-   "version": "1.11.93",
+   "version": "1.11.95",
    "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/element-desktop/runimage/alpine/stable/element-desktop/1.11.93-aarch64-linux/element-desktop.runimage",
-   "size": "210 MB",
-   "bsum": "5d190c73393ba3db8352d4aa7c694cb6963e83dabd505d8f8fc7b6f81f5a48af",
-   "shasum": "6e9841025c1ea0260e9d40c3c2b7c23e076f2604e215bb3aed50daaff9c52e75",
-   "build_date": "2025-02-26T19:38:14Z",
+   "size": "211 MB",
+   "bsum": "bd5aeeac9c1f02f0796ea5578d4c7719e9d4c1cf3fc2ccefca33b7fd4e1a8f63",
+   "shasum": "f06825f27f8dde8e23a278061bdc36cd736700fbd5ce6214f4c05808200f4800",
+   "build_date": "2025-03-12T21:21:03Z",
    "src_urls": [
     "https://gitlab.alpinelinux.org/alpine/aports/-/tree/master/testing/element-desktop"
    ],
@@ -1479,18 +1482,19 @@
     "https://github.com/element-hq/element-desktop"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/element-desktop/runimage.alpine.stable.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/element-desktop/runimage/alpine/stable/element-desktop?tag=1.11.93-aarch64-linux\u0026download=element-desktop.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/element-desktop/runimage/alpine/stable/element-desktop?tag=1.11.95-aarch64-linux\u0026download=element-desktop.log",
    "snapshots": [
     "1.11.91-aarch64-linux[1.11.91]",
-    "1.11.92-aarch64-linux[1.11.92]"
+    "1.11.92-aarch64-linux[1.11.92]",
+    "1.11.93-aarch64-linux[1.11.93]"
    ],
    "notes": [
     "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/element-desktop/runimage/alpine/stable/element-desktop:1.11.93-aarch64-linux",
-   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/element-desktop/runimage/alpine/stable/element-desktop@sha256:6e9841025c1ea0260e9d40c3c2b7c23e076f2604e215bb3aed50daaff9c52e75",
+   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/element-desktop/runimage/alpine/stable/element-desktop:1.11.95-aarch64-linux",
+   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/element-desktop/runimage/alpine/stable/element-desktop@sha256:f06825f27f8dde8e23a278061bdc36cd736700fbd5ce6214f4c05808200f4800",
    "rank": 12
   },
   {
@@ -1771,9 +1775,9 @@
    "version": "6.07",
    "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/clamtk/runimage/debian/stable/clamtk/6.07-aarch64-linux/clamtk.runimage",
    "size": "79 MB",
-   "bsum": "59759b0a0f2fa6ab7a8106b8b2e61f4337af603a2ca7ce0017002ba066445f76",
-   "shasum": "244abbb753c494090951be8ef714731e32c32c6567aabbb4a17f269776044ef8",
-   "build_date": "2025-03-10T19:07:26Z",
+   "bsum": "06b1d5895f59993c1d2d23b2db04fc81312455cdf6bb49829b961925127a3822",
+   "shasum": "5dc53369de92f0c2573ed5e3607b458a5ac31a16e1a6a3e46c172ef70af03231",
+   "build_date": "2025-03-12T21:09:26Z",
    "src_urls": [
     "https://github.com/dave-theunsub/clamtk",
     "https://gitlab.com/dave_m/clamtk"
@@ -1793,7 +1797,7 @@
     "[PORTABLE] (Works on AnyLinux)"
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk:6.07-aarch64-linux",
-   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk@sha256:244abbb753c494090951be8ef714731e32c32c6567aabbb4a17f269776044ef8",
+   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk@sha256:5dc53369de92f0c2573ed5e3607b458a5ac31a16e1a6a3e46c172ef70af03231",
    "rank": 135
   }
  ]
