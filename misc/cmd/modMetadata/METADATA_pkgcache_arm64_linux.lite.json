@@ -467,7 +467,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx:1.2.357-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx@sha256:d4b16be8cf8c8c472db124754f45da859d5875d81cb4ef0bf2c4c3a504a026fb",
-   "rank": 22
+   "rank": 23
   },
   {
    "pkg": "ryujinx.appimage",
@@ -493,7 +493,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx:1.2.81-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx@sha256:ae7602d73ae32b4a0192b8b7517373df953a61241fa97de395f3bc82a956a0cd",
-   "rank": 23
+   "rank": 22
   },
   {
    "pkg": "vesktop.appimage",
@@ -523,7 +523,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop:v1.5.5-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop@sha256:29012bac525d3c58a5920c9b4e51411c64cc9229d8e4c68fcc1894ee7f9ad0e6",
-   "rank": 139
+   "rank": 140
   },
   {
    "pkg": "caido.appimage",
@@ -647,7 +647,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk:250204T131430-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk@sha256:cad14ce25b459a6c5578521449894cbf117e176bb8bddeb8717733f6179c9900",
-   "rank": 21
+   "rank": 20
   },
   {
    "pkg": "rustdesk.appimage",
@@ -674,7 +674,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk:1.3.7-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk@sha256:4a0b8b26951899f60b8169cb7cfe9ec62f9684eeb088a68903a59f2d9cb2b945",
-   "rank": 20
+   "rank": 21
   },
   {
    "pkg": "tangent.appimage",
@@ -795,7 +795,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser:1.0.2-b.5-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser@sha256:98aafee82186fca80707294ec59044991749bfeac47c80ad7f58b5eb874a248c",
-   "rank": 143
+   "rank": 144
   },
   {
    "pkg": "zen-browser.appimage",
@@ -833,7 +833,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser:1.9.1b-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser@sha256:1a102e45ac6143e223bc41dfcbd324f8781bdf3d17c5a95d34f80501a76f1df5",
-   "rank": 144
+   "rank": 143
   },
   {
    "pkg": "zen-browser.appimage",
@@ -1077,7 +1077,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/gearlever/nixappimage/nixpkgs/stable/gearlever:2.3.2-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/gearlever/nixappimage/nixpkgs/stable/gearlever@sha256:26bd5fe743f4d3278e1c7fcebc9ee4e38af675b9e434ab37cde23bfb1d39dc1f",
-   "rank": 140
+   "rank": 141
   },
   {
    "pkg": "helix.nixappimage",
@@ -1178,7 +1178,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/simplex-desktop/nixappimage/nixpkgs/stable/simplex-desktop:6.2.5-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/simplex-desktop/nixappimage/nixpkgs/stable/simplex-desktop@sha256:83729458177c6a1f4a46aaf5eb36281c8504bef14a1f298407f916843e6114b3",
-   "rank": 141
+   "rank": 139
   },
   {
    "pkg": "telegram-desktop.nixappimage",
@@ -1284,7 +1284,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/cmake/appimage/ppkg/stable/cmake:3.31.5-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/cmake/appimage/ppkg/stable/cmake@sha256:e96e972221fe014fb32c151443fb893f683f7e4af42301a7615d4c62253c673b",
-   "rank": 108
+   "rank": 107
   },
   {
    "pkg": "file.appimage",
@@ -1344,7 +1344,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/freerdp/appimage/ppkg/stable/freerdp:3.12.0-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/freerdp/appimage/ppkg/stable/freerdp@sha256:b7da7df8a205bb00d720b0bbcdd0da5bdbeb436201e284ec7f1bab2ec9cdd8d7",
-   "rank": 107
+   "rank": 108
   },
   {
    "pkg": "git.appimage",
@@ -1525,7 +1525,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/falkon/runimage/alpine/stable/falkon:24.12.2-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/falkon/runimage/alpine/stable/falkon@sha256:16a4921da4be2286aa1415d70ad191762a542e5a7c684ff01e6e024f720955e6",
-   "rank": 25
+   "rank": 24
   },
   {
    "pkg": "ghex.runimage",
