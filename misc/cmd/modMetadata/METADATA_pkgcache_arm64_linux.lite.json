@@ -467,7 +467,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx:1.2.357-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx@sha256:d4b16be8cf8c8c472db124754f45da859d5875d81cb4ef0bf2c4c3a504a026fb",
-   "rank": 23
+   "rank": 22
   },
   {
    "pkg": "ryujinx.appimage",
@@ -493,7 +493,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx:1.2.81-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx@sha256:ae7602d73ae32b4a0192b8b7517373df953a61241fa97de395f3bc82a956a0cd",
-   "rank": 22
+   "rank": 23
   },
   {
    "pkg": "vesktop.appimage",
@@ -594,11 +594,11 @@
    "pkg_name": "ghostty",
    "pkg_id": "github.com.psadi.ghostty-appimage.stable",
    "description": "Fast, native, feature-rich terminal emulator pushing modern features",
-   "version": "v1.1.2+3",
-   "size": "76 MB",
-   "bsum": "d7be04cd83a777fd465cc48f873d345fd1277f1bebd928c964021350ee37b472",
-   "shasum": "bc01419e2b8598e9479f6fa0e37e2d242e25eb0ef0465704e0195fc11570fed3",
-   "build_date": "2025-03-04T19:05:55Z",
+   "version": "v1.1.2+4",
+   "size": "71 MB",
+   "bsum": "a776854e09cbe9a45bc59eb53087c9d3679898b864d5e666364e909dea499feb",
+   "shasum": "9948ba0d2e9db1ec4d282c5626769d9dcc04b071194173f64b9aacf17fb33b9e",
+   "build_date": "2025-03-16T14:46:24Z",
    "src_urls": [
     "https://github.com/psadi/ghostty-appimage"
    ],
@@ -607,20 +607,21 @@
     "https://github.com/ghostty-org/ghostty"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/ghostty/appimage.psadi.stable.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty?tag=v1.1.2_3-aarch64-linux\u0026download=ghostty.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty?tag=v1.1.2_4-aarch64-linux\u0026download=ghostty.log",
    "snapshots": [
     "v1.0.1_4-aarch64-linux[v1.0.1+4]",
     "v1.1.0-aarch64-linux[v1.1.0]",
     "v1.1.0_1-aarch64-linux[v1.1.0+1]",
     "v1.1.2-aarch64-linux[v1.1.2]",
     "v1.1.2_1-aarch64-linux[v1.1.2+1]",
-    "v1.1.2_2-aarch64-linux[v1.1.2+2]"
+    "v1.1.2_2-aarch64-linux[v1.1.2+2]",
+    "v1.1.2_3-aarch64-linux[v1.1.2+3]"
    ],
    "notes": [
     "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/psadi/ghostty-appimage"
    ],
-   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty:v1.1.2_3-aarch64-linux",
-   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty@sha256:bc01419e2b8598e9479f6fa0e37e2d242e25eb0ef0465704e0195fc11570fed3",
+   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty:v1.1.2_4-aarch64-linux",
+   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty@sha256:9948ba0d2e9db1ec4d282c5626769d9dcc04b071194173f64b9aacf17fb33b9e",
    "rank": 146
   },
   {
@@ -705,7 +706,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/stable/tangent:0.8.4-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/stable/tangent@sha256:485714d12dafd7f55d32f8eb41a5c8345dff259d7a96e370fb818d68a9beec28",
-   "rank": 3
+   "rank": 4
   },
   {
    "pkg": "tangent.appimage",
@@ -736,7 +737,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent:0.9.0-alpha.8-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent@sha256:6a2a0845a277598c5712bd3ea77ae0605c36f8c6fcc7326698a59784ee9bdcd1",
-   "rank": 4
+   "rank": 3
   },
   {
    "pkg": "escrcpy.appimage",
@@ -796,7 +797,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser:1.0.2-b.5-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser@sha256:98aafee82186fca80707294ec59044991749bfeac47c80ad7f58b5eb874a248c",
-   "rank": 143
+   "rank": 145
   },
   {
    "pkg": "zen-browser.appimage",
@@ -834,19 +835,19 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser:1.9.1b-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser@sha256:1a102e45ac6143e223bc41dfcbd324f8781bdf3d17c5a95d34f80501a76f1df5",
-   "rank": 145
+   "rank": 143
   },
   {
    "pkg": "zen-browser.appimage",
    "pkg_name": "zen-browser",
    "pkg_id": "github.com.zen-browser.desktop.twilight",
    "description": "Performance oriented Firefox-based web browser (Twilight)",
-   "version": "Twilightbuild-1.9.1t(2025-03-11at23:03:26)",
+   "version": "1.10t_2025-03-15",
    "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/zen-browser/appimage/official/twilight/zen-browser/Twilightbuild-1.9.1t_2025-03-11at23_03_26_-aarch64-linux/zen-browser.appimage",
-   "size": "92 MB",
-   "bsum": "c0864fef0b24c56cfe9cff94f0fd9eaa63a9fc90d65b4a2ae7d4b1a635a883c4",
-   "shasum": "3dd290f24cb2eac5c1d8dc11c42eee425159b6ebc0130b2e76a86b712c6e7837",
-   "build_date": "2025-03-12T21:43:57Z",
+   "size": "90 MB",
+   "bsum": "f367b3c34400494081e3fc998d128712c7e17b98c0e75197ba62dc1ddfd6ef5d",
+   "shasum": "24d1917effd4a1fac56850b27764e0e79e3633b9e8fa8e4cafa9d7430e44a9ad",
+   "build_date": "2025-03-16T15:03:46Z",
    "src_urls": [
     "https://github.com/zen-browser/desktop"
    ],
@@ -855,7 +856,7 @@
     "https://github.com/zen-browser/desktop"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.twilight.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.9.1t_2025-03-11at23_03_26_-aarch64-linux\u0026download=zen-browser.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=1.10t_2025-03-15-aarch64-linux\u0026download=zen-browser.log",
    "snapshots": [
     "1.7t_2025-01-15-aarch64-linux[1.7t_2025-01-15]",
     "1.7t_2025-01-16-aarch64-linux[1.7t_2025-01-16]",
@@ -892,13 +893,14 @@
     "1.9t_2025-03-07-aarch64-linux[1.9t_2025-03-07]",
     "Twilightbuild-1.9.1t_2025-03-09at14_35_21_-aarch64-linux[Twilightbuild-1.9.1t(2025-03-09at14:35:21)]",
     "Twilightbuild-1.9.1t_2025-03-10at15_43_55_-aarch64-linux[Twilightbuild-1.9.1t(2025-03-10at15:43:55)]",
-    "Twilightbuild-1.9.1t_2025-03-10at23_03_30_-aarch64-linux[Twilightbuild-1.9.1t(2025-03-10at23:03:30)]"
+    "Twilightbuild-1.9.1t_2025-03-10at23_03_30_-aarch64-linux[Twilightbuild-1.9.1t(2025-03-10at23:03:30)]",
+    "Twilightbuild-1.9.1t_2025-03-11at23_03_26_-aarch64-linux[Twilightbuild-1.9.1t(2025-03-11at23:03:26)]"
    ],
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop"
    ],
-   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:Twilightbuild-1.9.1t_2025-03-11at23_03_26_-aarch64-linux",
-   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser@sha256:3dd290f24cb2eac5c1d8dc11c42eee425159b6ebc0130b2e76a86b712c6e7837",
+   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:1.10t_2025-03-15-aarch64-linux",
+   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser@sha256:24d1917effd4a1fac56850b27764e0e79e3633b9e8fa8e4cafa9d7430e44a9ad",
    "rank": 144
   },
   {
@@ -906,12 +908,12 @@
    "pkg_name": "librewolf",
    "pkg_id": "gitlab.com.librewolf-community.browser.appimage.stable",
    "description": "A fork of Firefox, focused on privacy, security and freedom",
-   "version": "v136.0-2",
+   "version": "v136.0.1-1",
    "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/librewolf/appimage/official/stable/librewolf/v136.0-2-aarch64-linux/librewolf.appimage",
    "size": "101 MB",
-   "bsum": "c3c7385590d833d34fa1cadcdbf75b8038ea77cc5b73f7aeed822c532a23f705",
-   "shasum": "314cc6dd413804f112b919d937d98b26c58896e9d8a1b39e1d7886b27868780e",
-   "build_date": "2025-03-06T11:23:26Z",
+   "bsum": "4354ef9da12fa59bb25d4400a9798bb3412f7d07716db02947168810cd8e2ce0",
+   "shasum": "84299660982270021d16f5c0877c01aeeccfa3e73ec89eee4352b7b8187d0034",
+   "build_date": "2025-03-16T14:53:05Z",
    "src_urls": [
     "https://gitlab.com/librewolf-community/browser/appimage"
    ],
@@ -921,16 +923,17 @@
     "https://gitlab.com/librewolf-community/browser/appimage"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/librewolf/appimage.official.stable.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/librewolf/appimage/official/stable/librewolf?tag=v136.0-2-aarch64-linux\u0026download=librewolf.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/librewolf/appimage/official/stable/librewolf?tag=v136.0.1-1-aarch64-linux\u0026download=librewolf.log",
    "snapshots": [
     "v135.0-1-aarch64-linux[v135.0-1]",
-    "v136.0-1-aarch64-linux[v136.0-1]"
+    "v136.0-1-aarch64-linux[v136.0-1]",
+    "v136.0-2-aarch64-linux[v136.0-2]"
    ],
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://gitlab.com/librewolf-community/browser/appimage"
    ],
-   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/librewolf/appimage/official/stable/librewolf:v136.0-2-aarch64-linux",
-   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/librewolf/appimage/official/stable/librewolf@sha256:314cc6dd413804f112b919d937d98b26c58896e9d8a1b39e1d7886b27868780e",
+   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/librewolf/appimage/official/stable/librewolf:v136.0.1-1-aarch64-linux",
+   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/librewolf/appimage/official/stable/librewolf@sha256:84299660982270021d16f5c0877c01aeeccfa3e73ec89eee4352b7b8187d0034",
    "rank": 93
   },
   {
@@ -1013,7 +1016,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium:134.0.6998.88-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium@sha256:4d7f773c5821f6a8adf2cc9a463be9bfe865fdd037436db9c2e3e052909e5fca",
-   "rank": 133
+   "rank": 132
   },
   {
    "pkg": "flameshot.nixappimage",
@@ -1257,7 +1260,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium:134.0.6998.35-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium@sha256:8e9d756cf2c4ba969e0eb25dbafdf4934627b6c21a3ddf91c450cc0e2e574dbe",
-   "rank": 132
+   "rank": 133
   },
   {
    "pkg": "cmake.appimage",
@@ -1568,12 +1571,12 @@
    "pkg_name": "git",
    "pkg_id": "runimage.alpine.git",
    "description": "Fast, scalable, distributed revision control system",
-   "version": "2.48.1",
+   "version": "2.49.0",
    "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/git/runimage/alpine/stable/git/2.48.1-aarch64-linux/git.runimage",
    "size": "39 MB",
-   "bsum": "e6ea580d2d66336b7b393f892b5a92e07ef6ab28043a6e6d93330a433b8de593",
-   "shasum": "bac4e0c8e87884ef44cb67c9a4b5dbf3cc3723a86968f062e01f36665ca0747e",
-   "build_date": "2025-02-01T19:25:13Z",
+   "bsum": "e28941cc96455e466ff5ff86dbea9ab981aff0244737a0ea0963493bcb9a3373",
+   "shasum": "63f29cce7d0ea08be0bfaefa38b5f7f1bb0a48f5f9d4d55ec7e1f60d31c64440",
+   "build_date": "2025-03-16T14:50:54Z",
    "src_urls": [
     "https://github.com/git/git"
    ],
@@ -1581,15 +1584,18 @@
     "https://git-scm.com/"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/git/runimage.alpine.stable.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/git/runimage/alpine/stable/git?tag=2.48.1-aarch64-linux\u0026download=git.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/git/runimage/alpine/stable/git?tag=2.49.0-aarch64-linux\u0026download=git.log",
+   "snapshots": [
+    "2.48.1-aarch64-linux[2.48.1]"
+   ],
    "notes": [
     "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/git/runimage/alpine/stable/git:2.48.1-aarch64-linux",
-   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/git/runimage/alpine/stable/git@sha256:bac4e0c8e87884ef44cb67c9a4b5dbf3cc3723a86968f062e01f36665ca0747e",
+   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/git/runimage/alpine/stable/git:2.49.0-aarch64-linux",
+   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/git/runimage/alpine/stable/git@sha256:63f29cce7d0ea08be0bfaefa38b5f7f1bb0a48f5f9d4d55ec7e1f60d31c64440",
    "rank": 6
   },
   {
@@ -1780,9 +1786,9 @@
    "version": "6.07",
    "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/clamtk/runimage/debian/stable/clamtk/6.07-aarch64-linux/clamtk.runimage",
    "size": "79 MB",
-   "bsum": "06b1d5895f59993c1d2d23b2db04fc81312455cdf6bb49829b961925127a3822",
-   "shasum": "5dc53369de92f0c2573ed5e3607b458a5ac31a16e1a6a3e46c172ef70af03231",
-   "build_date": "2025-03-12T21:09:26Z",
+   "bsum": "0283857da3758688f8c37b44ac37a09086a61437361d5e2f2722bbd9bd097fd7",
+   "shasum": "1d3616627b3b38f4de23bb509b0e2271359abc8e8d062c96bed545cd2df80994",
+   "build_date": "2025-03-16T14:38:28Z",
    "src_urls": [
     "https://github.com/dave-theunsub/clamtk",
     "https://gitlab.com/dave_m/clamtk"
@@ -1802,7 +1808,7 @@
     "[PORTABLE] (Works on AnyLinux)"
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk:6.07-aarch64-linux",
-   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk@sha256:5dc53369de92f0c2573ed5e3607b458a5ac31a16e1a6a3e46c172ef70af03231",
+   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk@sha256:1d3616627b3b38f4de23bb509b0e2271359abc8e8d062c96bed545cd2df80994",
    "rank": 135
   }
  ]
