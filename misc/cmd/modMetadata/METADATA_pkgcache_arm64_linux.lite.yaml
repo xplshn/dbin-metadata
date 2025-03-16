@@ -250,7 +250,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/ryujinx/ryujinx
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx:1.2.357-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx@sha256:d4b16be8cf8c8c472db124754f45da859d5875d81cb4ef0bf2c4c3a504a026fb
-  rank: 23
+  rank: 22
 - pkg: ryujinx.appimage
   pkg_name: ryujinx
   pkg_id: github.com.Ryubing.Ryujinx.stable
@@ -271,7 +271,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/ryujinx/ryujinx
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx:1.2.81-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx@sha256:ae7602d73ae32b4a0192b8b7517373df953a61241fa97de395f3bc82a956a0cd
-  rank: 22
+  rank: 23
 - pkg: vesktop.appimage
   pkg_name: vesktop
   pkg_id: github.com.Vencord.Vesktop
@@ -319,12 +319,13 @@ pkgcache:
   - "You may need to run this with: --no-sandbox"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/caido/appimage/official/stable/caido:v0.46.0-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/caido/appimage/official/stable/caido@sha256:247266a3df6f58f1cf7b3d8a64f6dacc2c79893238ada5f0c4d47a39823020b4
-  rank: 106
+  rank: 107
 - pkg: pixelpulse2.appimage
   pkg_name: pixelpulse2
   pkg_id: github.com.pkgforge-dev.pixelpulse2
   description: Pixelpulse2 is a user interface for analog systems exploration.
   version: "13751580923"
+  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/pixelpulse2/appimage/pkgforge-dev/stable/pixelpulse2/13751580923-aarch64-linux/pixelpulse2.appimage
   size: 111 MB
   bsum: da15ef570925c33a625ada5eeca9218ed7231cb8bd55a28bbc43a3f60172fdc7
   shasum: 605f30cce0a7d652f93cb8c66c588c5bd63135451caa46296c0a9057c74fb0da
@@ -442,7 +443,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/suchnsuch/Tangent
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/stable/tangent:0.8.4-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/stable/tangent@sha256:485714d12dafd7f55d32f8eb41a5c8345dff259d7a96e370fb818d68a9beec28
-  rank: 3
+  rank: 4
 - pkg: tangent.appimage
   pkg_name: tangent
   pkg_id: github.com.suchnsuch.Tangent.alpha
@@ -467,7 +468,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/suchnsuch/Tangent
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent:0.9.0-alpha.8-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent@sha256:6a2a0845a277598c5712bd3ea77ae0605c36f8c6fcc7326698a59784ee9bdcd1
-  rank: 4
+  rank: 3
 - pkg: escrcpy.appimage
   pkg_name: escrcpy
   pkg_id: github.com.viarotel-org.escrcpy
@@ -547,12 +548,13 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser:1.9.1b-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser@sha256:1a102e45ac6143e223bc41dfcbd324f8781bdf3d17c5a95d34f80501a76f1df5
-  rank: 143
+  rank: 144
 - pkg: zen-browser.appimage
   pkg_name: zen-browser
   pkg_id: github.com.zen-browser.desktop.twilight
   description: Performance oriented Firefox-based web browser (Twilight)
   version: Twilightbuild-1.9.1t(2025-03-11at23:03:26)
+  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/zen-browser/appimage/official/twilight/zen-browser/Twilightbuild-1.9.1t_2025-03-11at23_03_26_-aarch64-linux/zen-browser.appimage
   size: 92 MB
   bsum: c0864fef0b24c56cfe9cff94f0fd9eaa63a9fc90d65b4a2ae7d4b1a635a883c4
   shasum: 3dd290f24cb2eac5c1d8dc11c42eee425159b6ebc0130b2e76a86b712c6e7837
@@ -605,12 +607,13 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:Twilightbuild-1.9.1t_2025-03-11at23_03_26_-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser@sha256:3dd290f24cb2eac5c1d8dc11c42eee425159b6ebc0130b2e76a86b712c6e7837
-  rank: 144
+  rank: 143
 - pkg: librewolf.appimage
   pkg_name: librewolf
   pkg_id: gitlab.com.librewolf-community.browser.appimage.stable
   description: A fork of Firefox, focused on privacy, security and freedom
   version: v136.0-2
+  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/librewolf/appimage/official/stable/librewolf/v136.0-2-aarch64-linux/librewolf.appimage
   size: 101 MB
   bsum: c3c7385590d833d34fa1cadcdbf75b8038ea77cc5b73f7aeed822c532a23f705
   shasum: 314cc6dd413804f112b919d937d98b26c58896e9d8a1b39e1d7886b27868780e
@@ -636,6 +639,7 @@ pkgcache:
   pkg_id: nixpkgs.brave
   description: Privacy-oriented browser for Desktop and Laptop computers
   version: 1.76.73
+  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/brave/nixappimage/nixpkgs/stable/brave/1.76.73-aarch64-linux/brave.nixappimage
   size: 382 MB
   bsum: 4d0e44a8f80cb394f3d2cde07ea781ce255b5c672a9e308b074de30b10dff280
   shasum: 5120cf91f750e1dc1785d5559642ea704f2eaa2097ff787732acdf8370060546
@@ -699,7 +703,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium:134.0.6998.88-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium@sha256:4d7f773c5821f6a8adf2cc9a463be9bfe865fdd037436db9c2e3e052909e5fca
-  rank: 132
+  rank: 133
 - pkg: flameshot.nixappimage
   pkg_name: flameshot
   pkg_id: nixpkgs.flameshot
@@ -901,12 +905,13 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium:134.0.6998.35-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium@sha256:8e9d756cf2c4ba969e0eb25dbafdf4934627b6c21a3ddf91c450cc0e2e574dbe
-  rank: 133
+  rank: 132
 - pkg: cmake.appimage
   pkg_name: cmake
   pkg_id: ppkg.bundle.cmake.stable
   description: Cross-platform, open-source build system
   version: 3.31.5
+  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/cmake/appimage/ppkg/stable/cmake/3.31.5-aarch64-linux/cmake.appimage
   size: 30 MB
   bsum: 77ccb2ea7268a67acd550d7ee463e4845da692ce336c3735494e9013ad537140
   shasum: e96e972221fe014fb32c151443fb893f683f7e4af42301a7615d4c62253c673b
@@ -926,7 +931,7 @@ pkgcache:
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/cmake/appimage/ppkg/stable/cmake:3.31.5-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/cmake/appimage/ppkg/stable/cmake@sha256:e96e972221fe014fb32c151443fb893f683f7e4af42301a7615d4c62253c673b
-  rank: 107
+  rank: 108
 - pkg: file.appimage
   pkg_name: file
   pkg_id: ppkg.bundle.file.stable
@@ -975,7 +980,7 @@ pkgcache:
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/freerdp/appimage/ppkg/stable/freerdp:3.12.0-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/freerdp/appimage/ppkg/stable/freerdp@sha256:b7da7df8a205bb00d720b0bbcdd0da5bdbeb436201e284ec7f1bab2ec9cdd8d7
-  rank: 108
+  rank: 106
 - pkg: git.appimage
   pkg_name: git
   pkg_id: ppkg.bundle.git.stable
