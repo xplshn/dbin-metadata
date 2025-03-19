@@ -463,7 +463,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/suyu/appimage/official/stable/suyu:v0.0.3-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/suyu/appimage/official/stable/suyu@sha256:571d990c1af83c6d3a64b00f963ed198a16e7b5b2e4d1ee2820e8895c014d43e",
-   "rank": 194
+   "rank": 196
   },
   {
    "pkg": "0ad.appimage",
@@ -499,7 +499,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/0ad/appimage/0ad-matters/prerelease/0ad:v0.0.27-rc1-27645-alpha-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/0ad/appimage/0ad-matters/prerelease/0ad@sha256:686bd29fad5ec2322f4f22fab93235f2976fb849a32af7a7edca078eac559946",
-   "rank": 26
+   "rank": 32
   },
   {
    "pkg": "0ad.appimage",
@@ -532,7 +532,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/0ad/appimage/0ad-matters/stable/0ad:v0.27.0-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/0ad/appimage/0ad-matters/stable/0ad@sha256:9acf3d3e7adb9509bc1f734f987d81d612144b89cb788ac0af546fc317f73567",
-   "rank": 27
+   "rank": 31
   },
   {
    "pkg": "86box.appimage",
@@ -597,7 +597,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/acreom/appimage/official/stable/acreom:v1.20.4-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/acreom/appimage/official/stable/acreom@sha256:ff0206de1df5e4b3bcd9d3747f2e9f5046f2dc0ec6a4653544d67fec5f41ee85",
-   "rank": 34
+   "rank": 33
   },
   {
    "pkg": "agregore.appimage",
@@ -629,7 +629,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/agregore/appimage/official/stable/agregore:v2.8.2-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/agregore/appimage/official/stable/agregore@sha256:bcf8212ec681874d139b973e8be542ca8657808f0d87da2594f9429b83cc8e3a",
-   "rank": 14
+   "rank": 15
   },
   {
    "pkg": "advanced-passgen.appimage",
@@ -661,19 +661,19 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/advanced-passgen/appimage/official/stable/advanced-passgen:v2.5.2-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/advanced-passgen/appimage/official/stable/advanced-passgen@sha256:4e24ed5fef11b400d8da2342fc1b91e1634ad22cf4a9e636b88decf9651f8b03",
-   "rank": 32
+   "rank": 30
   },
   {
    "pkg": "xash3d-fwgs.appimage",
    "pkg_name": "xash3d-fwgs",
    "pkg_id": "github.com.FWGS.xash3d-fwgs",
-   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/xash3d-fwgs/appimage/official/stable/xash3d-fwgs?tag=250316T184711-x86_64-linux\u0026download=xash3d-fwgs.png",
+   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/xash3d-fwgs/appimage/official/stable/xash3d-fwgs?tag=250317T054447-x86_64-linux\u0026download=xash3d-fwgs.png",
    "description": "Heavily modified fork of an original Xash3D Engine for Half Life",
-   "version": "250316T184711",
+   "version": "250317T054447",
    "size": "13 MB",
-   "bsum": "0cf21e675c71ed0839c0e50d6806e6e69090859ffd546669246ef5272f4f6f35",
-   "shasum": "3e72239859335f1d26dad81f8ae3f6cb305875e329ff0bd3b12d09b351b6378c",
-   "build_date": "2025-03-16T19:10:11Z",
+   "bsum": "84cc456d7493391dd4b3ad718001b1a5c1161314e3ecae232f072caa0bf19e80",
+   "shasum": "3ba5375ddcccc1b46b1e48cc9bb50114325f9867e6cc69e60db54af230d82868",
+   "build_date": "2025-03-18T19:29:47Z",
    "src_urls": [
     "https://github.com/FWGS/xash3d-fwgs"
    ],
@@ -681,7 +681,7 @@
     "https://github.com/FWGS/xash3d-fwgs"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/xash3d-fwgs/appimage.official.stable.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/xash3d-fwgs/appimage/official/stable/xash3d-fwgs?tag=250316T184711-x86_64-linux\u0026download=xash3d-fwgs.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/xash3d-fwgs/appimage/official/stable/xash3d-fwgs?tag=250317T054447-x86_64-linux\u0026download=xash3d-fwgs.log",
    "snapshots": [
     "250224T010841-x86_64-linux[250224T010841]",
     "250225T170538-x86_64-linux[250225T170538]",
@@ -692,15 +692,16 @@
     "250305T195007-x86_64-linux[250305T195007]",
     "250306T162424-x86_64-linux[250306T162424]",
     "250307T234812-x86_64-linux[250307T234812]",
-    "250316T002822-x86_64-linux[250316T002822]"
+    "250316T002822-x86_64-linux[250316T002822]",
+    "250316T184711-x86_64-linux[250316T184711]"
    ],
    "provides": "xash3d-fwgs",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/FWGS/xash3d-fwgs"
    ],
-   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/xash3d-fwgs/appimage/official/stable/xash3d-fwgs:250316T184711-x86_64-linux",
-   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/xash3d-fwgs/appimage/official/stable/xash3d-fwgs@sha256:3e72239859335f1d26dad81f8ae3f6cb305875e329ff0bd3b12d09b351b6378c",
-   "rank": 192
+   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/xash3d-fwgs/appimage/official/stable/xash3d-fwgs:250317T054447-x86_64-linux",
+   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/xash3d-fwgs/appimage/official/stable/xash3d-fwgs@sha256:3ba5375ddcccc1b46b1e48cc9bb50114325f9867e6cc69e60db54af230d82868",
+   "rank": 193
   },
   {
    "pkg": "ryujinx.appimage",
@@ -855,7 +856,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop:v1.5.5-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop@sha256:29012bac525d3c58a5920c9b4e51411c64cc9229d8e4c68fcc1894ee7f9ad0e6",
-   "rank": 265
+   "rank": 266
   },
   {
    "pkg": "actual.appimage",
@@ -889,7 +890,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/actual/appimage/official/stable/actual:v25.3.1-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/actual/appimage/official/stable/actual@sha256:27296ae6f2991e86bb3e74ff605b4d165d372bfd60020aab48809ad639f9b1f8",
-   "rank": 13
+   "rank": 14
   },
   {
    "pkg": "advanced-rest-client.appimage",
@@ -920,7 +921,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/advanced-rest-client/appimage/official/stable/advanced-rest-client:v17.0.9-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/advanced-rest-client/appimage/official/stable/advanced-rest-client@sha256:f3a9955fad4f015049cb5af0b35a3188819132565022a72b7c7bab3fa547c0db",
-   "rank": 36
+   "rank": 35
   },
   {
    "pkg": "affine.appimage",
@@ -955,7 +956,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/affine/appimage/official/canary-1/affine:v0.21.0-canary.1-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/affine/appimage/official/canary-1/affine@sha256:524169cb999014a2d22c65ea48f276971fbadf6b4b2e506abb60db527ae9cd89",
-   "rank": 19
+   "rank": 18
   },
   {
    "pkg": "affine.appimage",
@@ -987,7 +988,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/affine/appimage/official/canary-2/affine:v0.20.5-canary.2-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/affine/appimage/official/canary-2/affine@sha256:cb7b30e2338ba4033fbca3dd2948a75b966c823aeaa042c6987599319b528037",
-   "rank": 20
+   "rank": 19
   },
   {
    "pkg": "affine.appimage",
@@ -1024,7 +1025,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/affine/appimage/official/stable/affine:v0.20.5-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/affine/appimage/official/stable/affine@sha256:b34b7854450aecb5823745ab250ad5d5c62f456ddb43f165baa20ebe8348a2fa",
-   "rank": 18
+   "rank": 20
   },
   {
    "pkg": "air-controller-desktop.appimage",
@@ -1086,7 +1087,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/akuse/appimage/official/stable/akuse:1.10.1-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/akuse/appimage/official/stable/akuse@sha256:2c93bcfd250dffacf3fe792708f70f77a9fa1f8103e974dc39725138f1eba959",
-   "rank": 24
+   "rank": 25
   },
   {
    "pkg": "allusion.appimage",
@@ -1117,7 +1118,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/allusion/appimage/official/stable/allusion:v1.0.0-rc.10-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/allusion/appimage/official/stable/allusion@sha256:30fef63b68310df941069462d6ca2d49a85a4671c90e5172487e8e837a29724c",
-   "rank": 33
+   "rank": 34
   },
   {
    "pkg": "altair.appimage",
@@ -1217,7 +1218,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/waydroid-helper/appimage/official/stable/waydroid-helper:v0.1.2-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/waydroid-helper/appimage/official/stable/waydroid-helper@sha256:54c830b32e124c858d0248add8dd6e2b8e375a25797f61f3053c5a1ad24287ae",
-   "rank": 193
+   "rank": 195
   },
   {
    "pkg": "goverlay.appimage",
@@ -1251,7 +1252,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/goverlay/appimage/official/nightly/goverlay:250315T164752-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/goverlay/appimage/official/nightly/goverlay@sha256:b9078577584a9d802f4cc93eb18098ed3faf84004c230bfb7df4c96fa8bcd256",
-   "rank": 243
+   "rank": 242
   },
   {
    "pkg": "goverlay.appimage",
@@ -1283,7 +1284,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/goverlay/appimage/official/stable/goverlay:1.3-3-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/goverlay/appimage/official/stable/goverlay@sha256:b9078577584a9d802f4cc93eb18098ed3faf84004c230bfb7df4c96fa8bcd256",
-   "rank": 242
+   "rank": 243
   },
   {
    "pkg": "alexandria.appimage",
@@ -1343,7 +1344,7 @@
    "provides": "qbittorrent-enhanced",
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/qbittorrent-enhanced/appimage/official/stable/qbittorrent-enhanced:release-5.0.4.10-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/qbittorrent-enhanced/appimage/official/stable/qbittorrent-enhanced@sha256:895a33f1cc0e8d06b38ea60fd4f56bae5ee1b3fd4b60705c0bd0c5ab34bcfd30",
-   "rank": 180
+   "rank": 183
   },
   {
    "pkg": "caido.appimage",
@@ -1375,7 +1376,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/caido/appimage/official/stable/caido:v0.46.0-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/caido/appimage/official/stable/caido@sha256:180ea1f3f8570779ba822e4c53a1c7e3c107b6cb08e31601e4591b8bd0cc9832",
-   "rank": 214
+   "rank": 206
   },
   {
    "pkg": "android-messages.appimage",
@@ -1406,7 +1407,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/android-messages/appimage/official/stable/android-messages:v5.6.0-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/android-messages/appimage/official/stable/android-messages@sha256:a3cda982a364314716953748aaa20640cdf55bb4c5a7372ad0fcb3a49a58cc52",
-   "rank": 35
+   "rank": 36
   },
   {
    "pkg": "aaaaxy.appimage",
@@ -1439,7 +1440,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/aaaaxy/appimage/official/stable/aaaaxy:v1.6.0-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/aaaaxy/appimage/official/stable/aaaaxy@sha256:c8c850a12f783edd477c40a58af32742220ed58b4cc0fecc173cfbbb3de0b1a1",
-   "rank": 16
+   "rank": 17
   },
   {
    "pkg": "peazip.appimage",
@@ -1509,14 +1510,13 @@
    "pkg": "knot.appimage",
    "pkg_name": "knot",
    "pkg_id": "github.com.ic005k.Knot",
-   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/knot/appimage/official/stable/knot?tag=1.2.15-x86_64-linux\u0026download=knot.png",
+   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/knot/appimage/official/stable/knot?tag=1.2.16-x86_64-linux\u0026download=knot.png",
    "description": "Record everything in the simplest way possible",
-   "version": "1.2.15",
-   "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/knot/appimage/official/stable/knot/1.2.12-x86_64-linux/knot.appimage",
+   "version": "1.2.16",
    "size": "101 MB",
-   "bsum": "d6e13bfeda3d4dec2a37fddcea8805c55ef3bf1b74cef001275ea6a72655025d",
-   "shasum": "77230c2b74dc96b4ee99246d011570fc2dd1391f14d4c6578324b3d1876a17c9",
-   "build_date": "2025-03-16T14:37:05Z",
+   "bsum": "5297227b927b1dfd31f5ed85c62425931a7fb926acca5bca1dee0383d7625bd1",
+   "shasum": "51ab5b897905b06ca7a56cb274caf0a90f7f1c848a32cec6a08a6e5a73dd7654",
+   "build_date": "2025-03-18T19:06:57Z",
    "src_urls": [
     "https://github.com/ic005k/Knot"
    ],
@@ -1524,7 +1524,7 @@
     "https://github.com/ic005k/Knot"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/android-knot/appimage.official.stable.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/knot/appimage/official/stable/knot?tag=1.2.15-x86_64-linux\u0026download=knot.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/knot/appimage/official/stable/knot?tag=1.2.16-x86_64-linux\u0026download=knot.log",
    "snapshots": [
     "1.2.06-x86_64-linux[1.2.06]",
     "1.2.07-x86_64-linux[1.2.07]",
@@ -1532,15 +1532,16 @@
     "1.2.09-x86_64-linux[1.2.09]",
     "1.2.10-x86_64-linux[1.2.10]",
     "1.2.11-x86_64-linux[1.2.11]",
-    "1.2.12-x86_64-linux[1.2.12]"
+    "1.2.12-x86_64-linux[1.2.12]",
+    "1.2.15-x86_64-linux[1.2.15]"
    ],
    "provides": "knot",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/ic005k/Knot"
    ],
-   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/knot/appimage/official/stable/knot:1.2.15-x86_64-linux",
-   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/knot/appimage/official/stable/knot@sha256:77230c2b74dc96b4ee99246d011570fc2dd1391f14d4c6578324b3d1876a17c9",
-   "rank": 15
+   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/knot/appimage/official/stable/knot:1.2.16-x86_64-linux",
+   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/knot/appimage/official/stable/knot@sha256:51ab5b897905b06ca7a56cb274caf0a90f7f1c848a32cec6a08a6e5a73dd7654",
+   "rank": 16
   },
   {
    "pkg": "abiword.appimage",
@@ -1572,7 +1573,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/abiword/appimage/ivan-hc/stable/abiword:3.0.6-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/abiword/appimage/ivan-hc/stable/abiword@sha256:0382407c8b4bfe399210f53be8f26c927061859f65021c9a4bbfc0cb9057a14d",
-   "rank": 25
+   "rank": 24
   },
   {
    "pkg": "aisleriot.appimage",
@@ -1635,7 +1636,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/spotify/appimage/ivan-hc/stable/spotify:1.2.56.502.6824-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/spotify/appimage/ivan-hc/stable/spotify@sha256:b59a79cc6ed739256e9df19351b7de6870b6ca1f55bce1ea67d3945bb141692b",
-   "rank": 188
+   "rank": 189
   },
   {
    "pkg": "wps-office.appimage",
@@ -1729,7 +1730,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/signal-desktop/appimage/karo-solutions/stable/signal-desktop:v7.44.0-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/signal-desktop/appimage/karo-solutions/stable/signal-desktop@sha256:ddabe097d0561b76867038657ea4685b6c5f4e1111b8d97485da0b3b4193ef40",
-   "rank": 172
+   "rank": 176
   },
   {
    "pkg": "libresprite.appimage",
@@ -1784,7 +1785,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/melonds/appimage/official/stable/melonds:1.0rc-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/melonds/appimage/official/stable/melonds@sha256:b4b57e79ad317f8590adeff5bf73233d312886e6c726931e653033c743eb8371",
-   "rank": 197
+   "rank": 198
   },
   {
    "pkg": "player432hz/converter432hz.appimage",
@@ -1813,7 +1814,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/converter432hz:v3.3.2-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/converter432hz@sha256:c1129993b676ad888909bae67150600bb153f3b9feb08599b612a68f4b033599",
-   "rank": 44
+   "rank": 43
   },
   {
    "pkg": "player432hz/powerliminalsplayer.appimage",
@@ -1845,7 +1846,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/powerliminalsplayer:v3.3.2-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/powerliminalsplayer@sha256:840c5c8ad8d0a7bc5e8daa166dd56259e20b20dda0cc4e7868d1ce70f0c9e9cf",
-   "rank": 43
+   "rank": 45
   },
   {
    "pkg": "player432hz/yangdownloader.appimage",
@@ -1877,7 +1878,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/yangdownloader:v3.3.2-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/yangdownloader@sha256:96f5bffe1a38f9e3e597129dc91117ba649af52c2393d62fde1d882dbaaf1698",
-   "rank": 46
+   "rank": 44
   },
   {
    "pkg": "player432hz/player432hz.appimage",
@@ -1906,7 +1907,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/player432hz:v3.3.2-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/player432hz@sha256:c66dbfc5eed92833648ea2759ab69e6ab221419f7f6d635a3e9414bfbb0957e2",
-   "rank": 45
+   "rank": 46
   },
   {
    "pkg": "neovim.appimage",
@@ -1974,7 +1975,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/citron/appimage/pkgforge-dev/stable/citron:v0.6.1-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/citron/appimage/pkgforge-dev/stable/citron@sha256:4373ce36c033af0d57129e27c29003b758c22bf70edb53ee6f205f2e3e44a9f2",
-   "rank": 134
+   "rank": 138
   },
   {
    "pkg": "citron.appimage",
@@ -2010,7 +2011,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/citron/appimage/pkgforge-dev/v3/citron:v0.6.1-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/citron/appimage/pkgforge-dev/v3/citron@sha256:a4ad3642550825ed22a49d531a7b4eed7961e2002281e5bbe20b287bf55a88f7",
-   "rank": 133
+   "rank": 137
   },
   {
    "pkg": "cromite.appimage",
@@ -2150,7 +2151,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/ppsspp/appimage/pkgforge-dev/stable/ppsspp:1.18.1-3-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/ppsspp/appimage/pkgforge-dev/stable/ppsspp@sha256:ef9a5b50e7b51423fcd9be17764e66efdf6e786c9cf2c70944a687d79d0ac83b",
-   "rank": 52
+   "rank": 53
   },
   {
    "pkg": "torzu.appimage",
@@ -2184,7 +2185,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/torzu/appimage/pkgforge-dev/stable/torzu:r27206.eaa9c9e3a-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/torzu/appimage/pkgforge-dev/stable/torzu@sha256:9cd0040c1d1d95de288a743864f040bff7cc3f50296983d94e63a2ec56758bc0",
-   "rank": 185
+   "rank": 186
   },
   {
    "pkg": "torzu.appimage",
@@ -2219,7 +2220,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/torzu/appimage/pkgforge-dev/v3/torzu:r27206.eaa9c9e3a-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/torzu/appimage/pkgforge-dev/v3/torzu@sha256:869560d0418a022dbd2397b29984940f9766e61905501744775f29b0d28e55e4",
-   "rank": 184
+   "rank": 187
   },
   {
    "pkg": "android-tools.appimage",
@@ -2300,14 +2301,14 @@
    "pkg": "pixelpulse2.appimage",
    "pkg_name": "pixelpulse2",
    "pkg_id": "github.com.pkgforge-dev.pixelpulse2",
-   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/pixelpulse2/appimage/pkgforge-dev/stable/pixelpulse2?tag=13751580923-x86_64-linux\u0026download=pixelpulse2.png",
+   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/pixelpulse2/appimage/pkgforge-dev/stable/pixelpulse2?tag=13907245614-x86_64-linux\u0026download=pixelpulse2.png",
    "description": "Pixelpulse2 is a user interface for analog systems exploration.",
-   "version": "13751580923",
+   "version": "13907245614",
    "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/pixelpulse2/appimage/pkgforge-dev/stable/pixelpulse2/13751580923-x86_64-linux/pixelpulse2.appimage",
    "size": "116 MB",
-   "bsum": "4ba48421c3a7cdae394bb4b7aed5971de017173105e4012ca6bdb127f9e88585",
-   "shasum": "db2a6ae2f313f4c10e19f632aa03c8ea05ddf7b51cf2f637d9e6750cc46d5875",
-   "build_date": "2025-03-10T21:17:33Z",
+   "bsum": "cec9b2f51d920af446f42fab1aee6d752822d4b40cd4ea9f7332ab154bedcbe2",
+   "shasum": "177984f6d8da479d7f04537802c5981df166be1188e5680eb608bc31a8663e24",
+   "build_date": "2025-03-18T19:17:56Z",
    "src_urls": [
     "https://github.com/pkgforge-dev/Pixelpulse2-AppImage"
    ],
@@ -2316,10 +2317,11 @@
     "https://sounddrill31.github.io/Pixelpulse2/"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/pixelpulse2/appimage.pkgforge-dev.stable.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/pixelpulse2/appimage/pkgforge-dev/stable/pixelpulse2?tag=13751580923-x86_64-linux\u0026download=pixelpulse2.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/pixelpulse2/appimage/pkgforge-dev/stable/pixelpulse2?tag=13907245614-x86_64-linux\u0026download=pixelpulse2.log",
    "snapshots": [
     "13615527848-x86_64-linux[13615527848]",
-    "13618778201-x86_64-linux[13618778201]"
+    "13618778201-x86_64-linux[13618778201]",
+    "13751580923-x86_64-linux[13751580923]"
    ],
    "provides": "pixelpulse2",
    "notes": [
@@ -2328,8 +2330,8 @@
     "Run it with --getudev flag the first time to configure udev rules. It may not detect the board otherwise",
     "To reduce crashes, plug in your device after configuring the udev rule and opening the app"
    ],
-   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/pixelpulse2/appimage/pkgforge-dev/stable/pixelpulse2:13751580923-x86_64-linux",
-   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/pixelpulse2/appimage/pkgforge-dev/stable/pixelpulse2@sha256:db2a6ae2f313f4c10e19f632aa03c8ea05ddf7b51cf2f637d9e6750cc46d5875",
+   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/pixelpulse2/appimage/pkgforge-dev/stable/pixelpulse2:13907245614-x86_64-linux",
+   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/pixelpulse2/appimage/pkgforge-dev/stable/pixelpulse2@sha256:177984f6d8da479d7f04537802c5981df166be1188e5680eb608bc31a8663e24",
    "rank": 202
   },
   {
@@ -2467,7 +2469,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk:250204T131430-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk@sha256:2f8f2dd1888c2134802c363a238b74efd85a3eed9a61542c3919685e6a419444",
-   "rank": 78
+   "rank": 77
   },
   {
    "pkg": "rustdesk.appimage",
@@ -2496,7 +2498,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk:1.3.7-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk@sha256:ee25b8a862da8b771f74b124b1158cfaefe07fb54642ce9cbd8f623f8ef8c131",
-   "rank": 77
+   "rank": 78
   },
   {
    "pkg": "simplex-desktop.appimage",
@@ -2576,13 +2578,13 @@
    "pkg": "brave.appimage",
    "pkg_name": "brave",
    "pkg_id": "github.com.srevinsaju.Brave-AppImage.nightly",
-   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/brave/appimage/srevinsaju/nightly/brave?tag=v1.78.44-x86_64-linux\u0026download=brave.png",
+   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/brave/appimage/srevinsaju/nightly/brave?tag=v1.78.45-x86_64-linux\u0026download=brave.png",
    "description": "Privacy-oriented browser for Desktop and Laptop computers (Nightly)",
-   "version": "v1.78.44",
+   "version": "v1.78.45",
    "size": "156 MB",
-   "bsum": "31a1535a81191a782e351e6fa9759edc92d8ca60525367b63a3035ef809a78e1",
-   "shasum": "7d1a38d5c417276e0065f1225a58cb076e6bce942e90e105d7cd50c44bd0422a",
-   "build_date": "2025-03-16T14:44:57Z",
+   "bsum": "10c5c66efd7a2a15e92da4bea76cb2606157b9f2eb19ce8b4d8036af144c4635",
+   "shasum": "c527ce33215dceb97578b486c6f7c128eb6c6e7f06c713f811542e1fcd06da70",
+   "build_date": "2025-03-18T18:58:08Z",
    "src_urls": [
     "https://github.com/srevinsaju/Brave-AppImage"
    ],
@@ -2592,7 +2594,7 @@
     "https://github.com/srevinsaju/Brave-AppImage"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/brave/appimage.srevinsaju.nightly.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/brave/appimage/srevinsaju/nightly/brave?tag=v1.78.44-x86_64-linux\u0026download=brave.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/brave/appimage/srevinsaju/nightly/brave?tag=v1.78.45-x86_64-linux\u0026download=brave.log",
    "snapshots": [
     "v1.76.15-x86_64-linux[v1.76.15]",
     "v1.76.18-x86_64-linux[v1.76.18]",
@@ -2606,15 +2608,16 @@
     "v1.78.26-x86_64-linux[v1.78.26]",
     "v1.78.27-x86_64-linux[v1.78.27]",
     "v1.78.28-x86_64-linux[v1.78.28]",
-    "v1.78.35-x86_64-linux[v1.78.35]"
+    "v1.78.35-x86_64-linux[v1.78.35]",
+    "v1.78.44-x86_64-linux[v1.78.44]"
    ],
    "provides": "brave",
    "notes": [
     "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Brave-AppImage"
    ],
-   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/brave/appimage/srevinsaju/nightly/brave:v1.78.44-x86_64-linux",
-   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/brave/appimage/srevinsaju/nightly/brave@sha256:7d1a38d5c417276e0065f1225a58cb076e6bce942e90e105d7cd50c44bd0422a",
-   "rank": 238
+   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/brave/appimage/srevinsaju/nightly/brave:v1.78.45-x86_64-linux",
+   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/brave/appimage/srevinsaju/nightly/brave@sha256:c527ce33215dceb97578b486c6f7c128eb6c6e7f06c713f811542e1fcd06da70",
+   "rank": 241
   },
   {
    "pkg": "brave.appimage",
@@ -2649,14 +2652,13 @@
    "pkg": "firefox.appimage",
    "pkg_name": "firefox",
    "pkg_id": "github.com.srevinsaju.Firefox-Appimage.beta",
-   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/firefox/appimage/srevinsaju/beta/firefox?tag=137.0.20250314092052-x86_64-linux\u0026download=firefox.png",
+   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/firefox/appimage/srevinsaju/beta/firefox?tag=137.0.20250317100200-x86_64-linux\u0026download=firefox.png",
    "description": "A web browser built from Firefox source tree (Beta)",
-   "version": "137.0.20250314092052",
-   "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/firefox/appimage/srevinsaju/beta/firefox/137.0.20250310091737-x86_64-linux/firefox.appimage",
-   "size": "84 MB",
-   "bsum": "6764ee240efe979638b7a1c4b4e8b54b9cd36132dc024f953d752e583ad584a1",
-   "shasum": "962f26859a1b43c9edb648d3758b8dc2d96ea2a3c74e04b78e8ed666f87be303",
-   "build_date": "2025-03-16T14:48:26Z",
+   "version": "137.0.20250317100200",
+   "size": "83 MB",
+   "bsum": "3dea8b254e33e48fe9963dce036bc4ef40b40247b345b702001b8c215c83649d",
+   "shasum": "555d67ad59355c10796b81a33ff8291a065ae14f019f4f37f57a6b6d272694e6",
+   "build_date": "2025-03-18T18:58:30Z",
    "src_urls": [
     "https://github.com/srevinsaju/Firefox-Appimage"
    ],
@@ -2666,7 +2668,7 @@
     "https://github.com/srevinsaju/Firefox-Appimage"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/firefox/appimage.srevinsaju.beta.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/firefox/appimage/srevinsaju/beta/firefox?tag=137.0.20250314092052-x86_64-linux\u0026download=firefox.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/firefox/appimage/srevinsaju/beta/firefox?tag=137.0.20250317100200-x86_64-linux\u0026download=firefox.log",
    "snapshots": [
     "135.0.20250113112036-x86_64-linux[135.0.20250113112036]",
     "135.0.20250115091607-x86_64-linux[135.0.20250115091607]",
@@ -2684,28 +2686,28 @@
     "137.0.20250303103151-x86_64-linux[137.0.20250303103151]",
     "137.0.20250305105816-x86_64-linux[137.0.20250305105816]",
     "137.0.20250307103915-x86_64-linux[137.0.20250307103915]",
-    "137.0.20250310091737-x86_64-linux[137.0.20250310091737]"
+    "137.0.20250310091737-x86_64-linux[137.0.20250310091737]",
+    "137.0.20250314092052-x86_64-linux[137.0.20250314092052]"
    ],
    "provides": "firefox=\u003efirefox-beta",
    "notes": [
     "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Firefox-Appimage"
    ],
-   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/beta/firefox:137.0.20250314092052-x86_64-linux",
-   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/beta/firefox@sha256:962f26859a1b43c9edb648d3758b8dc2d96ea2a3c74e04b78e8ed666f87be303",
-   "rank": 251
+   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/beta/firefox:137.0.20250317100200-x86_64-linux",
+   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/beta/firefox@sha256:555d67ad59355c10796b81a33ff8291a065ae14f019f4f37f57a6b6d272694e6",
+   "rank": 250
   },
   {
    "pkg": "firefox.appimage",
    "pkg_name": "firefox",
    "pkg_id": "github.com.srevinsaju.Firefox-Appimage.dev",
-   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/firefox/appimage/srevinsaju/dev/firefox?tag=137.0.20250314092052-x86_64-linux\u0026download=firefox.png",
+   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/firefox/appimage/srevinsaju/dev/firefox?tag=137.0.20250317100200-x86_64-linux\u0026download=firefox.png",
    "description": "A web browser built from Firefox source tree (DEV)",
-   "version": "137.0.20250314092052",
-   "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/firefox/appimage/srevinsaju/dev/firefox/137.0.20250310091737-x86_64-linux/firefox.appimage",
-   "size": "84 MB",
-   "bsum": "c986b2c581c9a0c53b3cbcea924524a2e539f8ec40f1b98189643a33c36660e1",
-   "shasum": "0938504abb34899b25d6b01a895a1fb042ce717e351799ba61761e19ca5166ea",
-   "build_date": "2025-03-16T14:45:51Z",
+   "version": "137.0.20250317100200",
+   "size": "83 MB",
+   "bsum": "b2d2c19c971344588b449401beef81f218d66bc86a32c28253bd3ba68245a0fe",
+   "shasum": "a648b02cc458bcee62c9fe4667b9037300820d36d1631d91c5ba00cf59956910",
+   "build_date": "2025-03-18T18:58:23Z",
    "src_urls": [
     "https://github.com/srevinsaju/Firefox-Appimage"
    ],
@@ -2715,7 +2717,7 @@
     "https://github.com/srevinsaju/Firefox-Appimage"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/firefox/appimage.srevinsaju.dev.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/firefox/appimage/srevinsaju/dev/firefox?tag=137.0.20250314092052-x86_64-linux\u0026download=firefox.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/firefox/appimage/srevinsaju/dev/firefox?tag=137.0.20250317100200-x86_64-linux\u0026download=firefox.log",
    "snapshots": [
     "135.0.20250113112036-x86_64-linux[135.0.20250113112036]",
     "135.0.20250115091607-x86_64-linux[135.0.20250115091607]",
@@ -2729,15 +2731,16 @@
     "137.0.20250303103151-x86_64-linux[137.0.20250303103151]",
     "137.0.20250305105816-x86_64-linux[137.0.20250305105816]",
     "137.0.20250307103915-x86_64-linux[137.0.20250307103915]",
-    "137.0.20250310091737-x86_64-linux[137.0.20250310091737]"
+    "137.0.20250310091737-x86_64-linux[137.0.20250310091737]",
+    "137.0.20250314092052-x86_64-linux[137.0.20250314092052]"
    ],
    "provides": "firefox=\u003efirefox-dev",
    "notes": [
     "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Firefox-Appimage"
    ],
-   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/dev/firefox:137.0.20250314092052-x86_64-linux",
-   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/dev/firefox@sha256:0938504abb34899b25d6b01a895a1fb042ce717e351799ba61761e19ca5166ea",
-   "rank": 250
+   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/dev/firefox:137.0.20250317100200-x86_64-linux",
+   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/dev/firefox@sha256:a648b02cc458bcee62c9fe4667b9037300820d36d1631d91c5ba00cf59956910",
+   "rank": 254
   },
   {
    "pkg": "firefox.appimage",
@@ -2771,20 +2774,19 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/esr/firefox:128.8.20250224130137-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/esr/firefox@sha256:d0c9eec0b5cdfb82acaeb72412645dab56edfd2672bc7eda84bb8ccc80bd27cb",
-   "rank": 254
+   "rank": 253
   },
   {
    "pkg": "firefox.appimage",
    "pkg_name": "firefox",
    "pkg_id": "github.com.srevinsaju.Firefox-Appimage.nightly",
-   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/firefox/appimage/srevinsaju/nightly/firefox?tag=138.0.20250316091255-x86_64-linux\u0026download=firefox.png",
+   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/firefox/appimage/srevinsaju/nightly/firefox?tag=138.0.20250318090311-x86_64-linux\u0026download=firefox.png",
    "description": "A web browser built from Firefox source tree (Nightly)",
-   "version": "138.0.20250316091255",
-   "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/firefox/appimage/srevinsaju/nightly/firefox/138.0.20250312091925-x86_64-linux/firefox.appimage",
+   "version": "138.0.20250318090311",
    "size": "94 MB",
-   "bsum": "05f4c492cf3eb792cd28dce232b3a02dca4883099dc5d0831116426e115ddfbc",
-   "shasum": "db1438464141c0f15cd246773dc798313f0b3d8b30d617f31cba582e730e3464",
-   "build_date": "2025-03-16T14:43:54Z",
+   "bsum": "e391bf7642e687c31a69725dbb52f82bc38f87ac913a20746afbe5dd766e997c",
+   "shasum": "9e323e75a56591ca9ce04c14cf261d9baacf440abc20878fe41531d9a086f62e",
+   "build_date": "2025-03-18T18:59:25Z",
    "src_urls": [
     "https://github.com/srevinsaju/Firefox-Appimage"
    ],
@@ -2794,7 +2796,7 @@
     "https://github.com/srevinsaju/Firefox-Appimage"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/firefox/appimage.srevinsaju.nightly.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/firefox/appimage/srevinsaju/nightly/firefox?tag=138.0.20250316091255-x86_64-linux\u0026download=firefox.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/firefox/appimage/srevinsaju/nightly/firefox?tag=138.0.20250318090311-x86_64-linux\u0026download=firefox.log",
    "snapshots": [
     "136.0.20250115042832-x86_64-linux[136.0.20250115042832]",
     "136.0.20250115215720-x86_64-linux[136.0.20250115215720]",
@@ -2837,15 +2839,16 @@
     "138.0.20250309090250-x86_64-linux[138.0.20250309090250]",
     "138.0.20250309211826-x86_64-linux[138.0.20250309211826]",
     "138.0.20250311090547-x86_64-linux[138.0.20250311090547]",
-    "138.0.20250312091925-x86_64-linux[138.0.20250312091925]"
+    "138.0.20250312091925-x86_64-linux[138.0.20250312091925]",
+    "138.0.20250316091255-x86_64-linux[138.0.20250316091255]"
    ],
    "provides": "firefox=\u003efirefox-nightly",
    "notes": [
     "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Firefox-Appimage"
    ],
-   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/nightly/firefox:138.0.20250316091255-x86_64-linux",
-   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/nightly/firefox@sha256:db1438464141c0f15cd246773dc798313f0b3d8b30d617f31cba582e730e3464",
-   "rank": 253
+   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/nightly/firefox:138.0.20250318090311-x86_64-linux",
+   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/nightly/firefox@sha256:9e323e75a56591ca9ce04c14cf261d9baacf440abc20878fe41531d9a086f62e",
+   "rank": 251
   },
   {
    "pkg": "firefox.appimage",
@@ -3008,7 +3011,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/discord/appimage/srevinsaju/stable/discord:0.0.88-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/discord/appimage/srevinsaju/stable/discord@sha256:c08d550b14ffb5cdd4ca7e6ceab5a2f000d6cbf73bbcc2c0d0b3fcb0729081f5",
-   "rank": 12
+   "rank": 13
   },
   {
    "pkg": "tangent.appimage",
@@ -3040,7 +3043,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/stable/tangent:0.8.4-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/stable/tangent@sha256:92bf4b59b53159a2ac185e1031dbb651fe6bdfeefd7aa5316ca5f3af03468c7a",
-   "rank": 3
+   "rank": 2
   },
   {
    "pkg": "tangent.appimage",
@@ -3073,7 +3076,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent:0.9.0-alpha.8-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent@sha256:008e4caa7df2f323f3b6dedf2316b1d2f8bf31f55536f5a2e87162f67bc919ee",
-   "rank": 2
+   "rank": 3
   },
   {
    "pkg": "synfigstudio.appimage",
@@ -3101,7 +3104,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/synfigstudio/appimage/official/stable/synfigstudio:v1.5.3-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/synfigstudio/appimage/official/stable/synfigstudio@sha256:704c56477e7f93622e75264bbb1f801efb4894e8e33a1e9cf3cf8e246770fb8b",
-   "rank": 195
+   "rank": 199
   },
   {
    "pkg": "telegram-desktop.dynamic",
@@ -3165,7 +3168,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/escrcpy/appimage/official/stable/escrcpy:v1.28.7-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/escrcpy/appimage/official/stable/escrcpy@sha256:0a222eeb4b823d480f1d01f827a9676ccb631825214d6908ab768b92ef9a1926",
-   "rank": 53
+   "rank": 52
   },
   {
    "pkg": "electron-mail.appimage",
@@ -3334,13 +3337,13 @@
    "pkg": "zen-browser.appimage",
    "pkg_name": "zen-browser",
    "pkg_id": "github.com.zen-browser.desktop.twilight",
-   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=1.10t_2025-03-16-x86_64-linux\u0026download=zen-browser.png",
+   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=1.10t_2025-03-18-x86_64-linux\u0026download=zen-browser.png",
    "description": "Performance oriented Firefox-based web browser (Twilight)",
-   "version": "1.10t_2025-03-16",
-   "size": "98 MB",
-   "bsum": "a651aa0e1dca4778cd409b982e393dc38d5796c4ba543e104996884243cfe905",
-   "shasum": "ed8482cabb579604a9d0028fcfcedca64c176b913498969ebee683e85dfc49a2",
-   "build_date": "2025-03-16T19:13:56Z",
+   "version": "1.10t_2025-03-18",
+   "size": "89 MB",
+   "bsum": "3cafe62c6abe2064e41859c8428241b5938e0f4b15c4e3cb98159bd3cb1c1f45",
+   "shasum": "e61259b00a8fe2c60f75c8159976ac6c8205a316c983ce70eb136215bf166da6",
+   "build_date": "2025-03-18T19:33:34Z",
    "src_urls": [
     "https://github.com/zen-browser/desktop"
    ],
@@ -3349,7 +3352,7 @@
     "https://github.com/zen-browser/desktop"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.twilight.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=1.10t_2025-03-16-x86_64-linux\u0026download=zen-browser.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=1.10t_2025-03-18-x86_64-linux\u0026download=zen-browser.log",
    "snapshots": [
     "1.7t_2025-01-15-x86_64-linux[1.7t_2025-01-15]",
     "1.7t_2025-01-16-x86_64-linux[1.7t_2025-01-16]",
@@ -3389,14 +3392,15 @@
     "Twilightbuild-1.9.1t_2025-03-10at15_43_55_-x86_64-linux[Twilightbuild-1.9.1t(2025-03-10at15:43:55)]",
     "Twilightbuild-1.9.1t_2025-03-10at23_03_30_-x86_64-linux[Twilightbuild-1.9.1t(2025-03-10at23:03:30)]",
     "Twilightbuild-1.9.1t_2025-03-11at23_03_26_-x86_64-linux[Twilightbuild-1.9.1t(2025-03-11at23:03:26)]",
-    "1.10t_2025-03-15-x86_64-linux[1.10t_2025-03-15]"
+    "1.10t_2025-03-15-x86_64-linux[1.10t_2025-03-15]",
+    "1.10t_2025-03-16-x86_64-linux[1.10t_2025-03-16]"
    ],
    "provides": "zen-browser==zen",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop"
    ],
-   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:1.10t_2025-03-16-x86_64-linux",
-   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser@sha256:ed8482cabb579604a9d0028fcfcedca64c176b913498969ebee683e85dfc49a2",
+   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:1.10t_2025-03-18-x86_64-linux",
+   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser@sha256:e61259b00a8fe2c60f75c8159976ac6c8205a316c983ce70eb136215bf166da6",
    "rank": 270
   },
   {
@@ -3431,13 +3435,13 @@
    "pkg": "kdenlive.appimage",
    "pkg_name": "kdenlive",
    "pkg_id": "gitlab.com.kdenlive.kdenlive.nightly",
-   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/kdenlive/appimage/official/nightly/kdenlive?tag=2025-03-16-x86_64-linux\u0026download=kdenlive.png",
+   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/kdenlive/appimage/official/nightly/kdenlive?tag=2025-03-17-x86_64-linux\u0026download=kdenlive.png",
    "description": "FOSS video editor, based on MLT Framework and KDE Frameworks (Nightly)",
-   "version": "2025-03-16",
+   "version": "2025-03-17",
    "size": "182 MB",
-   "bsum": "cd50db96a7300b868509f1c10e9fb3a9ee858f6fc1a6c3f76deb79a7333cc6ce",
-   "shasum": "b63bd4c87ca0172887981b0c332d3e173e8b824793c8427601f9ea9a1b195789",
-   "build_date": "2025-03-16T14:47:22Z",
+   "bsum": "3de6b5648a97e6cae41f1ac2e2e67f041e945862e163bcd3eebf7a81da5aa1ce",
+   "shasum": "4bfe136b823321814e0df12beb899a8603aaceded39e0cc72c393e328322cd66",
+   "build_date": "2025-03-18T19:07:20Z",
    "src_urls": [
     "https://kdenlive.org/en/download/"
    ],
@@ -3446,7 +3450,7 @@
     "https://invent.kde.org/multimedia/kdenlive"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/kdenlive/appimage.official.nightly.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/kdenlive/appimage/official/nightly/kdenlive?tag=2025-03-16-x86_64-linux\u0026download=kdenlive.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/kdenlive/appimage/official/nightly/kdenlive?tag=2025-03-17-x86_64-linux\u0026download=kdenlive.log",
    "snapshots": [
     "2025-02-02-x86_64-linux[2025-02-02]",
     "2025-02-04-x86_64-linux[2025-02-04]",
@@ -3469,14 +3473,15 @@
     "2025-03-09-x86_64-linux[2025-03-09]",
     "2025-03-10-x86_64-linux[2025-03-10]",
     "2025-03-11-x86_64-linux[2025-03-11]",
-    "2025-03-12-x86_64-linux[2025-03-12]"
+    "2025-03-12-x86_64-linux[2025-03-12]",
+    "2025-03-16-x86_64-linux[2025-03-16]"
    ],
    "provides": "kdenlive",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://invent.kde.org/multimedia/kdenlive"
    ],
-   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/kdenlive/appimage/official/nightly/kdenlive:2025-03-16-x86_64-linux",
-   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/kdenlive/appimage/official/nightly/kdenlive@sha256:b63bd4c87ca0172887981b0c332d3e173e8b824793c8427601f9ea9a1b195789",
+   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/kdenlive/appimage/official/nightly/kdenlive:2025-03-17-x86_64-linux",
+   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/kdenlive/appimage/official/nightly/kdenlive@sha256:4bfe136b823321814e0df12beb899a8603aaceded39e0cc72c393e328322cd66",
    "rank": 213
   },
   {
@@ -3509,19 +3514,19 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/kdenlive/appimage/official/stable/kdenlive:24.12.3-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/kdenlive/appimage/official/stable/kdenlive@sha256:fe3b07dc951ba2f348862bdfdccc9738ea0da02c2c80e85e23f33bcdff63975a",
-   "rank": 212
+   "rank": 214
   },
   {
    "pkg": "krita.appimage",
    "pkg_name": "krita",
    "pkg_id": "gitlab.com.krita.krita.next",
-   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/krita/appimage/official/next/krita?tag=2025-03-16-x86_64-linux\u0026download=krita.png",
+   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/krita/appimage/official/next/krita?tag=2025-03-17-x86_64-linux\u0026download=krita.png",
    "description": "A free and open source painting application (Alpha/Next)",
-   "version": "2025-03-16",
+   "version": "2025-03-17",
    "size": "297 MB",
-   "bsum": "85810770544288a26e0f46faf0b3a46aed544a5ea0c53e648c9caccdd67b32c9",
-   "shasum": "667f07c40612658507c78bcf80edb5b2d79bd1c33cf4b2cf53cf5fa291261c84",
-   "build_date": "2025-03-16T14:53:17Z",
+   "bsum": "c34fda0f23cd1ec89545cef5b4c4d47403af1f31a416e180d5b292e2a91d407b",
+   "shasum": "414d4b8a9366cd76f12a4210facddf2d5668fd4204249735e5003abe9b5ba153",
+   "build_date": "2025-03-18T19:09:23Z",
    "src_urls": [
     "https://krita.org/en/download/"
    ],
@@ -3530,7 +3535,7 @@
     "https://invent.kde.org/graphics/krita"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/krita/appimage.official.next.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/krita/appimage/official/next/krita?tag=2025-03-16-x86_64-linux\u0026download=krita.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/krita/appimage/official/next/krita?tag=2025-03-17-x86_64-linux\u0026download=krita.log",
    "snapshots": [
     "2025-02-01-x86_64-linux[2025-02-01]",
     "2025-02-02-x86_64-linux[2025-02-02]",
@@ -3564,14 +3569,15 @@
     "2025-03-08-x86_64-linux[2025-03-08]",
     "2025-03-09-x86_64-linux[2025-03-09]",
     "2025-03-10-x86_64-linux[2025-03-10]",
-    "2025-03-11-x86_64-linux[2025-03-11]"
+    "2025-03-11-x86_64-linux[2025-03-11]",
+    "2025-03-16-x86_64-linux[2025-03-16]"
    ],
    "provides": "krita",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://invent.kde.org/graphics/krita"
    ],
-   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/krita/appimage/official/next/krita:2025-03-16-x86_64-linux",
-   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/krita/appimage/official/next/krita@sha256:667f07c40612658507c78bcf80edb5b2d79bd1c33cf4b2cf53cf5fa291261c84",
+   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/krita/appimage/official/next/krita:2025-03-17-x86_64-linux",
+   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/krita/appimage/official/next/krita@sha256:414d4b8a9366cd76f12a4210facddf2d5668fd4204249735e5003abe9b5ba153",
    "rank": 118
   },
   {
@@ -3601,7 +3607,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/krita/appimage/official/stable/krita:5.2.9-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/krita/appimage/official/stable/krita@sha256:7ec00f6675bd7cc45520d16417a15ea8393609e0de90663e8ccbc730df23b2bb",
-   "rank": 117
+   "rank": 119
   },
   {
    "pkg": "libreoffice.appimage",
@@ -3638,7 +3644,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/fresh-basic/libreoffice:25.2.2.1-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/fresh-basic/libreoffice@sha256:3e91e8b03175b3831b57ac810adc59e61360a387329bf832ff7f01136431828d",
-   "rank": 99
+   "rank": 98
   },
   {
    "pkg": "libreoffice.appimage",
@@ -3749,7 +3755,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/still-basic/libreoffice:25.2.2.1-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/still-basic/libreoffice@sha256:a64e986621cee7726c248888c440e5c49b390f6c704de89ab17057b1dc53226d",
-   "rank": 98
+   "rank": 100
   },
   {
    "pkg": "libreoffice.appimage",
@@ -3785,7 +3791,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/still-full/libreoffice:25.2.2.1-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/still-full/libreoffice@sha256:6332f3845de1ad835fff7a69ac5405e86f09932354d2585a7ab82415d1a8ac9f",
-   "rank": 100
+   "rank": 99
   },
   {
    "pkg": "libreoffice.appimage",
@@ -3857,7 +3863,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/librewolf/appimage/official/stable/librewolf:v136.0.1-1-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/librewolf/appimage/official/stable/librewolf@sha256:7b1f558aebcda6a4234f5ce081847cecaaf078f3ab021e9a36690549baf16915",
-   "rank": 170
+   "rank": 168
   },
   {
    "pkg": "qbittorrent.appimage",
@@ -3889,7 +3895,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/qbittorrent/appimage/official/beta/qbittorrent:5.1.0-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/qbittorrent/appimage/official/beta/qbittorrent@sha256:c79fb7bf0655a6a0f3c5e0d2c5a05d4b29b8eeed3f266afcae1cee48632dde4a",
-   "rank": 154
+   "rank": 163
   },
   {
    "pkg": "qbittorrent.appimage",
@@ -3924,7 +3930,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/qbittorrent/appimage/official/stable/qbittorrent:5.1.0-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/qbittorrent/appimage/official/stable/qbittorrent@sha256:11cb1397545cfb70f72c2ac3949f9a88db2b6ba862b65b852d8852e8967f0f07",
-   "rank": 155
+   "rank": 164
   },
   {
    "pkg": "brave.nixappimage",
@@ -4009,7 +4015,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium:134.0.6998.88-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium@sha256:25d47ea9cc760aeb04b295ddc2f19f70dc4c1f117f1f1381f628b47c6db1993d",
-   "rank": 256
+   "rank": 255
   },
   {
    "pkg": "discord/discord.nixappimage",
@@ -4049,7 +4055,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/discord/nixappimage/nixpkgs/stable/discord:0.0.87-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/discord/nixappimage/nixpkgs/stable/discord@sha256:d30e37df500e843bc31a626573578c28d0035a438879bd416384d7ed2f475a74",
-   "rank": 30
+   "rank": 29
   },
   {
    "pkg": "discord/discord.nixappimage",
@@ -4087,7 +4093,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/discord/nixappimage/nixpkgs/canary/discord:0.0.594-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/discord/nixappimage/nixpkgs/canary/discord@sha256:4cc7320fec20067302bba81ee8bc6913186925fd3c355ff87b3f20ee5abf29d5",
-   "rank": 31
+   "rank": 26
   },
   {
    "pkg": "discord/discord.nixappimage",
@@ -4160,7 +4166,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/discord/nixappimage/nixpkgs/ptb/discord:0.0.132-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/discord/nixappimage/nixpkgs/ptb/discord@sha256:05bffaa6bc045ea5d4ab58048601af6d11561838b41ba20752aebaf70e38ecb4",
-   "rank": 29
+   "rank": 27
   },
   {
    "pkg": "flameshot.nixappimage",
@@ -4232,7 +4238,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/gearlever/nixappimage/nixpkgs/stable/gearlever:2.3.2-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/gearlever/nixappimage/nixpkgs/stable/gearlever@sha256:6f011911369035d3057c3f32438df0d466e57be39da7f55671afe18481ee7ba6",
-   "rank": 266
+   "rank": 261
   },
   {
    "pkg": "helix.nixappimage",
@@ -4268,7 +4274,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/helix/nixappimage/nixpkgs/stable/helix:25.01.1-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/helix/nixappimage/nixpkgs/stable/helix@sha256:13c5a9b02aee5fe325c68a1ef7f53a635c52dc421e5eee098c2bf90377560637",
-   "rank": 261
+   "rank": 262
   },
   {
    "pkg": "neovim.nixappimage",
@@ -4303,7 +4309,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/neovim/nixappimage/nixpkgs/stable/neovim:0.10.4-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/neovim/nixappimage/nixpkgs/stable/neovim@sha256:7cb1913b4b2c76b2a042542825f48b4f8201e60840268a75753d7ef7a915df6e",
-   "rank": 262
+   "rank": 263
   },
   {
    "pkg": "simplex-desktop.nixappimage",
@@ -4339,7 +4345,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/simplex-desktop/nixappimage/nixpkgs/stable/simplex-desktop:6.2.5-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/simplex-desktop/nixappimage/nixpkgs/stable/simplex-desktop@sha256:a8529d376a62996a5c58f794dc39c4629afce1a8508198ea79db28e5f77e7af9",
-   "rank": 263
+   "rank": 264
   },
   {
    "pkg": "telegram-desktop.nixappimage",
@@ -4377,7 +4383,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop:5.11.1-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop@sha256:6b1e1154d6f8e5752a3450df65ad2c842a9489b8d60522cf9bcae0ccb391dd90",
-   "rank": 264
+   "rank": 265
   },
   {
    "pkg": "chromium.nixappimage",
@@ -4417,7 +4423,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium:134.0.6998.35-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium@sha256:7f82af472e2c93e7cab33ccae03d7dc7b8782c49f57b822a859dd7033c50b9c3",
-   "rank": 255
+   "rank": 256
   },
   {
    "pkg": "cmake.appimage",
@@ -4448,7 +4454,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/cmake/appimage/ppkg/stable/cmake:3.31.5-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/cmake/appimage/ppkg/stable/cmake@sha256:aeca00af57fa05c0da743a9579d01da1752142acc63f4a5c772aceacb3451b49",
-   "rank": 209
+   "rank": 207
   },
   {
    "pkg": "file.appimage",
@@ -4512,7 +4518,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/freerdp/appimage/ppkg/stable/freerdp:3.12.0-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/freerdp/appimage/ppkg/stable/freerdp@sha256:03561babf857a6194547edbde9c8252d093b5b3e9d49d2dfada2fae022e00c11",
-   "rank": 211
+   "rank": 212
   },
   {
    "pkg": "git.appimage",
@@ -4604,7 +4610,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/xrdp/appimage/ppkg/stable/xrdp:0.10.2-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/xrdp/appimage/ppkg/stable/xrdp@sha256:c0cd71d0ea6f7806dd1584d81be5c8c41ae9b48619207ae0ae4818d87f962492",
-   "rank": 224
+   "rank": 225
   },
   {
    "pkg": "akregator.runimage",
@@ -4967,7 +4973,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/steam/runimage/archlinux/stable/steam:1.0.0.82-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/steam/runimage/archlinux/stable/steam@sha256:64ae0ef0d966d27a5199d1adec134ef230e9aed9d08d628f2212d1c6e9326dee",
-   "rank": 54
+   "rank": 55
   },
   {
    "pkg": "ddnet.runimage",
@@ -4977,9 +4983,9 @@
    "description": "Cooperative online platform game based on Teeworlds",
    "version": "19.0",
    "size": "302 MB",
-   "bsum": "40de5fa9c2962ddba17633eecf89ed5ea12cfba474dfa6c9a2e81be6bf90602b",
-   "shasum": "f9856903cab8a3f61011b0a31ea67df720054322a5625ecf5e70c59dfd3d911c",
-   "build_date": "2025-03-16T18:55:03Z",
+   "bsum": "79b38bac24bf6942e4ee8713abf5735f5b2679b06f552e6c366c57c20da6e479",
+   "shasum": "5ff69ae03a4a4d2ed15026e8100045c43b704cd49638c7c55a83bc0d397c95a7",
+   "build_date": "2025-03-18T19:02:08Z",
    "src_urls": [
     "https://github.com/ddnet/ddnet"
    ],
@@ -5000,7 +5006,7 @@
     "[PORTABLE] (Works on AnyLinux)"
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/ddnet/runimage/cachyos/stable/ddnet:19.0-x86_64-linux",
-   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/ddnet/runimage/cachyos/stable/ddnet@sha256:f9856903cab8a3f61011b0a31ea67df720054322a5625ecf5e70c59dfd3d911c",
+   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/ddnet/runimage/cachyos/stable/ddnet@sha256:5ff69ae03a4a4d2ed15026e8100045c43b704cd49638c7c55a83bc0d397c95a7",
    "rank": 23
   },
   {
@@ -5125,20 +5131,20 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/gimp/runimage/cachyos/git/gimp:3.0.0.RC1.r40.0cd0206917-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/gimp/runimage/cachyos/git/gimp@sha256:50b9ec779d3c2b0109f685b747048be40edfdcbc018e399e55ed7f037ee2d3a7",
-   "rank": 113
+   "rank": 112
   },
   {
    "pkg": "gimp.runimage",
    "pkg_name": "gimp",
    "pkg_id": "runimage.cachyos.gimp.stable",
-   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/gimp/runimage/cachyos/stable/gimp?tag=2.10.38-x86_64-linux\u0026download=gimp.png",
+   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/gimp/runimage/cachyos/stable/gimp?tag=3.0.0-x86_64-linux\u0026download=gimp.png",
    "description": "The GNU Image Manipulation Program",
-   "version": "2.10.38",
+   "version": "3.0.0",
    "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/gimp/runimage/cachyos/stable/gimp/2.10.38-x86_64-linux/gimp.runimage",
-   "size": "260 MB",
-   "bsum": "b672a61c0dd6aac4fa7dc0ca13d8353c6098fa6a857cd2a90d4c8e9384905a00",
-   "shasum": "7f6a7c5d0e2ca776c4c84da3a8eeadb0ec9dd92c450bf21ea23c93dd5f58b98c",
-   "build_date": "2025-02-02T14:36:33Z",
+   "size": "274 MB",
+   "bsum": "315b258e7eaed2688b29cc284bac83f02ec1be4c5fb24b8933018bd99a193217",
+   "shasum": "e147b704f7ac791da692680c10010499cc6cf924f7a30075524007f39d48edde",
+   "build_date": "2025-03-18T19:02:00Z",
    "src_urls": [
     "https://archlinux.org/packages/extra/x86_64/gimp/"
    ],
@@ -5147,16 +5153,19 @@
     "https://gitlab.gnome.org/GNOME/gimp"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/gimp/runimage.cachyos.stable.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/gimp/runimage/cachyos/stable/gimp?tag=2.10.38-x86_64-linux\u0026download=gimp.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/gimp/runimage/cachyos/stable/gimp?tag=3.0.0-x86_64-linux\u0026download=gimp.log",
+   "snapshots": [
+    "2.10.38-x86_64-linux[2.10.38]"
+   ],
    "provides": "gimp",
    "notes": [
     "Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage",
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/gimp/runimage/cachyos/stable/gimp:2.10.38-x86_64-linux",
-   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/gimp/runimage/cachyos/stable/gimp@sha256:7f6a7c5d0e2ca776c4c84da3a8eeadb0ec9dd92c450bf21ea23c93dd5f58b98c",
-   "rank": 112
+   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/gimp/runimage/cachyos/stable/gimp:3.0.0-x86_64-linux",
+   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/gimp/runimage/cachyos/stable/gimp@sha256:e147b704f7ac791da692680c10010499cc6cf924f7a30075524007f39d48edde",
+   "rank": 113
   },
   {
    "pkg": "gnome-boxes.runimage",
@@ -5222,7 +5231,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/goverlay/runimage/cachyos/git/goverlay:1.2.r26.g30ffcd0-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/goverlay/runimage/cachyos/git/goverlay@sha256:5e4dba031c597e44a2f9d7fee034a8ab81d4d2fad52e121ee7bb70395ee26bc6",
-   "rank": 94
+   "rank": 95
   },
   {
    "pkg": "goverlay.runimage",
@@ -5257,7 +5266,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/goverlay/runimage/cachyos/stable/goverlay:1.3_3-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/goverlay/runimage/cachyos/stable/goverlay@sha256:9354534b2804259d77067a6457778a3bb7724ab3ee906a0208a0210e3182bb98",
-   "rank": 95
+   "rank": 94
   },
   {
    "pkg": "gpt4all.runimage",
@@ -5288,7 +5297,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/gpt4all/runimage/cachyos/git/gpt4all:3.3.0.r22.g767189d-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/gpt4all/runimage/cachyos/git/gpt4all@sha256:f5c2ea677638c62843a9873897134458b31cc08f0a8d72a978e2cb3b0313905d",
-   "rank": 115
+   "rank": 116
   },
   {
    "pkg": "gzdoom.runimage",
@@ -5323,7 +5332,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/gzdoom/runimage/cachyos/stable/gzdoom:4.14.1-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/gzdoom/runimage/cachyos/stable/gzdoom@sha256:933cd8e73e6675ade6df40f427b8a9131434910a79281772c3ab48ad9a72dd60",
-   "rank": 106
+   "rank": 107
   },
   {
    "pkg": "haguichi.runimage",
@@ -5354,7 +5363,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/haguichi/runimage/cachyos/stable/haguichi:1.5.1-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/haguichi/runimage/cachyos/stable/haguichi@sha256:d4a566510fa336d8179dc72bfbae98094c20bf22cb25d9270ee59fe50ff8d0d5",
-   "rank": 116
+   "rank": 117
   },
   {
    "pkg": "kdeutils.runimage",
@@ -5454,7 +5463,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/lazarus/runimage/cachyos/stable/lazarus:3.8-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/lazarus/runimage/cachyos/stable/lazarus@sha256:31606cf32c5e8468b7cf74239882b27cbd4c04da18f52df6aa81a1e23eb0a186",
-   "rank": 17
+   "rank": 12
   },
   {
    "pkg": "libresprite.runimage",
@@ -5485,7 +5494,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/libresprite/runimage/cachyos/stable/libresprite:1.1.r59.ga678ddf-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/libresprite/runimage/cachyos/stable/libresprite@sha256:b98ca9d328006b9fdb424d9037604d4395a3a39d3732002e837f73aa36498349",
-   "rank": 120
+   "rank": 124
   },
   {
    "pkg": "librewolf.runimage",
@@ -5560,7 +5569,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/mcpelauncher/runimage/cachyos/stable/mcpelauncher:1.2.0.r0.gfe07760-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/mcpelauncher/runimage/cachyos/stable/mcpelauncher@sha256:96fec79bcdb2cf4de00e6b3f4389744a60580b2dbed02cf18329c7ee898652ed",
-   "rank": 105
+   "rank": 106
   },
   {
    "pkg": "nheko.runimage",
@@ -5592,7 +5601,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/nheko/runimage/cachyos/stable/nheko:0.12.0-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/nheko/runimage/cachyos/stable/nheko@sha256:27434bb8b4a77a207e158bd411190146ca79910eefe8d0a37042a0ad76b95334",
-   "rank": 119
+   "rank": 123
   },
   {
    "pkg": "openboard.runimage",
@@ -5623,7 +5632,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/openboard/runimage/cachyos/stable/openboard:1.7.3-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/openboard/runimage/cachyos/stable/openboard@sha256:5de05dfdc03d9a3291011897101612d8ac6191105f1a63527da0922d10cd9131",
-   "rank": 124
+   "rank": 127
   },
   {
    "pkg": "ruffle.runimage",
@@ -5663,14 +5672,13 @@
    "pkg": "spotube.runimage",
    "pkg_name": "spotube",
    "pkg_id": "runimage.cachyos.spotube",
-   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/spotube/runimage/cachyos/stable/spotube?tag=4.0.1-x86_64-linux\u0026download=spotube.png",
+   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/spotube/runimage/cachyos/stable/spotube?tag=4.0.2-x86_64-linux\u0026download=spotube.png",
    "description": "FOSS Spotify Client",
-   "version": "4.0.1",
-   "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/spotube/runimage/cachyos/stable/spotube/4.0.0-x86_64-linux/spotube.runimage",
-   "size": "336 MB",
-   "bsum": "4cdc5367eac87dc82102655734422b843cdd09976a310ba85c5ca0f94284b4ae",
-   "shasum": "2a2143c481fb9c30e4ebc0ece9cb902a0d5dde10c4a2ea689e6ab4b26333e7b0",
-   "build_date": "2025-03-16T15:00:07Z",
+   "version": "4.0.2",
+   "size": "338 MB",
+   "bsum": "57157a5b7ad881b9b793ff4923744076982a51db5d02ca0417fa938439574916",
+   "shasum": "d67decd4b4f5c2ee39265e7eadb8b5479357f42332c8f1e1219058fa5124b44e",
+   "build_date": "2025-03-18T19:25:12Z",
    "src_urls": [
     "https://codeberg.org/spotube/source",
     "https://github.com/KRTirtho/spotube"
@@ -5680,10 +5688,11 @@
     "https://github.com/KRTirtho/spotube"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/spotube/runimage.cachyos.stable.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/spotube/runimage/cachyos/stable/spotube?tag=4.0.1-x86_64-linux\u0026download=spotube.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/spotube/runimage/cachyos/stable/spotube?tag=4.0.2-x86_64-linux\u0026download=spotube.log",
    "snapshots": [
     "3.9.0-x86_64-linux[3.9.0]",
-    "4.0.0-x86_64-linux[4.0.0]"
+    "4.0.0-x86_64-linux[4.0.0]",
+    "4.0.1-x86_64-linux[4.0.1]"
    ],
    "provides": "spotube",
    "notes": [
@@ -5691,9 +5700,9 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/spotube/runimage/cachyos/stable/spotube:4.0.1-x86_64-linux",
-   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/spotube/runimage/cachyos/stable/spotube@sha256:2a2143c481fb9c30e4ebc0ece9cb902a0d5dde10c4a2ea689e6ab4b26333e7b0",
-   "rank": 189
+   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/spotube/runimage/cachyos/stable/spotube:4.0.2-x86_64-linux",
+   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/spotube/runimage/cachyos/stable/spotube@sha256:d67decd4b4f5c2ee39265e7eadb8b5479357f42332c8f1e1219058fa5124b44e",
+   "rank": 188
   },
   {
    "pkg": "steam.runimage",
@@ -5728,7 +5737,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/steam/runimage/cachyos/stable/steam:1.0.0.82-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/steam/runimage/cachyos/stable/steam@sha256:b410bb06eb34f518b0306c569bd53bea48e942d07f179899208946569f2568fb",
-   "rank": 55
+   "rank": 54
   },
   {
    "pkg": "vscodium.runimage",
@@ -5759,7 +5768,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/vscodium/runimage/cachyos/stable/vscodium:1.96.4.25026-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/vscodium/runimage/cachyos/stable/vscodium@sha256:06efc8159ebf66dc0d8255b6d0f9a3ebb3544b3da495c9ccd41b37c20fce2606",
-   "rank": 67
+   "rank": 70
   },
   {
    "pkg": "wezterm.runimage",
@@ -5834,10 +5843,10 @@
    "description": "GTK front-end for Clam Antivirus",
    "version": "6.07",
    "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/clamtk/runimage/debian/stable/clamtk/6.07-x86_64-linux/clamtk.runimage",
-   "size": "83 MB",
-   "bsum": "b093c0deceb1697b10872c5a8fda2dc98e9bf4b4a3cdcfeb9a6e8ba904e5f120",
-   "shasum": "45b53271e9e569d557d697a27368e13c353299fd856fa66ce0a3b1e2fc8e207f",
-   "build_date": "2025-03-16T18:53:38Z",
+   "size": "82 MB",
+   "bsum": "49036f4fcc1b8a2dbf37cc6ceca27bfdea6abd5ba74f6402ab4da4fedaa588ff",
+   "shasum": "3b5a691c8ca351a86815e2fbabbec3a0fcc17f9cc22d1dac0a6e4ee65c471111",
+   "build_date": "2025-03-18T18:59:28Z",
    "src_urls": [
     "https://github.com/dave-theunsub/clamtk",
     "https://gitlab.com/dave_m/clamtk"
@@ -5858,7 +5867,7 @@
     "[PORTABLE] (Works on AnyLinux)"
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk:6.07-x86_64-linux",
-   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk@sha256:45b53271e9e569d557d697a27368e13c353299fd856fa66ce0a3b1e2fc8e207f",
+   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk@sha256:3b5a691c8ca351a86815e2fbabbec3a0fcc17f9cc22d1dac0a6e4ee65c471111",
    "rank": 258
   },
   {
@@ -5956,7 +5965,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/funkin/runimage/debian/stable/funkin:v0.5.3-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/funkin/runimage/debian/stable/funkin@sha256:d810e9b56724e13827ebf659163b9f39ebd27b4a6a9ea263bced00da727ec58c",
-   "rank": 71
+   "rank": 72
   },
   {
    "pkg": "megasync.runimage",
@@ -6022,7 +6031,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/ultimmc/runimage/debian/stable/ultimmc:250301T010230jq_error_writingoutputfailed_Brokenpipe-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/ultimmc/runimage/debian/stable/ultimmc@sha256:fdf2f4165b16d150e50b001204c1515dad0df0ea7556308cba22359b6765b6ea",
-   "rank": 182
+   "rank": 184
   }
  ]
 }
