@@ -266,7 +266,7 @@ pkgcache:
   - In case of problems, install '0ad' instead
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/0ad/appimage/0ad-matters/prerelease/0ad:v0.0.27-rc1-27645-alpha-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/0ad/appimage/0ad-matters/prerelease/0ad@sha256:686bd29fad5ec2322f4f22fab93235f2976fb849a32af7a7edca078eac559946
-  rank: 30
+  rank: 32
 - pkg: 0ad.appimage
   pkg_name: 0ad
   pkg_id: github.0ad-matters.0ad-appimage.stable
@@ -388,7 +388,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/CodeDead/Advanced-PassGen
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/advanced-passgen/appimage/official/stable/advanced-passgen:v2.5.2-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/advanced-passgen/appimage/official/stable/advanced-passgen@sha256:4e24ed5fef11b400d8da2342fc1b91e1634ad22cf4a9e636b88decf9651f8b03
-  rank: 32
+  rank: 30
 - pkg: xash3d-fwgs.appimage
   pkg_name: xash3d-fwgs
   pkg_id: github.com.FWGS.xash3d-fwgs
@@ -421,7 +421,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/FWGS/xash3d-fwgs
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/xash3d-fwgs/appimage/official/stable/xash3d-fwgs:250320T174519-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/xash3d-fwgs/appimage/official/stable/xash3d-fwgs@sha256:6f6f63e06eb17b6521557a2ca9ee3238e6d5fa0560a796a7c96cc36c4f30c119
-  rank: 187
+  rank: 181
 - pkg: ryujinx.appimage
   pkg_name: ryujinx
   pkg_id: github.com.Ryubing.Ryujinx.canary
@@ -442,7 +442,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/ryujinx/ryujinx
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx:1.2.357-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx@sha256:d5ccb6d775a6b657814a37cba78d5d77273cb31ced848a1e3866b01df4bde017
-  rank: 76
+  rank: 71
 - pkg: ryujinx.appimage
   pkg_name: ryujinx
   pkg_id: github.com.Ryubing.Ryujinx.stable
@@ -463,7 +463,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/ryujinx/ryujinx
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx:1.2.81-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx@sha256:bdb7e246bb9136940fc00b6578322ac51c1ed92bb8933310df262192372c24d8
-  rank: 75
+  rank: 72
 - pkg: amdgpu_top.appimage
   pkg_name: amdgpu_top
   pkg_id: github.com.Umio-Yasuno.amdgpu_top
@@ -516,7 +516,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/VSCodium/vscodium
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/vscodium/appimage/official/stable/vscodium:1.98.2.25078-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/vscodium/appimage/official/stable/vscodium@sha256:aaba9403f553810f346be2562c0929d7ebe9875bd54ee624b22eb02db1e5b66c
-  rank: 82
+  rank: 83
 - pkg: vesktop.appimage
   pkg_name: vesktop
   pkg_id: github.com.Vencord.Vesktop
@@ -616,7 +616,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/toeverything/AFFiNE
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/affine/appimage/official/canary-1/affine:v0.21.0-canary.1-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/affine/appimage/official/canary-1/affine@sha256:524169cb999014a2d22c65ea48f276971fbadf6b4b2e506abb60db527ae9cd89
-  rank: 21
+  rank: 20
 - pkg: affine.appimage
   pkg_name: affine
   pkg_id: github.com.affine-mirror.affine.canary.2
@@ -640,7 +640,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/toeverything/AFFiNE
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/affine/appimage/official/canary-2/affine:v0.21.0-canary.2-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/affine/appimage/official/canary-2/affine@sha256:1f2f88c80ae589d4660a27ad877f65328c009432e24894340f9b1759e5960d95
-  rank: 20
+  rank: 19
 - pkg: affine.appimage
   pkg_name: affine
   pkg_id: github.com.affine-mirror.affine.stable
@@ -669,7 +669,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/toeverything/AFFiNE
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/affine/appimage/official/stable/affine:v0.20.5-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/affine/appimage/official/stable/affine@sha256:b34b7854450aecb5823745ab250ad5d5c62f456ddb43f165baa20ebe8348a2fa
-  rank: 19
+  rank: 21
 - pkg: air-controller-desktop.appimage
   pkg_name: air-controller-desktop
   pkg_id: github.com.air-controller.air-controller-desktop
@@ -794,7 +794,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/amanharwara/altus
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/altus/appimage/official/stable/altus:5.6.0-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/altus/appimage/official/stable/altus@sha256:769b9aa92f3d2bcbf1d148058968e6e0918f83c44728e62d6c42621a180e7516
-  rank: 10
+  rank: 11
 - pkg: waydroid-helper.appimage
   pkg_name: waydroid-helper
   pkg_id: github.com.ayasa520.waydroid-helper.stable
@@ -841,7 +841,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/benjamimgois/goverlay
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/goverlay/appimage/official/nightly/goverlay:250321T142911-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/goverlay/appimage/official/nightly/goverlay@sha256:736c2ea3e67b3b8a7d91b610083fb7c376f97429f366a2c631c506b7c3b80871
-  rank: 241
+  rank: 240
 - pkg: goverlay.appimage
   pkg_name: goverlay
   pkg_id: github.com.benjamimgois.goverlay.stable
@@ -865,7 +865,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/benjamimgois/goverlay
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/goverlay/appimage/official/stable/goverlay:1.3-3-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/goverlay/appimage/official/stable/goverlay@sha256:b9078577584a9d802f4cc93eb18098ed3faf84004c230bfb7df4c96fa8bcd256
-  rank: 240
+  rank: 241
 - pkg: alexandria.appimage
   pkg_name: alexandria
   pkg_id: github.com.btpf.Alexandria
@@ -910,7 +910,7 @@ pkgcache:
   - release-5.0.4.10-x86_64-linux[release-5.0.4.10]
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/qbittorrent-enhanced/appimage/official/stable/qbittorrent-enhanced:release-5.0.4.10-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/qbittorrent-enhanced/appimage/official/stable/qbittorrent-enhanced@sha256:895a33f1cc0e8d06b38ea60fd4f56bae5ee1b3fd4b60705c0bd0c5ab34bcfd30
-  rank: 182
+  rank: 184
 - pkg: caido.appimage
   pkg_name: caido
   pkg_id: github.com.caido.caido.stable
@@ -934,7 +934,7 @@ pkgcache:
   - "You may need to run this with: --no-sandbox"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/caido/appimage/official/stable/caido:v0.47.1-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/caido/appimage/official/stable/caido@sha256:6c22a9c8782f9c8ff477b31545c04728bdb1d0f93fe102ba12fe9c69d1e9a56b
-  rank: 203
+  rank: 201
 - pkg: android-messages.appimage
   pkg_name: android-messages
   pkg_id: github.com.chrisknepper.android-messages-desktop
@@ -1006,7 +1006,7 @@ pkgcache:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/ferion11/PeaZip_Appimage
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/peazip/appimage/ferion11/stable/peazip:v10.3.0-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/peazip/appimage/ferion11/stable/peazip@sha256:01f0046823824ba663d4178a29428199c49053811d3bd5a597d98217f002862a
-  rank: 121
+  rank: 127
 - pkg: flameshot.appimage
   pkg_name: flameshot
   pkg_id: github.com.flameshot-org.flameshot
@@ -1030,7 +1030,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/flameshot-org/flameshot
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/flameshot/appimage/official/stable/flameshot:v12.1.0-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/flameshot/appimage/official/stable/flameshot@sha256:c30634c84161f09e8dde74c76367b1ce848414bb1cc269c2a2715f6803220738
-  rank: 52
+  rank: 53
 - pkg: knot.appimage
   pkg_name: knot
   pkg_id: github.com.ic005k.Knot
@@ -1061,7 +1061,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/ic005k/Knot
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/knot/appimage/official/stable/knot:1.2.18-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/knot/appimage/official/stable/knot@sha256:5baf9330b640a1682cc61a945cc527cbc732b7740a397b81c1efdf7fae15167c
-  rank: 12
+  rank: 13
 - pkg: abiword.appimage
   pkg_name: abiword
   pkg_id: github.com.ivan-hc.Abiword-appimage
@@ -1133,7 +1133,7 @@ pkgcache:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/ivan-hc/Spotify-appimage
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/spotify/appimage/ivan-hc/stable/spotify:1.2.56.502.6824-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/spotify/appimage/ivan-hc/stable/spotify@sha256:b59a79cc6ed739256e9df19351b7de6870b6ca1f55bce1ea67d3945bb141692b
-  rank: 190
+  rank: 191
 - pkg: wps-office.appimage
   pkg_name: wps-office
   pkg_id: github.com.ivan-hc.WPS-Office-appimage.stable
@@ -1177,7 +1177,7 @@ pkgcache:
   - Community Created AppImage. Check/Report @ https://github.com/ivan-hc/KDE-utils-appimage
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/kdeutils/appimage/ivan-hc/stable/kdeutils:25.04-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/kdeutils/appimage/ivan-hc/stable/kdeutils@sha256:895c0ac662d117d15dd88e86c85b153d2baf3aced943ddfcfae79b4b86178754
-  rank: 64
+  rank: 67
 - pkg: signal-desktop.appimage
   pkg_name: signal-desktop
   pkg_id: github.com.karo-solutions.Signal-Desktop-AppImage.stable
@@ -1204,7 +1204,7 @@ pkgcache:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/karo-solutions/Signal-Desktop-AppImage
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/signal-desktop/appimage/karo-solutions/stable/signal-desktop:v7.44.0-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/signal-desktop/appimage/karo-solutions/stable/signal-desktop@sha256:ddabe097d0561b76867038657ea4685b6c5f4e1111b8d97485da0b3b4193ef40
-  rank: 179
+  rank: 182
 - pkg: libresprite.appimage
   pkg_name: libresprite
   pkg_id: github.com.libresprite.libresprite.stable
@@ -1267,7 +1267,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/mysteryx93/HanumanInstituteApps
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/converter432hz:v3.3.2-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/converter432hz@sha256:c1129993b676ad888909bae67150600bb153f3b9feb08599b612a68f4b033599
-  rank: 46
+  rank: 43
 - pkg: player432hz/powerliminalsplayer.appimage
   pkg_name: powerliminalsplayer
   pkg_id: github.com.mysteryx93.HanumanInstituteApps
@@ -1291,7 +1291,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/mysteryx93/HanumanInstituteApps
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/powerliminalsplayer:v3.3.2-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/powerliminalsplayer@sha256:840c5c8ad8d0a7bc5e8daa166dd56259e20b20dda0cc4e7868d1ce70f0c9e9cf
-  rank: 43
+  rank: 46
 - pkg: player432hz/yangdownloader.appimage
   pkg_name: yangdownloader
   pkg_id: github.com.mysteryx93.HanumanInstituteApps
@@ -1361,7 +1361,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/neovim/neovim
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/neovim/appimage/official/stable/neovim:v0.10.4-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/neovim/appimage/official/stable/neovim@sha256:e1c4508e0c4dc259b504eaff3cdd118ca9ae2ce737572544ca5d7a31612b722d
-  rank: 49
+  rank: 50
 - pkg: citron.appimage
   pkg_name: citron
   pkg_id: github.com.pkgforge-dev.Citron-AppImage.stable
@@ -1389,7 +1389,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/citron/appimage/pkgforge-dev/stable/citron:v0.6.1-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/citron/appimage/pkgforge-dev/stable/citron@sha256:4373ce36c033af0d57129e27c29003b758c22bf70edb53ee6f205f2e3e44a9f2
-  rank: 146
+  rank: 152
 - pkg: citron.appimage
   pkg_name: citron
   pkg_id: github.com.pkgforge-dev.Citron-AppImage.v3
@@ -1417,7 +1417,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/citron/appimage/pkgforge-dev/v3/citron:v0.6.1-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/citron/appimage/pkgforge-dev/v3/citron@sha256:a4ad3642550825ed22a49d531a7b4eed7961e2002281e5bbe20b287bf55a88f7
-  rank: 145
+  rank: 153
 - pkg: cromite.appimage
   pkg_name: cromite
   pkg_id: github.com.pkgforge-dev.Cromite-AppImage
@@ -1473,7 +1473,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/gimp/appimage/pkgforge-dev/stable/gimp:2.10.38-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/gimp/appimage/pkgforge-dev/stable/gimp@sha256:980014e7539a95845f3a603034459b1a022dec827805c412abd114955a0d8be9
-  rank: 118
+  rank: 123
 - pkg: obs-studio.appimage
   pkg_name: obs-studio
   pkg_id: github.com.pkgforge-dev.OBS-Studio-AppImage.stable
@@ -1527,7 +1527,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/ppsspp/appimage/pkgforge-dev/stable/ppsspp:1.18.1-3-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/ppsspp/appimage/pkgforge-dev/stable/ppsspp@sha256:ef9a5b50e7b51423fcd9be17764e66efdf6e786c9cf2c70944a687d79d0ac83b
-  rank: 54
+  rank: 55
 - pkg: torzu.appimage
   pkg_name: torzu
   pkg_id: github.com.pkgforge-dev.Torzu-AppImage.stable
@@ -1580,7 +1580,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/torzu/appimage/pkgforge-dev/v3/torzu:r27206.eaa9c9e3a-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/torzu/appimage/pkgforge-dev/v3/torzu@sha256:869560d0418a022dbd2397b29984940f9766e61905501744775f29b0d28e55e4
-  rank: 185
+  rank: 187
 - pkg: android-tools.appimage
   pkg_name: android-tools
   pkg_id: github.com.pkgforge-dev.android-tools-AppImage.stable
@@ -1774,7 +1774,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/rustdesk/rustdesk
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk:250204T131430-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk@sha256:2f8f2dd1888c2134802c363a238b74efd85a3eed9a61542c3919685e6a419444
-  rank: 73
+  rank: 75
 - pkg: rustdesk.appimage
   pkg_name: rustdesk
   pkg_id: github.com.rustdesk.rustdesk.stable
@@ -1796,7 +1796,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/rustdesk/rustdesk
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk:1.3.7-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk@sha256:ee25b8a862da8b771f74b124b1158cfaefe07fb54642ce9cbd8f623f8ef8c131
-  rank: 74
+  rank: 76
 - pkg: simplex-desktop.appimage
   pkg_name: simplex-desktop
   pkg_id: github.com.simplex-chat.simplex-chat
@@ -1821,7 +1821,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/simplex-chat/simplex-chat
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/simplex-desktop/appimage/official/stable/simplex-desktop:v6.3.0-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/simplex-desktop/appimage/official/stable/simplex-desktop@sha256:a7634f049c807d692933a5acd179b8572b770c86df97eb2861f61faa3578718d
-  rank: 50
+  rank: 51
 - pkg: brave.appimage
   pkg_name: brave
   pkg_id: github.com.srevinsaju.Brave-AppImage.beta
@@ -1855,7 +1855,7 @@ pkgcache:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Brave-AppImage
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/brave/appimage/srevinsaju/beta/brave:v1.77.83-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/brave/appimage/srevinsaju/beta/brave@sha256:4d74173969ac3a80282346985734ff0b61259df3f7437d89395a8888618c65e5
-  rank: 237
+  rank: 239
 - pkg: brave.appimage
   pkg_name: brave
   pkg_id: github.com.srevinsaju.Brave-AppImage.nightly
@@ -1893,7 +1893,7 @@ pkgcache:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Brave-AppImage
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/brave/appimage/srevinsaju/nightly/brave:v1.78.55-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/brave/appimage/srevinsaju/nightly/brave@sha256:592be5818d813a837b95acd49cc2697f9a8eff730bab192f52a89bcff99b7f5e
-  rank: 239
+  rank: 238
 - pkg: brave.appimage
   pkg_name: brave
   pkg_id: github.com.srevinsaju.Brave-AppImage.stable
@@ -1915,7 +1915,7 @@ pkgcache:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Brave-AppImage
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/brave/appimage/srevinsaju/stable/brave:v1.74.51-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/brave/appimage/srevinsaju/stable/brave@sha256:9fcd5a3912cb9c605abe48caed52b2a944d983ae85b4437e99712cb5baa983dc
-  rank: 238
+  rank: 237
 - pkg: firefox.appimage
   pkg_name: firefox
   pkg_id: github.com.srevinsaju.Firefox-Appimage.beta
@@ -2022,7 +2022,7 @@ pkgcache:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Firefox-Appimage
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/esr/firefox:128.8.20250224130137-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/esr/firefox@sha256:d0c9eec0b5cdfb82acaeb72412645dab56edfd2672bc7eda84bb8ccc80bd27cb
-  rank: 251
+  rank: 248
 - pkg: firefox.appimage
   pkg_name: firefox
   pkg_id: github.com.srevinsaju.Firefox-Appimage.nightly
@@ -2119,7 +2119,7 @@ pkgcache:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Firefox-Appimage
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/stable/firefox:136.0.20250317120031-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/stable/firefox@sha256:3c26d6faf0fe9c73cf892529ded60315e25cc840de9b51bb9d96bce6b4eee373
-  rank: 248
+  rank: 251
 - pkg: discord/discord-canary.appimage
   pkg_name: discord-canary
   pkg_id: github.com.srevinsaju.discord-AppImage.canary
@@ -2192,7 +2192,7 @@ pkgcache:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/discord-appimage
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/discord-ptb/appimage/srevinsaju/ptb/discord-ptb:0.0.135-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/discord-ptb/appimage/srevinsaju/ptb/discord-ptb@sha256:caa31c1e5779e00fb8aaffe0cc40a87e884770520ff90ef92afd50f5d1c089f6
-  rank: 11
+  rank: 10
 - pkg: discord/discord.appimage
   pkg_name: discord
   pkg_id: github.com.srevinsaju.discord-AppImage.stable
@@ -2223,7 +2223,7 @@ pkgcache:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/discord-appimage
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/discord/appimage/srevinsaju/stable/discord:0.0.88-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/discord/appimage/srevinsaju/stable/discord@sha256:c08d550b14ffb5cdd4ca7e6ceab5a2f000d6cbf73bbcc2c0d0b3fcb0729081f5
-  rank: 13
+  rank: 14
 - pkg: tangent.appimage
   pkg_name: tangent
   pkg_id: github.com.suchnsuch.Tangent
@@ -2341,7 +2341,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/viarotel-org/escrcpy
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/escrcpy/appimage/official/stable/escrcpy:v1.28.7-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/escrcpy/appimage/official/stable/escrcpy@sha256:0a222eeb4b823d480f1d01f827a9676ccb631825214d6908ab768b92ef9a1926
-  rank: 53
+  rank: 52
 - pkg: electron-mail.appimage
   pkg_name: electron-mail
   pkg_id: github.com.vladimiry.ElectronMail
@@ -2362,7 +2362,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/vladimiry/ElectronMail
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/electron-mail/appimage/official/stable/electron-mail:v5.3.0-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/electron-mail/appimage/official/stable/electron-mail@sha256:7d802b6b431a983142b1aa07ba60ac4951ee2f3eaeef5382a929890bd7627e04
-  rank: 229
+  rank: 234
 - pkg: 9launcher.appimage
   pkg_name: 9launcher
   pkg_id: github.com.wearrrrr.9Launcher
@@ -2466,7 +2466,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser:1.10b-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser@sha256:a13b2322e6ee3d24fab4d528638926042df85676ea8645be7dc22245d88ede81
-  rank: 267
+  rank: 265
 - pkg: zen-browser.appimage
   pkg_name: zen-browser
   pkg_id: github.com.zen-browser.desktop.twilight
@@ -2529,7 +2529,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:Twilightbuild-1.10.1t_2025-03-21at07_05_26_-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser@sha256:c5588e44992270b99a9554aec7d654b488a1f5425f7d2a9f643d23af0df043d2
-  rank: 265
+  rank: 267
 - pkg: inkscape.appimage
   pkg_name: inkscape
   pkg_id: gitlab.com.inkscape.inkscape
@@ -2550,7 +2550,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://gitlab.com/inkscape/inkscape
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/inkscape/appimage/official/stable/inkscape:1.4-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/inkscape/appimage/official/stable/inkscape@sha256:384ddab8add7d929fd08547eda5c30e40be48e9c57d14c0b7336b4b3b94452d1
-  rank: 115
+  rank: 117
 - pkg: kdenlive.appimage
   pkg_name: kdenlive
   pkg_id: gitlab.com.kdenlive.kdenlive.nightly
@@ -2596,7 +2596,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://invent.kde.org/multimedia/kdenlive
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/kdenlive/appimage/official/nightly/kdenlive:2025-03-21-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/kdenlive/appimage/official/nightly/kdenlive@sha256:a37f1bc435acb700f001efa3f0926ab13b51db80460aa521871ccbfba05bf15d
-  rank: 212
+  rank: 214
 - pkg: kdenlive.appimage
   pkg_name: kdenlive
   pkg_id: gitlab.com.kdenlive.kdenlive.stable
@@ -2620,7 +2620,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://invent.kde.org/multimedia/kdenlive
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/kdenlive/appimage/official/stable/kdenlive:24.12.3-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/kdenlive/appimage/official/stable/kdenlive@sha256:fe3b07dc951ba2f348862bdfdccc9738ea0da02c2c80e85e23f33bcdff63975a
-  rank: 213
+  rank: 215
 - pkg: krita.appimage
   pkg_name: krita
   pkg_id: gitlab.com.krita.krita.next
@@ -2677,7 +2677,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://invent.kde.org/graphics/krita
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/krita/appimage/official/next/krita:2025-03-20-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/krita/appimage/official/next/krita@sha256:4cc9fc9820a64fdbb84cb1538c46e2dce14094c2ca56b5698c6f10f466893a89
-  rank: 270
+  rank: 271
 - pkg: krita.appimage
   pkg_name: krita
   pkg_id: gitlab.com.krita.krita.stable
@@ -2699,7 +2699,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://invent.kde.org/graphics/krita
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/krita/appimage/official/stable/krita:5.2.9-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/krita/appimage/official/stable/krita@sha256:7ec00f6675bd7cc45520d16417a15ea8393609e0de90663e8ccbc730df23b2bb
-  rank: 271
+  rank: 270
 - pkg: libreoffice.appimage
   pkg_name: libreoffice
   pkg_id: gitlab.com.libreoffice.libreoffice.fresh-basic
@@ -2728,7 +2728,7 @@ pkgcache:
   - This version includes support only for the default language i.e English (US)
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/fresh-basic/libreoffice:25.2.2.1-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/fresh-basic/libreoffice@sha256:3e91e8b03175b3831b57ac810adc59e61360a387329bf832ff7f01136431828d
-  rank: 101
+  rank: 100
 - pkg: libreoffice.appimage
   pkg_name: libreoffice
   pkg_id: gitlab.com.libreoffice.libreoffice.fresh-full
@@ -2757,7 +2757,7 @@ pkgcache:
   - This version includes support for all languages supported by LibreOffice
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/fresh-full/libreoffice:25.2.2.1-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/fresh-full/libreoffice@sha256:9c49535ee3f7d7a3c9d0cd019f7e2a2d1066d8d5e25edf106fd2384e46b6a1b8
-  rank: 102
+  rank: 104
 - pkg: libreoffice.appimage
   pkg_name: libreoffice
   pkg_id: gitlab.com.libreoffice.libreoffice.fresh-standard
@@ -2786,7 +2786,7 @@ pkgcache:
   - "This version includes support for: English (US and GB), Arabic, Chinese (Simplified and Traditional), French, German, Italian, Japanese, Korean, Portuguese (Brazilian and Portugal), Russian, and Spanish"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/fresh-standard/libreoffice:25.2.2.1-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/fresh-standard/libreoffice@sha256:9971e61dc84553bef281e54006b817ed383660abe70b0bce2f9346a07f10ad96
-  rank: 100
+  rank: 101
 - pkg: libreoffice.appimage
   pkg_name: libreoffice
   pkg_id: gitlab.com.libreoffice.libreoffice.still-basic
@@ -2815,7 +2815,7 @@ pkgcache:
   - This version includes support only for the default language i.e English (US)
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/still-basic/libreoffice:25.2.2.1-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/still-basic/libreoffice@sha256:a64e986621cee7726c248888c440e5c49b390f6c704de89ab17057b1dc53226d
-  rank: 98
+  rank: 103
 - pkg: libreoffice.appimage
   pkg_name: libreoffice
   pkg_id: gitlab.com.libreoffice.libreoffice.still-full
@@ -2843,7 +2843,7 @@ pkgcache:
   - This version includes support for all languages supported by LibreOffice
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/still-full/libreoffice:25.2.2.1-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/still-full/libreoffice@sha256:6332f3845de1ad835fff7a69ac5405e86f09932354d2585a7ab82415d1a8ac9f
-  rank: 99
+  rank: 102
 - pkg: libreoffice.appimage
   pkg_name: libreoffice
   pkg_id: gitlab.com.libreoffice.libreoffice.still-standard
@@ -2872,7 +2872,7 @@ pkgcache:
   - "This version includes support for: English (US and GB), Arabic, Chinese (Simplified and Traditional), French, German, Italian, Japanese, Korean, Portuguese (Brazilian and Portugal), Russian, and Spanish"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/still-standard/libreoffice:25.2.2.1-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/still-standard/libreoffice@sha256:9b736a13bb35f92431fde8571e8e8863d6db27b09f2d47c442589f372dc23d33
-  rank: 103
+  rank: 105
 - pkg: librewolf.appimage
   pkg_name: librewolf
   pkg_id: gitlab.com.librewolf-community.browser.appimage.stable
@@ -2925,7 +2925,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://www.qbittorrent.org/download
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/qbittorrent/appimage/official/beta/qbittorrent:5.1.0-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/qbittorrent/appimage/official/beta/qbittorrent@sha256:c79fb7bf0655a6a0f3c5e0d2c5a05d4b29b8eeed3f266afcae1cee48632dde4a
-  rank: 166
+  rank: 173
 - pkg: qbittorrent.appimage
   pkg_name: qbittorrent
   pkg_id: gitlab.com.qbittorrent.qbittorrent.stable
@@ -2952,7 +2952,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://www.qbittorrent.org/download
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/qbittorrent/appimage/official/stable/qbittorrent:5.1.0-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/qbittorrent/appimage/official/stable/qbittorrent@sha256:11cb1397545cfb70f72c2ac3949f9a88db2b6ba862b65b852d8852e8967f0f07
-  rank: 167
+  rank: 172
 - pkg: brave.nixappimage
   pkg_name: brave
   pkg_id: nixpkgs.brave
@@ -3021,7 +3021,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium:134.0.6998.88-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium@sha256:25d47ea9cc760aeb04b295ddc2f19f70dc4c1f117f1f1381f628b47c6db1993d
-  rank: 253
+  rank: 254
 - pkg: discord/discord.nixappimage
   pkg_name: discord
   pkg_id: nixpkgs.discord
@@ -3083,7 +3083,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/discord/nixappimage/nixpkgs/canary/discord:0.0.594-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/discord/nixappimage/nixpkgs/canary/discord@sha256:4cc7320fec20067302bba81ee8bc6913186925fd3c355ff87b3f20ee5abf29d5
-  rank: 29
+  rank: 26
 - pkg: discord/discord.nixappimage
   pkg_name: discord
   pkg_id: nixpkgs.discord-development
@@ -3110,7 +3110,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/discord/nixappimage/nixpkgs/development/discord:0.0.68-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/discord/nixappimage/nixpkgs/development/discord@sha256:b806f5e0c4a0333c45c20e3de4260b85a3199a85598e2f1a54c600069640abe1
-  rank: 26
+  rank: 28
 - pkg: discord/discord.nixappimage
   pkg_name: discord
   pkg_id: nixpkgs.discord-ptb
@@ -3140,7 +3140,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/discord/nixappimage/nixpkgs/ptb/discord:0.0.132-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/discord/nixappimage/nixpkgs/ptb/discord@sha256:05bffaa6bc045ea5d4ab58048601af6d11561838b41ba20752aebaf70e38ecb4
-  rank: 28
+  rank: 29
 - pkg: flameshot.nixappimage
   pkg_name: flameshot
   pkg_id: nixpkgs.flameshot
@@ -3341,7 +3341,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium:134.0.6998.35-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium@sha256:7f82af472e2c93e7cab33ccae03d7dc7b8782c49f57b822a859dd7033c50b9c3
-  rank: 254
+  rank: 253
 - pkg: cmake.appimage
   pkg_name: cmake
   pkg_id: ppkg.bundle.cmake.stable
@@ -3365,7 +3365,7 @@ pkgcache:
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/cmake/appimage/ppkg/stable/cmake:3.31.5-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/cmake/appimage/ppkg/stable/cmake@sha256:aeca00af57fa05c0da743a9579d01da1752142acc63f4a5c772aceacb3451b49
-  rank: 202
+  rank: 205
 - pkg: file.appimage
   pkg_name: file
   pkg_id: ppkg.bundle.file.stable
@@ -3389,7 +3389,7 @@ pkgcache:
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/file/appimage/ppkg/stable/file:5.45-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/file/appimage/ppkg/stable/file@sha256:c47929129fc6500bfb3848245fda5ad0e976b208a4bcd154be04285fefef5653
-  rank: 83
+  rank: 82
 - pkg: freerdp.appimage
   pkg_name: freerdp
   pkg_id: ppkg.bundle.freerdp.stable
@@ -3414,7 +3414,7 @@ pkgcache:
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/freerdp/appimage/ppkg/stable/freerdp:3.12.0-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/freerdp/appimage/ppkg/stable/freerdp@sha256:03561babf857a6194547edbde9c8252d093b5b3e9d49d2dfada2fae022e00c11
-  rank: 210
+  rank: 209
 - pkg: git.appimage
   pkg_name: git
   pkg_id: ppkg.bundle.git.stable
@@ -3538,7 +3538,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/element-desktop/runimage/alpine/stable/element-desktop:1.11.95-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/element-desktop/runimage/alpine/stable/element-desktop@sha256:1b7b35b4a1f4b984454195cf78307c0206c5c7b1f1f7b40929bd995d22ec7a38
-  rank: 61
+  rank: 60
 - pkg: falkon.runimage
   pkg_name: falkon
   pkg_id: runimage.alpine.falkon
@@ -3666,7 +3666,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/kdenlive/runimage/alpine/stable/kdenlive:24.12.3-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/kdenlive/runimage/alpine/stable/kdenlive@sha256:471337090aa6967ac352c43c02e3cd611057ba49331ba17c980fd50a76dd1af1
-  rank: 57
+  rank: 54
 - pkg: krita.runimage
   pkg_name: krita
   pkg_id: runimage.alpine.krita
@@ -3768,7 +3768,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/steam/runimage/archlinux/stable/steam:1.0.0.82-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/steam/runimage/archlinux/stable/steam@sha256:64ae0ef0d966d27a5199d1adec134ef230e9aed9d08d628f2212d1c6e9326dee
-  rank: 55
+  rank: 57
 - pkg: ddnet.runimage
   pkg_name: ddnet
   pkg_id: runimage.cachyos.ddnet
@@ -3819,7 +3819,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/fdm/runimage/cachyos/stable/fdm:6.26.0.6142-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/fdm/runimage/cachyos/stable/fdm@sha256:4a3a86408e45024a58a7f774704a8bb9e22c1350db0cac8268b8e3ea06b82a28
-  rank: 105
+  rank: 107
 - pkg: ffdec.runimage
   pkg_name: ffdec
   pkg_id: runimage.cachyos.ffdec
@@ -3889,7 +3889,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/gimp/runimage/cachyos/git/gimp:3.0.0.RC1.r40.0cd0206917-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/gimp/runimage/cachyos/git/gimp@sha256:50b9ec779d3c2b0109f685b747048be40edfdcbc018e399e55ed7f037ee2d3a7
-  rank: 112
+  rank: 115
 - pkg: gimp.runimage
   pkg_name: gimp
   pkg_id: runimage.cachyos.gimp.stable
@@ -3915,7 +3915,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/gimp/runimage/cachyos/stable/gimp:3.0.0-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/gimp/runimage/cachyos/stable/gimp@sha256:e147b704f7ac791da692680c10010499cc6cf924f7a30075524007f39d48edde
-  rank: 111
+  rank: 114
 - pkg: gnome-boxes.runimage
   pkg_name: gnome-boxes
   pkg_id: runimage.cachyos.gnome-boxes.stable
@@ -3941,7 +3941,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/gnome-boxes/runimage/cachyos/stable/gnome-boxes:48.0-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/gnome-boxes/runimage/cachyos/stable/gnome-boxes@sha256:49ff276b4aeeec748aa104f66a1c5e09ab36f862e0b49ff0860f604b5149b689
-  rank: 119
+  rank: 124
 - pkg: goverlay.runimage
   pkg_name: goverlay
   pkg_id: runimage.cachyos.goverlay.git
@@ -3995,7 +3995,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/goverlay/runimage/cachyos/stable/goverlay:1.3_3-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/goverlay/runimage/cachyos/stable/goverlay@sha256:9354534b2804259d77067a6457778a3bb7724ab3ee906a0208a0210e3182bb98
-  rank: 95
+  rank: 97
 - pkg: gpt4all.runimage
   pkg_name: gpt4all
   pkg_id: runimage.cachyos.gpt4all.git
@@ -4019,7 +4019,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/gpt4all/runimage/cachyos/git/gpt4all:3.3.0.r22.g767189d-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/gpt4all/runimage/cachyos/git/gpt4all@sha256:f5c2ea677638c62843a9873897134458b31cc08f0a8d72a978e2cb3b0313905d
-  rank: 122
+  rank: 129
 - pkg: gzdoom.runimage
   pkg_name: gzdoom
   pkg_id: runimage.cachyos.gzdoom
@@ -4046,7 +4046,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/gzdoom/runimage/cachyos/stable/gzdoom:4.14.1-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/gzdoom/runimage/cachyos/stable/gzdoom@sha256:933cd8e73e6675ade6df40f427b8a9131434910a79281772c3ab48ad9a72dd60
-  rank: 108
+  rank: 111
 - pkg: haguichi.runimage
   pkg_name: haguichi
   pkg_id: runimage.cachyos.haguichi
@@ -4070,7 +4070,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/haguichi/runimage/cachyos/stable/haguichi:1.5.1-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/haguichi/runimage/cachyos/stable/haguichi@sha256:d4a566510fa336d8179dc72bfbae98094c20bf22cb25d9270ee59fe50ff8d0d5
-  rank: 123
+  rank: 130
 - pkg: kdeutils.runimage
   pkg_name: kdeutils
   pkg_id: runimage.cachyos.kdeutils
@@ -4095,7 +4095,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/kdeutils/runimage/cachyos/stable/kdeutils:25.04-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/kdeutils/runimage/cachyos/stable/kdeutils@sha256:b05f717ffca8bc1fd2ca21fdce8c2d076141f96c52ecb5f3ff69884b94fc4b9e
-  rank: 66
+  rank: 69
 - pkg: lact.runimage
   pkg_name: lact
   pkg_id: runimage.cachyos.lact
@@ -4120,7 +4120,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/lact/runimage/cachyos/stable/lact:0.7.2-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/lact/runimage/cachyos/stable/lact@sha256:dc897d9e38be98ab5b11ea5ab0eeffcba10f139bdf5cddb084fd2bfda2383216
-  rank: 117
+  rank: 122
 - pkg: lazarus.runimage
   pkg_name: lazarus
   pkg_id: runimage.cachyos.lazarus
@@ -4146,7 +4146,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/lazarus/runimage/cachyos/stable/lazarus:3.8-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/lazarus/runimage/cachyos/stable/lazarus@sha256:31606cf32c5e8468b7cf74239882b27cbd4c04da18f52df6aa81a1e23eb0a186
-  rank: 14
+  rank: 12
 - pkg: libresprite.runimage
   pkg_name: libresprite
   pkg_id: runimage.cachyos.libresprite
@@ -4170,7 +4170,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/libresprite/runimage/cachyos/stable/libresprite:1.1.r59.ga678ddf-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/libresprite/runimage/cachyos/stable/libresprite@sha256:b98ca9d328006b9fdb424d9037604d4395a3a39d3732002e837f73aa36498349
-  rank: 128
+  rank: 134
 - pkg: librewolf.runimage
   pkg_name: librewolf
   pkg_id: runimage.cachyos.librewolf
@@ -4204,7 +4204,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/librewolf/runimage/cachyos/stable/librewolf:136.0.2_1-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/librewolf/runimage/cachyos/stable/librewolf@sha256:1c3645b3e9df93e21e26c7c3725f441b296ccaac021106b1428657942118ada8
-  rank: 60
+  rank: 61
 - pkg: mcpelauncher.runimage
   pkg_name: mcpelauncher
   pkg_id: runimage.cachyos.mcpelauncher
@@ -4230,7 +4230,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/mcpelauncher/runimage/cachyos/stable/mcpelauncher:1.2.0.r0.gfe07760-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/mcpelauncher/runimage/cachyos/stable/mcpelauncher@sha256:96fec79bcdb2cf4de00e6b3f4389744a60580b2dbed02cf18329c7ee898652ed
-  rank: 109
+  rank: 112
 - pkg: nheko.runimage
   pkg_name: nheko
   pkg_id: runimage.cachyos.nheko
@@ -4255,7 +4255,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/nheko/runimage/cachyos/stable/nheko:0.12.0-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/nheko/runimage/cachyos/stable/nheko@sha256:27434bb8b4a77a207e158bd411190146ca79910eefe8d0a37042a0ad76b95334
-  rank: 126
+  rank: 133
 - pkg: openboard.runimage
   pkg_name: openboard
   pkg_id: runimage.cachyos.openboard
@@ -4279,7 +4279,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/openboard/runimage/cachyos/stable/openboard:1.7.3-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/openboard/runimage/cachyos/stable/openboard@sha256:5de05dfdc03d9a3291011897101612d8ac6191105f1a63527da0922d10cd9131
-  rank: 130
+  rank: 136
 - pkg: ruffle.runimage
   pkg_name: ruffle
   pkg_id: runimage.cachyos.ruffle.nightly
@@ -4305,7 +4305,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/ruffle/runimage/cachyos/nightly/ruffle:0.1.0-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/ruffle/runimage/cachyos/nightly/ruffle@sha256:8e7900536e18a3a9f8bbd6e08aef3a0be406ae1c74ceb0713c3e1f914ff70121
-  rank: 194
+  rank: 195
 - pkg: spotube.runimage
   pkg_name: spotube
   pkg_id: runimage.cachyos.spotube
@@ -4333,7 +4333,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/spotube/runimage/cachyos/stable/spotube:4.0.2-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/spotube/runimage/cachyos/stable/spotube@sha256:d67decd4b4f5c2ee39265e7eadb8b5479357f42332c8f1e1219058fa5124b44e
-  rank: 183
+  rank: 185
 - pkg: steam.runimage
   pkg_name: steam
   pkg_id: runimage.cachyos.steam
@@ -4384,7 +4384,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/vscodium/runimage/cachyos/stable/vscodium:1.96.4.25026-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/vscodium/runimage/cachyos/stable/vscodium@sha256:06efc8159ebf66dc0d8255b6d0f9a3ebb3544b3da495c9ccd41b37c20fce2606
-  rank: 72
+  rank: 74
 - pkg: wezterm.runimage
   pkg_name: wezterm
   pkg_id: runimage.cachyos.wezterm
@@ -4484,7 +4484,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/deltapatcher/runimage/debian/stable/deltapatcher:v3.1.5-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/deltapatcher/runimage/debian/stable/deltapatcher@sha256:21a936afb3d1e34f24a21dcfe7533052436b3ed08bb0e777a0d2e04342699dcc
-  rank: 104
+  rank: 99
 - pkg: fdm.runimage
   pkg_name: fdm
   pkg_id: runimage.debian.fdm
@@ -4535,7 +4535,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/funkin/runimage/debian/stable/funkin:v0.5.3-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/funkin/runimage/debian/stable/funkin@sha256:d810e9b56724e13827ebf659163b9f39ebd27b4a6a9ea263bced00da727ec58c
-  rank: 71
+  rank: 73
 - pkg: megasync.runimage
   pkg_name: megasync
   pkg_id: runimage.debian.megasync
@@ -4586,4 +4586,4 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/ultimmc/runimage/debian/stable/ultimmc:250301T010230jq_error_writingoutputfailed_Brokenpipe-x86_64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/ultimmc/runimage/debian/stable/ultimmc@sha256:fdf2f4165b16d150e50b001204c1515dad0df0ea7556308cba22359b6765b6ea
-  rank: 184
+  rank: 183
