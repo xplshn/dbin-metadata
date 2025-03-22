@@ -300,25 +300,25 @@ pkgcache:
   pkg_name: caido
   pkg_id: github.com.caido.caido.stable
   description: Lightweight web security auditing toolkit
-  version: v0.46.0
+  version: v0.47.1
   download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/caido/appimage/official/stable/caido/v0.46.0-aarch64-linux/caido.appimage
-  size: 151 MB
-  bsum: db87ecb26f9eff0ce2c7927d64a864696b34dd3729e9d6d465e34c73cdb94260
-  shasum: 247266a3df6f58f1cf7b3d8a64f6dacc2c79893238ada5f0c4d47a39823020b4
-  build_date: "2025-03-05T07:54:43Z"
+  size: 152 MB
+  bsum: c71afb348d52b85290ac4eea51c91f8b253ec8ebf8b9afbed35f403f0296ceba
+  shasum: 3c3ae001a4606899502246e3e89a1aa6af716cb82bf93bd4c8a9f67f362ca8ad
+  build_date: "2025-03-21T18:55:37Z"
   src_urls:
   - https://github.com/caido/caido
   web_urls:
   - https://caido.io
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/caido/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/caido/appimage/official/stable/caido?tag=v0.46.0-aarch64-linux&download=caido.log
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/caido/appimage/official/stable/caido?tag=v0.47.1-aarch64-linux&download=caido.log
   snapshots:
   - v0.46.0-aarch64-linux[v0.46.0]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/caido/caido
   - "You may need to run this with: --no-sandbox"
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/caido/appimage/official/stable/caido:v0.46.0-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/caido/appimage/official/stable/caido@sha256:247266a3df6f58f1cf7b3d8a64f6dacc2c79893238ada5f0c4d47a39823020b4
+  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/caido/appimage/official/stable/caido:v0.47.1-aarch64-linux
+  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/caido/appimage/official/stable/caido@sha256:3c3ae001a4606899502246e3e89a1aa6af716cb82bf93bd4c8a9f67f362ca8ad
   rank: 101
 - pkg: pixelpulse2.appimage
   pkg_name: pixelpulse2
@@ -399,7 +399,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/rustdesk/rustdesk
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk:250204T131430-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk@sha256:cad14ce25b459a6c5578521449894cbf117e176bb8bddeb8717733f6179c9900
-  rank: 21
+  rank: 20
 - pkg: rustdesk.appimage
   pkg_name: rustdesk
   pkg_id: github.com.rustdesk.rustdesk.stable
@@ -421,7 +421,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/rustdesk/rustdesk
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk:1.3.7-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk@sha256:4a0b8b26951899f60b8169cb7cfe9ec62f9684eeb088a68903a59f2d9cb2b945
-  rank: 20
+  rank: 21
 - pkg: tangent.appimage
   pkg_name: tangent
   pkg_id: github.com.suchnsuch.Tangent
@@ -445,7 +445,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/suchnsuch/Tangent
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/stable/tangent:0.8.4-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/stable/tangent@sha256:485714d12dafd7f55d32f8eb41a5c8345dff259d7a96e370fb818d68a9beec28
-  rank: 2
+  rank: 3
 - pkg: tangent.appimage
   pkg_name: tangent
   pkg_id: github.com.suchnsuch.Tangent.alpha
@@ -470,7 +470,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/suchnsuch/Tangent
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent:0.9.0-alpha.8-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent@sha256:6a2a0845a277598c5712bd3ea77ae0605c36f8c6fcc7326698a59784ee9bdcd1
-  rank: 3
+  rank: 2
 - pkg: escrcpy.appimage
   pkg_name: escrcpy
   pkg_id: github.com.viarotel-org.escrcpy
@@ -518,23 +518,23 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser:1.0.2-b.5-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser@sha256:98aafee82186fca80707294ec59044991749bfeac47c80ad7f58b5eb874a248c
-  rank: 142
+  rank: 144
 - pkg: zen-browser.appimage
   pkg_name: zen-browser
   pkg_id: github.com.zen-browser.desktop.stable
   description: Performance oriented Firefox-based web browser
-  version: 1.9.1b
-  size: 92 MB
-  bsum: eef0934ab53290e5653c24cc75ec0e265956b84094f02b3a2d0433cbaba3004e
-  shasum: 1a102e45ac6143e223bc41dfcbd324f8781bdf3d17c5a95d34f80501a76f1df5
-  build_date: "2025-03-12T21:43:05Z"
+  version: 1.10b
+  size: 90 MB
+  bsum: 6fd41c85c08b6a13d40695ba606b18bcb7afd57812aec5db71dbc9692d4e9065
+  shasum: 310fc65655ba881a559b7de39163baf64e5f7c1e4d43d3d57be6984673d192ba
+  build_date: "2025-03-21T19:43:58Z"
   src_urls:
   - https://github.com/zen-browser/desktop
   web_urls:
   - https://zen-browser.app
   - https://github.com/zen-browser/desktop
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.9.1b-aarch64-linux&download=zen-browser.log
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.10b-aarch64-linux&download=zen-browser.log
   snapshots:
   - 1.7b-aarch64-linux[1.7b]
   - 1.7.1b-aarch64-linux[1.7.1b]
@@ -546,27 +546,28 @@ pkgcache:
   - 1.8.1b-aarch64-linux[1.8.1b]
   - 1.8.2b-aarch64-linux[1.8.2b]
   - 1.9b-aarch64-linux[1.9b]
+  - 1.9.1b-aarch64-linux[1.9.1b]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser:1.9.1b-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser@sha256:1a102e45ac6143e223bc41dfcbd324f8781bdf3d17c5a95d34f80501a76f1df5
-  rank: 144
+  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser:1.10b-aarch64-linux
+  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser@sha256:310fc65655ba881a559b7de39163baf64e5f7c1e4d43d3d57be6984673d192ba
+  rank: 143
 - pkg: zen-browser.appimage
   pkg_name: zen-browser
   pkg_id: github.com.zen-browser.desktop.twilight
   description: Performance oriented Firefox-based web browser (Twilight)
-  version: 1.10t_2025-03-18
-  size: 82 MB
-  bsum: 12d16e7d962443f3232eb6e14a42ec8f6805dbd5d085999273ef78f9d3f83fd1
-  shasum: db907788e4946130477e6a642662242f7037d042005c3ebfea758a650a18a165
-  build_date: "2025-03-18T19:35:36Z"
+  version: Twilightbuild-1.10.1t(2025-03-21at07:05:26)
+  size: 90 MB
+  bsum: 2c474f4f7f6dbc62a56259fedb9626b669d66b82a23598f9624dc8e3e1ce3c82
+  shasum: 50f59041ce667626b54b24d098323f3e2261fc2a00638e381fd28e22890c3711
+  build_date: "2025-03-21T19:44:36Z"
   src_urls:
   - https://github.com/zen-browser/desktop
   web_urls:
   - https://zen-browser.app
   - https://github.com/zen-browser/desktop
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.twilight.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=1.10t_2025-03-18-aarch64-linux&download=zen-browser.log
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.10.1t_2025-03-21at07_05_26_-aarch64-linux&download=zen-browser.log
   snapshots:
   - 1.7t_2025-01-15-aarch64-linux[1.7t_2025-01-15]
   - 1.7t_2025-01-16-aarch64-linux[1.7t_2025-01-16]
@@ -607,21 +608,21 @@ pkgcache:
   - Twilightbuild-1.9.1t_2025-03-11at23_03_26_-aarch64-linux[Twilightbuild-1.9.1t(2025-03-11at23:03:26)]
   - 1.10t_2025-03-15-aarch64-linux[1.10t_2025-03-15]
   - 1.10t_2025-03-16-aarch64-linux[1.10t_2025-03-16]
+  - 1.10t_2025-03-18-aarch64-linux[1.10t_2025-03-18]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:1.10t_2025-03-18-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser@sha256:db907788e4946130477e6a642662242f7037d042005c3ebfea758a650a18a165
-  rank: 143
+  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:Twilightbuild-1.10.1t_2025-03-21at07_05_26_-aarch64-linux
+  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser@sha256:50f59041ce667626b54b24d098323f3e2261fc2a00638e381fd28e22890c3711
+  rank: 142
 - pkg: librewolf.appimage
   pkg_name: librewolf
   pkg_id: gitlab.com.librewolf-community.browser.appimage.stable
   description: A fork of Firefox, focused on privacy, security and freedom
-  version: v136.0.1-1
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/librewolf/appimage/official/stable/librewolf/v136.0-2-aarch64-linux/librewolf.appimage
+  version: v136.0.2-1
   size: 101 MB
-  bsum: 4354ef9da12fa59bb25d4400a9798bb3412f7d07716db02947168810cd8e2ce0
-  shasum: 84299660982270021d16f5c0877c01aeeccfa3e73ec89eee4352b7b8187d0034
-  build_date: "2025-03-16T14:53:05Z"
+  bsum: 0d1f8474ff134b6756989f3a7562241dad6e811927053139d3543bf5948ed38b
+  shasum: dfaa29ecdd2d8dbf5daee41d46c16dd5373eca072218dabe785ed17ea1b58cc3
+  build_date: "2025-03-21T19:23:10Z"
   src_urls:
   - https://gitlab.com/librewolf-community/browser/appimage
   web_urls:
@@ -629,15 +630,16 @@ pkgcache:
   - https://librewolf-community.gitlab.io
   - https://gitlab.com/librewolf-community/browser/appimage
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/librewolf/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/librewolf/appimage/official/stable/librewolf?tag=v136.0.1-1-aarch64-linux&download=librewolf.log
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/librewolf/appimage/official/stable/librewolf?tag=v136.0.2-1-aarch64-linux&download=librewolf.log
   snapshots:
   - v135.0-1-aarch64-linux[v135.0-1]
   - v136.0-1-aarch64-linux[v136.0-1]
   - v136.0-2-aarch64-linux[v136.0-2]
+  - v136.0.1-1-aarch64-linux[v136.0.1-1]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://gitlab.com/librewolf-community/browser/appimage
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/librewolf/appimage/official/stable/librewolf:v136.0.1-1-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/librewolf/appimage/official/stable/librewolf@sha256:84299660982270021d16f5c0877c01aeeccfa3e73ec89eee4352b7b8187d0034
+  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/librewolf/appimage/official/stable/librewolf:v136.0.2-1-aarch64-linux
+  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/librewolf/appimage/official/stable/librewolf@sha256:dfaa29ecdd2d8dbf5daee41d46c16dd5373eca072218dabe785ed17ea1b58cc3
   rank: 78
 - pkg: brave.nixappimage
   pkg_name: brave
@@ -708,7 +710,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium:134.0.6998.88-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium@sha256:4d7f773c5821f6a8adf2cc9a463be9bfe865fdd037436db9c2e3e052909e5fca
-  rank: 130
+  rank: 131
 - pkg: flameshot.nixappimage
   pkg_name: flameshot
   pkg_id: nixpkgs.flameshot
@@ -910,7 +912,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium:134.0.6998.35-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium@sha256:8e9d756cf2c4ba969e0eb25dbafdf4934627b6c21a3ddf91c450cc0e2e574dbe
-  rank: 131
+  rank: 130
 - pkg: cmake.appimage
   pkg_name: cmake
   pkg_id: ppkg.bundle.cmake.stable
@@ -1062,27 +1064,28 @@ pkgcache:
   pkg_name: akregator
   pkg_id: runimage.alpine.akregator
   description: KDE RSS feed reader
-  version: 24.12.2
+  version: 24.12.3
   download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/akregator/runimage/alpine/stable/akregator/24.12.2-aarch64-linux/akregator.runimage
-  size: 307 MB
-  bsum: 971b0eedce6ade8d2262d3a0f174e8d451477da6306e4b050cd60b16ac158f22
-  shasum: c2d8634f33bb8e0fa65d613e91e6405b2f2edb26b307d5f5edc2b64b9efbb5a6
-  build_date: "2025-02-11T18:55:13Z"
+  size: 306 MB
+  bsum: 1fe054ca9fc5a59eabc4e6a541c2abf8711c21503a1c790736ae1df2d0efec26
+  shasum: 164c9b14fdfc6da4282a1110f8796dbd51cd12586f8bfe1f8240c862b3ebba00
+  build_date: "2025-03-21T18:58:18Z"
   src_urls:
   - https://invent.kde.org/pim/akregator
   web_urls:
   - https://apps.kde.org/akregator
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/akregator/runimage.alpine.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/akregator/runimage/alpine/stable/akregator?tag=24.12.2-aarch64-linux&download=akregator.log
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/akregator/runimage/alpine/stable/akregator?tag=24.12.3-aarch64-linux&download=akregator.log
   snapshots:
   - 24.12.0-aarch64-linux[24.12.0]
   - 24.12.1-aarch64-linux[24.12.1]
+  - 24.12.2-aarch64-linux[24.12.2]
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/akregator/runimage/alpine/stable/akregator:24.12.2-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/akregator/runimage/alpine/stable/akregator@sha256:c2d8634f33bb8e0fa65d613e91e6405b2f2edb26b307d5f5edc2b64b9efbb5a6
+  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/akregator/runimage/alpine/stable/akregator:24.12.3-aarch64-linux
+  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/akregator/runimage/alpine/stable/akregator@sha256:164c9b14fdfc6da4282a1110f8796dbd51cd12586f8bfe1f8240c862b3ebba00
   rank: 1
 - pkg: element-desktop.runimage
   pkg_name: element-desktop
@@ -1115,12 +1118,12 @@ pkgcache:
   pkg_name: falkon
   pkg_id: runimage.alpine.falkon
   description: Fast, lightweight web browser based on QtWebEngine
-  version: 24.12.2
+  version: 24.12.3
   download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/falkon/runimage/alpine/stable/falkon/24.12.2-aarch64-linux/falkon.runimage
-  size: 256 MB
-  bsum: 3344b6ded938ea8a79d47913757cec2d605e38bc9c27bb01ec3b692c5e0d1bc5
-  shasum: 16a4921da4be2286aa1415d70ad191762a542e5a7c684ff01e6e024f720955e6
-  build_date: "2025-02-13T19:20:32Z"
+  size: 255 MB
+  bsum: ad8e2d6feab723d763196a8451a20289059bb2861fc8162b39dd6560f8c2d824
+  shasum: c54bc56d9d7a5613445dd99faecca0fabb83a42675c4eaa18c81d895e4a4ecb2
+  build_date: "2025-03-21T19:13:47Z"
   src_urls:
   - https://gitlab.alpinelinux.org/alpine/aports/-/tree/master/community/falkon
   web_urls:
@@ -1128,13 +1131,15 @@ pkgcache:
   - https://invent.kde.org/network/falkon
   - https://github.com/KDE/falkon
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/falkon/runimage.alpine.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/falkon/runimage/alpine/stable/falkon?tag=24.12.2-aarch64-linux&download=falkon.log
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/falkon/runimage/alpine/stable/falkon?tag=24.12.3-aarch64-linux&download=falkon.log
+  snapshots:
+  - 24.12.2-aarch64-linux[24.12.2]
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/falkon/runimage/alpine/stable/falkon:24.12.2-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/falkon/runimage/alpine/stable/falkon@sha256:16a4921da4be2286aa1415d70ad191762a542e5a7c684ff01e6e024f720955e6
+  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/falkon/runimage/alpine/stable/falkon:24.12.3-aarch64-linux
+  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/falkon/runimage/alpine/stable/falkon@sha256:c54bc56d9d7a5613445dd99faecca0fabb83a42675c4eaa18c81d895e4a4ecb2
   rank: 24
 - pkg: ghex.runimage
   pkg_name: ghex
@@ -1214,27 +1219,28 @@ pkgcache:
   pkg_name: kdenlive
   pkg_id: runimage.alpine.kdenlive
   description: FOSS video editor, based on MLT Framework and KDE Frameworks
-  version: 24.12.2
+  version: 24.12.3
   download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/kdenlive/runimage/alpine/stable/kdenlive/24.12.2-aarch64-linux/kdenlive.runimage
-  size: 232 MB
-  bsum: f6a7b3eefb3005caa2ba4b1dc5face8675405e79474d8d484bbdf3f0271c5b34
-  shasum: 0edc7eb783c2530a43290742a7cf920fd0d3aa25b979a766a11cdb346b9567f1
-  build_date: "2025-02-11T18:54:24Z"
+  size: 210 MB
+  bsum: 7a3788d742f3e222927e3b7ef30d9ceb905f23a6f670df2dbc0918f0c206d836
+  shasum: b4f67e82504e2d78e1ab536fddcdc5892ec9cef3d61fa0d73704c8078a254190
+  build_date: "2025-03-21T19:21:13Z"
   src_urls:
   - https://gitlab.alpinelinux.org/alpine/aports/-/tree/master/community/kdenlive
   web_urls:
   - https://apps.kde.org/kdenlive
   - https://invent.kde.org/multimedia/kdenlive
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/kdenlive/runimage.alpine.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/kdenlive/runimage/alpine/stable/kdenlive?tag=24.12.2-aarch64-linux&download=kdenlive.log
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/kdenlive/runimage/alpine/stable/kdenlive?tag=24.12.3-aarch64-linux&download=kdenlive.log
   snapshots:
   - 24.12.1-aarch64-linux[24.12.1]
+  - 24.12.2-aarch64-linux[24.12.2]
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/kdenlive/runimage/alpine/stable/kdenlive:24.12.2-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/kdenlive/runimage/alpine/stable/kdenlive@sha256:0edc7eb783c2530a43290742a7cf920fd0d3aa25b979a766a11cdb346b9567f1
+  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/kdenlive/runimage/alpine/stable/kdenlive:24.12.3-aarch64-linux
+  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/kdenlive/runimage/alpine/stable/kdenlive@sha256:b4f67e82504e2d78e1ab536fddcdc5892ec9cef3d61fa0d73704c8078a254190
   rank: 9
 - pkg: krita.runimage
   pkg_name: krita
@@ -1342,9 +1348,9 @@ pkgcache:
   version: "6.07"
   download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/clamtk/runimage/debian/stable/clamtk/6.07-aarch64-linux/clamtk.runimage
   size: 79 MB
-  bsum: 4c7ffbc1c99a4167a4acee82711444a2f0dc269a0e87f5feb146795a9a75d3ef
-  shasum: 6cf75fea3fbf004f6b9d7a064af796c6397d501d8b41eff166be78d16f68f104
-  build_date: "2025-03-18T18:58:57Z"
+  bsum: 4aa240c81f8a5fccaf3db05c12a91a688e1c41a3c0f8750ba1f44c30aab48071
+  shasum: 958734368edc82e8e4aa1e77342af1e8f59a91587d53838f889d4556a3afe5ac
+  build_date: "2025-03-21T18:56:53Z"
   src_urls:
   - https://github.com/dave-theunsub/clamtk
   - https://gitlab.com/dave_m/clamtk
@@ -1360,5 +1366,5 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk:6.07-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk@sha256:6cf75fea3fbf004f6b9d7a064af796c6397d501d8b41eff166be78d16f68f104
+  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk@sha256:958734368edc82e8e4aa1e77342af1e8f59a91587d53838f889d4556a3afe5ac
   rank: 134
