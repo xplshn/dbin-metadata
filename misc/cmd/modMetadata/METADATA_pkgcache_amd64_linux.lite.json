@@ -957,7 +957,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/affine/appimage/official/canary-2/affine:v0.21.0-canary.2-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/affine/appimage/official/canary-2/affine@sha256:1f2f88c80ae589d4660a27ad877f65328c009432e24894340f9b1759e5960d95",
-   "rank": 19
+   "rank": 21
   },
   {
    "pkg": "affine.appimage",
@@ -992,7 +992,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/affine/appimage/official/stable/affine:v0.20.5-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/affine/appimage/official/stable/affine@sha256:b34b7854450aecb5823745ab250ad5d5c62f456ddb43f165baa20ebe8348a2fa",
-   "rank": 21
+   "rank": 19
   },
   {
    "pkg": "air-controller-desktop.appimage",
@@ -1205,7 +1205,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/goverlay/appimage/official/nightly/goverlay:250321T142911-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/goverlay/appimage/official/nightly/goverlay@sha256:736c2ea3e67b3b8a7d91b610083fb7c376f97429f366a2c631c506b7c3b80871",
-   "rank": 240
+   "rank": 241
   },
   {
    "pkg": "goverlay.appimage",
@@ -1235,7 +1235,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/goverlay/appimage/official/stable/goverlay:1.3-3-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/goverlay/appimage/official/stable/goverlay@sha256:b9078577584a9d802f4cc93eb18098ed3faf84004c230bfb7df4c96fa8bcd256",
-   "rank": 241
+   "rank": 240
   },
   {
    "pkg": "alexandria.appimage",
@@ -1793,7 +1793,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/yangdownloader:v3.3.2-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/yangdownloader@sha256:96f5bffe1a38f9e3e597129dc91117ba649af52c2393d62fde1d882dbaaf1698",
-   "rank": 44
+   "rank": 45
   },
   {
    "pkg": "player432hz/player432hz.appimage",
@@ -1820,7 +1820,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/player432hz:v3.3.2-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/player432hz@sha256:c66dbfc5eed92833648ea2759ab69e6ab221419f7f6d635a3e9414bfbb0957e2",
-   "rank": 45
+   "rank": 44
   },
   {
    "pkg": "neovim.appimage",
@@ -2351,7 +2351,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk:250204T131430-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk@sha256:2f8f2dd1888c2134802c363a238b74efd85a3eed9a61542c3919685e6a419444",
-   "rank": 75
+   "rank": 76
   },
   {
    "pkg": "rustdesk.appimage",
@@ -2378,7 +2378,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk:1.3.7-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk@sha256:ee25b8a862da8b771f74b124b1158cfaefe07fb54642ce9cbd8f623f8ef8c131",
-   "rank": 76
+   "rank": 75
   },
   {
    "pkg": "simplex-desktop.appimage",
@@ -2613,7 +2613,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/dev/firefox:137.0.20250319094417-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/dev/firefox@sha256:267f7ff33057b7e3bb2a5ba16b705823fa9f748a925f854c6db5781ce9b58565",
-   "rank": 252
+   "rank": 249
   },
   {
    "pkg": "firefox.appimage",
@@ -2645,7 +2645,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/esr/firefox:128.8.20250224130137-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/esr/firefox@sha256:d0c9eec0b5cdfb82acaeb72412645dab56edfd2672bc7eda84bb8ccc80bd27cb",
-   "rank": 248
+   "rank": 251
   },
   {
    "pkg": "firefox.appimage",
@@ -2718,7 +2718,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/nightly/firefox:138.0.20250321040811-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/nightly/firefox@sha256:a5cce284f5efea490c73c93510c10f05d7ea05ea5f679ee2078f9bbc947259ee",
-   "rank": 249
+   "rank": 248
   },
   {
    "pkg": "firefox.appimage",
@@ -2754,7 +2754,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/stable/firefox:136.0.20250317120031-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/stable/firefox@sha256:3c26d6faf0fe9c73cf892529ded60315e25cc840de9b51bb9d96bce6b4eee373",
-   "rank": 251
+   "rank": 252
   },
   {
    "pkg": "discord/discord-canary.appimage",
@@ -2906,7 +2906,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/stable/tangent:0.8.4-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/stable/tangent@sha256:92bf4b59b53159a2ac185e1031dbb651fe6bdfeefd7aa5316ca5f3af03468c7a",
-   "rank": 2
+   "rank": 3
   },
   {
    "pkg": "tangent.appimage",
@@ -2937,7 +2937,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent:0.9.0-alpha.8-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent@sha256:008e4caa7df2f323f3b6dedf2316b1d2f8bf31f55536f5a2e87162f67bc919ee",
-   "rank": 3
+   "rank": 2
   },
   {
    "pkg": "synfigstudio.appimage",
@@ -3137,7 +3137,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser:1.0.2-b.5-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser@sha256:7da2733c7b6313743ef56a4f9b52e2a787fb44942b85675353e3056825f2d978",
-   "rank": 266
+   "rank": 265
   },
   {
    "pkg": "zen-browser.appimage",
@@ -3177,7 +3177,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser:1.10b-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser@sha256:a13b2322e6ee3d24fab4d528638926042df85676ea8645be7dc22245d88ede81",
-   "rank": 265
+   "rank": 266
   },
   {
    "pkg": "zen-browser.appimage",
@@ -3514,7 +3514,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/fresh-full/libreoffice:25.2.2.1-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/fresh-full/libreoffice@sha256:9c49535ee3f7d7a3c9d0cd019f7e2a2d1066d8d5e25edf106fd2384e46b6a1b8",
-   "rank": 104
+   "rank": 103
   },
   {
    "pkg": "libreoffice.appimage",
@@ -3584,7 +3584,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/still-basic/libreoffice:25.2.2.1-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/still-basic/libreoffice@sha256:a64e986621cee7726c248888c440e5c49b390f6c704de89ab17057b1dc53226d",
-   "rank": 103
+   "rank": 102
   },
   {
    "pkg": "libreoffice.appimage",
@@ -3618,7 +3618,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/still-full/libreoffice:25.2.2.1-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/still-full/libreoffice@sha256:6332f3845de1ad835fff7a69ac5405e86f09932354d2585a7ab82415d1a8ac9f",
-   "rank": 102
+   "rank": 105
   },
   {
    "pkg": "libreoffice.appimage",
@@ -3653,7 +3653,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/still-standard/libreoffice:25.2.2.1-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/still-standard/libreoffice@sha256:9b736a13bb35f92431fde8571e8e8863d6db27b09f2d47c442589f372dc23d33",
-   "rank": 105
+   "rank": 104
   },
   {
    "pkg": "librewolf.appimage",
@@ -3717,7 +3717,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/qbittorrent/appimage/official/beta/qbittorrent:5.1.0-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/qbittorrent/appimage/official/beta/qbittorrent@sha256:c79fb7bf0655a6a0f3c5e0d2c5a05d4b29b8eeed3f266afcae1cee48632dde4a",
-   "rank": 173
+   "rank": 172
   },
   {
    "pkg": "qbittorrent.appimage",
@@ -3750,7 +3750,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/qbittorrent/appimage/official/stable/qbittorrent:5.1.0-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/qbittorrent/appimage/official/stable/qbittorrent@sha256:11cb1397545cfb70f72c2ac3949f9a88db2b6ba862b65b852d8852e8967f0f07",
-   "rank": 172
+   "rank": 173
   },
   {
    "pkg": "brave.nixappimage",
@@ -3831,7 +3831,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium:134.0.6998.88-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium@sha256:25d47ea9cc760aeb04b295ddc2f19f70dc4c1f117f1f1381f628b47c6db1993d",
-   "rank": 254
+   "rank": 253
   },
   {
    "pkg": "discord/discord.nixappimage",
@@ -3938,7 +3938,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/discord/nixappimage/nixpkgs/development/discord:0.0.68-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/discord/nixappimage/nixpkgs/development/discord@sha256:b806f5e0c4a0333c45c20e3de4260b85a3199a85598e2f1a54c600069640abe1",
-   "rank": 28
+   "rank": 29
   },
   {
    "pkg": "discord/discord.nixappimage",
@@ -3974,7 +3974,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/discord/nixappimage/nixpkgs/ptb/discord:0.0.132-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/discord/nixappimage/nixpkgs/ptb/discord@sha256:05bffaa6bc045ea5d4ab58048601af6d11561838b41ba20752aebaf70e38ecb4",
-   "rank": 29
+   "rank": 28
   },
   {
    "pkg": "flameshot.nixappimage",
@@ -4217,7 +4217,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium:134.0.6998.35-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium@sha256:7f82af472e2c93e7cab33ccae03d7dc7b8782c49f57b822a859dd7033c50b9c3",
-   "rank": 253
+   "rank": 254
   },
   {
    "pkg": "cmake.appimage",
@@ -4705,7 +4705,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/wezterm/runimage/alpine/stable/wezterm:20240203.110809-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/wezterm/runimage/alpine/stable/wezterm@sha256:1a247b3cf007e451f9542a7427a893a914494f8fa4c38683eef8226ef0569547",
-   "rank": 79
+   "rank": 80
   },
   {
    "pkg": "steam.runimage",
@@ -4801,7 +4801,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/fdm/runimage/cachyos/stable/fdm:6.26.0.6142-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/fdm/runimage/cachyos/stable/fdm@sha256:4a3a86408e45024a58a7f774704a8bb9e22c1350db0cac8268b8e3ea06b82a28",
-   "rank": 107
+   "rank": 106
   },
   {
    "pkg": "ffdec.runimage",
@@ -5518,7 +5518,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/wezterm/runimage/cachyos/stable/wezterm:20240203.110809.5046fc22-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/wezterm/runimage/cachyos/stable/wezterm@sha256:61082f7abd7aca9cd9b87079516472ec010c8fa5aea64ccd601de3fb865de9ae",
-   "rank": 80
+   "rank": 79
   },
   {
    "pkg": "blender.runimage",
@@ -5642,7 +5642,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/fdm/runimage/debian/stable/fdm:6.26-x86_64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/fdm/runimage/debian/stable/fdm@sha256:38707745c8fdf125f8d179775f7d177598b92e330be4e3be494d50e1bcea27c8",
-   "rank": 106
+   "rank": 107
   },
   {
    "pkg": "funkin.runimage",
