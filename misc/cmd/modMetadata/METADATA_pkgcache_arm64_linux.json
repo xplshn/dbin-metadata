@@ -471,7 +471,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx:1.2.357-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx@sha256:d4b16be8cf8c8c472db124754f45da859d5875d81cb4ef0bf2c4c3a504a026fb",
-   "rank": 23
+   "rank": 22
   },
   {
    "pkg": "ryujinx.appimage",
@@ -499,7 +499,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx:1.2.81-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx@sha256:ae7602d73ae32b4a0192b8b7517373df953a61241fa97de395f3bc82a956a0cd",
-   "rank": 22
+   "rank": 23
   },
   {
    "pkg": "vesktop.appimage",
@@ -824,19 +824,19 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser:1.0.2-b.5-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser@sha256:98aafee82186fca80707294ec59044991749bfeac47c80ad7f58b5eb874a248c",
-   "rank": 143
+   "rank": 144
   },
   {
    "pkg": "zen-browser.appimage",
    "pkg_name": "zen-browser",
    "pkg_id": "github.com.zen-browser.desktop.stable",
-   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.10b-aarch64-linux\u0026download=zen-browser.png",
+   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.10.1b-aarch64-linux\u0026download=zen-browser.png",
    "description": "Performance oriented Firefox-based web browser",
-   "version": "1.10b",
+   "version": "1.10.1b",
    "size": "90 MB",
-   "bsum": "6fd41c85c08b6a13d40695ba606b18bcb7afd57812aec5db71dbc9692d4e9065",
-   "shasum": "310fc65655ba881a559b7de39163baf64e5f7c1e4d43d3d57be6984673d192ba",
-   "build_date": "2025-03-21T19:43:58Z",
+   "bsum": "3b3f002a2838b67e4893c41b616a52b8804f62ecc9233c8cceca5a00195f5389",
+   "shasum": "9e377234520d918a6adf267356f40a4c8739a89d016106e3859761d155c108b8",
+   "build_date": "2025-03-23T19:28:24Z",
    "src_urls": [
     "https://github.com/zen-browser/desktop"
    ],
@@ -845,7 +845,7 @@
     "https://github.com/zen-browser/desktop"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.stable.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.10b-aarch64-linux\u0026download=zen-browser.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.10.1b-aarch64-linux\u0026download=zen-browser.log",
    "snapshots": [
     "1.7b-aarch64-linux[1.7b]",
     "1.7.1b-aarch64-linux[1.7.1b]",
@@ -857,27 +857,28 @@
     "1.8.1b-aarch64-linux[1.8.1b]",
     "1.8.2b-aarch64-linux[1.8.2b]",
     "1.9b-aarch64-linux[1.9b]",
-    "1.9.1b-aarch64-linux[1.9.1b]"
+    "1.9.1b-aarch64-linux[1.9.1b]",
+    "1.10b-aarch64-linux[1.10b]"
    ],
    "provides": "zen-browser==zen",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop"
    ],
-   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser:1.10b-aarch64-linux",
-   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser@sha256:310fc65655ba881a559b7de39163baf64e5f7c1e4d43d3d57be6984673d192ba",
-   "rank": 144
+   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser:1.10.1b-aarch64-linux",
+   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser@sha256:9e377234520d918a6adf267356f40a4c8739a89d016106e3859761d155c108b8",
+   "rank": 143
   },
   {
    "pkg": "zen-browser.appimage",
    "pkg_name": "zen-browser",
    "pkg_id": "github.com.zen-browser.desktop.twilight",
-   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.10.1t_2025-03-21at07_05_26_-aarch64-linux\u0026download=zen-browser.png",
+   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.10.1t_2025-03-23at09_42_45_-aarch64-linux\u0026download=zen-browser.png",
    "description": "Performance oriented Firefox-based web browser (Twilight)",
-   "version": "Twilightbuild-1.10.1t(2025-03-21at07:05:26)",
+   "version": "Twilightbuild-1.10.1t(2025-03-23at09:42:45)",
    "size": "90 MB",
-   "bsum": "2c474f4f7f6dbc62a56259fedb9626b669d66b82a23598f9624dc8e3e1ce3c82",
-   "shasum": "50f59041ce667626b54b24d098323f3e2261fc2a00638e381fd28e22890c3711",
-   "build_date": "2025-03-21T19:44:36Z",
+   "bsum": "5bcf84f8f9aaeb19079f097ac503d5a5c7c8ffd446da9e1afa56f8d2f641f3f5",
+   "shasum": "674b260fdd5b33960766fad9bf08a3949d5cab19eaf34cd7e397084282fae362",
+   "build_date": "2025-03-23T19:29:09Z",
    "src_urls": [
     "https://github.com/zen-browser/desktop"
    ],
@@ -886,7 +887,7 @@
     "https://github.com/zen-browser/desktop"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.twilight.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.10.1t_2025-03-21at07_05_26_-aarch64-linux\u0026download=zen-browser.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.10.1t_2025-03-23at09_42_45_-aarch64-linux\u0026download=zen-browser.log",
    "snapshots": [
     "1.7t_2025-01-15-aarch64-linux[1.7t_2025-01-15]",
     "1.7t_2025-01-16-aarch64-linux[1.7t_2025-01-16]",
@@ -927,14 +928,15 @@
     "Twilightbuild-1.9.1t_2025-03-11at23_03_26_-aarch64-linux[Twilightbuild-1.9.1t(2025-03-11at23:03:26)]",
     "1.10t_2025-03-15-aarch64-linux[1.10t_2025-03-15]",
     "1.10t_2025-03-16-aarch64-linux[1.10t_2025-03-16]",
-    "1.10t_2025-03-18-aarch64-linux[1.10t_2025-03-18]"
+    "1.10t_2025-03-18-aarch64-linux[1.10t_2025-03-18]",
+    "Twilightbuild-1.10.1t_2025-03-21at07_05_26_-aarch64-linux[Twilightbuild-1.10.1t(2025-03-21at07:05:26)]"
    ],
    "provides": "zen-browser==zen",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop"
    ],
-   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:Twilightbuild-1.10.1t_2025-03-21at07_05_26_-aarch64-linux",
-   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser@sha256:50f59041ce667626b54b24d098323f3e2261fc2a00638e381fd28e22890c3711",
+   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:Twilightbuild-1.10.1t_2025-03-23at09_42_45_-aarch64-linux",
+   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser@sha256:674b260fdd5b33960766fad9bf08a3949d5cab19eaf34cd7e397084282fae362",
    "rank": 142
   },
   {
@@ -1882,9 +1884,9 @@
    "version": "6.07",
    "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/clamtk/runimage/debian/stable/clamtk/6.07-aarch64-linux/clamtk.runimage",
    "size": "79 MB",
-   "bsum": "4aa240c81f8a5fccaf3db05c12a91a688e1c41a3c0f8750ba1f44c30aab48071",
-   "shasum": "958734368edc82e8e4aa1e77342af1e8f59a91587d53838f889d4556a3afe5ac",
-   "build_date": "2025-03-21T18:56:53Z",
+   "bsum": "795440495bc4c51463c48d9ab89c4e79de50687f2d37b873125d3c90b8517a73",
+   "shasum": "73f50e3078c7c06582b53cb1bf30b66cc0fc7be6c49d569918d10e06c62719b4",
+   "build_date": "2025-03-23T18:54:11Z",
    "src_urls": [
     "https://github.com/dave-theunsub/clamtk",
     "https://gitlab.com/dave_m/clamtk"
@@ -1905,7 +1907,7 @@
     "[PORTABLE] (Works on AnyLinux)"
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk:6.07-aarch64-linux",
-   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk@sha256:958734368edc82e8e4aa1e77342af1e8f59a91587d53838f889d4556a3afe5ac",
+   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk@sha256:73f50e3078c7c06582b53cb1bf30b66cc0fc7be6c49d569918d10e06c62719b4",
    "rank": 134
   }
  ]
