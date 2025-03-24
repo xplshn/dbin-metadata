@@ -254,7 +254,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/ryujinx/ryujinx
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx:1.2.357-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx@sha256:d4b16be8cf8c8c472db124754f45da859d5875d81cb4ef0bf2c4c3a504a026fb
-  rank: 22
+  rank: 23
 - pkg: ryujinx.appimage
   pkg_name: ryujinx
   pkg_id: github.com.Ryubing.Ryujinx.stable
@@ -277,7 +277,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/ryujinx/ryujinx
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx:1.2.81-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx@sha256:ae7602d73ae32b4a0192b8b7517373df953a61241fa97de395f3bc82a956a0cd
-  rank: 23
+  rank: 22
 - pkg: vesktop.appimage
   pkg_name: vesktop
   pkg_id: github.com.Vencord.Vesktop
@@ -465,7 +465,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/suchnsuch/Tangent
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/stable/tangent:0.8.4-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/stable/tangent@sha256:485714d12dafd7f55d32f8eb41a5c8345dff259d7a96e370fb818d68a9beec28
-  rank: 2
+  rank: 3
 - pkg: tangent.appimage
   pkg_name: tangent
   pkg_id: github.com.suchnsuch.Tangent.alpha
@@ -492,7 +492,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/suchnsuch/Tangent
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent:0.9.0-alpha.8-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent@sha256:6a2a0845a277598c5712bd3ea77ae0605c36f8c6fcc7326698a59784ee9bdcd1
-  rank: 3
+  rank: 2
 - pkg: escrcpy.appimage
   pkg_name: escrcpy
   pkg_id: github.com.viarotel-org.escrcpy
@@ -544,7 +544,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser:1.0.2-b.5-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser@sha256:98aafee82186fca80707294ec59044991749bfeac47c80ad7f58b5eb874a248c
-  rank: 144
+  rank: 142
 - pkg: zen-browser.appimage
   pkg_name: zen-browser
   pkg_id: github.com.zen-browser.desktop.stable
@@ -580,7 +580,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser:1.10.1b-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser@sha256:9e377234520d918a6adf267356f40a4c8739a89d016106e3859761d155c108b8
-  rank: 143
+  rank: 144
 - pkg: zen-browser.appimage
   pkg_name: zen-browser
   pkg_id: github.com.zen-browser.desktop.twilight
@@ -645,7 +645,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:Twilightbuild-1.10.1t_2025-03-23at09_42_45_-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser@sha256:674b260fdd5b33960766fad9bf08a3949d5cab19eaf34cd7e397084282fae362
-  rank: 142
+  rank: 143
 - pkg: librewolf.appimage
   pkg_name: librewolf
   pkg_id: gitlab.com.librewolf-community.browser.appimage.stable
@@ -749,7 +749,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium:134.0.6998.88-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium@sha256:4d7f773c5821f6a8adf2cc9a463be9bfe865fdd037436db9c2e3e052909e5fca
-  rank: 131
+  rank: 130
 - pkg: flameshot.nixappimage
   pkg_name: flameshot
   pkg_id: nixpkgs.flameshot
@@ -965,7 +965,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium:134.0.6998.35-aarch64-linux
   ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium@sha256:8e9d756cf2c4ba969e0eb25dbafdf4934627b6c21a3ddf91c450cc0e2e574dbe
-  rank: 130
+  rank: 131
 - pkg: cmake.appimage
   pkg_name: cmake
   pkg_id: ppkg.bundle.cmake.stable
