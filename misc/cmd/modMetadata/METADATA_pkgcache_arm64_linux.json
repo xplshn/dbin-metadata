@@ -769,14 +769,14 @@
    "pkg": "escrcpy.appimage",
    "pkg_name": "escrcpy",
    "pkg_id": "github.com.viarotel-org.escrcpy",
-   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/escrcpy/appimage/official/stable/escrcpy?tag=v1.28.7-aarch64-linux\u0026download=escrcpy.png",
+   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/escrcpy/appimage/official/stable/escrcpy?tag=v1.29.0-aarch64-linux\u0026download=escrcpy.png",
    "description": "Graphical Scrcpy to display and control Android, devices",
-   "version": "v1.28.7",
+   "version": "v1.29.0",
    "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/escrcpy/appimage/official/stable/escrcpy/v1.28.7-aarch64-linux/escrcpy.appimage",
-   "size": "122 MB",
-   "bsum": "9ba156269c74575fe7eaa91566a5ea124b099465d219a17f86437c5b9079ebaa",
-   "shasum": "f3bd719a7a27220668101e980da3b9f7c1a5b6134b255893137c61a65e779654",
-   "build_date": "2025-02-17T20:04:02Z",
+   "size": "89 MB",
+   "bsum": "a3c1adee1c1840035161d94c984babc9cacb96ba3b01afb345a69307876d9485",
+   "shasum": "de913de690b041938242dc0a23d09de2123b1efc487b7214a4c7d25ce7b8d82d",
+   "build_date": "2025-03-28T19:00:18Z",
    "src_urls": [
     "https://github.com/viarotel-org/escrcpy"
    ],
@@ -784,17 +784,18 @@
     "https://github.com/viarotel-org/escrcpy"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/escrcpy/appimage.official.stable.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/escrcpy/appimage/official/stable/escrcpy?tag=v1.28.7-aarch64-linux\u0026download=escrcpy.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/escrcpy/appimage/official/stable/escrcpy?tag=v1.29.0-aarch64-linux\u0026download=escrcpy.log",
    "snapshots": [
     "v1.28.4-aarch64-linux[v1.28.4]",
-    "v1.28.6-aarch64-linux[v1.28.6]"
+    "v1.28.6-aarch64-linux[v1.28.6]",
+    "v1.28.7-aarch64-linux[v1.28.7]"
    ],
    "provides": "escrcpy",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/viarotel-org/escrcpy"
    ],
-   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/escrcpy/appimage/official/stable/escrcpy:v1.28.7-aarch64-linux",
-   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/escrcpy/appimage/official/stable/escrcpy@sha256:f3bd719a7a27220668101e980da3b9f7c1a5b6134b255893137c61a65e779654",
+   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/escrcpy/appimage/official/stable/escrcpy:v1.29.0-aarch64-linux",
+   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/escrcpy/appimage/official/stable/escrcpy@sha256:de913de690b041938242dc0a23d09de2123b1efc487b7214a4c7d25ce7b8d82d",
    "rank": 5
   },
   {
@@ -827,20 +828,20 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser:1.0.2-b.5-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser@sha256:98aafee82186fca80707294ec59044991749bfeac47c80ad7f58b5eb874a248c",
-   "rank": 142
+   "rank": 141
   },
   {
    "pkg": "zen-browser.appimage",
    "pkg_name": "zen-browser",
    "pkg_id": "github.com.zen-browser.desktop.stable",
-   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.10.1b-aarch64-linux\u0026download=zen-browser.png",
+   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.10.3b-aarch64-linux\u0026download=zen-browser.png",
    "description": "Performance oriented Firefox-based web browser",
-   "version": "1.10.1b",
+   "version": "1.10.3b",
    "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/zen-browser/appimage/official/stable/zen-browser/1.10.1b-aarch64-linux/zen-browser.appimage",
    "size": "90 MB",
-   "bsum": "3b3f002a2838b67e4893c41b616a52b8804f62ecc9233c8cceca5a00195f5389",
-   "shasum": "9e377234520d918a6adf267356f40a4c8739a89d016106e3859761d155c108b8",
-   "build_date": "2025-03-23T19:28:24Z",
+   "bsum": "c3e3c8abda4ba0a27a461bac7c03eeac0cba3ef183aef639298f44360fbf5279",
+   "shasum": "931e3eaad96688469f8b2c1aaa97f1f5ce02d2e5e8e4e31597c24b01fbe01bbc",
+   "build_date": "2025-03-28T19:39:04Z",
    "src_urls": [
     "https://github.com/zen-browser/desktop"
    ],
@@ -849,7 +850,7 @@
     "https://github.com/zen-browser/desktop"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.stable.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.10.1b-aarch64-linux\u0026download=zen-browser.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.10.3b-aarch64-linux\u0026download=zen-browser.log",
    "snapshots": [
     "1.7b-aarch64-linux[1.7b]",
     "1.7.1b-aarch64-linux[1.7.1b]",
@@ -862,28 +863,29 @@
     "1.8.2b-aarch64-linux[1.8.2b]",
     "1.9b-aarch64-linux[1.9b]",
     "1.9.1b-aarch64-linux[1.9.1b]",
-    "1.10b-aarch64-linux[1.10b]"
+    "1.10b-aarch64-linux[1.10b]",
+    "1.10.1b-aarch64-linux[1.10.1b]"
    ],
    "provides": "zen-browser==zen",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop"
    ],
-   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser:1.10.1b-aarch64-linux",
-   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser@sha256:9e377234520d918a6adf267356f40a4c8739a89d016106e3859761d155c108b8",
-   "rank": 140
+   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser:1.10.3b-aarch64-linux",
+   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser@sha256:931e3eaad96688469f8b2c1aaa97f1f5ce02d2e5e8e4e31597c24b01fbe01bbc",
+   "rank": 142
   },
   {
    "pkg": "zen-browser.appimage",
    "pkg_name": "zen-browser",
    "pkg_id": "github.com.zen-browser.desktop.twilight",
-   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.10.1t_2025-03-24at23_08_45_-aarch64-linux\u0026download=zen-browser.png",
+   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.10.3t_2025-03-27at23_03_27_-aarch64-linux\u0026download=zen-browser.png",
    "description": "Performance oriented Firefox-based web browser (Twilight)",
-   "version": "Twilightbuild-1.10.1t(2025-03-24at23:08:45)",
+   "version": "Twilightbuild-1.10.3t(2025-03-27at23:03:27)",
    "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/zen-browser/appimage/official/twilight/zen-browser/Twilightbuild-1.10.1t_2025-03-24at23_08_45_-aarch64-linux/zen-browser.appimage",
    "size": "90 MB",
-   "bsum": "c60b85c61b136a2f8f9d2c0af1f34c9260b2648c432bf769fba939613920afe7",
-   "shasum": "27fcc74e137747824da058f91b472515f5606f9cb541313f4adb5416522ebf3d",
-   "build_date": "2025-03-25T19:45:35Z",
+   "bsum": "cf45f47ab038c43801aa1b78cc0c550d224b03807e7612c1d8294e1eb0bc9a05",
+   "shasum": "ea3d57429ba9cd5ffeec353cce268564b7f00e478c6522d498bba45d3920b272",
+   "build_date": "2025-03-28T19:39:16Z",
    "src_urls": [
     "https://github.com/zen-browser/desktop"
    ],
@@ -892,7 +894,7 @@
     "https://github.com/zen-browser/desktop"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.twilight.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.10.1t_2025-03-24at23_08_45_-aarch64-linux\u0026download=zen-browser.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.10.3t_2025-03-27at23_03_27_-aarch64-linux\u0026download=zen-browser.log",
    "snapshots": [
     "1.7t_2025-01-15-aarch64-linux[1.7t_2025-01-15]",
     "1.7t_2025-01-16-aarch64-linux[1.7t_2025-01-16]",
@@ -935,27 +937,28 @@
     "1.10t_2025-03-16-aarch64-linux[1.10t_2025-03-16]",
     "1.10t_2025-03-18-aarch64-linux[1.10t_2025-03-18]",
     "Twilightbuild-1.10.1t_2025-03-21at07_05_26_-aarch64-linux[Twilightbuild-1.10.1t(2025-03-21at07:05:26)]",
-    "Twilightbuild-1.10.1t_2025-03-23at09_42_45_-aarch64-linux[Twilightbuild-1.10.1t(2025-03-23at09:42:45)]"
+    "Twilightbuild-1.10.1t_2025-03-23at09_42_45_-aarch64-linux[Twilightbuild-1.10.1t(2025-03-23at09:42:45)]",
+    "Twilightbuild-1.10.1t_2025-03-24at23_08_45_-aarch64-linux[Twilightbuild-1.10.1t(2025-03-24at23:08:45)]"
    ],
    "provides": "zen-browser==zen",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop"
    ],
-   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:Twilightbuild-1.10.1t_2025-03-24at23_08_45_-aarch64-linux",
-   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser@sha256:27fcc74e137747824da058f91b472515f5606f9cb541313f4adb5416522ebf3d",
-   "rank": 141
+   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:Twilightbuild-1.10.3t_2025-03-27at23_03_27_-aarch64-linux",
+   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser@sha256:ea3d57429ba9cd5ffeec353cce268564b7f00e478c6522d498bba45d3920b272",
+   "rank": 140
   },
   {
    "pkg": "librewolf.appimage",
    "pkg_name": "librewolf",
    "pkg_id": "gitlab.com.librewolf-community.browser.appimage.stable",
-   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/librewolf/appimage/official/stable/librewolf?tag=v136.0.2-1-aarch64-linux\u0026download=librewolf.png",
+   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/librewolf/appimage/official/stable/librewolf?tag=v136.0.4-1-aarch64-linux\u0026download=librewolf.png",
    "description": "A fork of Firefox, focused on privacy, security and freedom",
-   "version": "v136.0.2-1",
+   "version": "v136.0.4-1",
    "size": "101 MB",
-   "bsum": "0d1f8474ff134b6756989f3a7562241dad6e811927053139d3543bf5948ed38b",
-   "shasum": "dfaa29ecdd2d8dbf5daee41d46c16dd5373eca072218dabe785ed17ea1b58cc3",
-   "build_date": "2025-03-21T19:23:10Z",
+   "bsum": "f96e942d657f0a070edff1129fdb7c7c64610749f856ca904cbeea5ce5dd781f",
+   "shasum": "1be716a2f25c2d6fd1c0ac5844e89f162159ac32bb8727b4d1a949eec97284db",
+   "build_date": "2025-03-28T19:19:01Z",
    "src_urls": [
     "https://gitlab.com/librewolf-community/browser/appimage"
    ],
@@ -965,19 +968,20 @@
     "https://gitlab.com/librewolf-community/browser/appimage"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/librewolf/appimage.official.stable.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/librewolf/appimage/official/stable/librewolf?tag=v136.0.2-1-aarch64-linux\u0026download=librewolf.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/librewolf/appimage/official/stable/librewolf?tag=v136.0.4-1-aarch64-linux\u0026download=librewolf.log",
    "snapshots": [
     "v135.0-1-aarch64-linux[v135.0-1]",
     "v136.0-1-aarch64-linux[v136.0-1]",
     "v136.0-2-aarch64-linux[v136.0-2]",
-    "v136.0.1-1-aarch64-linux[v136.0.1-1]"
+    "v136.0.1-1-aarch64-linux[v136.0.1-1]",
+    "v136.0.2-1-aarch64-linux[v136.0.2-1]"
    ],
    "provides": "librewolf",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://gitlab.com/librewolf-community/browser/appimage"
    ],
-   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/librewolf/appimage/official/stable/librewolf:v136.0.2-1-aarch64-linux",
-   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/librewolf/appimage/official/stable/librewolf@sha256:dfaa29ecdd2d8dbf5daee41d46c16dd5373eca072218dabe785ed17ea1b58cc3",
+   "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/librewolf/appimage/official/stable/librewolf:v136.0.4-1-aarch64-linux",
+   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/librewolf/appimage/official/stable/librewolf@sha256:1be716a2f25c2d6fd1c0ac5844e89f162159ac32bb8727b4d1a949eec97284db",
    "rank": 43
   },
   {
@@ -1065,7 +1069,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium:134.0.6998.88-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium@sha256:4d7f773c5821f6a8adf2cc9a463be9bfe865fdd037436db9c2e3e052909e5fca",
-   "rank": 128
+   "rank": 127
   },
   {
    "pkg": "flameshot.nixappimage",
@@ -1323,7 +1327,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium:134.0.6998.35-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium@sha256:8e9d756cf2c4ba969e0eb25dbafdf4934627b6c21a3ddf91c450cc0e2e574dbe",
-   "rank": 127
+   "rank": 128
   },
   {
    "pkg": "cmake.appimage",
@@ -1889,10 +1893,10 @@
    "description": "GTK front-end for Clam Antivirus",
    "version": "6.07",
    "download_url": "https://hf.co/datasets/pkgforge/pkgcache/resolve/main/clamtk/runimage/debian/stable/clamtk/6.07-aarch64-linux/clamtk.runimage",
-   "size": "79 MB",
-   "bsum": "d5c1d37caa9b2b93faa043ac013ffdafb7851f733ddd10d69b705ef674fedc60",
-   "shasum": "ec9fa1c9c7e0b9752c5de3acc29ea7a4d46246a5bfc7f0a6eee0c96afa3552e6",
-   "build_date": "2025-03-25T19:00:36Z",
+   "size": "68 MB",
+   "bsum": "1a2da37958d3203e83373c0db3af6dfb47da8c9b0474ae7247baf6160d18d282",
+   "shasum": "979003db73d7920fb199bc88e8978d0085b485287768b8af734fb46ab1e1984c",
+   "build_date": "2025-03-28T18:59:35Z",
    "src_urls": [
     "https://github.com/dave-theunsub/clamtk",
     "https://gitlab.com/dave_m/clamtk"
@@ -1913,7 +1917,7 @@
     "[PORTABLE] (Works on AnyLinux)"
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk:6.07-aarch64-linux",
-   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk@sha256:ec9fa1c9c7e0b9752c5de3acc29ea7a4d46246a5bfc7f0a6eee0c96afa3552e6",
+   "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk@sha256:979003db73d7920fb199bc88e8978d0085b485287768b8af734fb46ab1e1984c",
    "rank": 130
   }
  ]
