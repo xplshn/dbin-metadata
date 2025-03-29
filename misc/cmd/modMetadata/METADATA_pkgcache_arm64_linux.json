@@ -471,7 +471,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx:1.2.357-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx@sha256:d4b16be8cf8c8c472db124754f45da859d5875d81cb4ef0bf2c4c3a504a026fb",
-   "rank": 19
+   "rank": 20
   },
   {
    "pkg": "ryujinx.appimage",
@@ -499,7 +499,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx:1.2.81-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx@sha256:ae7602d73ae32b4a0192b8b7517373df953a61241fa97de395f3bc82a956a0cd",
-   "rank": 20
+   "rank": 21
   },
   {
    "pkg": "vesktop.appimage",
@@ -668,7 +668,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk:250204T131430-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk@sha256:cad14ce25b459a6c5578521449894cbf117e176bb8bddeb8717733f6179c9900",
-   "rank": 17
+   "rank": 19
   },
   {
    "pkg": "rustdesk.appimage",
@@ -729,7 +729,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/stable/tangent:0.8.4-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/stable/tangent@sha256:485714d12dafd7f55d32f8eb41a5c8345dff259d7a96e370fb818d68a9beec28",
-   "rank": 146
+   "rank": 145
   },
   {
    "pkg": "tangent.appimage",
@@ -763,7 +763,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent:0.9.0-alpha.9-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent@sha256:b4b4f72d3ecbdf33b24d6477e79f7792b207efcb7b2c42827e50542572c6ccdf",
-   "rank": 145
+   "rank": 146
   },
   {
    "pkg": "escrcpy.appimage",
@@ -828,7 +828,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser:1.0.2-b.5-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser@sha256:98aafee82186fca80707294ec59044991749bfeac47c80ad7f58b5eb874a248c",
-   "rank": 141
+   "rank": 140
   },
   {
    "pkg": "zen-browser.appimage",
@@ -872,7 +872,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser:1.10.3b-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser@sha256:931e3eaad96688469f8b2c1aaa97f1f5ce02d2e5e8e4e31597c24b01fbe01bbc",
-   "rank": 142
+   "rank": 141
   },
   {
    "pkg": "zen-browser.appimage",
@@ -946,7 +946,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:Twilightbuild-1.10.3t_2025-03-27at23_03_27_-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser@sha256:ea3d57429ba9cd5ffeec353cce268564b7f00e478c6522d498bba45d3920b272",
-   "rank": 140
+   "rank": 142
   },
   {
    "pkg": "librewolf.appimage",
@@ -982,7 +982,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/librewolf/appimage/official/stable/librewolf:v136.0.4-1-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/librewolf/appimage/official/stable/librewolf@sha256:1be716a2f25c2d6fd1c0ac5844e89f162159ac32bb8727b4d1a949eec97284db",
-   "rank": 43
+   "rank": 36
   },
   {
    "pkg": "brave.nixappimage",
@@ -1069,7 +1069,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium:134.0.6998.88-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium@sha256:4d7f773c5821f6a8adf2cc9a463be9bfe865fdd037436db9c2e3e052909e5fca",
-   "rank": 127
+   "rank": 128
   },
   {
    "pkg": "flameshot.nixappimage",
@@ -1327,7 +1327,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium:134.0.6998.35-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium@sha256:8e9d756cf2c4ba969e0eb25dbafdf4934627b6c21a3ddf91c450cc0e2e574dbe",
-   "rank": 128
+   "rank": 127
   },
   {
    "pkg": "cmake.appimage",
@@ -1553,7 +1553,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/akregator/runimage/alpine/stable/akregator:24.12.3-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/akregator/runimage/alpine/stable/akregator@sha256:164c9b14fdfc6da4282a1110f8796dbd51cd12586f8bfe1f8240c862b3ebba00",
-   "rank": 143
+   "rank": 144
   },
   {
    "pkg": "element-desktop.runimage",
@@ -1588,7 +1588,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/element-desktop/runimage/alpine/stable/element-desktop:1.11.95-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/element-desktop/runimage/alpine/stable/element-desktop@sha256:f06825f27f8dde8e23a278061bdc36cd736700fbd5ce6214f4c05808200f4800",
-   "rank": 12
+   "rank": 15
   },
   {
    "pkg": "falkon.runimage",
@@ -1656,7 +1656,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/ghex/runimage/alpine/stable/ghex:46.2-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/ghex/runimage/alpine/stable/ghex@sha256:ce8ce06e2f502321d145575d05c15e9e50c07286df67f10bee68f2072b25c811",
-   "rank": 3
+   "rank": 4
   },
   {
    "pkg": "git.runimage",
@@ -1883,7 +1883,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/blender/runimage/debian/stable/blender:4.3.2-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/blender/runimage/debian/stable/blender@sha256:ecf3940a965f483026c4a1ae476a6f68eecad7be9965f06473e569f592693214",
-   "rank": 144
+   "rank": 143
   },
   {
    "pkg": "clamtk.runimage",
