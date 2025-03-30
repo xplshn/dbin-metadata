@@ -467,7 +467,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx:1.2.357-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx@sha256:d4b16be8cf8c8c472db124754f45da859d5875d81cb4ef0bf2c4c3a504a026fb",
-   "rank": 18
+   "rank": 21
   },
   {
    "pkg": "ryujinx.appimage",
@@ -493,7 +493,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx:1.2.81-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx@sha256:ae7602d73ae32b4a0192b8b7517373df953a61241fa97de395f3bc82a956a0cd",
-   "rank": 19
+   "rank": 20
   },
   {
    "pkg": "vesktop.appimage",
@@ -553,7 +553,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/caido/appimage/official/stable/caido:v0.47.1-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/caido/appimage/official/stable/caido@sha256:3c3ae001a4606899502246e3e89a1aa6af716cb82bf93bd4c8a9f67f362ca8ad",
-   "rank": 96
+   "rank": 95
   },
   {
    "pkg": "pixelpulse2.appimage",
@@ -652,7 +652,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk:250204T131430-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk@sha256:cad14ce25b459a6c5578521449894cbf117e176bb8bddeb8717733f6179c9900",
-   "rank": 20
+   "rank": 19
   },
   {
    "pkg": "rustdesk.appimage",
@@ -679,7 +679,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk:1.3.7-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk@sha256:4a0b8b26951899f60b8169cb7cfe9ec62f9684eeb088a68903a59f2d9cb2b945",
-   "rank": 21
+   "rank": 18
   },
   {
    "pkg": "tangent.appimage",
@@ -802,7 +802,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser:1.0.2-b.5-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser@sha256:98aafee82186fca80707294ec59044991749bfeac47c80ad7f58b5eb874a248c",
-   "rank": 142
+   "rank": 140
   },
   {
    "pkg": "zen-browser.appimage",
@@ -844,7 +844,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser:1.10.3b-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser@sha256:931e3eaad96688469f8b2c1aaa97f1f5ce02d2e5e8e4e31597c24b01fbe01bbc",
-   "rank": 141
+   "rank": 142
   },
   {
    "pkg": "zen-browser.appimage",
@@ -916,7 +916,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:Twilightbuild-1.10.3t_2025-03-27at23_03_27_-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser@sha256:ea3d57429ba9cd5ffeec353cce268564b7f00e478c6522d498bba45d3920b272",
-   "rank": 140
+   "rank": 141
   },
   {
    "pkg": "librewolf.appimage",
@@ -991,7 +991,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/brave/nixappimage/nixpkgs/stable/brave:1.76.73-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/brave/nixappimage/nixpkgs/stable/brave@sha256:5120cf91f750e1dc1785d5559642ea704f2eaa2097ff787732acdf8370060546",
-   "rank": 129
+   "rank": 130
   },
   {
    "pkg": "chromium.nixappimage",
@@ -1741,7 +1741,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/nmap/runimage/alpine/stable/nmap:7.95-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/nmap/runimage/alpine/stable/nmap@sha256:375f301aefa9b8811277b31c9943a5bdda1b663dae0c3b0582541361a33b0ba3",
-   "rank": 29
+   "rank": 30
   },
   {
    "pkg": "wezterm.runimage",
@@ -1832,7 +1832,7 @@
    ],
    "ghcr_pkg": "oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk:6.07-aarch64-linux",
    "ghcr_blob": "oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk@sha256:979003db73d7920fb199bc88e8978d0085b485287768b8af734fb46ab1e1984c",
-   "rank": 130
+   "rank": 129
   }
  ]
 }
