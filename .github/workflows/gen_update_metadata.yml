@@ -92,7 +92,7 @@ jobs:
     
           # Run generators, allowing each to continue even if one fails
           run_generator "https://raw.githubusercontent.com/xplshn/dbin/master/misc/cmd/modMetadata/modMetadata.go" "modMetadata" || true
-          run_generator "https://raw.githubusercontent.com/xplshn/dbin/master/misc/cmd/modMetadata-ng/modMetadata.go" "modMetadata-ng" || true
+          run_generator "https://raw.githubusercontent.com/xplshn/dbin/master/misc/cmd/modMetadata-ng/modMetadata-ng.go" "modMetadata-ng" || true
           run_generator "https://raw.githubusercontent.com/xplshn/dbin/master/misc/cmd/AM-support/meta-to-am.go" "AM-support" || true
         shell: sh
     
