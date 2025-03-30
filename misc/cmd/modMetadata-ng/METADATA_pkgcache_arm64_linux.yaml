@@ -211,7 +211,7 @@ pkgcache:
   icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/86box/appimage/official/stable/86box?tag=v4.2.1-aarch64-linux&download=86box.png
   description: Emulator of x86-based machines
   version: v4.2.1
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/86box/appimage/official/stable/86box/v4.2.1-aarch64-linux/86box.appimage
+  download_url: oci://ghcr.io/pkgforge/pkgcache/86box/appimage/official/stable/86box:v4.2.1-aarch64-linux
   size: 52 MB
   bsum: 74d358d3f38d0f2692676fca718870bee9069b3bd25c7c6eefe1c4f155607f91
   shasum: 6d98eb41392380d6d7fd5c9f10f95aa080c8ba9517b96a8e34b5ad7e847ae1d3
@@ -230,8 +230,6 @@ pkgcache:
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/86Box/86Box
   - "You need to download ROMS: https://86box.readthedocs.io/en/latest/usage/roms.html"
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/86box/appimage/official/stable/86box:v4.2.1-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/86box/appimage/official/stable/86box@sha256:6d98eb41392380d6d7fd5c9f10f95aa080c8ba9517b96a8e34b5ad7e847ae1d3
   rank: 131
 - pkg: ryujinx.appimage
   pkg_name: ryujinx
@@ -239,7 +237,7 @@ pkgcache:
   icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx?tag=1.2.357-aarch64-linux&download=ryujinx.svg
   description: Nintendo Switch Emulator (Canary)
   version: 1.2.357
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/ryujinx/appimage/official/canary/ryujinx/1.2.357-aarch64-linux/ryujinx.appimage
+  download_url: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx:1.2.357-aarch64-linux
   size: 29 MB
   bsum: ec0e6bdeedd0a58676f746130843f920a9256feab119c1787aab8439783ea796
   shasum: d4b16be8cf8c8c472db124754f45da859d5875d81cb4ef0bf2c4c3a504a026fb
@@ -253,8 +251,6 @@ pkgcache:
   provides: ryujinx
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/ryujinx/ryujinx
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx:1.2.357-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx@sha256:d4b16be8cf8c8c472db124754f45da859d5875d81cb4ef0bf2c4c3a504a026fb
   rank: 21
 - pkg: ryujinx.appimage
   pkg_name: ryujinx
@@ -262,7 +258,7 @@ pkgcache:
   icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx?tag=1.2.81-aarch64-linux&download=ryujinx.svg
   description: Nintendo Switch Emulator
   version: 1.2.81
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/ryujinx/appimage/official/stable/ryujinx/1.2.81-aarch64-linux/ryujinx.appimage
+  download_url: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx:1.2.81-aarch64-linux
   size: 29 MB
   bsum: 7da62b0e67f0181526d0f8842546bb1ab8a5d2a6f3952e12ce3ff62dd88a3a65
   shasum: ae7602d73ae32b4a0192b8b7517373df953a61241fa97de395f3bc82a956a0cd
@@ -276,8 +272,6 @@ pkgcache:
   provides: ryujinx
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/ryujinx/ryujinx
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx:1.2.81-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx@sha256:ae7602d73ae32b4a0192b8b7517373df953a61241fa97de395f3bc82a956a0cd
   rank: 20
 - pkg: vesktop.appimage
   pkg_name: vesktop
@@ -285,7 +279,7 @@ pkgcache:
   icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop?tag=v1.5.5-aarch64-linux&download=vesktop.png
   description: A custom Discord App aiming to give you better performance and improve linux support
   version: v1.5.5
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/vesktop/appimage/official/stable/vesktop/v1.5.5-aarch64-linux/vesktop.appimage
+  download_url: oci://ghcr.io/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop:v1.5.5-aarch64-linux
   size: 88 MB
   bsum: 23ea2c16182780f2e461e5862eb0561f9bcc14781f28f3a530af951edcc961db
   shasum: 29012bac525d3c58a5920c9b4e51411c64cc9229d8e4c68fcc1894ee7f9ad0e6
@@ -304,8 +298,6 @@ pkgcache:
   provides: vesktop
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/Vencord/Vesktop
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop:v1.5.5-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop@sha256:29012bac525d3c58a5920c9b4e51411c64cc9229d8e4c68fcc1894ee7f9ad0e6
   rank: 137
 - pkg: caido.appimage
   pkg_name: caido
@@ -313,7 +305,7 @@ pkgcache:
   icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/caido/appimage/official/stable/caido?tag=v0.47.1-aarch64-linux&download=caido.png
   description: Lightweight web security auditing toolkit
   version: v0.47.1
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/caido/appimage/official/stable/caido/v0.46.0-aarch64-linux/caido.appimage
+  download_url: oci://ghcr.io/pkgforge/pkgcache/caido/appimage/official/stable/caido:v0.47.1-aarch64-linux
   size: 152 MB
   bsum: c71afb348d52b85290ac4eea51c91f8b253ec8ebf8b9afbed35f403f0296ceba
   shasum: 3c3ae001a4606899502246e3e89a1aa6af716cb82bf93bd4c8a9f67f362ca8ad
@@ -331,8 +323,6 @@ pkgcache:
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/caido/caido
   - "You may need to run this with: --no-sandbox"
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/caido/appimage/official/stable/caido:v0.47.1-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/caido/appimage/official/stable/caido@sha256:3c3ae001a4606899502246e3e89a1aa6af716cb82bf93bd4c8a9f67f362ca8ad
   rank: 95
 - pkg: pixelpulse2.appimage
   pkg_name: pixelpulse2
@@ -340,7 +330,7 @@ pkgcache:
   icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/pixelpulse2/appimage/pkgforge-dev/stable/pixelpulse2?tag=13907245614-aarch64-linux&download=pixelpulse2.png
   description: Pixelpulse2 is a user interface for analog systems exploration.
   version: "13907245614"
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/pixelpulse2/appimage/pkgforge-dev/stable/pixelpulse2/13907245614-aarch64-linux/pixelpulse2.appimage
+  download_url: oci://ghcr.io/pkgforge/pkgcache/pixelpulse2/appimage/pkgforge-dev/stable/pixelpulse2:13907245614-aarch64-linux
   size: 109 MB
   bsum: 3205f47f609f9410c3a5b8ddce4ef59b8216f65805a04307824eb405bff0078e
   shasum: a38fa7f5e799e16ff4b87d4b07e84c9128bf6378a212b0939d33d38ee13f49d5
@@ -365,8 +355,6 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   - Run it with --getudev flag the first time to configure udev rules. It may not detect the board otherwise
   - To reduce crashes, plug in your device after configuring the udev rule and opening the app
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/pixelpulse2/appimage/pkgforge-dev/stable/pixelpulse2:13907245614-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/pixelpulse2/appimage/pkgforge-dev/stable/pixelpulse2@sha256:a38fa7f5e799e16ff4b87d4b07e84c9128bf6378a212b0939d33d38ee13f49d5
   rank: 90
 - pkg: ghostty.appimage
   pkg_name: ghostty
@@ -374,7 +362,7 @@ pkgcache:
   icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty?tag=v1.1.3-aarch64-linux&download=ghostty.png
   description: Fast, native, feature-rich terminal emulator pushing modern features
   version: v1.1.3
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/ghostty/appimage/psadi/stable/ghostty/v1.1.3-aarch64-linux/ghostty.appimage
+  download_url: oci://ghcr.io/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty:v1.1.3-aarch64-linux
   size: 70 MB
   bsum: c6235d709fb92a38c202b0903422c6d33776b46204e8e1bad26de261e8466c5e
   shasum: 0614d1485e01b6fa91f0758735f5fe5e575291fee7108a905007771c3f088dd0
@@ -406,8 +394,6 @@ pkgcache:
   provides: ghostty
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/psadi/ghostty-appimage
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty:v1.1.3-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty@sha256:0614d1485e01b6fa91f0758735f5fe5e575291fee7108a905007771c3f088dd0
   rank: 139
 - pkg: rustdesk.appimage
   pkg_name: rustdesk
@@ -415,7 +401,7 @@ pkgcache:
   icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk?tag=250204T131430-aarch64-linux&download=rustdesk.svg
   description: FOSS Remote desktop application (Nightly)
   version: 250204T131430
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/rustdesk/appimage/official/nightly/rustdesk/250204T131430-aarch64-linux/rustdesk.appimage
+  download_url: oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk:250204T131430-aarch64-linux
   size: 63 MB
   bsum: 8c42dce3dcf4ebdff5b256fa874b635d7ed8d0543525155d3aa98828be25a46e
   shasum: cad14ce25b459a6c5578521449894cbf117e176bb8bddeb8717733f6179c9900
@@ -430,8 +416,6 @@ pkgcache:
   provides: rustdesk
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/rustdesk/rustdesk
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk:250204T131430-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk@sha256:cad14ce25b459a6c5578521449894cbf117e176bb8bddeb8717733f6179c9900
   rank: 18
 - pkg: rustdesk.appimage
   pkg_name: rustdesk
@@ -439,7 +423,7 @@ pkgcache:
   icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk?tag=1.3.7-aarch64-linux&download=rustdesk.svg
   description: FOSS Remote desktop application
   version: 1.3.7
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/rustdesk/appimage/official/stable/rustdesk/1.3.7-aarch64-linux/rustdesk.appimage
+  download_url: oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk:1.3.7-aarch64-linux
   size: 63 MB
   bsum: 2cc782eee4ed8297dd4b8de058d8d72d266103007d5b1090acf3cb5e8d11204d
   shasum: 4a0b8b26951899f60b8169cb7cfe9ec62f9684eeb088a68903a59f2d9cb2b945
@@ -454,8 +438,6 @@ pkgcache:
   provides: rustdesk
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/rustdesk/rustdesk
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk:1.3.7-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk@sha256:4a0b8b26951899f60b8169cb7cfe9ec62f9684eeb088a68903a59f2d9cb2b945
   rank: 19
 - pkg: tangent.appimage
   pkg_name: tangent
@@ -463,7 +445,7 @@ pkgcache:
   icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/tangent/appimage/official/stable/tangent?tag=0.8.4-aarch64-linux&download=tangent.png
   description: A clean and powerful open source notes app
   version: 0.8.4
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/tangent/appimage/official/stable/tangent/0.8.4-aarch64-linux/tangent.appimage
+  download_url: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/stable/tangent:0.8.4-aarch64-linux
   size: 91 MB
   bsum: 5948f969bd02ebef8531e32f3d79c62e19f0bc80f85faa2321781a98573a3e16
   shasum: 485714d12dafd7f55d32f8eb41a5c8345dff259d7a96e370fb818d68a9beec28
@@ -481,8 +463,6 @@ pkgcache:
   provides: tangent
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/suchnsuch/Tangent
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/stable/tangent:0.8.4-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/stable/tangent@sha256:485714d12dafd7f55d32f8eb41a5c8345dff259d7a96e370fb818d68a9beec28
   rank: 146
 - pkg: tangent.appimage
   pkg_name: tangent
@@ -490,7 +470,7 @@ pkgcache:
   icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent?tag=0.9.0-alpha.9-aarch64-linux&download=tangent.png
   description: A clean and powerful open source notes app (alpha)
   version: 0.9.0-alpha.9
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/tangent/appimage/official/alpha/tangent/0.9.0-alpha.8-aarch64-linux/tangent.appimage
+  download_url: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent:0.9.0-alpha.9-aarch64-linux
   size: 92 MB
   bsum: 494c683161e28e575336fca67a1dba1ba07b3e29fa8879705b1e245ebd7de06a
   shasum: b4b4f72d3ecbdf33b24d6477e79f7792b207efcb7b2c42827e50542572c6ccdf
@@ -512,8 +492,6 @@ pkgcache:
   provides: tangent=>tangent-alpha
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/suchnsuch/Tangent
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent:0.9.0-alpha.9-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent@sha256:b4b4f72d3ecbdf33b24d6477e79f7792b207efcb7b2c42827e50542572c6ccdf
   rank: 145
 - pkg: escrcpy.appimage
   pkg_name: escrcpy
@@ -521,7 +499,7 @@ pkgcache:
   icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/escrcpy/appimage/official/stable/escrcpy?tag=v1.29.0-aarch64-linux&download=escrcpy.png
   description: Graphical Scrcpy to display and control Android, devices
   version: v1.29.0
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/escrcpy/appimage/official/stable/escrcpy/v1.28.7-aarch64-linux/escrcpy.appimage
+  download_url: oci://ghcr.io/pkgforge/pkgcache/escrcpy/appimage/official/stable/escrcpy:v1.29.0-aarch64-linux
   size: 89 MB
   bsum: a3c1adee1c1840035161d94c984babc9cacb96ba3b01afb345a69307876d9485
   shasum: de913de690b041938242dc0a23d09de2123b1efc487b7214a4c7d25ce7b8d82d
@@ -542,8 +520,6 @@ pkgcache:
   provides: escrcpy
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/viarotel-org/escrcpy
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/escrcpy/appimage/official/stable/escrcpy:v1.29.0-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/escrcpy/appimage/official/stable/escrcpy@sha256:de913de690b041938242dc0a23d09de2123b1efc487b7214a4c7d25ce7b8d82d
   rank: 5
 - pkg: zen-browser.appimage
   pkg_name: zen-browser
@@ -551,7 +527,7 @@ pkgcache:
   icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser?tag=1.0.2-b.5-aarch64-linux&download=zen-browser.png
   description: Performance oriented Firefox-based web browser (Beta)
   version: 1.0.2-b.5
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/zen-browser/appimage/official/beta/zen-browser/1.0.2-b.5-aarch64-linux/zen-browser.appimage
+  download_url: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser:1.0.2-b.5-aarch64-linux
   size: 95 MB
   bsum: 38a2beaf8a46cc005ea54619c93bf718a50b059ff884587e15dff38ffeab322e
   shasum: 98aafee82186fca80707294ec59044991749bfeac47c80ad7f58b5eb874a248c
@@ -569,8 +545,6 @@ pkgcache:
   provides: zen-browser==zen
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser:1.0.2-b.5-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser@sha256:98aafee82186fca80707294ec59044991749bfeac47c80ad7f58b5eb874a248c
   rank: 142
 - pkg: zen-browser.appimage
   pkg_name: zen-browser
@@ -578,7 +552,7 @@ pkgcache:
   icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.10.3b-aarch64-linux&download=zen-browser.png
   description: Performance oriented Firefox-based web browser
   version: 1.10.3b
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/zen-browser/appimage/official/stable/zen-browser/1.10.1b-aarch64-linux/zen-browser.appimage
+  download_url: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser:1.10.3b-aarch64-linux
   size: 90 MB
   bsum: c3e3c8abda4ba0a27a461bac7c03eeac0cba3ef183aef639298f44360fbf5279
   shasum: 931e3eaad96688469f8b2c1aaa97f1f5ce02d2e5e8e4e31597c24b01fbe01bbc
@@ -620,8 +594,6 @@ pkgcache:
   provides: zen-browser==zen
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser:1.10.3b-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser@sha256:931e3eaad96688469f8b2c1aaa97f1f5ce02d2e5e8e4e31597c24b01fbe01bbc
   rank: 141
 - pkg: zen-browser.appimage
   pkg_name: zen-browser
@@ -629,7 +601,7 @@ pkgcache:
   icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.10.3t_2025-03-27at23_03_27_-aarch64-linux&download=zen-browser.png
   description: Performance oriented Firefox-based web browser (Twilight)
   version: Twilightbuild-1.10.3t(2025-03-27at23:03:27)
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/zen-browser/appimage/official/twilight/zen-browser/Twilightbuild-1.10.1t_2025-03-24at23_08_45_-aarch64-linux/zen-browser.appimage
+  download_url: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:Twilightbuild-1.10.3t_2025-03-27at23_03_27_-aarch64-linux
   size: 90 MB
   bsum: cf45f47ab038c43801aa1b78cc0c550d224b03807e7612c1d8294e1eb0bc9a05
   shasum: ea3d57429ba9cd5ffeec353cce268564b7f00e478c6522d498bba45d3920b272
@@ -731,8 +703,6 @@ pkgcache:
   provides: zen-browser==zen
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:Twilightbuild-1.10.3t_2025-03-27at23_03_27_-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser@sha256:ea3d57429ba9cd5ffeec353cce268564b7f00e478c6522d498bba45d3920b272
   rank: 140
 - pkg: librewolf.appimage
   pkg_name: librewolf
@@ -740,6 +710,7 @@ pkgcache:
   icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/librewolf/appimage/official/stable/librewolf?tag=v136.0.4-1-aarch64-linux&download=librewolf.png
   description: A fork of Firefox, focused on privacy, security and freedom
   version: v136.0.4-1
+  download_url: oci://ghcr.io/pkgforge/pkgcache/librewolf/appimage/official/stable/librewolf:v136.0.4-1-aarch64-linux
   size: 101 MB
   bsum: f96e942d657f0a070edff1129fdb7c7c64610749f856ca904cbeea5ce5dd781f
   shasum: 1be716a2f25c2d6fd1c0ac5844e89f162159ac32bb8727b4d1a949eec97284db
@@ -766,8 +737,6 @@ pkgcache:
   provides: librewolf
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://gitlab.com/librewolf-community/browser/appimage
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/librewolf/appimage/official/stable/librewolf:v136.0.4-1-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/librewolf/appimage/official/stable/librewolf@sha256:1be716a2f25c2d6fd1c0ac5844e89f162159ac32bb8727b4d1a949eec97284db
   rank: 36
 - pkg: brave.nixappimage
   pkg_name: brave
@@ -775,7 +744,7 @@ pkgcache:
   icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/brave/nixappimage/nixpkgs/stable/brave?tag=1.76.73-aarch64-linux&download=brave.png
   description: Privacy-oriented browser for Desktop and Laptop computers
   version: 1.76.73
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/brave/nixappimage/nixpkgs/stable/brave/1.76.73-aarch64-linux/brave.nixappimage
+  download_url: oci://ghcr.io/pkgforge/pkgcache/brave/nixappimage/nixpkgs/stable/brave:1.76.73-aarch64-linux
   size: 382 MB
   bsum: 4d0e44a8f80cb394f3d2cde07ea781ce255b5c672a9e308b074de30b10dff280
   shasum: 5120cf91f750e1dc1785d5559642ea704f2eaa2097ff787732acdf8370060546
@@ -811,8 +780,6 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/brave/nixappimage/nixpkgs/stable/brave:1.76.73-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/brave/nixappimage/nixpkgs/stable/brave@sha256:5120cf91f750e1dc1785d5559642ea704f2eaa2097ff787732acdf8370060546
   rank: 130
 - pkg: chromium.nixappimage
   pkg_name: chromium
@@ -820,7 +787,7 @@ pkgcache:
   icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium?tag=134.0.6998.88-aarch64-linux&download=chromium.png
   description: Open source web browser from Google (Stable)
   version: 134.0.6998.88
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/chromium/nixappimage/nixpkgs/stable/chromium/134.0.6998.88-aarch64-linux/chromium.nixappimage
+  download_url: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium:134.0.6998.88-aarch64-linux
   size: 358 MB
   bsum: 7f0cde2ba3becc3c5e4260e91335d73a98a91945578be179dd698a0aa0b83f3f
   shasum: 4d7f773c5821f6a8adf2cc9a463be9bfe865fdd037436db9c2e3e052909e5fca
@@ -858,8 +825,6 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium:134.0.6998.88-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium@sha256:4d7f773c5821f6a8adf2cc9a463be9bfe865fdd037436db9c2e3e052909e5fca
   rank: 127
 - pkg: flameshot.nixappimage
   pkg_name: flameshot
@@ -867,7 +832,7 @@ pkgcache:
   icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/flameshot/nixappimage/nixpkgs/unstable/flameshot?tag=12.1.0-unstable-2025-02-12-aarch64-linux&download=flameshot.png
   description: Powerful and simple to use screenshot software
   version: 12.1.0-unstable-2025-02-12
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/flameshot/nixappimage/nixpkgs/unstable/flameshot/12.1.0-unstable-2025-02-12-aarch64-linux/flameshot.nixappimage
+  download_url: oci://ghcr.io/pkgforge/pkgcache/flameshot/nixappimage/nixpkgs/unstable/flameshot:12.1.0-unstable-2025-02-12-aarch64-linux
   size: 99 MB
   bsum: d71c1bc081aeaad2ba6c1c6ace12843301357203989d11bb71c14c522d0d3da9
   shasum: 284b4894fd6b156a0d9117f77d42342c074d2f1c9484e4d17aa0e85b4629f6c1
@@ -892,8 +857,6 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/flameshot/nixappimage/nixpkgs/unstable/flameshot:12.1.0-unstable-2025-02-12-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/flameshot/nixappimage/nixpkgs/unstable/flameshot@sha256:284b4894fd6b156a0d9117f77d42342c074d2f1c9484e4d17aa0e85b4629f6c1
   rank: 132
 - pkg: gearlever.nixappimage
   pkg_name: gearlever
@@ -901,7 +864,7 @@ pkgcache:
   icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/gearlever/nixappimage/nixpkgs/stable/gearlever?tag=2.3.2-aarch64-linux&download=gearlever.svg
   description: Manage AppImages with ease
   version: 2.3.2
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/gearlever/nixappimage/nixpkgs/stable/gearlever/2.3.2-aarch64-linux/gearlever.nixappimage
+  download_url: oci://ghcr.io/pkgforge/pkgcache/gearlever/nixappimage/nixpkgs/stable/gearlever:2.3.2-aarch64-linux
   size: 309 MB
   bsum: 4d69bd1eb494f1556fde9596c5f1ac7d06eb5433016b1ed19b2355569824eeee
   shasum: 26bd5fe743f4d3278e1c7fcebc9ee4e38af675b9e434ab37cde23bfb1d39dc1f
@@ -922,8 +885,6 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/gearlever/nixappimage/nixpkgs/stable/gearlever:2.3.2-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/gearlever/nixappimage/nixpkgs/stable/gearlever@sha256:26bd5fe743f4d3278e1c7fcebc9ee4e38af675b9e434ab37cde23bfb1d39dc1f
   rank: 138
 - pkg: helix.nixappimage
   pkg_name: helix
@@ -931,7 +892,7 @@ pkgcache:
   icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/helix/nixappimage/nixpkgs/stable/helix?tag=25.01.1-aarch64-linux&download=helix.png
   description: Fast modal terminal-based text editor
   version: 25.01.1
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/helix/nixappimage/nixpkgs/stable/helix/25.01.1-aarch64-linux/helix.nixappimage
+  download_url: oci://ghcr.io/pkgforge/pkgcache/helix/nixappimage/nixpkgs/stable/helix:25.01.1-aarch64-linux
   size: 28 MB
   bsum: 1454d175f77eb982e4cd50a0255d1c77e751fd57dc37cafe62eaed93fc9b6f38
   shasum: 582810e6025aa6270368c714f355f781bb1f24e4631b7b13322b1a024a657918
@@ -954,8 +915,6 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/helix/nixappimage/nixpkgs/stable/helix:25.01.1-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/helix/nixappimage/nixpkgs/stable/helix@sha256:582810e6025aa6270368c714f355f781bb1f24e4631b7b13322b1a024a657918
   rank: 133
 - pkg: neovim.nixappimage
   pkg_name: neovim
@@ -963,7 +922,7 @@ pkgcache:
   icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/neovim/nixappimage/nixpkgs/stable/neovim?tag=0.10.4-aarch64-linux&download=neovim.png
   description: Vim text editor fork focused on extensibility and agility
   version: 0.10.4
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/neovim/nixappimage/nixpkgs/stable/neovim/0.10.4-aarch64-linux/neovim.nixappimage
+  download_url: oci://ghcr.io/pkgforge/pkgcache/neovim/nixappimage/nixpkgs/stable/neovim:0.10.4-aarch64-linux
   size: 31 MB
   bsum: 04aaab1fc993de9b33fdeda9329752630e315b5a83abc9f7053f8bb01d13b712
   shasum: 0afda49629c7b1fe1484d486b10a7e8cc735d6b29fd4878f02b5ac5ade12af4e
@@ -984,8 +943,6 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/neovim/nixappimage/nixpkgs/stable/neovim:0.10.4-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/neovim/nixappimage/nixpkgs/stable/neovim@sha256:0afda49629c7b1fe1484d486b10a7e8cc735d6b29fd4878f02b5ac5ade12af4e
   rank: 134
 - pkg: simplex-desktop.nixappimage
   pkg_name: simplex-desktop
@@ -993,7 +950,7 @@ pkgcache:
   icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/simplex-desktop/nixappimage/nixpkgs/stable/simplex-desktop?tag=6.2.5-aarch64-linux&download=simplex-desktop.png
   description: Desktop application for SimpleX Chat, A 100% private-by-design chat platform
   version: 6.2.5
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/simplex-desktop/nixappimage/nixpkgs/stable/simplex-desktop/6.2.5-aarch64-linux/simplex-desktop.nixappimage
+  download_url: oci://ghcr.io/pkgforge/pkgcache/simplex-desktop/nixappimage/nixpkgs/stable/simplex-desktop:6.2.5-aarch64-linux
   size: 525 MB
   bsum: 072c54a5bd8bddc62d0e58631a5dce4ef4966e3c592a241ff854618d1d27f95c
   shasum: 83729458177c6a1f4a46aaf5eb36281c8504bef14a1f298407f916843e6114b3
@@ -1016,8 +973,6 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/simplex-desktop/nixappimage/nixpkgs/stable/simplex-desktop:6.2.5-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/simplex-desktop/nixappimage/nixpkgs/stable/simplex-desktop@sha256:83729458177c6a1f4a46aaf5eb36281c8504bef14a1f298407f916843e6114b3
   rank: 135
 - pkg: telegram-desktop.nixappimage
   pkg_name: telegram-desktop
@@ -1025,7 +980,7 @@ pkgcache:
   icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop?tag=5.11.1-aarch64-linux&download=telegram-desktop.png
   description: Official desktop version of Telegram messaging app
   version: 5.11.1
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop/5.11.1-aarch64-linux/telegram-desktop.nixappimage
+  download_url: oci://ghcr.io/pkgforge/pkgcache/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop:5.11.1-aarch64-linux
   size: 358 MB
   bsum: 6a6a101d658f6b3213ce4d09f052b2a112eab150336b319593fd7ad5aa6ca09b
   shasum: f8d0a77ff4ee77de5072c01885ab05eba4c280abf597ea6c7a902784c844e11b
@@ -1052,8 +1007,6 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop:5.11.1-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop@sha256:f8d0a77ff4ee77de5072c01885ab05eba4c280abf597ea6c7a902784c844e11b
   rank: 136
 - pkg: chromium.nixappimage
   pkg_name: chromium
@@ -1061,7 +1014,7 @@ pkgcache:
   icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium?tag=134.0.6998.35-aarch64-linux&download=chromium.png
   description: Open source web browser from Google, with dependencies on Google web services removed (Ungoogled)
   version: 134.0.6998.35
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/chromium/nixappimage/nixpkgs/ungoogled/chromium/133.0.6943.141-aarch64-linux/chromium.nixappimage
+  download_url: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium:134.0.6998.35-aarch64-linux
   size: 359 MB
   bsum: 87d4f5d39fae54cc6719709c4d097ff022d632bb90f5ef7865c9f39edde22f15
   shasum: 8e9d756cf2c4ba969e0eb25dbafdf4934627b6c21a3ddf91c450cc0e2e574dbe
@@ -1095,8 +1048,6 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium:134.0.6998.35-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium@sha256:8e9d756cf2c4ba969e0eb25dbafdf4934627b6c21a3ddf91c450cc0e2e574dbe
   rank: 128
 - pkg: cmake.appimage
   pkg_name: cmake
@@ -1104,7 +1055,7 @@ pkgcache:
   icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/cmake/appimage/ppkg/stable/cmake?tag=3.31.5-aarch64-linux&download=cmake.png
   description: Cross-platform, open-source build system
   version: 3.31.5
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/cmake/appimage/ppkg/stable/cmake/3.31.5-aarch64-linux/cmake.appimage
+  download_url: oci://ghcr.io/pkgforge/pkgcache/cmake/appimage/ppkg/stable/cmake:3.31.5-aarch64-linux
   size: 30 MB
   bsum: 77ccb2ea7268a67acd550d7ee463e4845da692ce336c3735494e9013ad537140
   shasum: e96e972221fe014fb32c151443fb893f683f7e4af42301a7615d4c62253c673b
@@ -1124,8 +1075,6 @@ pkgcache:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/cmake/appimage/ppkg/stable/cmake:3.31.5-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/cmake/appimage/ppkg/stable/cmake@sha256:e96e972221fe014fb32c151443fb893f683f7e4af42301a7615d4c62253c673b
   rank: 97
 - pkg: file.appimage
   pkg_name: file
@@ -1133,7 +1082,7 @@ pkgcache:
   icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/file/appimage/ppkg/stable/file?tag=5.45-aarch64-linux&download=file.svg
   description: Determine the type of a file from its contents
   version: "5.45"
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/file/appimage/ppkg/stable/file/5.45-aarch64-linux/file.appimage
+  download_url: oci://ghcr.io/pkgforge/pkgcache/file/appimage/ppkg/stable/file:5.45-aarch64-linux
   size: 2.3 MB
   bsum: dadfb448b4e4599c0391a0a7239abbad8a6947b629d05e11ec09e1910671799c
   shasum: a3dab7d637bef7d9a71b384e8870fea15d9c85c033e6bc822c94a11d0969c13a
@@ -1150,8 +1099,6 @@ pkgcache:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/file/appimage/ppkg/stable/file:5.45-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/file/appimage/ppkg/stable/file@sha256:a3dab7d637bef7d9a71b384e8870fea15d9c85c033e6bc822c94a11d0969c13a
   rank: 23
 - pkg: freerdp.appimage
   pkg_name: freerdp
@@ -1159,7 +1106,7 @@ pkgcache:
   icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/freerdp/appimage/ppkg/stable/freerdp?tag=3.12.0-aarch64-linux&download=freerdp.png
   description: Free implementation of the Remote Desktop Protocol [freerdp]
   version: 3.12.0
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/freerdp/appimage/ppkg/stable/freerdp/3.12.0-aarch64-linux/freerdp.appimage
+  download_url: oci://ghcr.io/pkgforge/pkgcache/freerdp/appimage/ppkg/stable/freerdp:3.12.0-aarch64-linux
   size: 245 MB
   bsum: 466b1ec62f1521c0f94df10584fdc06a2cb452de4afe2e2d09ec3ec3ebfb0249
   shasum: b7da7df8a205bb00d720b0bbcdd0da5bdbeb436201e284ec7f1bab2ec9cdd8d7
@@ -1179,8 +1126,6 @@ pkgcache:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/freerdp/appimage/ppkg/stable/freerdp:3.12.0-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/freerdp/appimage/ppkg/stable/freerdp@sha256:b7da7df8a205bb00d720b0bbcdd0da5bdbeb436201e284ec7f1bab2ec9cdd8d7
   rank: 103
 - pkg: git.appimage
   pkg_name: git
@@ -1188,7 +1133,7 @@ pkgcache:
   icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/git/appimage/ppkg/stable/git?tag=2.48.1-aarch64-linux&download=git.png
   description: Fast, scalable, distributed revision control system
   version: 2.48.1
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/git/appimage/ppkg/stable/git/2.48.1-aarch64-linux/git.appimage
+  download_url: oci://ghcr.io/pkgforge/pkgcache/git/appimage/ppkg/stable/git:2.48.1-aarch64-linux
   size: 33 MB
   bsum: 4d8b23dad4f52348cc2ceca0187d952de29e113805e0a51c2e1f86e28d10d183
   shasum: 891d481363331f486de96f42ecc486c1debaa4cc5a352558a97a320945308575
@@ -1204,8 +1149,6 @@ pkgcache:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/git/appimage/ppkg/stable/git:2.48.1-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/git/appimage/ppkg/stable/git@sha256:891d481363331f486de96f42ecc486c1debaa4cc5a352558a97a320945308575
   rank: 16
 - pkg: jless.appimage
   pkg_name: jless
@@ -1213,7 +1156,7 @@ pkgcache:
   icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/jless/appimage/ppkg/stable/jless?tag=0.9.0-aarch64-linux&download=jless.svg
   description: Command-line pager for JSON data
   version: 0.9.0
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/jless/appimage/ppkg/stable/jless/0.9.0-aarch64-linux/jless.appimage
+  download_url: oci://ghcr.io/pkgforge/pkgcache/jless/appimage/ppkg/stable/jless:0.9.0-aarch64-linux
   size: 3.0 MB
   bsum: 1cda72facfefd40eef9770605dbe5b1c1084f83d8f44999be282887d04aa10a2
   shasum: eba462514cd5a5d46b198564fc9032c390424518229025ae544fdbac23c97fff
@@ -1230,8 +1173,6 @@ pkgcache:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/jless/appimage/ppkg/stable/jless:0.9.0-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/jless/appimage/ppkg/stable/jless@sha256:eba462514cd5a5d46b198564fc9032c390424518229025ae544fdbac23c97fff
   rank: 28
 - pkg: xrdp.appimage
   pkg_name: xrdp
@@ -1239,7 +1180,7 @@ pkgcache:
   icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/xrdp/appimage/ppkg/stable/xrdp?tag=0.10.2-aarch64-linux&download=xrdp.png
   description: Open source Remote Desktop Protocol (RDP) server [xrdp]
   version: 0.10.2
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/xrdp/appimage/ppkg/stable/xrdp/0.10.2-aarch64-linux/xrdp.appimage
+  download_url: oci://ghcr.io/pkgforge/pkgcache/xrdp/appimage/ppkg/stable/xrdp:0.10.2-aarch64-linux
   size: 7.5 MB
   bsum: c7c7cef981acae0677b361d6be1a7647399990bdf87d03a98c628ef22a6f0d00
   shasum: a015cee867dfe9173051040931b75c94a8e67e0c187f90e1f88c3a45b18659de
@@ -1256,8 +1197,6 @@ pkgcache:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/xrdp/appimage/ppkg/stable/xrdp:0.10.2-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/xrdp/appimage/ppkg/stable/xrdp@sha256:a015cee867dfe9173051040931b75c94a8e67e0c187f90e1f88c3a45b18659de
   rank: 115
 - pkg: akregator.runimage
   pkg_name: akregator
@@ -1265,7 +1204,7 @@ pkgcache:
   icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/akregator/runimage/alpine/stable/akregator?tag=24.12.3-aarch64-linux&download=akregator.png
   description: KDE RSS feed reader
   version: 24.12.3
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/akregator/runimage/alpine/stable/akregator/24.12.2-aarch64-linux/akregator.runimage
+  download_url: oci://ghcr.io/pkgforge/pkgcache/akregator/runimage/alpine/stable/akregator:24.12.3-aarch64-linux
   size: 306 MB
   bsum: 1fe054ca9fc5a59eabc4e6a541c2abf8711c21503a1c790736ae1df2d0efec26
   shasum: 164c9b14fdfc6da4282a1110f8796dbd51cd12586f8bfe1f8240c862b3ebba00
@@ -1288,8 +1227,6 @@ pkgcache:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/akregator/runimage/alpine/stable/akregator:24.12.3-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/akregator/runimage/alpine/stable/akregator@sha256:164c9b14fdfc6da4282a1110f8796dbd51cd12586f8bfe1f8240c862b3ebba00
   rank: 144
 - pkg: element-desktop.runimage
   pkg_name: element-desktop
@@ -1297,7 +1234,7 @@ pkgcache:
   icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/element-desktop/runimage/alpine/stable/element-desktop?tag=1.11.95-aarch64-linux&download=element-desktop.png
   description: A glossy Matrix collaboration client for desktop
   version: 1.11.95
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/element-desktop/runimage/alpine/stable/element-desktop/1.11.93-aarch64-linux/element-desktop.runimage
+  download_url: oci://ghcr.io/pkgforge/pkgcache/element-desktop/runimage/alpine/stable/element-desktop:1.11.95-aarch64-linux
   size: 211 MB
   bsum: bd5aeeac9c1f02f0796ea5578d4c7719e9d4c1cf3fc2ccefca33b7fd4e1a8f63
   shasum: f06825f27f8dde8e23a278061bdc36cd736700fbd5ce6214f4c05808200f4800
@@ -1320,8 +1257,6 @@ pkgcache:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/element-desktop/runimage/alpine/stable/element-desktop:1.11.95-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/element-desktop/runimage/alpine/stable/element-desktop@sha256:f06825f27f8dde8e23a278061bdc36cd736700fbd5ce6214f4c05808200f4800
   rank: 15
 - pkg: falkon.runimage
   pkg_name: falkon
@@ -1329,7 +1264,7 @@ pkgcache:
   icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/falkon/runimage/alpine/stable/falkon?tag=24.12.3-aarch64-linux&download=falkon.png
   description: Fast, lightweight web browser based on QtWebEngine
   version: 24.12.3
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/falkon/runimage/alpine/stable/falkon/24.12.2-aarch64-linux/falkon.runimage
+  download_url: oci://ghcr.io/pkgforge/pkgcache/falkon/runimage/alpine/stable/falkon:24.12.3-aarch64-linux
   size: 255 MB
   bsum: ad8e2d6feab723d763196a8451a20289059bb2861fc8162b39dd6560f8c2d824
   shasum: c54bc56d9d7a5613445dd99faecca0fabb83a42675c4eaa18c81d895e4a4ecb2
@@ -1350,8 +1285,6 @@ pkgcache:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/falkon/runimage/alpine/stable/falkon:24.12.3-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/falkon/runimage/alpine/stable/falkon@sha256:c54bc56d9d7a5613445dd99faecca0fabb83a42675c4eaa18c81d895e4a4ecb2
   rank: 22
 - pkg: ghex.runimage
   pkg_name: ghex
@@ -1359,7 +1292,7 @@ pkgcache:
   icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghex/runimage/alpine/stable/ghex?tag=46.2-aarch64-linux&download=ghex.svg
   description: A simple Binary/Hex editor
   version: "46.2"
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/ghex/runimage/alpine/stable/ghex/46.2-aarch64-linux/ghex.runimage
+  download_url: oci://ghcr.io/pkgforge/pkgcache/ghex/runimage/alpine/stable/ghex:46.2-aarch64-linux
   size: 135 MB
   bsum: 3085027f86369a46f7124cf699445093d336bc326319a5df628e094da4312c0b
   shasum: ce8ce06e2f502321d145575d05c15e9e50c07286df67f10bee68f2072b25c811
@@ -1378,8 +1311,6 @@ pkgcache:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/ghex/runimage/alpine/stable/ghex:46.2-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/ghex/runimage/alpine/stable/ghex@sha256:ce8ce06e2f502321d145575d05c15e9e50c07286df67f10bee68f2072b25c811
   rank: 4
 - pkg: git.runimage
   pkg_name: git
@@ -1387,7 +1318,7 @@ pkgcache:
   icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/git/runimage/alpine/stable/git?tag=2.49.0-aarch64-linux&download=git.png
   description: Fast, scalable, distributed revision control system
   version: 2.49.0
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/git/runimage/alpine/stable/git/2.49.0-aarch64-linux/git.runimage
+  download_url: oci://ghcr.io/pkgforge/pkgcache/git/runimage/alpine/stable/git:2.49.0-aarch64-linux
   size: 39 MB
   bsum: e28941cc96455e466ff5ff86dbea9ab981aff0244737a0ea0963493bcb9a3373
   shasum: 63f29cce7d0ea08be0bfaefa38b5f7f1bb0a48f5f9d4d55ec7e1f60d31c64440
@@ -1407,8 +1338,6 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/git/runimage/alpine/stable/git:2.49.0-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/git/runimage/alpine/stable/git@sha256:63f29cce7d0ea08be0bfaefa38b5f7f1bb0a48f5f9d4d55ec7e1f60d31c64440
   rank: 2
 - pkg: inkscape.runimage
   pkg_name: inkscape
@@ -1416,7 +1345,7 @@ pkgcache:
   icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/inkscape/runimage/alpine/stable/inkscape?tag=1.4-aarch64-linux&download=inkscape.png
   description: FOSS Vector Graphics Editor
   version: "1.4"
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/inkscape/runimage/alpine/stable/inkscape/1.4-aarch64-linux/inkscape.runimage
+  download_url: oci://ghcr.io/pkgforge/pkgcache/inkscape/runimage/alpine/stable/inkscape:1.4-aarch64-linux
   size: 74 MB
   bsum: 552c6f7c05f889b9aefa1ea30b07ce340ef105b71b3178e1585806b49c30296a
   shasum: 687da8ef2fb14d8327c8c556762e9f4260ed160616e43db612572eb5151de74e
@@ -1432,8 +1361,6 @@ pkgcache:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/inkscape/runimage/alpine/stable/inkscape:1.4-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/inkscape/runimage/alpine/stable/inkscape@sha256:687da8ef2fb14d8327c8c556762e9f4260ed160616e43db612572eb5151de74e
   rank: 8
 - pkg: kdenlive.runimage
   pkg_name: kdenlive
@@ -1441,7 +1368,7 @@ pkgcache:
   icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/kdenlive/runimage/alpine/stable/kdenlive?tag=24.12.3-aarch64-linux&download=kdenlive.png
   description: FOSS video editor, based on MLT Framework and KDE Frameworks
   version: 24.12.3
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/kdenlive/runimage/alpine/stable/kdenlive/24.12.3-aarch64-linux/kdenlive.runimage
+  download_url: oci://ghcr.io/pkgforge/pkgcache/kdenlive/runimage/alpine/stable/kdenlive:24.12.3-aarch64-linux
   size: 210 MB
   bsum: 7a3788d742f3e222927e3b7ef30d9ceb905f23a6f670df2dbc0918f0c206d836
   shasum: b4f67e82504e2d78e1ab536fddcdc5892ec9cef3d61fa0d73704c8078a254190
@@ -1463,8 +1390,6 @@ pkgcache:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/kdenlive/runimage/alpine/stable/kdenlive:24.12.3-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/kdenlive/runimage/alpine/stable/kdenlive@sha256:b4f67e82504e2d78e1ab536fddcdc5892ec9cef3d61fa0d73704c8078a254190
   rank: 6
 - pkg: krita.runimage
   pkg_name: krita
@@ -1472,7 +1397,7 @@ pkgcache:
   icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/krita/runimage/alpine/stable/krita?tag=5.2.9-aarch64-linux&download=krita.png
   description: A free and open source painting application
   version: 5.2.9
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/krita/runimage/alpine/stable/krita/5.2.9-aarch64-linux/krita.runimage
+  download_url: oci://ghcr.io/pkgforge/pkgcache/krita/runimage/alpine/stable/krita:5.2.9-aarch64-linux
   size: 199 MB
   bsum: 853126ca467bab7543ee74accf87d1fa3328d24b57bad4e68433cd4118b82da0
   shasum: 7b480ef1c8316e2dad3d60bae7c38445bda88471325e0c72f45656b105871042
@@ -1492,8 +1417,6 @@ pkgcache:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/krita/runimage/alpine/stable/krita:5.2.9-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/krita/runimage/alpine/stable/krita@sha256:7b480ef1c8316e2dad3d60bae7c38445bda88471325e0c72f45656b105871042
   rank: 7
 - pkg: nmap/nmap.runimage
   pkg_name: nmap
@@ -1501,7 +1424,7 @@ pkgcache:
   icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/nmap/runimage/alpine/stable/nmap?tag=7.95-aarch64-linux&download=nmap.png
   description: Network exploration tool and security/port scanner
   version: "7.95"
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/nmap/runimage/alpine/stable/nmap/7.95-aarch64-linux/nmap.runimage
+  download_url: oci://ghcr.io/pkgforge/pkgcache/nmap/runimage/alpine/stable/nmap:7.95-aarch64-linux
   size: 42 MB
   bsum: f752ac3ce3735f3557083f053209c98ce5e163ecbcd11598fbe8807a9134dbdd
   shasum: 375f301aefa9b8811277b31c9943a5bdda1b663dae0c3b0582541361a33b0ba3
@@ -1519,8 +1442,6 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/nmap/runimage/alpine/stable/nmap:7.95-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/nmap/runimage/alpine/stable/nmap@sha256:375f301aefa9b8811277b31c9943a5bdda1b663dae0c3b0582541361a33b0ba3
   rank: 30
 - pkg: wezterm.runimage
   pkg_name: wezterm
@@ -1528,7 +1449,7 @@ pkgcache:
   icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/wezterm/runimage/alpine/stable/wezterm?tag=20240203.110809-aarch64-linux&download=wezterm.png
   description: A GPU-accelerated cross-platform terminal emulator and multiplexer
   version: "20240203.110809"
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/wezterm/runimage/alpine/stable/wezterm/20240203.110809-aarch64-linux/wezterm.runimage
+  download_url: oci://ghcr.io/pkgforge/pkgcache/wezterm/runimage/alpine/stable/wezterm:20240203.110809-aarch64-linux
   size: 105 MB
   bsum: 0fd934ea58d3b26f10f7cec2d928af04113f75230ef4213489350bbea23da8e7
   shasum: 164f2937f7beabf72b0f443b328d3bc8d0b0c15f6cd0ee6e75a66678e36ae1bf
@@ -1545,8 +1466,6 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "Requires Fonts (On Host): https://wezfurlong.org/wezterm/config/fonts.html"
   - "[PORTABLE] (Works on AnyLinux)"
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/wezterm/runimage/alpine/stable/wezterm:20240203.110809-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/wezterm/runimage/alpine/stable/wezterm@sha256:164f2937f7beabf72b0f443b328d3bc8d0b0c15f6cd0ee6e75a66678e36ae1bf
   rank: 1
 - pkg: blender.runimage
   pkg_name: blender
@@ -1554,7 +1473,7 @@ pkgcache:
   icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/blender/runimage/debian/stable/blender?tag=4.3.2-aarch64-linux&download=blender.svg
   description: A fully integrated 3D graphics creation suite
   version: 4.3.2
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/blender/runimage/debian/stable/blender/4.3.2-aarch64-linux/blender.runimage
+  download_url: oci://ghcr.io/pkgforge/pkgcache/blender/runimage/debian/stable/blender:4.3.2-aarch64-linux
   size: 305 MB
   bsum: 3de3aa87f258e32544f64d302aca117ff1fcb344458b36646d4b36d3494678e5
   shasum: ecf3940a965f483026c4a1ae476a6f68eecad7be9965f06473e569f592693214
@@ -1571,8 +1490,6 @@ pkgcache:
   - Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/blender/runimage/debian/stable/blender:4.3.2-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/blender/runimage/debian/stable/blender@sha256:ecf3940a965f483026c4a1ae476a6f68eecad7be9965f06473e569f592693214
   rank: 143
 - pkg: clamtk.runimage
   pkg_name: clamtk
@@ -1580,7 +1497,7 @@ pkgcache:
   icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk?tag=6.07-aarch64-linux&download=clamtk.png
   description: GTK front-end for Clam Antivirus
   version: "6.07"
-  download_url: https://hf.co/datasets/pkgforge/pkgcache/resolve/main/clamtk/runimage/debian/stable/clamtk/6.07-aarch64-linux/clamtk.runimage
+  download_url: oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk:6.07-aarch64-linux
   size: 68 MB
   bsum: 1a2da37958d3203e83373c0db3af6dfb47da8c9b0474ae7247baf6160d18d282
   shasum: 979003db73d7920fb199bc88e8978d0085b485287768b8af734fb46ab1e1984c
@@ -1601,6 +1518,4 @@ pkgcache:
   - Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  ghcr_pkg: oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk:6.07-aarch64-linux
-  ghcr_blob: oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk@sha256:979003db73d7920fb199bc88e8978d0085b485287768b8af734fb46ab1e1984c
   rank: 129
