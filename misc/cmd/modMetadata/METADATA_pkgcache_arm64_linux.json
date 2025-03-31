@@ -467,7 +467,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/ryujinx/ryujinx"
    ],
-   "rank": 21
+   "rank": 20
   },
   {
    "pkg": "ryujinx.appimage",
@@ -493,7 +493,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/ryujinx/ryujinx"
    ],
-   "rank": 20
+   "rank": 21
   },
   {
    "pkg": "vesktop.appimage",
@@ -652,7 +652,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/rustdesk/rustdesk"
    ],
-   "rank": 18
+   "rank": 19
   },
   {
    "pkg": "rustdesk.appimage",
@@ -679,7 +679,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/rustdesk/rustdesk"
    ],
-   "rank": 19
+   "rank": 18
   },
   {
    "pkg": "tangent.appimage",
@@ -709,7 +709,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/suchnsuch/Tangent"
    ],
-   "rank": 146
+   "rank": 145
   },
   {
    "pkg": "tangent.appimage",
@@ -741,7 +741,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/suchnsuch/Tangent"
    ],
-   "rank": 145
+   "rank": 146
   },
   {
    "pkg": "escrcpy.appimage",
@@ -802,7 +802,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop"
    ],
-   "rank": 142
+   "rank": 141
   },
   {
    "pkg": "zen-browser.appimage",
@@ -844,20 +844,20 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop"
    ],
-   "rank": 141
+   "rank": 140
   },
   {
    "pkg": "zen-browser.appimage",
    "pkg_name": "zen-browser",
    "pkg_id": "github.com.zen-browser.desktop.twilight",
-   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.10.3t_2025-03-27at23_03_27_-aarch64-linux\u0026download=zen-browser.png",
+   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.10.3t_2025-03-28at23_03_26_-aarch64-linux\u0026download=zen-browser.png",
    "description": "Performance oriented Firefox-based web browser (Twilight)",
-   "version": "Twilightbuild-1.10.3t(2025-03-27at23:03:27)",
-   "download_url": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:Twilightbuild-1.10.3t_2025-03-27at23_03_27_-aarch64-linux",
+   "version": "Twilightbuild-1.10.3t(2025-03-28at23:03:26)",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:Twilightbuild-1.10.3t_2025-03-28at23_03_26_-aarch64-linux",
    "size": "90 MB",
-   "bsum": "cf45f47ab038c43801aa1b78cc0c550d224b03807e7612c1d8294e1eb0bc9a05",
-   "shasum": "ea3d57429ba9cd5ffeec353cce268564b7f00e478c6522d498bba45d3920b272",
-   "build_date": "2025-03-28T19:39:16Z",
+   "bsum": "74fb90bcdf2906e8989cf05940f2222164c0c02cbea755149672579ae82459ad",
+   "shasum": "79b2b75f350d7873cffcbca565a87490d39f3c08c61a45c79b346f330e0e5c96",
+   "build_date": "2025-03-30T19:23:39Z",
    "src_urls": [
     "https://github.com/zen-browser/desktop"
    ],
@@ -866,7 +866,7 @@
     "https://github.com/zen-browser/desktop"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.twilight.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.10.3t_2025-03-27at23_03_27_-aarch64-linux\u0026download=zen-browser.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.10.3t_2025-03-28at23_03_26_-aarch64-linux\u0026download=zen-browser.log",
    "snapshots": [
     "1.7t_2025-01-15-aarch64-linux[1.7t_2025-01-15]",
     "1.7t_2025-01-16-aarch64-linux[1.7t_2025-01-16]",
@@ -910,13 +910,14 @@
     "1.10t_2025-03-18-aarch64-linux[1.10t_2025-03-18]",
     "Twilightbuild-1.10.1t_2025-03-21at07_05_26_-aarch64-linux[Twilightbuild-1.10.1t(2025-03-21at07:05:26)]",
     "Twilightbuild-1.10.1t_2025-03-23at09_42_45_-aarch64-linux[Twilightbuild-1.10.1t(2025-03-23at09:42:45)]",
-    "Twilightbuild-1.10.1t_2025-03-24at23_08_45_-aarch64-linux[Twilightbuild-1.10.1t(2025-03-24at23:08:45)]"
+    "Twilightbuild-1.10.1t_2025-03-24at23_08_45_-aarch64-linux[Twilightbuild-1.10.1t(2025-03-24at23:08:45)]",
+    "Twilightbuild-1.10.3t_2025-03-27at23_03_27_-aarch64-linux[Twilightbuild-1.10.3t(2025-03-27at23:03:27)]"
    ],
    "provides": "zen-browser==zen",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop"
    ],
-   "rank": 140
+   "rank": 142
   },
   {
    "pkg": "librewolf.appimage",
@@ -1810,10 +1811,10 @@
    "description": "GTK front-end for Clam Antivirus",
    "version": "6.07",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk:6.07-aarch64-linux",
-   "size": "68 MB",
-   "bsum": "1a2da37958d3203e83373c0db3af6dfb47da8c9b0474ae7247baf6160d18d282",
-   "shasum": "979003db73d7920fb199bc88e8978d0085b485287768b8af734fb46ab1e1984c",
-   "build_date": "2025-03-28T18:59:35Z",
+   "size": "67 MB",
+   "bsum": "c3bc274cafdddd8dba126ac9c2240c19d1857cd2cf81a91a34a2b74495eb5df4",
+   "shasum": "ce283188f13897181f5f20e88d316a8519b9c6afb196c83e6d64420009bdab81",
+   "build_date": "2025-03-30T18:52:49Z",
    "src_urls": [
     "https://github.com/dave-theunsub/clamtk",
     "https://gitlab.com/dave_m/clamtk"
