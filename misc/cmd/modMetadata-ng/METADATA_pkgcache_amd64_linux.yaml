@@ -1,222 +1,4 @@
 pkgcache:
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
 - pkg: suyu.appimage
   pkg_name: suyu
   pkg_id: git.suyu.dev.suyu.suyu.stable
@@ -1359,53 +1141,6 @@ pkgcache:
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/melonDS-emu/melonDS
   rank: 214
-- pkg: player432hz/converter432hz.appimage
-  pkg_name: converter432hz
-  pkg_id: github.com.mysteryx93.HanumanInstituteApps
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/converter432hz?tag=v3.3.2-x86_64-linux&download=converter432hz.svg
-  description: Converts and re-encodes music to 432Hz in Batch [player432hz]
-  version: v3.3.2
-  download_url: oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/converter432hz:v3.3.2-x86_64-linux
-  size: 15 MB
-  bsum: 4fb6215fbacdafcb0f2e36a1d61c32b36dc6689aceb4f905cc3854b0e54f9abb
-  shasum: c1129993b676ad888909bae67150600bb153f3b9feb08599b612a68f4b033599
-  build_date: "2025-01-12T02:57:11Z"
-  src_urls:
-  - https://github.com/mysteryx93/HanumanInstituteApps
-  web_urls:
-  - https://github.com/mysteryx93/HanumanInstituteApps
-  - https://github.com/mysteryx93/HanumanInstituteApps/wiki
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/player432hz/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/converter432hz?tag=v3.3.2-x86_64-linux&download=converter432hz.log
-  provides: converter432hz==Converter432Hz,player432hz==Player432Hz,powerliminalsplayer==PowerliminalsPlayer,yangdownloader==YangDownloader
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/mysteryx93/HanumanInstituteApps
-  rank: 52
-- pkg: player432hz/powerliminalsplayer.appimage
-  pkg_name: powerliminalsplayer
-  pkg_id: github.com.mysteryx93.HanumanInstituteApps
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/powerliminalsplayer?tag=v3.3.2-x86_64-linux&download=powerliminalsplayer.svg
-  description: Plays multiple audios simultaneously at varying speeds [player432hz]
-  version: v3.3.2
-  download_url: oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/powerliminalsplayer:v3.3.2-x86_64-linux
-  size: 31 MB
-  bsum: fc0ff685f8ea016f38122d56798543f143b67704ae539bce081dd197e94c4884
-  shasum: 840c5c8ad8d0a7bc5e8daa166dd56259e20b20dda0cc4e7868d1ce70f0c9e9cf
-  build_date: "2025-01-26T22:57:44Z"
-  src_urls:
-  - https://github.com/mysteryx93/HanumanInstituteApps
-  web_urls:
-  - https://github.com/mysteryx93/HanumanInstituteApps
-  - https://github.com/mysteryx93/HanumanInstituteApps/wiki
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/player432hz/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/powerliminalsplayer?tag=v3.3.2-x86_64-linux&download=powerliminalsplayer.log
-  snapshots:
-  - commit: v3.3.2-x86_64-linux
-    version: v3.3.2
-  provides: converter432hz==Converter432Hz,player432hz==Player432Hz,powerliminalsplayer==PowerliminalsPlayer,yangdownloader==YangDownloader
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/mysteryx93/HanumanInstituteApps
-  rank: 50
 - pkg: player432hz/yangdownloader.appimage
   pkg_name: yangdownloader
   pkg_id: github.com.mysteryx93.HanumanInstituteApps
@@ -1453,6 +1188,53 @@ pkgcache:
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/mysteryx93/HanumanInstituteApps
   rank: 51
+- pkg: player432hz/powerliminalsplayer.appimage
+  pkg_name: powerliminalsplayer
+  pkg_id: github.com.mysteryx93.HanumanInstituteApps
+  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/powerliminalsplayer?tag=v3.3.2-x86_64-linux&download=powerliminalsplayer.svg
+  description: Plays multiple audios simultaneously at varying speeds [player432hz]
+  version: v3.3.2
+  download_url: oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/powerliminalsplayer:v3.3.2-x86_64-linux
+  size: 31 MB
+  bsum: fc0ff685f8ea016f38122d56798543f143b67704ae539bce081dd197e94c4884
+  shasum: 840c5c8ad8d0a7bc5e8daa166dd56259e20b20dda0cc4e7868d1ce70f0c9e9cf
+  build_date: "2025-01-26T22:57:44Z"
+  src_urls:
+  - https://github.com/mysteryx93/HanumanInstituteApps
+  web_urls:
+  - https://github.com/mysteryx93/HanumanInstituteApps
+  - https://github.com/mysteryx93/HanumanInstituteApps/wiki
+  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/player432hz/appimage.official.stable.yaml
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/powerliminalsplayer?tag=v3.3.2-x86_64-linux&download=powerliminalsplayer.log
+  snapshots:
+  - commit: v3.3.2-x86_64-linux
+    version: v3.3.2
+  provides: converter432hz==Converter432Hz,player432hz==Player432Hz,powerliminalsplayer==PowerliminalsPlayer,yangdownloader==YangDownloader
+  notes:
+  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/mysteryx93/HanumanInstituteApps
+  rank: 50
+- pkg: player432hz/converter432hz.appimage
+  pkg_name: converter432hz
+  pkg_id: github.com.mysteryx93.HanumanInstituteApps
+  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/converter432hz?tag=v3.3.2-x86_64-linux&download=converter432hz.svg
+  description: Converts and re-encodes music to 432Hz in Batch [player432hz]
+  version: v3.3.2
+  download_url: oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/converter432hz:v3.3.2-x86_64-linux
+  size: 15 MB
+  bsum: 4fb6215fbacdafcb0f2e36a1d61c32b36dc6689aceb4f905cc3854b0e54f9abb
+  shasum: c1129993b676ad888909bae67150600bb153f3b9feb08599b612a68f4b033599
+  build_date: "2025-01-12T02:57:11Z"
+  src_urls:
+  - https://github.com/mysteryx93/HanumanInstituteApps
+  web_urls:
+  - https://github.com/mysteryx93/HanumanInstituteApps
+  - https://github.com/mysteryx93/HanumanInstituteApps/wiki
+  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/player432hz/appimage.official.stable.yaml
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/converter432hz?tag=v3.3.2-x86_64-linux&download=converter432hz.log
+  provides: converter432hz==Converter432Hz,player432hz==Player432Hz,powerliminalsplayer==PowerliminalsPlayer,yangdownloader==YangDownloader
+  notes:
+  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/mysteryx93/HanumanInstituteApps
+  rank: 52
 - pkg: neovim.appimage
   pkg_name: neovim
   pkg_id: github.com.neovim.neovim.stable
@@ -5015,6 +4797,30 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
   rank: 196
+- pkg: vscodium.runimage
+  pkg_name: vscodium
+  pkg_id: runimage.cachyos.steam
+  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/vscodium/runimage/cachyos/stable/vscodium?tag=1.96.4.25026-x86_64-linux&download=vscodium.png
+  description: Visual Studio Code without MS branding/telemetry/licensing
+  version: 1.96.4.25026
+  download_url: oci://ghcr.io/pkgforge/pkgcache/vscodium/runimage/cachyos/stable/vscodium:1.96.4.25026-x86_64-linux
+  size: 308 MB
+  bsum: c39664ff70dd723336b7efe8a52d7e0510042f0cdaf2d92ed13fb9086b5817a0
+  shasum: 06efc8159ebf66dc0d8255b6d0f9a3ebb3544b3da495c9ccd41b37c20fce2606
+  build_date: "2025-01-27T04:00:57Z"
+  src_urls:
+  - https://github.com/VSCodium/vscodium
+  web_urls:
+  - https://vscodium.com
+  - https://github.com/VSCodium/vscodium
+  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/vscodium/runimage.cachyos.stable.yaml
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/vscodium/runimage/cachyos/stable/vscodium?tag=1.96.4.25026-x86_64-linux&download=vscodium.log
+  provides: vscodium==codium
+  notes:
+  - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
+  - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
+  - "[PORTABLE] (Works on AnyLinux)"
+  rank: 79
 - pkg: steam.runimage
   pkg_name: steam
   pkg_id: runimage.cachyos.steam
@@ -5043,30 +4849,6 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
   rank: 62
-- pkg: vscodium.runimage
-  pkg_name: vscodium
-  pkg_id: runimage.cachyos.steam
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/vscodium/runimage/cachyos/stable/vscodium?tag=1.96.4.25026-x86_64-linux&download=vscodium.png
-  description: Visual Studio Code without MS branding/telemetry/licensing
-  version: 1.96.4.25026
-  download_url: oci://ghcr.io/pkgforge/pkgcache/vscodium/runimage/cachyos/stable/vscodium:1.96.4.25026-x86_64-linux
-  size: 308 MB
-  bsum: c39664ff70dd723336b7efe8a52d7e0510042f0cdaf2d92ed13fb9086b5817a0
-  shasum: 06efc8159ebf66dc0d8255b6d0f9a3ebb3544b3da495c9ccd41b37c20fce2606
-  build_date: "2025-01-27T04:00:57Z"
-  src_urls:
-  - https://github.com/VSCodium/vscodium
-  web_urls:
-  - https://vscodium.com
-  - https://github.com/VSCodium/vscodium
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/vscodium/runimage.cachyos.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/vscodium/runimage/cachyos/stable/vscodium?tag=1.96.4.25026-x86_64-linux&download=vscodium.log
-  provides: vscodium==codium
-  notes:
-  - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
-  - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
-  - "[PORTABLE] (Works on AnyLinux)"
-  rank: 79
 - pkg: wezterm.runimage
   pkg_name: wezterm
   pkg_id: runimage.cachyos.wezterm
