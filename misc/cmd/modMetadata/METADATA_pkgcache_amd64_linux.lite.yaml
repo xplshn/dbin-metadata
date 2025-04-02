@@ -260,7 +260,7 @@ pkgcache:
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/suyu/appimage/official/stable/suyu?tag=v0.0.3-x86_64-linux&download=suyu.log
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://git.suyu.dev/suyu/suyu
-  rank: 215
+  rank: 217
 - pkg: 0ad.appimage
   pkg_name: 0ad
   pkg_id: github.0ad-matters.0ad-appimage.prerelease
@@ -286,7 +286,7 @@ pkgcache:
   - If you have a GPU that has a chipset other than Nvidia, the Vulkan backend may be automatically disabled in some cases
   - This version is based on the latest Ubuntu LTS, so it should not work on older distros
   - In case of problems, install '0ad' instead
-  rank: 43
+  rank: 47
 - pkg: 0ad.appimage
   pkg_name: 0ad
   pkg_id: github.0ad-matters.0ad-appimage.stable
@@ -309,7 +309,7 @@ pkgcache:
   - v0.0.26-alpha-x86_64-linux[v0.0.26-alpha]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/0ad-matters/0ad-appimage
-  rank: 44
+  rank: 48
 - pkg: 86box.appimage
   pkg_name: 86box
   pkg_id: github.com.86Box.86Box.stable
@@ -332,7 +332,7 @@ pkgcache:
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/86Box/86Box
   - "You need to download ROMS: https://86box.readthedocs.io/en/latest/usage/roms.html"
-  rank: 250
+  rank: 251
 - pkg: acreom.appimage
   pkg_name: acreom
   pkg_id: github.com.Acreom.releases.stable
@@ -354,7 +354,7 @@ pkgcache:
   - v1.20.4-x86_64-linux[v1.20.4]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/Acreom/app
-  rank: 47
+  rank: 57
 - pkg: agregore.appimage
   pkg_name: agregore
   pkg_id: github.com.AgregoreWeb.agregore-browser
@@ -376,7 +376,7 @@ pkgcache:
   - v2.7.0-x86_64-linux[v2.7.0]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/AgregoreWeb/agregore-browser
-  rank: 30
+  rank: 40
 - pkg: advanced-passgen.appimage
   pkg_name: advanced-passgen
   pkg_id: github.com.CodeDead.Advanced-PassGen
@@ -398,7 +398,7 @@ pkgcache:
   - v2.5.2-x86_64-linux[v2.5.2]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/CodeDead/Advanced-PassGen
-  rank: 45
+  rank: 55
 - pkg: xash3d-fwgs.appimage
   pkg_name: xash3d-fwgs
   pkg_id: github.com.FWGS.xash3d-fwgs
@@ -434,7 +434,7 @@ pkgcache:
   - 250330T173653-x86_64-linux[250330T173653]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/FWGS/xash3d-fwgs
-  rank: 13
+  rank: 7
 - pkg: ryujinx.appimage
   pkg_name: ryujinx
   pkg_id: github.com.Ryubing.Ryujinx.canary
@@ -453,7 +453,7 @@ pkgcache:
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx?tag=1.2.357-x86_64-linux&download=ryujinx.log
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/ryujinx/ryujinx
-  rank: 79
+  rank: 89
 - pkg: ryujinx.appimage
   pkg_name: ryujinx
   pkg_id: github.com.Ryubing.Ryujinx.stable
@@ -472,7 +472,7 @@ pkgcache:
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx?tag=1.2.81-x86_64-linux&download=ryujinx.log
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/ryujinx/ryujinx
-  rank: 80
+  rank: 88
 - pkg: amdgpu_top.appimage
   pkg_name: amdgpu_top
   pkg_id: github.com.Umio-Yasuno.amdgpu_top
@@ -494,7 +494,7 @@ pkgcache:
   - v0.10.2-x86_64-linux[v0.10.2]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/Umio-Yasuno/amdgpu_top
-  rank: 35
+  rank: 45
 - pkg: vscodium.appimage
   pkg_name: vscodium
   pkg_id: github.com.VSCodium.vscodium
@@ -521,7 +521,7 @@ pkgcache:
   - 1.98.2.25072-x86_64-linux[1.98.2.25072]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/VSCodium/vscodium
-  rank: 97
+  rank: 106
 - pkg: vesktop.appimage
   pkg_name: vesktop
   pkg_id: github.com.Vencord.Vesktop
@@ -543,7 +543,7 @@ pkgcache:
   - v1.5.5-x86_64-linux[v1.5.5]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/Vencord/Vesktop
-  rank: 258
+  rank: 259
 - pkg: actual.appimage
   pkg_name: actual
   pkg_id: github.com.actualbudget.actual.stable
@@ -567,7 +567,7 @@ pkgcache:
   - v25.3.0-x86_64-linux[v25.3.0]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/actualbudget/actual
-  rank: 28
+  rank: 39
 - pkg: advanced-rest-client.appimage
   pkg_name: advanced-rest-client
   pkg_id: github.com.advanced-rest-client.arc-electron
@@ -588,7 +588,7 @@ pkgcache:
   - v17.0.9-x86_64-linux[v17.0.9]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/advanced-rest-client/arc-electron
-  rank: 55
+  rank: 59
 - pkg: affine.appimage
   pkg_name: affine
   pkg_id: github.com.affine-mirror.affine.canary.1
@@ -615,7 +615,7 @@ pkgcache:
   - v0.21.0-canary.1-x86_64-linux[v0.21.0-canary.1]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/toeverything/AFFiNE
-  rank: 32
+  rank: 41
 - pkg: affine.appimage
   pkg_name: affine
   pkg_id: github.com.affine-mirror.affine.canary.2
@@ -638,7 +638,7 @@ pkgcache:
   - v0.20.5-canary.2-x86_64-linux[v0.20.5-canary.2]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/toeverything/AFFiNE
-  rank: 31
+  rank: 42
 - pkg: affine.appimage
   pkg_name: affine
   pkg_id: github.com.affine-mirror.affine.stable
@@ -665,7 +665,7 @@ pkgcache:
   - v0.20.4-x86_64-linux[v0.20.4]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/toeverything/AFFiNE
-  rank: 33
+  rank: 43
 - pkg: air-controller-desktop.appimage
   pkg_name: air-controller-desktop
   pkg_id: github.com.air-controller.air-controller-desktop
@@ -686,7 +686,7 @@ pkgcache:
   - 0.4.0-x86_64-linux[0.4.0]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/air-controller/air-controller-desktop
-  rank: 34
+  rank: 44
 - pkg: akuse.appimage
   pkg_name: akuse
   pkg_id: github.com.akuse-app.akuse
@@ -707,7 +707,7 @@ pkgcache:
   - 1.9.0-x86_64-linux[1.9.0]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/akuse-app/akuse
-  rank: 38
+  rank: 50
 - pkg: allusion.appimage
   pkg_name: allusion
   pkg_id: github.com.allusion-app.Allusion
@@ -728,7 +728,7 @@ pkgcache:
   - v1.0.0-rc.10-x86_64-linux[v1.0.0-rc.10]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/allusion-app/Allusion
-  rank: 48
+  rank: 58
 - pkg: altair.appimage
   pkg_name: altair
   pkg_id: github.com.altair-graphql.altair
@@ -755,7 +755,7 @@ pkgcache:
   - v8.2.0-x86_64-linux[v8.2.0]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/altair-graphql/altair
-  rank: 21
+  rank: 33
 - pkg: altus.appimage
   pkg_name: altus
   pkg_id: github.com.amanharwara.altus
@@ -781,7 +781,7 @@ pkgcache:
   - 5.5.3-x86_64-linux[5.5.3]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/amanharwara/altus
-  rank: 24
+  rank: 36
 - pkg: waydroid-helper.appimage
   pkg_name: waydroid-helper
   pkg_id: github.com.ayasa520.waydroid-helper.stable
@@ -800,7 +800,7 @@ pkgcache:
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/waydroid-helper/appimage/official/stable/waydroid-helper?tag=v0.1.2-x86_64-linux&download=waydroid-helper.log
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/ayasa520/waydroid-helper
-  rank: 214
+  rank: 216
 - pkg: goverlay.appimage
   pkg_name: goverlay
   pkg_id: github.com.benjamimgois.goverlay.nightly
@@ -827,7 +827,7 @@ pkgcache:
   - 250325T010738-x86_64-linux[250325T010738]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/benjamimgois/goverlay
-  rank: 238
+  rank: 239
 - pkg: goverlay.appimage
   pkg_name: goverlay
   pkg_id: github.com.benjamimgois.goverlay.stable
@@ -849,7 +849,7 @@ pkgcache:
   - 1.3-2-x86_64-linux[1.3-2]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/benjamimgois/goverlay
-  rank: 237
+  rank: 240
 - pkg: alexandria.appimage
   pkg_name: alexandria
   pkg_id: github.com.btpf.Alexandria
@@ -870,7 +870,7 @@ pkgcache:
   - v0.13.1-x86_64-linux[v0.13.1]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/btpf/Alexandria
-  rank: 64
+  rank: 74
 - pkg: qbittorrent-enhanced.appimage
   pkg_name: qbittorrent-enhanced
   pkg_id: github.com.c0re100.qBittorrent-Enhanced-Edition.stable
@@ -890,7 +890,7 @@ pkgcache:
   snapshots:
   - release-5.0.3.10-x86_64-linux[release-5.0.3.10]
   - release-5.0.4.10-x86_64-linux[release-5.0.4.10]
-  rank: 201
+  rank: 206
 - pkg: caido.appimage
   pkg_name: caido
   pkg_id: github.com.caido.caido.stable
@@ -912,7 +912,7 @@ pkgcache:
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/caido/caido
   - "You may need to run this with: --no-sandbox"
-  rank: 184
+  rank: 190
 - pkg: android-messages.appimage
   pkg_name: android-messages
   pkg_id: github.com.chrisknepper.android-messages-desktop
@@ -933,7 +933,7 @@ pkgcache:
   - v5.6.0-x86_64-linux[v5.6.0]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/OrangeDrangon/android-messages-desktop
-  rank: 46
+  rank: 56
 - pkg: aaaaxy.appimage
   pkg_name: aaaaxy
   pkg_id: github.com.divVerent.aaaaxy
@@ -957,7 +957,7 @@ pkgcache:
   - v1.6.0-x86_64-linux[v1.6.0]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/divVerent/aaaaxy
-  rank: 27
+  rank: 38
 - pkg: peazip.appimage
   pkg_name: peazip
   pkg_id: github.com.ferion11.peazip-AppImage
@@ -979,7 +979,7 @@ pkgcache:
   - v10.2.0-x86_64-linux[v10.2.0]
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/ferion11/PeaZip_Appimage
-  rank: 170
+  rank: 174
 - pkg: flameshot.appimage
   pkg_name: flameshot
   pkg_id: github.com.flameshot-org.flameshot
@@ -1001,7 +1001,7 @@ pkgcache:
   - v12.1.0-x86_64-linux[v12.1.0]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/flameshot-org/flameshot
-  rank: 68
+  rank: 77
 - pkg: knot.appimage
   pkg_name: knot
   pkg_id: github.com.ic005k.Knot
@@ -1031,7 +1031,7 @@ pkgcache:
   - 1.2.18-x86_64-linux[1.2.18]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/ic005k/Knot
-  rank: 23
+  rank: 35
 - pkg: abiword.appimage
   pkg_name: abiword
   pkg_id: github.com.ivan-hc.Abiword-appimage
@@ -1053,7 +1053,7 @@ pkgcache:
   - 3.0.6-2-4.2-x86_64-linux[3.0.6-2-4.2]
   notes:
   - Community Created AppImage based on JuNest. Check/Report @ https://github.com/ivan-hc/Abiword-appimage
-  rank: 37
+  rank: 49
 - pkg: aisleriot.appimage
   pkg_name: aisleriot
   pkg_id: github.com.ivan-hc.Aisleriot-appimage
@@ -1075,7 +1075,7 @@ pkgcache:
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/aisleriot/appimage/ivan-hc/stable/aisleriot?tag=3.22.34-1-3.4.4-2-x86_64-linux&download=aisleriot.log
   notes:
   - Community Created AppImage. Check/Report @ https://github.com/ivan-hc/Aisleriot-appimage
-  rank: 50
+  rank: 61
 - pkg: spotify.appimage
   pkg_name: spotify
   pkg_id: github.com.ivan-hc.Spotify-appimage
@@ -1097,7 +1097,7 @@ pkgcache:
   - 1.2.53.440.72582-x86_64-linux[1.2.53.440.72582]
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/ivan-hc/Spotify-appimage
-  rank: 209
+  rank: 212
 - pkg: wps-office.appimage
   pkg_name: wps-office
   pkg_id: github.com.ivan-hc.WPS-Office-appimage.stable
@@ -1138,7 +1138,7 @@ pkgcache:
   - 24.12-x86_64-linux[24.12]
   notes:
   - Community Created AppImage. Check/Report @ https://github.com/ivan-hc/KDE-utils-appimage
-  rank: 76
+  rank: 85
 - pkg: signal-desktop.appimage
   pkg_name: signal-desktop
   pkg_id: github.com.karo-solutions.Signal-Desktop-AppImage.stable
@@ -1164,7 +1164,7 @@ pkgcache:
   - v7.44.0-x86_64-linux[v7.44.0]
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/karo-solutions/Signal-Desktop-AppImage
-  rank: 194
+  rank: 23
 - pkg: libresprite.appimage
   pkg_name: libresprite
   pkg_id: github.com.libresprite.libresprite.stable
@@ -1183,7 +1183,7 @@ pkgcache:
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/libresprite/appimage/official/stable/libresprite?tag=v1.2-x86_64-linux&download=libresprite.log
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/LibreSprite/LibreSprite
-  rank: 246
+  rank: 247
 - pkg: melonds.appimage
   pkg_name: melonds
   pkg_id: github.com.melonDS-emu.melonDS
@@ -1202,7 +1202,7 @@ pkgcache:
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/melonds/appimage/official/stable/melonds?tag=1.0rc-x86_64-linux&download=melonds.log
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/melonDS-emu/melonDS
-  rank: 217
+  rank: 219
 - pkg: player432hz/yangdownloader.appimage
   pkg_name: yangdownloader
   pkg_id: github.com.mysteryx93.HanumanInstituteApps
@@ -1224,7 +1224,7 @@ pkgcache:
   - v3.3.2-x86_64-linux[v3.3.2]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/mysteryx93/HanumanInstituteApps
-  rank: 62
+  rank: 70
 - pkg: player432hz/player432hz.appimage
   pkg_name: player432hz
   pkg_id: github.com.mysteryx93.HanumanInstituteApps
@@ -1244,7 +1244,7 @@ pkgcache:
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/player432hz?tag=v3.3.2-x86_64-linux&download=player432hz.log
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/mysteryx93/HanumanInstituteApps
-  rank: 61
+  rank: 71
 - pkg: player432hz/converter432hz.appimage
   pkg_name: converter432hz
   pkg_id: github.com.mysteryx93.HanumanInstituteApps
@@ -1264,7 +1264,7 @@ pkgcache:
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/converter432hz?tag=v3.3.2-x86_64-linux&download=converter432hz.log
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/mysteryx93/HanumanInstituteApps
-  rank: 59
+  rank: 69
 - pkg: player432hz/powerliminalsplayer.appimage
   pkg_name: powerliminalsplayer
   pkg_id: github.com.mysteryx93.HanumanInstituteApps
@@ -1286,7 +1286,7 @@ pkgcache:
   - v3.3.2-x86_64-linux[v3.3.2]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/mysteryx93/HanumanInstituteApps
-  rank: 60
+  rank: 72
 - pkg: neovim.appimage
   pkg_name: neovim
   pkg_id: github.com.neovim.neovim.stable
@@ -1309,7 +1309,7 @@ pkgcache:
   - v0.10.4-x86_64-linux[v0.10.4]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/neovim/neovim
-  rank: 57
+  rank: 68
 - pkg: citron.appimage
   pkg_name: citron
   pkg_id: github.com.pkgforge-dev.Citron-AppImage.stable
@@ -1335,7 +1335,7 @@ pkgcache:
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Citron-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 171
+  rank: 178
 - pkg: citron.appimage
   pkg_name: citron
   pkg_id: github.com.pkgforge-dev.Citron-AppImage.v3
@@ -1362,7 +1362,7 @@ pkgcache:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Citron-AppImage
   - Optimized for x86-64-v3
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 172
+  rank: 177
 - pkg: cromite.appimage
   pkg_name: cromite
   pkg_id: github.com.pkgforge-dev.Cromite-AppImage
@@ -1393,7 +1393,7 @@ pkgcache:
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Cromite-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 18
+  rank: 30
 - pkg: gimp.appimage
   pkg_name: gimp
   pkg_id: github.com.pkgforge-dev.GIMP-AppImage
@@ -1416,7 +1416,7 @@ pkgcache:
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/GIMP-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 161
+  rank: 166
 - pkg: obs-studio.appimage
   pkg_name: obs-studio
   pkg_id: github.com.pkgforge-dev.OBS-Studio-AppImage.stable
@@ -1442,7 +1442,7 @@ pkgcache:
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/OBS-Studio-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 7
+  rank: 12
 - pkg: ppsspp.appimage
   pkg_name: ppsspp
   pkg_id: github.com.pkgforge-dev.PPSSPP-AppImage.stable
@@ -1467,7 +1467,7 @@ pkgcache:
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/PPSSPP-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 71
+  rank: 78
 - pkg: torzu.appimage
   pkg_name: torzu
   pkg_id: github.com.pkgforge-dev.Torzu-AppImage.stable
@@ -1492,7 +1492,7 @@ pkgcache:
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Torzu-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 14
+  rank: 26
 - pkg: torzu.appimage
   pkg_name: torzu
   pkg_id: github.com.pkgforge-dev.Torzu-AppImage.v3
@@ -1518,7 +1518,7 @@ pkgcache:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Torzu-AppImage
   - Optimized for x86-64-v3
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 15
+  rank: 25
 - pkg: android-tools.appimage
   pkg_name: android-tools
   pkg_id: github.com.pkgforge-dev.android-tools-AppImage.stable
@@ -1540,7 +1540,7 @@ pkgcache:
   - 35.0.2-x86_64-linux[35.0.2]
   notes:
   - Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/android-tools-AppImage
-  rank: 8
+  rank: 11
 - pkg: mpv.appimage
   pkg_name: mpv
   pkg_id: github.com.pkgforge-dev.mpv-AppImage.stable
@@ -1602,7 +1602,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   - Run it with --getudev flag the first time to configure udev rules. It may not detect the board otherwise
   - To reduce crashes, plug in your device after configuring the udev rule and opening the app
-  rank: 179
+  rank: 185
 - pkg: puddletag.appimage
   pkg_name: puddletag
   pkg_id: github.com.pkgforge-dev.puddletag-AppImage.stable
@@ -1626,7 +1626,7 @@ pkgcache:
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/puddletag-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 65
+  rank: 75
 - pkg: strawberry.appimage
   pkg_name: strawberry
   pkg_id: github.com.pkgforge-dev.strawberry-AppImage.stable
@@ -1652,7 +1652,7 @@ pkgcache:
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/strawberry-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 58
+  rank: 67
 - pkg: ghostty.appimage
   pkg_name: ghostty
   pkg_id: github.com.psadi.ghostty-appimage.stable
@@ -1683,7 +1683,7 @@ pkgcache:
   - v1.1.3-x86_64-linux[v1.1.3]
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/ghostty-appimage
-  rank: 262
+  rank: 244
 - pkg: rustdesk.appimage
   pkg_name: rustdesk
   pkg_id: github.com.rustdesk.rustdesk.nightly
@@ -1703,7 +1703,7 @@ pkgcache:
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk?tag=250204T131430-x86_64-linux&download=rustdesk.log
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/rustdesk/rustdesk
-  rank: 77
+  rank: 87
 - pkg: rustdesk.appimage
   pkg_name: rustdesk
   pkg_id: github.com.rustdesk.rustdesk.stable
@@ -1723,7 +1723,7 @@ pkgcache:
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk?tag=1.3.7-x86_64-linux&download=rustdesk.log
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/rustdesk/rustdesk
-  rank: 78
+  rank: 86
 - pkg: simplex-desktop.appimage
   pkg_name: simplex-desktop
   pkg_id: github.com.simplex-chat.simplex-chat
@@ -1746,7 +1746,7 @@ pkgcache:
   - v6.2.5-x86_64-linux[v6.2.5]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/simplex-chat/simplex-chat
-  rank: 67
+  rank: 76
 - pkg: brave.appimage
   pkg_name: brave
   pkg_id: github.com.srevinsaju.Brave-AppImage.beta
@@ -1783,7 +1783,7 @@ pkgcache:
   - v1.78.70-x86_64-linux[v1.78.70]
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Brave-AppImage
-  rank: 235
+  rank: 236
 - pkg: brave.appimage
   pkg_name: brave
   pkg_id: github.com.srevinsaju.Brave-AppImage.nightly
@@ -1823,7 +1823,7 @@ pkgcache:
   - v1.78.64-x86_64-linux[v1.78.64]
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Brave-AppImage
-  rank: 234
+  rank: 238
 - pkg: brave.appimage
   pkg_name: brave
   pkg_id: github.com.srevinsaju.Brave-AppImage.stable
@@ -1846,7 +1846,7 @@ pkgcache:
   - v1.74.51-x86_64-linux[v1.74.51]
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Brave-AppImage
-  rank: 236
+  rank: 237
 - pkg: firefox.appimage
   pkg_name: firefox
   pkg_id: github.com.srevinsaju.Firefox-Appimage.beta
@@ -1890,7 +1890,7 @@ pkgcache:
   - 137.0.20250324130641-x86_64-linux[137.0.20250324130641]
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Firefox-Appimage
-  rank: 278
+  rank: 263
 - pkg: firefox.appimage
   pkg_name: firefox
   pkg_id: github.com.srevinsaju.Firefox-Appimage.dev
@@ -1930,7 +1930,7 @@ pkgcache:
   - 137.0.20250324130641-x86_64-linux[137.0.20250324130641]
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Firefox-Appimage
-  rank: 280
+  rank: 265
 - pkg: firefox.appimage
   pkg_name: firefox
   pkg_id: github.com.srevinsaju.Firefox-Appimage.esr
@@ -1955,7 +1955,7 @@ pkgcache:
   - 128.8.20250224130137-x86_64-linux[128.8.20250224130137]
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Firefox-Appimage
-  rank: 279
+  rank: 264
 - pkg: firefox.appimage
   pkg_name: firefox
   pkg_id: github.com.srevinsaju.Firefox-Appimage.nightly
@@ -2026,7 +2026,7 @@ pkgcache:
   - 138.0.20250330093237-x86_64-linux[138.0.20250330093237]
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Firefox-Appimage
-  rank: 281
+  rank: 267
 - pkg: firefox.appimage
   pkg_name: firefox
   pkg_id: github.com.srevinsaju.Firefox-Appimage.stable
@@ -2055,7 +2055,7 @@ pkgcache:
   - 136.0.20250317120031-x86_64-linux[136.0.20250317120031]
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Firefox-Appimage
-  rank: 277
+  rank: 266
 - pkg: discord/discord-canary.appimage
   pkg_name: discord-canary
   pkg_id: github.com.srevinsaju.discord-AppImage.canary
@@ -2098,7 +2098,7 @@ pkgcache:
   - 0.0.619-x86_64-linux[0.0.619]
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/discord-appimage
-  rank: 276
+  rank: 281
 - pkg: discord/discord-ptb.appimage
   pkg_name: discord-ptb
   pkg_id: github.com.srevinsaju.discord-AppImage.ptb
@@ -2129,7 +2129,7 @@ pkgcache:
   - 0.0.135-x86_64-linux[0.0.135]
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/discord-appimage
-  rank: 22
+  rank: 34
 - pkg: discord/discord.appimage
   pkg_name: discord
   pkg_id: github.com.srevinsaju.discord-AppImage.stable
@@ -2160,7 +2160,7 @@ pkgcache:
   - 0.0.89-x86_64-linux[0.0.89]
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/discord-appimage
-  rank: 25
+  rank: 9
 - pkg: tangent.appimage
   pkg_name: tangent
   pkg_id: github.com.suchnsuch.Tangent
@@ -2182,7 +2182,7 @@ pkgcache:
   - 0.8.4-x86_64-linux[0.8.4]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/suchnsuch/Tangent
-  rank: 282
+  rank: 283
 - pkg: tangent.appimage
   pkg_name: tangent
   pkg_id: github.com.suchnsuch.Tangent.alpha
@@ -2206,7 +2206,7 @@ pkgcache:
   - 0.9.0-alpha.8-x86_64-linux[0.9.0-alpha.8]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/suchnsuch/Tangent
-  rank: 283
+  rank: 282
 - pkg: synfigstudio.appimage
   pkg_name: synfigstudio
   pkg_id: github.com.synfig.synfig.stable
@@ -2225,7 +2225,7 @@ pkgcache:
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/synfigstudio/appimage/official/stable/synfigstudio?tag=v1.5.3-x86_64-linux&download=synfigstudio.log
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/synfig/synfig
-  rank: 216
+  rank: 218
 - pkg: telegram-desktop.dynamic
   pkg_name: telegram-desktop
   pkg_id: github.com.telegramdesktop.tdesktop
@@ -2247,7 +2247,7 @@ pkgcache:
   - v5.10.3-x86_64-linux[v5.10.3]
   notes:
   - Pre Built Binary Fetched from Upstream. Check/Report @ https://github.com/telegramdesktop/tdesktop
-  rank: 56
+  rank: 66
 - pkg: escrcpy.appimage
   pkg_name: escrcpy
   pkg_id: github.com.viarotel-org.escrcpy
@@ -2271,7 +2271,7 @@ pkgcache:
   - v1.29.0-x86_64-linux[v1.29.0]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/viarotel-org/escrcpy
-  rank: 29
+  rank: 10
 - pkg: electron-mail.appimage
   pkg_name: electron-mail
   pkg_id: github.com.vladimiry.ElectronMail
@@ -2290,7 +2290,7 @@ pkgcache:
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/electron-mail/appimage/official/stable/electron-mail?tag=v5.3.0-x86_64-linux&download=electron-mail.log
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/vladimiry/ElectronMail
-  rank: 233
+  rank: 235
 - pkg: 9launcher.appimage
   pkg_name: 9launcher
   pkg_id: github.com.wearrrrr.9Launcher
@@ -2311,7 +2311,7 @@ pkgcache:
   - v.1.3.1-x86_64-linux[v.1.3.1]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/wearrrrr/9Launcher
-  rank: 49
+  rank: 60
 - pkg: wezterm.appimage
   pkg_name: wezterm
   pkg_id: github.com.wez.wezterm.stable
@@ -2332,7 +2332,7 @@ pkgcache:
   - 20240203-110809-5046fc22-x86_64-linux[20240203-110809-5046fc22]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/wez/wezterm
-  rank: 89
+  rank: 98
 - pkg: zen-browser.appimage
   pkg_name: zen-browser
   pkg_id: github.com.zen-browser.desktop.beta
@@ -2354,7 +2354,7 @@ pkgcache:
   - 1.0.2-b.5-x86_64-linux[1.0.2-b.5]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
-  rank: 259
+  rank: 262
 - pkg: zen-browser.appimage
   pkg_name: zen-browser
   pkg_id: github.com.zen-browser.desktop.stable
@@ -2388,7 +2388,7 @@ pkgcache:
   - 1.10.1b-x86_64-linux[1.10.1b]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
-  rank: 260
+  rank: 261
 - pkg: zen-browser.appimage
   pkg_name: zen-browser
   pkg_id: github.com.zen-browser.desktop.twilight
@@ -2455,7 +2455,7 @@ pkgcache:
   - Twilightbuild-1.10.3t_2025-03-28at23_03_26_-x86_64-linux[Twilightbuild-1.10.3t(2025-03-28at23:03:26)]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
-  rank: 261
+  rank: 260
 - pkg: inkscape.appimage
   pkg_name: inkscape
   pkg_id: gitlab.com.inkscape.inkscape
@@ -2474,7 +2474,7 @@ pkgcache:
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/inkscape/appimage/official/stable/inkscape?tag=1.4-x86_64-linux&download=inkscape.log
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://gitlab.com/inkscape/inkscape
-  rank: 165
+  rank: 171
 - pkg: kdenlive.appimage
   pkg_name: kdenlive
   pkg_id: gitlab.com.kdenlive.kdenlive.nightly
@@ -2522,7 +2522,7 @@ pkgcache:
   - 2025-03-30-x86_64-linux[2025-03-30]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://invent.kde.org/multimedia/kdenlive
-  rank: 228
+  rank: 231
 - pkg: kdenlive.appimage
   pkg_name: kdenlive
   pkg_id: gitlab.com.kdenlive.kdenlive.stable
@@ -2544,7 +2544,7 @@ pkgcache:
   - 24.12.2-x86_64-linux[24.12.2]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://invent.kde.org/multimedia/kdenlive
-  rank: 229
+  rank: 230
 - pkg: krita.appimage
   pkg_name: krita
   pkg_id: gitlab.com.krita.krita.next
@@ -2604,7 +2604,7 @@ pkgcache:
   - 2025-03-29-x86_64-linux[2025-03-29]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://invent.kde.org/graphics/krita
-  rank: 241
+  rank: 176
 - pkg: krita.appimage
   pkg_name: krita
   pkg_id: gitlab.com.krita.krita.stable
@@ -2624,7 +2624,7 @@ pkgcache:
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/krita/appimage/official/stable/krita?tag=5.2.9-x86_64-linux&download=krita.log
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://invent.kde.org/graphics/krita
-  rank: 242
+  rank: 175
 - pkg: libreoffice.appimage
   pkg_name: libreoffice
   pkg_id: gitlab.com.libreoffice.libreoffice.fresh-basic
@@ -2651,7 +2651,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://libreoffice.org
   - This version is the latest LibreOffice major release
   - This version includes support only for the default language i.e English (US)
-  rank: 148
+  rank: 155
 - pkg: libreoffice.appimage
   pkg_name: libreoffice
   pkg_id: gitlab.com.libreoffice.libreoffice.fresh-full
@@ -2678,7 +2678,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://libreoffice.org
   - This version is the latest LibreOffice major release
   - This version includes support for all languages supported by LibreOffice
-  rank: 149
+  rank: 153
 - pkg: libreoffice.appimage
   pkg_name: libreoffice
   pkg_id: gitlab.com.libreoffice.libreoffice.fresh-standard
@@ -2705,7 +2705,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://libreoffice.org
   - This version is the latest LibreOffice major release
   - "This version includes support for: English (US and GB), Arabic, Chinese (Simplified and Traditional), French, German, Italian, Japanese, Korean, Portuguese (Brazilian and Portugal), Russian, and Spanish"
-  rank: 147
+  rank: 156
 - pkg: libreoffice.appimage
   pkg_name: libreoffice
   pkg_id: gitlab.com.libreoffice.libreoffice.still-basic
@@ -2732,7 +2732,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://libreoffice.org
   - This version is the previous LibreOffice major release
   - This version includes support only for the default language i.e English (US)
-  rank: 151
+  rank: 154
 - pkg: libreoffice.appimage
   pkg_name: libreoffice
   pkg_id: gitlab.com.libreoffice.libreoffice.still-full
@@ -2786,7 +2786,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://libreoffice.org
   - This version is the previous LibreOffice major release
   - "This version includes support for: English (US and GB), Arabic, Chinese (Simplified and Traditional), French, German, Italian, Japanese, Korean, Portuguese (Brazilian and Portugal), Russian, and Spanish"
-  rank: 150
+  rank: 151
 - pkg: librewolf.appimage
   pkg_name: librewolf
   pkg_id: gitlab.com.librewolf-community.browser.appimage.stable
@@ -2813,7 +2813,7 @@ pkgcache:
   - v136.0.2-1-x86_64-linux[v136.0.2-1]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://gitlab.com/librewolf-community/browser/appimage
-  rank: 96
+  rank: 105
 - pkg: qbittorrent.appimage
   pkg_name: qbittorrent
   pkg_id: gitlab.com.qbittorrent.qbittorrent.beta
@@ -2836,7 +2836,7 @@ pkgcache:
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/qbittorrent/appimage/official/beta/qbittorrent?tag=5.1.0-x86_64-linux&download=qbittorrent.log
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://www.qbittorrent.org/download
-  rank: 187
+  rank: 193
 - pkg: qbittorrent.appimage
   pkg_name: qbittorrent
   pkg_id: gitlab.com.qbittorrent.qbittorrent.stable
@@ -2861,7 +2861,7 @@ pkgcache:
   - 5.0.3-x86_64-linux[5.0.3]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://www.qbittorrent.org/download
-  rank: 186
+  rank: 192
 - pkg: brave.nixappimage
   pkg_name: brave
   pkg_id: nixpkgs.brave
@@ -2894,7 +2894,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 251
+  rank: 252
 - pkg: chromium.nixappimage
   pkg_name: chromium
   pkg_id: nixpkgs.chromium
@@ -2958,7 +2958,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 42
+  rank: 51
 - pkg: discord/discord.nixappimage
   pkg_name: discord
   pkg_id: nixpkgs.discord-canary
@@ -2986,7 +2986,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 40
+  rank: 53
 - pkg: discord/discord.nixappimage
   pkg_name: discord
   pkg_id: nixpkgs.discord-development
@@ -3011,7 +3011,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 39
+  rank: 54
 - pkg: discord/discord.nixappimage
   pkg_name: discord
   pkg_id: nixpkgs.discord-ptb
@@ -3039,7 +3039,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 41
+  rank: 52
 - pkg: flameshot.nixappimage
   pkg_name: flameshot
   pkg_id: nixpkgs.flameshot
@@ -3067,7 +3067,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 252
+  rank: 253
 - pkg: gearlever.nixappimage
   pkg_name: gearlever
   pkg_id: nixpkgs.gearlever
@@ -3092,7 +3092,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 253
+  rank: 254
 - pkg: helix.nixappimage
   pkg_name: helix
   pkg_id: nixpkgs.helix
@@ -3118,7 +3118,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 254
+  rank: 255
 - pkg: neovim.nixappimage
   pkg_name: neovim
   pkg_id: nixpkgs.neovim
@@ -3143,7 +3143,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 255
+  rank: 256
 - pkg: simplex-desktop.nixappimage
   pkg_name: simplex-desktop
   pkg_id: nixpkgs.simplex-chat-desktop
@@ -3169,7 +3169,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 256
+  rank: 257
 - pkg: telegram-desktop.nixappimage
   pkg_name: telegram-desktop
   pkg_id: nixpkgs.telegram-desktop
@@ -3197,7 +3197,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 257
+  rank: 258
 - pkg: chromium.nixappimage
   pkg_name: chromium
   pkg_id: nixpkgs.ungoogled-chromium
@@ -3228,7 +3228,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 248
+  rank: 250
 - pkg: cmake.appimage
   pkg_name: cmake
   pkg_id: ppkg.bundle.cmake.stable
@@ -3250,7 +3250,7 @@ pkgcache:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 188
+  rank: 194
 - pkg: file.appimage
   pkg_name: file
   pkg_id: ppkg.bundle.file.stable
@@ -3272,7 +3272,7 @@ pkgcache:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 83
+  rank: 92
 - pkg: freerdp.appimage
   pkg_name: freerdp
   pkg_id: ppkg.bundle.freerdp.stable
@@ -3296,7 +3296,7 @@ pkgcache:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 196
+  rank: 201
 - pkg: git.appimage
   pkg_name: git
   pkg_id: ppkg.bundle.git.stable
@@ -3317,7 +3317,7 @@ pkgcache:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 74
+  rank: 83
 - pkg: jless.appimage
   pkg_name: jless
   pkg_id: ppkg.bundle.jless.stable
@@ -3339,7 +3339,7 @@ pkgcache:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 93
+  rank: 102
 - pkg: xrdp.appimage
   pkg_name: xrdp
   pkg_id: ppkg.bundle.xrdp.stable
@@ -3361,7 +3361,7 @@ pkgcache:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 218
+  rank: 220
 - pkg: akregator.runimage
   pkg_name: akregator
   pkg_id: runimage.alpine.akregator
@@ -3386,7 +3386,7 @@ pkgcache:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 275
+  rank: 280
 - pkg: element-desktop.runimage
   pkg_name: element-desktop
   pkg_id: runimage.alpine.element-desktop
@@ -3411,7 +3411,7 @@ pkgcache:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 72
+  rank: 81
 - pkg: falkon.runimage
   pkg_name: falkon
   pkg_id: runimage.alpine.falkon
@@ -3436,7 +3436,7 @@ pkgcache:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 82
+  rank: 91
 - pkg: ghex.runimage
   pkg_name: ghex
   pkg_id: runimage.alpine.ghex
@@ -3459,7 +3459,7 @@ pkgcache:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 20
+  rank: 32
 - pkg: git.runimage
   pkg_name: git
   pkg_id: runimage.alpine.git
@@ -3483,7 +3483,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 19
+  rank: 31
 - pkg: inkscape.runimage
   pkg_name: inkscape
   pkg_id: runimage.alpine.inkscape
@@ -3504,7 +3504,7 @@ pkgcache:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 63
+  rank: 73
 - pkg: kdenlive.runimage
   pkg_name: kdenlive
   pkg_id: runimage.alpine.kdenlive
@@ -3529,7 +3529,7 @@ pkgcache:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 36
+  rank: 46
 - pkg: krita.runimage
   pkg_name: krita
   pkg_id: runimage.alpine.krita
@@ -3553,7 +3553,7 @@ pkgcache:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 54
+  rank: 65
 - pkg: nmap/nmap.runimage
   pkg_name: nmap
   pkg_id: runimage.alpine.nmap
@@ -3576,7 +3576,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 95
+  rank: 104
 - pkg: wezterm.runimage
   pkg_name: wezterm
   pkg_id: runimage.alpine.wezterm
@@ -3598,7 +3598,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "Requires Fonts (On Host): https://wezfurlong.org/wezterm/config/fonts.html"
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 92
+  rank: 100
 - pkg: steam.runimage
   pkg_name: steam
   pkg_id: runimage.archlinux.steam
@@ -3623,7 +3623,7 @@ pkgcache:
   - Built Using RunImage [archlinux]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 69
+  rank: 80
 - pkg: ddnet.runimage
   pkg_name: ddnet
   pkg_id: runimage.cachyos.ddnet
@@ -3648,7 +3648,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 6
+  rank: 5
 - pkg: fdm.runimage
   pkg_name: fdm
   pkg_id: runimage.cachyos.fdm
@@ -3671,7 +3671,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 146
+  rank: 149
 - pkg: ffdec.runimage
   pkg_name: ffdec
   pkg_id: runimage.cachyos.ffdec
@@ -3692,7 +3692,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 90
+  rank: 99
 - pkg: ghidra.runimage
   pkg_name: ghidra
   pkg_id: runimage.cachyos.ghidra
@@ -3714,7 +3714,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 239
+  rank: 241
 - pkg: gimp.runimage
   pkg_name: gimp
   pkg_id: runimage.cachyos.gimp.git
@@ -3736,7 +3736,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 163
+  rank: 169
 - pkg: gimp.runimage
   pkg_name: gimp
   pkg_id: runimage.cachyos.gimp.stable
@@ -3761,7 +3761,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 164
+  rank: 170
 - pkg: gnome-boxes.runimage
   pkg_name: gnome-boxes
   pkg_id: runimage.cachyos.gnome-boxes.stable
@@ -3785,7 +3785,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 158
+  rank: 162
 - pkg: goverlay.runimage
   pkg_name: goverlay
   pkg_id: runimage.cachyos.goverlay.git
@@ -3810,7 +3810,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 144
+  rank: 147
 - pkg: goverlay.runimage
   pkg_name: goverlay
   pkg_id: runimage.cachyos.goverlay.stable
@@ -3836,7 +3836,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 143
+  rank: 148
 - pkg: gpt4all.runimage
   pkg_name: gpt4all
   pkg_id: runimage.cachyos.gpt4all.git
@@ -3858,7 +3858,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 173
+  rank: 179
 - pkg: gzdoom.runimage
   pkg_name: gzdoom
   pkg_id: runimage.cachyos.gzdoom
@@ -3883,7 +3883,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 157
+  rank: 160
 - pkg: haguichi.runimage
   pkg_name: haguichi
   pkg_id: runimage.cachyos.haguichi
@@ -3905,7 +3905,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 174
+  rank: 180
 - pkg: kdeutils.runimage
   pkg_name: kdeutils
   pkg_id: runimage.cachyos.kdeutils
@@ -3928,7 +3928,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 81
+  rank: 90
 - pkg: lact.runimage
   pkg_name: lact
   pkg_id: runimage.cachyos.lact
@@ -3952,7 +3952,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 160
+  rank: 164
 - pkg: lazarus.runimage
   pkg_name: lazarus
   pkg_id: runimage.cachyos.lazarus
@@ -3976,7 +3976,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 26
+  rank: 37
 - pkg: libresprite.runimage
   pkg_name: libresprite
   pkg_id: runimage.cachyos.libresprite
@@ -3998,7 +3998,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 177
+  rank: 183
 - pkg: librewolf.runimage
   pkg_name: librewolf
   pkg_id: runimage.cachyos.librewolf
@@ -4032,7 +4032,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 73
+  rank: 82
 - pkg: mcpelauncher.runimage
   pkg_name: mcpelauncher
   pkg_id: runimage.cachyos.mcpelauncher
@@ -4056,7 +4056,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 159
+  rank: 163
 - pkg: nheko.runimage
   pkg_name: nheko
   pkg_id: runimage.cachyos.nheko
@@ -4079,7 +4079,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 176
+  rank: 182
 - pkg: openboard.runimage
   pkg_name: openboard
   pkg_id: runimage.cachyos.openboard
@@ -4101,7 +4101,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 178
+  rank: 184
 - pkg: ruffle.runimage
   pkg_name: ruffle
   pkg_id: runimage.cachyos.ruffle.nightly
@@ -4125,7 +4125,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 213
+  rank: 215
 - pkg: spotube.runimage
   pkg_name: spotube
   pkg_id: runimage.cachyos.spotube
@@ -4152,7 +4152,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 202
+  rank: 205
 - pkg: vscodium.runimage
   pkg_name: vscodium
   pkg_id: runimage.cachyos.steam
@@ -4174,7 +4174,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 85
+  rank: 94
 - pkg: steam.runimage
   pkg_name: steam
   pkg_id: runimage.cachyos.steam
@@ -4199,7 +4199,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 70
+  rank: 79
 - pkg: wezterm.runimage
   pkg_name: wezterm
   pkg_id: runimage.cachyos.wezterm
@@ -4221,7 +4221,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "Requires Fonts (On Host): https://wezfurlong.org/wezterm/config/fonts.html"
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 91
+  rank: 101
 - pkg: blender.runimage
   pkg_name: blender
   pkg_id: runimage.debian.blender
@@ -4245,7 +4245,7 @@ pkgcache:
   - Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 263
+  rank: 268
 - pkg: clamtk.runimage
   pkg_name: clamtk
   pkg_id: runimage.debian.clamtk
@@ -4270,7 +4270,7 @@ pkgcache:
   - Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 17
+  rank: 8
 - pkg: deltapatcher.runimage
   pkg_name: deltapatcher
   pkg_id: runimage.debian.deltapatcher
@@ -4291,7 +4291,7 @@ pkgcache:
   - Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 142
+  rank: 146
 - pkg: fdm.runimage
   pkg_name: fdm
   pkg_id: runimage.debian.fdm
@@ -4315,7 +4315,7 @@ pkgcache:
   - Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 145
+  rank: 150
 - pkg: funkin.runimage
   pkg_name: funkin
   pkg_id: runimage.debian.funkin
@@ -4339,7 +4339,7 @@ pkgcache:
   - Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 84
+  rank: 93
 - pkg: megasync.runimage
   pkg_name: megasync
   pkg_id: runimage.debian.megasync
@@ -4363,7 +4363,7 @@ pkgcache:
   - Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 240
+  rank: 242
 - pkg: ultimmc.runimage
   pkg_name: ultimmc
   pkg_id: runimage.debian.ultimmc
@@ -4387,4 +4387,4 @@ pkgcache:
   - Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 199
+  rank: 24
