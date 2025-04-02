@@ -485,7 +485,7 @@
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/86Box/86Box",
     "You need to download ROMS: https://86box.readthedocs.io/en/latest/usage/roms.html"
    ],
-   "rank": 131
+   "rank": 130
   },
   {
    "pkg": "ryujinx.appimage",
@@ -511,7 +511,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/ryujinx/ryujinx"
    ],
-   "rank": 21
+   "rank": 27
   },
   {
    "pkg": "ryujinx.appimage",
@@ -537,7 +537,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/ryujinx/ryujinx"
    ],
-   "rank": 22
+   "rank": 26
   },
   {
    "pkg": "vesktop.appimage",
@@ -567,7 +567,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/Vencord/Vesktop"
    ],
-   "rank": 137
+   "rank": 138
   },
   {
    "pkg": "caido.appimage",
@@ -597,7 +597,7 @@
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/caido/caido",
     "You may need to run this with: --no-sandbox"
    ],
-   "rank": 95
+   "rank": 96
   },
   {
    "pkg": "pixelpulse2.appimage",
@@ -632,29 +632,29 @@
     "Run it with --getudev flag the first time to configure udev rules. It may not detect the board otherwise",
     "To reduce crashes, plug in your device after configuring the udev rule and opening the app"
    ],
-   "rank": 90
+   "rank": 91
   },
   {
    "pkg": "ghostty.appimage",
    "pkg_name": "ghostty",
    "pkg_id": "github.com.psadi.ghostty-appimage.stable",
-   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty?tag=v1.1.3-aarch64-linux\u0026download=ghostty.png",
+   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty?tag=v1.1.3_1-aarch64-linux\u0026download=ghostty.png",
    "description": "Fast, native, feature-rich terminal emulator pushing modern features",
-   "version": "v1.1.3",
-   "download_url": "oci://ghcr.io/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty:v1.1.3-aarch64-linux",
-   "size": "70 MB",
-   "bsum": "c6235d709fb92a38c202b0903422c6d33776b46204e8e1bad26de261e8466c5e",
-   "shasum": "0614d1485e01b6fa91f0758735f5fe5e575291fee7108a905007771c3f088dd0",
-   "build_date": "2025-03-25T19:14:00Z",
+   "version": "v1.1.3+1",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty:v1.1.3_1-aarch64-linux",
+   "size": "65 MB",
+   "bsum": "4b1ce5ebda97ee85bd80bfc79a5c4a8fb7da57636b297ab39f2c8f5c78a0dbd4",
+   "shasum": "7969c40b10ed4172d3346101c8221d632bfb660f4e397de2c8f6e29de84529ef",
+   "build_date": "2025-04-01T19:20:25Z",
    "src_urls": [
-    "https://github.com/psadi/ghostty-appimage"
+    "https://github.com/pkgforge-dev/ghostty-appimage"
    ],
    "web_urls": [
     "https://ghostty.org",
     "https://github.com/ghostty-org/ghostty"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/ghostty/appimage.psadi.stable.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty?tag=v1.1.3-aarch64-linux\u0026download=ghostty.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty?tag=v1.1.3_1-aarch64-linux\u0026download=ghostty.log",
    "snapshots": [
     "v1.0.1_4-aarch64-linux[v1.0.1+4]",
     "v1.1.0-aarch64-linux[v1.1.0]",
@@ -663,13 +663,14 @@
     "v1.1.2_1-aarch64-linux[v1.1.2+1]",
     "v1.1.2_2-aarch64-linux[v1.1.2+2]",
     "v1.1.2_3-aarch64-linux[v1.1.2+3]",
-    "v1.1.2_4-aarch64-linux[v1.1.2+4]"
+    "v1.1.2_4-aarch64-linux[v1.1.2+4]",
+    "v1.1.3-aarch64-linux[v1.1.3]"
    ],
    "provides": "ghostty",
    "notes": [
-    "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/psadi/ghostty-appimage"
+    "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/ghostty-appimage"
    ],
-   "rank": 139
+   "rank": 142
   },
   {
    "pkg": "rustdesk.appimage",
@@ -696,7 +697,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/rustdesk/rustdesk"
    ],
-   "rank": 20
+   "rank": 25
   },
   {
    "pkg": "rustdesk.appimage",
@@ -723,7 +724,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/rustdesk/rustdesk"
    ],
-   "rank": 19
+   "rank": 24
   },
   {
    "pkg": "tangent.appimage",
@@ -753,7 +754,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/suchnsuch/Tangent"
    ],
-   "rank": 145
+   "rank": 157
   },
   {
    "pkg": "tangent.appimage",
@@ -785,20 +786,20 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/suchnsuch/Tangent"
    ],
-   "rank": 146
+   "rank": 156
   },
   {
    "pkg": "escrcpy.appimage",
    "pkg_name": "escrcpy",
    "pkg_id": "github.com.viarotel-org.escrcpy",
-   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/escrcpy/appimage/official/stable/escrcpy?tag=v1.29.0-aarch64-linux\u0026download=escrcpy.png",
+   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/escrcpy/appimage/official/stable/escrcpy?tag=v1.29.2-aarch64-linux\u0026download=escrcpy.png",
    "description": "Graphical Scrcpy to display and control Android, devices",
-   "version": "v1.29.0",
-   "download_url": "oci://ghcr.io/pkgforge/pkgcache/escrcpy/appimage/official/stable/escrcpy:v1.29.0-aarch64-linux",
+   "version": "v1.29.2",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/escrcpy/appimage/official/stable/escrcpy:v1.29.2-aarch64-linux",
    "size": "89 MB",
-   "bsum": "a3c1adee1c1840035161d94c984babc9cacb96ba3b01afb345a69307876d9485",
-   "shasum": "de913de690b041938242dc0a23d09de2123b1efc487b7214a4c7d25ce7b8d82d",
-   "build_date": "2025-03-28T19:00:18Z",
+   "bsum": "70f7698214abb196840cdc92441c8c7a2bf28851be4f8d7fab7524af25eb8166",
+   "shasum": "19401563ecaccf97a13555f11a93035a6227605e43ef661e6af3887f753e2103",
+   "build_date": "2025-04-01T18:58:27Z",
    "src_urls": [
     "https://github.com/viarotel-org/escrcpy"
    ],
@@ -806,17 +807,18 @@
     "https://github.com/viarotel-org/escrcpy"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/escrcpy/appimage.official.stable.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/escrcpy/appimage/official/stable/escrcpy?tag=v1.29.0-aarch64-linux\u0026download=escrcpy.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/escrcpy/appimage/official/stable/escrcpy?tag=v1.29.2-aarch64-linux\u0026download=escrcpy.log",
    "snapshots": [
     "v1.28.4-aarch64-linux[v1.28.4]",
     "v1.28.6-aarch64-linux[v1.28.6]",
-    "v1.28.7-aarch64-linux[v1.28.7]"
+    "v1.28.7-aarch64-linux[v1.28.7]",
+    "v1.29.0-aarch64-linux[v1.29.0]"
    ],
    "provides": "escrcpy",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/viarotel-org/escrcpy"
    ],
-   "rank": 8
+   "rank": 13
   },
   {
    "pkg": "zen-browser.appimage",
@@ -846,7 +848,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop"
    ],
-   "rank": 141
+   "rank": 140
   },
   {
    "pkg": "zen-browser.appimage",
@@ -888,20 +890,20 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop"
    ],
-   "rank": 140
+   "rank": 139
   },
   {
    "pkg": "zen-browser.appimage",
    "pkg_name": "zen-browser",
    "pkg_id": "github.com.zen-browser.desktop.twilight",
-   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.10.3t_2025-03-28at23_03_26_-aarch64-linux\u0026download=zen-browser.png",
+   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.10.3t_2025-03-31at19_24_52_-aarch64-linux\u0026download=zen-browser.png",
    "description": "Performance oriented Firefox-based web browser (Twilight)",
-   "version": "Twilightbuild-1.10.3t(2025-03-28at23:03:26)",
-   "download_url": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:Twilightbuild-1.10.3t_2025-03-28at23_03_26_-aarch64-linux",
-   "size": "90 MB",
-   "bsum": "74fb90bcdf2906e8989cf05940f2222164c0c02cbea755149672579ae82459ad",
-   "shasum": "79b2b75f350d7873cffcbca565a87490d39f3c08c61a45c79b346f330e0e5c96",
-   "build_date": "2025-03-30T19:23:39Z",
+   "version": "Twilightbuild-1.10.3t(2025-03-31at19:24:52)",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:Twilightbuild-1.10.3t_2025-03-31at19_24_52_-aarch64-linux",
+   "size": "91 MB",
+   "bsum": "6370b50af1a6eb75eada6c850944fab88d7eecf2654886ab5089f77afa0a293c",
+   "shasum": "ed46f1dfb80dbe4068ef643931c05c2213e72a547981b2e4fbdbf2c03c5da6e1",
+   "build_date": "2025-04-01T19:48:12Z",
    "src_urls": [
     "https://github.com/zen-browser/desktop"
    ],
@@ -910,7 +912,7 @@
     "https://github.com/zen-browser/desktop"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.twilight.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.10.3t_2025-03-28at23_03_26_-aarch64-linux\u0026download=zen-browser.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.10.3t_2025-03-31at19_24_52_-aarch64-linux\u0026download=zen-browser.log",
    "snapshots": [
     "1.7t_2025-01-15-aarch64-linux[1.7t_2025-01-15]",
     "1.7t_2025-01-16-aarch64-linux[1.7t_2025-01-16]",
@@ -955,13 +957,14 @@
     "Twilightbuild-1.10.1t_2025-03-21at07_05_26_-aarch64-linux[Twilightbuild-1.10.1t(2025-03-21at07:05:26)]",
     "Twilightbuild-1.10.1t_2025-03-23at09_42_45_-aarch64-linux[Twilightbuild-1.10.1t(2025-03-23at09:42:45)]",
     "Twilightbuild-1.10.1t_2025-03-24at23_08_45_-aarch64-linux[Twilightbuild-1.10.1t(2025-03-24at23:08:45)]",
-    "Twilightbuild-1.10.3t_2025-03-27at23_03_27_-aarch64-linux[Twilightbuild-1.10.3t(2025-03-27at23:03:27)]"
+    "Twilightbuild-1.10.3t_2025-03-27at23_03_27_-aarch64-linux[Twilightbuild-1.10.3t(2025-03-27at23:03:27)]",
+    "Twilightbuild-1.10.3t_2025-03-28at23_03_26_-aarch64-linux[Twilightbuild-1.10.3t(2025-03-28at23:03:26)]"
    ],
    "provides": "zen-browser==zen",
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop"
    ],
-   "rank": 142
+   "rank": 141
   },
   {
    "pkg": "librewolf.appimage",
@@ -1037,7 +1040,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 130
+   "rank": 131
   },
   {
    "pkg": "chromium.nixappimage",
@@ -1079,7 +1082,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 128
+   "rank": 129
   },
   {
    "pkg": "flameshot.nixappimage",
@@ -1147,7 +1150,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 138
+   "rank": 133
   },
   {
    "pkg": "helix.nixappimage",
@@ -1181,7 +1184,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 133
+   "rank": 134
   },
   {
    "pkg": "neovim.nixappimage",
@@ -1214,7 +1217,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 134
+   "rank": 135
   },
   {
    "pkg": "simplex-desktop.nixappimage",
@@ -1248,7 +1251,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 135
+   "rank": 136
   },
   {
    "pkg": "telegram-desktop.nixappimage",
@@ -1284,7 +1287,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 136
+   "rank": 137
   },
   {
    "pkg": "chromium.nixappimage",
@@ -1323,7 +1326,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 129
+   "rank": 128
   },
   {
    "pkg": "cmake.appimage",
@@ -1355,7 +1358,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 97
+   "rank": 98
   },
   {
    "pkg": "file.appimage",
@@ -1384,7 +1387,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 24
+   "rank": 29
   },
   {
    "pkg": "freerdp.appimage",
@@ -1416,7 +1419,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 103
+   "rank": 104
   },
   {
    "pkg": "git.appimage",
@@ -1444,7 +1447,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 17
+   "rank": 22
   },
   {
    "pkg": "jless.appimage",
@@ -1473,7 +1476,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 28
+   "rank": 33
   },
   {
    "pkg": "xrdp.appimage",
@@ -1502,7 +1505,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 115
+   "rank": 116
   },
   {
    "pkg": "akregator.runimage",
@@ -1535,7 +1538,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 144
+   "rank": 155
   },
   {
    "pkg": "element-desktop.runimage",
@@ -1568,7 +1571,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 16
+   "rank": 21
   },
   {
    "pkg": "falkon.runimage",
@@ -1601,7 +1604,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 23
+   "rank": 28
   },
   {
    "pkg": "ghex.runimage",
@@ -1632,7 +1635,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 7
+   "rank": 12
   },
   {
    "pkg": "git.runimage",
@@ -1664,7 +1667,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 6
+   "rank": 11
   },
   {
    "pkg": "inkscape.runimage",
@@ -1692,7 +1695,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 11
+   "rank": 19
   },
   {
    "pkg": "kdenlive.runimage",
@@ -1725,7 +1728,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 9
+   "rank": 14
   },
   {
    "pkg": "krita.runimage",
@@ -1757,7 +1760,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 10
+   "rank": 18
   },
   {
    "pkg": "nmap/nmap.runimage",
@@ -1787,7 +1790,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 30
+   "rank": 35
   },
   {
    "pkg": "wezterm.runimage",
@@ -1816,7 +1819,7 @@
     "Requires Fonts (On Host): https://wezfurlong.org/wezterm/config/fonts.html",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 5
+   "rank": 10
   },
   {
    "pkg": "blender.runimage",
@@ -1856,9 +1859,9 @@
    "version": "6.07",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk:6.07-aarch64-linux",
    "size": "67 MB",
-   "bsum": "c3bc274cafdddd8dba126ac9c2240c19d1857cd2cf81a91a34a2b74495eb5df4",
-   "shasum": "ce283188f13897181f5f20e88d316a8519b9c6afb196c83e6d64420009bdab81",
-   "build_date": "2025-03-30T18:52:49Z",
+   "bsum": "ea31bd11afcca964cf9eea4782a9ff5b7770900029112e4b0c03c801782bea9a",
+   "shasum": "5bf56c2e3aaf152023e9b27ecaa13558e0b5a07473a4eaf00f655663f5e1112f",
+   "build_date": "2025-04-01T18:59:13Z",
    "src_urls": [
     "https://github.com/dave-theunsub/clamtk",
     "https://gitlab.com/dave_m/clamtk"
@@ -1878,7 +1881,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 127
+   "rank": 9
   }
  ]
 }
