@@ -30,7 +30,7 @@
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/86Box/86Box",
     "You need to download ROMS: https://86box.readthedocs.io/en/latest/usage/roms.html"
    ],
-   "rank": 130
+   "rank": 131
   },
   {
    "pkg": "ryujinx.appimage",
@@ -54,7 +54,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/ryujinx/ryujinx"
    ],
-   "rank": 27
+   "rank": 32
   },
   {
    "pkg": "ryujinx.appimage",
@@ -78,7 +78,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/ryujinx/ryujinx"
    ],
-   "rank": 26
+   "rank": 33
   },
   {
    "pkg": "vesktop.appimage",
@@ -112,7 +112,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/Vencord/Vesktop"
    ],
-   "rank": 138
+   "rank": 139
   },
   {
    "pkg": "caido.appimage",
@@ -143,7 +143,7 @@
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/caido/caido",
     "You may need to run this with: --no-sandbox"
    ],
-   "rank": 96
+   "rank": 97
   },
   {
    "pkg": "pixelpulse2.appimage",
@@ -185,7 +185,7 @@
     "Run it with --getudev flag the first time to configure udev rules. It may not detect the board otherwise",
     "To reduce crashes, plug in your device after configuring the udev rule and opening the app"
    ],
-   "rank": 91
+   "rank": 92
   },
   {
    "pkg": "ghostty.appimage",
@@ -248,7 +248,7 @@
    "notes": [
     "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/ghostty-appimage"
    ],
-   "rank": 142
+   "rank": 128
   },
   {
    "pkg": "rustdesk.appimage",
@@ -273,7 +273,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/rustdesk/rustdesk"
    ],
-   "rank": 25
+   "rank": 31
   },
   {
    "pkg": "rustdesk.appimage",
@@ -298,7 +298,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/rustdesk/rustdesk"
    ],
-   "rank": 24
+   "rank": 30
   },
   {
    "pkg": "tangent.appimage",
@@ -329,7 +329,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/suchnsuch/Tangent"
    ],
-   "rank": 157
+   "rank": 156
   },
   {
    "pkg": "tangent.appimage",
@@ -368,7 +368,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/suchnsuch/Tangent"
    ],
-   "rank": 156
+   "rank": 157
   },
   {
    "pkg": "escrcpy.appimage",
@@ -410,7 +410,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/viarotel-org/escrcpy"
    ],
-   "rank": 13
+   "rank": 6
   },
   {
    "pkg": "zen-browser.appimage",
@@ -441,7 +441,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop"
    ],
-   "rank": 140
+   "rank": 141
   },
   {
    "pkg": "zen-browser.appimage",
@@ -520,7 +520,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop"
    ],
-   "rank": 139
+   "rank": 142
   },
   {
    "pkg": "zen-browser.appimage",
@@ -727,7 +727,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop"
    ],
-   "rank": 141
+   "rank": 140
   },
   {
    "pkg": "librewolf.appimage",
@@ -775,7 +775,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://gitlab.com/librewolf-community/browser/appimage"
    ],
-   "rank": 36
+   "rank": 42
   },
   {
    "pkg": "brave.nixappimage",
@@ -838,7 +838,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 131
+   "rank": 132
   },
   {
    "pkg": "chromium.nixappimage",
@@ -947,7 +947,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 132
+   "rank": 133
   },
   {
    "pkg": "gearlever.nixappimage",
@@ -981,7 +981,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 133
+   "rank": 134
   },
   {
    "pkg": "helix.nixappimage",
@@ -1019,7 +1019,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 134
+   "rank": 135
   },
   {
    "pkg": "neovim.nixappimage",
@@ -1053,7 +1053,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 135
+   "rank": 136
   },
   {
    "pkg": "simplex-desktop.nixappimage",
@@ -1091,7 +1091,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 136
+   "rank": 137
   },
   {
    "pkg": "telegram-desktop.nixappimage",
@@ -1137,7 +1137,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 137
+   "rank": 138
   },
   {
    "pkg": "chromium.nixappimage",
@@ -1198,7 +1198,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 128
+   "rank": 130
   },
   {
    "pkg": "cmake.appimage",
@@ -1231,7 +1231,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 98
+   "rank": 99
   },
   {
    "pkg": "file.appimage",
@@ -1258,7 +1258,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 29
+   "rank": 35
   },
   {
    "pkg": "freerdp.appimage",
@@ -1291,7 +1291,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 104
+   "rank": 105
   },
   {
    "pkg": "git.appimage",
@@ -1317,7 +1317,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 22
+   "rank": 28
   },
   {
    "pkg": "jless.appimage",
@@ -1344,7 +1344,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 33
+   "rank": 39
   },
   {
    "pkg": "xrdp.appimage",
@@ -1451,7 +1451,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 21
+   "rank": 27
   },
   {
    "pkg": "falkon.runimage",
@@ -1485,7 +1485,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 28
+   "rank": 34
   },
   {
    "pkg": "ghex.runimage",
@@ -1517,7 +1517,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 12
+   "rank": 20
   },
   {
    "pkg": "git.runimage",
@@ -1550,7 +1550,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 11
+   "rank": 19
   },
   {
    "pkg": "inkscape.runimage",
@@ -1576,7 +1576,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 19
+   "rank": 26
   },
   {
    "pkg": "kdenlive.runimage",
@@ -1613,7 +1613,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 14
+   "rank": 21
   },
   {
    "pkg": "krita.runimage",
@@ -1646,7 +1646,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 18
+   "rank": 25
   },
   {
    "pkg": "nmap/nmap.runimage",
@@ -1674,7 +1674,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 35
+   "rank": 41
   },
   {
    "pkg": "wezterm.runimage",
@@ -1701,7 +1701,7 @@
     "Requires Fonts (On Host): https://wezfurlong.org/wezterm/config/fonts.html",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 10
+   "rank": 18
   },
   {
    "pkg": "blender.runimage",
@@ -1762,7 +1762,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 9
+   "rank": 5
   }
  ]
 }
