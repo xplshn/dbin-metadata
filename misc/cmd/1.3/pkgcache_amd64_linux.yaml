@@ -1168,7 +1168,7 @@ pkgcache:
   provides: converter432hz==Converter432Hz,player432hz==Player432Hz,powerliminalsplayer==PowerliminalsPlayer,yangdownloader==YangDownloader
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/mysteryx93/HanumanInstituteApps
-  rank: 72
+  rank: 69
 - pkg: player432hz/powerliminalsplayer.appimage
   pkg_name: powerliminalsplayer
   pkg_id: github.com.mysteryx93.HanumanInstituteApps
@@ -1193,7 +1193,7 @@ pkgcache:
   provides: converter432hz==Converter432Hz,player432hz==Player432Hz,powerliminalsplayer==PowerliminalsPlayer,yangdownloader==YangDownloader
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/mysteryx93/HanumanInstituteApps
-  rank: 70
+  rank: 72
 - pkg: player432hz/yangdownloader.appimage
   pkg_name: yangdownloader
   pkg_id: github.com.mysteryx93.HanumanInstituteApps
@@ -1218,7 +1218,7 @@ pkgcache:
   provides: converter432hz==Converter432Hz,player432hz==Player432Hz,powerliminalsplayer==PowerliminalsPlayer,yangdownloader==YangDownloader
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/mysteryx93/HanumanInstituteApps
-  rank: 69
+  rank: 70
 - pkg: player432hz/converter432hz.appimage
   pkg_name: converter432hz
   pkg_id: github.com.mysteryx93.HanumanInstituteApps
@@ -1299,7 +1299,7 @@ pkgcache:
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Citron-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 178
+  rank: 177
 - pkg: citron.appimage
   pkg_name: citron
   pkg_id: github.com.pkgforge-dev.Citron-AppImage.v3
@@ -1332,7 +1332,7 @@ pkgcache:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Citron-AppImage
   - Optimized for x86-64-v3
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 177
+  rank: 178
 - pkg: cromite.appimage
   pkg_name: cromite
   pkg_id: github.com.pkgforge-dev.Cromite-AppImage
@@ -1491,7 +1491,7 @@ pkgcache:
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Torzu-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 26
+  rank: 25
 - pkg: torzu.appimage
   pkg_name: torzu
   pkg_id: github.com.pkgforge-dev.Torzu-AppImage.v3
@@ -1523,7 +1523,7 @@ pkgcache:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Torzu-AppImage
   - Optimized for x86-64-v3
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 25
+  rank: 26
 - pkg: android-tools.appimage
   pkg_name: android-tools
   pkg_id: github.com.pkgforge-dev.android-tools-AppImage.stable
@@ -1698,7 +1698,7 @@ pkgcache:
   size: 66 MB
   bsum: c687df70a3cac47892634328b828b2faf2b6abb1b00fcbcaa170f84456fc4e3d
   shasum: 30ed435009e0c45d1c8f8cbb2175a71419aae1b5fdeeb50d2c3d0c866746da70
-  build_date: "2025-04-01T19:17:56Z"
+  build_date: "2025-04-03T15:42:12Z"
   src_urls:
   - https://github.com/pkgforge-dev/ghostty-appimage
   web_urls:
@@ -1727,6 +1727,8 @@ pkgcache:
     version: v1.1.2+4
   - commit: v1.1.3-x86_64-linux
     version: v1.1.3
+  - commit: v1.1.3_1-x86_64-linux
+    version: v1.1.3+1
   provides: ghostty
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/ghostty-appimage
@@ -1752,7 +1754,7 @@ pkgcache:
   provides: rustdesk
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/rustdesk/rustdesk
-  rank: 86
+  rank: 87
 - pkg: rustdesk.appimage
   pkg_name: rustdesk
   pkg_id: github.com.rustdesk.rustdesk.stable
@@ -1774,7 +1776,7 @@ pkgcache:
   provides: rustdesk
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/rustdesk/rustdesk
-  rank: 87
+  rank: 86
 - pkg: simplex-desktop.appimage
   pkg_name: simplex-desktop
   pkg_id: github.com.simplex-chat.simplex-chat
@@ -2009,7 +2011,7 @@ pkgcache:
   provides: firefox=>firefox-beta
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Firefox-Appimage
-  rank: 263
+  rank: 264
 - pkg: firefox.appimage
   pkg_name: firefox
   pkg_id: github.com.srevinsaju.Firefox-Appimage.dev
@@ -2069,7 +2071,7 @@ pkgcache:
   provides: firefox=>firefox-dev
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Firefox-Appimage
-  rank: 267
+  rank: 266
 - pkg: firefox.appimage
   pkg_name: firefox
   pkg_id: github.com.srevinsaju.Firefox-Appimage.esr
@@ -2099,7 +2101,7 @@ pkgcache:
   provides: firefox=>firefox-esr
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Firefox-Appimage
-  rank: 266
+  rank: 267
 - pkg: firefox.appimage
   pkg_name: firefox
   pkg_id: github.com.srevinsaju.Firefox-Appimage.nightly
@@ -2221,7 +2223,7 @@ pkgcache:
   provides: firefox=>firefox-nightly
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Firefox-Appimage
-  rank: 264
+  rank: 265
 - pkg: firefox.appimage
   pkg_name: firefox
   pkg_id: github.com.srevinsaju.Firefox-Appimage.stable
@@ -2259,7 +2261,7 @@ pkgcache:
   provides: firefox
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Firefox-Appimage
-  rank: 265
+  rank: 263
 - pkg: discord/discord-canary.appimage
   pkg_name: discord-canary
   pkg_id: github.com.srevinsaju.discord-AppImage.canary
@@ -2437,7 +2439,7 @@ pkgcache:
   provides: tangent
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/suchnsuch/Tangent
-  rank: 283
+  rank: 282
 - pkg: tangent.appimage
   pkg_name: tangent
   pkg_id: github.com.suchnsuch.Tangent.alpha
@@ -2466,7 +2468,7 @@ pkgcache:
   provides: tangent=>tangent-alpha
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/suchnsuch/Tangent
-  rank: 282
+  rank: 283
 - pkg: synfigstudio.appimage
   pkg_name: synfigstudio
   pkg_id: github.com.synfig.synfig.stable
@@ -2611,7 +2613,7 @@ pkgcache:
   provides: zen-browser==zen
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
-  rank: 261
+  rank: 260
 - pkg: zen-browser.appimage
   pkg_name: zen-browser
   pkg_id: github.com.zen-browser.desktop.stable
@@ -2660,7 +2662,7 @@ pkgcache:
   provides: zen-browser==zen
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
-  rank: 260
+  rank: 262
 - pkg: zen-browser.appimage
   pkg_name: zen-browser
   pkg_id: github.com.zen-browser.desktop.twilight
@@ -2775,7 +2777,7 @@ pkgcache:
   provides: zen-browser==zen
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
-  rank: 262
+  rank: 261
 - pkg: inkscape.appimage
   pkg_name: inkscape
   pkg_id: gitlab.com.inkscape.inkscape
@@ -3053,7 +3055,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://libreoffice.org
   - This version is the latest LibreOffice major release
   - This version includes support only for the default language i.e English (US)
-  rank: 152
+  rank: 153
 - pkg: libreoffice.appimage
   pkg_name: libreoffice
   pkg_id: gitlab.com.libreoffice.libreoffice.fresh-full
@@ -3085,7 +3087,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://libreoffice.org
   - This version is the latest LibreOffice major release
   - This version includes support for all languages supported by LibreOffice
-  rank: 155
+  rank: 152
 - pkg: libreoffice.appimage
   pkg_name: libreoffice
   pkg_id: gitlab.com.libreoffice.libreoffice.fresh-standard
@@ -3117,7 +3119,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://libreoffice.org
   - This version is the latest LibreOffice major release
   - "This version includes support for: English (US and GB), Arabic, Chinese (Simplified and Traditional), French, German, Italian, Japanese, Korean, Portuguese (Brazilian and Portugal), Russian, and Spanish"
-  rank: 153
+  rank: 151
 - pkg: libreoffice.appimage
   pkg_name: libreoffice
   pkg_id: gitlab.com.libreoffice.libreoffice.still-basic
@@ -3149,7 +3151,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://libreoffice.org
   - This version is the previous LibreOffice major release
   - This version includes support only for the default language i.e English (US)
-  rank: 151
+  rank: 156
 - pkg: libreoffice.appimage
   pkg_name: libreoffice
   pkg_id: gitlab.com.libreoffice.libreoffice.still-full
@@ -3213,7 +3215,7 @@ pkgcache:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://libreoffice.org
   - This version is the previous LibreOffice major release
   - "This version includes support for: English (US and GB), Arabic, Chinese (Simplified and Traditional), French, German, Italian, Japanese, Korean, Portuguese (Brazilian and Portugal), Russian, and Spanish"
-  rank: 156
+  rank: 155
 - pkg: librewolf.appimage
   pkg_name: librewolf
   pkg_id: gitlab.com.librewolf-community.browser.appimage.stable
@@ -3272,7 +3274,7 @@ pkgcache:
   provides: qbittorrent
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://www.qbittorrent.org/download
-  rank: 193
+  rank: 192
 - pkg: qbittorrent.appimage
   pkg_name: qbittorrent
   pkg_id: gitlab.com.qbittorrent.qbittorrent.stable
@@ -3300,7 +3302,7 @@ pkgcache:
   provides: qbittorrent
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://www.qbittorrent.org/download
-  rank: 192
+  rank: 193
 - pkg: brave.nixappimage
   pkg_name: brave
   pkg_id: nixpkgs.brave
@@ -4166,7 +4168,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "Requires Fonts (On Host): https://wezfurlong.org/wezterm/config/fonts.html"
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 100
+  rank: 101
 - pkg: steam.runimage
   pkg_name: steam
   pkg_id: runimage.archlinux.steam
@@ -4873,7 +4875,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "Requires Fonts (On Host): https://wezfurlong.org/wezterm/config/fonts.html"
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 101
+  rank: 100
 - pkg: blender.runimage
   pkg_name: blender
   pkg_id: runimage.debian.blender
@@ -5118,7 +5120,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   - Please use runimage version of nmap if this doesn't work
-  rank: 97
+  rank: 96
 - pkg: nmap/nmap.archive
   pkg_name: nmap
   pkg_id: sharun.wrappe.alpine.nmap
@@ -5147,7 +5149,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   - Please use runimage version of nmap if this doesn't work
-  rank: 96
+  rank: 97
 - pkg: nmap/nping.archive
   pkg_name: nping
   pkg_id: sharun.wrappe.alpine.nmap
@@ -5249,7 +5251,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 273
+  rank: 269
 - pkg: subversion/svnversion.archive
   pkg_name: svnversion
   pkg_id: sharun.wrappe.alpine.subversion
@@ -5274,7 +5276,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 279
+  rank: 278
 - pkg: subversion/svnrdump.archive
   pkg_name: svnrdump
   pkg_id: sharun.wrappe.alpine.subversion
@@ -5299,7 +5301,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 274
+  rank: 279
 - pkg: subversion/svnmucc.archive
   pkg_name: svnmucc
   pkg_id: sharun.wrappe.alpine.subversion
@@ -5349,7 +5351,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 272
+  rank: 271
 - pkg: subversion/svnsync.archive
   pkg_name: svnsync
   pkg_id: sharun.wrappe.alpine.subversion
@@ -5374,7 +5376,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 275
+  rank: 277
 - pkg: subversion/svnlook.archive
   pkg_name: svnlook
   pkg_id: sharun.wrappe.alpine.subversion
@@ -5424,7 +5426,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 277
+  rank: 275
 - pkg: subversion/svnadmin.archive
   pkg_name: svnadmin
   pkg_id: sharun.wrappe.alpine.subversion
@@ -5449,7 +5451,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 269
+  rank: 272
 - pkg: subversion/svnbench.archive
   pkg_name: svnbench
   pkg_id: sharun.wrappe.alpine.subversion
@@ -5474,7 +5476,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 278
+  rank: 273
 - pkg: subversion/svndumpfilter.archive
   pkg_name: svndumpfilter
   pkg_id: sharun.wrappe.alpine.subversion
@@ -5499,7 +5501,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 271
+  rank: 274
 - pkg: xhost.archive
   pkg_name: xhost
   pkg_id: sharun.wrappe.alpine.xhost
@@ -7725,7 +7727,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 208
+  rank: 209
 - pkg: zmap/ztests.archive
   pkg_name: ztests
   pkg_id: sharun.wrappe.source.zmap
@@ -7752,7 +7754,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 209
+  rank: 210
 - pkg: zmap/ztee.archive
   pkg_name: ztee
   pkg_id: sharun.wrappe.source.zmap
@@ -7806,7 +7808,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 210
+  rank: 211
 - pkg: zmap/zblocklist.archive
   pkg_name: zblocklist
   pkg_id: sharun.wrappe.source.zmap
@@ -7835,7 +7837,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 211
+  rank: 208
 - pkg: caido-cli.archive
   pkg_name: caido-cli
   pkg_id: sharun.wrappe.stable.caido-cli
@@ -7928,7 +7930,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   - This version was repacked from official Deb & contains the most features
-  rank: 109
+  rank: 110
 - pkg: fastfetch/flashfetch.archive
   pkg_name: flashfetch
   pkg_id: sharun.wrappe.stable.fastfetch
@@ -7960,7 +7962,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   - This version was repacked from official Deb & contains the most features
-  rank: 110
+  rank: 109
 - pkg: sanicdns.archive
   pkg_name: sanicdns
   pkg_id: sharun.wrappe.stable.sanicdns
@@ -8071,7 +8073,7 @@ pkgcache:
   - chmod -v 'a=rx,u+ws' sudo
   - Requires '/etc/sudoers' file & '/etc/sudoers.d' dir
   - "Also requires PAM to be setup: https://github.com/trifectatechfoundation/sudo-rs#differences-from-original-sudo"
-  rank: 64
+  rank: 63
 - pkg: sudo-rs/su.archive
   pkg_name: su
   pkg_id: sharun.wrappe.sudo-rs.source
@@ -8126,7 +8128,7 @@ pkgcache:
   - chmod -v 'a=rx,u+ws' sudo
   - Requires '/etc/sudoers' file & '/etc/sudoers.d' dir
   - "Also requires PAM to be setup: https://github.com/trifectatechfoundation/sudo-rs#differences-from-original-sudo"
-  rank: 62
+  rank: 64
 - pkg: sudo-rs/sudo.archive
   pkg_name: sudo
   pkg_id: sharun.wrappe.sudo-rs.source
@@ -8181,7 +8183,7 @@ pkgcache:
   - chmod -v 'a=rx,u+ws' sudo
   - Requires '/etc/sudoers' file & '/etc/sudoers.d' dir
   - "Also requires PAM to be setup: https://github.com/trifectatechfoundation/sudo-rs#differences-from-original-sudo"
-  rank: 63
+  rank: 62
 - pkg: twingate/twingated.archive
   pkg_name: twingated
   pkg_id: sharun.wrappe.twingate.stable
@@ -8209,7 +8211,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 197
+  rank: 198
 - pkg: twingate/twingate-notifier.archive
   pkg_name: twingate-notifier
   pkg_id: sharun.wrappe.twingate.stable
@@ -8237,7 +8239,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 198
+  rank: 197
 - pkg: twingate/twingate.archive
   pkg_name: twingate
   pkg_id: sharun.wrappe.twingate.stable

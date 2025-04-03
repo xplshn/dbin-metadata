@@ -1626,7 +1626,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/mysteryx93/HanumanInstituteApps"
    ],
-   "rank": 69
+   "rank": 70
   },
   {
    "pkg": "player432hz/player432hz.appimage",
@@ -1653,7 +1653,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/mysteryx93/HanumanInstituteApps"
    ],
-   "rank": 72
+   "rank": 69
   },
   {
    "pkg": "player432hz/powerliminalsplayer.appimage",
@@ -1686,7 +1686,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/mysteryx93/HanumanInstituteApps"
    ],
-   "rank": 70
+   "rank": 72
   },
   {
    "pkg": "player432hz/converter432hz.appimage",
@@ -1796,7 +1796,7 @@
     "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Citron-AppImage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 178
+   "rank": 177
   },
   {
    "pkg": "citron.appimage",
@@ -1843,7 +1843,7 @@
     "Optimized for x86-64-v3",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 177
+   "rank": 178
   },
   {
    "pkg": "cromite.appimage",
@@ -2070,7 +2070,7 @@
     "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Torzu-AppImage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 26
+   "rank": 25
   },
   {
    "pkg": "torzu.appimage",
@@ -2116,7 +2116,7 @@
     "Optimized for x86-64-v3",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 25
+   "rank": 26
   },
   {
    "pkg": "android-tools.appimage",
@@ -2363,7 +2363,7 @@
    "size": "66 MB",
    "bsum": "c687df70a3cac47892634328b828b2faf2b6abb1b00fcbcaa170f84456fc4e3d",
    "shasum": "30ed435009e0c45d1c8f8cbb2175a71419aae1b5fdeeb50d2c3d0c866746da70",
-   "build_date": "2025-04-01T19:17:56Z",
+   "build_date": "2025-04-03T15:42:12Z",
    "src_urls": [
     "https://github.com/pkgforge-dev/ghostty-appimage"
    ],
@@ -2413,6 +2413,10 @@
     {
      "commit": "v1.1.3-x86_64-linux",
      "version": "v1.1.3"
+    },
+    {
+     "commit": "v1.1.3_1-x86_64-linux",
+     "version": "v1.1.3+1"
     }
    ],
    "provides": "ghostty",
@@ -2446,7 +2450,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/rustdesk/rustdesk"
    ],
-   "rank": 86
+   "rank": 87
   },
   {
    "pkg": "rustdesk.appimage",
@@ -2473,7 +2477,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/rustdesk/rustdesk"
    ],
-   "rank": 87
+   "rank": 86
   },
   {
    "pkg": "simplex-desktop.appimage",
@@ -2854,7 +2858,7 @@
    "notes": [
     "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Firefox-Appimage"
    ],
-   "rank": 263
+   "rank": 264
   },
   {
    "pkg": "firefox.appimage",
@@ -2956,7 +2960,7 @@
    "notes": [
     "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Firefox-Appimage"
    ],
-   "rank": 267
+   "rank": 266
   },
   {
    "pkg": "firefox.appimage",
@@ -2998,7 +3002,7 @@
    "notes": [
     "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Firefox-Appimage"
    ],
-   "rank": 266
+   "rank": 267
   },
   {
    "pkg": "firefox.appimage",
@@ -3224,7 +3228,7 @@
    "notes": [
     "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Firefox-Appimage"
    ],
-   "rank": 264
+   "rank": 265
   },
   {
    "pkg": "firefox.appimage",
@@ -3282,7 +3286,7 @@
    "notes": [
     "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Firefox-Appimage"
    ],
-   "rank": 265
+   "rank": 263
   },
   {
    "pkg": "discord/discord-canary.appimage",
@@ -3570,7 +3574,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/suchnsuch/Tangent"
    ],
-   "rank": 283
+   "rank": 282
   },
   {
    "pkg": "tangent.appimage",
@@ -3611,7 +3615,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/suchnsuch/Tangent"
    ],
-   "rank": 282
+   "rank": 283
   },
   {
    "pkg": "synfigstudio.appimage",
@@ -3804,7 +3808,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop"
    ],
-   "rank": 261
+   "rank": 260
   },
   {
    "pkg": "zen-browser.appimage",
@@ -3885,7 +3889,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop"
    ],
-   "rank": 260
+   "rank": 262
   },
   {
    "pkg": "zen-browser.appimage",
@@ -4098,7 +4102,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop"
    ],
-   "rank": 262
+   "rank": 261
   },
   {
    "pkg": "inkscape.appimage",
@@ -4550,7 +4554,7 @@
     "This version is the latest LibreOffice major release",
     "This version includes support only for the default language i.e English (US)"
    ],
-   "rank": 152
+   "rank": 153
   },
   {
    "pkg": "libreoffice.appimage",
@@ -4594,7 +4598,7 @@
     "This version is the latest LibreOffice major release",
     "This version includes support for all languages supported by LibreOffice"
    ],
-   "rank": 155
+   "rank": 152
   },
   {
    "pkg": "libreoffice.appimage",
@@ -4638,7 +4642,7 @@
     "This version is the latest LibreOffice major release",
     "This version includes support for: English (US and GB), Arabic, Chinese (Simplified and Traditional), French, German, Italian, Japanese, Korean, Portuguese (Brazilian and Portugal), Russian, and Spanish"
    ],
-   "rank": 153
+   "rank": 151
   },
   {
    "pkg": "libreoffice.appimage",
@@ -4682,7 +4686,7 @@
     "This version is the previous LibreOffice major release",
     "This version includes support only for the default language i.e English (US)"
    ],
-   "rank": 151
+   "rank": 156
   },
   {
    "pkg": "libreoffice.appimage",
@@ -4770,7 +4774,7 @@
     "This version is the previous LibreOffice major release",
     "This version includes support for: English (US and GB), Arabic, Chinese (Simplified and Traditional), French, German, Italian, Japanese, Korean, Portuguese (Brazilian and Portugal), Russian, and Spanish"
    ],
-   "rank": 156
+   "rank": 155
   },
   {
    "pkg": "librewolf.appimage",
@@ -4850,7 +4854,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://www.qbittorrent.org/download"
    ],
-   "rank": 193
+   "rank": 192
   },
   {
    "pkg": "qbittorrent.appimage",
@@ -4886,7 +4890,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://www.qbittorrent.org/download"
    ],
-   "rank": 192
+   "rank": 193
   },
   {
    "pkg": "brave.nixappimage",
@@ -6060,7 +6064,7 @@
     "Requires Fonts (On Host): https://wezfurlong.org/wezterm/config/fonts.html",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 100
+   "rank": 101
   },
   {
    "pkg": "steam.runimage",
@@ -6977,7 +6981,7 @@
     "Requires Fonts (On Host): https://wezfurlong.org/wezterm/config/fonts.html",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 101
+   "rank": 100
   },
   {
    "pkg": "blender.runimage",

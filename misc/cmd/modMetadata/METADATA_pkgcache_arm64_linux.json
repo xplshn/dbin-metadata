@@ -645,7 +645,7 @@
    "size": "65 MB",
    "bsum": "4b1ce5ebda97ee85bd80bfc79a5c4a8fb7da57636b297ab39f2c8f5c78a0dbd4",
    "shasum": "7969c40b10ed4172d3346101c8221d632bfb660f4e397de2c8f6e29de84529ef",
-   "build_date": "2025-04-01T19:20:25Z",
+   "build_date": "2025-04-03T15:44:34Z",
    "src_urls": [
     "https://github.com/pkgforge-dev/ghostty-appimage"
    ],
@@ -664,7 +664,8 @@
     "v1.1.2_2-aarch64-linux[v1.1.2+2]",
     "v1.1.2_3-aarch64-linux[v1.1.2+3]",
     "v1.1.2_4-aarch64-linux[v1.1.2+4]",
-    "v1.1.3-aarch64-linux[v1.1.3]"
+    "v1.1.3-aarch64-linux[v1.1.3]",
+    "v1.1.3_1-aarch64-linux[v1.1.3+1]"
    ],
    "provides": "ghostty",
    "notes": [
@@ -697,7 +698,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/rustdesk/rustdesk"
    ],
-   "rank": 31
+   "rank": 30
   },
   {
    "pkg": "rustdesk.appimage",
@@ -724,7 +725,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/rustdesk/rustdesk"
    ],
-   "rank": 30
+   "rank": 31
   },
   {
    "pkg": "tangent.appimage",
@@ -754,7 +755,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/suchnsuch/Tangent"
    ],
-   "rank": 156
+   "rank": 157
   },
   {
    "pkg": "tangent.appimage",
@@ -786,7 +787,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/suchnsuch/Tangent"
    ],
-   "rank": 157
+   "rank": 156
   },
   {
    "pkg": "escrcpy.appimage",
@@ -890,7 +891,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop"
    ],
-   "rank": 141
+   "rank": 142
   },
   {
    "pkg": "zen-browser.appimage",
@@ -964,7 +965,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop"
    ],
-   "rank": 142
+   "rank": 141
   },
   {
    "pkg": "librewolf.appimage",
@@ -1082,7 +1083,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 130
+   "rank": 129
   },
   {
    "pkg": "flameshot.nixappimage",
@@ -1326,7 +1327,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 129
+   "rank": 130
   },
   {
    "pkg": "cmake.appimage",
