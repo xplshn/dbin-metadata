@@ -241,6 +241,8 @@ pkgcache:
   pkg_name: ""
 - pkg: ""
   pkg_name: ""
+- pkg: ""
+  pkg_name: ""
 - pkg: suyu.appimage
   pkg_name: suyu
   pkg_id: git.suyu.dev.suyu.suyu.stable
@@ -1161,27 +1163,27 @@ pkgcache:
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/melonDS-emu/melonDS
   rank: 219
-- pkg: player432hz/yangdownloader.appimage
-  pkg_name: yangdownloader
+- pkg: player432hz/powerliminalsplayer.appimage
+  pkg_name: powerliminalsplayer
   pkg_id: github.com.mysteryx93.HanumanInstituteApps
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/yangdownloader?tag=v3.3.2-x86_64-linux&download=yangdownloader.svg
-  description: Downloads best-quality audio and video from YouTube [player432hz]
+  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/powerliminalsplayer?tag=v3.3.2-x86_64-linux&download=powerliminalsplayer.svg
+  description: Plays multiple audios simultaneously at varying speeds [player432hz]
   version: v3.3.2
-  download_url: oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/yangdownloader:v3.3.2-x86_64-linux
-  size: 39 MB
-  build_date: "2025-01-26T22:57:45Z"
+  download_url: oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/powerliminalsplayer:v3.3.2-x86_64-linux
+  size: 31 MB
+  build_date: "2025-01-26T22:57:44Z"
   src_urls:
   - https://github.com/mysteryx93/HanumanInstituteApps
   web_urls:
   - https://github.com/mysteryx93/HanumanInstituteApps
   - https://github.com/mysteryx93/HanumanInstituteApps/wiki
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/player432hz/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/yangdownloader?tag=v3.3.2-x86_64-linux&download=yangdownloader.log
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/powerliminalsplayer?tag=v3.3.2-x86_64-linux&download=powerliminalsplayer.log
   snapshots:
   - v3.3.2-x86_64-linux[v3.3.2]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/mysteryx93/HanumanInstituteApps
-  rank: 69
+  rank: 70
 - pkg: player432hz/player432hz.appimage
   pkg_name: player432hz
   pkg_id: github.com.mysteryx93.HanumanInstituteApps
@@ -1220,27 +1222,27 @@ pkgcache:
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/mysteryx93/HanumanInstituteApps
   rank: 71
-- pkg: player432hz/powerliminalsplayer.appimage
-  pkg_name: powerliminalsplayer
+- pkg: player432hz/yangdownloader.appimage
+  pkg_name: yangdownloader
   pkg_id: github.com.mysteryx93.HanumanInstituteApps
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/powerliminalsplayer?tag=v3.3.2-x86_64-linux&download=powerliminalsplayer.svg
-  description: Plays multiple audios simultaneously at varying speeds [player432hz]
+  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/yangdownloader?tag=v3.3.2-x86_64-linux&download=yangdownloader.svg
+  description: Downloads best-quality audio and video from YouTube [player432hz]
   version: v3.3.2
-  download_url: oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/powerliminalsplayer:v3.3.2-x86_64-linux
-  size: 31 MB
-  build_date: "2025-01-26T22:57:44Z"
+  download_url: oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/yangdownloader:v3.3.2-x86_64-linux
+  size: 39 MB
+  build_date: "2025-01-26T22:57:45Z"
   src_urls:
   - https://github.com/mysteryx93/HanumanInstituteApps
   web_urls:
   - https://github.com/mysteryx93/HanumanInstituteApps
   - https://github.com/mysteryx93/HanumanInstituteApps/wiki
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/player432hz/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/powerliminalsplayer?tag=v3.3.2-x86_64-linux&download=powerliminalsplayer.log
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/yangdownloader?tag=v3.3.2-x86_64-linux&download=yangdownloader.log
   snapshots:
   - v3.3.2-x86_64-linux[v3.3.2]
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/mysteryx93/HanumanInstituteApps
-  rank: 70
+  rank: 69
 - pkg: neovim.appimage
   pkg_name: neovim
   pkg_id: github.com.neovim.neovim.stable
@@ -2148,27 +2150,6 @@ pkgcache:
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/synfig/synfig
   rank: 218
-- pkg: telegram-desktop.dynamic
-  pkg_name: telegram-desktop
-  pkg_id: github.com.telegramdesktop.tdesktop
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/telegram-desktop/dynamic/official/stable/telegram-desktop?tag=v5.10.6-x86_64-linux&download=telegram-desktop.png
-  description: Official desktop version of Telegram messaging app
-  version: v5.10.6
-  download_url: oci://ghcr.io/pkgforge/pkgcache/telegram-desktop/dynamic/official/stable/telegram-desktop:v5.10.6-x86_64-linux
-  size: 168 MB
-  build_date: "2025-01-26T23:16:21Z"
-  src_urls:
-  - https://github.com/telegramdesktop/tdesktop
-  web_urls:
-  - https://desktop.telegram.org
-  - https://github.com/telegramdesktop/tdesktop
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/telegram-desktop/dynamic.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/telegram-desktop/dynamic/official/stable/telegram-desktop?tag=v5.10.6-x86_64-linux&download=telegram-desktop.log
-  snapshots:
-  - v5.10.3-x86_64-linux[v5.10.3]
-  notes:
-  - Pre Built Binary Fetched from Upstream. Check/Report @ https://github.com/telegramdesktop/tdesktop
-  rank: 66
 - pkg: escrcpy.appimage
   pkg_name: escrcpy
   pkg_id: github.com.viarotel-org.escrcpy
