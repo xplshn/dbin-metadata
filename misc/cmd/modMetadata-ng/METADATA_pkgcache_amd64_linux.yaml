@@ -2488,31 +2488,6 @@ pkgcache:
   notes:
   - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/synfig/synfig
   rank: 218
-- pkg: telegram-desktop.dynamic
-  pkg_name: telegram-desktop
-  pkg_id: github.com.telegramdesktop.tdesktop
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/telegram-desktop/dynamic/official/stable/telegram-desktop?tag=v5.10.6-x86_64-linux&download=telegram-desktop.png
-  description: Official desktop version of Telegram messaging app
-  version: v5.10.6
-  download_url: oci://ghcr.io/pkgforge/pkgcache/telegram-desktop/dynamic/official/stable/telegram-desktop:v5.10.6-x86_64-linux
-  size: 168 MB
-  bsum: 0c3e46c337f7ddb67f061d50d684febd917d4184f131ffe2c409007a622721de
-  shasum: b7f55811bdcee937baa5b6fb03111bfe87aea70892fabb739ee477c58d6efce2
-  build_date: "2025-01-26T23:16:21Z"
-  src_urls:
-  - https://github.com/telegramdesktop/tdesktop
-  web_urls:
-  - https://desktop.telegram.org
-  - https://github.com/telegramdesktop/tdesktop
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/telegram-desktop/dynamic.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/telegram-desktop/dynamic/official/stable/telegram-desktop?tag=v5.10.6-x86_64-linux&download=telegram-desktop.log
-  snapshots:
-  - commit: v5.10.3-x86_64-linux
-    version: v5.10.3
-  provides: telegram-desktop==Telegram-Desktop
-  notes:
-  - Pre Built Binary Fetched from Upstream. Check/Report @ https://github.com/telegramdesktop/tdesktop
-  rank: 66
 - pkg: escrcpy.appimage
   pkg_name: escrcpy
   pkg_id: github.com.viarotel-org.escrcpy
