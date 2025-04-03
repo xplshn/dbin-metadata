@@ -8,6 +8,7 @@
    "version": "v0.0.3",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/suyu/appimage/official/stable/suyu:v0.0.3-x86_64-linux",
    "size": "53 MB",
+   "bsum": "9a3f39a80cf43dc7a2f76c5f2e08456b9c4b333cb753b1bbb518de40faf2da2d",
    "build_date": "2025-02-08T13:46:39Z",
    "src_urls": [
     "https://git.suyu.dev/suyu/suyu"
@@ -31,6 +32,7 @@
    "version": "v0.0.27-rc1-27645-alpha",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/0ad/appimage/0ad-matters/prerelease/0ad:v0.0.27-rc1-27645-alpha-x86_64-linux",
    "size": "1.7 GB",
+   "bsum": "3c9b764927e523c38e8791e941d4d9a3a2e9907247a2a58e394b7946b55fd976",
    "build_date": "2025-01-26T16:48:22Z",
    "src_urls": [
     "https://github.com/0ad-matters/0ad-appimage"
@@ -64,6 +66,7 @@
    "version": "v0.27.0",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/0ad/appimage/0ad-matters/stable/0ad:v0.27.0-x86_64-linux",
    "size": "1.7 GB",
+   "bsum": "0fa989bd6e7f854a2e867799efddc3351425d0f1560c77fe1441b4c9968e4c65",
    "build_date": "2025-01-31T09:03:38Z",
    "src_urls": [
     "https://github.com/0ad-matters/0ad-appimage"
@@ -94,6 +97,7 @@
    "version": "v4.2.1",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/86box/appimage/official/stable/86box:v4.2.1-x86_64-linux",
    "size": "56 MB",
+   "bsum": "0499ed7289ef6086af6dca4d17ecbc9dd4c58d4d6b5bb1629a4e19f4d89596ae",
    "build_date": "2025-01-26T18:08:03Z",
    "src_urls": [
     "https://github.com/86Box/86Box"
@@ -124,6 +128,7 @@
    "version": "v1.20.4",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/acreom/appimage/official/stable/acreom:v1.20.4-x86_64-linux",
    "size": "134 MB",
+   "bsum": "0a16e1f20af82ffe1d195d38bab3ecf75a91590434c6736e066c8031fb809ccd",
    "build_date": "2025-01-26T18:15:41Z",
    "src_urls": [
     "https://github.com/Acreom/app"
@@ -153,6 +158,7 @@
    "version": "v2.8.2",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/agregore/appimage/official/stable/agregore:v2.8.2-x86_64-linux",
    "size": "166 MB",
+   "bsum": "3cfebcb86e746e9abe884cabf5176ef9698b55eedd42fca4d74f79f5fe5b572d",
    "build_date": "2025-02-26T18:54:16Z",
    "src_urls": [
     "https://github.com/AgregoreWeb/agregore-browser"
@@ -185,6 +191,7 @@
    "version": "v2.5.2",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/advanced-passgen/appimage/official/stable/advanced-passgen:v2.5.2-x86_64-linux",
    "size": "97 MB",
+   "bsum": "df93aeaf590294b2c29811731214b32591f307fb60ac3a6da788308241a41c13",
    "build_date": "2025-01-26T18:21:56Z",
    "src_urls": [
     "https://github.com/CodeDead/Advanced-PassGen"
@@ -214,6 +221,7 @@
    "version": "250401T120028",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/xash3d-fwgs/appimage/official/stable/xash3d-fwgs:250401T120028-x86_64-linux",
    "size": "13 MB",
+   "bsum": "6b1a51c0153012cc0b2f384356e1c493c6ea52fccd5649f8f299237d031893a7",
    "build_date": "2025-04-01T19:40:04Z",
    "src_urls": [
     "https://github.com/FWGS/xash3d-fwgs"
@@ -302,6 +310,7 @@
    "version": "1.2.357",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx:1.2.357-x86_64-linux",
    "size": "30 MB",
+   "bsum": "de49837e08156114b3979becc36448a8db1bab5e4b607322b5044efb58cd6185",
    "build_date": "2025-02-08T08:55:16Z",
    "src_urls": [
     "https://github.com/Ryubing/Canary-Releases"
@@ -324,6 +333,7 @@
    "version": "1.2.81",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx:1.2.81-x86_64-linux",
    "size": "30 MB",
+   "bsum": "1124866004c803549e81c65c94ff30351cb18b9836750d92cbbe63bfaee08a83",
    "build_date": "2025-02-08T08:52:36Z",
    "src_urls": [
     "https://github.com/Ryubing/Ryujinx"
@@ -346,6 +356,7 @@
    "version": "v0.10.3",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/amdgpu_top/appimage/official/stable/amdgpu_top:v0.10.3-x86_64-linux",
    "size": "8.9 MB",
+   "bsum": "f9250a663b684720eae2079e38389feccd3a1dbdb50408f3e8ef047bdf20d467",
    "build_date": "2025-02-03T18:45:35Z",
    "src_urls": [
     "https://github.com/Umio-Yasuno/amdgpu_top"
@@ -378,6 +389,7 @@
    "version": "1.98.2.25078",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/vscodium/appimage/official/stable/vscodium:1.98.2.25078-x86_64-linux",
    "size": "111 MB",
+   "bsum": "dc4add95d8468cd242ff947e726e951734310b9ea1aed40c1119bd549016ff30",
    "build_date": "2025-03-21T19:36:12Z",
    "src_urls": [
     "https://github.com/VSCodium/vscodium"
@@ -427,6 +439,7 @@
    "version": "v1.5.5",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop:v1.5.5-x86_64-linux",
    "size": "88 MB",
+   "bsum": "23ea2c16182780f2e461e5862eb0561f9bcc14781f28f3a530af951edcc961db",
    "build_date": "2025-03-05T15:01:56Z",
    "src_urls": [
     "https://github.com/Vencord/Vesktop"
@@ -459,6 +472,7 @@
    "version": "v25.3.1",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/actual/appimage/official/stable/actual:v25.3.1-x86_64-linux",
    "size": "89 MB",
+   "bsum": "b7ce1bfc771a4a09723754dfcd7e5ed734d876c7dd59d4fdfc622a256b3737ef",
    "build_date": "2025-03-03T18:46:27Z",
    "src_urls": [
     "https://github.com/actualbudget/actual"
@@ -496,6 +510,7 @@
    "version": "v17.0.9",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/advanced-rest-client/appimage/official/stable/advanced-rest-client:v17.0.9-x86_64-linux",
    "size": "99 MB",
+   "bsum": "6aed314330be40f4a716938a067dc6508a6372e223bc6976d698a759e4e855a3",
    "build_date": "2025-01-26T18:24:10Z",
    "src_urls": [
     "https://github.com/advanced-rest-client/arc-electron"
@@ -524,6 +539,7 @@
    "version": "v0.21.0-canary.13",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/affine/appimage/official/canary-1/affine:v0.21.0-canary.13-x86_64-linux",
    "size": "158 MB",
+   "bsum": "2f6080fbd1ab0b915ec649bf2c61eebff942bc36bca308829df3f4ee9affbf99",
    "build_date": "2025-04-01T19:05:39Z",
    "src_urls": [
     "https://github.com/toeverything/AFFiNE"
@@ -573,6 +589,7 @@
    "version": "v0.21.0-canary.2",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/affine/appimage/official/canary-2/affine:v0.21.0-canary.2-x86_64-linux",
    "size": "158 MB",
+   "bsum": "c4ce97ed43f1dc7c6f9f95933ce689299b59b937aa1d58ee5956600a1c206f8c",
    "build_date": "2025-03-21T18:53:19Z",
    "src_urls": [
     "https://github.com/toeverything/AFFiNE"
@@ -606,6 +623,7 @@
    "version": "v0.20.5",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/affine/appimage/official/stable/affine:v0.20.5-x86_64-linux",
    "size": "153 MB",
+   "bsum": "df38992ff5acc5d69b510b5f4ef367be145404d3050d5a8349f78105124ae13d",
    "build_date": "2025-03-10T18:47:45Z",
    "src_urls": [
     "https://github.com/toeverything/AFFiNE"
@@ -655,6 +673,7 @@
    "version": "0.4.0",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/air-controller-desktop/appimage/official/stable/air-controller-desktop:0.4.0-x86_64-linux",
    "size": "12 MB",
+   "bsum": "e4e3b7f621cfedf4dccb7282c7c42f56f58fd80a3f78ab4921ff4649db979b1d",
    "build_date": "2025-01-26T18:41:38Z",
    "src_urls": [
     "https://github.com/air-controller/air-controller-desktop"
@@ -683,6 +702,7 @@
    "version": "1.10.1",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/akuse/appimage/official/stable/akuse:1.10.1-x86_64-linux",
    "size": "87 MB",
+   "bsum": "3550eac0ac82b0f39c638377bb6ea2372af57097b285229e986b88dccc7600e1",
    "build_date": "2025-02-15T05:25:51Z",
    "src_urls": [
     "https://github.com/akuse-app/akuse"
@@ -711,6 +731,7 @@
    "version": "v1.0.0-rc.10",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/allusion/appimage/official/stable/allusion:v1.0.0-rc.10-x86_64-linux",
    "size": "77 MB",
+   "bsum": "a21f5f5c84370d87054ae1891063413df538de95a22b21cef61941e71779166a",
    "build_date": "2025-01-26T18:50:13Z",
    "src_urls": [
     "https://github.com/allusion-app/Allusion"
@@ -739,6 +760,7 @@
    "version": "v8.2.1",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/altair/appimage/official/stable/altair:v8.2.1-x86_64-linux",
    "size": "126 MB",
+   "bsum": "35e0c6b3db3a9f178b3818132944bcffb8bb0a09eb7c4b31cc66e709497185de",
    "build_date": "2025-03-09T18:47:07Z",
    "src_urls": [
     "https://github.com/altair-graphql/altair"
@@ -785,6 +807,7 @@
    "version": "5.6.0",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/altus/appimage/official/stable/altus:5.6.0-x86_64-linux",
    "size": "104 MB",
+   "bsum": "6c02983a14eed406773fc37aaaf898e7b1b3990f086e07db493c31ece97bbdfa",
    "build_date": "2025-03-08T18:42:40Z",
    "src_urls": [
     "https://github.com/amanharwara/altus"
@@ -830,6 +853,7 @@
    "version": "v0.1.2",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/waydroid-helper/appimage/official/stable/waydroid-helper:v0.1.2-x86_64-linux",
    "size": "55 MB",
+   "bsum": "cc48513a6f6e101c7a796c34d825729d6a7de9e4598bf63103c4815ee06a7389",
    "build_date": "2025-02-08T08:58:46Z",
    "src_urls": [
     "https://github.com/ayasa520/waydroid-helper"
@@ -852,6 +876,7 @@
    "version": "250330T010632",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/goverlay/appimage/official/nightly/goverlay:250330T010632-x86_64-linux",
    "size": "60 MB",
+   "bsum": "5b581f1fa5f971932a0b3d47f4b2a2f7a41da8dc79482a1d663b699d7d54b659",
    "build_date": "2025-03-30T18:50:44Z",
    "src_urls": [
     "https://github.com/benjamimgois/goverlay"
@@ -904,6 +929,7 @@
    "version": "1.3-3",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/goverlay/appimage/official/stable/goverlay:1.3-3-x86_64-linux",
    "size": "64 MB",
+   "bsum": "800dc05fa01990928f46ca199ce6b6704e8e5623d8c0a849f359e07de0d7cdbb",
    "build_date": "2025-03-16T14:45:54Z",
    "src_urls": [
     "https://github.com/benjamimgois/goverlay"
@@ -936,6 +962,7 @@
    "version": "v0.13.1",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/alexandria/appimage/official/stable/alexandria:v0.13.1-x86_64-linux",
    "size": "65 MB",
+   "bsum": "7d7a0750bf3a09833cbf4cf7495046618460b627b8487eb1e40491e8d0d48769",
    "build_date": "2025-01-26T18:47:37Z",
    "src_urls": [
     "https://github.com/btpf/Alexandria"
@@ -964,6 +991,7 @@
    "version": "release-5.0.4.10",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/qbittorrent-enhanced/appimage/official/stable/qbittorrent-enhanced:release-5.0.4.10-x86_64-linux",
    "size": "26 MB",
+   "bsum": "c2ccaf31f31a3ac574b4dcd13d366062ece8dbcd59b9dee008abae7d5c66ae8d",
    "build_date": "2025-03-16T23:25:42Z",
    "src_urls": [
     "https://github.com/c0re100/qBittorrent-Enhanced-Edition"
@@ -993,6 +1021,7 @@
    "version": "v0.47.1",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/caido/appimage/official/stable/caido:v0.47.1-x86_64-linux",
    "size": "126 MB",
+   "bsum": "a42c3d1e6ac72e5a5671ac012ba0255689dbddd2f3761a0d19a88a343410f8d5",
    "build_date": "2025-03-21T18:55:42Z",
    "src_urls": [
     "https://github.com/caido/caido"
@@ -1022,6 +1051,7 @@
    "version": "v5.6.0",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/android-messages/appimage/official/stable/android-messages:v5.6.0-x86_64-linux",
    "size": "105 MB",
+   "bsum": "2d91c10441854796ae4478b6ac60379a37dc770e24b28fd5b9cf463d2b8a6ddc",
    "build_date": "2025-01-26T19:06:35Z",
    "src_urls": [
     "https://github.com/OrangeDrangon/android-messages-desktop"
@@ -1050,6 +1080,7 @@
    "version": "v1.6.64",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/aaaaxy/appimage/official/stable/aaaaxy:v1.6.64-x86_64-linux",
    "size": "33 MB",
+   "bsum": "c95e26c9c9f294bc8d33cba7fe09c2ca01c14191a8e49252735ceb7db61c4eb6",
    "build_date": "2025-03-25T18:56:58Z",
    "src_urls": [
     "https://github.com/divVerent/aaaaxy"
@@ -1087,6 +1118,7 @@
    "version": "v10.3.0",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/peazip/appimage/ferion11/stable/peazip:v10.3.0-x86_64-linux",
    "size": "14 MB",
+   "bsum": "c56bbc6bdec575ea1b5b3630fe19a838c39853d2b90d52211abae7ff0906fa52",
    "build_date": "2025-02-22T21:51:05Z",
    "src_urls": [
     "https://github.com/ferion11/PeaZip_Appimage"
@@ -1116,6 +1148,7 @@
    "version": "v12.1.0",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/flameshot/appimage/official/stable/flameshot:v12.1.0-x86_64-linux",
    "size": "50 MB",
+   "bsum": "af4869f6b5ce8f29a86458aad51c178e7f60086e8f2e1e6e4c7ff56e7691ca35",
    "build_date": "2025-01-26T20:17:09Z",
    "src_urls": [
     "https://github.com/flameshot-org/flameshot"
@@ -1145,6 +1178,7 @@
    "version": "1.2.19",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/knot/appimage/official/stable/knot:1.2.19-x86_64-linux",
    "size": "103 MB",
+   "bsum": "661e2c1382811dc5de48ddcedb9e4be8ef0d20d1ebb47b34a6f45c2e3cfa0acf",
    "build_date": "2025-03-25T18:58:30Z",
    "src_urls": [
     "https://github.com/ic005k/Knot"
@@ -1209,6 +1243,7 @@
    "version": "3.0.6",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/abiword/appimage/ivan-hc/stable/abiword:3.0.6-x86_64-linux",
    "size": "66 MB",
+   "bsum": "f81b6822031c392a384b9eb231bde776f74ea5b3e8a23af051db0432c878ad8a",
    "build_date": "2025-02-08T18:45:09Z",
    "src_urls": [
     "https://github.com/ivan-hc/Abiword-appimage"
@@ -1241,6 +1276,7 @@
    "version": "3.22.34-1-3.4.4-2",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/aisleriot/appimage/ivan-hc/stable/aisleriot:3.22.34-1-3.4.4-2-x86_64-linux",
    "size": "50 MB",
+   "bsum": "25ce06af5ff84432d76541a516ae0109e530ca730404ee218f4bedac4d446a61",
    "build_date": "2025-01-12T02:56:16Z",
    "src_urls": [
     "https://github.com/ivan-hc/Aisleriot-appimage"
@@ -1266,6 +1302,7 @@
    "version": "1.2.56.502.6824",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/spotify/appimage/ivan-hc/stable/spotify:1.2.56.502.6824-x86_64-linux",
    "size": "128 MB",
+   "bsum": "03800c9cc5924d83b14995af24884f06c16faf375d4cfe7be00a4a153911e605",
    "build_date": "2025-02-16T18:49:03Z",
    "src_urls": [
     "https://github.com/ivan-hc/Spotify-appimage"
@@ -1295,6 +1332,7 @@
    "version": "11.1.0.11723",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/wps-office/appimage/ivan-hc/stable/wps-office:11.1.0.11723-x86_64-linux",
    "size": "477 MB",
+   "bsum": "a80ae846f58d710340516babefea1ad37cc4139d8b29c112831a0369df62d96d",
    "build_date": "2025-03-05T06:28:47Z",
    "src_urls": [
     "https://github.com/ivan-hc/WPS-Office-appimage"
@@ -1318,6 +1356,7 @@
    "version": "25.04",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/kdeutils/appimage/ivan-hc/stable/kdeutils:25.04-x86_64-linux",
    "size": "368 MB",
+   "bsum": "63251b93303195c7135182cc8a493396df1eb7b71de0a3e61d6f93bf475dcc4a",
    "build_date": "2025-03-16T14:49:59Z",
    "src_urls": [
     "https://github.com/ivan-hc/KDE-utils-appimage"
@@ -1346,6 +1385,7 @@
    "version": "v7.48.0",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/signal-desktop/appimage/karo-solutions/stable/signal-desktop:v7.48.0-x86_64-linux",
    "size": "150 MB",
+   "bsum": "7f97aef0a9c13b6e9badf415b3c990e8097fcdf0a20507ab9d498176726b055a",
    "build_date": "2025-04-01T19:32:47Z",
    "src_urls": [
     "https://github.com/karo-solutions/Signal-Desktop-AppImage"
@@ -1391,6 +1431,7 @@
    "version": "v1.2",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/libresprite/appimage/official/stable/libresprite:v1.2-x86_64-linux",
    "size": "104 MB",
+   "bsum": "f1e5136a77d180344b0c03b074346d78f791893ebe3b3c0a94254c2c38ae5b07",
    "build_date": "2025-03-10T02:54:14Z",
    "src_urls": [
     "https://github.com/LibreSprite/LibreSprite"
@@ -1413,6 +1454,7 @@
    "version": "1.0rc",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/melonds/appimage/official/stable/melonds:1.0rc-x86_64-linux",
    "size": "36 MB",
+   "bsum": "d70236aedaf2669c484ebb57dd61548a31c623b186694203243e9ad2a7700d78",
    "build_date": "2025-02-08T08:59:50Z",
    "src_urls": [
     "https://github.com/melonDS-emu/melonDS"
@@ -1435,6 +1477,7 @@
    "version": "v3.3.2",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/player432hz:v3.3.2-x86_64-linux",
    "size": "23 MB",
+   "bsum": "ea6fb7c680779492bc5843566955b5f0023a3bde7df144ea6fe16d4efbf51d2a",
    "build_date": "2025-01-12T02:57:11Z",
    "src_urls": [
     "https://github.com/mysteryx93/HanumanInstituteApps"
@@ -1458,6 +1501,7 @@
    "version": "v3.3.2",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/powerliminalsplayer:v3.3.2-x86_64-linux",
    "size": "31 MB",
+   "bsum": "fc0ff685f8ea016f38122d56798543f143b67704ae539bce081dd197e94c4884",
    "build_date": "2025-01-26T22:57:44Z",
    "src_urls": [
     "https://github.com/mysteryx93/HanumanInstituteApps"
@@ -1487,6 +1531,7 @@
    "version": "v3.3.2",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/yangdownloader:v3.3.2-x86_64-linux",
    "size": "39 MB",
+   "bsum": "f0278c77af1ecbdbdec5080d1844abdbe8c133804987f3f860585b45a15332bf",
    "build_date": "2025-01-26T22:57:45Z",
    "src_urls": [
     "https://github.com/mysteryx93/HanumanInstituteApps"
@@ -1516,6 +1561,7 @@
    "version": "v3.3.2",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/converter432hz:v3.3.2-x86_64-linux",
    "size": "15 MB",
+   "bsum": "4fb6215fbacdafcb0f2e36a1d61c32b36dc6689aceb4f905cc3854b0e54f9abb",
    "build_date": "2025-01-12T02:57:11Z",
    "src_urls": [
     "https://github.com/mysteryx93/HanumanInstituteApps"
@@ -1539,6 +1585,7 @@
    "version": "v0.11.0",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/neovim/appimage/official/stable/neovim:v0.11.0-x86_64-linux",
    "size": "11 MB",
+   "bsum": "86d1d92a28a5ebef84ef5c87c7a80e65c62e2d79deeece216a8c8460e35807b6",
    "build_date": "2025-03-28T19:21:51Z",
    "src_urls": [
     "https://github.com/neovim/neovim"
@@ -1572,6 +1619,7 @@
    "version": "v0.6.1",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/citron/appimage/pkgforge-dev/stable/citron:v0.6.1-x86_64-linux",
    "size": "124 MB",
+   "bsum": "31b89f45d002bbe776b876a1e7afe1fcd1fcbb5d3d55291398a0a5a7f4d9f0c1",
    "build_date": "2025-03-16T14:44:01Z",
    "src_urls": [
     "https://github.com/pkgforge-dev/Citron-AppImage"
@@ -1614,6 +1662,7 @@
    "version": "v0.6.1",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/citron/appimage/pkgforge-dev/v3/citron:v0.6.1-x86_64-linux",
    "size": "124 MB",
+   "bsum": "9aa00153e06ab52632f67b0fbbedd4b62c60774f04a207668ce08f8ed4fec290",
    "build_date": "2025-03-16T14:34:19Z",
    "src_urls": [
     "https://github.com/pkgforge-dev/Citron-AppImage"
@@ -1657,6 +1706,7 @@
    "version": "v134.0.6998.108",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/cromite/appimage/pkgforge-dev/stable/cromite:v134.0.6998.108-x86_64-linux",
    "size": "203 MB",
+   "bsum": "b900d2b38d6fd8c105c0f115bb6ece45d4e9f32f2fed47e1d4750dea91df55c0",
    "build_date": "2025-03-23T18:49:33Z",
    "src_urls": [
     "https://github.com/pkgforge-dev/Cromite-AppImage"
@@ -1719,6 +1769,7 @@
    "version": "3.0.2",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/gimp/appimage/pkgforge-dev/stable/gimp:3.0.2-x86_64-linux",
    "size": "181 MB",
+   "bsum": "014d51fe04c2fff9b53d6f8b79181e037c09c1d294d01a8de2f0c60a716cfae6",
    "build_date": "2025-03-25T19:06:15Z",
    "src_urls": [
     "https://github.com/pkgforge-dev/GIMP-AppImage"
@@ -1749,6 +1800,7 @@
    "version": "31.0.3-1",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/obs-studio/appimage/pkgforge-dev/stable/obs-studio:31.0.3-1-x86_64-linux",
    "size": "129 MB",
+   "bsum": "4ce999ca6fff5b766e2d79da2bf653626b70c2c68e08beefcf90b6f0953a67cd",
    "build_date": "2025-03-30T19:08:02Z",
    "src_urls": [
     "https://github.com/pkgforge-dev/OBS-Studio-AppImage"
@@ -1788,6 +1840,7 @@
    "version": "1.18.1-3",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/ppsspp/appimage/pkgforge-dev/stable/ppsspp:1.18.1-3-x86_64-linux",
    "size": "107 MB",
+   "bsum": "38e8447ee6a9c6ebebc196762320001bce8e45807b61ed3c4f872e133489b968",
    "build_date": "2025-01-26T22:58:12Z",
    "src_urls": [
     "https://github.com/pkgforge-dev/PPSSPP-AppImage"
@@ -1823,6 +1876,7 @@
    "version": "20250330-152425",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/torzu/appimage/pkgforge-dev/stable/torzu:20250330-152425-x86_64-linux",
    "size": "126 MB",
+   "bsum": "59e10a97276833c0201cacd4e86d314b4f6d0c30ef822fcc00bd8e361584d9cf",
    "build_date": "2025-03-30T19:13:59Z",
    "src_urls": [
     "https://github.com/pkgforge-dev/Torzu-AppImage"
@@ -1864,6 +1918,7 @@
    "version": "20250330-152425",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/torzu/appimage/pkgforge-dev/v3/torzu:20250330-152425-x86_64-linux",
    "size": "126 MB",
+   "bsum": "e675715513fd1c64e9559388f9310a01e137f7143a13ee1c0c89dac641d6cb06",
    "build_date": "2025-03-30T19:21:20Z",
    "src_urls": [
     "https://github.com/pkgforge-dev/Torzu-AppImage"
@@ -1906,6 +1961,7 @@
    "version": "36.0.0",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/android-tools/appimage/pkgforge-dev/stable/android-tools:36.0.0-x86_64-linux",
    "size": "9.3 MB",
+   "bsum": "8ed968d18fb37e52521e2343a5d524f15431deff2ff7c3289506c34146b41eac",
    "build_date": "2025-03-30T19:00:50Z",
    "src_urls": [
     "https://github.com/pkgforge-dev/android-tools-AppImage"
@@ -1935,6 +1991,7 @@
    "version": "v0.40.0-37-g5870c95e8",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/mpv/appimage/pkgforge-dev/stable/mpv:v0.40.0-37-g5870c95e8-x86_64-linux",
    "size": "49 MB",
+   "bsum": "18a28e245a3ba00ea5715f9589275d2f27caea03f5b256ad5aaf552f39962537",
    "build_date": "2025-04-01T19:24:03Z",
    "src_urls": [
     "https://github.com/pkgforge-dev/mpv-AppImage"
@@ -2010,6 +2067,7 @@
    "version": "13907245614",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/pixelpulse2/appimage/pkgforge-dev/stable/pixelpulse2:13907245614-x86_64-linux",
    "size": "116 MB",
+   "bsum": "cec9b2f51d920af446f42fab1aee6d752822d4b40cd4ea9f7332ab154bedcbe2",
    "build_date": "2025-03-18T19:17:56Z",
    "src_urls": [
     "https://github.com/pkgforge-dev/Pixelpulse2-AppImage"
@@ -2050,6 +2108,7 @@
    "version": "20250217-182502",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/puddletag/appimage/pkgforge-dev/stable/puddletag:20250217-182502-x86_64-linux",
    "size": "52 MB",
+   "bsum": "fda1135e3e6998aeb909453b8865b02a9f129e8094fae28a902a727c6bb3e223",
    "build_date": "2025-02-17T19:54:52Z",
    "src_urls": [
     "https://github.com/pkgforge-dev/puddletag-AppImage"
@@ -2081,6 +2140,7 @@
    "version": "1.2.7-2",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/strawberry/appimage/pkgforge-dev/stable/strawberry:1.2.7-2-x86_64-linux",
    "size": "86 MB",
+   "bsum": "78c5d464a9821ab87919c51b70da19cdc44079585833cc2f4d1b0645487ebc83",
    "build_date": "2025-02-25T19:05:15Z",
    "src_urls": [
     "https://github.com/pkgforge-dev/strawberry-AppImage"
@@ -2120,6 +2180,7 @@
    "version": "v1.1.3+1",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty:v1.1.3_1-x86_64-linux",
    "size": "66 MB",
+   "bsum": "c687df70a3cac47892634328b828b2faf2b6abb1b00fcbcaa170f84456fc4e3d",
    "build_date": "2025-04-01T19:17:56Z",
    "src_urls": [
     "https://github.com/pkgforge-dev/ghostty-appimage"
@@ -2185,6 +2246,7 @@
    "version": "250204T131430",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk:250204T131430-x86_64-linux",
    "size": "65 MB",
+   "bsum": "23fc6ac2be3126d2328033d09c41039ef576148d61d41d5340da92f5a66ce6a7",
    "build_date": "2025-02-08T08:54:16Z",
    "src_urls": [
     "https://github.com/rustdesk/rustdesk"
@@ -2208,6 +2270,7 @@
    "version": "1.3.7",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk:1.3.7-x86_64-linux",
    "size": "65 MB",
+   "bsum": "6c3f6ce8b6b86cbf88fe02ddbb895b84bc88c488c125fc0ef66c3230eec9d2c9",
    "build_date": "2025-02-08T08:53:55Z",
    "src_urls": [
     "https://github.com/rustdesk/rustdesk"
@@ -2231,6 +2294,7 @@
    "version": "v6.3.0",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/simplex-desktop/appimage/official/stable/simplex-desktop:v6.3.0-x86_64-linux",
    "size": "258 MB",
+   "bsum": "f28baea59e0a04c4f2f6f305723cdb824f883a5238dcc5a5718f316c8cd3eed2",
    "build_date": "2025-03-10T22:07:58Z",
    "src_urls": [
     "https://github.com/simplex-chat/simplex-chat"
@@ -2264,6 +2328,7 @@
    "version": "v1.78.72",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/brave/appimage/srevinsaju/beta/brave:v1.78.72-x86_64-linux",
    "size": "156 MB",
+   "bsum": "d8985b56ed62971c3a5e35909459b11a3f948ee2129a677e0a349993ef6e8e7d",
    "build_date": "2025-04-01T18:59:34Z",
    "src_urls": [
     "https://github.com/srevinsaju/Brave-AppImage"
@@ -2350,6 +2415,7 @@
    "version": "v1.79.9",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/brave/appimage/srevinsaju/nightly/brave:v1.79.9-x86_64-linux",
    "size": "157 MB",
+   "bsum": "16ae685cb6fd917d879c55af5f644716d6c31affaba3ec2016466947df01ea33",
    "build_date": "2025-03-30T18:58:52Z",
    "src_urls": [
     "https://github.com/srevinsaju/Brave-AppImage"
@@ -2448,6 +2514,7 @@
    "version": "v1.76.81",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/brave/appimage/srevinsaju/stable/brave:v1.76.81-x86_64-linux",
    "size": "156 MB",
+   "bsum": "dfc39b4e463323ed2029a60370301b38d2ae6349517d58154a33efdf40496680",
    "build_date": "2025-03-23T18:51:48Z",
    "src_urls": [
     "https://github.com/srevinsaju/Brave-AppImage"
@@ -2478,6 +2545,7 @@
    "version": "138.0.20250331153038",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/beta/firefox:138.0.20250331153038-x86_64-linux",
    "size": "84 MB",
+   "bsum": "e0ba5318fe3bba6319b49cd4a9b53732c99d64d39cba3add3e48c6932d88774a",
    "build_date": "2025-04-01T19:06:01Z",
    "src_urls": [
     "https://github.com/srevinsaju/Firefox-Appimage"
@@ -2592,6 +2660,7 @@
    "version": "138.0.20250331153038",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/dev/firefox:138.0.20250331153038-x86_64-linux",
    "size": "84 MB",
+   "bsum": "a5a840b3b84ffde77a4e095a81d6cf9a8a6209c5d1a3daf8e474b622995d3c4f",
    "build_date": "2025-04-01T19:11:21Z",
    "src_urls": [
     "https://github.com/srevinsaju/Firefox-Appimage"
@@ -2690,6 +2759,7 @@
    "version": "128.8.20250326232952",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/esr/firefox:128.8.20250326232952-x86_64-linux",
    "size": "79 MB",
+   "bsum": "2c250a506c4aca13a556085204ae2c824a4e16d2c3747c6ae5d0eb8670644f19",
    "build_date": "2025-03-28T19:08:42Z",
    "src_urls": [
     "https://github.com/srevinsaju/Firefox-Appimage"
@@ -2728,6 +2798,7 @@
    "version": "139.0.20250331215235",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/nightly/firefox:139.0.20250331215235-x86_64-linux",
    "size": "93 MB",
+   "bsum": "2452e833f750fa7ccddbf1fd5253f766001c0c77eb3c9b6af2980a10129344aa",
    "build_date": "2025-04-01T19:17:49Z",
    "src_urls": [
     "https://github.com/srevinsaju/Firefox-Appimage"
@@ -2950,6 +3021,7 @@
    "version": "136.0.20250326231000",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/stable/firefox:136.0.20250326231000-x86_64-linux",
    "size": "83 MB",
+   "bsum": "caa8f02a6ac65181c64bf5ef831910ebb6c027096b0686e54d4d1c2d911f8987",
    "build_date": "2025-03-28T19:13:20Z",
    "src_urls": [
     "https://github.com/srevinsaju/Firefox-Appimage"
@@ -3004,6 +3076,7 @@
    "version": "0.0.621",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/discord-canary/appimage/srevinsaju/canary/discord-canary:0.0.621-x86_64-linux",
    "size": "85 MB",
+   "bsum": "ddf5ac45def018d3e5e9e0a8783b342f5b0a48de8e05090cc7151140343a15bc",
    "build_date": "2025-03-28T18:57:06Z",
    "src_urls": [
     "https://github.com/srevinsaju/discord-appimage"
@@ -3117,6 +3190,7 @@
    "version": "0.0.136",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/discord-ptb/appimage/srevinsaju/ptb/discord-ptb:0.0.136-x86_64-linux",
    "size": "83 MB",
+   "bsum": "fa097b23986c6228b5c0c16802adccff364a0e7ab14850507240600168184e4e",
    "build_date": "2025-03-28T18:55:26Z",
    "src_urls": [
     "https://github.com/srevinsaju/discord-appimage"
@@ -3182,6 +3256,7 @@
    "version": "0.0.90",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/discord/appimage/srevinsaju/stable/discord:0.0.90-x86_64-linux",
    "size": "83 MB",
+   "bsum": "526e7fcff2f9ae2b4d4d936b84d8727a8a12148eb2b6a0a785b8a1c894939562",
    "build_date": "2025-04-01T18:58:12Z",
    "src_urls": [
     "https://github.com/srevinsaju/discord-appimage"
@@ -3247,6 +3322,7 @@
    "version": "0.8.4",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/stable/tangent:0.8.4-x86_64-linux",
    "size": "92 MB",
+   "bsum": "ade60155c2bd91b0cfbcde41fe7b7f70c95e296a114426b0a417f13174d2fdd5",
    "build_date": "2025-01-26T23:16:00Z",
    "src_urls": [
     "https://www.tangentnotes.com/Download",
@@ -3276,6 +3352,7 @@
    "version": "0.9.0-alpha.9",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent:0.9.0-alpha.9-x86_64-linux",
    "size": "93 MB",
+   "bsum": "b6efa3a1358b71c5bb35bbf51a480f0004f51a392e51fdcd1b9c79b5fedacf38",
    "build_date": "2025-03-25T19:34:10Z",
    "src_urls": [
     "https://www.tangentnotes.com/Download",
@@ -3313,6 +3390,7 @@
    "version": "v1.5.3",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/synfigstudio/appimage/official/stable/synfigstudio:v1.5.3-x86_64-linux",
    "size": "111 MB",
+   "bsum": "cbfa3a5893eafe04c4050c7ed790ab4662951ff0c5f99be353fc5ed827b4c89d",
    "build_date": "2025-02-08T08:56:26Z",
    "src_urls": [
     "https://github.com/synfig/synfig"
@@ -3335,6 +3413,7 @@
    "version": "v1.29.2",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/escrcpy/appimage/official/stable/escrcpy:v1.29.2-x86_64-linux",
    "size": "235 MB",
+   "bsum": "485e6083a47e8e06eb2a668637530ce524ce347b71db93ae1693dbc958b45b4e",
    "build_date": "2025-04-01T19:07:06Z",
    "src_urls": [
     "https://github.com/viarotel-org/escrcpy"
@@ -3375,6 +3454,7 @@
    "version": "v5.3.0",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/electron-mail/appimage/official/stable/electron-mail:v5.3.0-x86_64-linux",
    "size": "158 MB",
+   "bsum": "50267e74d488911b2a31f2165e2dac5a8bff9613d7f127815aa51237887c667e",
    "build_date": "2025-02-24T01:31:48Z",
    "src_urls": [
     "https://github.com/vladimiry/ElectronMail"
@@ -3397,6 +3477,7 @@
    "version": "v.1.3.1",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/9launcher/appimage/official/stable/9launcher:v.1.3.1-x86_64-linux",
    "size": "131 MB",
+   "bsum": "229efb79a326c692371898ef13760965e14ab634dcc56132b716ea8221658edb",
    "build_date": "2025-01-26T18:10:49Z",
    "src_urls": [
     "https://github.com/wearrrrr/9Launcher"
@@ -3425,6 +3506,7 @@
    "version": "20240203-110809-5046fc22",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/wezterm/appimage/official/stable/wezterm:20240203-110809-5046fc22-x86_64-linux",
    "size": "39 MB",
+   "bsum": "942e346504b95e8dfe8511012aa23d248f955c736f79f252854eba254136a71f",
    "build_date": "2025-01-28T04:08:13Z",
    "src_urls": [
     "https://github.com/wez/wezterm"
@@ -3453,6 +3535,7 @@
    "version": "1.0.2-b.5",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser:1.0.2-b.5-x86_64-linux",
    "size": "102 MB",
+   "bsum": "8278daa1a676f4d20e613d7ac9f271b12f7e6fd7fa13712e84376d83d11cd30c",
    "build_date": "2025-01-26T23:22:05Z",
    "src_urls": [
     "https://github.com/zen-browser/desktop"
@@ -3482,6 +3565,7 @@
    "version": "1.10.3b",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser:1.10.3b-x86_64-linux",
    "size": "99 MB",
+   "bsum": "dcfffe32c7ad26df3d1826b52f7fb186edd20d030d8976e5072bfc4e86ca26d2",
    "build_date": "2025-03-28T19:38:47Z",
    "src_urls": [
     "https://github.com/zen-browser/desktop"
@@ -3559,6 +3643,7 @@
    "version": "Twilightbuild-1.10.3t(2025-03-31at19:24:52)",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:Twilightbuild-1.10.3t_2025-03-31at19_24_52_-x86_64-linux",
    "size": "98 MB",
+   "bsum": "4a1b1328562448e955690d64e4389b82a9713b1a3b00b8d2243d345567c7115e",
    "build_date": "2025-04-01T19:45:51Z",
    "src_urls": [
     "https://github.com/zen-browser/desktop"
@@ -3768,6 +3853,7 @@
    "version": "1.4",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/inkscape/appimage/official/stable/inkscape:1.4-x86_64-linux",
    "size": "92 MB",
+   "bsum": "5bd2b9cf69aa8c32648c030229c30b7b6367f355f1af5198b071f9bc9ece3c4e",
    "build_date": "2025-02-02T14:36:38Z",
    "src_urls": [
     "https://inkscape.org/release"
@@ -3790,6 +3876,7 @@
    "version": "2025-04-01",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/kdenlive/appimage/official/nightly/kdenlive:2025-04-01-x86_64-linux",
    "size": "184 MB",
+   "bsum": "a6c4df24931e0bbdb196c4e25f29d1e3ccb1a225a3279f43c873e5ce3fae6053",
    "build_date": "2025-04-01T19:13:33Z",
    "src_urls": [
     "https://kdenlive.org/en/download/"
@@ -3923,6 +4010,7 @@
    "version": "24.12.3",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/kdenlive/appimage/official/stable/kdenlive:24.12.3-x86_64-linux",
    "size": "181 MB",
+   "bsum": "ed3d3bb08e2da2b2cd17c0e0e8606db7d1dec1e1c489bc833ceb184329a6d825",
    "build_date": "2025-03-11T19:08:38Z",
    "src_urls": [
     "https://kdenlive.org/en/download/"
@@ -3952,6 +4040,7 @@
    "version": "2025-03-31",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/krita/appimage/official/next/krita:2025-03-31-x86_64-linux",
    "size": "297 MB",
+   "bsum": "816ffa6bd22f97cc98a9aa12bea7b51f44d302d2b56a9b0e87e5d2473d2acdf0",
    "build_date": "2025-04-01T19:28:21Z",
    "src_urls": [
     "https://krita.org/en/download/"
@@ -4133,6 +4222,7 @@
    "version": "5.2.9",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/krita/appimage/official/stable/krita:5.2.9-x86_64-linux",
    "size": "295 MB",
+   "bsum": "89b8c9351e0a4e59bee3c265e1bf7c2c0e01e0bc2b8271ef5e6f7e059712a2f9",
    "build_date": "2025-02-02T14:40:07Z",
    "src_urls": [
     "https://krita.org/en/download/"
@@ -4156,6 +4246,7 @@
    "version": "25.2.2.1",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/fresh-basic/libreoffice:25.2.2.1-x86_64-linux",
    "size": "236 MB",
+   "bsum": "31468d3728bf601e6a730770ed7fe16d7afdfe7d9ef10671f903213760addea7",
    "build_date": "2025-03-09T18:54:07Z",
    "src_urls": [
     "https://www.libreoffice.org/download/appimage/"
@@ -4196,6 +4287,7 @@
    "version": "25.2.2.1",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/fresh-full/libreoffice:25.2.2.1-x86_64-linux",
    "size": "373 MB",
+   "bsum": "222792f524008f31911f0006c1bfc8e3eaaaca8ede0de523788ab60bcb630750",
    "build_date": "2025-03-09T18:55:00Z",
    "src_urls": [
     "https://www.libreoffice.org/download/appimage/"
@@ -4236,6 +4328,7 @@
    "version": "25.2.2.1",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/fresh-standard/libreoffice:25.2.2.1-x86_64-linux",
    "size": "270 MB",
+   "bsum": "10619e940b05c24ebddffeb6d001cdc26aa5bffded4d5dd07b2b00c0c8707658",
    "build_date": "2025-03-09T18:51:13Z",
    "src_urls": [
     "https://www.libreoffice.org/download/appimage/"
@@ -4276,6 +4369,7 @@
    "version": "25.2.2.1",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/still-basic/libreoffice:25.2.2.1-x86_64-linux",
    "size": "236 MB",
+   "bsum": "c8eec211efb5f934bca18886d23b56adfd37873abaf257d15190c3fc1ff1a285",
    "build_date": "2025-03-09T18:49:44Z",
    "src_urls": [
     "https://www.libreoffice.org/download/appimage/"
@@ -4316,6 +4410,7 @@
    "version": "25.2.2.1",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/still-full/libreoffice:25.2.2.1-x86_64-linux",
    "size": "373 MB",
+   "bsum": "3885498df5be0bd4d00ef15a17fb155fe24b2ba43b2f2d9f5b1d115c73439b2f",
    "build_date": "2025-03-09T18:52:50Z",
    "src_urls": [
     "https://www.libreoffice.org/download/appimage/"
@@ -4356,6 +4451,7 @@
    "version": "25.2.2.1",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/still-standard/libreoffice:25.2.2.1-x86_64-linux",
    "size": "271 MB",
+   "bsum": "1074340589836091b3b785390d81eba2f466921267b701f9e52364528fe63958",
    "build_date": "2025-03-09T18:58:19Z",
    "src_urls": [
     "https://www.libreoffice.org/download/appimage/"
@@ -4396,6 +4492,7 @@
    "version": "v136.0.4-1",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/librewolf/appimage/official/stable/librewolf:v136.0.4-1-x86_64-linux",
    "size": "107 MB",
+   "bsum": "5ffe691f6eee16eaa5edb7f92a7472f1d4c7bf3dfdb9c89e3b3011a916279818",
    "build_date": "2025-03-28T19:19:51Z",
    "src_urls": [
     "https://gitlab.com/librewolf-community/browser/appimage"
@@ -4442,6 +4539,7 @@
    "version": "5.1.0",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/qbittorrent/appimage/official/beta/qbittorrent:5.1.0-x86_64-linux",
    "size": "82 MB",
+   "bsum": "ff8c3279c84ed7e276ca018debec980978c7224ae8d319be98f5f587468e4432",
    "build_date": "2025-02-03T19:07:53Z",
    "src_urls": [
     "https://www.qbittorrent.org/download",
@@ -4468,6 +4566,7 @@
    "version": "5.1.0",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/qbittorrent/appimage/official/stable/qbittorrent:5.1.0-x86_64-linux",
    "size": "82 MB",
+   "bsum": "fa7cd0ba4d1dbe833fb8a7d9c77e2c10a3ae5897df30b443b795264c6dfbaeaa",
    "build_date": "2025-02-18T19:01:21Z",
    "src_urls": [
     "https://www.qbittorrent.org/download",
@@ -4500,6 +4599,7 @@
    "version": "1.76.73",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/brave/nixappimage/nixpkgs/stable/brave:1.76.73-x86_64-linux",
    "size": "391 MB",
+   "bsum": "f89328b43f8f70fad9dbff0ea83dbeeb00ac95193275438e405360d667acac2b",
    "build_date": "2025-03-12T19:35:20Z",
    "src_urls": [
     "https://github.com/brave/brave-browser"
@@ -4561,6 +4661,7 @@
    "version": "134.0.6998.88",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium:134.0.6998.88-x86_64-linux",
    "size": "371 MB",
+   "bsum": "19367c13a211c22b51475c7bf744bee1f115fc1edca31152ba09ed4eb3c31f61",
    "build_date": "2025-03-12T19:43:01Z",
    "src_urls": [
     "https://github.com/chromium/chromium"
@@ -4626,6 +4727,7 @@
    "version": "0.0.87",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/discord/nixappimage/nixpkgs/stable/discord:0.0.87-x86_64-linux",
    "size": "220 MB",
+   "bsum": "e9ff7a8141468fecbc4de23831a30253ef5c8f5bdb25df45d641ef039f3a1d24",
    "build_date": "2025-03-05T20:06:05Z",
    "src_urls": [
     "https://discordapp.com"
@@ -4681,6 +4783,7 @@
    "version": "0.0.594",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/discord/nixappimage/nixpkgs/canary/discord:0.0.594-x86_64-linux",
    "size": "220 MB",
+   "bsum": "dc65dc80550bc020f3a940cc4c9209af519af2f16bed4d481d481952c22709ed",
    "build_date": "2025-02-26T19:58:01Z",
    "src_urls": [
     "https://discordapp.com"
@@ -4728,6 +4831,7 @@
    "version": "0.0.68",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/discord/nixappimage/nixpkgs/development/discord:0.0.68-x86_64-linux",
    "size": "219 MB",
+   "bsum": "8eb888de14c23b999e72953b2831c6a3792d38b46698682d0ae7e669f3361a8a",
    "build_date": "2025-02-05T19:09:11Z",
    "src_urls": [
     "https://discordapp.com"
@@ -4763,6 +4867,7 @@
    "version": "0.0.132",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/discord/nixappimage/nixpkgs/ptb/discord:0.0.132-x86_64-linux",
    "size": "220 MB",
+   "bsum": "ff2cbb69354586e67216c8d227b547716ebfbf0d86f08c7bba582a6c991aa557",
    "build_date": "2025-02-26T20:03:36Z",
    "src_urls": [
     "https://discordapp.com"
@@ -4810,6 +4915,7 @@
    "version": "12.1.0-unstable-2025-03-10",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/flameshot/nixappimage/nixpkgs/unstable/flameshot:12.1.0-unstable-2025-03-10-x86_64-linux",
    "size": "99 MB",
+   "bsum": "20c74ff7aa048153ff5eeeb4446d9eeabed490c4723602f884662bdeb86e6cf8",
    "build_date": "2025-03-25T20:14:03Z",
    "src_urls": [
     "https://github.com/flameshot/flameshot"
@@ -4854,6 +4960,7 @@
    "version": "2.3.2",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/gearlever/nixappimage/nixpkgs/stable/gearlever:2.3.2-x86_64-linux",
    "size": "314 MB",
+   "bsum": "13d8e564d0c1a27b7f0f1c6b574247e1cb6c9c521fe79b0e72c9603a661ab683",
    "build_date": "2025-01-26T20:28:43Z",
    "src_urls": [
     "https://github.com/mijorus/gearlever"
@@ -4886,6 +4993,7 @@
    "version": "25.01.1",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/helix/nixappimage/nixpkgs/stable/helix:25.01.1-x86_64-linux",
    "size": "28 MB",
+   "bsum": "66413792d54a98294328807a333618ed15ed07d29512c38e01746837882230e2",
    "build_date": "2025-01-26T20:29:49Z",
    "src_urls": [
     "https://github.com/helix-editor/helix"
@@ -4922,6 +5030,7 @@
    "version": "0.10.4",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/neovim/nixappimage/nixpkgs/stable/neovim:0.10.4-x86_64-linux",
    "size": "31 MB",
+   "bsum": "82e759c3ffde3dbc3b2928c6bcf137c62914a5455f048b7221160cbb13cde1f5",
    "build_date": "2025-02-01T19:29:52Z",
    "src_urls": [
     "https://github.com/neovim/neovim"
@@ -4954,6 +5063,7 @@
    "version": "6.2.5",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/simplex-desktop/nixappimage/nixpkgs/stable/simplex-desktop:6.2.5-x86_64-linux",
    "size": "530 MB",
+   "bsum": "24221aad9adb269f9f64b6b494bb5f5ae1517a13a5f6ae6e1ddb36aecb161440",
    "build_date": "2025-02-19T19:37:36Z",
    "src_urls": [
     "https://github.com/simplex-chat/simplex-chat"
@@ -4990,6 +5100,7 @@
    "version": "5.11.1",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop:5.11.1-x86_64-linux",
    "size": "370 MB",
+   "bsum": "045440e8263344b172282e5e1e317c5a69a7b8c3afc91ec67238b7722889b054",
    "build_date": "2025-02-17T20:02:30Z",
    "src_urls": [
     "https://github.com/telegramdesktop/tdesktop"
@@ -5034,6 +5145,7 @@
    "version": "134.0.6998.35",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium:134.0.6998.35-x86_64-linux",
    "size": "372 MB",
+   "bsum": "28d8174d813829b71d793a547f9f2ecc15ed6ffc88c62738185524bec3082154",
    "build_date": "2025-03-12T19:50:39Z",
    "src_urls": [
     "https://github.com/ungoogled-software/ungoogled-chromium"
@@ -5093,6 +5205,7 @@
    "version": "3.31.5",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/cmake/appimage/ppkg/stable/cmake:3.31.5-x86_64-linux",
    "size": "31 MB",
+   "bsum": "896d1d3c3ea386e98fac6148ef4a142cf1d145b5e4bc76cb541926b63c4792b2",
    "build_date": "2025-03-02T18:52:37Z",
    "src_urls": [
     "https://gitlab.kitware.com/cmake/cmake"
@@ -5118,6 +5231,7 @@
    "version": "5.45",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/file/appimage/ppkg/stable/file:5.45-x86_64-linux",
    "size": "2.5 MB",
+   "bsum": "7bfaaf86ef76d9f41584e759e4a0195c4ebdcda7c16a68329e3d6d2893d7c3e4",
    "build_date": "2025-02-13T19:19:31Z",
    "src_urls": [
     "https://github.com/file/file"
@@ -5143,6 +5257,7 @@
    "version": "3.12.0",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/freerdp/appimage/ppkg/stable/freerdp:3.12.0-x86_64-linux",
    "size": "251 MB",
+   "bsum": "49ca64aaa3740c6d5247024259b8572085e837573e2a1a4b3a52c9dd7bcd2cb5",
    "build_date": "2025-03-02T19:48:46Z",
    "src_urls": [
     "https://github.com/FreeRDP/FreeRDP"
@@ -5174,6 +5289,7 @@
    "version": "2.48.1",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/git/appimage/ppkg/stable/git:2.48.1-x86_64-linux",
    "size": "32 MB",
+   "bsum": "927eeb922cc8beba707c12cdfbed993bb47ca5a32719c573eff564b2ad342876",
    "build_date": "2025-02-10T08:45:31Z",
    "src_urls": [
     "https://github.com/git/git"
@@ -5198,6 +5314,7 @@
    "version": "0.9.0",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/jless/appimage/ppkg/stable/jless:0.9.0-x86_64-linux",
    "size": "3.4 MB",
+   "bsum": "8918d536909fa65564a19c9ae5cea64765f6231c93be90a4f48636713961b28d",
    "build_date": "2025-02-13T19:22:17Z",
    "src_urls": [
     "https://github.com/PaulJuliusMartinez/jless"
@@ -5223,6 +5340,7 @@
    "version": "0.10.2",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/xrdp/appimage/ppkg/stable/xrdp:0.10.2-x86_64-linux",
    "size": "7.5 MB",
+   "bsum": "5d1d43e1f301f8be48826648ee063285b19c94906c328710ff30fac505533081",
    "build_date": "2025-03-04T11:53:25Z",
    "src_urls": [
     "https://github.com/neutrinolabs/xrdp"
@@ -5248,6 +5366,7 @@
    "version": "24.12.3",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/akregator/runimage/alpine/stable/akregator:24.12.3-x86_64-linux",
    "size": "326 MB",
+   "bsum": "ea54305631196f837fee9e673ba96dd364a27f69ee4298b1e776b40fef8d2e11",
    "build_date": "2025-03-21T18:57:59Z",
    "src_urls": [
     "https://invent.kde.org/pim/akregator"
@@ -5286,6 +5405,7 @@
    "version": "1.11.95",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/element-desktop/runimage/alpine/stable/element-desktop:1.11.95-x86_64-linux",
    "size": "222 MB",
+   "bsum": "7166b949e85da1a1e8946b942f56d34c890964a440b642694e03ef2bd7efd4f6",
    "build_date": "2025-03-12T20:14:34Z",
    "src_urls": [
     "https://gitlab.alpinelinux.org/alpine/aports/-/tree/master/testing/element-desktop"
@@ -5324,6 +5444,7 @@
    "version": "24.12.3",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/falkon/runimage/alpine/stable/falkon:24.12.3-x86_64-linux",
    "size": "274 MB",
+   "bsum": "5a721495f916488c01255e54bfbe324b2e4fc219f2ab320791ea21404f5b3256",
    "build_date": "2025-03-21T19:13:07Z",
    "src_urls": [
     "https://gitlab.alpinelinux.org/alpine/aports/-/tree/master/community/falkon"
@@ -5356,6 +5477,7 @@
    "version": "46.2",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/ghex/runimage/alpine/stable/ghex:46.2-x86_64-linux",
    "size": "146 MB",
+   "bsum": "8e3ae4dc631d51f225ecf89467c8d18b1ac030deee3ea9ef1ef3a260f06a4af1",
    "build_date": "2025-03-04T18:55:27Z",
    "src_urls": [
     "https://gitlab.gnome.org/GNOME/ghex"
@@ -5386,6 +5508,7 @@
    "version": "2.49.0",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/git/runimage/alpine/stable/git:2.49.0-x86_64-linux",
    "size": "40 MB",
+   "bsum": "99a04d816af7802092b4c093032f365a375f7263f07b223a438bea9f7c895152",
    "build_date": "2025-03-16T14:46:56Z",
    "src_urls": [
     "https://github.com/git/git"
@@ -5417,6 +5540,7 @@
    "version": "1.4",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/inkscape/runimage/alpine/stable/inkscape:1.4-x86_64-linux",
    "size": "76 MB",
+   "bsum": "de29bc4f6d9772ec908767a5b5d3f512c241d42ea388ee38f6ef66c69643aa3e",
    "build_date": "2025-02-02T14:37:39Z",
    "src_urls": [
     "https://gitlab.alpinelinux.org/alpine/aports/-/tree/master/community/inkscape"
@@ -5441,6 +5565,7 @@
    "version": "24.12.3",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/kdenlive/runimage/alpine/stable/kdenlive:24.12.3-x86_64-linux",
    "size": "226 MB",
+   "bsum": "d02d6de122c4fc4a657a1efb417543b2122b1aee80b47328e01c6f01271a5a21",
    "build_date": "2025-03-21T19:22:57Z",
    "src_urls": [
     "https://gitlab.alpinelinux.org/alpine/aports/-/tree/master/community/kdenlive"
@@ -5476,6 +5601,7 @@
    "version": "5.2.9",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/krita/runimage/alpine/stable/krita:5.2.9-x86_64-linux",
    "size": "210 MB",
+   "bsum": "773d0adff78c3408d718c3db3f819173ca883b4bd0e3ef446446248ce1db1b9c",
    "build_date": "2025-02-03T15:07:02Z",
    "src_urls": [
     "https://gitlab.alpinelinux.org/alpine/aports/-/tree/master/community/krita"
@@ -5507,6 +5633,7 @@
    "version": "7.95",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/nmap/runimage/alpine/stable/nmap:7.95-x86_64-linux",
    "size": "43 MB",
+   "bsum": "0f8394a60c2af3d7596ae39ac2ce852efef6e31e6e823a371c00942f6776da3e",
    "build_date": "2025-02-16T11:54:19Z",
    "src_urls": [
     "https://github.com/nmap/nmap"
@@ -5533,6 +5660,7 @@
    "version": "20240203.110809",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/wezterm/runimage/alpine/stable/wezterm:20240203.110809-x86_64-linux",
    "size": "114 MB",
+   "bsum": "913393364df7a9984ee33788a862948265491312d5be94818c07e2837ec8599b",
    "build_date": "2025-01-27T18:44:32Z",
    "src_urls": [
     "https://github.com/wez/wezterm"
@@ -5558,6 +5686,7 @@
    "version": "1.0.0.82",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/steam/runimage/archlinux/stable/steam:1.0.0.82-x86_64-linux",
    "size": "340 MB",
+   "bsum": "0dece8af07ef49ca6bf244eef05dfb77007ebbdc6eb16bedface31e447bfb708",
    "build_date": "2025-02-11T19:06:11Z",
    "src_urls": [
     "https://store.steampowered.com"
@@ -5590,6 +5719,7 @@
    "version": "19.0",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/ddnet/runimage/cachyos/stable/ddnet:19.0-x86_64-linux",
    "size": "295 MB",
+   "bsum": "3fa09fbd68f4b661c8a2f86ab223b188d65ae7d77b75d6da25c27b7e0fb8a72e",
    "build_date": "2025-04-01T19:09:34Z",
    "src_urls": [
     "https://github.com/ddnet/ddnet"
@@ -5625,6 +5755,7 @@
    "version": "6.26.0.6142",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/fdm/runimage/cachyos/stable/fdm:6.26.0.6142-x86_64-linux",
    "size": "299 MB",
+   "bsum": "e044a2b693c711fb3ec3ca02ad25d5c82bdcdb5d576c2faf1e3b32cc9795b202",
    "build_date": "2025-03-16T14:49:31Z",
    "src_urls": [
     "https://www.freedownloadmanager.org/download-fdm-for-linux.htm"
@@ -5655,6 +5786,7 @@
    "version": "22.0.1",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/ffdec/runimage/cachyos/stable/ffdec:22.0.1-x86_64-linux",
    "size": "417 MB",
+   "bsum": "0594e92cb28771f6454c3243b2abdefbb71545beef94bf3e88bb82bb0e75c40e",
    "build_date": "2025-01-28T13:26:27Z",
    "src_urls": [
     "https://github.com/jindrapetrik/jpexs-decompiler"
@@ -5679,6 +5811,7 @@
    "version": "11.3.1",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/ghidra/runimage/cachyos/stable/ghidra:11.3.1-x86_64-linux",
    "size": "724 MB",
+   "bsum": "bd6fcf8f9d6ad1339d9143b641a17ec172023c6bd487ba72abe24566e15bce99",
    "build_date": "2025-02-28T17:51:43Z",
    "src_urls": [
     "https://aur.archlinux.org/packages/ghidra-git-bin"
@@ -5704,6 +5837,7 @@
    "version": "3.0.0.RC1.r40.0cd0206917",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/gimp/runimage/cachyos/git/gimp:3.0.0.RC1.r40.0cd0206917-x86_64-linux",
    "size": "316 MB",
+   "bsum": "87b0fcd03f7e51a7213bc6403bf9f6c4fe08fb78aa93ebf114ee5c722e768e8f",
    "build_date": "2025-02-02T14:30:37Z",
    "src_urls": [
     "https://aur.archlinux.org/packages/gimp-git"
@@ -5729,6 +5863,7 @@
    "version": "3.0.2",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/gimp/runimage/cachyos/stable/gimp:3.0.2-x86_64-linux",
    "size": "275 MB",
+   "bsum": "6726ede5a89f9f040d5021820a20f74a2a34037c1418ca07feec73a9f5cdb09e",
    "build_date": "2025-03-25T19:23:28Z",
    "src_urls": [
     "https://archlinux.org/packages/extra/x86_64/gimp/"
@@ -5764,6 +5899,7 @@
    "version": "48.0",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/gnome-boxes/runimage/cachyos/stable/gnome-boxes:48.0-x86_64-linux",
    "size": "318 MB",
+   "bsum": "b9f3a160f329f193aaa03c6f5b5962d3e920bdc5f3b90eafe59ee18842d0bf91",
    "build_date": "2025-03-21T19:17:56Z",
    "src_urls": [
     "https://archlinux.org/packages/extra/x86_64/gnome-boxes/"
@@ -5795,6 +5931,7 @@
    "version": "1.2.r26.g30ffcd0",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/goverlay/runimage/cachyos/git/goverlay:1.2.r26.g30ffcd0-x86_64-linux",
    "size": "247 MB",
+   "bsum": "8ac356ba6f37abefee761065aa0c8731450b1aea3ed455f0543b0982f9ea4f83",
    "build_date": "2025-02-19T19:16:22Z",
    "src_urls": [
     "https://aur.archlinux.org/packages/goverlay-git"
@@ -5830,6 +5967,7 @@
    "version": "1.3_3",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/goverlay/runimage/cachyos/stable/goverlay:1.3_3-x86_64-linux",
    "size": "248 MB",
+   "bsum": "f9d14a0416df432d5d5165d965ae5ffbbbd6efce684057490f0af5755fc627f9",
    "build_date": "2025-03-16T14:50:54Z",
    "src_urls": [
     "https://archlinux.org/packages/extra/x86_64/goverlay/"
@@ -5869,6 +6007,7 @@
    "version": "3.3.0.r22.g767189d",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/gpt4all/runimage/cachyos/git/gpt4all:3.3.0.r22.g767189d-x86_64-linux",
    "size": "639 MB",
+   "bsum": "e664fe28f309e62275a3ac7424468b9cad1ece0bd0dd86a46a58376db95bf2f6",
    "build_date": "2025-02-02T14:40:01Z",
    "src_urls": [
     "https://aur.archlinux.org/packages/gpt4all-chat-git"
@@ -5894,6 +6033,7 @@
    "version": "4.14.1",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/gzdoom/runimage/cachyos/stable/gzdoom:4.14.1-x86_64-linux",
    "size": "347 MB",
+   "bsum": "2f2f09f2351045efcf608b642c1e9887f4c334de679f1356c2764cea22d63ce7",
    "build_date": "2025-03-04T19:03:59Z",
    "src_urls": [
     "https://aur.archlinux.org/packages/gzdoom"
@@ -5926,6 +6066,7 @@
    "version": "1.5.1",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/haguichi/runimage/cachyos/stable/haguichi:1.5.1-x86_64-linux",
    "size": "225 MB",
+   "bsum": "7b652e38b92a0ceec303dab3506f458a90e1aafae2e5fa8a7afa4aaca35a1f17",
    "build_date": "2025-02-02T14:38:31Z",
    "src_urls": [
     "https://aur.archlinux.org/packages/haguichi"
@@ -5951,6 +6092,7 @@
    "version": "25.04",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/kdeutils/runimage/cachyos/stable/kdeutils:25.04-x86_64-linux",
    "size": "487 MB",
+   "bsum": "29b8d9b92ff964efff10ae61a827bfcf26a62b90d8601b4c47d52caf7d1ea178",
    "build_date": "2025-03-16T14:57:09Z",
    "src_urls": [
     "https://archlinux.org/groups/x86_64/kde-utilities/"
@@ -5981,6 +6123,7 @@
    "version": "0.7.2",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/lact/runimage/cachyos/stable/lact:0.7.2-x86_64-linux",
    "size": "231 MB",
+   "bsum": "32e7e89e0399f693a2cfb98359551e1fbbbbc3b6a258d213aaa1afbb39636a52",
    "build_date": "2025-03-21T19:23:37Z",
    "src_urls": [
     "https://archlinux.org/packages/extra/x86_64/lact/"
@@ -6015,6 +6158,7 @@
    "version": "3.8",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/lazarus/runimage/cachyos/stable/lazarus:3.8-x86_64-linux",
    "size": "514 MB",
+   "bsum": "8b70d6f443730ce14b9f939d7c447ad25208a5755dcc08c1de07f71e68fc52b4",
    "build_date": "2025-02-13T16:41:20Z",
    "src_urls": [
     "https://gitlab.com/freepascal.org/lazarus/lazarus"
@@ -6046,6 +6190,7 @@
    "version": "1.1.r59.ga678ddf",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/libresprite/runimage/cachyos/stable/libresprite:1.1.r59.ga678ddf-x86_64-linux",
    "size": "217 MB",
+   "bsum": "aad01f8c38db18dee5cb69ccc55c706bc2f85a18b0d73bc973e4b9a97aedd1d0",
    "build_date": "2025-02-02T14:48:12Z",
    "src_urls": [
     "https://aur.archlinux.org/packages/libresprite-git"
@@ -6071,6 +6216,7 @@
    "version": "136.0.4_1",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/librewolf/runimage/cachyos/stable/librewolf:136.0.4_1-x86_64-linux",
    "size": "377 MB",
+   "bsum": "57c2aa53a7f69ec5342515ac8af700147522d255fe035c2c62f33f7ff2555543",
    "build_date": "2025-03-28T19:25:14Z",
    "src_urls": [
     "https://codeberg.org/librewolf/source",
@@ -6136,6 +6282,7 @@
    "version": "1.2.0.r0.gfe07760",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/mcpelauncher/runimage/cachyos/stable/mcpelauncher:1.2.0.r0.gfe07760-x86_64-linux",
    "size": "404 MB",
+   "bsum": "0820a7857a600fbafb8f3411e8d4b0d5e4f9d20d6424603409117bb8b6601be5",
    "build_date": "2025-02-18T18:57:57Z",
    "src_urls": [
     "https://aur.archlinux.org/packages/mcpelauncher-linux-git"
@@ -6167,6 +6314,7 @@
    "version": "0.12.0",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/nheko/runimage/cachyos/stable/nheko:0.12.0-x86_64-linux",
    "size": "342 MB",
+   "bsum": "595d5be5c94a2cadf7298c6cb169b04eb685dc80e08f2f9ab028d1517db73f8d",
    "build_date": "2025-02-02T14:50:25Z",
    "src_urls": [
     "https://archlinux.org/packages/extra/x86_64/nheko/"
@@ -6193,6 +6341,7 @@
    "version": "1.7.3",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/openboard/runimage/cachyos/stable/openboard:1.7.3-x86_64-linux",
    "size": "451 MB",
+   "bsum": "09a81c215878acf841c766123c943272e00905842604fbb37a4c985bd0071e88",
    "build_date": "2025-02-02T14:51:46Z",
    "src_urls": [
     "https://aur.archlinux.org/packages/openboard"
@@ -6218,6 +6367,7 @@
    "version": "0.1.0",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/ruffle/runimage/cachyos/nightly/ruffle:0.1.0-x86_64-linux",
    "size": "232 MB",
+   "bsum": "824d65bd6827cea38f1d5ea4f81f1476f3e9afaabdc7feb5aad279a24910f663",
    "build_date": "2025-02-08T11:24:54Z",
    "src_urls": [
     "https://github.com/ruffle-rs/ruffle"
@@ -6249,6 +6399,7 @@
    "version": "4.0.2",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/spotube/runimage/cachyos/stable/spotube:4.0.2-x86_64-linux",
    "size": "338 MB",
+   "bsum": "57157a5b7ad881b9b793ff4923744076982a51db5d02ca0417fa938439574916",
    "build_date": "2025-03-18T19:25:12Z",
    "src_urls": [
     "https://codeberg.org/spotube/source",
@@ -6289,6 +6440,7 @@
    "version": "1.0.0.82",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/steam/runimage/cachyos/stable/steam:1.0.0.82-x86_64-linux",
    "size": "385 MB",
+   "bsum": "09757acd75f66f3ef92e7dfe1a453c298825d6ae144770e8ccf0db76844f3c17",
    "build_date": "2025-02-11T19:04:14Z",
    "src_urls": [
     "https://store.steampowered.com"
@@ -6321,6 +6473,7 @@
    "version": "1.96.4.25026",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/vscodium/runimage/cachyos/stable/vscodium:1.96.4.25026-x86_64-linux",
    "size": "308 MB",
+   "bsum": "c39664ff70dd723336b7efe8a52d7e0510042f0cdaf2d92ed13fb9086b5817a0",
    "build_date": "2025-01-27T04:00:57Z",
    "src_urls": [
     "https://github.com/VSCodium/vscodium"
@@ -6346,6 +6499,7 @@
    "version": "20240203.110809.5046fc22",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/wezterm/runimage/cachyos/stable/wezterm:20240203.110809.5046fc22-x86_64-linux",
    "size": "223 MB",
+   "bsum": "ba3865a093aa827ec8f223613f22a13af5970dfd4d920223c12fbce8de3ecc08",
    "build_date": "2025-01-27T18:44:50Z",
    "src_urls": [
     "https://github.com/wez/wezterm"
@@ -6371,6 +6525,7 @@
    "version": "4.3.2",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/blender/runimage/debian/stable/blender:4.3.2-x86_64-linux",
    "size": "329 MB",
+   "bsum": "ad4c9bac2bee4949351cef143ed46bc40e44f9276e07ab46ef9ee5f07cfa56f0",
    "build_date": "2025-01-26T19:11:14Z",
    "src_urls": [
     "https://blender.org",
@@ -6402,6 +6557,7 @@
    "version": "6.07",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk:6.07-x86_64-linux",
    "size": "69 MB",
+   "bsum": "d255cec951dcfd8f897fc2750815b7c33a8338b5313da8f4bcfb6c43f839b2b2",
    "build_date": "2025-04-01T19:00:42Z",
    "src_urls": [
     "https://github.com/dave-theunsub/clamtk",
@@ -6434,6 +6590,7 @@
    "version": "v3.1.5",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/deltapatcher/runimage/debian/stable/deltapatcher:v3.1.5-x86_64-linux",
    "size": "94 MB",
+   "bsum": "44a15f490392e906d5c84ce0ee018ba43f1c4f0b3be1392ae44987db22336af5",
    "build_date": "2025-02-02T14:27:44Z",
    "src_urls": [
     "https://github.com/marco-calautti/DeltaPatcher"
@@ -6458,6 +6615,7 @@
    "version": "6.26.1",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/fdm/runimage/debian/stable/fdm:6.26.1-x86_64-linux",
    "size": "229 MB",
+   "bsum": "9ad4bd1d0b045e450aeb960870ca2f9aedf20f24965e98167ad1cf8be76e2bed",
    "build_date": "2025-03-28T19:11:09Z",
    "src_urls": [
     "https://www.freedownloadmanager.org/download-fdm-for-linux.htm"
@@ -6492,6 +6650,7 @@
    "version": "v0.5.3",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/funkin/runimage/debian/stable/funkin:v0.5.3-x86_64-linux",
    "size": "866 MB",
+   "bsum": "5676b078b29e0539c9d6fd6e41f3c3c28511064fe95f9785c7b7a9b2b73923de",
    "build_date": "2025-01-28T14:44:40Z",
    "src_urls": [
     "https://github.com/FunkinCrew/Funkin"
@@ -6523,6 +6682,7 @@
    "version": "5.9.0-8.1",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/megasync/runimage/debian/stable/megasync:5.9.0-8.1-x86_64-linux",
    "size": "201 MB",
+   "bsum": "668eb153583099c9a0bf1d8b71cee4e6b925114f6b0cfe2027299f26fb25db29",
    "build_date": "2025-03-16T14:57:01Z",
    "src_urls": [
     "https://mega.nz/linux/repo/Debian_12/"
@@ -6554,6 +6714,7 @@
    "version": "250401T010852jq:error:writingoutputfailed:Brokenpipe",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/ultimmc/runimage/debian/stable/ultimmc:250401T010852jq_error_writingoutputfailed_Brokenpipe-x86_64-linux",
    "size": "148 MB",
+   "bsum": "16ef97bca549d6c1da8eb67e0d9a37410090025783dae3ab80dc655015cca99f",
    "build_date": "2025-04-01T19:41:46Z",
    "src_urls": [
     "https://github.com/UltimMC/Launcher"
@@ -6588,6 +6749,7 @@
    "version": "1.14.5",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/chafa/archive/sharun/alpine/chafa:1.14.5-x86_64-linux",
    "size": "14 MB",
+   "bsum": "a136c778bd143460a7440e7c86ad7603620074a1962cd854549b027a5bdb3578",
    "build_date": "2025-04-01T01:53:37Z",
    "src_urls": [
     "https://github.com/hpjansson/chafa"
@@ -6620,6 +6782,7 @@
    "version": "7.95",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/nmap/archive/sharun/alpine/ncat:7.95-x86_64-linux",
    "size": "2.9 MB",
+   "bsum": "faa8ac88740f2ad4c24be40886f4e4961913b3207639dd36101bda1fe17441b7",
    "build_date": "2025-04-01T02:19:38Z",
    "src_urls": [
     "https://github.com/nmap/nmap"
@@ -6653,6 +6816,7 @@
    "version": "7.95",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/nmap/archive/sharun/alpine/nmap:7.95-x86_64-linux",
    "size": "4.4 MB",
+   "bsum": "c4e5c73d7bafe82279bb61380f2159872bfee84607410a54574d3b79fc37d069",
    "build_date": "2025-04-01T02:19:39Z",
    "src_urls": [
     "https://github.com/nmap/nmap"
@@ -6686,6 +6850,7 @@
    "version": "7.95",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/nmap/archive/sharun/alpine/nping:7.95-x86_64-linux",
    "size": "3.7 MB",
+   "bsum": "807a917cd75a42e1736df47fe3e7db0a3ba616116fda5721c32ce8e98eb85682",
    "build_date": "2025-04-01T02:19:40Z",
    "src_urls": [
     "https://github.com/nmap/nmap"
@@ -6719,6 +6884,7 @@
    "version": "4.17",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/proxychains/archive/sharun/alpine/proxychains:4.17-x86_64-linux",
    "size": "784 KB",
+   "bsum": "d3cd3c34db5af6373b9032fdb4b92f24c7ee72f1d93f7726ddfa7724fff397b9",
    "build_date": "2025-02-28T17:45:54Z",
    "src_urls": [
     "https://github.com/rofl0r/proxychains-ng"
@@ -6744,6 +6910,7 @@
    "version": "4.17",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/proxychains/archive/sharun/alpine/proxychains-daemon:4.17-x86_64-linux",
    "size": "784 KB",
+   "bsum": "5c9539e4bf25facef2e6e5fc797a8aad08800cf46568b025f533dbb49d70a666",
    "build_date": "2025-02-28T17:45:54Z",
    "src_urls": [
     "https://github.com/rofl0r/proxychains-ng"
@@ -6769,6 +6936,7 @@
    "version": "1.14.4",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/subversion/archive/sharun/alpine/svn:1.14.4-x86_64-linux",
    "size": "5.1 MB",
+   "bsum": "105e32953dd3a7454b0019665806e1a933e2aaa842a674285d878424f02bc051",
    "build_date": "2025-04-01T03:49:30Z",
    "src_urls": [
     "https://github.com/apache/subversion"
@@ -6795,6 +6963,7 @@
    "version": "1.14.4",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnversion:1.14.4-x86_64-linux",
    "size": "2.5 MB",
+   "bsum": "a19eaa27fb15e75e2a301224f37464426c2265176badfb2adb53f9092186d59f",
    "build_date": "2025-04-01T03:49:36Z",
    "src_urls": [
     "https://github.com/apache/subversion"
@@ -6821,6 +6990,7 @@
    "version": "1.14.4",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnrdump:1.14.4-x86_64-linux",
    "size": "4.9 MB",
+   "bsum": "1c641e9f892e88fdbe22009a4b207811f99c96af05178fa5db56b1b06158a6ef",
    "build_date": "2025-04-01T03:49:34Z",
    "src_urls": [
     "https://github.com/apache/subversion"
@@ -6847,6 +7017,7 @@
    "version": "1.14.4",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnmucc:1.14.4-x86_64-linux",
    "size": "4.9 MB",
+   "bsum": "db820c12964976a6105ef91afff6fdae2f38a061d55a41bf1c63337c0ffd4350",
    "build_date": "2025-04-01T03:49:34Z",
    "src_urls": [
     "https://github.com/apache/subversion"
@@ -6873,6 +7044,7 @@
    "version": "1.14.4",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnserve:1.14.4-x86_64-linux",
    "size": "2.7 MB",
+   "bsum": "1686e2bb64872591600f5bfa34812cc14aed07b9f310aaad6c4a0802d04cb306",
    "build_date": "2025-04-01T03:49:35Z",
    "src_urls": [
     "https://github.com/apache/subversion"
@@ -6899,6 +7071,7 @@
    "version": "1.14.4",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnsync:1.14.4-x86_64-linux",
    "size": "4.5 MB",
+   "bsum": "6a50aed85e521fedb7e548cdc5f1853875ba84082188d028d8fbb51b53e79b88",
    "build_date": "2025-04-01T03:49:36Z",
    "src_urls": [
     "https://github.com/apache/subversion"
@@ -6925,6 +7098,7 @@
    "version": "1.14.4",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnlook:1.14.4-x86_64-linux",
    "size": "2.6 MB",
+   "bsum": "e094c1a1c4fb9650600ed7d8b15b3f1626207cd52bfba73f159751ae5b7ed576",
    "build_date": "2025-04-01T03:49:33Z",
    "src_urls": [
     "https://github.com/apache/subversion"
@@ -6951,6 +7125,7 @@
    "version": "1.14.4",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnfsfs:1.14.4-x86_64-linux",
    "size": "2.5 MB",
+   "bsum": "128b51f5e7c184a59519d631c98c2a70c49c8f5f5a7ce5bf0c97a63bfa59da0e",
    "build_date": "2025-04-01T03:49:33Z",
    "src_urls": [
     "https://github.com/apache/subversion"
@@ -6977,6 +7152,7 @@
    "version": "1.14.4",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnadmin:1.14.4-x86_64-linux",
    "size": "2.5 MB",
+   "bsum": "f4b93495122009ddca0117d40524cfb122ed5a72746bc598e39ad4374b2dfb79",
    "build_date": "2025-04-01T03:49:31Z",
    "src_urls": [
     "https://github.com/apache/subversion"
@@ -7003,6 +7179,7 @@
    "version": "1.14.4",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnbench:1.14.4-x86_64-linux",
    "size": "5.0 MB",
+   "bsum": "af72e0a67b4ae84feab68cc982c606fccfee99df020b796ef4f4ea37aa9785bb",
    "build_date": "2025-04-01T03:49:31Z",
    "src_urls": [
     "https://github.com/apache/subversion"
@@ -7029,6 +7206,7 @@
    "version": "1.14.4",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/subversion/archive/sharun/alpine/svndumpfilter:1.14.4-x86_64-linux",
    "size": "2.5 MB",
+   "bsum": "598271472048448caee61dbeab5b1b9e6ee13d60d436d717dc210c3ebfe2791e",
    "build_date": "2025-04-01T03:49:32Z",
    "src_urls": [
     "https://github.com/apache/subversion"
@@ -7055,6 +7233,7 @@
    "version": "1.0.10",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/xhost/archive/sharun/alpine/xhost:1.0.10-x86_64-linux",
    "size": "1.5 MB",
+   "bsum": "2c9eecb9944c18718b5b08d3c04bf1b668de3a565fbe1089907b9c5de359e6ef",
    "build_date": "2025-04-01T01:56:24Z",
    "src_urls": [
     "https://gitlab.freedesktop.org/xorg/app/xhost"
@@ -7086,6 +7265,7 @@
    "version": "1.20.10.3#LastdigitisDebianspkgrel",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/xvfb-run/archive/sharun/alpine/xvfb-run:1.20.10.3_LastdigitisDebianspkgrel-x86_64-linux",
    "size": "69 MB",
+   "bsum": "12c2fc420cc59475b1375c3c396387f84e3b757a52ce90c83e495b4e2e166823",
    "build_date": "2025-03-04T13:14:15Z",
    "src_urls": [
     "https://packages.gentoo.org/packages/x11-misc/xvfb-run"
@@ -7111,6 +7291,7 @@
    "version": "4.6.0",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/wrangler/archive/sharun/npm/wrangler:4.6.0-x86_64-linux",
    "size": "121 MB",
+   "bsum": "7be151c5e78a7f2f462333ba8422ad282fe01b8f597241f5635fb1dc41acec03",
    "build_date": "2025-03-28T19:33:09Z",
    "src_urls": [
     "https://www.npmjs.com/package/wrangler"
@@ -7179,6 +7360,7 @@
    "version": "3.3.5",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/anipy-cli/archive/sharun/pypi/anipy-cli:3.3.5-x86_64-linux",
    "size": "29 MB",
+   "bsum": "73855a7246d1411833871ce9e778aaee54d50b11183700a1ac26700f1bf80589",
    "build_date": "2025-02-23T08:43:22Z",
    "src_urls": [
     "https://pypi.org/project/anipy-cli"
@@ -7205,6 +7387,7 @@
    "version": "1.9.3",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/apprise/archive/sharun/pypi/apprise:1.9.3-x86_64-linux",
    "size": "22 MB",
+   "bsum": "7887898ba2c3af655e26e1aa69d3dd639b32b505e0fb06fda968f3172e3e33a5",
    "build_date": "2025-04-01T19:09:28Z",
    "src_urls": [
     "https://pypi.org/project/apprise"
@@ -7237,6 +7420,7 @@
    "version": "3.2.1",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/aqtinstall/archive/sharun/pypi/aqtinstall:3.2.1-x86_64-linux",
    "size": "26 MB",
+   "bsum": "933bb24d9ea29c28f7e9802db6c7c90be8e70889536b1778aa29dbd5dbbdbf87",
    "build_date": "2025-03-16T14:37:32Z",
    "src_urls": [
     "https://pypi.org/project/aqtinstall"
@@ -7269,6 +7453,7 @@
    "version": "4.15.0.0",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/archey/archive/sharun/pypi/archey:4.15.0.0-x86_64-linux",
    "size": "23 MB",
+   "bsum": "75f349869bdb3112c252d1fdb413b8a3cd0adc84a3eb2245e31d652cf9b937a7",
    "build_date": "2025-02-22T14:20:35Z",
    "src_urls": [
     "https://pypi.org/project/archey4"
@@ -7294,6 +7479,7 @@
    "version": "0.7.3",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/audiobook-dl/archive/sharun/pypi/audiobook-dl:0.7.3-x86_64-linux",
    "size": "57 MB",
+   "bsum": "fa20a0ba24f4c626c212b9b945e5a65eac9d08b2507807fbfd6f098ca34bb061",
    "build_date": "2025-02-23T08:43:34Z",
    "src_urls": [
     "https://pypi.org/project/audiobook-dl"
@@ -7319,6 +7505,7 @@
    "version": "1.38.24",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/awscli/archive/sharun/pypi/aws:1.38.24-x86_64-linux",
    "size": "35 MB",
+   "bsum": "7cd4461eb5e16982605c1f199b474b27b7a92cbd800a520a5d270e8d73140b4a",
    "build_date": "2025-04-01T19:05:10Z",
    "src_urls": [
     "https://pypi.org/project/awscli"
@@ -7422,6 +7609,7 @@
    "version": "1.9.132",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/baddns/archive/sharun/pypi/baddns:1.9.132-x86_64-linux",
    "size": "22 MB",
+   "bsum": "54bb99627ed186c2a54e55263fd320959943737a4588b824cbad4c2fd25ec8c7",
    "build_date": "2025-03-28T19:07:48Z",
    "src_urls": [
     "https://pypi.org/project/baddns"
@@ -7461,6 +7649,7 @@
    "version": "2.2.0",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/beet/archive/sharun/pypi/beet:2.2.0-x86_64-linux",
    "size": "19 MB",
+   "bsum": "4032c0fca80f5271ec78af8b72a91a0aa78aee3bdc88957de8668c8a9d4b89c2",
    "build_date": "2025-02-21T18:54:29Z",
    "src_urls": [
     "https://pypi.org/project/beets"
@@ -7487,6 +7676,7 @@
    "version": "3.3.0",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/certbot/archive/sharun/pypi/certbot:3.3.0-x86_64-linux",
    "size": "24 MB",
+   "bsum": "a34561bd009558157ab58a20b31ff199cb902148da8b0b1b7236f97e0354dc4b",
    "build_date": "2025-03-11T18:56:38Z",
    "src_urls": [
     "https://pypi.org/project/certbot"
@@ -7519,6 +7709,7 @@
    "version": "HEAD-7f82a22-250330T094417",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/commix/archive/sharun/pypi/commix:HEAD-7f82a22-250330T094417-x86_64-linux",
    "size": "18 MB",
+   "bsum": "dec477f7fcfc13f1efc9bdc0e88e0e30aeccad9cc073c16dd94a8a8c520c6aee",
    "build_date": "2025-03-30T18:52:44Z",
    "src_urls": [
     "https://github.com/commixproject/commix"
@@ -7570,6 +7761,7 @@
    "version": "1.11.2",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/credsweeper/archive/sharun/pypi/credsweeper:1.11.2-x86_64-linux",
    "size": "23 MB",
+   "bsum": "6c825b19ff8b524cabb5ebae4fbfbc967550f1558191a68b2dc5632f6f1eaf74",
    "build_date": "2025-03-25T19:04:37Z",
    "src_urls": [
     "https://pypi.org/project/credsweeper"
@@ -7618,6 +7810,7 @@
    "version": "2.2",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/ddgr/archive/sharun/pypi/ddgr:2.2-x86_64-linux",
    "size": "17 MB",
+   "bsum": "6bf3405b16f6e3931682a04e39ce47a75c7174da671d906605bcc150864c69d6",
    "build_date": "2025-02-21T13:40:19Z",
    "src_urls": [
     "https://pypi.org/project/ddgr"
@@ -7643,6 +7836,7 @@
    "version": "3.59.1",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/dvc/archive/sharun/pypi/dvc:3.59.1-x86_64-linux",
    "size": "129 MB",
+   "bsum": "6508ddf8df6110834d161dc7eb8ad93bb8e9beb2f403166c936d43a810ceff18",
    "build_date": "2025-02-22T14:16:58Z",
    "src_urls": [
     "https://pypi.org/project/dvc"
@@ -7668,6 +7862,7 @@
    "version": "4.44.0",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/fanficfare/archive/sharun/pypi/fanficfare:4.44.0-x86_64-linux",
    "size": "23 MB",
+   "bsum": "e77804f6659cf061041c2d1b17a3f5632d69fa33f7a8edba5af1fca2136064f3",
    "build_date": "2025-04-01T19:11:38Z",
    "src_urls": [
     "https://pypi.org/project/fanficfare"
@@ -7703,6 +7898,7 @@
    "version": "5.0.0",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/getaltname/archive/sharun/pypi/gsan:5.0.0-x86_64-linux",
    "size": "27 MB",
+   "bsum": "83373860d81e0eaedd855df5f11b67b54b9acf5ad93c58313db3f51d8e60b790",
    "build_date": "2025-02-26T08:04:37Z",
    "src_urls": [
     "https://pypi.org/project/gsan"
@@ -7729,6 +7925,7 @@
    "version": "1.0.8",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/git-dumper/archive/sharun/pypi/git-dumper:1.0.8-x86_64-linux",
    "size": "24 MB",
+   "bsum": "bdbde976e28e89bc679f7e61acbbe90424aa7317f4e5e52f5d30627df03349e6",
    "build_date": "2025-02-22T14:17:58Z",
    "src_urls": [
     "https://pypi.org/project/git-dumper"
@@ -7754,6 +7951,7 @@
    "version": "0.27.0",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/gptme/archive/sharun/pypi/gptme:0.27.0-x86_64-linux",
    "size": "46 MB",
+   "bsum": "b1a1066a9f051326b68779ff02faf9fe93b3eae24990d33796518c0d6f04e3c4",
    "build_date": "2025-03-12T20:21:39Z",
    "src_urls": [
     "https://pypi.org/project/gptme"
@@ -7786,6 +7984,7 @@
    "version": "2.5.4",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/gtts-cli/archive/sharun/pypi/gtts-cli:2.5.4-x86_64-linux",
    "size": "18 MB",
+   "bsum": "182281e6ce56bd44c850059bf1a7d82747a3098797c265400dcfc13386be50d1",
    "build_date": "2025-02-21T13:39:42Z",
    "src_urls": [
     "https://pypi.org/project/gtts-cli"
@@ -7812,6 +8011,7 @@
    "version": "2.5.0",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/guarddog/archive/sharun/pypi/guarddog:2.5.0-x86_64-linux",
    "size": "65 MB",
+   "bsum": "89ce793033ddb98f061ab1a68e6ba9ec945c7f2af5540c19abee8f07db5b209e",
    "build_date": "2025-03-12T20:26:13Z",
    "src_urls": [
     "https://pypi.org/project/guarddog"
@@ -7844,6 +8044,7 @@
    "version": "3.2.4",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/httpie/archive/sharun/pypi/httpie:3.2.4-x86_64-linux",
    "size": "23 MB",
+   "bsum": "539b1eb55006b0a654a909269279ef3574e0d874b8efc426b1237c74f65a335b",
    "build_date": "2025-02-21T13:40:50Z",
    "src_urls": [
     "https://pypi.org/project/httpie"
@@ -7870,6 +8071,7 @@
    "version": "2.0.5",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/image-bootstrap/archive/sharun/pypi/image-bootstrap:2.0.5-x86_64-linux",
    "size": "45 MB",
+   "bsum": "74b9829adcf24d2a745f215744d88160c9a7e1cd27383bc558a9bf36de50e64e",
    "build_date": "2025-02-23T08:46:48Z",
    "src_urls": [
     "https://pypi.org/project/image-bootstrap"
@@ -7896,6 +8098,7 @@
    "version": "0.5.1",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/isd/archive/sharun/pypi/isd:0.5.1-x86_64-linux",
    "size": "26 MB",
+   "bsum": "224a7f12833a50e5ccda29cd60e36d636366d46408ecf441f53e1fcd51b1e652",
    "build_date": "2025-02-24T19:47:58Z",
    "src_urls": [
     "https://pypi.org/project/isd"
@@ -7928,6 +8131,7 @@
    "version": "6.0.1",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/isort/archive/sharun/pypi/isort:6.0.1-x86_64-linux",
    "size": "17 MB",
+   "bsum": "509bb1f5587cc27fe773cab4c6782e6a4fb1089a0e658af22d9268b43b48e8e8",
    "build_date": "2025-02-28T19:01:32Z",
    "src_urls": [
     "https://pypi.org/project/isort"
@@ -7959,6 +8163,7 @@
    "version": "1.25.4",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/jc/archive/sharun/pypi/jc:1.25.4-x86_64-linux",
    "size": "22 MB",
+   "bsum": "22691b6d2c9e9cbbccaeb58b321e95eb888f824689bdff884ed8ce6ea547574c",
    "build_date": "2025-02-21T13:51:34Z",
    "src_urls": [
     "https://pypi.org/project/jc"
@@ -7984,6 +8189,7 @@
    "version": "4.2.1",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/jrnl/archive/sharun/pypi/jrnl:4.2.1-x86_64-linux",
    "size": "28 MB",
+   "bsum": "a1d30e338c70dba73cdc769f3d8febcc30418c57f1d665917fef172a92a2478e",
    "build_date": "2025-02-25T19:06:25Z",
    "src_urls": [
     "https://pypi.org/project/jrnl"
@@ -8016,6 +8222,7 @@
    "version": "0.77.0",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/klp/archive/sharun/pypi/klp:0.77.0-x86_64-linux",
    "size": "17 MB",
+   "bsum": "428c94fa774720530e8042951d707f0816f422ed46858840900e4e006a59634a",
    "build_date": "2025-02-23T08:42:58Z",
    "src_urls": [
     "https://pypi.org/project/klp-logviewer"
@@ -8041,6 +8248,7 @@
    "version": "1.1.2",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/linkook/archive/sharun/pypi/linkook:1.1.2-x86_64-linux",
    "size": "18 MB",
+   "bsum": "95eb068c92630c8524eeb60397c7d6587ad2b07d280091f41a4dac41b592d8ad",
    "build_date": "2025-03-05T20:40:18Z",
    "src_urls": [
     "https://pypi.org/project/linkook"
@@ -8072,6 +8280,7 @@
    "version": "6.1.1",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/malwoverview/archive/sharun/pypi/malwoverview:6.1.1-x86_64-linux",
    "size": "21 MB",
+   "bsum": "a82631ad0a7c1a3807dac7e2eb786277f8cc2382997e602e2a3c04ea3ddc172f",
    "build_date": "2025-02-21T13:49:49Z",
    "src_urls": [
     "https://pypi.org/project/malwoverview"
@@ -8097,6 +8306,7 @@
    "version": "11.1.3",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/mitmproxy/archive/sharun/pypi/mitmproxy:11.1.3-x86_64-linux",
    "size": "45 MB",
+   "bsum": "e2603ac5cccf6e38b21b6eabd69cfe1308746aced4b19c4855aa771e9c8733cd",
    "build_date": "2025-02-24T03:00:46Z",
    "src_urls": [
     "https://pypi.org/project/mitmproxy"
@@ -8123,6 +8333,7 @@
    "version": "3.54.1",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/oci-cli/archive/sharun/pypi/oci:3.54.1-x86_64-linux",
    "size": "144 MB",
+   "bsum": "ab95f8dd1b5f1b4410a328068904d3babcb413dd19d4ce3989e647610ecd93ad",
    "build_date": "2025-04-01T19:31:05Z",
    "src_urls": [
     "https://pypi.org/project/oci-cli"
@@ -8175,6 +8386,7 @@
    "version": "0.4.0",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/pdfly/archive/sharun/pypi/pdfly:0.4.0-x86_64-linux",
    "size": "34 MB",
+   "bsum": "73629846ce7ff2a6702f43dc9abd37275a137e0158782a214cb36718c012956c",
    "build_date": "2025-02-21T13:52:03Z",
    "src_urls": [
     "https://pypi.org/project/pdfly"
@@ -8201,6 +8413,7 @@
    "version": "3.6.0",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/pg_activity/archive/sharun/pypi/pg_activity:3.6.0-x86_64-linux",
    "size": "22 MB",
+   "bsum": "979978200199fcabe509e0069e85b17d881ff92399f2359315ba16648d492cfd",
    "build_date": "2025-02-21T13:52:48Z",
    "src_urls": [
     "https://pypi.org/project/pg_activity"
@@ -8226,6 +8439,7 @@
    "version": "0.7.4",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/port-for/archive/sharun/pypi/port-for:0.7.4-x86_64-linux",
    "size": "16 MB",
+   "bsum": "be46e6e541af8a228707d131069ff9a1c31b199c1564b3a6588f625eb1929932",
    "build_date": "2025-02-23T08:50:27Z",
    "src_urls": [
     "https://pypi.org/project/port-for"
@@ -8251,6 +8465,7 @@
    "version": "3.14",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/ps_mem/archive/sharun/pypi/ps_mem:3.14-x86_64-linux",
    "size": "16 MB",
+   "bsum": "004f2ee08029a277c1fe0d26eeb377f683fe03fb028fb6ffbc2b66cb1a675c92",
    "build_date": "2025-02-21T13:53:11Z",
    "src_urls": [
     "https://pypi.org/project/ps_mem"
@@ -8276,6 +8491,7 @@
    "version": "0.30",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/puncia/archive/sharun/pypi/puncia:0.30-x86_64-linux",
    "size": "18 MB",
+   "bsum": "1e337af8b78904627fd05bc7364e43d562a4dfd6bbfb4a5886d4473295032cfe",
    "build_date": "2025-03-25T19:30:27Z",
    "src_urls": [
     "https://pypi.org/project/puncia"
@@ -8308,6 +8524,7 @@
    "version": "9.1.2",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/pyarmor/archive/sharun/pypi/pyarmor:9.1.2-x86_64-linux",
    "size": "20 MB",
+   "bsum": "385ca74253e0e4b6745be6f6f1887a07c004ed978a7d3f6a009e87be78d9acdb",
    "build_date": "2025-03-23T19:12:48Z",
    "src_urls": [
     "https://pypi.org/project/pyarmor"
@@ -8348,6 +8565,7 @@
    "version": "1.3.0",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/pyp/archive/sharun/pypi/pyp:1.3.0-x86_64-linux",
    "size": "16 MB",
+   "bsum": "6a37153ffc0374b12a9455e0d3d955e6581c6358ee9dac9232a2793af71d245a",
    "build_date": "2025-02-21T14:00:25Z",
    "src_urls": [
     "https://pypi.org/project/pyp"
@@ -8373,6 +8591,7 @@
    "version": "6.0.1",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/resolve-march-native/archive/sharun/pypi/resolve-march-native:6.0.1-x86_64-linux",
    "size": "88 MB",
+   "bsum": "840ac9a5615e4f3e035cac920f93e6cfe8d521bd0d0f8fe72421c5faaa4f5dcb",
    "build_date": "2025-02-23T08:43:48Z",
    "src_urls": [
     "https://pypi.org/project/resolve-march-native"
@@ -8398,6 +8617,7 @@
    "version": "4.3.0",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/sandwine/archive/sharun/pypi/sandwine:4.3.0-x86_64-linux",
    "size": "17 MB",
+   "bsum": "bdec19de4e778bd1d8901acf0b9c7d276beba9291e8faf8d66416fd21da366d4",
    "build_date": "2025-02-23T08:52:05Z",
    "src_urls": [
     "https://pypi.org/project/sandwine"
@@ -8423,6 +8643,7 @@
    "version": "4.9.1",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/scons/archive/sharun/pypi/scons:4.9.1-x86_64-linux",
    "size": "22 MB",
+   "bsum": "3a4a077223870d9984426b65e07ec86c85bd9af9475840f404d2d1031f887435",
    "build_date": "2025-03-28T19:29:27Z",
    "src_urls": [
     "https://pypi.org/project/scons"
@@ -8459,6 +8680,7 @@
    "version": "1.4.4",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/shell-gpt/archive/sharun/pypi/sgpt:1.4.4-x86_64-linux",
    "size": "32 MB",
+   "bsum": "3dbd232814ce6bf5dd13de05d0706df304067dce9fac336683d7a7239300a941",
    "build_date": "2025-02-21T14:02:23Z",
    "src_urls": [
     "https://pypi.org/project/shell-gpt"
@@ -8484,6 +8706,7 @@
    "version": "0.15.0",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/sherlock/archive/sharun/pypi/sherlock:0.15.0-x86_64-linux",
    "size": "57 MB",
+   "bsum": "23c835e0e723e113415a154e6c5620fedbb9442230a0bc0db7177df4a5d1c44e",
    "build_date": "2025-02-21T14:09:56Z",
    "src_urls": [
     "https://pypi.org/project/sherlock-project"
@@ -8509,6 +8732,7 @@
    "version": "1.8",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/shot-scraper/archive/sharun/pypi/shot-scraper:1.8-x86_64-linux",
    "size": "59 MB",
+   "bsum": "ec9e9c597d07e7edbe3a6e697d47bce4559ca1553e082fe3c28cb485e6544f84",
    "build_date": "2025-03-25T19:30:09Z",
    "src_urls": [
     "https://pypi.org/project/shot-scraper"
@@ -8542,6 +8766,7 @@
    "version": "0.3.3",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/showcert/archive/sharun/pypi/showcert:0.3.3-x86_64-linux",
    "size": "22 MB",
+   "bsum": "f7add722b6b9c2ad241c2f99b2a831e8403ce317b859ecfdad42ef97f15e94a8",
    "build_date": "2025-02-23T08:51:46Z",
    "src_urls": [
     "https://pypi.org/project/showcert"
@@ -8567,6 +8792,7 @@
    "version": "0.0.13",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/snallygaster/archive/sharun/pypi/snallygaster:0.0.13-x86_64-linux",
    "size": "19 MB",
+   "bsum": "10651cbe6d52d9ad496d373ace5ae55f673521f76321699dbdcc3454d26e498a",
    "build_date": "2025-02-22T14:26:17Z",
    "src_urls": [
     "https://pypi.org/project/snallygaster"
@@ -8592,6 +8818,7 @@
    "version": "7.1.3",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/streamlink/archive/sharun/pypi/streamlink:7.1.3-x86_64-linux",
    "size": "49 MB",
+   "bsum": "2b3b465bed57ed2550055f733de698a1e7abe7ac07ae66931c7973ad3ec5c9bb",
    "build_date": "2025-02-21T14:03:52Z",
    "src_urls": [
     "https://pypi.org/project/streamlink"
@@ -8618,6 +8845,7 @@
    "version": "5.1.3",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/tldextract/archive/sharun/pypi/tldextract:5.1.3-x86_64-linux",
    "size": "18 MB",
+   "bsum": "75ae38160cc6e71167f6907764b7193ec3744a5e0b93d222aa86451ae864d9b2",
    "build_date": "2025-02-26T08:04:39Z",
    "src_urls": [
     "https://pypi.org/project/tldextract"
@@ -8643,6 +8871,7 @@
    "version": "1.55.0",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/tmuxp/archive/sharun/pypi/tmuxp:1.55.0-x86_64-linux",
    "size": "18 MB",
+   "bsum": "67838064df5cacbb02d193cf2fb2a29c0e5aafacb50589e9b0620cec49a7f3d4",
    "build_date": "2025-02-26T20:34:06Z",
    "src_urls": [
     "https://pypi.org/project/tmuxp"
@@ -8679,6 +8908,7 @@
    "version": "2.0.0",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/trafilatura/archive/sharun/pypi/trafilatura:2.0.0-x86_64-linux",
    "size": "48 MB",
+   "bsum": "5970f8df30d84dbed41fd86ea1e97e6c46240b631e8546b6ac9f5f4c1b67d4dc",
    "build_date": "2025-02-21T14:08:20Z",
    "src_urls": [
     "https://pypi.org/project/trafilatura"
@@ -8705,6 +8935,7 @@
    "version": "6.1.0",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/twine/archive/sharun/pypi/twine:6.1.0-x86_64-linux",
    "size": "30 MB",
+   "bsum": "89f91456db3b867be990d989e0cb86466fb6d6894fec0fa73b4d52b7f2250ef4",
    "build_date": "2025-02-21T14:05:01Z",
    "src_urls": [
     "https://pypi.org/project/twine"
@@ -8731,6 +8962,7 @@
    "version": "2.11.0",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/twitch-dl/archive/sharun/pypi/twitch-dl:2.11.0-x86_64-linux",
    "size": "19 MB",
+   "bsum": "ac71daab6de15791923f7adb84b37d7b322e49a063f613e5d044a271a108ad89",
    "build_date": "2025-03-03T20:23:34Z",
    "src_urls": [
     "https://pypi.org/project/twitch-dl"
@@ -8762,6 +8994,7 @@
    "version": "1.3.17",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/udocker/archive/sharun/pypi/udocker:1.3.17-x86_64-linux",
    "size": "30 MB",
+   "bsum": "5e158c7b70d6474b00d3cf74e8561d00e5faef7a5ae2d04882a8a6d8ce534715",
    "build_date": "2025-04-01T01:59:15Z",
    "src_urls": [
     "https://pypi.org/project/udocker"
@@ -8794,6 +9027,7 @@
    "version": "1.0.2",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/uro/archive/sharun/pypi/uro:1.0.2-x86_64-linux",
    "size": "17 MB",
+   "bsum": "6d9d6612d7ad7aa5d4f10dabbbdac8d524537b56db3e8c7ec5c99de812dfff30",
    "build_date": "2025-02-25T13:41:51Z",
    "src_urls": [
     "https://pypi.org/project/uro"
@@ -8819,6 +9053,7 @@
    "version": "1.0.11",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/wappalyzer/archive/sharun/pypi/wappalyzer:1.0.11-x86_64-linux",
    "size": "54 MB",
+   "bsum": "271dbfee755804ccbf01445ae1a5a7196eefc189ed883fbdd3f948ece84a9cde",
    "build_date": "2025-02-25T13:43:40Z",
    "src_urls": [
     "https://pypi.org/project/wappalyzer"
@@ -8845,6 +9080,7 @@
    "version": "0.19.3",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/xonsh/archive/sharun/pypi/xonsh:0.19.3-x86_64-linux",
    "size": "25 MB",
+   "bsum": "b38c1c0089f0df9390e6c01202c9a0332b284402984fa7be171e669800a5213e",
    "build_date": "2025-03-21T19:42:30Z",
    "src_urls": [
     "https://pypi.org/project/xonsh"
@@ -8877,6 +9113,7 @@
    "version": "1.37.0",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/yamllint/archive/sharun/pypi/yamllint:1.37.0-x86_64-linux",
    "size": "18 MB",
+   "bsum": "c0b1f8ddb10d03cea921a760ca5873bf0d1c763cc4b7d13e762b9e5c30b4cd70",
    "build_date": "2025-03-23T19:24:11Z",
    "src_urls": [
     "https://pypi.org/project/yamllint"
@@ -8920,6 +9157,7 @@
    "version": "2025.3.31",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/yt-dlp/archive/sharun/pypi/yt-dlp:2025.3.31-x86_64-linux",
    "size": "26 MB",
+   "bsum": "a3a8e3eb03e1795ef072369cb1965c270a56e9781f50ec3fb562c4aa65449ee8",
    "build_date": "2025-04-01T19:39:11Z",
    "src_urls": [
     "https://pypi.org/project/yt-dlp"
@@ -8963,6 +9201,7 @@
    "version": "HEAD-0676bc0-210907T170325",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/emailfinder/archive/sharun/source/emailfinder:HEAD-0676bc0-210907T170325-x86_64-linux",
    "size": "21 MB",
+   "bsum": "57d2a62a7b5f386a1eb7d1790386edac1390efebbba18e66b0d88b77a91b74dd",
    "build_date": "2025-03-07T14:30:04Z",
    "src_urls": [
     "https://github.com/Josue87/EmailFinder"
@@ -8988,6 +9227,7 @@
    "version": "HEAD-79b8949-230622T185041",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/interlace/archive/sharun/source/interlace:HEAD-79b8949-230622T185041-x86_64-linux",
    "size": "19 MB",
+   "bsum": "5d464573f206c8d6994ca352d29ac4a101cb4df9531e72e2cafdf39d86c888a1",
    "build_date": "2025-03-07T11:19:22Z",
    "src_urls": [
     "https://github.com/codingo/Interlace"
@@ -9013,6 +9253,7 @@
    "version": "HEAD-30c8475-231025T184726",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/metafinder/archive/sharun/source/metafinder:HEAD-30c8475-231025T184726-x86_64-linux",
    "size": "35 MB",
+   "bsum": "4e8a54dfcebe6592def8737760c67be1b4e08c7f7390a9843e25b20cb08c2756",
    "build_date": "2025-03-07T11:19:46Z",
    "src_urls": [
     "https://github.com/Josue87/MetaFinder"
@@ -9038,6 +9279,7 @@
    "version": "HEAD-f9e98a2-250302T200506",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/archey/archive/sharun/source/archey:HEAD-f9e98a2-250302T200506-x86_64-linux",
    "size": "23 MB",
+   "bsum": "1903366e80f6477c4d841b1a92dab54fffda33d74d3cbb1666c1dd2be87d130e",
    "build_date": "2025-03-03T19:19:18Z",
    "src_urls": [
     "https://github.com/HorlogeSkynet/archey4"
@@ -9073,6 +9315,7 @@
    "version": "HEAD-5dfbe93-231012T002040",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/ciphey/archive/sharun/source/ciphey:HEAD-5dfbe93-231012T002040-x86_64-linux",
    "size": "33 MB",
+   "bsum": "d7938723d77ba1d508224fb25700675fa72724a22653392507912e5029853c60",
    "build_date": "2025-03-07T11:17:31Z",
    "src_urls": [
     "https://github.com/bee-san/Ciphey"
@@ -9098,6 +9341,7 @@
    "version": "HEAD-146c9b0-230118T005036",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/dnsvalidator/archive/sharun/source/dnsvalidator:HEAD-146c9b0-230118T005036-x86_64-linux",
    "size": "21 MB",
+   "bsum": "6889e7a9fbb7de1ec0562d93b049ef4a501e6d545969695f4feac6eed6b0d01c",
    "build_date": "2025-03-07T11:18:38Z",
    "src_urls": [
     "https://github.com/vortexau/dnsvalidator"
@@ -9123,6 +9367,7 @@
    "version": "HEAD-31270c1-250325T094850",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/dvc/archive/sharun/source/dvc:HEAD-31270c1-250325T094850-x86_64-linux",
    "size": "133 MB",
+   "bsum": "85852152d04173e3f0518bdd1734f70a25f13aee20480cafcd054299013d3422",
    "build_date": "2025-03-25T19:12:39Z",
    "src_urls": [
     "https://github.com/iterative/dvc"
@@ -9157,6 +9402,7 @@
    "version": "HEAD-d6bb1e5-250226T000945",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/ghauri/archive/sharun/source/ghauri:HEAD-d6bb1e5-250226T000945-x86_64-linux",
    "size": "19 MB",
+   "bsum": "88879eb2b7d5f0b3d0b53c6842f355b873c11f7623eafaac622f048841b6295c",
    "build_date": "2025-03-07T11:19:42Z",
    "src_urls": [
     "https://github.com/r0oth3x49/ghauri"
@@ -9182,6 +9428,7 @@
    "version": "HEAD-6378820-250331T170049",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/huggingface-cli/archive/sharun/source/huggingface-cli:HEAD-6378820-250331T170049-x86_64-linux",
    "size": "23 MB",
+   "bsum": "4534e531ba486a9ca58e7564ced1912408e4b0d503b49cbde6b3825f58ecf3cf",
    "build_date": "2025-04-01T19:20:03Z",
    "src_urls": [
     "https://github.com/huggingface/huggingface_hub"
@@ -9264,6 +9511,7 @@
    "version": "HEAD-ba595d3-250303T210850",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/name-that-hash/archive/sharun/source/nth:HEAD-ba595d3-250303T210850-x86_64-linux",
    "size": "22 MB",
+   "bsum": "70e80951ce7f90687904eb11cfd7906d413a945216f1f7f27f9cb866ccdb4e48",
    "build_date": "2025-03-07T11:19:13Z",
    "src_urls": [
     "https://github.com/bee-san/Name-That-Hash"
@@ -9289,6 +9537,7 @@
    "version": "HEAD-677e254-250401T005358",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/netexec/archive/sharun/source/netexec:HEAD-677e254-250401T005358-x86_64-linux",
    "size": "85 MB",
+   "bsum": "24686ea4636a3376338a3b62f99251123bb83b3f17c6ec77612bb6a7538281dd",
    "build_date": "2025-04-01T19:25:19Z",
    "src_urls": [
     "https://github.com/Pennyw0rth/NetExec"
@@ -9377,6 +9626,7 @@
    "version": "HEAD-1057c0c-240319T210034",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/p1radup/archive/sharun/source/p1radup:HEAD-1057c0c-240319T210034-x86_64-linux",
    "size": "17 MB",
+   "bsum": "7123a8241e5aea1083b8d23a48d7ed39b5cd112888c5fe9c1f2cadb8ea904df0",
    "build_date": "2025-03-07T11:19:17Z",
    "src_urls": [
     "https://github.com/iambouali/p1radup"
@@ -9402,6 +9652,7 @@
    "version": "HEAD-041fd30-240124T204726",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/porch-pirate/archive/sharun/source/porch-pirate:HEAD-041fd30-240124T204726-x86_64-linux",
    "size": "18 MB",
+   "bsum": "82a441dd7705840109bd08a1c97e5907c5e7131bd705fd54c105ead096ffa9b7",
    "build_date": "2025-03-07T11:21:14Z",
    "src_urls": [
     "https://github.com/MandConsultingGroup/porch-pirate"
@@ -9427,6 +9678,7 @@
    "version": "HEAD-ba5a8e7-241121T125836",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/urless/archive/sharun/source/urless:HEAD-ba5a8e7-241121T125836-x86_64-linux",
    "size": "19 MB",
+   "bsum": "a5e804ecc4e2b5e6e7382b12b3c911755820104275d882f0f75363d8a2dffafe",
    "build_date": "2025-03-07T11:21:47Z",
    "src_urls": [
     "https://github.com/xnl-h4ck3r/urless"
@@ -9452,6 +9704,7 @@
    "version": "HEAD-2b94868-241231T121755",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/wafw00f/archive/sharun/source/wafw00f:HEAD-2b94868-241231T121755-x86_64-linux",
    "size": "18 MB",
+   "bsum": "722cabe4314d1b8d724e201811726cf0bc1b825610110fb19533161c62bd6929",
    "build_date": "2025-03-07T11:27:54Z",
    "src_urls": [
     "https://github.com/EnableSecurity/wafw00f"
@@ -9477,6 +9730,7 @@
    "version": "HEAD-58b5b36-250314T171837",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/xmap/archive/sharun/source/xmap:HEAD-58b5b36-250314T171837-x86_64-linux",
    "size": "4.9 MB",
+   "bsum": "070c8bdcdf263621296533184b6a88f6eda712d1e5ea70384e98a694855590fe",
    "build_date": "2025-03-16T15:06:48Z",
    "src_urls": [
     "https://github.com/idealeer/xmap"
@@ -9512,6 +9766,7 @@
    "version": "HEAD-a203809-250320T002417",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/xnlinkfinder/archive/sharun/source/xnlinkfinder:HEAD-a203809-250320T002417-x86_64-linux",
    "size": "43 MB",
+   "bsum": "ba1c6d5f349ceeb473fcf73b136b1f59c4faa1e1f20e07298829ac52e4ef7967",
    "build_date": "2025-03-21T19:44:27Z",
    "src_urls": [
     "https://github.com/xnl-h4ck3r/xnLinkFinder"
@@ -9551,6 +9806,7 @@
    "version": "HEAD-349f366-250331T215427",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/yt-dlp/archive/sharun/source/yt-dlp:HEAD-349f366-250331T215427-x86_64-linux",
    "size": "26 MB",
+   "bsum": "aba06449035729b571c1271782fc6ffa48cbcbe0dea25e380c224934bc8dae3e",
    "build_date": "2025-04-01T19:51:22Z",
    "src_urls": [
     "https://github.com/yt-dlp/yt-dlp"
@@ -9630,6 +9886,7 @@
    "version": "HEAD-35531d6-250326T123154",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/zmap/archive/sharun/source/zmap:HEAD-35531d6-250326T123154-x86_64-linux",
    "size": "3.8 MB",
+   "bsum": "4dd59639523802b4fb5d215ab5e16555f78ad67e670201c698d378e332fe7353",
    "build_date": "2025-03-28T19:42:19Z",
    "src_urls": [
     "https://github.com/zmap/zmap"
@@ -9663,6 +9920,7 @@
    "version": "HEAD-35531d6-250326T123154",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/zmap/archive/sharun/source/ztests:HEAD-35531d6-250326T123154-x86_64-linux",
    "size": "3.8 MB",
+   "bsum": "6eebcfee09e18d799d5f68dc808ed233e3ab5b5c5a23a496d7515d3a6b150d5c",
    "build_date": "2025-03-28T19:42:21Z",
    "src_urls": [
     "https://github.com/zmap/zmap"
@@ -9696,6 +9954,7 @@
    "version": "HEAD-35531d6-250326T123154",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/zmap/archive/sharun/source/ztee:HEAD-35531d6-250326T123154-x86_64-linux",
    "size": "1.9 MB",
+   "bsum": "ed7c3926fd9bf0b2bf5baf7526c311bb8505316b2ee022122bcb0d099fa09d6c",
    "build_date": "2025-03-28T19:42:20Z",
    "src_urls": [
     "https://github.com/zmap/zmap"
@@ -9729,6 +9988,7 @@
    "version": "HEAD-35531d6-250326T123154",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/zmap/archive/sharun/source/ziterate:HEAD-35531d6-250326T123154-x86_64-linux",
    "size": "2.2 MB",
+   "bsum": "a8aa575a56e0cf70eba95ea5a6e44b415cd263d7c5f61157095c01f9f7d58447",
    "build_date": "2025-03-28T19:42:18Z",
    "src_urls": [
     "https://github.com/zmap/zmap"
@@ -9762,6 +10022,7 @@
    "version": "HEAD-35531d6-250326T123154",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/zmap/archive/sharun/source/zblocklist:HEAD-35531d6-250326T123154-x86_64-linux",
    "size": "1.9 MB",
+   "bsum": "02c1c3afd4fc5ab2b600086758eef474ef6f4a0b53c7abe827c493aac5b73d34",
    "build_date": "2025-03-28T19:42:15Z",
    "src_urls": [
     "https://github.com/zmap/zmap"
@@ -9797,6 +10058,7 @@
    "version": "v0.47.1",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/caido-cli/archive/sharun/stable/caido-cli:v0.47.1-x86_64-linux",
    "size": "43 MB",
+   "bsum": "135f4cb91a18dcc046da47dc6b5eeb32dd2a0af77bb8cf70e699ddee2c3c98f6",
    "build_date": "2025-03-21T19:03:14Z",
    "src_urls": [
     "https://github.com/caido/caido"
@@ -9829,6 +10091,7 @@
    "version": "0.2-7078",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/crave/archive/sharun/stable/crave:0.2-7078-x86_64-linux",
    "size": "25 MB",
+   "bsum": "7143c2eb3d328393357dc82bd57f4438b522f43131e78043c4f83e6525534b73",
    "build_date": "2025-04-01T01:55:21Z",
    "src_urls": [
     "https://github.com/accupara/crave"
@@ -9870,6 +10133,7 @@
    "version": "2.39.1",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/fastfetch/archive/sharun/stable/fastfetch:2.39.1-x86_64-linux",
    "size": "5.4 MB",
+   "bsum": "fcc387d159e2e1197952c252b52691254336deb4400aaebcc28bae63953fe101",
    "build_date": "2025-04-01T01:57:50Z",
    "src_urls": [
     "https://github.com/fastfetch-cli/fastfetch"
@@ -9910,6 +10174,7 @@
    "version": "2.39.1",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/fastfetch/archive/sharun/stable/flashfetch:2.39.1-x86_64-linux",
    "size": "5.1 MB",
+   "bsum": "ca28efb5cab6d4187a0f297a5208837d49f73d05147c4c0f716f54646c7e83cb",
    "build_date": "2025-04-01T01:57:51Z",
    "src_urls": [
     "https://github.com/fastfetch-cli/fastfetch"
@@ -9950,6 +10215,7 @@
    "version": "v0.1.5",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/sanicdns/archive/sharun/stable/sanicdns:v0.1.5-x86_64-linux",
    "size": "4.5 MB",
+   "bsum": "69af04f8607a1e687ef311224452809c8e4023b001e16104a5de27c78b5acb30",
    "build_date": "2025-03-07T11:19:18Z",
    "src_urls": [
     "https://github.com/hadriansecurity/sanicdns"
@@ -9975,6 +10241,7 @@
    "version": "v6.3.0",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/simplex-chat/archive/sharun/stable/simplex-chat:v6.3.0-x86_64-linux",
    "size": "17 MB",
+   "bsum": "0de1b7fbf528cb9e5a1a8c558bfea3f96b07480a975c65c7eff0e3aa81ec1d45",
    "build_date": "2025-04-01T01:59:13Z",
    "src_urls": [
     "https://github.com/simplex-chat/simplex-chat"
@@ -10011,6 +10278,7 @@
    "version": "HEAD-37175bb-250401T132152",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/sudo-rs/archive/sharun/source/visudo:HEAD-37175bb-250401T132152-x86_64-linux",
    "size": "2.5 MB",
+   "bsum": "ef487b9056c2bdff60406de9d2de46bf37073f624850a9f02f358d89ed43ae47",
    "build_date": "2025-04-01T19:45:12Z",
    "src_urls": [
     "https://github.com/trifectatechfoundation/sudo-rs"
@@ -10096,6 +10364,7 @@
    "version": "HEAD-37175bb-250401T132152",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/sudo-rs/archive/sharun/source/su:HEAD-37175bb-250401T132152-x86_64-linux",
    "size": "3.4 MB",
+   "bsum": "b41c7e4e59560d691dccba03ad0ba00f0c21f1d03596325e065d73836a21638f",
    "build_date": "2025-04-01T19:45:07Z",
    "src_urls": [
     "https://github.com/trifectatechfoundation/sudo-rs"
@@ -10177,6 +10446,7 @@
    "version": "HEAD-37175bb-250401T132152",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/sudo-rs/archive/sharun/source/sudo:HEAD-37175bb-250401T132152-x86_64-linux",
    "size": "1.9 MB",
+   "bsum": "a1549dcbe001f4383dceba768aa55a184573a7b00971d0824c80321b8f8cc15d",
    "build_date": "2025-04-01T19:45:09Z",
    "src_urls": [
     "https://github.com/trifectatechfoundation/sudo-rs"
@@ -10258,6 +10528,7 @@
    "version": "2025.72.142645",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/twingate/archive/sharun/stable/twingated:2025.72.142645-x86_64-linux",
    "size": "11 MB",
+   "bsum": "3ca41e4ee44ee81dacda364ab8668cb1af613663ff916e6a78155b91e4e4f7ed",
    "build_date": "2025-03-21T19:32:50Z",
    "src_urls": [
     "https://packages.twingate.com/deb:twingate"
@@ -10290,6 +10561,7 @@
    "version": "2025.72.142645",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/twingate/archive/sharun/stable/twingate-notifier:2025.72.142645-x86_64-linux",
    "size": "3.9 MB",
+   "bsum": "216f1960104bd4a0cab93af0ac96b994714cb1d36f3d53bfe54015165bffd565",
    "build_date": "2025-03-21T19:32:50Z",
    "src_urls": [
     "https://packages.twingate.com/deb:twingate"
@@ -10322,6 +10594,7 @@
    "version": "2025.72.142645",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/twingate/archive/sharun/stable/twingate:2025.72.142645-x86_64-linux",
    "size": "8.3 MB",
+   "bsum": "e713684c43b73a72bbc5160872c413d7024d27f55cc3720c12af5807db8a5077",
    "build_date": "2025-03-21T19:32:48Z",
    "src_urls": [
     "https://packages.twingate.com/deb:twingate"
@@ -10354,6 +10627,7 @@
    "version": "1.14.2",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/zerotier/archive/sharun/stable/zerotier-one:1.14.2-x86_64-linux",
    "size": "8.2 MB",
+   "bsum": "b38f496ea8d7a24e40dc835c4314e673c49f560f83207bdabe914d99dbb26666",
    "build_date": "2025-02-28T17:50:23Z",
    "src_urls": [
     "https://github.com/zerotier/ZeroTierOne"
@@ -10380,6 +10654,7 @@
    "version": "v4.98.2",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/code-server/archive/wrappe/stable/code-server:v4.98.2-x86_64-linux",
    "size": "91 MB",
+   "bsum": "2933e16b996216a77f521eec36a501f0175217b355b976acfabd83bd4a96b013",
    "build_date": "2025-03-16T14:35:30Z",
    "src_urls": [
     "https://github.com/coder/code-server"
@@ -10417,6 +10692,7 @@
    "version": "6.26.1",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/fdm/archive/wrappe/stable/fdm:6.26.1-x86_64-linux",
    "size": "48 MB",
+   "bsum": "dac38137f658dddbba5d070e53bca76cc05f5ff7b2512e756bb6ad07a0cf1f71",
    "build_date": "2025-03-28T18:57:11Z",
    "src_urls": [
     "https://www.freedownloadmanager.org/download-fdm-for-linux.htm"
@@ -10452,6 +10728,7 @@
    "version": "openvscode-server-v1.98.2",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/openvscode-server/archive/wrappe/stable/openvscode-server:openvscode-server-v1.98.2-x86_64-linux",
    "size": "53 MB",
+   "bsum": "aa4b1e072f98ebe11e9a8b18542ba253fbb08c0a192bc973bff84d6ebfc85d3e",
    "build_date": "2025-04-01T19:28:27Z",
    "src_urls": [
     "https://github.com/gitpod-io/openvscode-server"
@@ -10488,6 +10765,7 @@
    "version": "v1.0.14",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/sudachi/archive/wrappe/stable/sudachi:v1.0.14-x86_64-linux",
    "size": "29 MB",
+   "bsum": "997d5581822b0bcb01b0b26f94723c6aeef024066a41de17c923c19c9598a630",
    "build_date": "2025-02-12T10:55:36Z",
    "src_urls": [
     "https://github.com/emuplace/sudachi.emuplace.app"
@@ -10519,6 +10797,7 @@
    "version": "15.64.3",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/teamviewer/archive/wrappe/stable/teamviewer:15.64.3-x86_64-linux",
    "size": "127 MB",
+   "bsum": "be7cb22789589d2ecc94a0df9eb28f5293d039381bae6192db128e7b8276dd63",
    "build_date": "2025-03-25T19:39:55Z",
    "src_urls": [
     "https://www.teamviewer.com/en-us/download/linux/"
@@ -10555,6 +10834,7 @@
    "version": "250401T010852jq:error:writingoutputfailed:Brokenpipe",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/ultimmc/archive/wrappe/stable/ultimmc:250401T010852jq_error_writingoutputfailed_Brokenpipe-x86_64-linux",
    "size": "3.7 MB",
+   "bsum": "f31461c012479e3a0748ec7697581e862b47e08460a5fdcda87b9d10048cf8b7",
    "build_date": "2025-04-01T19:40:06Z",
    "src_urls": [
     "https://github.com/UltimMC/Launcher"
@@ -10590,6 +10870,7 @@
    "version": "250401T120028",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/xashds/archive/wrappe/stable/xashds:250401T120028-x86_64-linux",
    "size": "2.9 MB",
+   "bsum": "9bc3e7bdd33a2ce7cca87753405d2421c95f511f233200cbc5b8ee7591d7ddd8",
    "build_date": "2025-04-01T19:41:13Z",
    "src_urls": [
     "https://github.com/FWGS/xash3d-fwgs"
@@ -10681,6 +10962,7 @@
    "version": "v0.179.5",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/zed/archive/wrappe/stable/zed:v0.179.5-x86_64-linux",
    "size": "58 MB",
+   "bsum": "6dcf9c6194ec331cda75102a16ceca607f9341cb05b3cdfac860cc0460c5cb2e",
    "build_date": "2025-04-01T03:49:43Z",
    "src_urls": [
     "https://github.com/zed-industries/zed"

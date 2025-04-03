@@ -6,6 +6,7 @@ pkgcache:
   version: v4.2.1
   download_url: oci://ghcr.io/pkgforge/pkgcache/86box/appimage/official/stable/86box:v4.2.1-aarch64-linux
   size: 52 MB
+  bsum: 74d358d3f38d0f2692676fca718870bee9069b3bd25c7c6eefe1c4f155607f91
   build_date: "2025-01-26T16:47:34Z"
   src_urls:
   - https://github.com/86Box/86Box
@@ -28,6 +29,7 @@ pkgcache:
   version: 1.2.357
   download_url: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx:1.2.357-aarch64-linux
   size: 29 MB
+  bsum: ec0e6bdeedd0a58676f746130843f920a9256feab119c1787aab8439783ea796
   build_date: "2025-02-08T08:52:44Z"
   src_urls:
   - https://github.com/Ryubing/Canary-Releases
@@ -45,6 +47,7 @@ pkgcache:
   version: 1.2.81
   download_url: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx:1.2.81-aarch64-linux
   size: 29 MB
+  bsum: 7da62b0e67f0181526d0f8842546bb1ab8a5d2a6f3952e12ce3ff62dd88a3a65
   build_date: "2025-02-08T08:52:49Z"
   src_urls:
   - https://github.com/Ryubing/Ryujinx
@@ -62,6 +65,7 @@ pkgcache:
   version: v1.5.5
   download_url: oci://ghcr.io/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop:v1.5.5-aarch64-linux
   size: 88 MB
+  bsum: 23ea2c16182780f2e461e5862eb0561f9bcc14781f28f3a530af951edcc961db
   build_date: "2025-03-05T15:04:48Z"
   src_urls:
   - https://github.com/Vencord/Vesktop
@@ -84,6 +88,7 @@ pkgcache:
   version: v0.47.1
   download_url: oci://ghcr.io/pkgforge/pkgcache/caido/appimage/official/stable/caido:v0.47.1-aarch64-linux
   size: 152 MB
+  bsum: c71afb348d52b85290ac4eea51c91f8b253ec8ebf8b9afbed35f403f0296ceba
   build_date: "2025-03-21T18:55:37Z"
   src_urls:
   - https://github.com/caido/caido
@@ -105,6 +110,7 @@ pkgcache:
   version: "13907245614"
   download_url: oci://ghcr.io/pkgforge/pkgcache/pixelpulse2/appimage/pkgforge-dev/stable/pixelpulse2:13907245614-aarch64-linux
   size: 109 MB
+  bsum: 3205f47f609f9410c3a5b8ddce4ef59b8216f65805a04307824eb405bff0078e
   build_date: "2025-03-18T19:20:12Z"
   src_urls:
   - https://github.com/pkgforge-dev/Pixelpulse2-AppImage
@@ -133,6 +139,7 @@ pkgcache:
   version: v1.1.3+1
   download_url: oci://ghcr.io/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty:v1.1.3_1-aarch64-linux
   size: 65 MB
+  bsum: 4b1ce5ebda97ee85bd80bfc79a5c4a8fb7da57636b297ab39f2c8f5c78a0dbd4
   build_date: "2025-04-01T19:20:25Z"
   src_urls:
   - https://github.com/pkgforge-dev/ghostty-appimage
@@ -170,6 +177,7 @@ pkgcache:
   version: 250204T131430
   download_url: oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk:250204T131430-aarch64-linux
   size: 63 MB
+  bsum: 8c42dce3dcf4ebdff5b256fa874b635d7ed8d0543525155d3aa98828be25a46e
   build_date: "2025-02-08T08:53:01Z"
   src_urls:
   - https://github.com/rustdesk/rustdesk
@@ -188,6 +196,7 @@ pkgcache:
   version: 1.3.7
   download_url: oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk:1.3.7-aarch64-linux
   size: 63 MB
+  bsum: 2cc782eee4ed8297dd4b8de058d8d72d266103007d5b1090acf3cb5e8d11204d
   build_date: "2025-02-08T08:53:20Z"
   src_urls:
   - https://github.com/rustdesk/rustdesk
@@ -206,6 +215,7 @@ pkgcache:
   version: 0.8.4
   download_url: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/stable/tangent:0.8.4-aarch64-linux
   size: 91 MB
+  bsum: 5948f969bd02ebef8531e32f3d79c62e19f0bc80f85faa2321781a98573a3e16
   build_date: "2025-01-26T18:24:05Z"
   src_urls:
   - https://www.tangentnotes.com/Download
@@ -227,6 +237,7 @@ pkgcache:
   version: 0.9.0-alpha.9
   download_url: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent:0.9.0-alpha.9-aarch64-linux
   size: 92 MB
+  bsum: 494c683161e28e575336fca67a1dba1ba07b3e29fa8879705b1e245ebd7de06a
   build_date: "2025-03-25T19:40:18Z"
   src_urls:
   - https://www.tangentnotes.com/Download
@@ -252,6 +263,7 @@ pkgcache:
   version: v1.29.2
   download_url: oci://ghcr.io/pkgforge/pkgcache/escrcpy/appimage/official/stable/escrcpy:v1.29.2-aarch64-linux
   size: 89 MB
+  bsum: 70f7698214abb196840cdc92441c8c7a2bf28851be4f8d7fab7524af25eb8166
   build_date: "2025-04-01T18:58:27Z"
   src_urls:
   - https://github.com/viarotel-org/escrcpy
@@ -278,6 +290,7 @@ pkgcache:
   version: 1.0.2-b.5
   download_url: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser:1.0.2-b.5-aarch64-linux
   size: 95 MB
+  bsum: 38a2beaf8a46cc005ea54619c93bf718a50b059ff884587e15dff38ffeab322e
   build_date: "2025-01-26T18:33:48Z"
   src_urls:
   - https://github.com/zen-browser/desktop
@@ -299,6 +312,7 @@ pkgcache:
   version: 1.10.3b
   download_url: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser:1.10.3b-aarch64-linux
   size: 90 MB
+  bsum: c3e3c8abda4ba0a27a461bac7c03eeac0cba3ef183aef639298f44360fbf5279
   build_date: "2025-03-28T19:39:04Z"
   src_urls:
   - https://github.com/zen-browser/desktop
@@ -344,6 +358,7 @@ pkgcache:
   version: Twilightbuild-1.10.3t(2025-03-31at19:24:52)
   download_url: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:Twilightbuild-1.10.3t_2025-03-31at19_24_52_-aarch64-linux
   size: 91 MB
+  bsum: 6370b50af1a6eb75eada6c850944fab88d7eecf2654886ab5089f77afa0a293c
   build_date: "2025-04-01T19:48:12Z"
   src_urls:
   - https://github.com/zen-browser/desktop
@@ -453,6 +468,7 @@ pkgcache:
   version: v136.0.4-1
   download_url: oci://ghcr.io/pkgforge/pkgcache/librewolf/appimage/official/stable/librewolf:v136.0.4-1-aarch64-linux
   size: 101 MB
+  bsum: f96e942d657f0a070edff1129fdb7c7c64610749f856ca904cbeea5ce5dd781f
   build_date: "2025-03-28T19:19:01Z"
   src_urls:
   - https://gitlab.com/librewolf-community/browser/appimage
@@ -483,6 +499,7 @@ pkgcache:
   version: 1.76.73
   download_url: oci://ghcr.io/pkgforge/pkgcache/brave/nixappimage/nixpkgs/stable/brave:1.76.73-aarch64-linux
   size: 382 MB
+  bsum: 4d0e44a8f80cb394f3d2cde07ea781ce255b5c672a9e308b074de30b10dff280
   build_date: "2025-03-12T19:49:06Z"
   src_urls:
   - https://github.com/brave/brave-browser
@@ -522,6 +539,7 @@ pkgcache:
   version: 134.0.6998.88
   download_url: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium:134.0.6998.88-aarch64-linux
   size: 358 MB
+  bsum: 7f0cde2ba3becc3c5e4260e91335d73a98a91945578be179dd698a0aa0b83f3f
   build_date: "2025-03-12T20:22:12Z"
   src_urls:
   - https://github.com/chromium/chromium
@@ -563,6 +581,7 @@ pkgcache:
   version: 12.1.0-unstable-2025-02-12
   download_url: oci://ghcr.io/pkgforge/pkgcache/flameshot/nixappimage/nixpkgs/unstable/flameshot:12.1.0-unstable-2025-02-12-aarch64-linux
   size: 99 MB
+  bsum: d71c1bc081aeaad2ba6c1c6ace12843301357203989d11bb71c14c522d0d3da9
   build_date: "2025-02-26T19:51:29Z"
   src_urls:
   - https://github.com/flameshot/flameshot
@@ -591,6 +610,7 @@ pkgcache:
   version: 2.3.2
   download_url: oci://ghcr.io/pkgforge/pkgcache/gearlever/nixappimage/nixpkgs/stable/gearlever:2.3.2-aarch64-linux
   size: 309 MB
+  bsum: 4d69bd1eb494f1556fde9596c5f1ac7d06eb5433016b1ed19b2355569824eeee
   build_date: "2025-01-26T17:48:53Z"
   src_urls:
   - https://github.com/mijorus/gearlever
@@ -615,6 +635,7 @@ pkgcache:
   version: 25.01.1
   download_url: oci://ghcr.io/pkgforge/pkgcache/helix/nixappimage/nixpkgs/stable/helix:25.01.1-aarch64-linux
   size: 28 MB
+  bsum: 1454d175f77eb982e4cd50a0255d1c77e751fd57dc37cafe62eaed93fc9b6f38
   build_date: "2025-01-26T17:50:52Z"
   src_urls:
   - https://github.com/helix-editor/helix
@@ -641,6 +662,7 @@ pkgcache:
   version: 0.10.4
   download_url: oci://ghcr.io/pkgforge/pkgcache/neovim/nixappimage/nixpkgs/stable/neovim:0.10.4-aarch64-linux
   size: 31 MB
+  bsum: 04aaab1fc993de9b33fdeda9329752630e315b5a83abc9f7053f8bb01d13b712
   build_date: "2025-02-01T19:32:45Z"
   src_urls:
   - https://github.com/neovim/neovim
@@ -665,6 +687,7 @@ pkgcache:
   version: 6.2.5
   download_url: oci://ghcr.io/pkgforge/pkgcache/simplex-desktop/nixappimage/nixpkgs/stable/simplex-desktop:6.2.5-aarch64-linux
   size: 525 MB
+  bsum: 072c54a5bd8bddc62d0e58631a5dce4ef4966e3c592a241ff854618d1d27f95c
   build_date: "2025-02-19T19:51:55Z"
   src_urls:
   - https://github.com/simplex-chat/simplex-chat
@@ -691,6 +714,7 @@ pkgcache:
   version: 5.11.1
   download_url: oci://ghcr.io/pkgforge/pkgcache/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop:5.11.1-aarch64-linux
   size: 358 MB
+  bsum: 6a6a101d658f6b3213ce4d09f052b2a112eab150336b319593fd7ad5aa6ca09b
   build_date: "2025-02-17T20:25:58Z"
   src_urls:
   - https://github.com/telegramdesktop/tdesktop
@@ -721,6 +745,7 @@ pkgcache:
   version: 134.0.6998.35
   download_url: oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium:134.0.6998.35-aarch64-linux
   size: 359 MB
+  bsum: 87d4f5d39fae54cc6719709c4d097ff022d632bb90f5ef7865c9f39edde22f15
   build_date: "2025-03-12T20:55:01Z"
   src_urls:
   - https://github.com/ungoogled-software/ungoogled-chromium
@@ -758,6 +783,7 @@ pkgcache:
   version: 3.31.5
   download_url: oci://ghcr.io/pkgforge/pkgcache/cmake/appimage/ppkg/stable/cmake:3.31.5-aarch64-linux
   size: 30 MB
+  bsum: 77ccb2ea7268a67acd550d7ee463e4845da692ce336c3735494e9013ad537140
   build_date: "2025-03-02T19:07:55Z"
   src_urls:
   - https://gitlab.kitware.com/cmake/cmake
@@ -781,6 +807,7 @@ pkgcache:
   version: "5.45"
   download_url: oci://ghcr.io/pkgforge/pkgcache/file/appimage/ppkg/stable/file:5.45-aarch64-linux
   size: 2.3 MB
+  bsum: dadfb448b4e4599c0391a0a7239abbad8a6947b629d05e11ec09e1910671799c
   build_date: "2025-02-13T19:20:52Z"
   src_urls:
   - https://github.com/file/file
@@ -801,6 +828,7 @@ pkgcache:
   version: 3.12.0
   download_url: oci://ghcr.io/pkgforge/pkgcache/freerdp/appimage/ppkg/stable/freerdp:3.12.0-aarch64-linux
   size: 245 MB
+  bsum: 466b1ec62f1521c0f94df10584fdc06a2cb452de4afe2e2d09ec3ec3ebfb0249
   build_date: "2025-03-02T19:41:44Z"
   src_urls:
   - https://github.com/FreeRDP/FreeRDP
@@ -824,6 +852,7 @@ pkgcache:
   version: 2.48.1
   download_url: oci://ghcr.io/pkgforge/pkgcache/git/appimage/ppkg/stable/git:2.48.1-aarch64-linux
   size: 33 MB
+  bsum: 4d8b23dad4f52348cc2ceca0187d952de29e113805e0a51c2e1f86e28d10d183
   build_date: "2025-02-10T08:41:12Z"
   src_urls:
   - https://github.com/git/git
@@ -843,6 +872,7 @@ pkgcache:
   version: 0.9.0
   download_url: oci://ghcr.io/pkgforge/pkgcache/jless/appimage/ppkg/stable/jless:0.9.0-aarch64-linux
   size: 3.0 MB
+  bsum: 1cda72facfefd40eef9770605dbe5b1c1084f83d8f44999be282887d04aa10a2
   build_date: "2025-02-13T19:21:56Z"
   src_urls:
   - https://github.com/PaulJuliusMartinez/jless
@@ -863,6 +893,7 @@ pkgcache:
   version: 0.10.2
   download_url: oci://ghcr.io/pkgforge/pkgcache/xrdp/appimage/ppkg/stable/xrdp:0.10.2-aarch64-linux
   size: 7.5 MB
+  bsum: c7c7cef981acae0677b361d6be1a7647399990bdf87d03a98c628ef22a6f0d00
   build_date: "2025-03-04T14:12:10Z"
   src_urls:
   - https://github.com/neutrinolabs/xrdp
@@ -883,6 +914,7 @@ pkgcache:
   version: 24.12.3
   download_url: oci://ghcr.io/pkgforge/pkgcache/akregator/runimage/alpine/stable/akregator:24.12.3-aarch64-linux
   size: 306 MB
+  bsum: 1fe054ca9fc5a59eabc4e6a541c2abf8711c21503a1c790736ae1df2d0efec26
   build_date: "2025-03-21T18:58:18Z"
   src_urls:
   - https://invent.kde.org/pim/akregator
@@ -909,6 +941,7 @@ pkgcache:
   version: 1.11.95
   download_url: oci://ghcr.io/pkgforge/pkgcache/element-desktop/runimage/alpine/stable/element-desktop:1.11.95-aarch64-linux
   size: 211 MB
+  bsum: bd5aeeac9c1f02f0796ea5578d4c7719e9d4c1cf3fc2ccefca33b7fd4e1a8f63
   build_date: "2025-03-12T21:21:03Z"
   src_urls:
   - https://gitlab.alpinelinux.org/alpine/aports/-/tree/master/testing/element-desktop
@@ -935,6 +968,7 @@ pkgcache:
   version: 24.12.3
   download_url: oci://ghcr.io/pkgforge/pkgcache/falkon/runimage/alpine/stable/falkon:24.12.3-aarch64-linux
   size: 255 MB
+  bsum: ad8e2d6feab723d763196a8451a20289059bb2861fc8162b39dd6560f8c2d824
   build_date: "2025-03-21T19:13:47Z"
   src_urls:
   - https://gitlab.alpinelinux.org/alpine/aports/-/tree/master/community/falkon
@@ -959,6 +993,7 @@ pkgcache:
   version: "46.2"
   download_url: oci://ghcr.io/pkgforge/pkgcache/ghex/runimage/alpine/stable/ghex:46.2-aarch64-linux
   size: 135 MB
+  bsum: 3085027f86369a46f7124cf699445093d336bc326319a5df628e094da4312c0b
   build_date: "2025-03-04T18:56:58Z"
   src_urls:
   - https://gitlab.gnome.org/GNOME/ghex
@@ -981,6 +1016,7 @@ pkgcache:
   version: 2.49.0
   download_url: oci://ghcr.io/pkgforge/pkgcache/git/runimage/alpine/stable/git:2.49.0-aarch64-linux
   size: 39 MB
+  bsum: e28941cc96455e466ff5ff86dbea9ab981aff0244737a0ea0963493bcb9a3373
   build_date: "2025-03-16T14:50:54Z"
   src_urls:
   - https://github.com/git/git
@@ -1004,6 +1040,7 @@ pkgcache:
   version: "1.4"
   download_url: oci://ghcr.io/pkgforge/pkgcache/inkscape/runimage/alpine/stable/inkscape:1.4-aarch64-linux
   size: 74 MB
+  bsum: 552c6f7c05f889b9aefa1ea30b07ce340ef105b71b3178e1585806b49c30296a
   build_date: "2025-02-02T14:34:36Z"
   src_urls:
   - https://gitlab.alpinelinux.org/alpine/aports/-/tree/master/community/inkscape
@@ -1023,6 +1060,7 @@ pkgcache:
   version: 24.12.3
   download_url: oci://ghcr.io/pkgforge/pkgcache/kdenlive/runimage/alpine/stable/kdenlive:24.12.3-aarch64-linux
   size: 210 MB
+  bsum: 7a3788d742f3e222927e3b7ef30d9ceb905f23a6f670df2dbc0918f0c206d836
   build_date: "2025-03-21T19:21:13Z"
   src_urls:
   - https://gitlab.alpinelinux.org/alpine/aports/-/tree/master/community/kdenlive
@@ -1048,6 +1086,7 @@ pkgcache:
   version: 5.2.9
   download_url: oci://ghcr.io/pkgforge/pkgcache/krita/runimage/alpine/stable/krita:5.2.9-aarch64-linux
   size: 199 MB
+  bsum: 853126ca467bab7543ee74accf87d1fa3328d24b57bad4e68433cd4118b82da0
   build_date: "2025-02-03T15:06:09Z"
   src_urls:
   - https://gitlab.alpinelinux.org/alpine/aports/-/tree/master/community/krita
@@ -1071,6 +1110,7 @@ pkgcache:
   version: "7.95"
   download_url: oci://ghcr.io/pkgforge/pkgcache/nmap/runimage/alpine/stable/nmap:7.95-aarch64-linux
   size: 42 MB
+  bsum: f752ac3ce3735f3557083f053209c98ce5e163ecbcd11598fbe8807a9134dbdd
   build_date: "2025-02-16T11:58:30Z"
   src_urls:
   - https://github.com/nmap/nmap
@@ -1092,6 +1132,7 @@ pkgcache:
   version: "20240203.110809"
   download_url: oci://ghcr.io/pkgforge/pkgcache/wezterm/runimage/alpine/stable/wezterm:20240203.110809-aarch64-linux
   size: 105 MB
+  bsum: 0fd934ea58d3b26f10f7cec2d928af04113f75230ef4213489350bbea23da8e7
   build_date: "2025-01-27T18:42:11Z"
   src_urls:
   - https://github.com/wez/wezterm
@@ -1112,6 +1153,7 @@ pkgcache:
   version: 4.3.2
   download_url: oci://ghcr.io/pkgforge/pkgcache/blender/runimage/debian/stable/blender:4.3.2-aarch64-linux
   size: 305 MB
+  bsum: 3de3aa87f258e32544f64d302aca117ff1fcb344458b36646d4b36d3494678e5
   build_date: "2025-01-26T16:54:51Z"
   src_urls:
   - https://blender.org
@@ -1132,6 +1174,7 @@ pkgcache:
   version: "6.07"
   download_url: oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk:6.07-aarch64-linux
   size: 67 MB
+  bsum: ea31bd11afcca964cf9eea4782a9ff5b7770900029112e4b0c03c801782bea9a
   build_date: "2025-04-01T18:59:13Z"
   src_urls:
   - https://github.com/dave-theunsub/clamtk
@@ -1156,6 +1199,7 @@ pkgcache:
   version: 1.14.5
   download_url: oci://ghcr.io/pkgforge/pkgcache/chafa/archive/sharun/alpine/chafa:1.14.5-aarch64-linux
   size: 14 MB
+  bsum: 4d6434e4194c35ba46b526ac5ab2703c71086995c78dd20d2c705df9fb7e9c59
   build_date: "2025-04-01T01:56:04Z"
   src_urls:
   - https://github.com/hpjansson/chafa
@@ -1180,6 +1224,7 @@ pkgcache:
   version: "7.95"
   download_url: oci://ghcr.io/pkgforge/pkgcache/nmap/archive/sharun/alpine/nping:7.95-aarch64-linux
   size: 3.9 MB
+  bsum: b08e3cc7d31ad04a5956b8bc2ab4533d55e27354f6d8df9271d7d9e79cd66190
   build_date: "2025-04-01T02:22:23Z"
   src_urls:
   - https://github.com/nmap/nmap
@@ -1205,6 +1250,7 @@ pkgcache:
   version: "7.95"
   download_url: oci://ghcr.io/pkgforge/pkgcache/nmap/archive/sharun/alpine/nmap:7.95-aarch64-linux
   size: 4.7 MB
+  bsum: d26ea92642d721c8b3fb373edebcf1d24c9cd9f4a9292fd2d5c6afe1b7d5d0d9
   build_date: "2025-04-01T02:22:22Z"
   src_urls:
   - https://github.com/nmap/nmap
@@ -1230,6 +1276,7 @@ pkgcache:
   version: "7.95"
   download_url: oci://ghcr.io/pkgforge/pkgcache/nmap/archive/sharun/alpine/ncat:7.95-aarch64-linux
   size: 3.2 MB
+  bsum: 71563fa4902e201a8d94d6d865378e5b5e9ec0bd91f173305935c0718021fd24
   build_date: "2025-04-01T02:22:20Z"
   src_urls:
   - https://github.com/nmap/nmap
@@ -1255,6 +1302,7 @@ pkgcache:
   version: "4.17"
   download_url: oci://ghcr.io/pkgforge/pkgcache/proxychains/archive/sharun/alpine/proxychains:4.17-aarch64-linux
   size: 752 KB
+  bsum: 1fef346af7589cff130527df2954318fc970a046476b53452e1164823a20a970
   build_date: "2025-02-28T17:49:11Z"
   src_urls:
   - https://github.com/rofl0r/proxychains-ng
@@ -1275,6 +1323,7 @@ pkgcache:
   version: "4.17"
   download_url: oci://ghcr.io/pkgforge/pkgcache/proxychains/archive/sharun/alpine/proxychains-daemon:4.17-aarch64-linux
   size: 756 KB
+  bsum: 0225f4ca16946d08264c7e901fd3a34645506038b5fc3190fe42e76b19dfa963
   build_date: "2025-02-28T17:49:12Z"
   src_urls:
   - https://github.com/rofl0r/proxychains-ng
@@ -1295,6 +1344,7 @@ pkgcache:
   version: 1.14.4
   download_url: oci://ghcr.io/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnadmin:1.14.4-aarch64-linux
   size: 2.5 MB
+  bsum: d3a72c79aadb4d82cdb2902ec51c57381eabe892a8f328fe2395c6b306f01570
   build_date: "2025-04-01T03:53:36Z"
   src_urls:
   - https://github.com/apache/subversion
@@ -1316,6 +1366,7 @@ pkgcache:
   version: 1.14.4
   download_url: oci://ghcr.io/pkgforge/pkgcache/subversion/archive/sharun/alpine/svndumpfilter:1.14.4-aarch64-linux
   size: 2.5 MB
+  bsum: 8fd5f9f3899f7fecedf506bd954ec46c84786b269446c78f093a28184f170196
   build_date: "2025-04-01T03:53:38Z"
   src_urls:
   - https://github.com/apache/subversion
@@ -1337,6 +1388,7 @@ pkgcache:
   version: 1.14.4
   download_url: oci://ghcr.io/pkgforge/pkgcache/subversion/archive/sharun/alpine/svn:1.14.4-aarch64-linux
   size: 5.3 MB
+  bsum: 440a774668674987611cca76802e9f50b564d3fcb01df4f4a30b9ebaa3d606a3
   build_date: "2025-04-01T03:53:35Z"
   src_urls:
   - https://github.com/apache/subversion
@@ -1358,6 +1410,7 @@ pkgcache:
   version: 1.14.4
   download_url: oci://ghcr.io/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnbench:1.14.4-aarch64-linux
   size: 5.2 MB
+  bsum: 4e2cc17ce0a7fbdc556df5f844e3fefe74770abd82beadd63509f1a2e045f523
   build_date: "2025-04-01T03:53:37Z"
   src_urls:
   - https://github.com/apache/subversion
@@ -1379,6 +1432,7 @@ pkgcache:
   version: 1.14.4
   download_url: oci://ghcr.io/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnfsfs:1.14.4-aarch64-linux
   size: 2.5 MB
+  bsum: b370cbb29ebfc52c70cc14e731a11918f0d5f747ac2484880845071db4435895
   build_date: "2025-04-01T03:53:39Z"
   src_urls:
   - https://github.com/apache/subversion
@@ -1400,6 +1454,7 @@ pkgcache:
   version: 1.14.4
   download_url: oci://ghcr.io/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnlook:1.14.4-aarch64-linux
   size: 2.5 MB
+  bsum: a15c3d56ea9c19f6e77224d842135c8e10ca5a58ffa2186e83b6376e0962dffe
   build_date: "2025-04-01T03:53:40Z"
   src_urls:
   - https://github.com/apache/subversion
@@ -1421,6 +1476,7 @@ pkgcache:
   version: 1.14.4
   download_url: oci://ghcr.io/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnmucc:1.14.4-aarch64-linux
   size: 5.2 MB
+  bsum: f637cc84685a04492080c4811bca0dfaede6f01460926010f49298bfe7360ef6
   build_date: "2025-04-01T03:53:41Z"
   src_urls:
   - https://github.com/apache/subversion
@@ -1442,6 +1498,7 @@ pkgcache:
   version: 1.14.4
   download_url: oci://ghcr.io/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnrdump:1.14.4-aarch64-linux
   size: 5.2 MB
+  bsum: 21af369a723e7e15abd30e49a624f90d7b845551f680df03c781eb9b85bbd22f
   build_date: "2025-04-01T03:53:42Z"
   src_urls:
   - https://github.com/apache/subversion
@@ -1463,6 +1520,7 @@ pkgcache:
   version: 1.14.4
   download_url: oci://ghcr.io/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnversion:1.14.4-aarch64-linux
   size: 2.4 MB
+  bsum: 7fe90ba96ab9a96ba1e978de510b1894d04a5d650df5ab589416c0dddc0b0660
   build_date: "2025-04-01T03:53:45Z"
   src_urls:
   - https://github.com/apache/subversion
@@ -1484,6 +1542,7 @@ pkgcache:
   version: 1.14.4
   download_url: oci://ghcr.io/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnsync:1.14.4-aarch64-linux
   size: 4.8 MB
+  bsum: 236e584c409230bff3eac83e4473dbc55bf1eeccd4df1fbf246dde8c09a30479
   build_date: "2025-04-01T03:53:44Z"
   src_urls:
   - https://github.com/apache/subversion
@@ -1505,6 +1564,7 @@ pkgcache:
   version: 1.14.4
   download_url: oci://ghcr.io/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnserve:1.14.4-aarch64-linux
   size: 2.6 MB
+  bsum: 075985a8cba21c7f4b4548c0a627e087bc78394f509272a1db045c2959e21083
   build_date: "2025-04-01T03:53:43Z"
   src_urls:
   - https://github.com/apache/subversion
@@ -1526,6 +1586,7 @@ pkgcache:
   version: 1.0.10
   download_url: oci://ghcr.io/pkgforge/pkgcache/xhost/archive/sharun/alpine/xhost:1.0.10-aarch64-linux
   size: 1.5 MB
+  bsum: e65d73b1a9c6175d1a45350226f62b9bade8a8d38e80eaa84fad0c5ab92a2f77
   build_date: "2025-04-01T01:58:19Z"
   src_urls:
   - https://gitlab.freedesktop.org/xorg/app/xhost
@@ -1549,6 +1610,7 @@ pkgcache:
   version: "1.20.10.3#LastdigitisDebianspkgrel"
   download_url: oci://ghcr.io/pkgforge/pkgcache/xvfb-run/archive/sharun/alpine/xvfb-run:1.20.10.3_LastdigitisDebianspkgrel-aarch64-linux
   size: 64 MB
+  bsum: ad4322f4fe57d1518524d1402e7baf3f9ee191f83eb4269147c780b2a65e77ee
   build_date: "2025-03-04T13:16:09Z"
   src_urls:
   - https://packages.gentoo.org/packages/x11-misc/xvfb-run
@@ -1569,6 +1631,7 @@ pkgcache:
   version: 4.6.0
   download_url: oci://ghcr.io/pkgforge/pkgcache/wrangler/archive/sharun/npm/wrangler:4.6.0-aarch64-linux
   size: 121 MB
+  bsum: e815f41cb4c2299f83457019b1e191d4e60c08ae9d93b41c95cc8fd87f46f3cc
   build_date: "2025-03-28T19:37:57Z"
   src_urls:
   - https://www.npmjs.com/package/wrangler
@@ -1611,6 +1674,7 @@ pkgcache:
   version: 3.3.5
   download_url: oci://ghcr.io/pkgforge/pkgcache/anipy-cli/archive/sharun/pypi/anipy-cli:3.3.5-aarch64-linux
   size: 24 MB
+  bsum: 10081ecf1e28b08c4f0dffc7fd791833b0a88bf8bef2f591544f24eda0c0559d
   build_date: "2025-02-23T08:45:20Z"
   src_urls:
   - https://pypi.org/project/anipy-cli
@@ -1632,6 +1696,7 @@ pkgcache:
   version: 1.9.3
   download_url: oci://ghcr.io/pkgforge/pkgcache/apprise/archive/sharun/pypi/apprise:1.9.3-aarch64-linux
   size: 19 MB
+  bsum: 006ef32d01a4ff7887d11cdf93f1d790ee88f757b5293067569c66015e842b62
   build_date: "2025-04-01T19:01:29Z"
   src_urls:
   - https://pypi.org/project/apprise
@@ -1656,6 +1721,7 @@ pkgcache:
   version: 3.2.1
   download_url: oci://ghcr.io/pkgforge/pkgcache/aqtinstall/archive/sharun/pypi/aqtinstall:3.2.1-aarch64-linux
   size: 22 MB
+  bsum: a44a99820cb33ee2e3f0de1bb9cfdc975678b4b62be39e3c4bbb18a1d45b7f3d
   build_date: "2025-03-16T14:42:11Z"
   src_urls:
   - https://pypi.org/project/aqtinstall
@@ -1680,6 +1746,7 @@ pkgcache:
   version: 4.15.0.0
   download_url: oci://ghcr.io/pkgforge/pkgcache/archey/archive/sharun/pypi/archey:4.15.0.0-aarch64-linux
   size: 20 MB
+  bsum: 7e00378c7938d25fbbf3cf529adde6ce70fb7ff3fd383bbe62bd29a23bbe035a
   build_date: "2025-02-22T14:18:05Z"
   src_urls:
   - https://pypi.org/project/archey4
@@ -1700,6 +1767,7 @@ pkgcache:
   version: 0.7.3
   download_url: oci://ghcr.io/pkgforge/pkgcache/audiobook-dl/archive/sharun/pypi/audiobook-dl:0.7.3-aarch64-linux
   size: 53 MB
+  bsum: 5402511f0aa7733ca6d183acd49c2f5866839516495a7fb21333802f9eec2af4
   build_date: "2025-02-23T08:48:18Z"
   src_urls:
   - https://pypi.org/project/audiobook-dl
@@ -1720,6 +1788,7 @@ pkgcache:
   version: 1.38.24
   download_url: oci://ghcr.io/pkgforge/pkgcache/awscli/archive/sharun/pypi/aws:1.38.24-aarch64-linux
   size: 32 MB
+  bsum: 992fdde04422ad89283b6e5562a1339a5301e25dabf94b5a705cbcbbe818a897
   build_date: "2025-04-01T19:01:02Z"
   src_urls:
   - https://pypi.org/project/awscli
@@ -1779,6 +1848,7 @@ pkgcache:
   version: 1.9.132
   download_url: oci://ghcr.io/pkgforge/pkgcache/baddns/archive/sharun/pypi/baddns:1.9.132-aarch64-linux
   size: 18 MB
+  bsum: 9f55108afe8bc193422b5c8806d8bc962cbf7dc58aaf45d9e295b1c962b48cb4
   build_date: "2025-03-28T19:00:17Z"
   src_urls:
   - https://pypi.org/project/baddns
@@ -1806,6 +1876,7 @@ pkgcache:
   version: 2.2.0
   download_url: oci://ghcr.io/pkgforge/pkgcache/beet/archive/sharun/pypi/beet:2.2.0-aarch64-linux
   size: 16 MB
+  bsum: 52e811fc957da6d9bf05c26ba768910f024d55c135c95e9f5f46e946e098cee6
   build_date: "2025-02-21T18:56:46Z"
   src_urls:
   - https://pypi.org/project/beets
@@ -1827,6 +1898,7 @@ pkgcache:
   version: 3.3.0
   download_url: oci://ghcr.io/pkgforge/pkgcache/certbot/archive/sharun/pypi/certbot:3.3.0-aarch64-linux
   size: 21 MB
+  bsum: 176c234549d842a83ec6ebf0bfa348d37c277350bc85dbbc4cadd7f8411da78c
   build_date: "2025-03-11T19:00:31Z"
   src_urls:
   - https://pypi.org/project/certbot
@@ -1851,6 +1923,7 @@ pkgcache:
   version: HEAD-7f82a22-250330T094417
   download_url: oci://ghcr.io/pkgforge/pkgcache/commix/archive/sharun/pypi/commix:HEAD-7f82a22-250330T094417-aarch64-linux
   size: 15 MB
+  bsum: f90b92143aebc72fa23cd4cff908eefb63f39605c55f81f15c089c67478b5d12
   build_date: "2025-03-30T18:54:11Z"
   src_urls:
   - https://github.com/commixproject/commix
@@ -1885,6 +1958,7 @@ pkgcache:
   version: 1.11.2
   download_url: oci://ghcr.io/pkgforge/pkgcache/credsweeper/archive/sharun/pypi/credsweeper:1.11.2-aarch64-linux
   size: 20 MB
+  bsum: e0cd0fc706b91426ee67f0fe1bea696e4eb009e4b28e5b90472dcfa44f2e0dd0
   build_date: "2025-03-25T18:58:43Z"
   src_urls:
   - https://pypi.org/project/credsweeper
@@ -1917,6 +1991,7 @@ pkgcache:
   version: "2.2"
   download_url: oci://ghcr.io/pkgforge/pkgcache/ddgr/archive/sharun/pypi/ddgr:2.2-aarch64-linux
   size: 13 MB
+  bsum: 532412b21726feaaeaeecd35cc1039c98ce8e19fe43ff135167c7e3fcfdf88d7
   build_date: "2025-02-21T13:43:29Z"
   src_urls:
   - https://pypi.org/project/ddgr
@@ -1937,6 +2012,7 @@ pkgcache:
   version: 3.59.1
   download_url: oci://ghcr.io/pkgforge/pkgcache/dvc/archive/sharun/pypi/dvc:3.59.1-aarch64-linux
   size: 129 MB
+  bsum: 55d97002b10f50bbc9fa3dfe8e73ba222c6a8ee6b0c0b66459525acd0977a9ee
   build_date: "2025-02-22T14:20:02Z"
   src_urls:
   - https://pypi.org/project/dvc
@@ -1957,6 +2033,7 @@ pkgcache:
   version: 4.44.0
   download_url: oci://ghcr.io/pkgforge/pkgcache/fanficfare/archive/sharun/pypi/fanficfare:4.44.0-aarch64-linux
   size: 20 MB
+  bsum: b4f3ac4f2bc89a53ca0ce61b3c70a945a01197073b7e7660b3acc23f7e07411d
   build_date: "2025-04-01T19:16:12Z"
   src_urls:
   - https://pypi.org/project/fanficfare
@@ -1982,6 +2059,7 @@ pkgcache:
   version: 5.0.0
   download_url: oci://ghcr.io/pkgforge/pkgcache/getaltname/archive/sharun/pypi/gsan:5.0.0-aarch64-linux
   size: 24 MB
+  bsum: 1c30fda2708e19457854ca8274bae12a27935c14e73e5bc5c674eb2cb2799c33
   build_date: "2025-02-26T08:08:17Z"
   src_urls:
   - https://pypi.org/project/gsan
@@ -2003,6 +2081,7 @@ pkgcache:
   version: 1.0.8
   download_url: oci://ghcr.io/pkgforge/pkgcache/git-dumper/archive/sharun/pypi/git-dumper:1.0.8-aarch64-linux
   size: 20 MB
+  bsum: cc62b00c605ca1f9e9392c6f856440e3df34cc5dd3d49afec8650b5ca21ad8ca
   build_date: "2025-02-22T14:22:54Z"
   src_urls:
   - https://pypi.org/project/git-dumper
@@ -2023,6 +2102,7 @@ pkgcache:
   version: 0.27.0
   download_url: oci://ghcr.io/pkgforge/pkgcache/gptme/archive/sharun/pypi/gptme:0.27.0-aarch64-linux
   size: 42 MB
+  bsum: 6481203eb659781cc9a4f4fa325caaf9bc663aa374e44278e26da96284b69c62
   build_date: "2025-03-12T21:27:59Z"
   src_urls:
   - https://pypi.org/project/gptme
@@ -2047,6 +2127,7 @@ pkgcache:
   version: 2.5.4
   download_url: oci://ghcr.io/pkgforge/pkgcache/gtts-cli/archive/sharun/pypi/gtts-cli:2.5.4-aarch64-linux
   size: 15 MB
+  bsum: cd8be7930ca8c7613cb3b1eea971ca12e01da79060e294be8bf40ccb78405324
   build_date: "2025-02-21T13:43:28Z"
   src_urls:
   - https://pypi.org/project/gtts-cli
@@ -2068,6 +2149,7 @@ pkgcache:
   version: 2.5.0
   download_url: oci://ghcr.io/pkgforge/pkgcache/guarddog/archive/sharun/pypi/guarddog:2.5.0-aarch64-linux
   size: 67 MB
+  bsum: ed375740a3e0a497dc3faa2f24f1b11e80e6fef547857914ab9de3839dd1910f
   build_date: "2025-03-12T21:35:19Z"
   src_urls:
   - https://pypi.org/project/guarddog
@@ -2092,6 +2174,7 @@ pkgcache:
   version: 3.2.4
   download_url: oci://ghcr.io/pkgforge/pkgcache/httpie/archive/sharun/pypi/httpie:3.2.4-aarch64-linux
   size: 19 MB
+  bsum: bfbcf3c87220ee31cbe414c9e0a6076bc2546def98ff9fd5535ea0fc5c93a363
   build_date: "2025-02-21T13:44:22Z"
   src_urls:
   - https://pypi.org/project/httpie
@@ -2113,6 +2196,7 @@ pkgcache:
   version: 2.0.5
   download_url: oci://ghcr.io/pkgforge/pkgcache/image-bootstrap/archive/sharun/pypi/image-bootstrap:2.0.5-aarch64-linux
   size: 41 MB
+  bsum: 8d6fe16dce96d216d0d2e16933a924ac80cb61e76d955445304794cbc18812a4
   build_date: "2025-02-23T08:49:02Z"
   src_urls:
   - https://pypi.org/project/image-bootstrap
@@ -2134,6 +2218,7 @@ pkgcache:
   version: 0.5.1
   download_url: oci://ghcr.io/pkgforge/pkgcache/isd/archive/sharun/pypi/isd:0.5.1-aarch64-linux
   size: 23 MB
+  bsum: b25bb8f2c762c4aac9e27c977896e51d4c807f12781d9874fe36401f71508f75
   build_date: "2025-02-24T19:33:12Z"
   src_urls:
   - https://pypi.org/project/isd
@@ -2158,6 +2243,7 @@ pkgcache:
   version: 6.0.1
   download_url: oci://ghcr.io/pkgforge/pkgcache/isort/archive/sharun/pypi/isort:6.0.1-aarch64-linux
   size: 14 MB
+  bsum: 66ee63f9bcd69913a7e9c995227b0b0aedd983a4f22e764628a19f8086c84c35
   build_date: "2025-02-28T18:59:31Z"
   src_urls:
   - https://pypi.org/project/isort
@@ -2181,6 +2267,7 @@ pkgcache:
   version: 1.25.4
   download_url: oci://ghcr.io/pkgforge/pkgcache/jc/archive/sharun/pypi/jc:1.25.4-aarch64-linux
   size: 19 MB
+  bsum: a023e85e24d237e0552f4b01c374b474f1f42f633b71aae68ddd8b4a27853a72
   build_date: "2025-02-21T13:51:12Z"
   src_urls:
   - https://pypi.org/project/jc
@@ -2201,6 +2288,7 @@ pkgcache:
   version: 4.2.1
   download_url: oci://ghcr.io/pkgforge/pkgcache/jrnl/archive/sharun/pypi/jrnl:4.2.1-aarch64-linux
   size: 24 MB
+  bsum: b94b8dec9a8243462bea54ee3a6da7084fbfa32b52843f3103c87d110426e080
   build_date: "2025-02-25T19:08:51Z"
   src_urls:
   - https://pypi.org/project/jrnl
@@ -2225,6 +2313,7 @@ pkgcache:
   version: 0.77.0
   download_url: oci://ghcr.io/pkgforge/pkgcache/klp/archive/sharun/pypi/klp:0.77.0-aarch64-linux
   size: 14 MB
+  bsum: 11591c26c687fbefa8d2b2a555de498d587145a10adfd2b658327f83f5df773c
   build_date: "2025-02-23T08:45:28Z"
   src_urls:
   - https://pypi.org/project/klp-logviewer
@@ -2245,6 +2334,7 @@ pkgcache:
   version: 1.1.2
   download_url: oci://ghcr.io/pkgforge/pkgcache/linkook/archive/sharun/pypi/linkook:1.1.2-aarch64-linux
   size: 15 MB
+  bsum: fc322163eaf4d0c034c7412bef8c6f0f5e25f06a9d6aa428d9c2ce71efd648e8
   build_date: "2025-03-05T20:12:03Z"
   src_urls:
   - https://pypi.org/project/linkook
@@ -2268,6 +2358,7 @@ pkgcache:
   version: 6.1.1
   download_url: oci://ghcr.io/pkgforge/pkgcache/malwoverview/archive/sharun/pypi/malwoverview:6.1.1-aarch64-linux
   size: 18 MB
+  bsum: 0941ba6d81080fed051240b4a2ffacc2ba22233d732873196ea8714cc2588ee7
   build_date: "2025-02-21T15:33:01Z"
   src_urls:
   - https://pypi.org/project/malwoverview
@@ -2288,6 +2379,7 @@ pkgcache:
   version: 11.1.3
   download_url: oci://ghcr.io/pkgforge/pkgcache/mitmproxy/archive/sharun/pypi/mitmproxy:11.1.3-aarch64-linux
   size: 41 MB
+  bsum: 799d7b12eaa585737aa1f6e3af5402cfe8aa32fbf6e35d8a4045eace34928d3f
   build_date: "2025-02-24T03:04:10Z"
   src_urls:
   - https://pypi.org/project/mitmproxy
@@ -2309,6 +2401,7 @@ pkgcache:
   version: 3.54.1
   download_url: oci://ghcr.io/pkgforge/pkgcache/oci-cli/archive/sharun/pypi/oci:3.54.1-aarch64-linux
   size: 140 MB
+  bsum: 66ae8156507a6c8542dc6a08b10200bfcb6581b0f188d7fba168cb752137dd32
   build_date: "2025-04-01T19:33:16Z"
   src_urls:
   - https://pypi.org/project/oci-cli
@@ -2343,6 +2436,7 @@ pkgcache:
   version: 0.4.0
   download_url: oci://ghcr.io/pkgforge/pkgcache/pdfly/archive/sharun/pypi/pdfly:0.4.0-aarch64-linux
   size: 30 MB
+  bsum: 0eb49498c895787d4553bc29a6389a12bf9ebc73cc41a19185c9cbd89e6c02ff
   build_date: "2025-02-21T13:55:33Z"
   src_urls:
   - https://pypi.org/project/pdfly
@@ -2364,6 +2458,7 @@ pkgcache:
   version: 3.6.0
   download_url: oci://ghcr.io/pkgforge/pkgcache/pg_activity/archive/sharun/pypi/pg_activity:3.6.0-aarch64-linux
   size: 19 MB
+  bsum: 5e68a7ace288dcaefb2ec6eee9f000f30c1bcac2e15eec8ed6545cb9d169eefb
   build_date: "2025-02-21T15:31:54Z"
   src_urls:
   - https://pypi.org/project/pg_activity
@@ -2384,6 +2479,7 @@ pkgcache:
   version: 0.7.4
   download_url: oci://ghcr.io/pkgforge/pkgcache/port-for/archive/sharun/pypi/port-for:0.7.4-aarch64-linux
   size: 13 MB
+  bsum: a3871138576582b5330de80530ed7778b64a6f73ff8fa19108429f5104a4a013
   build_date: "2025-02-23T08:45:40Z"
   src_urls:
   - https://pypi.org/project/port-for
@@ -2404,6 +2500,7 @@ pkgcache:
   version: "3.14"
   download_url: oci://ghcr.io/pkgforge/pkgcache/ps_mem/archive/sharun/pypi/ps_mem:3.14-aarch64-linux
   size: 13 MB
+  bsum: e963b37e65a5a80da33daa3a6a1fb6b77fbd9d625c952759e2b30fb603d860b1
   build_date: "2025-02-21T13:56:15Z"
   src_urls:
   - https://pypi.org/project/ps_mem
@@ -2424,6 +2521,7 @@ pkgcache:
   version: "0.30"
   download_url: oci://ghcr.io/pkgforge/pkgcache/puncia/archive/sharun/pypi/puncia:0.30-aarch64-linux
   size: 14 MB
+  bsum: 68d0005d3b68a35344e09ea0617b8ef82de920ecbcc94af2ef871d91ccf35da5
   build_date: "2025-03-25T19:35:30Z"
   src_urls:
   - https://pypi.org/project/puncia
@@ -2448,6 +2546,7 @@ pkgcache:
   version: 9.1.2
   download_url: oci://ghcr.io/pkgforge/pkgcache/pyarmor/archive/sharun/pypi/pyarmor:9.1.2-aarch64-linux
   size: 17 MB
+  bsum: 3eb4d9067e331b214ba291093c9cfb70e139b909e050dbc74cd704926f194e77
   build_date: "2025-03-23T19:15:15Z"
   src_urls:
   - https://pypi.org/project/pyarmor
@@ -2476,6 +2575,7 @@ pkgcache:
   version: 1.3.0
   download_url: oci://ghcr.io/pkgforge/pkgcache/pyp/archive/sharun/pypi/pyp:1.3.0-aarch64-linux
   size: 13 MB
+  bsum: 21d32cce9e1748b2adf4edd4cbcf33f62289bed5fcb5db385b4fa98304a52c62
   build_date: "2025-02-21T14:01:52Z"
   src_urls:
   - https://pypi.org/project/pyp
@@ -2496,6 +2596,7 @@ pkgcache:
   version: 6.0.1
   download_url: oci://ghcr.io/pkgforge/pkgcache/resolve-march-native/archive/sharun/pypi/resolve-march-native:6.0.1-aarch64-linux
   size: 83 MB
+  bsum: 8b9d249044db38294caf692d3ee9704890f843932141be2b7556c7c6495abefa
   build_date: "2025-02-23T08:46:52Z"
   src_urls:
   - https://pypi.org/project/resolve-march-native
@@ -2516,6 +2617,7 @@ pkgcache:
   version: 4.3.0
   download_url: oci://ghcr.io/pkgforge/pkgcache/sandwine/archive/sharun/pypi/sandwine:4.3.0-aarch64-linux
   size: 14 MB
+  bsum: bd8c83a92520e946b1a6eb00dfb3986b53ebe00add6a51700a217246677dda72
   build_date: "2025-02-23T08:54:44Z"
   src_urls:
   - https://pypi.org/project/sandwine
@@ -2536,6 +2638,7 @@ pkgcache:
   version: 4.9.1
   download_url: oci://ghcr.io/pkgforge/pkgcache/scons/archive/sharun/pypi/scons:4.9.1-aarch64-linux
   size: 18 MB
+  bsum: 9ace90cf72acc5d8c02dea1c124b072b84844fffe7c7a9a58fbd7e9f22b0c82b
   build_date: "2025-03-28T19:31:21Z"
   src_urls:
   - https://pypi.org/project/scons
@@ -2562,6 +2665,7 @@ pkgcache:
   version: 1.4.4
   download_url: oci://ghcr.io/pkgforge/pkgcache/shell-gpt/archive/sharun/pypi/sgpt:1.4.4-aarch64-linux
   size: 29 MB
+  bsum: 06ea4dd539c6a949a1c4cb50ad33c6763da26742a690cf1fe38ab7356aa7f45e
   build_date: "2025-02-21T14:04:03Z"
   src_urls:
   - https://pypi.org/project/shell-gpt
@@ -2582,6 +2686,7 @@ pkgcache:
   version: 0.15.0
   download_url: oci://ghcr.io/pkgforge/pkgcache/sherlock/archive/sharun/pypi/sherlock:0.15.0-aarch64-linux
   size: 51 MB
+  bsum: 78741323b86fcd34b349bbaf6ef24414b19669c8a5a335481f0c07ce6a2bc3fc
   build_date: "2025-02-21T14:13:27Z"
   src_urls:
   - https://pypi.org/project/sherlock-project
@@ -2602,6 +2707,7 @@ pkgcache:
   version: "1.8"
   download_url: oci://ghcr.io/pkgforge/pkgcache/shot-scraper/archive/sharun/pypi/shot-scraper:1.8-aarch64-linux
   size: 54 MB
+  bsum: cd10125da6d0e2ed7d00631931b20dc46027f02d59a8747c448452ed1f28ddc2
   build_date: "2025-03-25T19:33:54Z"
   src_urls:
   - https://pypi.org/project/shot-scraper
@@ -2627,6 +2733,7 @@ pkgcache:
   version: 0.3.3
   download_url: oci://ghcr.io/pkgforge/pkgcache/showcert/archive/sharun/pypi/showcert:0.3.3-aarch64-linux
   size: 19 MB
+  bsum: ea4a4fc82b6ea0bedc18cecf287e522c1e5f7ee081fd4e17b90504debc89fd0a
   build_date: "2025-02-23T08:56:17Z"
   src_urls:
   - https://pypi.org/project/showcert
@@ -2647,6 +2754,7 @@ pkgcache:
   version: 0.0.13
   download_url: oci://ghcr.io/pkgforge/pkgcache/snallygaster/archive/sharun/pypi/snallygaster:0.0.13-aarch64-linux
   size: 15 MB
+  bsum: 1848e00ccc61a81d63f9ce8bc0db32f5626ab4ff6b644873c04ed7d3a188451d
   build_date: "2025-02-22T14:29:24Z"
   src_urls:
   - https://pypi.org/project/snallygaster
@@ -2667,6 +2775,7 @@ pkgcache:
   version: 7.1.3
   download_url: oci://ghcr.io/pkgforge/pkgcache/streamlink/archive/sharun/pypi/streamlink:7.1.3-aarch64-linux
   size: 45 MB
+  bsum: a784f83afbc2ed1f13d6f4080b6464199310e47e276add9e73f1efe1df932243
   build_date: "2025-02-21T14:09:23Z"
   src_urls:
   - https://pypi.org/project/streamlink
@@ -2688,6 +2797,7 @@ pkgcache:
   version: 5.1.3
   download_url: oci://ghcr.io/pkgforge/pkgcache/tldextract/archive/sharun/pypi/tldextract:5.1.3-aarch64-linux
   size: 15 MB
+  bsum: c7fbe747f8ea73460ba53001b8209350c84fa75a4ac46b06c5255acce2638c3c
   build_date: "2025-02-26T08:08:33Z"
   src_urls:
   - https://pypi.org/project/tldextract
@@ -2708,6 +2818,7 @@ pkgcache:
   version: 1.55.0
   download_url: oci://ghcr.io/pkgforge/pkgcache/tmuxp/archive/sharun/pypi/tmuxp:1.55.0-aarch64-linux
   size: 15 MB
+  bsum: a33a0b81028bf5c55e1deef1d17c4caaf58de36ef9f948003c226196ba22d4ff
   build_date: "2025-02-26T20:10:39Z"
   src_urls:
   - https://pypi.org/project/tmuxp
@@ -2734,6 +2845,7 @@ pkgcache:
   version: 2.0.0
   download_url: oci://ghcr.io/pkgforge/pkgcache/trafilatura/archive/sharun/pypi/trafilatura:2.0.0-aarch64-linux
   size: 44 MB
+  bsum: 7e3ca6082764ce6bec9d9fa9697bb3893047ec6a58d3b7b33e5d3e2b9ef831a9
   build_date: "2025-02-21T14:11:48Z"
   src_urls:
   - https://pypi.org/project/trafilatura
@@ -2755,6 +2867,7 @@ pkgcache:
   version: 6.1.0
   download_url: oci://ghcr.io/pkgforge/pkgcache/twine/archive/sharun/pypi/twine:6.1.0-aarch64-linux
   size: 26 MB
+  bsum: 8728b754f31d00ad754b1fa8fbe2bd4602ee451f5ce17fae3158074665272389
   build_date: "2025-02-21T14:09:57Z"
   src_urls:
   - https://pypi.org/project/twine
@@ -2776,6 +2889,7 @@ pkgcache:
   version: 2.11.0
   download_url: oci://ghcr.io/pkgforge/pkgcache/twitch-dl/archive/sharun/pypi/twitch-dl:2.11.0-aarch64-linux
   size: 16 MB
+  bsum: 38feedf91c1e7460fe73e54fbf63778953ae470f80c2b34e3a858b5c2c13744d
   build_date: "2025-03-03T19:42:16Z"
   src_urls:
   - https://pypi.org/project/twitch-dl
@@ -2799,6 +2913,7 @@ pkgcache:
   version: 1.3.17
   download_url: oci://ghcr.io/pkgforge/pkgcache/udocker/archive/sharun/pypi/udocker:1.3.17-aarch64-linux
   size: 31 MB
+  bsum: 9e1b20fb11d168594e23c1a1343e223e316aa89c0864c5a0327f9457f3426505
   build_date: "2025-04-01T02:03:39Z"
   src_urls:
   - https://pypi.org/project/udocker
@@ -2823,6 +2938,7 @@ pkgcache:
   version: 1.0.2
   download_url: oci://ghcr.io/pkgforge/pkgcache/uro/archive/sharun/pypi/uro:1.0.2-aarch64-linux
   size: 14 MB
+  bsum: aa0fd447a752e658174e32684f6b1811ff53e165fbf64cf754bda32bc5792e08
   build_date: "2025-02-25T13:45:33Z"
   src_urls:
   - https://pypi.org/project/uro
@@ -2843,6 +2959,7 @@ pkgcache:
   version: 1.0.11
   download_url: oci://ghcr.io/pkgforge/pkgcache/wappalyzer/archive/sharun/pypi/wappalyzer:1.0.11-aarch64-linux
   size: 50 MB
+  bsum: 513c3249ff687707c467b0d8c1e49782bc6d68b08809097275cabaccdff8569a
   build_date: "2025-02-25T13:46:11Z"
   src_urls:
   - https://pypi.org/project/wappalyzer
@@ -2864,6 +2981,7 @@ pkgcache:
   version: 0.19.3
   download_url: oci://ghcr.io/pkgforge/pkgcache/xonsh/archive/sharun/pypi/xonsh:0.19.3-aarch64-linux
   size: 21 MB
+  bsum: 46f5dcc277f96d3e238bd9aba633170ee6f05b08ac8668523a9f4893ff85d5df
   build_date: "2025-03-21T19:46:42Z"
   src_urls:
   - https://pypi.org/project/xonsh
@@ -2888,6 +3006,7 @@ pkgcache:
   version: 1.37.0
   download_url: oci://ghcr.io/pkgforge/pkgcache/yamllint/archive/sharun/pypi/yamllint:1.37.0-aarch64-linux
   size: 15 MB
+  bsum: 6729859bf460634e0e0242ecbcfa7b114a6ba129ed70ece56f6ee260ea2c6388
   build_date: "2025-03-23T19:21:05Z"
   src_urls:
   - https://pypi.org/project/yamllint
@@ -2917,6 +3036,7 @@ pkgcache:
   version: 2025.3.31
   download_url: oci://ghcr.io/pkgforge/pkgcache/yt-dlp/archive/sharun/pypi/yt-dlp:2025.3.31-aarch64-linux
   size: 23 MB
+  bsum: 56bd75a90c2dbd8f539817918d8ca4d63c8082be3e8c9f278bb0d58ca3f81664
   build_date: "2025-04-01T19:45:03Z"
   src_urls:
   - https://pypi.org/project/yt-dlp
@@ -2946,6 +3066,7 @@ pkgcache:
   version: HEAD-0676bc0-210907T170325
   download_url: oci://ghcr.io/pkgforge/pkgcache/emailfinder/archive/sharun/source/emailfinder:HEAD-0676bc0-210907T170325-aarch64-linux
   size: 18 MB
+  bsum: 4a8bc876ca1a641bde021c47ba55c87d5a6f9a2c268cc473b7bffa34c5d5d354
   build_date: "2025-03-07T11:23:19Z"
   src_urls:
   - https://github.com/Josue87/EmailFinder
@@ -2966,6 +3087,7 @@ pkgcache:
   version: HEAD-79b8949-230622T185041
   download_url: oci://ghcr.io/pkgforge/pkgcache/interlace/archive/sharun/source/interlace:HEAD-79b8949-230622T185041-aarch64-linux
   size: 16 MB
+  bsum: c5e250cabd8ca14f54b2b9c0fa961f049bf43c1a78dbf5c547a893b527d7aa06
   build_date: "2025-03-07T11:23:13Z"
   src_urls:
   - https://github.com/codingo/Interlace
@@ -2986,6 +3108,7 @@ pkgcache:
   version: HEAD-30c8475-231025T184726
   download_url: oci://ghcr.io/pkgforge/pkgcache/metafinder/archive/sharun/source/metafinder:HEAD-30c8475-231025T184726-aarch64-linux
   size: 31 MB
+  bsum: cf0e6ca89e655f9dc0b97298833f0810cb3f83a23edc0e54100ee077eb23e339
   build_date: "2025-03-07T11:23:24Z"
   src_urls:
   - https://github.com/Josue87/MetaFinder
@@ -3006,6 +3129,7 @@ pkgcache:
   version: HEAD-f9e98a2-250302T200506
   download_url: oci://ghcr.io/pkgforge/pkgcache/archey/archive/sharun/source/archey:HEAD-f9e98a2-250302T200506-aarch64-linux
   size: 20 MB
+  bsum: ca89561e449e64686be0b068e9dc435970a27ab35e9d450bd58a53e4769224fc
   build_date: "2025-03-03T19:02:27Z"
   src_urls:
   - https://github.com/HorlogeSkynet/archey4
@@ -3030,6 +3154,7 @@ pkgcache:
   version: HEAD-146c9b0-230118T005036
   download_url: oci://ghcr.io/pkgforge/pkgcache/dnsvalidator/archive/sharun/source/dnsvalidator:HEAD-146c9b0-230118T005036-aarch64-linux
   size: 18 MB
+  bsum: 0108745105a0c3f6bb2030921aaaa6ebb7b6062dc17e4a1b46ddf65b4e1bc12d
   build_date: "2025-03-07T11:21:38Z"
   src_urls:
   - https://github.com/vortexau/dnsvalidator
@@ -3050,6 +3175,7 @@ pkgcache:
   version: HEAD-31270c1-250325T094850
   download_url: oci://ghcr.io/pkgforge/pkgcache/dvc/archive/sharun/source/dvc:HEAD-31270c1-250325T094850-aarch64-linux
   size: 129 MB
+  bsum: da5e5322c73868f14a123c7c32656fb125036243cce513c89ea064e7aad1f462
   build_date: "2025-03-25T19:16:18Z"
   src_urls:
   - https://github.com/iterative/dvc
@@ -3075,6 +3201,7 @@ pkgcache:
   version: HEAD-d6bb1e5-250226T000945
   download_url: oci://ghcr.io/pkgforge/pkgcache/ghauri/archive/sharun/source/ghauri:HEAD-d6bb1e5-250226T000945-aarch64-linux
   size: 16 MB
+  bsum: e6b4c647232dae7c88a9b8773ff3abacf98680904dfe65bbabac70e25a2880ec
   build_date: "2025-03-07T11:22:06Z"
   src_urls:
   - https://github.com/r0oth3x49/ghauri
@@ -3095,6 +3222,7 @@ pkgcache:
   version: HEAD-6378820-250331T170049
   download_url: oci://ghcr.io/pkgforge/pkgcache/huggingface-cli/archive/sharun/source/huggingface-cli:HEAD-6378820-250331T170049-aarch64-linux
   size: 19 MB
+  bsum: 43621cf943944f2f71c3ea99285ed09738ab4db26b9919b5621d9828e41b8fe0
   build_date: "2025-04-01T19:24:14Z"
   src_urls:
   - https://github.com/huggingface/huggingface_hub
@@ -3144,6 +3272,7 @@ pkgcache:
   version: HEAD-ba595d3-250303T210850
   download_url: oci://ghcr.io/pkgforge/pkgcache/name-that-hash/archive/sharun/source/nth:HEAD-ba595d3-250303T210850-aarch64-linux
   size: 18 MB
+  bsum: cd13458f9d9ee4cb89f0a965026b4a805dbb5cffc16bebf6e75a90afa94d6a10
   build_date: "2025-03-07T11:23:45Z"
   src_urls:
   - https://github.com/bee-san/Name-That-Hash
@@ -3164,6 +3293,7 @@ pkgcache:
   version: HEAD-677e254-250401T005358
   download_url: oci://ghcr.io/pkgforge/pkgcache/netexec/archive/sharun/source/netexec:HEAD-677e254-250401T005358-aarch64-linux
   size: 81 MB
+  bsum: f0602503568490d7e4fc1b5afe7cbfa28fdc7b25e9f5ace0526f4667e9cb4845
   build_date: "2025-04-01T19:30:23Z"
   src_urls:
   - https://github.com/Pennyw0rth/NetExec
@@ -3216,6 +3346,7 @@ pkgcache:
   version: HEAD-1057c0c-240319T210034
   download_url: oci://ghcr.io/pkgforge/pkgcache/p1radup/archive/sharun/source/p1radup:HEAD-1057c0c-240319T210034-aarch64-linux
   size: 14 MB
+  bsum: 8a237780d6d8758a5e02eaac5fcd2405a1753d3781c691183630c630daf326c0
   build_date: "2025-03-07T11:22:12Z"
   src_urls:
   - https://github.com/iambouali/p1radup
@@ -3236,6 +3367,7 @@ pkgcache:
   version: HEAD-041fd30-240124T204726
   download_url: oci://ghcr.io/pkgforge/pkgcache/porch-pirate/archive/sharun/source/porch-pirate:HEAD-041fd30-240124T204726-aarch64-linux
   size: 15 MB
+  bsum: 7048f8e7f248391e45e3d1c85f4e93732021a3c916fe8bdc3ecdb132fc77f21c
   build_date: "2025-03-07T11:22:48Z"
   src_urls:
   - https://github.com/MandConsultingGroup/porch-pirate
@@ -3256,6 +3388,7 @@ pkgcache:
   version: HEAD-ba5a8e7-241121T125836
   download_url: oci://ghcr.io/pkgforge/pkgcache/urless/archive/sharun/source/urless:HEAD-ba5a8e7-241121T125836-aarch64-linux
   size: 16 MB
+  bsum: c7f2d74cfae1e05439990bb90585ecd63ee1816f663bd42cb881b94953f2116e
   build_date: "2025-03-07T11:30:16Z"
   src_urls:
   - https://github.com/xnl-h4ck3r/urless
@@ -3276,6 +3409,7 @@ pkgcache:
   version: HEAD-2b94868-241231T121755
   download_url: oci://ghcr.io/pkgforge/pkgcache/wafw00f/archive/sharun/source/wafw00f:HEAD-2b94868-241231T121755-aarch64-linux
   size: 15 MB
+  bsum: 880a91c5fbfd6bd44c441aded8abcd327c66d7fb0d926b51943832dd1bc4ed0e
   build_date: "2025-03-07T11:31:38Z"
   src_urls:
   - https://github.com/EnableSecurity/wafw00f
@@ -3296,6 +3430,7 @@ pkgcache:
   version: HEAD-58b5b36-250314T171837
   download_url: oci://ghcr.io/pkgforge/pkgcache/xmap/archive/sharun/source/xmap:HEAD-58b5b36-250314T171837-aarch64-linux
   size: 4.7 MB
+  bsum: 8da8e280f16b72b3dd91e7025b60bf407f66b35d0fd6f45db8cabee81b47bd02
   build_date: "2025-03-16T15:11:37Z"
   src_urls:
   - https://github.com/idealeer/xmap
@@ -3321,6 +3456,7 @@ pkgcache:
   version: HEAD-a203809-250320T002417
   download_url: oci://ghcr.io/pkgforge/pkgcache/xnlinkfinder/archive/sharun/source/xnlinkfinder:HEAD-a203809-250320T002417-aarch64-linux
   size: 39 MB
+  bsum: e7afc572e7736692b0d4bb6ef5b47596fe55a1ccccdc816294f753c722fbf818
   build_date: "2025-03-21T19:43:59Z"
   src_urls:
   - https://github.com/xnl-h4ck3r/xnLinkFinder
@@ -3348,6 +3484,7 @@ pkgcache:
   version: HEAD-349f366-250331T215427
   download_url: oci://ghcr.io/pkgforge/pkgcache/yt-dlp/archive/sharun/source/yt-dlp:HEAD-349f366-250331T215427-aarch64-linux
   size: 22 MB
+  bsum: 5dad0cef686faeca507135803d86c06a9dcbd623c7376871bd7ae6cd9af9b863
   build_date: "2025-04-01T19:52:12Z"
   src_urls:
   - https://github.com/yt-dlp/yt-dlp
@@ -3395,6 +3532,7 @@ pkgcache:
   version: HEAD-35531d6-250326T123154
   download_url: oci://ghcr.io/pkgforge/pkgcache/zmap/archive/sharun/source/zmap:HEAD-35531d6-250326T123154-aarch64-linux
   size: 3.6 MB
+  bsum: dcaa28890c94a86929f20deaff0a774d2ebed1ae323f669b52e8a16edcca4aaf
   build_date: "2025-03-28T19:42:35Z"
   src_urls:
   - https://github.com/zmap/zmap
@@ -3418,6 +3556,7 @@ pkgcache:
   version: HEAD-35531d6-250326T123154
   download_url: oci://ghcr.io/pkgforge/pkgcache/zmap/archive/sharun/source/ziterate:HEAD-35531d6-250326T123154-aarch64-linux
   size: 1.9 MB
+  bsum: eef6cd54abbcccd9c1fb14fd229b73336374c2840010c644c64b6a3e87730b58
   build_date: "2025-03-28T19:42:34Z"
   src_urls:
   - https://github.com/zmap/zmap
@@ -3441,6 +3580,7 @@ pkgcache:
   version: HEAD-35531d6-250326T123154
   download_url: oci://ghcr.io/pkgforge/pkgcache/zmap/archive/sharun/source/ztee:HEAD-35531d6-250326T123154-aarch64-linux
   size: 1.6 MB
+  bsum: 5a7f9818a3bf005576a820b5a0606565c01906adf067f50ff3bf6d368b4159f1
   build_date: "2025-03-28T19:42:36Z"
   src_urls:
   - https://github.com/zmap/zmap
@@ -3464,6 +3604,7 @@ pkgcache:
   version: HEAD-35531d6-250326T123154
   download_url: oci://ghcr.io/pkgforge/pkgcache/zmap/archive/sharun/source/zblocklist:HEAD-35531d6-250326T123154-aarch64-linux
   size: 1.6 MB
+  bsum: 7ebb18a6d5f798ed5df48c73a68d0a46c0746ccbac73c6a6e3971b24476d8b5e
   build_date: "2025-03-28T19:42:31Z"
   src_urls:
   - https://github.com/zmap/zmap
@@ -3489,6 +3630,7 @@ pkgcache:
   version: HEAD-35531d6-250326T123154
   download_url: oci://ghcr.io/pkgforge/pkgcache/zmap/archive/sharun/source/ztests:HEAD-35531d6-250326T123154-aarch64-linux
   size: 3.5 MB
+  bsum: 89e58f668c14b836a2ce940439e082a1a5e30563060f8066975775e540a42ab2
   build_date: "2025-03-28T19:42:36Z"
   src_urls:
   - https://github.com/zmap/zmap
@@ -3512,6 +3654,7 @@ pkgcache:
   version: v0.47.1
   download_url: oci://ghcr.io/pkgforge/pkgcache/caido-cli/archive/sharun/stable/caido-cli:v0.47.1-aarch64-linux
   size: 42 MB
+  bsum: 7486438970025d07f1108ef34b2461c95a0615052152bae3249e4c2cf41c7829
   build_date: "2025-03-21T19:06:10Z"
   src_urls:
   - https://github.com/caido/caido
@@ -3536,6 +3679,7 @@ pkgcache:
   version: 0.2-7078
   download_url: oci://ghcr.io/pkgforge/pkgcache/crave/archive/sharun/stable/crave:0.2-7078-aarch64-linux
   size: 24 MB
+  bsum: 7ca0fd84674705bd8c1ebe9e753b0a59d677a534052c8ab4e133ed2f74dd0f2c
   build_date: "2025-04-01T02:00:04Z"
   src_urls:
   - https://github.com/accupara/crave
@@ -3565,6 +3709,7 @@ pkgcache:
   version: 2.39.1
   download_url: oci://ghcr.io/pkgforge/pkgcache/fastfetch/archive/sharun/stable/fastfetch:2.39.1-aarch64-linux
   size: 72 MB
+  bsum: a0ea34a190865dda157fd2ab171e591e5fa8b0f164dc750284cb98595ae139ea
   build_date: "2025-04-01T02:04:15Z"
   src_urls:
   - https://github.com/fastfetch-cli/fastfetch
@@ -3593,6 +3738,7 @@ pkgcache:
   version: 2.39.1
   download_url: oci://ghcr.io/pkgforge/pkgcache/fastfetch/archive/sharun/stable/flashfetch:2.39.1-aarch64-linux
   size: 72 MB
+  bsum: 75b6cb8dd40fe06ffc46a840095840ddcefaa9bee6493cacdbec91eb0a16d1d6
   build_date: "2025-04-01T02:04:18Z"
   src_urls:
   - https://github.com/fastfetch-cli/fastfetch
@@ -3621,6 +3767,7 @@ pkgcache:
   version: HEAD-37175bb-250401T132152
   download_url: oci://ghcr.io/pkgforge/pkgcache/sudo-rs/archive/sharun/source/visudo:HEAD-37175bb-250401T132152-aarch64-linux
   size: 2.2 MB
+  bsum: 517f015e14aed0710baf9cd3470219bfa6712bfb8d27a8cba43601b2d8da0ea9
   build_date: "2025-04-01T19:50:47Z"
   src_urls:
   - https://github.com/trifectatechfoundation/sudo-rs
@@ -3674,6 +3821,7 @@ pkgcache:
   version: HEAD-37175bb-250401T132152
   download_url: oci://ghcr.io/pkgforge/pkgcache/sudo-rs/archive/sharun/source/su:HEAD-37175bb-250401T132152-aarch64-linux
   size: 3.1 MB
+  bsum: ef9c5b10849a979e9a0b43c00469a0612638cc3767228a76459c6073ab31fe36
   build_date: "2025-04-01T19:50:38Z"
   src_urls:
   - https://github.com/trifectatechfoundation/sudo-rs
@@ -3727,6 +3875,7 @@ pkgcache:
   version: HEAD-37175bb-250401T132152
   download_url: oci://ghcr.io/pkgforge/pkgcache/sudo-rs/archive/sharun/source/sudo:HEAD-37175bb-250401T132152-aarch64-linux
   size: 1.7 MB
+  bsum: 80fdd2b7040abfb0c85ac35628e92421b689a90283a0f14fbf64726cb6c4ebd1
   build_date: "2025-04-01T19:50:42Z"
   src_urls:
   - https://github.com/trifectatechfoundation/sudo-rs
@@ -3780,6 +3929,7 @@ pkgcache:
   version: 2025.72.142645
   download_url: oci://ghcr.io/pkgforge/pkgcache/twingate/archive/sharun/stable/twingate-notifier:2025.72.142645-aarch64-linux
   size: 3.5 MB
+  bsum: 540d1dcd2a13e6979aa073743e42758905e401b6b9d4dc252e0e1196eb9b43e2
   build_date: "2025-03-21T19:35:31Z"
   src_urls:
   - https://packages.twingate.com/deb:twingate
@@ -3804,6 +3954,7 @@ pkgcache:
   version: 2025.72.142645
   download_url: oci://ghcr.io/pkgforge/pkgcache/twingate/archive/sharun/stable/twingate:2025.72.142645-aarch64-linux
   size: 8.2 MB
+  bsum: 2ed68104ead822aaac81c559167ebb5d3a319d2077c63537daa8100b736915df
   build_date: "2025-03-21T19:35:30Z"
   src_urls:
   - https://packages.twingate.com/deb:twingate
@@ -3828,6 +3979,7 @@ pkgcache:
   version: 2025.72.142645
   download_url: oci://ghcr.io/pkgforge/pkgcache/twingate/archive/sharun/stable/twingated:2025.72.142645-aarch64-linux
   size: 11 MB
+  bsum: 30d948560f13ef280626f6823086a18a8c1c111f5ad056d7f381b8828193cefa
   build_date: "2025-03-21T19:35:31Z"
   src_urls:
   - https://packages.twingate.com/deb:twingate
@@ -3852,6 +4004,7 @@ pkgcache:
   version: 1.14.2
   download_url: oci://ghcr.io/pkgforge/pkgcache/zerotier/archive/sharun/stable/zerotier-one:1.14.2-aarch64-linux
   size: 8.0 MB
+  bsum: b657281781de3da8fda7f101c8d17ae2051eae67db3333c165b7eef46b609637
   build_date: "2025-02-28T17:51:57Z"
   src_urls:
   - https://github.com/zerotier/ZeroTierOne
@@ -3873,6 +4026,7 @@ pkgcache:
   version: v4.98.2
   download_url: oci://ghcr.io/pkgforge/pkgcache/code-server/archive/wrappe/stable/code-server:v4.98.2-aarch64-linux
   size: 91 MB
+  bsum: bba51338e00e43440a4b7a64f59f59b2fdbde852baa8ec92de14756cc06b2427
   build_date: "2025-03-16T14:38:27Z"
   src_urls:
   - https://github.com/coder/code-server
@@ -3900,6 +4054,7 @@ pkgcache:
   version: openvscode-server-v1.98.2
   download_url: oci://ghcr.io/pkgforge/pkgcache/openvscode-server/archive/wrappe/stable/openvscode-server:openvscode-server-v1.98.2-aarch64-linux
   size: 52 MB
+  bsum: b7bf3730531a43b9d97e3e139fec5a2490ab4e6fb3ba9f8570c4f91d24a72a46
   build_date: "2025-04-01T19:29:46Z"
   src_urls:
   - https://github.com/gitpod-io/openvscode-server
@@ -3926,6 +4081,7 @@ pkgcache:
   version: 15.64.3
   download_url: oci://ghcr.io/pkgforge/pkgcache/teamviewer/archive/wrappe/stable/teamviewer:15.64.3-aarch64-linux
   size: 127 MB
+  bsum: 330b9ab5c6d96ccd3b819250b8623dc3e097ab76b8ab6824f181ceb352e007f4
   build_date: "2025-03-25T19:40:27Z"
   src_urls:
   - https://www.teamviewer.com/en-us/download/linux/
@@ -3952,6 +4108,7 @@ pkgcache:
   version: 250401T120028
   download_url: oci://ghcr.io/pkgforge/pkgcache/xashds/archive/wrappe/stable/xashds:250401T120028-aarch64-linux
   size: 2.7 MB
+  bsum: 6335a73e1d8d7bc6d6f70fcfb6aed03eec6633f9c71690e349b3a3ad786f5ded
   build_date: "2025-04-01T19:39:50Z"
   src_urls:
   - https://github.com/FWGS/xash3d-fwgs
