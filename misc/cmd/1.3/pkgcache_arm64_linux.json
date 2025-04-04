@@ -185,7 +185,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 129
+   "rank": 130
   },
   {
    "pkg": "flameshot.nixappimage",
@@ -513,7 +513,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 130
+   "rank": 129
   },
   {
    "pkg": "cmake.appimage",
@@ -1246,7 +1246,7 @@
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)",
     "Please use runimage version of nmap if this doesn't work"
    ],
-   "rank": 39
+   "rank": 38
   },
   {
    "pkg": "nmap/nping.archive",
@@ -1286,7 +1286,7 @@
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)",
     "Please use runimage version of nmap if this doesn't work"
    ],
-   "rank": 37
+   "rank": 39
   },
   {
    "pkg": "nmap/ncat.archive",
@@ -1326,7 +1326,7 @@
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)",
     "Please use runimage version of nmap if this doesn't work"
    ],
-   "rank": 38
+   "rank": 37
   },
   {
    "pkg": "proxychains/proxychains.archive",
@@ -1358,7 +1358,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 108
+   "rank": 107
   },
   {
    "pkg": "proxychains/proxychains-daemon.archive",
@@ -1390,7 +1390,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 107
+   "rank": 108
   },
   {
    "pkg": "subversion/svnadmin.archive",
@@ -1423,7 +1423,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 147
+   "rank": 149
   },
   {
    "pkg": "subversion/svndumpfilter.archive",
@@ -1456,7 +1456,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 145
+   "rank": 153
   },
   {
    "pkg": "subversion/svnbench.archive",
@@ -1522,7 +1522,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 151
+   "rank": 145
   },
   {
    "pkg": "subversion/svnserve.archive",
@@ -1555,7 +1555,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 146
+   "rank": 144
   },
   {
    "pkg": "subversion/svnsync.archive",
@@ -1588,7 +1588,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 148
+   "rank": 150
   },
   {
    "pkg": "subversion/svn.archive",
@@ -1621,7 +1621,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 150
+   "rank": 147
   },
   {
    "pkg": "subversion/svnversion.archive",
@@ -1654,7 +1654,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 149
+   "rank": 146
   },
   {
    "pkg": "subversion/svnlook.archive",
@@ -1687,7 +1687,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 144
+   "rank": 148
   },
   {
    "pkg": "subversion/svnmucc.archive",
@@ -1720,7 +1720,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 153
+   "rank": 152
   },
   {
    "pkg": "subversion/svnrdump.archive",
@@ -1753,7 +1753,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 152
+   "rank": 151
   },
   {
    "pkg": "xhost.archive",
@@ -2479,7 +2479,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 72
+   "rank": 73
   },
   {
    "pkg": "fanficfare.archive",
@@ -4076,7 +4076,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 13
+   "rank": 12
   },
   {
    "pkg": "emailfinder.archive",
@@ -4287,7 +4287,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 73
+   "rank": 72
   },
   {
    "pkg": "ghauri.archive",
@@ -4835,7 +4835,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 12
+   "rank": 13
   },
   {
    "pkg": "zmap/zmap.archive",
@@ -4875,7 +4875,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 110
+   "rank": 114
   },
   {
    "pkg": "zmap/zblocklist.archive",
@@ -5037,7 +5037,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 114
+   "rank": 110
   },
   {
    "pkg": "caido-cli.archive",
@@ -5171,7 +5171,7 @@
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)",
     "This version was repacked from official Deb \u0026 contains the most features"
    ],
-   "rank": 46
+   "rank": 47
   },
   {
    "pkg": "fastfetch/flashfetch.archive",
@@ -5218,7 +5218,7 @@
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)",
     "This version was repacked from official Deb \u0026 contains the most features"
    ],
-   "rank": 47
+   "rank": 46
   },
   {
    "pkg": "sudo-rs/su.archive",
@@ -5310,7 +5310,7 @@
     "Requires '/etc/sudoers' file \u0026 '/etc/sudoers.d' dir",
     "Also requires PAM to be setup: https://github.com/trifectatechfoundation/sudo-rs#differences-from-original-sudo"
    ],
-   "rank": 23
+   "rank": 24
   },
   {
    "pkg": "sudo-rs/sudo.archive",
@@ -5402,7 +5402,7 @@
     "Requires '/etc/sudoers' file \u0026 '/etc/sudoers.d' dir",
     "Also requires PAM to be setup: https://github.com/trifectatechfoundation/sudo-rs#differences-from-original-sudo"
    ],
-   "rank": 24
+   "rank": 25
   },
   {
    "pkg": "sudo-rs/visudo.archive",
@@ -5494,7 +5494,7 @@
     "Requires '/etc/sudoers' file \u0026 '/etc/sudoers.d' dir",
     "Also requires PAM to be setup: https://github.com/trifectatechfoundation/sudo-rs#differences-from-original-sudo"
    ],
-   "rank": 25
+   "rank": 23
   },
   {
    "pkg": "twingate/twingate-notifier.archive",
