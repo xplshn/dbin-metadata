@@ -58,7 +58,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/ryujinx/ryujinx"
    ],
-   "rank": 32
+   "rank": 34
   },
   {
    "pkg": "ryujinx.appimage",
@@ -153,7 +153,7 @@
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/caido/caido",
     "You may need to run this with: --no-sandbox"
    ],
-   "rank": 97
+   "rank": 98
   },
   {
    "pkg": "pixelpulse2.appimage",
@@ -197,7 +197,7 @@
     "Run it with --getudev flag the first time to configure udev rules. It may not detect the board otherwise",
     "To reduce crashes, plug in your device after configuring the udev rule and opening the app"
    ],
-   "rank": 92
+   "rank": 93
   },
   {
    "pkg": "ghostty.appimage",
@@ -266,7 +266,7 @@
    "notes": [
     "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/ghostty-appimage"
    ],
-   "rank": 128
+   "rank": 18
   },
   {
    "pkg": "rustdesk.appimage",
@@ -293,7 +293,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/rustdesk/rustdesk"
    ],
-   "rank": 30
+   "rank": 31
   },
   {
    "pkg": "rustdesk.appimage",
@@ -320,7 +320,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/rustdesk/rustdesk"
    ],
-   "rank": 31
+   "rank": 32
   },
   {
    "pkg": "tangent.appimage",
@@ -471,7 +471,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop"
    ],
-   "rank": 140
+   "rank": 142
   },
   {
    "pkg": "zen-browser.appimage",
@@ -552,7 +552,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop"
    ],
-   "rank": 142
+   "rank": 141
   },
   {
    "pkg": "zen-browser.appimage",
@@ -761,7 +761,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop"
    ],
-   "rank": 141
+   "rank": 140
   },
   {
    "pkg": "librewolf.appimage",
@@ -811,7 +811,7 @@
    "notes": [
     "Pre Built AppImage Fetched from Upstream. Check/Report @ https://gitlab.com/librewolf-community/browser/appimage"
    ],
-   "rank": 42
+   "rank": 43
   },
   {
    "pkg": "brave.nixappimage",
@@ -1287,7 +1287,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 99
+   "rank": 100
   },
   {
    "pkg": "file.appimage",
@@ -1316,7 +1316,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 35
+   "rank": 36
   },
   {
    "pkg": "freerdp.appimage",
@@ -1351,7 +1351,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 105
+   "rank": 106
   },
   {
    "pkg": "git.appimage",
@@ -1379,7 +1379,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 28
+   "rank": 29
   },
   {
    "pkg": "jless.appimage",
@@ -1408,7 +1408,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 39
+   "rank": 40
   },
   {
    "pkg": "xrdp.appimage",
@@ -1437,7 +1437,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 116
+   "rank": 117
   },
   {
    "pkg": "akregator.runimage",
@@ -1521,7 +1521,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 27
+   "rank": 28
   },
   {
    "pkg": "falkon.runimage",
@@ -1557,7 +1557,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 34
+   "rank": 35
   },
   {
    "pkg": "ghex.runimage",
@@ -1591,7 +1591,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 20
+   "rank": 21
   },
   {
    "pkg": "git.runimage",
@@ -1626,7 +1626,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 19
+   "rank": 20
   },
   {
    "pkg": "inkscape.runimage",
@@ -1654,7 +1654,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 26
+   "rank": 27
   },
   {
    "pkg": "kdenlive.runimage",
@@ -1693,7 +1693,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 21
+   "rank": 22
   },
   {
    "pkg": "krita.runimage",
@@ -1728,7 +1728,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 25
+   "rank": 26
   },
   {
    "pkg": "nmap/nmap.runimage",
@@ -1758,7 +1758,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 41
+   "rank": 42
   },
   {
    "pkg": "wezterm.runimage",
@@ -1787,7 +1787,7 @@
     "Requires Fonts (On Host): https://wezfurlong.org/wezterm/config/fonts.html",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 18
+   "rank": 19
   },
   {
    "pkg": "blender.runimage",
@@ -1962,7 +1962,7 @@
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)",
     "Please use runimage version of nmap if this doesn't work"
    ],
-   "rank": 38
+   "rank": 39
   },
   {
    "pkg": "nmap/ncat.archive",
@@ -1999,7 +1999,7 @@
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)",
     "Please use runimage version of nmap if this doesn't work"
    ],
-   "rank": 36
+   "rank": 38
   },
   {
    "pkg": "proxychains/proxychains.archive",
@@ -2028,7 +2028,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 107
+   "rank": 108
   },
   {
    "pkg": "proxychains/proxychains-daemon.archive",
@@ -2057,7 +2057,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 106
+   "rank": 107
   },
   {
    "pkg": "subversion/svnadmin.archive",
@@ -2087,7 +2087,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 145
+   "rank": 147
   },
   {
    "pkg": "subversion/svndumpfilter.archive",
@@ -2117,7 +2117,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 153
+   "rank": 145
   },
   {
    "pkg": "subversion/svn.archive",
@@ -2147,7 +2147,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 149
+   "rank": 150
   },
   {
    "pkg": "subversion/svnbench.archive",
@@ -2207,7 +2207,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 150
+   "rank": 151
   },
   {
    "pkg": "subversion/svnlook.archive",
@@ -2237,7 +2237,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 152
+   "rank": 144
   },
   {
    "pkg": "subversion/svnmucc.archive",
@@ -2267,7 +2267,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 146
+   "rank": 153
   },
   {
    "pkg": "subversion/svnrdump.archive",
@@ -2297,7 +2297,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 144
+   "rank": 152
   },
   {
    "pkg": "subversion/svnversion.archive",
@@ -2327,7 +2327,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 148
+   "rank": 149
   },
   {
    "pkg": "subversion/svnsync.archive",
@@ -2357,7 +2357,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 151
+   "rank": 148
   },
   {
    "pkg": "subversion/svnserve.archive",
@@ -2387,7 +2387,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 147
+   "rank": 146
   },
   {
    "pkg": "xhost.archive",
@@ -2451,7 +2451,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 117
+   "rank": 118
   },
   {
    "pkg": "wrangler.archive",
@@ -2523,7 +2523,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 29
+   "rank": 30
   },
   {
    "pkg": "anipy-cli.archive",
@@ -2553,7 +2553,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 70
+   "rank": 71
   },
   {
    "pkg": "apprise.archive",
@@ -2625,7 +2625,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 57
+   "rank": 58
   },
   {
    "pkg": "archey.archive",
@@ -2683,7 +2683,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 61
+   "rank": 62
   },
   {
    "pkg": "aws.archive",
@@ -2833,7 +2833,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 59
+   "rank": 60
   },
   {
    "pkg": "beet.archive",
@@ -2863,7 +2863,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 56
+   "rank": 57
   },
   {
    "pkg": "certbot.archive",
@@ -2899,7 +2899,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 47
+   "rank": 48
   },
   {
    "pkg": "commix.archive",
@@ -3007,7 +3007,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 40
+   "rank": 41
   },
   {
    "pkg": "ddgr.archive",
@@ -3036,7 +3036,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 54
+   "rank": 55
   },
   {
    "pkg": "dvc.archive",
@@ -3134,7 +3134,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 93
+   "rank": 94
   },
   {
    "pkg": "git-dumper.archive",
@@ -3163,7 +3163,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 78
+   "rank": 79
   },
   {
    "pkg": "gptme.archive",
@@ -3199,7 +3199,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 49
+   "rank": 50
   },
   {
    "pkg": "gtts-cli.archive",
@@ -3229,7 +3229,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 66
+   "rank": 67
   },
   {
    "pkg": "guarddog.archive",
@@ -3265,7 +3265,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 68
+   "rank": 69
   },
   {
    "pkg": "httpie.archive",
@@ -3295,7 +3295,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 62
+   "rank": 63
   },
   {
    "pkg": "image-bootstrap.archive",
@@ -3325,7 +3325,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 85
+   "rank": 86
   },
   {
    "pkg": "isd.archive",
@@ -3361,7 +3361,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 55
+   "rank": 56
   },
   {
    "pkg": "isort.archive",
@@ -3396,7 +3396,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 52
+   "rank": 53
   },
   {
    "pkg": "jc.archive",
@@ -3425,7 +3425,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 58
+   "rank": 59
   },
   {
    "pkg": "jrnl.archive",
@@ -3461,7 +3461,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 48
+   "rank": 49
   },
   {
    "pkg": "klp.archive",
@@ -3490,7 +3490,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 84
+   "rank": 85
   },
   {
    "pkg": "linkook.archive",
@@ -3525,7 +3525,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 73
+   "rank": 74
   },
   {
    "pkg": "malwoverview.archive",
@@ -3554,7 +3554,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 60
+   "rank": 61
   },
   {
    "pkg": "mitmproxy.archive",
@@ -3584,7 +3584,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 87
+   "rank": 88
   },
   {
    "pkg": "oci.archive",
@@ -3670,7 +3670,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 67
+   "rank": 68
   },
   {
    "pkg": "pg_activity.archive",
@@ -3699,7 +3699,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 69
+   "rank": 70
   },
   {
    "pkg": "port-for.archive",
@@ -3728,7 +3728,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 88
+   "rank": 89
   },
   {
    "pkg": "ps_mem.archive",
@@ -3757,7 +3757,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 75
+   "rank": 76
   },
   {
    "pkg": "puncia.archive",
@@ -3793,7 +3793,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 94
+   "rank": 95
   },
   {
    "pkg": "pyarmor.archive",
@@ -3837,7 +3837,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 44
+   "rank": 45
   },
   {
    "pkg": "pyp.archive",
@@ -3866,7 +3866,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 79
+   "rank": 80
   },
   {
    "pkg": "resolve-march-native.archive",
@@ -3895,7 +3895,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 89
+   "rank": 90
   },
   {
    "pkg": "sandwine.archive",
@@ -3924,7 +3924,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 91
+   "rank": 92
   },
   {
    "pkg": "scons.archive",
@@ -3964,7 +3964,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 51
+   "rank": 52
   },
   {
    "pkg": "sgpt.archive",
@@ -3993,7 +3993,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 77
+   "rank": 78
   },
   {
    "pkg": "sherlock.archive",
@@ -4022,7 +4022,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 74
+   "rank": 75
   },
   {
    "pkg": "shot-scraper.archive",
@@ -4059,7 +4059,7 @@
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)",
     "RUN: shot-scraper install (To Install Required Files)"
    ],
-   "rank": 80
+   "rank": 81
   },
   {
    "pkg": "showcert.archive",
@@ -4088,7 +4088,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 90
+   "rank": 91
   },
   {
    "pkg": "snallygaster.archive",
@@ -4117,7 +4117,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 86
+   "rank": 87
   },
   {
    "pkg": "streamlink.archive",
@@ -4147,7 +4147,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 82
+   "rank": 83
   },
   {
    "pkg": "tldextract.archive",
@@ -4176,7 +4176,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 98
+   "rank": 99
   },
   {
    "pkg": "tmuxp.archive",
@@ -4216,7 +4216,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 50
+   "rank": 51
   },
   {
    "pkg": "trafilatura.archive",
@@ -4246,7 +4246,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 81
+   "rank": 82
   },
   {
    "pkg": "twine.archive",
@@ -4276,7 +4276,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 76
+   "rank": 77
   },
   {
    "pkg": "twitch-dl.archive",
@@ -4311,7 +4311,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 83
+   "rank": 84
   },
   {
    "pkg": "udocker.archive",
@@ -4376,7 +4376,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 96
+   "rank": 97
   },
   {
    "pkg": "wappalyzer.archive",
@@ -4406,7 +4406,7 @@
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)",
     "Requires Chrome/Firefox Drivers on Host"
    ],
-   "rank": 95
+   "rank": 96
   },
   {
    "pkg": "xonsh.archive",
@@ -4442,7 +4442,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 63
+   "rank": 64
   },
   {
    "pkg": "yamllint.archive",
@@ -4489,7 +4489,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 43
+   "rank": 44
   },
   {
    "pkg": "yt-dlp.archive",
@@ -4565,7 +4565,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 121
+   "rank": 122
   },
   {
    "pkg": "interlace.archive",
@@ -4594,7 +4594,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 122
+   "rank": 123
   },
   {
    "pkg": "metafinder.archive",
@@ -4623,7 +4623,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 123
+   "rank": 124
   },
   {
    "pkg": "archey.archive",
@@ -4661,7 +4661,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 64
+   "rank": 66
   },
   {
    "pkg": "dnsvalidator.archive",
@@ -4690,7 +4690,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 118
+   "rank": 119
   },
   {
    "pkg": "dvc.archive",
@@ -4729,7 +4729,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 71
+   "rank": 73
   },
   {
    "pkg": "ghauri.archive",
@@ -4758,7 +4758,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 119
+   "rank": 120
   },
   {
    "pkg": "huggingface-cli.archive",
@@ -4874,7 +4874,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 120
+   "rank": 121
   },
   {
    "pkg": "netexec.archive",
@@ -4995,7 +4995,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 124
+   "rank": 125
   },
   {
    "pkg": "porch-pirate.archive",
@@ -5024,7 +5024,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 125
+   "rank": 126
   },
   {
    "pkg": "urless.archive",
@@ -5053,7 +5053,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 126
+   "rank": 127
   },
   {
    "pkg": "wafw00f.archive",
@@ -5082,7 +5082,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 127
+   "rank": 128
   },
   {
    "pkg": "xmap.archive",
@@ -5121,7 +5121,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 114
+   "rank": 115
   },
   {
    "pkg": "xnlinkfinder.archive",
@@ -5164,7 +5164,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 115
+   "rank": 116
   },
   {
    "pkg": "yt-dlp.archive",
@@ -5321,7 +5321,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 111
+   "rank": 112
   },
   {
    "pkg": "zmap/ztee.archive",
@@ -5358,7 +5358,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 112
+   "rank": 113
   },
   {
    "pkg": "zmap/zblocklist.archive",
@@ -5397,7 +5397,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 113
+   "rank": 111
   },
   {
    "pkg": "zmap/ztests.archive",
@@ -5434,7 +5434,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 109
+   "rank": 114
   },
   {
    "pkg": "caido-cli.archive",
@@ -5470,7 +5470,7 @@
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)",
     "This version was repacked from official Release"
    ],
-   "rank": 104
+   "rank": 105
   },
   {
    "pkg": "crave.archive",
@@ -5603,7 +5603,7 @@
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)",
     "This version was repacked from official Deb \u0026 contains the most features"
    ],
-   "rank": 45
+   "rank": 47
   },
   {
    "pkg": "sudo-rs/visudo.archive",
@@ -5692,7 +5692,7 @@
     "Requires '/etc/sudoers' file \u0026 '/etc/sudoers.d' dir",
     "Also requires PAM to be setup: https://github.com/trifectatechfoundation/sudo-rs#differences-from-original-sudo"
    ],
-   "rank": 22
+   "rank": 25
   },
   {
    "pkg": "sudo-rs/su.archive",
@@ -5781,7 +5781,7 @@
     "Requires '/etc/sudoers' file \u0026 '/etc/sudoers.d' dir",
     "Also requires PAM to be setup: https://github.com/trifectatechfoundation/sudo-rs#differences-from-original-sudo"
    ],
-   "rank": 24
+   "rank": 23
   },
   {
    "pkg": "sudo-rs/sudo.archive",
@@ -5870,7 +5870,7 @@
     "Requires '/etc/sudoers' file \u0026 '/etc/sudoers.d' dir",
     "Also requires PAM to be setup: https://github.com/trifectatechfoundation/sudo-rs#differences-from-original-sudo"
    ],
-   "rank": 23
+   "rank": 24
   },
   {
    "pkg": "twingate/twingate-notifier.archive",
@@ -5906,7 +5906,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 102
+   "rank": 104
   },
   {
    "pkg": "twingate/twingate.archive",
@@ -5942,7 +5942,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 101
+   "rank": 102
   },
   {
    "pkg": "twingate/twingated.archive",
@@ -6008,7 +6008,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 108
+   "rank": 109
   },
   {
    "pkg": "code-server.archive",
@@ -6049,7 +6049,7 @@
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)",
     "Host Dependencies: A lot, please use soar log to view the ldd output"
    ],
-   "rank": 100
+   "rank": 101
   },
   {
    "pkg": "openvscode-server.archive",
@@ -6129,7 +6129,7 @@
     "Host Dependencies: A lot, please use soar log to view the ldd output",
     "You might need to install libminizip"
    ],
-   "rank": 53
+   "rank": 54
   },
   {
    "pkg": "xashds.archive",
