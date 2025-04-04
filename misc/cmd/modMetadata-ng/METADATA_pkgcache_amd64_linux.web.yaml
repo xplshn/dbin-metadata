@@ -7,7 +7,7 @@ pkgcache:
   version: v0.6.1
   download_url: oci://ghcr.io/pkgforge/pkgcache/citron/appimage/pkgforge-dev/stable/citron:v0.6.1-x86_64-linux
   size: 124 MB
-  build_date: "2025-03-16T14:44:01Z"
+  build_date: "2025-04-04T07:13:09Z"
   src_urls:
   - https://github.com/pkgforge-dev/Citron-AppImage
   web_urls:
@@ -24,11 +24,13 @@ pkgcache:
     version: "0.5"
   - commit: 0.6-x86_64-linux
     version: "0.6"
+  - commit: v0.6.1-x86_64-linux
+    version: v0.6.1
   license: MIT
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Citron-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 178
+  rank: 179
 - pkg: citron.appimage
   pkg_name: citron
   pkg_id: github.com.pkgforge-dev.Citron-AppImage.v3
@@ -37,7 +39,7 @@ pkgcache:
   version: v0.6.1
   download_url: oci://ghcr.io/pkgforge/pkgcache/citron/appimage/pkgforge-dev/v3/citron:v0.6.1-x86_64-linux
   size: 124 MB
-  build_date: "2025-03-16T14:34:19Z"
+  build_date: "2025-04-04T07:11:44Z"
   src_urls:
   - https://github.com/pkgforge-dev/Citron-AppImage
   web_urls:
@@ -54,12 +56,14 @@ pkgcache:
     version: "0.5"
   - commit: 0.6-x86_64-linux
     version: "0.6"
+  - commit: v0.6.1-x86_64-linux
+    version: v0.6.1
   license: MIT
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Citron-AppImage
   - Optimized for x86-64-v3
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 179
+  rank: 178
 - pkg: cromite.appimage
   pkg_name: cromite
   pkg_id: github.com.pkgforge-dev.Cromite-AppImage
@@ -67,8 +71,8 @@ pkgcache:
   description: A Bromite fork with ad blocking and privacy enhancements
   version: v134.0.6998.108
   download_url: oci://ghcr.io/pkgforge/pkgcache/cromite/appimage/pkgforge-dev/stable/cromite:v134.0.6998.108-x86_64-linux
-  size: 203 MB
-  build_date: "2025-03-23T18:49:33Z"
+  size: 198 MB
+  build_date: "2025-04-04T07:11:43Z"
   src_urls:
   - https://github.com/pkgforge-dev/Cromite-AppImage
   web_urls:
@@ -95,6 +99,8 @@ pkgcache:
     version: v134.0.6998.39
   - commit: v134.0.6998.89-x86_64-linux
     version: v134.0.6998.89
+  - commit: v134.0.6998.108-x86_64-linux
+    version: v134.0.6998.108
   license: GPL-3.0
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Cromite-AppImage
@@ -208,7 +214,7 @@ pkgcache:
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Torzu-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 26
+  rank: 25
 - pkg: torzu.appimage
   pkg_name: torzu
   pkg_id: github.com.pkgforge-dev.Torzu-AppImage.v3
@@ -238,16 +244,16 @@ pkgcache:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Torzu-AppImage
   - Optimized for x86-64-v3
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 25
+  rank: 26
 - pkg: mpv.appimage
   pkg_name: mpv
   pkg_id: github.com.pkgforge-dev.mpv-AppImage.stable
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/mpv/appimage/pkgforge-dev/stable/mpv?tag=v0.40.0-37-g5870c95e8-x86_64-linux&download=mpv.png
+  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/mpv/appimage/pkgforge-dev/stable/mpv?tag=v0.40.0-42-g36ea2354b-x86_64-linux&download=mpv.png
   description: General Purpose Command line video player
-  version: v0.40.0-37-g5870c95e8
-  download_url: oci://ghcr.io/pkgforge/pkgcache/mpv/appimage/pkgforge-dev/stable/mpv:v0.40.0-37-g5870c95e8-x86_64-linux
-  size: 49 MB
-  build_date: "2025-04-01T19:24:03Z"
+  version: v0.40.0-42-g36ea2354b
+  download_url: oci://ghcr.io/pkgforge/pkgcache/mpv/appimage/pkgforge-dev/stable/mpv:v0.40.0-42-g36ea2354b-x86_64-linux
+  size: 37 MB
+  build_date: "2025-04-04T07:13:40Z"
   src_urls:
   - https://github.com/pkgforge-dev/mpv-AppImage
   web_urls:
@@ -255,7 +261,7 @@ pkgcache:
   - https://github.com/mpv-player/mpv
   - https://github.com/pkgforge-dev/mpv-AppImage
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/mpv/appimage.pkgforge-dev.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/mpv/appimage/pkgforge-dev/stable/mpv?tag=v0.40.0-37-g5870c95e8-x86_64-linux&download=mpv.log
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/mpv/appimage/pkgforge-dev/stable/mpv?tag=v0.40.0-42-g36ea2354b-x86_64-linux&download=mpv.log
   snapshots:
   - commit: v0.39.0-613-g7a59a12b76-x86_64-linux
     version: v0.39.0-613-g7a59a12b76
@@ -281,6 +287,8 @@ pkgcache:
     version: v0.39.0-992-g561156217
   - commit: v0.40.0-30-g5ba7ee513-x86_64-linux
     version: v0.40.0-30-g5ba7ee513
+  - commit: v0.40.0-37-g5870c95e8-x86_64-linux
+    version: v0.40.0-37-g5870c95e8
   license: GPL-2.0
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/mpv-AppImage
@@ -453,7 +461,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 249
+  rank: 250
 - pkg: discord/discord.nixappimage
   pkg_name: discord
   pkg_id: nixpkgs.discord
@@ -490,7 +498,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 55
+  rank: 52
 - pkg: discord/discord.nixappimage
   pkg_name: discord
   pkg_id: nixpkgs.discord-canary
@@ -550,7 +558,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 53
+  rank: 55
 - pkg: discord/discord.nixappimage
   pkg_name: discord
   pkg_id: nixpkgs.discord-ptb
@@ -583,7 +591,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 52
+  rank: 53
 - pkg: flameshot.nixappimage
   pkg_name: flameshot
   pkg_id: nixpkgs.flameshot
@@ -794,7 +802,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 250
+  rank: 249
 - pkg: cmake.appimage
   pkg_name: cmake
   pkg_id: ppkg.bundle.cmake.stable
@@ -1319,7 +1327,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 171
+  rank: 170
 - pkg: gimp.runimage
   pkg_name: gimp
   pkg_id: runimage.cachyos.gimp.stable
@@ -1346,7 +1354,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 170
+  rank: 171
 - pkg: gnome-boxes.runimage
   pkg_name: gnome-boxes
   pkg_id: runimage.cachyos.gnome-boxes.stable

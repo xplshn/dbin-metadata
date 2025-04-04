@@ -9,9 +9,9 @@
    "version": "v0.6.1",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/citron/appimage/pkgforge-dev/stable/citron:v0.6.1-x86_64-linux",
    "size": "124 MB",
-   "bsum": "31b89f45d002bbe776b876a1e7afe1fcd1fcbb5d3d55291398a0a5a7f4d9f0c1",
-   "shasum": "4373ce36c033af0d57129e27c29003b758c22bf70edb53ee6f205f2e3e44a9f2",
-   "build_date": "2025-03-16T14:44:01Z",
+   "bsum": "fb954049ec79045fbe154edb15a4e4c5e6a61287f2fa4ccfc6f984b011d6ca25",
+   "shasum": "7a7e6bdeb6ce197a9658d1e66dd16b0ee7c68950f5c4bd17b88b2682b619a041",
+   "build_date": "2025-04-04T07:13:09Z",
    "src_urls": [
     "https://github.com/pkgforge-dev/Citron-AppImage"
    ],
@@ -25,7 +25,8 @@
     "0.4-x86_64-linux[0.4]",
     "20250209-150600-x86_64-linux[20250209-150600]",
     "0.5-x86_64-linux[0.5]",
-    "0.6-x86_64-linux[0.6]"
+    "0.6-x86_64-linux[0.6]",
+    "v0.6.1-x86_64-linux[v0.6.1]"
    ],
    "provides": "citron",
    "license": "MIT",
@@ -33,7 +34,7 @@
     "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Citron-AppImage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 178
+   "rank": 179
   },
   {
    "pkg": "citron.appimage",
@@ -44,9 +45,9 @@
    "version": "v0.6.1",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/citron/appimage/pkgforge-dev/v3/citron:v0.6.1-x86_64-linux",
    "size": "124 MB",
-   "bsum": "9aa00153e06ab52632f67b0fbbedd4b62c60774f04a207668ce08f8ed4fec290",
-   "shasum": "a4ad3642550825ed22a49d531a7b4eed7961e2002281e5bbe20b287bf55a88f7",
-   "build_date": "2025-03-16T14:34:19Z",
+   "bsum": "3f413aea2f5454ef097ade201d4a6b4a621f0ef1ea72ea85dae21941380f88c2",
+   "shasum": "b248503423bbe9bae0c0008710b9316daab55c0241f7bedf77ce49bfd5b9fbf2",
+   "build_date": "2025-04-04T07:11:44Z",
    "src_urls": [
     "https://github.com/pkgforge-dev/Citron-AppImage"
    ],
@@ -60,7 +61,8 @@
     "0.4-x86_64-linux[0.4]",
     "20250209-150600-x86_64-linux[20250209-150600]",
     "0.5-x86_64-linux[0.5]",
-    "0.6-x86_64-linux[0.6]"
+    "0.6-x86_64-linux[0.6]",
+    "v0.6.1-x86_64-linux[v0.6.1]"
    ],
    "provides": "citron",
    "license": "MIT",
@@ -69,7 +71,7 @@
     "Optimized for x86-64-v3",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 179
+   "rank": 178
   },
   {
    "pkg": "cromite.appimage",
@@ -79,10 +81,10 @@
    "description": "A Bromite fork with ad blocking and privacy enhancements",
    "version": "v134.0.6998.108",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/cromite/appimage/pkgforge-dev/stable/cromite:v134.0.6998.108-x86_64-linux",
-   "size": "203 MB",
-   "bsum": "b900d2b38d6fd8c105c0f115bb6ece45d4e9f32f2fed47e1d4750dea91df55c0",
-   "shasum": "45b1d23bd7bb17e1e811c0c7babd4e69363a12259e6f43b07bdf1fbd106b38b3",
-   "build_date": "2025-03-23T18:49:33Z",
+   "size": "198 MB",
+   "bsum": "ff26be33e5d601f7035c2252cce1bd29c044c844b181a8ccab742039fb992e18",
+   "shasum": "43395f47ce1bf44fc332c4c0872d77ae40475700e242cc8324889d759aa1e835",
+   "build_date": "2025-04-04T07:11:43Z",
    "src_urls": [
     "https://github.com/pkgforge-dev/Cromite-AppImage"
    ],
@@ -101,7 +103,8 @@
     "v133.0.6943.99-x86_64-linux[v133.0.6943.99]",
     "v133.0.6943.127-x86_64-linux[v133.0.6943.127]",
     "v134.0.6998.39-x86_64-linux[v134.0.6998.39]",
-    "v134.0.6998.89-x86_64-linux[v134.0.6998.89]"
+    "v134.0.6998.89-x86_64-linux[v134.0.6998.89]",
+    "v134.0.6998.108-x86_64-linux[v134.0.6998.108]"
    ],
    "provides": "cromite==cromite-browser",
    "license": "GPL-3.0",
@@ -244,7 +247,7 @@
     "Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Torzu-AppImage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 26
+   "rank": 25
   },
   {
    "pkg": "torzu.appimage",
@@ -279,20 +282,20 @@
     "Optimized for x86-64-v3",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 25
+   "rank": 26
   },
   {
    "pkg": "mpv.appimage",
    "pkg_name": "mpv",
    "pkg_id": "github.com.pkgforge-dev.mpv-AppImage.stable",
-   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/mpv/appimage/pkgforge-dev/stable/mpv?tag=v0.40.0-37-g5870c95e8-x86_64-linux\u0026download=mpv.png",
+   "icon": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/mpv/appimage/pkgforge-dev/stable/mpv?tag=v0.40.0-42-g36ea2354b-x86_64-linux\u0026download=mpv.png",
    "description": "General Purpose Command line video player",
-   "version": "v0.40.0-37-g5870c95e8",
-   "download_url": "oci://ghcr.io/pkgforge/pkgcache/mpv/appimage/pkgforge-dev/stable/mpv:v0.40.0-37-g5870c95e8-x86_64-linux",
-   "size": "49 MB",
-   "bsum": "18a28e245a3ba00ea5715f9589275d2f27caea03f5b256ad5aaf552f39962537",
-   "shasum": "a19e1fe456fb05a9dfbd6f14f616a38d296bde86dd4a83af0af91116bbb78863",
-   "build_date": "2025-04-01T19:24:03Z",
+   "version": "v0.40.0-42-g36ea2354b",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/mpv/appimage/pkgforge-dev/stable/mpv:v0.40.0-42-g36ea2354b-x86_64-linux",
+   "size": "37 MB",
+   "bsum": "969fe839126d7ced186cf3c080431767d0927c04688791879203189f816380e9",
+   "shasum": "4b539a9100e8a90a7995f15913bd5faf997cb0dae39eca42d3f232ffe4cb9d00",
+   "build_date": "2025-04-04T07:13:40Z",
    "src_urls": [
     "https://github.com/pkgforge-dev/mpv-AppImage"
    ],
@@ -302,7 +305,7 @@
     "https://github.com/pkgforge-dev/mpv-AppImage"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/mpv/appimage.pkgforge-dev.stable.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/mpv/appimage/pkgforge-dev/stable/mpv?tag=v0.40.0-37-g5870c95e8-x86_64-linux\u0026download=mpv.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/mpv/appimage/pkgforge-dev/stable/mpv?tag=v0.40.0-42-g36ea2354b-x86_64-linux\u0026download=mpv.log",
    "snapshots": [
     "v0.39.0-613-g7a59a12b76-x86_64-linux[v0.39.0-613-g7a59a12b76]",
     "v0.39.0-615-gca211b5b88-x86_64-linux[v0.39.0-615-gca211b5b88]",
@@ -315,7 +318,8 @@
     "v0.39.0-876-gb848ffad1-x86_64-linux[v0.39.0-876-gb848ffad1]",
     "v0.39.0-933-g630a036f6-x86_64-linux[v0.39.0-933-g630a036f6]",
     "v0.39.0-992-g561156217-x86_64-linux[v0.39.0-992-g561156217]",
-    "v0.40.0-30-g5ba7ee513-x86_64-linux[v0.40.0-30-g5ba7ee513]"
+    "v0.40.0-30-g5ba7ee513-x86_64-linux[v0.40.0-30-g5ba7ee513]",
+    "v0.40.0-37-g5870c95e8-x86_64-linux[v0.40.0-37-g5870c95e8]"
    ],
    "provides": "mpv",
    "license": "GPL-2.0",
@@ -512,7 +516,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 249
+   "rank": 250
   },
   {
    "pkg": "discord/discord.nixappimage",
@@ -551,7 +555,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 55
+   "rank": 52
   },
   {
    "pkg": "discord/discord.nixappimage",
@@ -622,7 +626,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 53
+   "rank": 55
   },
   {
    "pkg": "discord/discord.nixappimage",
@@ -659,7 +663,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 52
+   "rank": 53
   },
   {
    "pkg": "flameshot.nixappimage",
@@ -911,7 +915,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 250
+   "rank": 249
   },
   {
    "pkg": "cmake.appimage",
@@ -1606,7 +1610,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 171
+   "rank": 170
   },
   {
    "pkg": "gimp.runimage",
@@ -1640,7 +1644,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 170
+   "rank": 171
   },
   {
    "pkg": "gnome-boxes.runimage",
