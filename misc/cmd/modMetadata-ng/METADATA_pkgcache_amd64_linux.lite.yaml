@@ -1,1132 +1,4 @@
 pkgcache:
-- pkg: suyu.appimage
-  pkg_name: suyu
-  pkg_id: git.suyu.dev.suyu.suyu.stable
-  description: Nintendo Switch emulator based on yuzu, with additional features
-  version: v0.0.3
-  download_url: oci://ghcr.io/pkgforge/pkgcache/suyu/appimage/official/stable/suyu:v0.0.3-x86_64-linux
-  size: 53 MB
-  bsum: 9a3f39a80cf43dc7a2f76c5f2e08456b9c4b333cb753b1bbb518de40faf2da2d
-  build_date: "2025-02-08T13:46:39Z"
-  src_urls:
-  - https://git.suyu.dev/suyu/suyu
-  web_urls:
-  - https://suyu.dev
-  - https://git.suyu.dev/suyu/suyu
-  build_script: https://paste.ajam.dev/raw/NwMPGm
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/suyu/appimage/official/stable/suyu?tag=v0.0.3-x86_64-linux&download=suyu.log
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://git.suyu.dev/suyu/suyu
-  rank: 217
-- pkg: 0ad.appimage
-  pkg_name: 0ad
-  pkg_id: github.0ad-matters.0ad-appimage.prerelease
-  description: A FOSS historical Real Time Strategy (RTS) game [prerelease]
-  version: v0.0.27-rc1-27645-alpha
-  download_url: oci://ghcr.io/pkgforge/pkgcache/0ad/appimage/0ad-matters/prerelease/0ad:v0.0.27-rc1-27645-alpha-x86_64-linux
-  size: 1.7 GB
-  bsum: 3c9b764927e523c38e8791e941d4d9a3a2e9907247a2a58e394b7946b55fd976
-  build_date: "2025-01-26T16:48:22Z"
-  src_urls:
-  - https://github.com/0ad-matters/0ad-appimage
-  web_urls:
-  - https://play0ad.com
-  - https://wildfiregames.com/0ad
-  - https://gitea.wildfiregames.com/0ad/0ad
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/0ad/appimage.0ad-matters.prerelease.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/0ad/appimage/0ad-matters/prerelease/0ad?tag=v0.0.27-rc1-27645-alpha-x86_64-linux&download=0ad.log
-  snapshots:
-  - commit: v0.0.27-rc1-27645-alpha-x86_64-linux
-    version: v0.0.27-rc1-27645-alpha
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/0ad-matters/0ad-appimage
-  - If you have a GPU that has a chipset other than Nvidia, the Vulkan backend may be automatically disabled in some cases
-  - This version is based on the latest Ubuntu LTS, so it should not work on older distros
-  - In case of problems, install '0ad' instead
-  rank: 48
-- pkg: 0ad.appimage
-  pkg_name: 0ad
-  pkg_id: github.0ad-matters.0ad-appimage.stable
-  description: A FOSS historical Real Time Strategy (RTS) game [stable]
-  version: v0.27.0
-  download_url: oci://ghcr.io/pkgforge/pkgcache/0ad/appimage/0ad-matters/stable/0ad:v0.27.0-x86_64-linux
-  size: 1.7 GB
-  bsum: 0fa989bd6e7f854a2e867799efddc3351425d0f1560c77fe1441b4c9968e4c65
-  build_date: "2025-01-31T09:03:38Z"
-  src_urls:
-  - https://github.com/0ad-matters/0ad-appimage
-  web_urls:
-  - https://play0ad.com
-  - https://wildfiregames.com/0ad
-  - https://gitea.wildfiregames.com/0ad/0ad
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/0ad/appimage.0ad-matters.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/0ad/appimage/0ad-matters/stable/0ad?tag=v0.27.0-x86_64-linux&download=0ad.log
-  snapshots:
-  - commit: v0.0.26-alpha-x86_64-linux
-    version: v0.0.26-alpha
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/0ad-matters/0ad-appimage
-  rank: 47
-- pkg: 86box.appimage
-  pkg_name: 86box
-  pkg_id: github.com.86Box.86Box.stable
-  description: Emulator of x86-based machines
-  version: v4.2.1
-  download_url: oci://ghcr.io/pkgforge/pkgcache/86box/appimage/official/stable/86box:v4.2.1-x86_64-linux
-  size: 56 MB
-  bsum: 0499ed7289ef6086af6dca4d17ecbc9dd4c58d4d6b5bb1629a4e19f4d89596ae
-  build_date: "2025-01-26T18:08:03Z"
-  src_urls:
-  - https://github.com/86Box/86Box
-  web_urls:
-  - https://86box.net
-  - https://86box.readthedocs.io
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/86box/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/86box/appimage/official/stable/86box?tag=v4.2.1-x86_64-linux&download=86box.log
-  snapshots:
-  - commit: v4.2.1-x86_64-linux
-    version: v4.2.1
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/86Box/86Box
-  - "You need to download ROMS: https://86box.readthedocs.io/en/latest/usage/roms.html"
-  rank: 251
-- pkg: acreom.appimage
-  pkg_name: acreom
-  pkg_id: github.com.Acreom.releases.stable
-  description: An IDE based Knowledge Base using Markdown
-  version: v1.20.4
-  download_url: oci://ghcr.io/pkgforge/pkgcache/acreom/appimage/official/stable/acreom:v1.20.4-x86_64-linux
-  size: 134 MB
-  bsum: 0a16e1f20af82ffe1d195d38bab3ecf75a91590434c6736e066c8031fb809ccd
-  build_date: "2025-01-26T18:15:41Z"
-  src_urls:
-  - https://github.com/Acreom/app
-  web_urls:
-  - https://acreom.com
-  - https://github.com/Acreom/app
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/acreom/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/acreom/appimage/official/stable/acreom?tag=v1.20.4-x86_64-linux&download=acreom.log
-  snapshots:
-  - commit: v1.20.4-x86_64-linux
-    version: v1.20.4
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/Acreom/app
-  rank: 57
-- pkg: agregore.appimage
-  pkg_name: agregore
-  pkg_id: github.com.AgregoreWeb.agregore-browser
-  description: A minimal browser for the distributed web
-  version: v2.8.2
-  download_url: oci://ghcr.io/pkgforge/pkgcache/agregore/appimage/official/stable/agregore:v2.8.2-x86_64-linux
-  size: 166 MB
-  bsum: 3cfebcb86e746e9abe884cabf5176ef9698b55eedd42fca4d74f79f5fe5b572d
-  build_date: "2025-02-26T18:54:16Z"
-  src_urls:
-  - https://github.com/AgregoreWeb/agregore-browser
-  web_urls:
-  - https://github.com/AgregoreWeb/agregore-browser
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/agregore/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/agregore/appimage/official/stable/agregore?tag=v2.8.2-x86_64-linux&download=agregore.log
-  snapshots:
-  - commit: v2.6.3-x86_64-linux
-    version: v2.6.3
-  - commit: v2.7.0-x86_64-linux
-    version: v2.7.0
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/AgregoreWeb/agregore-browser
-  rank: 40
-- pkg: advanced-passgen.appimage
-  pkg_name: advanced-passgen
-  pkg_id: github.com.CodeDead.Advanced-PassGen
-  description: Advanced Password Generator
-  version: v2.5.2
-  download_url: oci://ghcr.io/pkgforge/pkgcache/advanced-passgen/appimage/official/stable/advanced-passgen:v2.5.2-x86_64-linux
-  size: 97 MB
-  bsum: df93aeaf590294b2c29811731214b32591f307fb60ac3a6da788308241a41c13
-  build_date: "2025-01-26T18:21:56Z"
-  src_urls:
-  - https://github.com/CodeDead/Advanced-PassGen
-  web_urls:
-  - https://advancedpassgen.codedead.com
-  - https://github.com/CodeDead/Advanced-PassGen
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/advanced-passgen/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/advanced-passgen/appimage/official/stable/advanced-passgen?tag=v2.5.2-x86_64-linux&download=advanced-passgen.log
-  snapshots:
-  - commit: v2.5.2-x86_64-linux
-    version: v2.5.2
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/CodeDead/Advanced-PassGen
-  rank: 55
-- pkg: xash3d-fwgs.appimage
-  pkg_name: xash3d-fwgs
-  pkg_id: github.com.FWGS.xash3d-fwgs
-  description: Heavily modified fork of an original Xash3D Engine for Half Life
-  version: 250401T120028
-  download_url: oci://ghcr.io/pkgforge/pkgcache/xash3d-fwgs/appimage/official/stable/xash3d-fwgs:250401T120028-x86_64-linux
-  size: 13 MB
-  bsum: 6b1a51c0153012cc0b2f384356e1c493c6ea52fccd5649f8f299237d031893a7
-  build_date: "2025-04-01T19:40:04Z"
-  src_urls:
-  - https://github.com/FWGS/xash3d-fwgs
-  web_urls:
-  - https://github.com/FWGS/xash3d-fwgs
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/xash3d-fwgs/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/xash3d-fwgs/appimage/official/stable/xash3d-fwgs?tag=250401T120028-x86_64-linux&download=xash3d-fwgs.log
-  snapshots:
-  - commit: 250224T010841-x86_64-linux
-    version: 250224T010841
-  - commit: 250225T170538-x86_64-linux
-    version: 250225T170538
-  - commit: 250226T142114-x86_64-linux
-    version: 250226T142114
-  - commit: 250301T195431-x86_64-linux
-    version: 250301T195431
-  - commit: 250302T173149-x86_64-linux
-    version: 250302T173149
-  - commit: 250303T201127-x86_64-linux
-    version: 250303T201127
-  - commit: 250305T195007-x86_64-linux
-    version: 250305T195007
-  - commit: 250306T162424-x86_64-linux
-    version: 250306T162424
-  - commit: 250307T234812-x86_64-linux
-    version: 250307T234812
-  - commit: 250316T002822-x86_64-linux
-    version: 250316T002822
-  - commit: 250316T184711-x86_64-linux
-    version: 250316T184711
-  - commit: 250317T054447-x86_64-linux
-    version: 250317T054447
-  - commit: 250320T174519-x86_64-linux
-    version: 250320T174519
-  - commit: 250325T162526-x86_64-linux
-    version: 250325T162526
-  - commit: 250326T191509-x86_64-linux
-    version: 250326T191509
-  - commit: 250330T173653-x86_64-linux
-    version: 250330T173653
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/FWGS/xash3d-fwgs
-  rank: 7
-- pkg: ryujinx.appimage
-  pkg_name: ryujinx
-  pkg_id: github.com.Ryubing.Ryujinx.canary
-  description: Nintendo Switch Emulator (Canary)
-  version: 1.2.357
-  download_url: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx:1.2.357-x86_64-linux
-  size: 30 MB
-  bsum: de49837e08156114b3979becc36448a8db1bab5e4b607322b5044efb58cd6185
-  build_date: "2025-02-08T08:55:16Z"
-  src_urls:
-  - https://github.com/Ryubing/Canary-Releases
-  web_urls:
-  - https://github.com/Ryubing/Ryujinx
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/ryujinx/appimage.official.canary.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx?tag=1.2.357-x86_64-linux&download=ryujinx.log
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/ryujinx/ryujinx
-  rank: 89
-- pkg: ryujinx.appimage
-  pkg_name: ryujinx
-  pkg_id: github.com.Ryubing.Ryujinx.stable
-  description: Nintendo Switch Emulator
-  version: 1.2.81
-  download_url: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx:1.2.81-x86_64-linux
-  size: 30 MB
-  bsum: 1124866004c803549e81c65c94ff30351cb18b9836750d92cbbe63bfaee08a83
-  build_date: "2025-02-08T08:52:36Z"
-  src_urls:
-  - https://github.com/Ryubing/Ryujinx
-  web_urls:
-  - https://github.com/Ryubing/Ryujinx
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/ryujinx/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx?tag=1.2.81-x86_64-linux&download=ryujinx.log
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/ryujinx/ryujinx
-  rank: 88
-- pkg: amdgpu_top.appimage
-  pkg_name: amdgpu_top
-  pkg_id: github.com.Umio-Yasuno.amdgpu_top
-  description: Tool to display AMDGPU usage
-  version: v0.10.3
-  download_url: oci://ghcr.io/pkgforge/pkgcache/amdgpu_top/appimage/official/stable/amdgpu_top:v0.10.3-x86_64-linux
-  size: 8.9 MB
-  bsum: f9250a663b684720eae2079e38389feccd3a1dbdb50408f3e8ef047bdf20d467
-  build_date: "2025-02-03T18:45:35Z"
-  src_urls:
-  - https://github.com/Umio-Yasuno/amdgpu_top
-  web_urls:
-  - https://github.com/Umio-Yasuno/amdgpu_top
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/amdgpu_top/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/amdgpu_top/appimage/official/stable/amdgpu_top?tag=v0.10.3-x86_64-linux&download=amdgpu_top.log
-  snapshots:
-  - commit: v0.10.1-x86_64-linux
-    version: v0.10.1
-  - commit: v0.10.2-x86_64-linux
-    version: v0.10.2
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/Umio-Yasuno/amdgpu_top
-  rank: 45
-- pkg: vscodium.appimage
-  pkg_name: vscodium
-  pkg_id: github.com.VSCodium.vscodium
-  description: Visual Studio Code without MS branding/telemetry/licensing
-  version: 1.98.2.25078
-  download_url: oci://ghcr.io/pkgforge/pkgcache/vscodium/appimage/official/stable/vscodium:1.98.2.25078-x86_64-linux
-  size: 111 MB
-  bsum: dc4add95d8468cd242ff947e726e951734310b9ea1aed40c1119bd549016ff30
-  build_date: "2025-03-21T19:36:12Z"
-  src_urls:
-  - https://github.com/VSCodium/vscodium
-  web_urls:
-  - https://vscodium.com
-  - https://github.com/VSCodium/vscodium
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/vscodium/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/vscodium/appimage/official/stable/vscodium?tag=1.98.2.25078-x86_64-linux&download=vscodium.log
-  snapshots:
-  - commit: 1.96.4.25026-x86_64-linux
-    version: 1.96.4.25026
-  - commit: 1.97.0.25037-x86_64-linux
-    version: 1.97.0.25037
-  - commit: 1.97.2.25045-x86_64-linux
-    version: 1.97.2.25045
-  - commit: 1.98.0.25067-x86_64-linux
-    version: 1.98.0.25067
-  - commit: 1.98.1.25070-x86_64-linux
-    version: 1.98.1.25070
-  - commit: 1.98.2.25072-x86_64-linux
-    version: 1.98.2.25072
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/VSCodium/vscodium
-  rank: 106
-- pkg: vesktop.appimage
-  pkg_name: vesktop
-  pkg_id: github.com.Vencord.Vesktop
-  description: A custom Discord App aiming to give you better performance and improve linux support
-  version: v1.5.5
-  download_url: oci://ghcr.io/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop:v1.5.5-x86_64-linux
-  size: 88 MB
-  bsum: 23ea2c16182780f2e461e5862eb0561f9bcc14781f28f3a530af951edcc961db
-  build_date: "2025-03-05T15:01:56Z"
-  src_urls:
-  - https://github.com/Vencord/Vesktop
-  web_urls:
-  - https://github.com/Vencord/Vesktop
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/vesktop/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop?tag=v1.5.5-x86_64-linux&download=vesktop.log
-  snapshots:
-  - commit: v1.5.4-x86_64-linux
-    version: v1.5.4
-  - commit: v1.5.5-x86_64-linux
-    version: v1.5.5
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/Vencord/Vesktop
-  rank: 259
-- pkg: actual.appimage
-  pkg_name: actual
-  pkg_id: github.com.actualbudget.actual.stable
-  description: Privacy-focused app for managing your finances
-  version: v25.3.1
-  download_url: oci://ghcr.io/pkgforge/pkgcache/actual/appimage/official/stable/actual:v25.3.1-x86_64-linux
-  size: 89 MB
-  bsum: b7ce1bfc771a4a09723754dfcd7e5ed734d876c7dd59d4fdfc622a256b3737ef
-  build_date: "2025-03-03T18:46:27Z"
-  src_urls:
-  - https://github.com/actualbudget/actual
-  web_urls:
-  - https://actualbudget.org
-  - https://github.com/actualbudget/actual
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/actual/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/actual/appimage/official/stable/actual?tag=v25.3.1-x86_64-linux&download=actual.log
-  snapshots:
-  - commit: v25.1.0-x86_64-linux
-    version: v25.1.0
-  - commit: v25.2.1-x86_64-linux
-    version: v25.2.1
-  - commit: v25.3.0-x86_64-linux
-    version: v25.3.0
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/actualbudget/actual
-  rank: 39
-- pkg: advanced-rest-client.appimage
-  pkg_name: advanced-rest-client
-  pkg_id: github.com.advanced-rest-client.arc-electron
-  description: A developer tool to test a HTTP request
-  version: v17.0.9
-  download_url: oci://ghcr.io/pkgforge/pkgcache/advanced-rest-client/appimage/official/stable/advanced-rest-client:v17.0.9-x86_64-linux
-  size: 99 MB
-  bsum: 6aed314330be40f4a716938a067dc6508a6372e223bc6976d698a759e4e855a3
-  build_date: "2025-01-26T18:24:10Z"
-  src_urls:
-  - https://github.com/advanced-rest-client/arc-electron
-  web_urls:
-  - https://github.com/advanced-rest-client/arc-electron
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/advanced-rest-client/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/advanced-rest-client/appimage/official/stable/advanced-rest-client?tag=v17.0.9-x86_64-linux&download=advanced-rest-client.log
-  snapshots:
-  - commit: v17.0.9-x86_64-linux
-    version: v17.0.9
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/advanced-rest-client/arc-electron
-  rank: 59
-- pkg: affine.appimage
-  pkg_name: affine
-  pkg_id: github.com.affine-mirror.affine.canary.1
-  description: FOSS Knowledge Base with fully merged docs, whiteboards and databases [canary.1]
-  version: v0.21.0-canary.13
-  download_url: oci://ghcr.io/pkgforge/pkgcache/affine/appimage/official/canary-1/affine:v0.21.0-canary.13-x86_64-linux
-  size: 158 MB
-  bsum: 2f6080fbd1ab0b915ec649bf2c61eebff942bc36bca308829df3f4ee9affbf99
-  build_date: "2025-04-01T19:05:39Z"
-  src_urls:
-  - https://github.com/toeverything/AFFiNE
-  web_urls:
-  - https://affine.pro
-  - https://github.com/toeverything/AFFiNE
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/affine/appimage.official.canary-1.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/affine/appimage/official/canary-1/affine?tag=v0.21.0-canary.13-x86_64-linux&download=affine.log
-  snapshots:
-  - commit: v0.20.0-canary.1-x86_64-linux
-    version: v0.20.0-canary.1
-  - commit: v0.20.0-canary.11-x86_64-linux
-    version: v0.20.0-canary.11
-  - commit: v0.20.0-canary.15-x86_64-linux
-    version: v0.20.0-canary.15
-  - commit: v0.20.0-canary.16-x86_64-linux
-    version: v0.20.0-canary.16
-  - commit: v0.20.3-canary.1-x86_64-linux
-    version: v0.20.3-canary.1
-  - commit: v0.21.0-canary.1-x86_64-linux
-    version: v0.21.0-canary.1
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/toeverything/AFFiNE
-  rank: 41
-- pkg: affine.appimage
-  pkg_name: affine
-  pkg_id: github.com.affine-mirror.affine.canary.2
-  description: FOSS Knowledge Base with fully merged docs, whiteboards and databases [canary.2]
-  version: v0.21.0-canary.2
-  download_url: oci://ghcr.io/pkgforge/pkgcache/affine/appimage/official/canary-2/affine:v0.21.0-canary.2-x86_64-linux
-  size: 158 MB
-  bsum: c4ce97ed43f1dc7c6f9f95933ce689299b59b937aa1d58ee5956600a1c206f8c
-  build_date: "2025-03-21T18:53:19Z"
-  src_urls:
-  - https://github.com/toeverything/AFFiNE
-  web_urls:
-  - https://affine.pro
-  - https://github.com/toeverything/AFFiNE
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/affine/appimage.official.canary-2.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/affine/appimage/official/canary-2/affine?tag=v0.21.0-canary.2-x86_64-linux&download=affine.log
-  snapshots:
-  - commit: v0.20.0-canary.2-x86_64-linux
-    version: v0.20.0-canary.2
-  - commit: v0.20.5-canary.2-x86_64-linux
-    version: v0.20.5-canary.2
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/toeverything/AFFiNE
-  rank: 43
-- pkg: affine.appimage
-  pkg_name: affine
-  pkg_id: github.com.affine-mirror.affine.stable
-  description: FOSS Knowledge Base with fully merged docs, whiteboards and databases
-  version: v0.20.5
-  download_url: oci://ghcr.io/pkgforge/pkgcache/affine/appimage/official/stable/affine:v0.20.5-x86_64-linux
-  size: 153 MB
-  bsum: df38992ff5acc5d69b510b5f4ef367be145404d3050d5a8349f78105124ae13d
-  build_date: "2025-03-10T18:47:45Z"
-  src_urls:
-  - https://github.com/toeverything/AFFiNE
-  web_urls:
-  - https://affine.pro
-  - https://github.com/toeverything/AFFiNE
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/affine/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/affine/appimage/official/stable/affine?tag=v0.20.5-x86_64-linux&download=affine.log
-  snapshots:
-  - commit: v0.19.5-x86_64-linux
-    version: v0.19.5
-  - commit: v0.19.6-x86_64-linux
-    version: v0.19.6
-  - commit: v0.20.0-x86_64-linux
-    version: v0.20.0
-  - commit: v0.20.2-x86_64-linux
-    version: v0.20.2
-  - commit: v0.20.3-x86_64-linux
-    version: v0.20.3
-  - commit: v0.20.4-x86_64-linux
-    version: v0.20.4
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/toeverything/AFFiNE
-  rank: 42
-- pkg: air-controller-desktop.appimage
-  pkg_name: air-controller-desktop
-  pkg_id: github.com.air-controller.air-controller-desktop
-  description: A new handy and powerful Android phone assistant
-  version: 0.4.0
-  download_url: oci://ghcr.io/pkgforge/pkgcache/air-controller-desktop/appimage/official/stable/air-controller-desktop:0.4.0-x86_64-linux
-  size: 12 MB
-  bsum: e4e3b7f621cfedf4dccb7282c7c42f56f58fd80a3f78ab4921ff4649db979b1d
-  build_date: "2025-01-26T18:41:38Z"
-  src_urls:
-  - https://github.com/air-controller/air-controller-desktop
-  web_urls:
-  - https://ac.yhdm360.cn
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/air-controller-desktop/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/air-controller-desktop/appimage/official/stable/air-controller-desktop?tag=0.4.0-x86_64-linux&download=air-controller-desktop.log
-  snapshots:
-  - commit: 0.4.0-x86_64-linux
-    version: 0.4.0
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/air-controller/air-controller-desktop
-  rank: 44
-- pkg: akuse.appimage
-  pkg_name: akuse
-  pkg_id: github.com.akuse-app.akuse
-  description: Simple and easy to use anime streaming desktop app without ads
-  version: 1.10.1
-  download_url: oci://ghcr.io/pkgforge/pkgcache/akuse/appimage/official/stable/akuse:1.10.1-x86_64-linux
-  size: 87 MB
-  bsum: 3550eac0ac82b0f39c638377bb6ea2372af57097b285229e986b88dccc7600e1
-  build_date: "2025-02-15T05:25:51Z"
-  src_urls:
-  - https://github.com/akuse-app/akuse
-  web_urls:
-  - https://github.com/akuse-app/Akuse
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/akuse/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/akuse/appimage/official/stable/akuse?tag=1.10.1-x86_64-linux&download=akuse.log
-  snapshots:
-  - commit: 1.9.0-x86_64-linux
-    version: 1.9.0
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/akuse-app/akuse
-  rank: 50
-- pkg: allusion.appimage
-  pkg_name: allusion
-  pkg_id: github.com.allusion-app.Allusion
-  description: A free and open source desktop application for managing your visual library
-  version: v1.0.0-rc.10
-  download_url: oci://ghcr.io/pkgforge/pkgcache/allusion/appimage/official/stable/allusion:v1.0.0-rc.10-x86_64-linux
-  size: 77 MB
-  bsum: a21f5f5c84370d87054ae1891063413df538de95a22b21cef61941e71779166a
-  build_date: "2025-01-26T18:50:13Z"
-  src_urls:
-  - https://github.com/allusion-app/Allusion
-  web_urls:
-  - https://allusion-app.github.io
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/allusion/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/allusion/appimage/official/stable/allusion?tag=v1.0.0-rc.10-x86_64-linux&download=allusion.log
-  snapshots:
-  - commit: v1.0.0-rc.10-x86_64-linux
-    version: v1.0.0-rc.10
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/allusion-app/Allusion
-  rank: 58
-- pkg: altair.appimage
-  pkg_name: altair
-  pkg_id: github.com.altair-graphql.altair
-  description: A beautiful feature-rich GraphQL Client
-  version: v8.2.1
-  download_url: oci://ghcr.io/pkgforge/pkgcache/altair/appimage/official/stable/altair:v8.2.1-x86_64-linux
-  size: 126 MB
-  bsum: 35e0c6b3db3a9f178b3818132944bcffb8bb0a09eb7c4b31cc66e709497185de
-  build_date: "2025-03-09T18:47:07Z"
-  src_urls:
-  - https://github.com/altair-graphql/altair
-  web_urls:
-  - https://altair.sirmuel.design
-  - https://altairgraphql.dev
-  - https://github.com/imolorhe/altair
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/altair/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/altair/appimage/official/stable/altair?tag=v8.2.1-x86_64-linux&download=altair.log
-  snapshots:
-  - commit: v8.1.3-x86_64-linux
-    version: v8.1.3
-  - commit: v8.1.4-x86_64-linux
-    version: v8.1.4
-  - commit: v8.1.5-x86_64-linux
-    version: v8.1.5
-  - commit: v8.1.6-x86_64-linux
-    version: v8.1.6
-  - commit: v8.2.0-x86_64-linux
-    version: v8.2.0
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/altair-graphql/altair
-  rank: 33
-- pkg: altus.appimage
-  pkg_name: altus
-  pkg_id: github.com.amanharwara.altus
-  description: Desktop client for WhatsApp Web with themes, notifications and multiple account support
-  version: 5.6.0
-  download_url: oci://ghcr.io/pkgforge/pkgcache/altus/appimage/official/stable/altus:5.6.0-x86_64-linux
-  size: 104 MB
-  bsum: 6c02983a14eed406773fc37aaaf898e7b1b3990f086e07db493c31ece97bbdfa
-  build_date: "2025-03-08T18:42:40Z"
-  src_urls:
-  - https://github.com/amanharwara/altus
-  web_urls:
-  - https://github.com/amanharwara/altus
-  - https://gitlab.com/amanharwara/altus
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/altus/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/altus/appimage/official/stable/altus?tag=5.6.0-x86_64-linux&download=altus.log
-  snapshots:
-  - commit: 5.4.0-x86_64-linux
-    version: 5.4.0
-  - commit: 5.4.1-x86_64-linux
-    version: 5.4.1
-  - commit: 5.5.1-x86_64-linux
-    version: 5.5.1
-  - commit: 5.5.2-x86_64-linux
-    version: 5.5.2
-  - commit: 5.5.3-x86_64-linux
-    version: 5.5.3
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/amanharwara/altus
-  rank: 36
-- pkg: waydroid-helper.appimage
-  pkg_name: waydroid-helper
-  pkg_id: github.com.ayasa520.waydroid-helper.stable
-  description: A GUI application for Waydroid configuration and extension installation
-  version: v0.1.2
-  download_url: oci://ghcr.io/pkgforge/pkgcache/waydroid-helper/appimage/official/stable/waydroid-helper:v0.1.2-x86_64-linux
-  size: 55 MB
-  bsum: cc48513a6f6e101c7a796c34d825729d6a7de9e4598bf63103c4815ee06a7389
-  build_date: "2025-02-08T08:58:46Z"
-  src_urls:
-  - https://github.com/ayasa520/waydroid-helper
-  web_urls:
-  - https://github.com/ayasa520/waydroid-helper
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/waydroid-helper/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/waydroid-helper/appimage/official/stable/waydroid-helper?tag=v0.1.2-x86_64-linux&download=waydroid-helper.log
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/ayasa520/waydroid-helper
-  rank: 216
-- pkg: goverlay.appimage
-  pkg_name: goverlay
-  pkg_id: github.com.benjamimgois.goverlay.nightly
-  description: GUI for configuring Vulkan/OpenGL overlays (nightly)
-  version: 250330T010632
-  download_url: oci://ghcr.io/pkgforge/pkgcache/goverlay/appimage/official/nightly/goverlay:250330T010632-x86_64-linux
-  size: 60 MB
-  bsum: 5b581f1fa5f971932a0b3d47f4b2a2f7a41da8dc79482a1d663b699d7d54b659
-  build_date: "2025-03-30T18:50:44Z"
-  src_urls:
-  - https://github.com/benjamimgois/goverlay
-  web_urls:
-  - https://github.com/benjamimgois/goverlay
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/goverlay/appimage.official.nightly.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/goverlay/appimage/official/nightly/goverlay?tag=250330T010632-x86_64-linux&download=goverlay.log
-  snapshots:
-  - commit: 250302T022419-x86_64-linux
-    version: 250302T022419
-  - commit: 250303T014304-x86_64-linux
-    version: 250303T014304
-  - commit: 250307T002559-x86_64-linux
-    version: 250307T002559
-  - commit: 250310T115725-x86_64-linux
-    version: 250310T115725
-  - commit: 250315T164752-x86_64-linux
-    version: 250315T164752
-  - commit: 250321T142911-x86_64-linux
-    version: 250321T142911
-  - commit: 250325T010738-x86_64-linux
-    version: 250325T010738
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/benjamimgois/goverlay
-  rank: 240
-- pkg: goverlay.appimage
-  pkg_name: goverlay
-  pkg_id: github.com.benjamimgois.goverlay.stable
-  description: GUI for configuring Vulkan/OpenGL overlays
-  version: 1.3-3
-  download_url: oci://ghcr.io/pkgforge/pkgcache/goverlay/appimage/official/stable/goverlay:1.3-3-x86_64-linux
-  size: 64 MB
-  bsum: 800dc05fa01990928f46ca199ce6b6704e8e5623d8c0a849f359e07de0d7cdbb
-  build_date: "2025-03-16T14:45:54Z"
-  src_urls:
-  - https://github.com/benjamimgois/goverlay
-  web_urls:
-  - https://github.com/benjamimgois/goverlay
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/goverlay/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/goverlay/appimage/official/stable/goverlay?tag=1.3-3-x86_64-linux&download=goverlay.log
-  snapshots:
-  - commit: 1.3-x86_64-linux
-    version: "1.3"
-  - commit: 1.3-2-x86_64-linux
-    version: 1.3-2
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/benjamimgois/goverlay
-  rank: 239
-- pkg: alexandria.appimage
-  pkg_name: alexandria
-  pkg_id: github.com.btpf.Alexandria
-  description: A minimalistic eBook reader
-  version: v0.13.1
-  download_url: oci://ghcr.io/pkgforge/pkgcache/alexandria/appimage/official/stable/alexandria:v0.13.1-x86_64-linux
-  size: 65 MB
-  bsum: 7d7a0750bf3a09833cbf4cf7495046618460b627b8487eb1e40491e8d0d48769
-  build_date: "2025-01-26T18:47:37Z"
-  src_urls:
-  - https://github.com/btpf/Alexandria
-  web_urls:
-  - https://github.com/btpf/Alexandria
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/alexandria/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/alexandria/appimage/official/stable/alexandria?tag=v0.13.1-x86_64-linux&download=alexandria.log
-  snapshots:
-  - commit: v0.13.1-x86_64-linux
-    version: v0.13.1
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/btpf/Alexandria
-  rank: 74
-- pkg: qbittorrent-enhanced.appimage
-  pkg_name: qbittorrent-enhanced
-  pkg_id: github.com.c0re100.qBittorrent-Enhanced-Edition.stable
-  description: Enhanced version of qBittorrent with extra features
-  version: release-5.0.4.10
-  download_url: oci://ghcr.io/pkgforge/pkgcache/qbittorrent-enhanced/appimage/official/stable/qbittorrent-enhanced:release-5.0.4.10-x86_64-linux
-  size: 26 MB
-  bsum: c2ccaf31f31a3ac574b4dcd13d366062ece8dbcd59b9dee008abae7d5c66ae8d
-  build_date: "2025-03-16T23:25:42Z"
-  src_urls:
-  - https://github.com/c0re100/qBittorrent-Enhanced-Edition
-  web_urls:
-  - https://github.com/c0re100/qBittorrent-Enhanced-Edition
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/qbittorrent-enhanced/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/qbittorrent-enhanced/appimage/official/stable/qbittorrent-enhanced?tag=release-5.0.4.10-x86_64-linux&download=qbittorrent-enhanced.log
-  snapshots:
-  - commit: release-5.0.3.10-x86_64-linux
-    version: release-5.0.3.10
-  - commit: release-5.0.4.10-x86_64-linux
-    version: release-5.0.4.10
-  rank: 206
-- pkg: caido.appimage
-  pkg_name: caido
-  pkg_id: github.com.caido.caido.stable
-  description: Lightweight web security auditing toolkit
-  version: v0.47.1
-  download_url: oci://ghcr.io/pkgforge/pkgcache/caido/appimage/official/stable/caido:v0.47.1-x86_64-linux
-  size: 126 MB
-  bsum: a42c3d1e6ac72e5a5671ac012ba0255689dbddd2f3761a0d19a88a343410f8d5
-  build_date: "2025-03-21T18:55:42Z"
-  src_urls:
-  - https://github.com/caido/caido
-  web_urls:
-  - https://caido.io
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/caido/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/caido/appimage/official/stable/caido?tag=v0.47.1-x86_64-linux&download=caido.log
-  snapshots:
-  - commit: v0.46.0-x86_64-linux
-    version: v0.46.0
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/caido/caido
-  - "You may need to run this with: --no-sandbox"
-  rank: 190
-- pkg: android-messages.appimage
-  pkg_name: android-messages
-  pkg_id: github.com.chrisknepper.android-messages-desktop
-  description: Android Messages as a Cross-platform Desktop App
-  version: v5.6.0
-  download_url: oci://ghcr.io/pkgforge/pkgcache/android-messages/appimage/official/stable/android-messages:v5.6.0-x86_64-linux
-  size: 105 MB
-  bsum: 2d91c10441854796ae4478b6ac60379a37dc770e24b28fd5b9cf463d2b8a6ddc
-  build_date: "2025-01-26T19:06:35Z"
-  src_urls:
-  - https://github.com/OrangeDrangon/android-messages-desktop
-  web_urls:
-  - https://github.com/OrangeDrangon/android-messages-desktop
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/android-messages/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/android-messages/appimage/official/stable/android-messages?tag=v5.6.0-x86_64-linux&download=android-messages.log
-  snapshots:
-  - commit: v5.6.0-x86_64-linux
-    version: v5.6.0
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/OrangeDrangon/android-messages-desktop
-  rank: 56
-- pkg: aaaaxy.appimage
-  pkg_name: aaaaxy
-  pkg_id: github.com.divVerent.aaaaxy
-  description: A nonlinear 2D puzzle platformer taking place in impossible spaces
-  version: v1.6.64
-  download_url: oci://ghcr.io/pkgforge/pkgcache/aaaaxy/appimage/official/stable/aaaaxy:v1.6.64-x86_64-linux
-  size: 33 MB
-  bsum: c95e26c9c9f294bc8d33cba7fe09c2ca01c14191a8e49252735ceb7db61c4eb6
-  build_date: "2025-03-25T18:56:58Z"
-  src_urls:
-  - https://github.com/divVerent/aaaaxy
-  web_urls:
-  - https://divverent.github.io/aaaaxy
-  - https://github.com/divVerent/aaaaxy
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/aaaaxy/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/aaaaxy/appimage/official/stable/aaaaxy?tag=v1.6.64-x86_64-linux&download=aaaaxy.log
-  snapshots:
-  - commit: v1.5.250-x86_64-linux
-    version: v1.5.250
-  - commit: v1.5.256-x86_64-linux
-    version: v1.5.256
-  - commit: v1.6.0-x86_64-linux
-    version: v1.6.0
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/divVerent/aaaaxy
-  rank: 38
-- pkg: peazip.appimage
-  pkg_name: peazip
-  pkg_id: github.com.ferion11.peazip-AppImage
-  description: Open Source archive manager and data compression utility
-  version: v10.3.0
-  download_url: oci://ghcr.io/pkgforge/pkgcache/peazip/appimage/ferion11/stable/peazip:v10.3.0-x86_64-linux
-  size: 14 MB
-  bsum: c56bbc6bdec575ea1b5b3630fe19a838c39853d2b90d52211abae7ff0906fa52
-  build_date: "2025-02-22T21:51:05Z"
-  src_urls:
-  - https://github.com/ferion11/PeaZip_Appimage
-  web_urls:
-  - https://peazip.github.io/
-  - https://github.com/peazip/PeaZip
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/peazip/appimage.ferion11.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/peazip/appimage/ferion11/stable/peazip?tag=v10.3.0-x86_64-linux&download=peazip.log
-  snapshots:
-  - commit: v10.2.0-x86_64-linux
-    version: v10.2.0
-  notes:
-  - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/ferion11/PeaZip_Appimage
-  rank: 174
-- pkg: flameshot.appimage
-  pkg_name: flameshot
-  pkg_id: github.com.flameshot-org.flameshot
-  description: Powerful yet simple to use screenshot software
-  version: v12.1.0
-  download_url: oci://ghcr.io/pkgforge/pkgcache/flameshot/appimage/official/stable/flameshot:v12.1.0-x86_64-linux
-  size: 50 MB
-  bsum: af4869f6b5ce8f29a86458aad51c178e7f60086e8f2e1e6e4c7ff56e7691ca35
-  build_date: "2025-01-26T20:17:09Z"
-  src_urls:
-  - https://github.com/flameshot-org/flameshot
-  web_urls:
-  - https://flameshot.org/
-  - https://github.com/flameshot-org/flameshot
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/flameshot/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/flameshot/appimage/official/stable/flameshot?tag=v12.1.0-x86_64-linux&download=flameshot.log
-  snapshots:
-  - commit: v12.1.0-x86_64-linux
-    version: v12.1.0
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/flameshot-org/flameshot
-  rank: 77
-- pkg: knot.appimage
-  pkg_name: knot
-  pkg_id: github.com.ic005k.Knot
-  description: Record everything in the simplest way possible
-  version: 1.2.19
-  download_url: oci://ghcr.io/pkgforge/pkgcache/knot/appimage/official/stable/knot:1.2.19-x86_64-linux
-  size: 103 MB
-  bsum: 661e2c1382811dc5de48ddcedb9e4be8ef0d20d1ebb47b34a6f45c2e3cfa0acf
-  build_date: "2025-03-25T18:58:30Z"
-  src_urls:
-  - https://github.com/ic005k/Knot
-  web_urls:
-  - https://github.com/ic005k/Knot
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/android-knot/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/knot/appimage/official/stable/knot?tag=1.2.19-x86_64-linux&download=knot.log
-  snapshots:
-  - commit: 1.2.06-x86_64-linux
-    version: 1.2.06
-  - commit: 1.2.07-x86_64-linux
-    version: 1.2.07
-  - commit: 1.2.08-x86_64-linux
-    version: 1.2.08
-  - commit: 1.2.09-x86_64-linux
-    version: 1.2.09
-  - commit: 1.2.10-x86_64-linux
-    version: 1.2.10
-  - commit: 1.2.11-x86_64-linux
-    version: 1.2.11
-  - commit: 1.2.12-x86_64-linux
-    version: 1.2.12
-  - commit: 1.2.15-x86_64-linux
-    version: 1.2.15
-  - commit: 1.2.16-x86_64-linux
-    version: 1.2.16
-  - commit: 1.2.18-x86_64-linux
-    version: 1.2.18
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/ic005k/Knot
-  rank: 35
-- pkg: abiword.appimage
-  pkg_name: abiword
-  pkg_id: github.com.ivan-hc.Abiword-appimage
-  description: Open-source, cross-platform WYSIWYG word processor
-  version: 3.0.6
-  download_url: oci://ghcr.io/pkgforge/pkgcache/abiword/appimage/ivan-hc/stable/abiword:3.0.6-x86_64-linux
-  size: 66 MB
-  bsum: f81b6822031c392a384b9eb231bde776f74ea5b3e8a23af051db0432c878ad8a
-  build_date: "2025-02-08T18:45:09Z"
-  src_urls:
-  - https://github.com/ivan-hc/Abiword-appimage
-  web_urls:
-  - https://gitlab.gnome.org/World/AbiWord
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/abiword/appimage.ivan-hc.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/abiword/appimage/ivan-hc/stable/abiword?tag=3.0.6-x86_64-linux&download=abiword.log
-  snapshots:
-  - commit: 3.0.6-2-3.4.4-2-x86_64-linux
-    version: 3.0.6-2-3.4.4-2
-  - commit: 3.0.6-2-4.2-x86_64-linux
-    version: 3.0.6-2-4.2
-  notes:
-  - Community Created AppImage based on JuNest. Check/Report @ https://github.com/ivan-hc/Abiword-appimage
-  rank: 49
-- pkg: aisleriot.appimage
-  pkg_name: aisleriot
-  pkg_id: github.com.ivan-hc.Aisleriot-appimage
-  description: Collection of solitaire and other card games
-  version: 3.22.34-1-3.4.4-2
-  download_url: oci://ghcr.io/pkgforge/pkgcache/aisleriot/appimage/ivan-hc/stable/aisleriot:3.22.34-1-3.4.4-2-x86_64-linux
-  size: 50 MB
-  bsum: 25ce06af5ff84432d76541a516ae0109e530ca730404ee218f4bedac4d446a61
-  build_date: "2025-01-12T02:56:16Z"
-  src_urls:
-  - https://github.com/ivan-hc/Aisleriot-appimage
-  web_urls:
-  - https://live.gnome.org/Aisleriot
-  - https://wiki.gnome.org/Aisleriot
-  - https://download.gnome.org/sources/aisleriot
-  - https://gitlab.gnome.org/GNOME/aisleriot
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/aisleriot/appimage.ivan-hc.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/aisleriot/appimage/ivan-hc/stable/aisleriot?tag=3.22.34-1-3.4.4-2-x86_64-linux&download=aisleriot.log
-  notes:
-  - Community Created AppImage. Check/Report @ https://github.com/ivan-hc/Aisleriot-appimage
-  rank: 61
-- pkg: spotify.appimage
-  pkg_name: spotify
-  pkg_id: github.com.ivan-hc.Spotify-appimage
-  description: A proprietary music streaming service
-  version: 1.2.56.502.6824
-  download_url: oci://ghcr.io/pkgforge/pkgcache/spotify/appimage/ivan-hc/stable/spotify:1.2.56.502.6824-x86_64-linux
-  size: 128 MB
-  bsum: 03800c9cc5924d83b14995af24884f06c16faf375d4cfe7be00a4a153911e605
-  build_date: "2025-02-16T18:49:03Z"
-  src_urls:
-  - https://github.com/ivan-hc/Spotify-appimage
-  web_urls:
-  - https://www.spotify.com
-  - https://www.spotify.com/download/linux
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/spotify/appimage.ivan-hc.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/spotify/appimage/ivan-hc/stable/spotify?tag=1.2.56.502.6824-x86_64-linux&download=spotify.log
-  snapshots:
-  - commit: 1.2.53.440.72582-x86_64-linux
-    version: 1.2.53.440.72582
-  notes:
-  - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/ivan-hc/Spotify-appimage
-  rank: 212
-- pkg: wps-office.appimage
-  pkg_name: wps-office
-  pkg_id: github.com.ivan-hc.WPS-Office-appimage.stable
-  description: All-in-one Kingsoft Office Suite
-  version: 11.1.0.11723
-  download_url: oci://ghcr.io/pkgforge/pkgcache/wps-office/appimage/ivan-hc/stable/wps-office:11.1.0.11723-x86_64-linux
-  size: 477 MB
-  bsum: a80ae846f58d710340516babefea1ad37cc4139d8b29c112831a0369df62d96d
-  build_date: "2025-03-05T06:28:47Z"
-  src_urls:
-  - https://github.com/ivan-hc/WPS-Office-appimage
-  web_urls:
-  - https://www.wps.com
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/wps-office/appimage.ivan-hc.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/wps-office/appimage/ivan-hc/stable/wps-office?tag=11.1.0.11723-x86_64-linux&download=wps-office.log
-  notes:
-  - Community Created AppImage. Check/Report @ https://github.com/ivan-hc/WPS-Office-appimage
-  - "[MULTI_DESKTOP] (This Package requires multi desktop integration)"
-  rank: 243
-- pkg: kdeutils.appimage
-  pkg_name: kdeutils
-  pkg_id: github.com.ivan-hc.kdeutils-appimage
-  description: Collection of utilities for KDE
-  version: "25.04"
-  download_url: oci://ghcr.io/pkgforge/pkgcache/kdeutils/appimage/ivan-hc/stable/kdeutils:25.04-x86_64-linux
-  size: 368 MB
-  bsum: 63251b93303195c7135182cc8a493396df1eb7b71de0a3e61d6f93bf475dcc4a
-  build_date: "2025-03-16T14:49:59Z"
-  src_urls:
-  - https://github.com/ivan-hc/KDE-utils-appimage
-  web_urls:
-  - https://www.kde.org/applications/utilities
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/kdeutils/appimage.ivan-hc.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/kdeutils/appimage/ivan-hc/stable/kdeutils?tag=25.04-x86_64-linux&download=kdeutils.log
-  snapshots:
-  - commit: 24.12-x86_64-linux
-    version: "24.12"
-  notes:
-  - Community Created AppImage. Check/Report @ https://github.com/ivan-hc/KDE-utils-appimage
-  rank: 85
-- pkg: signal-desktop.appimage
-  pkg_name: signal-desktop
-  pkg_id: github.com.karo-solutions.Signal-Desktop-AppImage.stable
-  description: Private, simple, and secure messenger
-  version: v7.48.0
-  download_url: oci://ghcr.io/pkgforge/pkgcache/signal-desktop/appimage/karo-solutions/stable/signal-desktop:v7.48.0-x86_64-linux
-  size: 150 MB
-  bsum: 7f97aef0a9c13b6e9badf415b3c990e8097fcdf0a20507ab9d498176726b055a
-  build_date: "2025-04-01T19:32:47Z"
-  src_urls:
-  - https://github.com/karo-solutions/Signal-Desktop-AppImage
-  web_urls:
-  - https://signal.org
-  - https://github.com/signalapp/signal-desktop
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/signal-desktop/appimage.karo-solutions.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/signal-desktop/appimage/karo-solutions/stable/signal-desktop?tag=v7.48.0-x86_64-linux&download=signal-desktop.log
-  snapshots:
-  - commit: v7.40.0-x86_64-linux
-    version: v7.40.0
-  - commit: v7.41.0-x86_64-linux
-    version: v7.41.0
-  - commit: v7.42.0-x86_64-linux
-    version: v7.42.0
-  - commit: v7.43.0-x86_64-linux
-    version: v7.43.0
-  - commit: v7.44.0-x86_64-linux
-    version: v7.44.0
-  notes:
-  - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/karo-solutions/Signal-Desktop-AppImage
-  rank: 23
-- pkg: libresprite.appimage
-  pkg_name: libresprite
-  pkg_id: github.com.libresprite.libresprite.stable
-  description: Animated sprite editor & pixel art tool
-  version: v1.2
-  download_url: oci://ghcr.io/pkgforge/pkgcache/libresprite/appimage/official/stable/libresprite:v1.2-x86_64-linux
-  size: 104 MB
-  bsum: f1e5136a77d180344b0c03b074346d78f791893ebe3b3c0a94254c2c38ae5b07
-  build_date: "2025-03-10T02:54:14Z"
-  src_urls:
-  - https://github.com/LibreSprite/LibreSprite
-  web_urls:
-  - https://libresprite.github.io
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/libresprite/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/libresprite/appimage/official/stable/libresprite?tag=v1.2-x86_64-linux&download=libresprite.log
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/LibreSprite/LibreSprite
-  rank: 247
-- pkg: melonds.appimage
-  pkg_name: melonds
-  pkg_id: github.com.melonDS-emu.melonDS
-  description: Nintendo DS/DSi emulator
-  version: 1.0rc
-  download_url: oci://ghcr.io/pkgforge/pkgcache/melonds/appimage/official/stable/melonds:1.0rc-x86_64-linux
-  size: 36 MB
-  bsum: d70236aedaf2669c484ebb57dd61548a31c623b186694203243e9ad2a7700d78
-  build_date: "2025-02-08T08:59:50Z"
-  src_urls:
-  - https://github.com/melonDS-emu/melonDS
-  web_urls:
-  - https://github.com/melonDS-emu/melonDS
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/melonds/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/melonds/appimage/official/stable/melonds?tag=1.0rc-x86_64-linux&download=melonds.log
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/melonDS-emu/melonDS
-  rank: 219
-- pkg: player432hz/yangdownloader.appimage
-  pkg_name: yangdownloader
-  pkg_id: github.com.mysteryx93.HanumanInstituteApps
-  description: Downloads best-quality audio and video from YouTube [player432hz]
-  version: v3.3.2
-  download_url: oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/yangdownloader:v3.3.2-x86_64-linux
-  size: 39 MB
-  bsum: f0278c77af1ecbdbdec5080d1844abdbe8c133804987f3f860585b45a15332bf
-  build_date: "2025-01-26T22:57:45Z"
-  src_urls:
-  - https://github.com/mysteryx93/HanumanInstituteApps
-  web_urls:
-  - https://github.com/mysteryx93/HanumanInstituteApps
-  - https://github.com/mysteryx93/HanumanInstituteApps/wiki
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/player432hz/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/yangdownloader?tag=v3.3.2-x86_64-linux&download=yangdownloader.log
-  snapshots:
-  - commit: v3.3.2-x86_64-linux
-    version: v3.3.2
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/mysteryx93/HanumanInstituteApps
-  rank: 70
-- pkg: player432hz/player432hz.appimage
-  pkg_name: player432hz
-  pkg_id: github.com.mysteryx93.HanumanInstituteApps
-  description: Plays music in 432Hz [player432hz]
-  version: v3.3.2
-  download_url: oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/player432hz:v3.3.2-x86_64-linux
-  size: 23 MB
-  bsum: ea6fb7c680779492bc5843566955b5f0023a3bde7df144ea6fe16d4efbf51d2a
-  build_date: "2025-01-12T02:57:11Z"
-  src_urls:
-  - https://github.com/mysteryx93/HanumanInstituteApps
-  web_urls:
-  - https://github.com/mysteryx93/HanumanInstituteApps
-  - https://github.com/mysteryx93/HanumanInstituteApps/wiki
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/player432hz/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/player432hz?tag=v3.3.2-x86_64-linux&download=player432hz.log
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/mysteryx93/HanumanInstituteApps
-  rank: 69
-- pkg: player432hz/powerliminalsplayer.appimage
-  pkg_name: powerliminalsplayer
-  pkg_id: github.com.mysteryx93.HanumanInstituteApps
-  description: Plays multiple audios simultaneously at varying speeds [player432hz]
-  version: v3.3.2
-  download_url: oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/powerliminalsplayer:v3.3.2-x86_64-linux
-  size: 31 MB
-  bsum: fc0ff685f8ea016f38122d56798543f143b67704ae539bce081dd197e94c4884
-  build_date: "2025-01-26T22:57:44Z"
-  src_urls:
-  - https://github.com/mysteryx93/HanumanInstituteApps
-  web_urls:
-  - https://github.com/mysteryx93/HanumanInstituteApps
-  - https://github.com/mysteryx93/HanumanInstituteApps/wiki
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/player432hz/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/powerliminalsplayer?tag=v3.3.2-x86_64-linux&download=powerliminalsplayer.log
-  snapshots:
-  - commit: v3.3.2-x86_64-linux
-    version: v3.3.2
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/mysteryx93/HanumanInstituteApps
-  rank: 72
-- pkg: player432hz/converter432hz.appimage
-  pkg_name: converter432hz
-  pkg_id: github.com.mysteryx93.HanumanInstituteApps
-  description: Converts and re-encodes music to 432Hz in Batch [player432hz]
-  version: v3.3.2
-  download_url: oci://ghcr.io/pkgforge/pkgcache/player432hz/appimage/official/stable/converter432hz:v3.3.2-x86_64-linux
-  size: 15 MB
-  bsum: 4fb6215fbacdafcb0f2e36a1d61c32b36dc6689aceb4f905cc3854b0e54f9abb
-  build_date: "2025-01-12T02:57:11Z"
-  src_urls:
-  - https://github.com/mysteryx93/HanumanInstituteApps
-  web_urls:
-  - https://github.com/mysteryx93/HanumanInstituteApps
-  - https://github.com/mysteryx93/HanumanInstituteApps/wiki
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/player432hz/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/player432hz/appimage/official/stable/converter432hz?tag=v3.3.2-x86_64-linux&download=converter432hz.log
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/mysteryx93/HanumanInstituteApps
-  rank: 71
-- pkg: neovim.appimage
-  pkg_name: neovim
-  pkg_id: github.com.neovim.neovim.stable
-  description: Vim text editor fork focused on extensibility and agility
-  version: v0.11.0
-  download_url: oci://ghcr.io/pkgforge/pkgcache/neovim/appimage/official/stable/neovim:v0.11.0-x86_64-linux
-  size: 11 MB
-  bsum: 86d1d92a28a5ebef84ef5c87c7a80e65c62e2d79deeece216a8c8460e35807b6
-  build_date: "2025-03-28T19:21:51Z"
-  src_urls:
-  - https://github.com/neovim/neovim
-  web_urls:
-  - https://neovim.io
-  - https://neovim.org
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/neovim/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/neovim/appimage/official/stable/neovim?tag=v0.11.0-x86_64-linux&download=neovim.log
-  snapshots:
-  - commit: v0.10.3-x86_64-linux
-    version: v0.10.3
-  - commit: v0.10.4-x86_64-linux
-    version: v0.10.4
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/neovim/neovim
-  rank: 68
 - pkg: citron.appimage
   pkg_name: citron
   pkg_id: github.com.pkgforge-dev.Citron-AppImage.stable
@@ -1152,6 +24,8 @@ pkgcache:
     version: "0.5"
   - commit: 0.6-x86_64-linux
     version: "0.6"
+  license:
+  - MIT
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Citron-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
@@ -1181,6 +55,8 @@ pkgcache:
     version: "0.5"
   - commit: 0.6-x86_64-linux
     version: "0.6"
+  license:
+  - MIT
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Citron-AppImage
   - Optimized for x86-64-v3
@@ -1221,6 +97,8 @@ pkgcache:
     version: v134.0.6998.39
   - commit: v134.0.6998.89-x86_64-linux
     version: v134.0.6998.89
+  license:
+  - GPL-3.0
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Cromite-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
@@ -1244,6 +122,8 @@ pkgcache:
   snapshots:
   - commit: 2.10.38-x86_64-linux
     version: 2.10.38
+  license:
+  - GPL-3.0
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/GIMP-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
@@ -1272,6 +152,8 @@ pkgcache:
     version: 31.0.1-2
   - commit: 20250222-035321-x86_64-linux
     version: 20250222-035321
+  license:
+  - GPL-2.0
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/OBS-Studio-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
@@ -1298,6 +180,8 @@ pkgcache:
     version: 1.18.1-2
   - commit: 1.17.1-1-x86_64-linux
     version: 1.17.1-1
+  license:
+  - GPL-2.0
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/PPSSPP-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
@@ -1326,6 +210,8 @@ pkgcache:
     version: 20250216-151949
   - commit: r27206.eaa9c9e3a-x86_64-linux
     version: r27206.eaa9c9e3a
+  license:
+  - GPL-3.0
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Torzu-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
@@ -1354,33 +240,13 @@ pkgcache:
     version: 20250216-151949
   - commit: r27206.eaa9c9e3a-x86_64-linux
     version: r27206.eaa9c9e3a
+  license:
+  - GPL-3.0
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Torzu-AppImage
   - Optimized for x86-64-v3
   - "[PORTABLE] (Works on AnyLinux)"
   rank: 26
-- pkg: android-tools.appimage
-  pkg_name: android-tools
-  pkg_id: github.com.pkgforge-dev.android-tools-AppImage.stable
-  description: Android SDK Platform-Tools (adb, fastboot & more)
-  version: 36.0.0
-  download_url: oci://ghcr.io/pkgforge/pkgcache/android-tools/appimage/pkgforge-dev/stable/android-tools:36.0.0-x86_64-linux
-  size: 9.3 MB
-  bsum: 8ed968d18fb37e52521e2343a5d524f15431deff2ff7c3289506c34146b41eac
-  build_date: "2025-03-30T19:00:50Z"
-  src_urls:
-  - https://github.com/pkgforge-dev/android-tools-AppImage
-  web_urls:
-  - https://android.googlesource.com/platform/tools/base
-  - https://github.com/pkgforge-dev/android-tools-AppImage
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/android-tools/appimage.pkgforge-dev.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/android-tools/appimage/pkgforge-dev/stable/android-tools?tag=36.0.0-x86_64-linux&download=android-tools.log
-  snapshots:
-  - commit: 35.0.2-x86_64-linux
-    version: 35.0.2
-  notes:
-  - Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/android-tools-AppImage
-  rank: 11
 - pkg: mpv.appimage
   pkg_name: mpv
   pkg_id: github.com.pkgforge-dev.mpv-AppImage.stable
@@ -1423,6 +289,8 @@ pkgcache:
     version: v0.39.0-992-g561156217
   - commit: v0.40.0-30-g5ba7ee513-x86_64-linux
     version: v0.40.0-30-g5ba7ee513
+  license:
+  - GPL-2.0
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/mpv-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
@@ -1450,6 +318,8 @@ pkgcache:
     version: "13618778201"
   - commit: 13751580923-x86_64-linux
     version: "13751580923"
+  license:
+  - MPL-2.0
   notes:
   - Pre Built AppImage, with Build-related changes. Check/Report @ https://github.com/pkgforge-dev/Pixelpulse2-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
@@ -1476,6 +346,8 @@ pkgcache:
   snapshots:
   - commit: 2.4.0-x86_64-linux
     version: 2.4.0
+  license:
+  - GPL-3.0
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/puddletag-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
@@ -1504,1508 +376,12 @@ pkgcache:
     version: 1.2.6-1
   - commit: 1.2.7-1-x86_64-linux
     version: 1.2.7-1
+  license:
+  - GPL-3.0
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/strawberry-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
   rank: 67
-- pkg: ghostty.appimage
-  pkg_name: ghostty
-  pkg_id: github.com.psadi.ghostty-appimage.stable
-  description: Fast, native, feature-rich terminal emulator pushing modern features
-  version: v1.1.3+1
-  download_url: oci://ghcr.io/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty:v1.1.3_1-x86_64-linux
-  size: 66 MB
-  bsum: c687df70a3cac47892634328b828b2faf2b6abb1b00fcbcaa170f84456fc4e3d
-  build_date: "2025-04-03T15:42:12Z"
-  src_urls:
-  - https://github.com/pkgforge-dev/ghostty-appimage
-  web_urls:
-  - https://ghostty.org
-  - https://github.com/ghostty-org/ghostty
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/ghostty/appimage.psadi.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty?tag=v1.1.3_1-x86_64-linux&download=ghostty.log
-  snapshots:
-  - commit: v1.0.1_2-x86_64-linux
-    version: v1.0.1+2
-  - commit: v1.0.1_4-x86_64-linux
-    version: v1.0.1+4
-  - commit: v1.1.0-x86_64-linux
-    version: v1.1.0
-  - commit: v1.1.0_1-x86_64-linux
-    version: v1.1.0+1
-  - commit: v1.1.2-x86_64-linux
-    version: v1.1.2
-  - commit: v1.1.2_1-x86_64-linux
-    version: v1.1.2+1
-  - commit: v1.1.2_2-x86_64-linux
-    version: v1.1.2+2
-  - commit: v1.1.2_3-x86_64-linux
-    version: v1.1.2+3
-  - commit: v1.1.2_4-x86_64-linux
-    version: v1.1.2+4
-  - commit: v1.1.3-x86_64-linux
-    version: v1.1.3
-  - commit: v1.1.3_1-x86_64-linux
-    version: v1.1.3+1
-  notes:
-  - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/ghostty-appimage
-  rank: 244
-- pkg: rustdesk.appimage
-  pkg_name: rustdesk
-  pkg_id: github.com.rustdesk.rustdesk.nightly
-  description: FOSS Remote desktop application (Nightly)
-  version: 250204T131430
-  download_url: oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk:250204T131430-x86_64-linux
-  size: 65 MB
-  bsum: 23fc6ac2be3126d2328033d09c41039ef576148d61d41d5340da92f5a66ce6a7
-  build_date: "2025-02-08T08:54:16Z"
-  src_urls:
-  - https://github.com/rustdesk/rustdesk
-  web_urls:
-  - https://github.com/rustdesk/rustdesk
-  - https://rustdesk.com
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/rustdesk/appimage.official.nightly.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk?tag=250204T131430-x86_64-linux&download=rustdesk.log
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/rustdesk/rustdesk
-  rank: 87
-- pkg: rustdesk.appimage
-  pkg_name: rustdesk
-  pkg_id: github.com.rustdesk.rustdesk.stable
-  description: FOSS Remote desktop application
-  version: 1.3.7
-  download_url: oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk:1.3.7-x86_64-linux
-  size: 65 MB
-  bsum: 6c3f6ce8b6b86cbf88fe02ddbb895b84bc88c488c125fc0ef66c3230eec9d2c9
-  build_date: "2025-02-08T08:53:55Z"
-  src_urls:
-  - https://github.com/rustdesk/rustdesk
-  web_urls:
-  - https://github.com/rustdesk/rustdesk
-  - https://rustdesk.com
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/rustdesk/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk?tag=1.3.7-x86_64-linux&download=rustdesk.log
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/rustdesk/rustdesk
-  rank: 86
-- pkg: simplex-desktop.appimage
-  pkg_name: simplex-desktop
-  pkg_id: github.com.simplex-chat.simplex-chat
-  description: Desktop application for SimpleX Chat, A 100% private-by-design chat platform
-  version: v6.3.0
-  download_url: oci://ghcr.io/pkgforge/pkgcache/simplex-desktop/appimage/official/stable/simplex-desktop:v6.3.0-x86_64-linux
-  size: 258 MB
-  bsum: f28baea59e0a04c4f2f6f305723cdb824f883a5238dcc5a5718f316c8cd3eed2
-  build_date: "2025-03-10T22:07:58Z"
-  src_urls:
-  - https://github.com/simplex-chat/simplex-chat
-  web_urls:
-  - https://simplex.chat
-  - https://github.com/simplex-chat/simplex-chat
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/simplex-desktop/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/simplex-desktop/appimage/official/stable/simplex-desktop?tag=v6.3.0-x86_64-linux&download=simplex-desktop.log
-  snapshots:
-  - commit: v6.2.4-x86_64-linux
-    version: v6.2.4
-  - commit: v6.2.5-x86_64-linux
-    version: v6.2.5
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/simplex-chat/simplex-chat
-  rank: 76
-- pkg: brave.appimage
-  pkg_name: brave
-  pkg_id: github.com.srevinsaju.Brave-AppImage.beta
-  description: Privacy-oriented browser for Desktop and Laptop computers (Beta)
-  version: v1.78.72
-  download_url: oci://ghcr.io/pkgforge/pkgcache/brave/appimage/srevinsaju/beta/brave:v1.78.72-x86_64-linux
-  size: 156 MB
-  bsum: d8985b56ed62971c3a5e35909459b11a3f948ee2129a677e0a349993ef6e8e7d
-  build_date: "2025-04-01T18:59:34Z"
-  src_urls:
-  - https://github.com/srevinsaju/Brave-AppImage
-  web_urls:
-  - https://brave.com
-  - https://github.com/brave/brave-browser
-  - https://github.com/srevinsaju/Brave-AppImage
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/brave/appimage.srevinsaju.beta.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/brave/appimage/srevinsaju/beta/brave?tag=v1.78.72-x86_64-linux&download=brave.log
-  snapshots:
-  - commit: v1.75.160-x86_64-linux
-    version: v1.75.160
-  - commit: v1.75.161-x86_64-linux
-    version: v1.75.161
-  - commit: v1.75.162-x86_64-linux
-    version: v1.75.162
-  - commit: v1.75.163-x86_64-linux
-    version: v1.75.163
-  - commit: v1.75.164-x86_64-linux
-    version: v1.75.164
-  - commit: v1.75.167-x86_64-linux
-    version: v1.75.167
-  - commit: v1.76.47-x86_64-linux
-    version: v1.76.47
-  - commit: v1.77.73-x86_64-linux
-    version: v1.77.73
-  - commit: v1.77.76-x86_64-linux
-    version: v1.77.76
-  - commit: v1.77.80-x86_64-linux
-    version: v1.77.80
-  - commit: v1.77.81-x86_64-linux
-    version: v1.77.81
-  - commit: v1.77.83-x86_64-linux
-    version: v1.77.83
-  - commit: v1.77.88-x86_64-linux
-    version: v1.77.88
-  - commit: v1.78.69-x86_64-linux
-    version: v1.78.69
-  - commit: v1.78.70-x86_64-linux
-    version: v1.78.70
-  notes:
-  - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Brave-AppImage
-  rank: 238
-- pkg: brave.appimage
-  pkg_name: brave
-  pkg_id: github.com.srevinsaju.Brave-AppImage.nightly
-  description: Privacy-oriented browser for Desktop and Laptop computers (Nightly)
-  version: v1.79.9
-  download_url: oci://ghcr.io/pkgforge/pkgcache/brave/appimage/srevinsaju/nightly/brave:v1.79.9-x86_64-linux
-  size: 157 MB
-  bsum: 16ae685cb6fd917d879c55af5f644716d6c31affaba3ec2016466947df01ea33
-  build_date: "2025-03-30T18:58:52Z"
-  src_urls:
-  - https://github.com/srevinsaju/Brave-AppImage
-  web_urls:
-  - https://brave.com
-  - https://github.com/brave/brave-browser
-  - https://github.com/srevinsaju/Brave-AppImage
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/brave/appimage.srevinsaju.nightly.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/brave/appimage/srevinsaju/nightly/brave?tag=v1.79.9-x86_64-linux&download=brave.log
-  snapshots:
-  - commit: v1.76.15-x86_64-linux
-    version: v1.76.15
-  - commit: v1.76.18-x86_64-linux
-    version: v1.76.18
-  - commit: v1.76.20-x86_64-linux
-    version: v1.76.20
-  - commit: v1.76.23-x86_64-linux
-    version: v1.76.23
-  - commit: v1.76.28-x86_64-linux
-    version: v1.76.28
-  - commit: v1.76.38-x86_64-linux
-    version: v1.76.38
-  - commit: v1.77.1-x86_64-linux
-    version: v1.77.1
-  - commit: v1.78.16-x86_64-linux
-    version: v1.78.16
-  - commit: v1.78.17-x86_64-linux
-    version: v1.78.17
-  - commit: v1.78.26-x86_64-linux
-    version: v1.78.26
-  - commit: v1.78.27-x86_64-linux
-    version: v1.78.27
-  - commit: v1.78.28-x86_64-linux
-    version: v1.78.28
-  - commit: v1.78.35-x86_64-linux
-    version: v1.78.35
-  - commit: v1.78.44-x86_64-linux
-    version: v1.78.44
-  - commit: v1.78.45-x86_64-linux
-    version: v1.78.45
-  - commit: v1.78.55-x86_64-linux
-    version: v1.78.55
-  - commit: v1.78.59-x86_64-linux
-    version: v1.78.59
-  - commit: v1.78.64-x86_64-linux
-    version: v1.78.64
-  notes:
-  - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Brave-AppImage
-  rank: 237
-- pkg: brave.appimage
-  pkg_name: brave
-  pkg_id: github.com.srevinsaju.Brave-AppImage.stable
-  description: Privacy-oriented browser for Desktop and Laptop computers
-  version: v1.76.81
-  download_url: oci://ghcr.io/pkgforge/pkgcache/brave/appimage/srevinsaju/stable/brave:v1.76.81-x86_64-linux
-  size: 156 MB
-  bsum: dfc39b4e463323ed2029a60370301b38d2ae6349517d58154a33efdf40496680
-  build_date: "2025-03-23T18:51:48Z"
-  src_urls:
-  - https://github.com/srevinsaju/Brave-AppImage
-  web_urls:
-  - https://brave.com
-  - https://github.com/brave/brave-browser
-  - https://github.com/srevinsaju/Brave-AppImage
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/brave/appimage.srevinsaju.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/brave/appimage/srevinsaju/stable/brave?tag=v1.76.81-x86_64-linux&download=brave.log
-  snapshots:
-  - commit: v1.74.51-x86_64-linux
-    version: v1.74.51
-  notes:
-  - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Brave-AppImage
-  rank: 236
-- pkg: firefox.appimage
-  pkg_name: firefox
-  pkg_id: github.com.srevinsaju.Firefox-Appimage.beta
-  description: A web browser built from Firefox source tree (Beta)
-  version: 138.0.20250331153038
-  download_url: oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/beta/firefox:138.0.20250331153038-x86_64-linux
-  size: 84 MB
-  bsum: e0ba5318fe3bba6319b49cd4a9b53732c99d64d39cba3add3e48c6932d88774a
-  build_date: "2025-04-01T19:06:01Z"
-  src_urls:
-  - https://github.com/srevinsaju/Firefox-Appimage
-  web_urls:
-  - https://www.mozilla.com
-  - https://hg.mozilla.org/mozilla-central
-  - https://github.com/srevinsaju/Firefox-Appimage
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/firefox/appimage.srevinsaju.beta.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/firefox/appimage/srevinsaju/beta/firefox?tag=138.0.20250331153038-x86_64-linux&download=firefox.log
-  snapshots:
-  - commit: 135.0.20250113112036-x86_64-linux
-    version: 135.0.20250113112036
-  - commit: 135.0.20250115091607-x86_64-linux
-    version: 135.0.20250115091607
-  - commit: 135.0.20250117102618-x86_64-linux
-    version: 135.0.20250117102618
-  - commit: 135.0.20250120093501-x86_64-linux
-    version: 135.0.20250120093501
-  - commit: 135.0.20250124091819-x86_64-linux
-    version: 135.0.20250124091819
-  - commit: 136.0.20250204100018-x86_64-linux
-    version: 136.0.20250204100018
-  - commit: 136.0.20250205091800-x86_64-linux
-    version: 136.0.20250205091800
-  - commit: 136.0.20250207091649-x86_64-linux
-    version: 136.0.20250207091649
-  - commit: 136.0.20250210091604-x86_64-linux
-    version: 136.0.20250210091604
-  - commit: 136.0.20250214091859-x86_64-linux
-    version: 136.0.20250214091859
-  - commit: 136.0.20250217120651-x86_64-linux
-    version: 136.0.20250217120651
-  - commit: 136.0.20250219092102-x86_64-linux
-    version: 136.0.20250219092102
-  - commit: 136.0.20250221091531-x86_64-linux
-    version: 136.0.20250221091531
-  - commit: 137.0.20250303103151-x86_64-linux
-    version: 137.0.20250303103151
-  - commit: 137.0.20250305105816-x86_64-linux
-    version: 137.0.20250305105816
-  - commit: 137.0.20250307103915-x86_64-linux
-    version: 137.0.20250307103915
-  - commit: 137.0.20250310091737-x86_64-linux
-    version: 137.0.20250310091737
-  - commit: 137.0.20250314092052-x86_64-linux
-    version: 137.0.20250314092052
-  - commit: 137.0.20250317100200-x86_64-linux
-    version: 137.0.20250317100200
-  - commit: 137.0.20250319094417-x86_64-linux
-    version: 137.0.20250319094417
-  - commit: curl__22_TherequestedURLreturnederror_522-x86_64-linux
-    version: curl:(22)TherequestedURLreturnederror:522
-  - commit: 137.0.20250324130641-x86_64-linux
-    version: 137.0.20250324130641
-  notes:
-  - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Firefox-Appimage
-  rank: 264
-- pkg: firefox.appimage
-  pkg_name: firefox
-  pkg_id: github.com.srevinsaju.Firefox-Appimage.dev
-  description: A web browser built from Firefox source tree (DEV)
-  version: 138.0.20250331153038
-  download_url: oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/dev/firefox:138.0.20250331153038-x86_64-linux
-  size: 84 MB
-  bsum: a5a840b3b84ffde77a4e095a81d6cf9a8a6209c5d1a3daf8e474b622995d3c4f
-  build_date: "2025-04-01T19:11:21Z"
-  src_urls:
-  - https://github.com/srevinsaju/Firefox-Appimage
-  web_urls:
-  - https://www.mozilla.com
-  - https://hg.mozilla.org/mozilla-central
-  - https://github.com/srevinsaju/Firefox-Appimage
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/firefox/appimage.srevinsaju.dev.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/firefox/appimage/srevinsaju/dev/firefox?tag=138.0.20250331153038-x86_64-linux&download=firefox.log
-  snapshots:
-  - commit: 135.0.20250113112036-x86_64-linux
-    version: 135.0.20250113112036
-  - commit: 135.0.20250115091607-x86_64-linux
-    version: 135.0.20250115091607
-  - commit: 135.0.20250117102618-x86_64-linux
-    version: 135.0.20250117102618
-  - commit: 135.0.20250120093501-x86_64-linux
-    version: 135.0.20250120093501
-  - commit: 135.0.20250124091819-x86_64-linux
-    version: 135.0.20250124091819
-  - commit: 136.0.20250214091859-x86_64-linux
-    version: 136.0.20250214091859
-  - commit: 136.0.20250217120651-x86_64-linux
-    version: 136.0.20250217120651
-  - commit: 136.0.20250219092102-x86_64-linux
-    version: 136.0.20250219092102
-  - commit: 136.0.20250221091531-x86_64-linux
-    version: 136.0.20250221091531
-  - commit: 137.0.20250303103151-x86_64-linux
-    version: 137.0.20250303103151
-  - commit: 137.0.20250305105816-x86_64-linux
-    version: 137.0.20250305105816
-  - commit: 137.0.20250307103915-x86_64-linux
-    version: 137.0.20250307103915
-  - commit: 137.0.20250310091737-x86_64-linux
-    version: 137.0.20250310091737
-  - commit: 137.0.20250314092052-x86_64-linux
-    version: 137.0.20250314092052
-  - commit: 137.0.20250317100200-x86_64-linux
-    version: 137.0.20250317100200
-  - commit: 137.0.20250319094417-x86_64-linux
-    version: 137.0.20250319094417
-  - commit: 137.0.20250321113016-x86_64-linux
-    version: 137.0.20250321113016
-  - commit: 137.0.20250324130641-x86_64-linux
-    version: 137.0.20250324130641
-  notes:
-  - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Firefox-Appimage
-  rank: 266
-- pkg: firefox.appimage
-  pkg_name: firefox
-  pkg_id: github.com.srevinsaju.Firefox-Appimage.esr
-  description: A web browser built from Firefox source tree (ESR)
-  version: 128.8.20250326232952
-  download_url: oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/esr/firefox:128.8.20250326232952-x86_64-linux
-  size: 79 MB
-  bsum: 2c250a506c4aca13a556085204ae2c824a4e16d2c3747c6ae5d0eb8670644f19
-  build_date: "2025-03-28T19:08:42Z"
-  src_urls:
-  - https://github.com/srevinsaju/Firefox-Appimage
-  web_urls:
-  - https://www.mozilla.com
-  - https://hg.mozilla.org/mozilla-central
-  - https://github.com/srevinsaju/Firefox-Appimage
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/firefox/appimage.srevinsaju.esr.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/firefox/appimage/srevinsaju/esr/firefox?tag=128.8.20250326232952-x86_64-linux&download=firefox.log
-  snapshots:
-  - commit: 128.6.20241218153108-x86_64-linux
-    version: 128.6.20241218153108
-  - commit: 128.7.20250127191809-x86_64-linux
-    version: 128.7.20250127191809
-  - commit: 128.8.20250224130137-x86_64-linux
-    version: 128.8.20250224130137
-  notes:
-  - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Firefox-Appimage
-  rank: 267
-- pkg: firefox.appimage
-  pkg_name: firefox
-  pkg_id: github.com.srevinsaju.Firefox-Appimage.nightly
-  description: A web browser built from Firefox source tree (Nightly)
-  version: 139.0.20250331215235
-  download_url: oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/nightly/firefox:139.0.20250331215235-x86_64-linux
-  size: 93 MB
-  bsum: 2452e833f750fa7ccddbf1fd5253f766001c0c77eb3c9b6af2980a10129344aa
-  build_date: "2025-04-01T19:17:49Z"
-  src_urls:
-  - https://github.com/srevinsaju/Firefox-Appimage
-  web_urls:
-  - https://www.mozilla.com
-  - https://hg.mozilla.org/mozilla-central
-  - https://github.com/srevinsaju/Firefox-Appimage
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/firefox/appimage.srevinsaju.nightly.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/firefox/appimage/srevinsaju/nightly/firefox?tag=139.0.20250331215235-x86_64-linux&download=firefox.log
-  snapshots:
-  - commit: 136.0.20250115042832-x86_64-linux
-    version: 136.0.20250115042832
-  - commit: 136.0.20250115215720-x86_64-linux
-    version: 136.0.20250115215720
-  - commit: 136.0.20250119092932-x86_64-linux
-    version: 136.0.20250119092932
-  - commit: 136.0.20250121034512-x86_64-linux
-    version: 136.0.20250121034512
-  - commit: 136.0.20250126092804-x86_64-linux
-    version: 136.0.20250126092804
-  - commit: 136.0.20250130092924-x86_64-linux
-    version: 136.0.20250130092924
-  - commit: 136.0.20250131051218-x86_64-linux
-    version: 136.0.20250131051218
-  - commit: 136.0.20250201090348-x86_64-linux
-    version: 136.0.20250201090348
-  - commit: 136.0.20250202091256-x86_64-linux
-    version: 136.0.20250202091256
-  - commit: 136.0.20250202210625-x86_64-linux
-    version: 136.0.20250202210625
-  - commit: 137.0.20250204093233-x86_64-linux
-    version: 137.0.20250204093233
-  - commit: 137.0.20250204214027-x86_64-linux
-    version: 137.0.20250204214027
-  - commit: 137.0.20250207045558-x86_64-linux
-    version: 137.0.20250207045558
-  - commit: 137.0.20250207164009-x86_64-linux
-    version: 137.0.20250207164009
-  - commit: 137.0.20250209092944-x86_64-linux
-    version: 137.0.20250209092944
-  - commit: 137.0.20250210093033-x86_64-linux
-    version: 137.0.20250210093033
-  - commit: 137.0.20250211090130-x86_64-linux
-    version: 137.0.20250211090130
-  - commit: 137.0.20250211214755-x86_64-linux
-    version: 137.0.20250211214755
-  - commit: 137.0.20250214095524-x86_64-linux
-    version: 137.0.20250214095524
-  - commit: 137.0.20250215092323-x86_64-linux
-    version: 137.0.20250215092323
-  - commit: 137.0.20250216085220-x86_64-linux
-    version: 137.0.20250216085220
-  - commit: 137.0.20250217092040-x86_64-linux
-    version: 137.0.20250217092040
-  - commit: 137.0.20250218093115-x86_64-linux
-    version: 137.0.20250218093115
-  - commit: 137.0.20250218205441-x86_64-linux
-    version: 137.0.20250218205441
-  - commit: 137.0.20250220214610-x86_64-linux
-    version: 137.0.20250220214610
-  - commit: 137.0.20250222091445-x86_64-linux
-    version: 137.0.20250222091445
-  - commit: 137.0.20250223093828-x86_64-linux
-    version: 137.0.20250223093828
-  - commit: 137.0.20250224094139-x86_64-linux
-    version: 137.0.20250224094139
-  - commit: 137.0.20250224170755-x86_64-linux
-    version: 137.0.20250224170755
-  - commit: 137.0.20250226090206-x86_64-linux
-    version: 137.0.20250226090206
-  - commit: 137.0.20250227215252-x86_64-linux
-    version: 137.0.20250227215252
-  - commit: 137.0.20250301091711-x86_64-linux
-    version: 137.0.20250301091711
-  - commit: 137.0.20250301214334-x86_64-linux
-    version: 137.0.20250301214334
-  - commit: 137.0.20250303090051-x86_64-linux
-    version: 137.0.20250303090051
-  - commit: 138.0.20250304094020-x86_64-linux
-    version: 138.0.20250304094020
-  - commit: 138.0.20250304213504-x86_64-linux
-    version: 138.0.20250304213504
-  - commit: 138.0.20250307090837-x86_64-linux
-    version: 138.0.20250307090837
-  - commit: 138.0.20250308090017-x86_64-linux
-    version: 138.0.20250308090017
-  - commit: 138.0.20250309090250-x86_64-linux
-    version: 138.0.20250309090250
-  - commit: 138.0.20250309211826-x86_64-linux
-    version: 138.0.20250309211826
-  - commit: 138.0.20250311090547-x86_64-linux
-    version: 138.0.20250311090547
-  - commit: 138.0.20250312091925-x86_64-linux
-    version: 138.0.20250312091925
-  - commit: 138.0.20250316091255-x86_64-linux
-    version: 138.0.20250316091255
-  - commit: 138.0.20250318090311-x86_64-linux
-    version: 138.0.20250318090311
-  - commit: 138.0.20250321040811-x86_64-linux
-    version: 138.0.20250321040811
-  - commit: 138.0.20250323000437-x86_64-linux
-    version: 138.0.20250323000437
-  - commit: 138.0.20250325043221-x86_64-linux
-    version: 138.0.20250325043221
-  - commit: 138.0.20250328092613-x86_64-linux
-    version: 138.0.20250328092613
-  - commit: 138.0.20250330093237-x86_64-linux
-    version: 138.0.20250330093237
-  notes:
-  - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Firefox-Appimage
-  rank: 265
-- pkg: firefox.appimage
-  pkg_name: firefox
-  pkg_id: github.com.srevinsaju.Firefox-Appimage.stable
-  description: A web browser built from Firefox source tree
-  version: 136.0.20250326231000
-  download_url: oci://ghcr.io/pkgforge/pkgcache/firefox/appimage/srevinsaju/stable/firefox:136.0.20250326231000-x86_64-linux
-  size: 83 MB
-  bsum: caa8f02a6ac65181c64bf5ef831910ebb6c027096b0686e54d4d1c2d911f8987
-  build_date: "2025-03-28T19:13:20Z"
-  src_urls:
-  - https://github.com/srevinsaju/Firefox-Appimage
-  web_urls:
-  - https://www.mozilla.com
-  - https://hg.mozilla.org/mozilla-central
-  - https://github.com/srevinsaju/Firefox-Appimage
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/firefox/appimage.srevinsaju.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/firefox/appimage/srevinsaju/stable/firefox?tag=136.0.20250326231000-x86_64-linux&download=firefox.log
-  snapshots:
-  - commit: 134.0.20250113121357-x86_64-linux
-    version: 134.0.20250113121357
-  - commit: 134.0.20250120135430-x86_64-linux
-    version: 134.0.20250120135430
-  - commit: 135.0.20250130195129-x86_64-linux
-    version: 135.0.20250130195129
-  - commit: 135.0.20250216192613-x86_64-linux
-    version: 135.0.20250216192613
-  - commit: 136.0.20250227124745-x86_64-linux
-    version: 136.0.20250227124745
-  - commit: 136.0.20250310180126-x86_64-linux
-    version: 136.0.20250310180126
-  - commit: 136.0.20250317120031-x86_64-linux
-    version: 136.0.20250317120031
-  notes:
-  - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/Firefox-Appimage
-  rank: 263
-- pkg: discord/discord-canary.appimage
-  pkg_name: discord-canary
-  pkg_id: github.com.srevinsaju.discord-AppImage.canary
-  description: All-in-one cross-platform voice and text chat for gamers (Canary)
-  version: 0.0.621
-  download_url: oci://ghcr.io/pkgforge/pkgcache/discord-canary/appimage/srevinsaju/canary/discord-canary:0.0.621-x86_64-linux
-  size: 85 MB
-  bsum: ddf5ac45def018d3e5e9e0a8783b342f5b0a48de8e05090cc7151140343a15bc
-  build_date: "2025-03-28T18:57:06Z"
-  src_urls:
-  - https://github.com/srevinsaju/discord-appimage
-  web_urls:
-  - https://discordapp.com
-  - https://github.com/srevinsaju/discord-appimage
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/discord/appimage.srevinsaju.canary.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/discord-canary/appimage/srevinsaju/canary/discord-canary?tag=0.0.621-x86_64-linux&download=discord-canary.log
-  snapshots:
-  - commit: 0.0.560-x86_64-linux
-    version: 0.0.560
-  - commit: 0.0.574-x86_64-linux
-    version: 0.0.574
-  - commit: 0.0.580-x86_64-linux
-    version: 0.0.580
-  - commit: 0.0.581-x86_64-linux
-    version: 0.0.581
-  - commit: 0.0.583-x86_64-linux
-    version: 0.0.583
-  - commit: 0.0.584-x86_64-linux
-    version: 0.0.584
-  - commit: 0.0.585-x86_64-linux
-    version: 0.0.585
-  - commit: 0.0.586-x86_64-linux
-    version: 0.0.586
-  - commit: 0.0.587-x86_64-linux
-    version: 0.0.587
-  - commit: 0.0.591-x86_64-linux
-    version: 0.0.591
-  - commit: 0.0.594-x86_64-linux
-    version: 0.0.594
-  - commit: 0.0.597-x86_64-linux
-    version: 0.0.597
-  - commit: 0.0.598-x86_64-linux
-    version: 0.0.598
-  - commit: 0.0.600-x86_64-linux
-    version: 0.0.600
-  - commit: 0.0.601-x86_64-linux
-    version: 0.0.601
-  - commit: 0.0.602-x86_64-linux
-    version: 0.0.602
-  - commit: 0.0.605-x86_64-linux
-    version: 0.0.605
-  - commit: 0.0.606-x86_64-linux
-    version: 0.0.606
-  - commit: 0.0.608-x86_64-linux
-    version: 0.0.608
-  - commit: 0.0.616-x86_64-linux
-    version: 0.0.616
-  - commit: 0.0.618-x86_64-linux
-    version: 0.0.618
-  - commit: 0.0.619-x86_64-linux
-    version: 0.0.619
-  notes:
-  - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/discord-appimage
-  rank: 281
-- pkg: discord/discord-ptb.appimage
-  pkg_name: discord-ptb
-  pkg_id: github.com.srevinsaju.discord-AppImage.ptb
-  description: All-in-one cross-platform voice and text chat for gamers (Public Test Beta)
-  version: 0.0.136
-  download_url: oci://ghcr.io/pkgforge/pkgcache/discord-ptb/appimage/srevinsaju/ptb/discord-ptb:0.0.136-x86_64-linux
-  size: 83 MB
-  bsum: fa097b23986c6228b5c0c16802adccff364a0e7ab14850507240600168184e4e
-  build_date: "2025-03-28T18:55:26Z"
-  src_urls:
-  - https://github.com/srevinsaju/discord-appimage
-  web_urls:
-  - https://discordapp.com
-  - https://github.com/srevinsaju/discord-appimage
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/discord/appimage.srevinsaju.ptb.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/discord-ptb/appimage/srevinsaju/ptb/discord-ptb?tag=0.0.136-x86_64-linux&download=discord-ptb.log
-  snapshots:
-  - commit: 0.0.125-x86_64-linux
-    version: 0.0.125
-  - commit: 0.0.127-x86_64-linux
-    version: 0.0.127
-  - commit: 0.0.128-x86_64-linux
-    version: 0.0.128
-  - commit: 0.0.129-x86_64-linux
-    version: 0.0.129
-  - commit: 0.0.130-x86_64-linux
-    version: 0.0.130
-  - commit: 0.0.131-x86_64-linux
-    version: 0.0.131
-  - commit: 0.0.132-x86_64-linux
-    version: 0.0.132
-  - commit: 0.0.133-x86_64-linux
-    version: 0.0.133
-  - commit: 0.0.134-x86_64-linux
-    version: 0.0.134
-  - commit: 0.0.135-x86_64-linux
-    version: 0.0.135
-  notes:
-  - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/discord-appimage
-  rank: 34
-- pkg: discord/discord.appimage
-  pkg_name: discord
-  pkg_id: github.com.srevinsaju.discord-AppImage.stable
-  description: All-in-one cross-platform voice and text chat for gamers
-  version: 0.0.90
-  download_url: oci://ghcr.io/pkgforge/pkgcache/discord/appimage/srevinsaju/stable/discord:0.0.90-x86_64-linux
-  size: 83 MB
-  bsum: 526e7fcff2f9ae2b4d4d936b84d8727a8a12148eb2b6a0a785b8a1c894939562
-  build_date: "2025-04-01T18:58:12Z"
-  src_urls:
-  - https://github.com/srevinsaju/discord-appimage
-  web_urls:
-  - https://discordapp.com
-  - https://github.com/srevinsaju/discord-appimage
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/discord/appimage.srevinsaju.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/discord/appimage/srevinsaju/stable/discord?tag=0.0.90-x86_64-linux&download=discord.log
-  snapshots:
-  - commit: 0.0.80-x86_64-linux
-    version: 0.0.80
-  - commit: 0.0.81-x86_64-linux
-    version: 0.0.81
-  - commit: 0.0.82-x86_64-linux
-    version: 0.0.82
-  - commit: 0.0.83-x86_64-linux
-    version: 0.0.83
-  - commit: 0.0.84-x86_64-linux
-    version: 0.0.84
-  - commit: 0.0.85-x86_64-linux
-    version: 0.0.85
-  - commit: 0.0.86-x86_64-linux
-    version: 0.0.86
-  - commit: 0.0.87-x86_64-linux
-    version: 0.0.87
-  - commit: 0.0.88-x86_64-linux
-    version: 0.0.88
-  - commit: 0.0.89-x86_64-linux
-    version: 0.0.89
-  notes:
-  - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/srevinsaju/discord-appimage
-  rank: 9
-- pkg: tangent.appimage
-  pkg_name: tangent
-  pkg_id: github.com.suchnsuch.Tangent
-  description: A clean and powerful open source notes app
-  version: 0.8.4
-  download_url: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/stable/tangent:0.8.4-x86_64-linux
-  size: 92 MB
-  bsum: ade60155c2bd91b0cfbcde41fe7b7f70c95e296a114426b0a417f13174d2fdd5
-  build_date: "2025-01-26T23:16:00Z"
-  src_urls:
-  - https://www.tangentnotes.com/Download
-  - https://github.com/suchnsuch/Tangent
-  web_urls:
-  - https://www.tangentnotes.com
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/tangent/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/tangent/appimage/official/stable/tangent?tag=0.8.4-x86_64-linux&download=tangent.log
-  snapshots:
-  - commit: 0.8.4-x86_64-linux
-    version: 0.8.4
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/suchnsuch/Tangent
-  rank: 282
-- pkg: tangent.appimage
-  pkg_name: tangent
-  pkg_id: github.com.suchnsuch.Tangent.alpha
-  description: A clean and powerful open source notes app (alpha)
-  version: 0.9.0-alpha.9
-  download_url: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent:0.9.0-alpha.9-x86_64-linux
-  size: 93 MB
-  bsum: b6efa3a1358b71c5bb35bbf51a480f0004f51a392e51fdcd1b9c79b5fedacf38
-  build_date: "2025-03-25T19:34:10Z"
-  src_urls:
-  - https://www.tangentnotes.com/Download
-  - https://github.com/suchnsuch/Tangent
-  web_urls:
-  - https://www.tangentnotes.com
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/tangent/appimage.official.alpha.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent?tag=0.9.0-alpha.9-x86_64-linux&download=tangent.log
-  snapshots:
-  - commit: 0.9.0-alpha.6-x86_64-linux
-    version: 0.9.0-alpha.6
-  - commit: 0.9.0-alpha.7-x86_64-linux
-    version: 0.9.0-alpha.7
-  - commit: 0.9.0-alpha.8-x86_64-linux
-    version: 0.9.0-alpha.8
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/suchnsuch/Tangent
-  rank: 283
-- pkg: synfigstudio.appimage
-  pkg_name: synfigstudio
-  pkg_id: github.com.synfig.synfig.stable
-  description: Professional vector animation program
-  version: v1.5.3
-  download_url: oci://ghcr.io/pkgforge/pkgcache/synfigstudio/appimage/official/stable/synfigstudio:v1.5.3-x86_64-linux
-  size: 111 MB
-  bsum: cbfa3a5893eafe04c4050c7ed790ab4662951ff0c5f99be353fc5ed827b4c89d
-  build_date: "2025-02-08T08:56:26Z"
-  src_urls:
-  - https://github.com/synfig/synfig
-  web_urls:
-  - https://github.com/synfig/synfig
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/synfigstudio/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/synfigstudio/appimage/official/stable/synfigstudio?tag=v1.5.3-x86_64-linux&download=synfigstudio.log
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/synfig/synfig
-  rank: 218
-- pkg: escrcpy.appimage
-  pkg_name: escrcpy
-  pkg_id: github.com.viarotel-org.escrcpy
-  description: Graphical Scrcpy to display and control Android, devices
-  version: v1.29.2
-  download_url: oci://ghcr.io/pkgforge/pkgcache/escrcpy/appimage/official/stable/escrcpy:v1.29.2-x86_64-linux
-  size: 235 MB
-  bsum: 485e6083a47e8e06eb2a668637530ce524ce347b71db93ae1693dbc958b45b4e
-  build_date: "2025-04-01T19:07:06Z"
-  src_urls:
-  - https://github.com/viarotel-org/escrcpy
-  web_urls:
-  - https://github.com/viarotel-org/escrcpy
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/escrcpy/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/escrcpy/appimage/official/stable/escrcpy?tag=v1.29.2-x86_64-linux&download=escrcpy.log
-  snapshots:
-  - commit: v1.28.4-x86_64-linux
-    version: v1.28.4
-  - commit: v1.28.6-x86_64-linux
-    version: v1.28.6
-  - commit: v1.28.7-x86_64-linux
-    version: v1.28.7
-  - commit: v1.29.0-x86_64-linux
-    version: v1.29.0
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/viarotel-org/escrcpy
-  rank: 10
-- pkg: electron-mail.appimage
-  pkg_name: electron-mail
-  pkg_id: github.com.vladimiry.ElectronMail
-  description: Unofficial ProtonMail Desktop App
-  version: v5.3.0
-  download_url: oci://ghcr.io/pkgforge/pkgcache/electron-mail/appimage/official/stable/electron-mail:v5.3.0-x86_64-linux
-  size: 158 MB
-  bsum: 50267e74d488911b2a31f2165e2dac5a8bff9613d7f127815aa51237887c667e
-  build_date: "2025-02-24T01:31:48Z"
-  src_urls:
-  - https://github.com/vladimiry/ElectronMail
-  web_urls:
-  - https://github.com/vladimiry/ElectronMail
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/electron-mail/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/electron-mail/appimage/official/stable/electron-mail?tag=v5.3.0-x86_64-linux&download=electron-mail.log
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/vladimiry/ElectronMail
-  rank: 235
-- pkg: 9launcher.appimage
-  pkg_name: 9launcher
-  pkg_id: github.com.wearrrrr.9Launcher
-  description: An actively maintained and cross platform remake of Touhou Relauncher
-  version: v.1.3.1
-  download_url: oci://ghcr.io/pkgforge/pkgcache/9launcher/appimage/official/stable/9launcher:v.1.3.1-x86_64-linux
-  size: 131 MB
-  bsum: 229efb79a326c692371898ef13760965e14ab634dcc56132b716ea8221658edb
-  build_date: "2025-01-26T18:10:49Z"
-  src_urls:
-  - https://github.com/wearrrrr/9Launcher
-  web_urls:
-  - https://github.com/wearrrrr/9Launcher
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/9launcher/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/9launcher/appimage/official/stable/9launcher?tag=v.1.3.1-x86_64-linux&download=9launcher.log
-  snapshots:
-  - commit: v.1.3.1-x86_64-linux
-    version: v.1.3.1
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/wearrrrr/9Launcher
-  rank: 60
-- pkg: wezterm.appimage
-  pkg_name: wezterm
-  pkg_id: github.com.wez.wezterm.stable
-  description: A GPU-accelerated cross-platform terminal emulator and multiplexer
-  version: 20240203-110809-5046fc22
-  download_url: oci://ghcr.io/pkgforge/pkgcache/wezterm/appimage/official/stable/wezterm:20240203-110809-5046fc22-x86_64-linux
-  size: 39 MB
-  bsum: 942e346504b95e8dfe8511012aa23d248f955c736f79f252854eba254136a71f
-  build_date: "2025-01-28T04:08:13Z"
-  src_urls:
-  - https://github.com/wez/wezterm
-  web_urls:
-  - https://wezfurlong.org/wezterm/
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/wezterm/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/wezterm/appimage/official/stable/wezterm?tag=20240203-110809-5046fc22-x86_64-linux&download=wezterm.log
-  snapshots:
-  - commit: 20240203-110809-5046fc22-x86_64-linux
-    version: 20240203-110809-5046fc22
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/wez/wezterm
-  rank: 98
-- pkg: zen-browser.appimage
-  pkg_name: zen-browser
-  pkg_id: github.com.zen-browser.desktop.beta
-  description: Performance oriented Firefox-based web browser (Beta)
-  version: 1.0.2-b.5
-  download_url: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser:1.0.2-b.5-x86_64-linux
-  size: 102 MB
-  bsum: 8278daa1a676f4d20e613d7ac9f271b12f7e6fd7fa13712e84376d83d11cd30c
-  build_date: "2025-01-26T23:22:05Z"
-  src_urls:
-  - https://github.com/zen-browser/desktop
-  web_urls:
-  - https://zen-browser.app
-  - https://github.com/zen-browser/desktop
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.beta.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser?tag=1.0.2-b.5-x86_64-linux&download=zen-browser.log
-  snapshots:
-  - commit: 1.0.2-b.5-x86_64-linux
-    version: 1.0.2-b.5
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
-  rank: 260
-- pkg: zen-browser.appimage
-  pkg_name: zen-browser
-  pkg_id: github.com.zen-browser.desktop.stable
-  description: Performance oriented Firefox-based web browser
-  version: 1.10.3b
-  download_url: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser:1.10.3b-x86_64-linux
-  size: 99 MB
-  bsum: dcfffe32c7ad26df3d1826b52f7fb186edd20d030d8976e5072bfc4e86ca26d2
-  build_date: "2025-03-28T19:38:47Z"
-  src_urls:
-  - https://github.com/zen-browser/desktop
-  web_urls:
-  - https://zen-browser.app
-  - https://github.com/zen-browser/desktop
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.10.3b-x86_64-linux&download=zen-browser.log
-  snapshots:
-  - commit: 1.7b-x86_64-linux
-    version: 1.7b
-  - commit: 1.7.1b-x86_64-linux
-    version: 1.7.1b
-  - commit: 1.7.2b-x86_64-linux
-    version: 1.7.2b
-  - commit: 1.7.4b-x86_64-linux
-    version: 1.7.4b
-  - commit: 1.7.5b-x86_64-linux
-    version: 1.7.5b
-  - commit: 1.7.6b-x86_64-linux
-    version: 1.7.6b
-  - commit: 1.8b-x86_64-linux
-    version: 1.8b
-  - commit: 1.8.1b-x86_64-linux
-    version: 1.8.1b
-  - commit: 1.8.2b-x86_64-linux
-    version: 1.8.2b
-  - commit: 1.9b-x86_64-linux
-    version: 1.9b
-  - commit: 1.9.1b-x86_64-linux
-    version: 1.9.1b
-  - commit: 1.10b-x86_64-linux
-    version: 1.10b
-  - commit: 1.10.1b-x86_64-linux
-    version: 1.10.1b
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
-  rank: 262
-- pkg: zen-browser.appimage
-  pkg_name: zen-browser
-  pkg_id: github.com.zen-browser.desktop.twilight
-  description: Performance oriented Firefox-based web browser (Twilight)
-  version: Twilightbuild-1.10.3t(2025-03-31at19:24:52)
-  download_url: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:Twilightbuild-1.10.3t_2025-03-31at19_24_52_-x86_64-linux
-  size: 98 MB
-  bsum: 4a1b1328562448e955690d64e4389b82a9713b1a3b00b8d2243d345567c7115e
-  build_date: "2025-04-01T19:45:51Z"
-  src_urls:
-  - https://github.com/zen-browser/desktop
-  web_urls:
-  - https://zen-browser.app
-  - https://github.com/zen-browser/desktop
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.twilight.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.10.3t_2025-03-31at19_24_52_-x86_64-linux&download=zen-browser.log
-  snapshots:
-  - commit: 1.7t_2025-01-15-x86_64-linux
-    version: 1.7t_2025-01-15
-  - commit: 1.7t_2025-01-16-x86_64-linux
-    version: 1.7t_2025-01-16
-  - commit: 1.7t_2025-01-19-x86_64-linux
-    version: 1.7t_2025-01-19
-  - commit: Twilightbuild-1.7.2t_2025-01-21at22_18_15_-x86_64-linux
-    version: Twilightbuild-1.7.2t(2025-01-21at22:18:15)
-  - commit: Twilightbuild-1.7.2t_2025-01-25at23_03_24_-x86_64-linux
-    version: Twilightbuild-1.7.2t(2025-01-25at23:03:24)
-  - commit: Twilightbuild-1.7.4t_2025-01-30at23_03_43_-x86_64-linux
-    version: Twilightbuild-1.7.4t(2025-01-30at23:03:43)
-  - commit: Twilightbuild-1.7.4t_2025-02-01at09_34_05_-x86_64-linux
-    version: Twilightbuild-1.7.4t(2025-02-01at09:34:05)
-  - commit: Twilightbuild-1.7.4t_2025-02-01at23_12_22_-x86_64-linux
-    version: Twilightbuild-1.7.4t(2025-02-01at23:12:22)
-  - commit: Twilightbuild-1.7.4t_2025-02-02at16_58_54_-x86_64-linux
-    version: Twilightbuild-1.7.4t(2025-02-02at16:58:54)
-  - commit: Twilightbuild-1.7.5t_2025-02-04at10_17_36_-x86_64-linux
-    version: Twilightbuild-1.7.5t(2025-02-04at10:17:36)
-  - commit: Twilightbuild-1.7.6t_2025-02-05at14_21_09_-x86_64-linux
-    version: Twilightbuild-1.7.6t(2025-02-05at14:21:09)
-  - commit: Twilightbuild-1.7.6t_2025-02-07at13_39_46_-x86_64-linux
-    version: Twilightbuild-1.7.6t(2025-02-07at13:39:46)
-  - commit: Twilightbuild-1.7.7t_2025-02-08at23_03_35_-x86_64-linux
-    version: Twilightbuild-1.7.7t(2025-02-08at23:03:35)
-  - commit: Twilightbuild-1.7.7t_2025-02-09at23_03_26_-x86_64-linux
-    version: Twilightbuild-1.7.7t(2025-02-09at23:03:26)
-  - commit: Twilightbuild-1.7.7t_2025-02-11at12_46_32_-x86_64-linux
-    version: Twilightbuild-1.7.7t(2025-02-11at12:46:32)
-  - commit: Twilightbuild-1.7.7t_2025-02-12at11_40_35_-x86_64-linux
-    version: Twilightbuild-1.7.7t(2025-02-12at11:40:35)
-  - commit: Twilightbuild-1.7.7t_2025-02-14at19_14_03_-x86_64-linux
-    version: Twilightbuild-1.7.7t(2025-02-14at19:14:03)
-  - commit: Twilightbuild-1.7.7t_2025-02-16at06_51_50_-x86_64-linux
-    version: Twilightbuild-1.7.7t(2025-02-16at06:51:50)
-  - commit: 1.8t_2025-02-17-x86_64-linux
-    version: 1.8t_2025-02-17
-  - commit: 1.8t_2025-02-19-x86_64-linux
-    version: 1.8t_2025-02-19
-  - commit: 1.8t_2025-02-21-x86_64-linux
-    version: 1.8t_2025-02-21
-  - commit: 1.8t_2025-02-22-x86_64-linux
-    version: 1.8t_2025-02-22
-  - commit: 1.8t_2025-02-23-x86_64-linux
-    version: 1.8t_2025-02-23
-  - commit: Twilightbuild-1.8.1t_2025-02-24at09_55_52_-x86_64-linux
-    version: Twilightbuild-1.8.1t(2025-02-24at09:55:52)
-  - commit: Twilightbuild-1.8.1t_2025-02-25at14_25_38_-x86_64-linux
-    version: Twilightbuild-1.8.1t(2025-02-25at14:25:38)
-  - commit: Twilightbuild-1.8.2t_2025-02-25at23_11_44_-x86_64-linux
-    version: Twilightbuild-1.8.2t(2025-02-25at23:11:44)
-  - commit: Twilightbuild-1.8.2t_2025-02-28at07_38_17_-x86_64-linux
-    version: Twilightbuild-1.8.2t(2025-02-28at07:38:17)
-  - commit: Twilightbuild-1.8.2t_2025-03-01at13_25_05_-x86_64-linux
-    version: Twilightbuild-1.8.2t(2025-03-01at13:25:05)
-  - commit: Twilightbuild-1.8.2t_2025-03-02at13_03_49_-x86_64-linux
-    version: Twilightbuild-1.8.2t(2025-03-02at13:03:49)
-  - commit: Twilightbuild-1.8.2t_2025-03-03at09_57_11_-x86_64-linux
-    version: Twilightbuild-1.8.2t(2025-03-03at09:57:11)
-  - commit: Twilightbuild-1.8.2t_2025-03-04at14_22_07_-x86_64-linux
-    version: Twilightbuild-1.8.2t(2025-03-04at14:22:07)
-  - commit: Twilightbuild-1.8.2t_2025-03-05at12_06_34_-x86_64-linux
-    version: Twilightbuild-1.8.2t(2025-03-05at12:06:34)
-  - commit: 1.9t_2025-03-06-x86_64-linux
-    version: 1.9t_2025-03-06
-  - commit: 1.9t_2025-03-07-x86_64-linux
-    version: 1.9t_2025-03-07
-  - commit: Twilightbuild-1.9.1t_2025-03-09at14_35_21_-x86_64-linux
-    version: Twilightbuild-1.9.1t(2025-03-09at14:35:21)
-  - commit: Twilightbuild-1.9.1t_2025-03-10at15_43_55_-x86_64-linux
-    version: Twilightbuild-1.9.1t(2025-03-10at15:43:55)
-  - commit: Twilightbuild-1.9.1t_2025-03-10at23_03_30_-x86_64-linux
-    version: Twilightbuild-1.9.1t(2025-03-10at23:03:30)
-  - commit: Twilightbuild-1.9.1t_2025-03-11at23_03_26_-x86_64-linux
-    version: Twilightbuild-1.9.1t(2025-03-11at23:03:26)
-  - commit: 1.10t_2025-03-15-x86_64-linux
-    version: 1.10t_2025-03-15
-  - commit: 1.10t_2025-03-16-x86_64-linux
-    version: 1.10t_2025-03-16
-  - commit: 1.10t_2025-03-18-x86_64-linux
-    version: 1.10t_2025-03-18
-  - commit: Twilightbuild-1.10.1t_2025-03-21at07_05_26_-x86_64-linux
-    version: Twilightbuild-1.10.1t(2025-03-21at07:05:26)
-  - commit: Twilightbuild-1.10.1t_2025-03-23at09_42_45_-x86_64-linux
-    version: Twilightbuild-1.10.1t(2025-03-23at09:42:45)
-  - commit: Twilightbuild-1.10.1t_2025-03-24at23_08_45_-x86_64-linux
-    version: Twilightbuild-1.10.1t(2025-03-24at23:08:45)
-  - commit: Twilightbuild-1.10.3t_2025-03-27at23_03_27_-x86_64-linux
-    version: Twilightbuild-1.10.3t(2025-03-27at23:03:27)
-  - commit: Twilightbuild-1.10.3t_2025-03-28at23_03_26_-x86_64-linux
-    version: Twilightbuild-1.10.3t(2025-03-28at23:03:26)
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
-  rank: 261
-- pkg: inkscape.appimage
-  pkg_name: inkscape
-  pkg_id: gitlab.com.inkscape.inkscape
-  description: FOSS Vector Graphics Editor
-  version: "1.4"
-  download_url: oci://ghcr.io/pkgforge/pkgcache/inkscape/appimage/official/stable/inkscape:1.4-x86_64-linux
-  size: 92 MB
-  bsum: 5bd2b9cf69aa8c32648c030229c30b7b6367f355f1af5198b071f9bc9ece3c4e
-  build_date: "2025-02-02T14:36:38Z"
-  src_urls:
-  - https://inkscape.org/release
-  web_urls:
-  - https://inkscape.org
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/inkscape/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/inkscape/appimage/official/stable/inkscape?tag=1.4-x86_64-linux&download=inkscape.log
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://gitlab.com/inkscape/inkscape
-  rank: 171
-- pkg: kdenlive.appimage
-  pkg_name: kdenlive
-  pkg_id: gitlab.com.kdenlive.kdenlive.nightly
-  description: FOSS video editor, based on MLT Framework and KDE Frameworks (Nightly)
-  version: "2025-04-01"
-  download_url: oci://ghcr.io/pkgforge/pkgcache/kdenlive/appimage/official/nightly/kdenlive:2025-04-01-x86_64-linux
-  size: 184 MB
-  bsum: a6c4df24931e0bbdb196c4e25f29d1e3ccb1a225a3279f43c873e5ce3fae6053
-  build_date: "2025-04-01T19:13:33Z"
-  src_urls:
-  - https://kdenlive.org/en/download/
-  web_urls:
-  - https://apps.kde.org/kdenlive
-  - https://invent.kde.org/multimedia/kdenlive
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/kdenlive/appimage.official.nightly.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/kdenlive/appimage/official/nightly/kdenlive?tag=2025-04-01-x86_64-linux&download=kdenlive.log
-  snapshots:
-  - commit: 2025-02-02-x86_64-linux
-    version: "2025-02-02"
-  - commit: 2025-02-04-x86_64-linux
-    version: "2025-02-04"
-  - commit: 2025-02-07-x86_64-linux
-    version: "2025-02-07"
-  - commit: 2025-02-09-x86_64-linux
-    version: "2025-02-09"
-  - commit: 2025-02-10-x86_64-linux
-    version: "2025-02-10"
-  - commit: 2025-02-12-x86_64-linux
-    version: "2025-02-12"
-  - commit: 2025-02-17-x86_64-linux
-    version: "2025-02-17"
-  - commit: 2025-02-18-x86_64-linux
-    version: "2025-02-18"
-  - commit: 2025-02-22-x86_64-linux
-    version: "2025-02-22"
-  - commit: 2025-02-23-x86_64-linux
-    version: "2025-02-23"
-  - commit: 2025-02-24-x86_64-linux
-    version: "2025-02-24"
-  - commit: 2025-02-25-x86_64-linux
-    version: "2025-02-25"
-  - commit: 2025-02-26-x86_64-linux
-    version: "2025-02-26"
-  - commit: 2025-02-28-x86_64-linux
-    version: "2025-02-28"
-  - commit: 2025-03-03-x86_64-linux
-    version: "2025-03-03"
-  - commit: 2025-03-04-x86_64-linux
-    version: "2025-03-04"
-  - commit: 2025-03-07-x86_64-linux
-    version: "2025-03-07"
-  - commit: 2025-03-08-x86_64-linux
-    version: "2025-03-08"
-  - commit: 2025-03-09-x86_64-linux
-    version: "2025-03-09"
-  - commit: 2025-03-10-x86_64-linux
-    version: "2025-03-10"
-  - commit: 2025-03-11-x86_64-linux
-    version: "2025-03-11"
-  - commit: 2025-03-12-x86_64-linux
-    version: "2025-03-12"
-  - commit: 2025-03-16-x86_64-linux
-    version: "2025-03-16"
-  - commit: 2025-03-17-x86_64-linux
-    version: "2025-03-17"
-  - commit: 2025-03-21-x86_64-linux
-    version: "2025-03-21"
-  - commit: 2025-03-28-x86_64-linux
-    version: "2025-03-28"
-  - commit: 2025-03-30-x86_64-linux
-    version: "2025-03-30"
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://invent.kde.org/multimedia/kdenlive
-  rank: 231
-- pkg: kdenlive.appimage
-  pkg_name: kdenlive
-  pkg_id: gitlab.com.kdenlive.kdenlive.stable
-  description: FOSS video editor, based on MLT Framework and KDE Frameworks
-  version: 24.12.3
-  download_url: oci://ghcr.io/pkgforge/pkgcache/kdenlive/appimage/official/stable/kdenlive:24.12.3-x86_64-linux
-  size: 181 MB
-  bsum: ed3d3bb08e2da2b2cd17c0e0e8606db7d1dec1e1c489bc833ceb184329a6d825
-  build_date: "2025-03-11T19:08:38Z"
-  src_urls:
-  - https://kdenlive.org/en/download/
-  web_urls:
-  - https://apps.kde.org/kdenlive
-  - https://invent.kde.org/multimedia/kdenlive
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/kdenlive/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/kdenlive/appimage/official/stable/kdenlive?tag=24.12.3-x86_64-linux&download=kdenlive.log
-  snapshots:
-  - commit: 24.12.2-x86_64-linux
-    version: 24.12.2
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://invent.kde.org/multimedia/kdenlive
-  rank: 230
-- pkg: krita.appimage
-  pkg_name: krita
-  pkg_id: gitlab.com.krita.krita.next
-  description: A free and open source painting application (Alpha/Next)
-  version: "2025-03-31"
-  download_url: oci://ghcr.io/pkgforge/pkgcache/krita/appimage/official/next/krita:2025-03-31-x86_64-linux
-  size: 297 MB
-  bsum: 816ffa6bd22f97cc98a9aa12bea7b51f44d302d2b56a9b0e87e5d2473d2acdf0
-  build_date: "2025-04-01T19:28:21Z"
-  src_urls:
-  - https://krita.org/en/download/
-  web_urls:
-  - https://krita.org
-  - https://invent.kde.org/graphics/krita
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/krita/appimage.official.next.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/krita/appimage/official/next/krita?tag=2025-03-31-x86_64-linux&download=krita.log
-  snapshots:
-  - commit: 2025-02-01-x86_64-linux
-    version: "2025-02-01"
-  - commit: 2025-02-02-x86_64-linux
-    version: "2025-02-02"
-  - commit: 2025-02-03-x86_64-linux
-    version: "2025-02-03"
-  - commit: 2025-02-04-x86_64-linux
-    version: "2025-02-04"
-  - commit: 2025-02-06-x86_64-linux
-    version: "2025-02-06"
-  - commit: 2025-02-07-x86_64-linux
-    version: "2025-02-07"
-  - commit: 2025-02-08-x86_64-linux
-    version: "2025-02-08"
-  - commit: 2025-02-09-x86_64-linux
-    version: "2025-02-09"
-  - commit: 2025-02-10-x86_64-linux
-    version: "2025-02-10"
-  - commit: 2025-02-11-x86_64-linux
-    version: "2025-02-11"
-  - commit: 2025-02-14-x86_64-linux
-    version: "2025-02-14"
-  - commit: 2025-02-15-x86_64-linux
-    version: "2025-02-15"
-  - commit: 2025-02-16-x86_64-linux
-    version: "2025-02-16"
-  - commit: 2025-02-17-x86_64-linux
-    version: "2025-02-17"
-  - commit: 2025-02-18-x86_64-linux
-    version: "2025-02-18"
-  - commit: 2025-02-20-x86_64-linux
-    version: "2025-02-20"
-  - commit: 2025-02-21-x86_64-linux
-    version: "2025-02-21"
-  - commit: 2025-02-22-x86_64-linux
-    version: "2025-02-22"
-  - commit: 2025-02-23-x86_64-linux
-    version: "2025-02-23"
-  - commit: 2025-02-25-x86_64-linux
-    version: "2025-02-25"
-  - commit: 2025-02-26-x86_64-linux
-    version: "2025-02-26"
-  - commit: 2025-02-27-x86_64-linux
-    version: "2025-02-27"
-  - commit: 2025-02-28-x86_64-linux
-    version: "2025-02-28"
-  - commit: 2025-03-01-x86_64-linux
-    version: "2025-03-01"
-  - commit: 2025-03-02-x86_64-linux
-    version: "2025-03-02"
-  - commit: 2025-03-03-x86_64-linux
-    version: "2025-03-03"
-  - commit: 2025-03-04-x86_64-linux
-    version: "2025-03-04"
-  - commit: 2025-03-06-x86_64-linux
-    version: "2025-03-06"
-  - commit: 2025-03-07-x86_64-linux
-    version: "2025-03-07"
-  - commit: 2025-03-08-x86_64-linux
-    version: "2025-03-08"
-  - commit: 2025-03-09-x86_64-linux
-    version: "2025-03-09"
-  - commit: 2025-03-10-x86_64-linux
-    version: "2025-03-10"
-  - commit: 2025-03-11-x86_64-linux
-    version: "2025-03-11"
-  - commit: 2025-03-16-x86_64-linux
-    version: "2025-03-16"
-  - commit: 2025-03-17-x86_64-linux
-    version: "2025-03-17"
-  - commit: 2025-03-20-x86_64-linux
-    version: "2025-03-20"
-  - commit: 2025-03-22-x86_64-linux
-    version: "2025-03-22"
-  - commit: 2025-03-27-x86_64-linux
-    version: "2025-03-27"
-  - commit: 2025-03-29-x86_64-linux
-    version: "2025-03-29"
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://invent.kde.org/graphics/krita
-  rank: 176
-- pkg: krita.appimage
-  pkg_name: krita
-  pkg_id: gitlab.com.krita.krita.stable
-  description: A free and open source painting application
-  version: 5.2.9
-  download_url: oci://ghcr.io/pkgforge/pkgcache/krita/appimage/official/stable/krita:5.2.9-x86_64-linux
-  size: 295 MB
-  bsum: 89b8c9351e0a4e59bee3c265e1bf7c2c0e01e0bc2b8271ef5e6f7e059712a2f9
-  build_date: "2025-02-02T14:40:07Z"
-  src_urls:
-  - https://krita.org/en/download/
-  web_urls:
-  - https://krita.org
-  - https://invent.kde.org/graphics/krita
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/krita/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/krita/appimage/official/stable/krita?tag=5.2.9-x86_64-linux&download=krita.log
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://invent.kde.org/graphics/krita
-  rank: 175
-- pkg: libreoffice.appimage
-  pkg_name: libreoffice
-  pkg_id: gitlab.com.libreoffice.libreoffice.fresh-basic
-  description: A free and open source painting application (fresh-basic)
-  version: 25.2.2.1
-  download_url: oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/fresh-basic/libreoffice:25.2.2.1-x86_64-linux
-  size: 236 MB
-  bsum: 31468d3728bf601e6a730770ed7fe16d7afdfe7d9ef10671f903213760addea7
-  build_date: "2025-03-09T18:54:07Z"
-  src_urls:
-  - https://www.libreoffice.org/download/appimage/
-  web_urls:
-  - https://libreoffice.org
-  - https://cgit.freedesktop.org/libreoffice/core/tree/
-  - https://github.com/LibreOffice/core
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/libreoffice/appimage.official.fresh-basic.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/libreoffice/appimage/official/fresh-basic/libreoffice?tag=25.2.2.1-x86_64-linux&download=libreoffice.log
-  snapshots:
-  - commit: 25.2.0.3-x86_64-linux
-    version: 25.2.0.3
-  - commit: 25.2.1.1-x86_64-linux
-    version: 25.2.1.1
-  - commit: 25.2.1.2-x86_64-linux
-    version: 25.2.1.2
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://libreoffice.org
-  - This version is the latest LibreOffice major release
-  - This version includes support only for the default language i.e English (US)
-  rank: 153
-- pkg: libreoffice.appimage
-  pkg_name: libreoffice
-  pkg_id: gitlab.com.libreoffice.libreoffice.fresh-full
-  description: A free and open source painting application (fresh-full)
-  version: 25.2.2.1
-  download_url: oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/fresh-full/libreoffice:25.2.2.1-x86_64-linux
-  size: 373 MB
-  bsum: 222792f524008f31911f0006c1bfc8e3eaaaca8ede0de523788ab60bcb630750
-  build_date: "2025-03-09T18:55:00Z"
-  src_urls:
-  - https://www.libreoffice.org/download/appimage/
-  web_urls:
-  - https://libreoffice.org
-  - https://cgit.freedesktop.org/libreoffice/core/tree/
-  - https://github.com/LibreOffice/core
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/libreoffice/appimage.official.fresh-full.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/libreoffice/appimage/official/fresh-full/libreoffice?tag=25.2.2.1-x86_64-linux&download=libreoffice.log
-  snapshots:
-  - commit: 25.2.0.3-x86_64-linux
-    version: 25.2.0.3
-  - commit: 25.2.1.1-x86_64-linux
-    version: 25.2.1.1
-  - commit: 25.2.1.2-x86_64-linux
-    version: 25.2.1.2
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://libreoffice.org
-  - This version is the latest LibreOffice major release
-  - This version includes support for all languages supported by LibreOffice
-  rank: 152
-- pkg: libreoffice.appimage
-  pkg_name: libreoffice
-  pkg_id: gitlab.com.libreoffice.libreoffice.fresh-standard
-  description: A free and open source painting application (fresh-standard)
-  version: 25.2.2.1
-  download_url: oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/fresh-standard/libreoffice:25.2.2.1-x86_64-linux
-  size: 270 MB
-  bsum: 10619e940b05c24ebddffeb6d001cdc26aa5bffded4d5dd07b2b00c0c8707658
-  build_date: "2025-03-09T18:51:13Z"
-  src_urls:
-  - https://www.libreoffice.org/download/appimage/
-  web_urls:
-  - https://libreoffice.org
-  - https://cgit.freedesktop.org/libreoffice/core/tree/
-  - https://github.com/LibreOffice/core
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/libreoffice/appimage.official.fresh-standard.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/libreoffice/appimage/official/fresh-standard/libreoffice?tag=25.2.2.1-x86_64-linux&download=libreoffice.log
-  snapshots:
-  - commit: 25.2.0.3-x86_64-linux
-    version: 25.2.0.3
-  - commit: 25.2.1.1-x86_64-linux
-    version: 25.2.1.1
-  - commit: 25.2.1.2-x86_64-linux
-    version: 25.2.1.2
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://libreoffice.org
-  - This version is the latest LibreOffice major release
-  - "This version includes support for: English (US and GB), Arabic, Chinese (Simplified and Traditional), French, German, Italian, Japanese, Korean, Portuguese (Brazilian and Portugal), Russian, and Spanish"
-  rank: 151
-- pkg: libreoffice.appimage
-  pkg_name: libreoffice
-  pkg_id: gitlab.com.libreoffice.libreoffice.still-basic
-  description: A free and open source painting application (still-basic)
-  version: 25.2.2.1
-  download_url: oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/still-basic/libreoffice:25.2.2.1-x86_64-linux
-  size: 236 MB
-  bsum: c8eec211efb5f934bca18886d23b56adfd37873abaf257d15190c3fc1ff1a285
-  build_date: "2025-03-09T18:49:44Z"
-  src_urls:
-  - https://www.libreoffice.org/download/appimage/
-  web_urls:
-  - https://libreoffice.org
-  - https://cgit.freedesktop.org/libreoffice/core/tree/
-  - https://github.com/LibreOffice/core
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/libreoffice/appimage.official.still-basic.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/libreoffice/appimage/official/still-basic/libreoffice?tag=25.2.2.1-x86_64-linux&download=libreoffice.log
-  snapshots:
-  - commit: 25.2.0.3-x86_64-linux
-    version: 25.2.0.3
-  - commit: 25.2.1.1-x86_64-linux
-    version: 25.2.1.1
-  - commit: 25.2.1.2-x86_64-linux
-    version: 25.2.1.2
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://libreoffice.org
-  - This version is the previous LibreOffice major release
-  - This version includes support only for the default language i.e English (US)
-  rank: 156
-- pkg: libreoffice.appimage
-  pkg_name: libreoffice
-  pkg_id: gitlab.com.libreoffice.libreoffice.still-full
-  description: A free and open source painting application (still-full)
-  version: 25.2.2.1
-  download_url: oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/still-full/libreoffice:25.2.2.1-x86_64-linux
-  size: 373 MB
-  bsum: 3885498df5be0bd4d00ef15a17fb155fe24b2ba43b2f2d9f5b1d115c73439b2f
-  build_date: "2025-03-09T18:52:50Z"
-  src_urls:
-  - https://www.libreoffice.org/download/appimage/
-  web_urls:
-  - https://libreoffice.org
-  - https://cgit.freedesktop.org/libreoffice/core/tree/
-  - https://github.com/LibreOffice/core
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/libreoffice/appimage.official.still-full.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/libreoffice/appimage/official/still-full/libreoffice?tag=25.2.2.1-x86_64-linux&download=libreoffice.log
-  snapshots:
-  - commit: 25.2.0.3-x86_64-linux
-    version: 25.2.0.3
-  - commit: 25.2.1.1-x86_64-linux
-    version: 25.2.1.1
-  - commit: 25.2.1.2-x86_64-linux
-    version: 25.2.1.2
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://libreoffice.org
-  - This version is the previous LibreOffice major release
-  - This version includes support for all languages supported by LibreOffice
-  rank: 154
-- pkg: libreoffice.appimage
-  pkg_name: libreoffice
-  pkg_id: gitlab.com.libreoffice.libreoffice.still-standard
-  description: A free and open source painting application (still-standard)
-  version: 25.2.2.1
-  download_url: oci://ghcr.io/pkgforge/pkgcache/libreoffice/appimage/official/still-standard/libreoffice:25.2.2.1-x86_64-linux
-  size: 271 MB
-  bsum: 1074340589836091b3b785390d81eba2f466921267b701f9e52364528fe63958
-  build_date: "2025-03-09T18:58:19Z"
-  src_urls:
-  - https://www.libreoffice.org/download/appimage/
-  web_urls:
-  - https://libreoffice.org
-  - https://cgit.freedesktop.org/libreoffice/core/tree/
-  - https://github.com/LibreOffice/core
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/libreoffice/appimage.official.still-standard.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/libreoffice/appimage/official/still-standard/libreoffice?tag=25.2.2.1-x86_64-linux&download=libreoffice.log
-  snapshots:
-  - commit: 25.2.0.3-x86_64-linux
-    version: 25.2.0.3
-  - commit: 25.2.1.1-x86_64-linux
-    version: 25.2.1.1
-  - commit: 25.2.1.2-x86_64-linux
-    version: 25.2.1.2
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://libreoffice.org
-  - This version is the previous LibreOffice major release
-  - "This version includes support for: English (US and GB), Arabic, Chinese (Simplified and Traditional), French, German, Italian, Japanese, Korean, Portuguese (Brazilian and Portugal), Russian, and Spanish"
-  rank: 155
-- pkg: librewolf.appimage
-  pkg_name: librewolf
-  pkg_id: gitlab.com.librewolf-community.browser.appimage.stable
-  description: A fork of Firefox, focused on privacy, security and freedom
-  version: v136.0.4-1
-  download_url: oci://ghcr.io/pkgforge/pkgcache/librewolf/appimage/official/stable/librewolf:v136.0.4-1-x86_64-linux
-  size: 107 MB
-  bsum: 5ffe691f6eee16eaa5edb7f92a7472f1d4c7bf3dfdb9c89e3b3011a916279818
-  build_date: "2025-03-28T19:19:51Z"
-  src_urls:
-  - https://gitlab.com/librewolf-community/browser/appimage
-  web_urls:
-  - https://librewolf.net
-  - https://librewolf-community.gitlab.io
-  - https://gitlab.com/librewolf-community/browser/appimage
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/librewolf/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/librewolf/appimage/official/stable/librewolf?tag=v136.0.4-1-x86_64-linux&download=librewolf.log
-  snapshots:
-  - commit: v135.0-1-x86_64-linux
-    version: v135.0-1
-  - commit: v136.0-1-x86_64-linux
-    version: v136.0-1
-  - commit: v136.0-2-x86_64-linux
-    version: v136.0-2
-  - commit: v136.0.1-1-x86_64-linux
-    version: v136.0.1-1
-  - commit: v136.0.2-1-x86_64-linux
-    version: v136.0.2-1
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://gitlab.com/librewolf-community/browser/appimage
-  rank: 105
-- pkg: qbittorrent.appimage
-  pkg_name: qbittorrent
-  pkg_id: gitlab.com.qbittorrent.qbittorrent.beta
-  description: A P2P (peer-to-peer) Bittorrent client (Beta)
-  version: 5.1.0
-  download_url: oci://ghcr.io/pkgforge/pkgcache/qbittorrent/appimage/official/beta/qbittorrent:5.1.0-x86_64-linux
-  size: 82 MB
-  bsum: ff8c3279c84ed7e276ca018debec980978c7224ae8d319be98f5f587468e4432
-  build_date: "2025-02-03T19:07:53Z"
-  src_urls:
-  - https://www.qbittorrent.org/download
-  - https://www.fosshub.com/qBittorrent.html
-  - https://sourceforge.net/projects/qbittorrent/files/qbittorrent-appimage
-  web_urls:
-  - https://www.qbittorrent.org
-  - https://github.com/qbittorrent/qBittorrent
-  - https://sourceforge.net/projects/qbittorrent
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/qbittorrent/appimage.official.beta.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/qbittorrent/appimage/official/beta/qbittorrent?tag=5.1.0-x86_64-linux&download=qbittorrent.log
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://www.qbittorrent.org/download
-  rank: 192
-- pkg: qbittorrent.appimage
-  pkg_name: qbittorrent
-  pkg_id: gitlab.com.qbittorrent.qbittorrent.stable
-  description: A P2P (peer-to-peer) Bittorrent client
-  version: 5.1.0
-  download_url: oci://ghcr.io/pkgforge/pkgcache/qbittorrent/appimage/official/stable/qbittorrent:5.1.0-x86_64-linux
-  size: 82 MB
-  bsum: fa7cd0ba4d1dbe833fb8a7d9c77e2c10a3ae5897df30b443b795264c6dfbaeaa
-  build_date: "2025-02-18T19:01:21Z"
-  src_urls:
-  - https://www.qbittorrent.org/download
-  - https://www.fosshub.com/qBittorrent.html
-  - https://sourceforge.net/projects/qbittorrent/files/qbittorrent-appimage
-  web_urls:
-  - https://www.qbittorrent.org
-  - https://github.com/qbittorrent/qBittorrent
-  - https://sourceforge.net/projects/qbittorrent
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/qbittorrent/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/qbittorrent/appimage/official/stable/qbittorrent?tag=5.1.0-x86_64-linux&download=qbittorrent.log
-  snapshots:
-  - commit: 5.0.3-x86_64-linux
-    version: 5.0.3
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://www.qbittorrent.org/download
-  rank: 193
 - pkg: brave.nixappimage
   pkg_name: brave
   pkg_id: nixpkgs.brave
@@ -3040,6 +416,8 @@ pkgcache:
     version: 1.75.180
   - commit: 1.75.181-x86_64-linux
     version: 1.75.181
+  license:
+  - MPL-2.0
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -3082,6 +460,8 @@ pkgcache:
     version: 133.0.6943.141
   - commit: 134.0.6998.35-x86_64-linux
     version: 134.0.6998.35
+  license:
+  - BSD-3-Clause
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -3118,6 +498,8 @@ pkgcache:
     version: 0.0.85
   - commit: 0.0.86-x86_64-linux
     version: 0.0.86
+  license:
+  - Unfree
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -3150,6 +532,8 @@ pkgcache:
     version: 0.0.581
   - commit: 0.0.585-x86_64-linux
     version: 0.0.585
+  license:
+  - Unfree
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -3176,6 +560,8 @@ pkgcache:
     version: 0.0.61
   - commit: 0.0.67-x86_64-linux
     version: 0.0.67
+  license:
+  - Unfree
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -3208,6 +594,8 @@ pkgcache:
     version: 0.0.128
   - commit: 0.0.130-x86_64-linux
     version: 0.0.130
+  license:
+  - Unfree
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -3239,6 +627,8 @@ pkgcache:
     version: 12.1.0-unstable-2025-02-01
   - commit: 12.1.0-unstable-2025-02-12-x86_64-linux
     version: 12.1.0-unstable-2025-02-12
+  license:
+  - GPL-3.0
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -3264,6 +654,8 @@ pkgcache:
   snapshots:
   - commit: 2.3.2-x86_64-linux
     version: 2.3.2
+  license:
+  - GPL-3.0
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -3291,6 +683,8 @@ pkgcache:
     version: "25.01"
   - commit: 25.01.1-x86_64-linux
     version: 25.01.1
+  license:
+  - MPL-2.0
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -3316,6 +710,8 @@ pkgcache:
   snapshots:
   - commit: 0.10.3-x86_64-linux
     version: 0.10.3
+  license:
+  - Apache-2.0
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -3343,6 +739,8 @@ pkgcache:
     version: 6.2.3
   - commit: 6.2.4-x86_64-linux
     version: 6.2.4
+  license:
+  - AGPL-3.0
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -3374,6 +772,8 @@ pkgcache:
     version: 5.10.5
   - commit: 5.10.7-x86_64-linux
     version: 5.10.7
+  license:
+  - GPL-3.0
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -3412,6 +812,8 @@ pkgcache:
     version: 133.0.6943.126
   - commit: 133.0.6943.141-x86_64-linux
     version: 133.0.6943.141
+  license:
+  - BSD-3-Clause
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -3434,6 +836,8 @@ pkgcache:
   - https://gitlab.kitware.com/cmake/cmake
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/cmake/appimage.ppkg.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/cmake/appimage/ppkg/stable/cmake?tag=3.31.5-x86_64-linux&download=cmake.log
+  license:
+  - Custom
   notes:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
@@ -3455,6 +859,8 @@ pkgcache:
   - https://github.com/file/file
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/file/appimage.ppkg.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/file/appimage/ppkg/stable/file?tag=5.45-x86_64-linux&download=file.log
+  license:
+  - custom
   notes:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
@@ -3479,6 +885,8 @@ pkgcache:
   snapshots:
   - commit: 3.12.0-x86_64-linux
     version: 3.12.0
+  license:
+  - Apache-2.0
   notes:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
@@ -3499,6 +907,8 @@ pkgcache:
   - https://git-scm.com/
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/git/appimage.ppkg.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/git/appimage/ppkg/stable/git?tag=2.48.1-x86_64-linux&download=git.log
+  license:
+  - GPL-2.0
   notes:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
@@ -3520,6 +930,8 @@ pkgcache:
   - https://github.com/PaulJuliusMartinez/jless
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/jless/appimage.ppkg.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/jless/appimage/ppkg/stable/jless?tag=0.9.0-x86_64-linux&download=jless.log
+  license:
+  - MIT
   notes:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
@@ -3541,6 +953,8 @@ pkgcache:
   - https://github.com/neutrinolabs/xrdp
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/xrdp/appimage.ppkg.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/xrdp/appimage/ppkg/stable/xrdp?tag=0.10.2-x86_64-linux&download=xrdp.log
+  license:
+  - Apache-2.0
   notes:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
@@ -3568,6 +982,8 @@ pkgcache:
     version: 24.12.1
   - commit: 24.12.2-x86_64-linux
     version: 24.12.2
+  license:
+  - BSD-3-Clause
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -3595,6 +1011,8 @@ pkgcache:
     version: 1.11.92
   - commit: 1.11.93-x86_64-linux
     version: 1.11.93
+  license:
+  - GPL-3.0
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -3620,6 +1038,8 @@ pkgcache:
   snapshots:
   - commit: 24.12.2-x86_64-linux
     version: 24.12.2
+  license:
+  - GPL-3.0
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -3643,6 +1063,8 @@ pkgcache:
   snapshots:
   - commit: 46.0-x86_64-linux
     version: "46.0"
+  license:
+  - GPL-2.0
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -3666,6 +1088,8 @@ pkgcache:
   snapshots:
   - commit: 2.48.1-x86_64-linux
     version: 2.48.1
+  license:
+  - GPL-2.0
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -3687,6 +1111,8 @@ pkgcache:
   - https://inkscape.org
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/inkscape/runimage.alpine.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/inkscape/runimage/alpine/stable/inkscape?tag=1.4-x86_64-linux&download=inkscape.log
+  license:
+  - GPL-2.0
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -3713,6 +1139,8 @@ pkgcache:
     version: 24.12.1
   - commit: 24.12.2-x86_64-linux
     version: 24.12.2
+  license:
+  - GPL-3.0
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -3737,6 +1165,8 @@ pkgcache:
   snapshots:
   - commit: 5.2.6-x86_64-linux
     version: 5.2.6
+  license:
+  - GPL-3.0
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -3758,6 +1188,8 @@ pkgcache:
   - https://github.com/nmap/nmap
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/nmap/runimage.alpine.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/nmap/runimage/alpine/stable/nmap?tag=7.95-x86_64-linux&download=nmap.log
+  license:
+  - custom
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -3779,6 +1211,8 @@ pkgcache:
   - https://wezfurlong.org/wezterm/
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/wezterm/runimage.alpine.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/wezterm/runimage/alpine/stable/wezterm?tag=20240203.110809-x86_64-linux&download=wezterm.log
+  license:
+  - MIT
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -3805,6 +1239,8 @@ pkgcache:
   snapshots:
   - commit: 1.0.0.81-x86_64-linux
     version: 1.0.0.81
+  license:
+  - Unfree
   notes:
   - Built Using RunImage [archlinux]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -3831,6 +1267,8 @@ pkgcache:
     version: 18.9.1
   - commit: 19.0-x86_64-linux
     version: "19.0"
+  license:
+  - CC-BY-SA-3.0
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -3854,6 +1292,8 @@ pkgcache:
   snapshots:
   - commit: 6.25.2.6046-x86_64-linux
     version: 6.25.2.6046
+  license:
+  - freeware
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -3874,6 +1314,8 @@ pkgcache:
   - https://github.com/jindrapetrik/jpexs-decompiler
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/ffdec/runimage.cachyos.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ffdec/runimage/cachyos/stable/ffdec?tag=22.0.1-x86_64-linux&download=ffdec.log
+  license:
+  - GPL-3.0
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -3895,6 +1337,8 @@ pkgcache:
   - https://github.com/NationalSecurityAgency/ghidra
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/ghidra/runimage.cachyos.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghidra/runimage/cachyos/stable/ghidra?tag=11.3.1-x86_64-linux&download=ghidra.log
+  license:
+  - Apache-2.0
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -3916,6 +1360,8 @@ pkgcache:
   - https://gitlab.gnome.org/GNOME/gimp
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/gimp/runimage.cachyos.git.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/gimp/runimage/cachyos/git/gimp?tag=3.0.0.RC1.r40.0cd0206917-x86_64-linux&download=gimp.log
+  license:
+  - GPL-3.0
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -3942,6 +1388,8 @@ pkgcache:
     version: 2.10.38
   - commit: 3.0.0-x86_64-linux
     version: 3.0.0
+  license:
+  - GPL-3.0
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -3966,6 +1414,8 @@ pkgcache:
   snapshots:
   - commit: 47.0-x86_64-linux
     version: "47.0"
+  license:
+  - GPL-2.0
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -3992,6 +1442,8 @@ pkgcache:
     version: 1.1.1.r10.g4cd2c3f
   - commit: 1.2.r9.g514d63d-x86_64-linux
     version: 1.2.r9.g514d63d
+  license:
+  - GPL-3.0
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -4020,6 +1472,8 @@ pkgcache:
     version: "1.3"
   - commit: 1.3_2-x86_64-linux
     version: "1.3_2"
+  license:
+  - GPL-3.0
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -4041,6 +1495,8 @@ pkgcache:
   - https://github.com/nomic-ai/gpt4all
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/gpt4all/runimage.cachyos.git.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/gpt4all/runimage/cachyos/git/gpt4all?tag=3.3.0.r22.g767189d-x86_64-linux&download=gpt4all.log
+  license:
+  - MIT
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -4066,6 +1522,8 @@ pkgcache:
   snapshots:
   - commit: 4.14.0-x86_64-linux
     version: 4.14.0
+  license:
+  - GPL-3.0
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -4087,6 +1545,8 @@ pkgcache:
   - https://github.com/ztefn/haguichi
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/haguichi/runimage.cachyos.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/haguichi/runimage/cachyos/stable/haguichi?tag=1.5.1-x86_64-linux&download=haguichi.log
+  license:
+  - GPL-3.0
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -4110,6 +1570,8 @@ pkgcache:
   snapshots:
   - commit: 24.12-x86_64-linux
     version: "24.12"
+  license:
+  - GPL-2.0
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -4135,6 +1597,8 @@ pkgcache:
     version: 0.7.0
   - commit: 0.7.1-x86_64-linux
     version: 0.7.1
+  license:
+  - MIT
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -4159,6 +1623,8 @@ pkgcache:
   snapshots:
   - commit: 3.8-x86_64-linux
     version: "3.8"
+  license:
+  - GPL-2.0
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -4180,6 +1646,8 @@ pkgcache:
   - https://github.com/LibreSprite/LibreSprite
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/libresprite/runimage.cachyos.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/libresprite/runimage/cachyos/stable/libresprite?tag=1.1.r59.ga678ddf-x86_64-linux&download=libresprite.log
+  license:
+  - GPL-2.0
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -4222,6 +1690,8 @@ pkgcache:
     version: 136.0.1_1
   - commit: 136.0.2_1-x86_64-linux
     version: 136.0.2_1
+  license:
+  - MPL-2.0
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -4246,6 +1716,8 @@ pkgcache:
   snapshots:
   - commit: 1.0.1.r2.gf282e17-x86_64-linux
     version: 1.0.1.r2.gf282e17
+  license:
+  - GPL-3.0
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -4268,6 +1740,8 @@ pkgcache:
   - https://github.com/Nheko-Reborn/nheko
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/nheko/runimage.cachyos.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/nheko/runimage/cachyos/stable/nheko?tag=0.12.0-x86_64-linux&download=nheko.log
+  license:
+  - GPL-3.0
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -4289,6 +1763,8 @@ pkgcache:
   - https://github.com/OpenBoard-org/OpenBoard
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/openboard/runimage.cachyos.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/openboard/runimage/cachyos/stable/openboard?tag=1.7.3-x86_64-linux&download=openboard.log
+  license:
+  - GPL-3.0
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -4313,6 +1789,8 @@ pkgcache:
   snapshots:
   - commit: 0.1.0___channel____date__-_-x86_64-linux
     version: 0.1.0+$_channel+${_date//-}
+  license:
+  - MIT
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -4342,32 +1820,13 @@ pkgcache:
     version: 4.0.0
   - commit: 4.0.1-x86_64-linux
     version: 4.0.1
+  license:
+  - BSD-4-Clause
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
   rank: 205
-- pkg: vscodium.runimage
-  pkg_name: vscodium
-  pkg_id: runimage.cachyos.steam
-  description: Visual Studio Code without MS branding/telemetry/licensing
-  version: 1.96.4.25026
-  download_url: oci://ghcr.io/pkgforge/pkgcache/vscodium/runimage/cachyos/stable/vscodium:1.96.4.25026-x86_64-linux
-  size: 308 MB
-  bsum: c39664ff70dd723336b7efe8a52d7e0510042f0cdaf2d92ed13fb9086b5817a0
-  build_date: "2025-01-27T04:00:57Z"
-  src_urls:
-  - https://github.com/VSCodium/vscodium
-  web_urls:
-  - https://vscodium.com
-  - https://github.com/VSCodium/vscodium
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/vscodium/runimage.cachyos.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/vscodium/runimage/cachyos/stable/vscodium?tag=1.96.4.25026-x86_64-linux&download=vscodium.log
-  notes:
-  - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
-  - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
-  - "[PORTABLE] (Works on AnyLinux)"
-  rank: 94
 - pkg: steam.runimage
   pkg_name: steam
   pkg_id: runimage.cachyos.steam
@@ -4388,11 +1847,36 @@ pkgcache:
   snapshots:
   - commit: 1.0.0.81-x86_64-linux
     version: 1.0.0.81
+  license:
+  - Unfree
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
   rank: 79
+- pkg: vscodium.runimage
+  pkg_name: vscodium
+  pkg_id: runimage.cachyos.steam
+  description: Visual Studio Code without MS branding/telemetry/licensing
+  version: 1.96.4.25026
+  download_url: oci://ghcr.io/pkgforge/pkgcache/vscodium/runimage/cachyos/stable/vscodium:1.96.4.25026-x86_64-linux
+  size: 308 MB
+  bsum: c39664ff70dd723336b7efe8a52d7e0510042f0cdaf2d92ed13fb9086b5817a0
+  build_date: "2025-01-27T04:00:57Z"
+  src_urls:
+  - https://github.com/VSCodium/vscodium
+  web_urls:
+  - https://vscodium.com
+  - https://github.com/VSCodium/vscodium
+  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/vscodium/runimage.cachyos.stable.yaml
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/vscodium/runimage/cachyos/stable/vscodium?tag=1.96.4.25026-x86_64-linux&download=vscodium.log
+  license:
+  - MIT
+  notes:
+  - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
+  - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
+  - "[PORTABLE] (Works on AnyLinux)"
+  rank: 94
 - pkg: wezterm.runimage
   pkg_name: wezterm
   pkg_id: runimage.cachyos.wezterm
@@ -4408,6 +1892,8 @@ pkgcache:
   - https://wezfurlong.org/wezterm/
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/wezterm/runimage.cachyos.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/wezterm/runimage/cachyos/stable/wezterm?tag=20240203.110809.5046fc22-x86_64-linux&download=wezterm.log
+  license:
+  - MIT
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -4433,6 +1919,8 @@ pkgcache:
   snapshots:
   - commit: 4.3.2-x86_64-linux
     version: 4.3.2
+  license:
+  - GPL
   notes:
   - Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -4457,6 +1945,8 @@ pkgcache:
   snapshots:
   - commit: 6.07-x86_64-linux
     version: "6.07"
+  license:
+  - GPL
   notes:
   - "This Package has been marked 'deprecaed': https://gitlab.com/dave_m/clamtk/-/issues/144"
   - Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage
@@ -4478,6 +1968,8 @@ pkgcache:
   - https://github.com/marco-calautti/DeltaPatcher
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/deltapatcher/runimage.debian.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/deltapatcher/runimage/debian/stable/deltapatcher?tag=v3.1.5-x86_64-linux&download=deltapatcher.log
+  license:
+  - GPL-2.0
   notes:
   - Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -4503,6 +1995,8 @@ pkgcache:
     version: 6.25.2
   - commit: 6.26-x86_64-linux
     version: "6.26"
+  license:
+  - freeware
   notes:
   - Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -4527,6 +2021,8 @@ pkgcache:
   snapshots:
   - commit: v0.5.3-x86_64-linux
     version: v0.5.3
+  license:
+  - Apache-2.0
   notes:
   - Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -4551,6 +2047,8 @@ pkgcache:
   snapshots:
   - commit: 5.8.0-1.1-x86_64-linux
     version: 5.8.0-1.1
+  license:
+  - Custom
   notes:
   - Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -4576,6 +2074,8 @@ pkgcache:
     version: 250201T005842
   - commit: 250301T010230jq_error_writingoutputfailed_Brokenpipe-x86_64-linux
     version: 250301T010230jq:error:writingoutputfailed:Brokenpipe
+  license:
+  - Apache-2.0
   notes:
   - Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage

@@ -1,123 +1,4 @@
 pkgcache:
-- pkg: 86box.appimage
-  pkg_name: 86box
-  pkg_id: github.com.86Box.86Box.stable
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/86box/appimage/official/stable/86box?tag=v4.2.1-aarch64-linux&download=86box.png
-  description: Emulator of x86-based machines
-  version: v4.2.1
-  download_url: oci://ghcr.io/pkgforge/pkgcache/86box/appimage/official/stable/86box:v4.2.1-aarch64-linux
-  size: 52 MB
-  bsum: 74d358d3f38d0f2692676fca718870bee9069b3bd25c7c6eefe1c4f155607f91
-  shasum: 6d98eb41392380d6d7fd5c9f10f95aa080c8ba9517b96a8e34b5ad7e847ae1d3
-  build_date: "2025-01-26T16:47:34Z"
-  src_urls:
-  - https://github.com/86Box/86Box
-  web_urls:
-  - https://86box.net
-  - https://86box.readthedocs.io
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/86box/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/86box/appimage/official/stable/86box?tag=v4.2.1-aarch64-linux&download=86box.log
-  snapshots:
-  - commit: v4.2.1-aarch64-linux
-    version: v4.2.1
-  provides: 86box
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/86Box/86Box
-  - "You need to download ROMS: https://86box.readthedocs.io/en/latest/usage/roms.html"
-  rank: 131
-- pkg: ryujinx.appimage
-  pkg_name: ryujinx
-  pkg_id: github.com.Ryubing.Ryujinx.canary
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx?tag=1.2.357-aarch64-linux&download=ryujinx.svg
-  description: Nintendo Switch Emulator (Canary)
-  version: 1.2.357
-  download_url: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx:1.2.357-aarch64-linux
-  size: 29 MB
-  bsum: ec0e6bdeedd0a58676f746130843f920a9256feab119c1787aab8439783ea796
-  shasum: d4b16be8cf8c8c472db124754f45da859d5875d81cb4ef0bf2c4c3a504a026fb
-  build_date: "2025-02-08T08:52:44Z"
-  src_urls:
-  - https://github.com/Ryubing/Canary-Releases
-  web_urls:
-  - https://github.com/Ryubing/Ryujinx
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/ryujinx/appimage.official.canary.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx?tag=1.2.357-aarch64-linux&download=ryujinx.log
-  provides: ryujinx
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/ryujinx/ryujinx
-  rank: 34
-- pkg: ryujinx.appimage
-  pkg_name: ryujinx
-  pkg_id: github.com.Ryubing.Ryujinx.stable
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx?tag=1.2.81-aarch64-linux&download=ryujinx.svg
-  description: Nintendo Switch Emulator
-  version: 1.2.81
-  download_url: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx:1.2.81-aarch64-linux
-  size: 29 MB
-  bsum: 7da62b0e67f0181526d0f8842546bb1ab8a5d2a6f3952e12ce3ff62dd88a3a65
-  shasum: ae7602d73ae32b4a0192b8b7517373df953a61241fa97de395f3bc82a956a0cd
-  build_date: "2025-02-08T08:52:49Z"
-  src_urls:
-  - https://github.com/Ryubing/Ryujinx
-  web_urls:
-  - https://github.com/Ryubing/Ryujinx
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/ryujinx/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx?tag=1.2.81-aarch64-linux&download=ryujinx.log
-  provides: ryujinx
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/ryujinx/ryujinx
-  rank: 33
-- pkg: vesktop.appimage
-  pkg_name: vesktop
-  pkg_id: github.com.Vencord.Vesktop
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop?tag=v1.5.5-aarch64-linux&download=vesktop.png
-  description: A custom Discord App aiming to give you better performance and improve linux support
-  version: v1.5.5
-  download_url: oci://ghcr.io/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop:v1.5.5-aarch64-linux
-  size: 88 MB
-  bsum: 23ea2c16182780f2e461e5862eb0561f9bcc14781f28f3a530af951edcc961db
-  shasum: 29012bac525d3c58a5920c9b4e51411c64cc9229d8e4c68fcc1894ee7f9ad0e6
-  build_date: "2025-03-05T15:04:48Z"
-  src_urls:
-  - https://github.com/Vencord/Vesktop
-  web_urls:
-  - https://github.com/Vencord/Vesktop
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/vesktop/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop?tag=v1.5.5-aarch64-linux&download=vesktop.log
-  snapshots:
-  - commit: v1.5.4-aarch64-linux
-    version: v1.5.4
-  - commit: v1.5.5-aarch64-linux
-    version: v1.5.5
-  provides: vesktop
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/Vencord/Vesktop
-  rank: 139
-- pkg: caido.appimage
-  pkg_name: caido
-  pkg_id: github.com.caido.caido.stable
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/caido/appimage/official/stable/caido?tag=v0.47.1-aarch64-linux&download=caido.png
-  description: Lightweight web security auditing toolkit
-  version: v0.47.1
-  download_url: oci://ghcr.io/pkgforge/pkgcache/caido/appimage/official/stable/caido:v0.47.1-aarch64-linux
-  size: 152 MB
-  bsum: c71afb348d52b85290ac4eea51c91f8b253ec8ebf8b9afbed35f403f0296ceba
-  shasum: 3c3ae001a4606899502246e3e89a1aa6af716cb82bf93bd4c8a9f67f362ca8ad
-  build_date: "2025-03-21T18:55:37Z"
-  src_urls:
-  - https://github.com/caido/caido
-  web_urls:
-  - https://caido.io
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/caido/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/caido/appimage/official/stable/caido?tag=v0.47.1-aarch64-linux&download=caido.log
-  snapshots:
-  - commit: v0.46.0-aarch64-linux
-    version: v0.46.0
-  provides: caido
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/caido/caido
-  - "You may need to run this with: --no-sandbox"
-  rank: 98
 - pkg: pixelpulse2.appimage
   pkg_name: pixelpulse2
   pkg_id: github.com.pkgforge-dev.pixelpulse2
@@ -144,404 +25,14 @@ pkgcache:
   - commit: 13751580923-aarch64-linux
     version: "13751580923"
   provides: pixelpulse2
+  license:
+  - MPL-2.0
   notes:
   - Pre Built AppImage, with Build-related changes. Check/Report @ https://github.com/pkgforge-dev/Pixelpulse2-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
   - Run it with --getudev flag the first time to configure udev rules. It may not detect the board otherwise
   - To reduce crashes, plug in your device after configuring the udev rule and opening the app
   rank: 93
-- pkg: ghostty.appimage
-  pkg_name: ghostty
-  pkg_id: github.com.psadi.ghostty-appimage.stable
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty?tag=v1.1.3_1-aarch64-linux&download=ghostty.png
-  description: Fast, native, feature-rich terminal emulator pushing modern features
-  version: v1.1.3+1
-  download_url: oci://ghcr.io/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty:v1.1.3_1-aarch64-linux
-  size: 65 MB
-  bsum: 4b1ce5ebda97ee85bd80bfc79a5c4a8fb7da57636b297ab39f2c8f5c78a0dbd4
-  shasum: 7969c40b10ed4172d3346101c8221d632bfb660f4e397de2c8f6e29de84529ef
-  build_date: "2025-04-03T15:44:34Z"
-  src_urls:
-  - https://github.com/pkgforge-dev/ghostty-appimage
-  web_urls:
-  - https://ghostty.org
-  - https://github.com/ghostty-org/ghostty
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/ghostty/appimage.psadi.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty?tag=v1.1.3_1-aarch64-linux&download=ghostty.log
-  snapshots:
-  - commit: v1.0.1_4-aarch64-linux
-    version: v1.0.1+4
-  - commit: v1.1.0-aarch64-linux
-    version: v1.1.0
-  - commit: v1.1.0_1-aarch64-linux
-    version: v1.1.0+1
-  - commit: v1.1.2-aarch64-linux
-    version: v1.1.2
-  - commit: v1.1.2_1-aarch64-linux
-    version: v1.1.2+1
-  - commit: v1.1.2_2-aarch64-linux
-    version: v1.1.2+2
-  - commit: v1.1.2_3-aarch64-linux
-    version: v1.1.2+3
-  - commit: v1.1.2_4-aarch64-linux
-    version: v1.1.2+4
-  - commit: v1.1.3-aarch64-linux
-    version: v1.1.3
-  - commit: v1.1.3_1-aarch64-linux
-    version: v1.1.3+1
-  provides: ghostty
-  notes:
-  - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/ghostty-appimage
-  rank: 18
-- pkg: rustdesk.appimage
-  pkg_name: rustdesk
-  pkg_id: github.com.rustdesk.rustdesk.nightly
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk?tag=250204T131430-aarch64-linux&download=rustdesk.svg
-  description: FOSS Remote desktop application (Nightly)
-  version: 250204T131430
-  download_url: oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk:250204T131430-aarch64-linux
-  size: 63 MB
-  bsum: 8c42dce3dcf4ebdff5b256fa874b635d7ed8d0543525155d3aa98828be25a46e
-  shasum: cad14ce25b459a6c5578521449894cbf117e176bb8bddeb8717733f6179c9900
-  build_date: "2025-02-08T08:53:01Z"
-  src_urls:
-  - https://github.com/rustdesk/rustdesk
-  web_urls:
-  - https://github.com/rustdesk/rustdesk
-  - https://rustdesk.com
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/rustdesk/appimage.official.nightly.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk?tag=250204T131430-aarch64-linux&download=rustdesk.log
-  provides: rustdesk
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/rustdesk/rustdesk
-  rank: 31
-- pkg: rustdesk.appimage
-  pkg_name: rustdesk
-  pkg_id: github.com.rustdesk.rustdesk.stable
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk?tag=1.3.7-aarch64-linux&download=rustdesk.svg
-  description: FOSS Remote desktop application
-  version: 1.3.7
-  download_url: oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk:1.3.7-aarch64-linux
-  size: 63 MB
-  bsum: 2cc782eee4ed8297dd4b8de058d8d72d266103007d5b1090acf3cb5e8d11204d
-  shasum: 4a0b8b26951899f60b8169cb7cfe9ec62f9684eeb088a68903a59f2d9cb2b945
-  build_date: "2025-02-08T08:53:20Z"
-  src_urls:
-  - https://github.com/rustdesk/rustdesk
-  web_urls:
-  - https://github.com/rustdesk/rustdesk
-  - https://rustdesk.com
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/rustdesk/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk?tag=1.3.7-aarch64-linux&download=rustdesk.log
-  provides: rustdesk
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/rustdesk/rustdesk
-  rank: 32
-- pkg: tangent.appimage
-  pkg_name: tangent
-  pkg_id: github.com.suchnsuch.Tangent
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/tangent/appimage/official/stable/tangent?tag=0.8.4-aarch64-linux&download=tangent.png
-  description: A clean and powerful open source notes app
-  version: 0.8.4
-  download_url: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/stable/tangent:0.8.4-aarch64-linux
-  size: 91 MB
-  bsum: 5948f969bd02ebef8531e32f3d79c62e19f0bc80f85faa2321781a98573a3e16
-  shasum: 485714d12dafd7f55d32f8eb41a5c8345dff259d7a96e370fb818d68a9beec28
-  build_date: "2025-01-26T18:24:05Z"
-  src_urls:
-  - https://www.tangentnotes.com/Download
-  - https://github.com/suchnsuch/Tangent
-  web_urls:
-  - https://www.tangentnotes.com
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/tangent/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/tangent/appimage/official/stable/tangent?tag=0.8.4-aarch64-linux&download=tangent.log
-  snapshots:
-  - commit: 0.8.4-aarch64-linux
-    version: 0.8.4
-  provides: tangent
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/suchnsuch/Tangent
-  rank: 157
-- pkg: tangent.appimage
-  pkg_name: tangent
-  pkg_id: github.com.suchnsuch.Tangent.alpha
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent?tag=0.9.0-alpha.9-aarch64-linux&download=tangent.png
-  description: A clean and powerful open source notes app (alpha)
-  version: 0.9.0-alpha.9
-  download_url: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent:0.9.0-alpha.9-aarch64-linux
-  size: 92 MB
-  bsum: 494c683161e28e575336fca67a1dba1ba07b3e29fa8879705b1e245ebd7de06a
-  shasum: b4b4f72d3ecbdf33b24d6477e79f7792b207efcb7b2c42827e50542572c6ccdf
-  build_date: "2025-03-25T19:40:18Z"
-  src_urls:
-  - https://www.tangentnotes.com/Download
-  - https://github.com/suchnsuch/Tangent
-  web_urls:
-  - https://www.tangentnotes.com
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/tangent/appimage.official.alpha.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent?tag=0.9.0-alpha.9-aarch64-linux&download=tangent.log
-  snapshots:
-  - commit: 0.9.0-alpha.6-aarch64-linux
-    version: 0.9.0-alpha.6
-  - commit: 0.9.0-alpha.7-aarch64-linux
-    version: 0.9.0-alpha.7
-  - commit: 0.9.0-alpha.8-aarch64-linux
-    version: 0.9.0-alpha.8
-  provides: tangent=>tangent-alpha
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/suchnsuch/Tangent
-  rank: 156
-- pkg: escrcpy.appimage
-  pkg_name: escrcpy
-  pkg_id: github.com.viarotel-org.escrcpy
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/escrcpy/appimage/official/stable/escrcpy?tag=v1.29.2-aarch64-linux&download=escrcpy.png
-  description: Graphical Scrcpy to display and control Android, devices
-  version: v1.29.2
-  download_url: oci://ghcr.io/pkgforge/pkgcache/escrcpy/appimage/official/stable/escrcpy:v1.29.2-aarch64-linux
-  size: 89 MB
-  bsum: 70f7698214abb196840cdc92441c8c7a2bf28851be4f8d7fab7524af25eb8166
-  shasum: 19401563ecaccf97a13555f11a93035a6227605e43ef661e6af3887f753e2103
-  build_date: "2025-04-01T18:58:27Z"
-  src_urls:
-  - https://github.com/viarotel-org/escrcpy
-  web_urls:
-  - https://github.com/viarotel-org/escrcpy
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/escrcpy/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/escrcpy/appimage/official/stable/escrcpy?tag=v1.29.2-aarch64-linux&download=escrcpy.log
-  snapshots:
-  - commit: v1.28.4-aarch64-linux
-    version: v1.28.4
-  - commit: v1.28.6-aarch64-linux
-    version: v1.28.6
-  - commit: v1.28.7-aarch64-linux
-    version: v1.28.7
-  - commit: v1.29.0-aarch64-linux
-    version: v1.29.0
-  provides: escrcpy
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/viarotel-org/escrcpy
-  rank: 6
-- pkg: zen-browser.appimage
-  pkg_name: zen-browser
-  pkg_id: github.com.zen-browser.desktop.beta
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser?tag=1.0.2-b.5-aarch64-linux&download=zen-browser.png
-  description: Performance oriented Firefox-based web browser (Beta)
-  version: 1.0.2-b.5
-  download_url: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser:1.0.2-b.5-aarch64-linux
-  size: 95 MB
-  bsum: 38a2beaf8a46cc005ea54619c93bf718a50b059ff884587e15dff38ffeab322e
-  shasum: 98aafee82186fca80707294ec59044991749bfeac47c80ad7f58b5eb874a248c
-  build_date: "2025-01-26T18:33:48Z"
-  src_urls:
-  - https://github.com/zen-browser/desktop
-  web_urls:
-  - https://zen-browser.app
-  - https://github.com/zen-browser/desktop
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.beta.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser?tag=1.0.2-b.5-aarch64-linux&download=zen-browser.log
-  snapshots:
-  - commit: 1.0.2-b.5-aarch64-linux
-    version: 1.0.2-b.5
-  provides: zen-browser==zen
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
-  rank: 142
-- pkg: zen-browser.appimage
-  pkg_name: zen-browser
-  pkg_id: github.com.zen-browser.desktop.stable
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.10.3b-aarch64-linux&download=zen-browser.png
-  description: Performance oriented Firefox-based web browser
-  version: 1.10.3b
-  download_url: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser:1.10.3b-aarch64-linux
-  size: 90 MB
-  bsum: c3e3c8abda4ba0a27a461bac7c03eeac0cba3ef183aef639298f44360fbf5279
-  shasum: 931e3eaad96688469f8b2c1aaa97f1f5ce02d2e5e8e4e31597c24b01fbe01bbc
-  build_date: "2025-03-28T19:39:04Z"
-  src_urls:
-  - https://github.com/zen-browser/desktop
-  web_urls:
-  - https://zen-browser.app
-  - https://github.com/zen-browser/desktop
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.10.3b-aarch64-linux&download=zen-browser.log
-  snapshots:
-  - commit: 1.7b-aarch64-linux
-    version: 1.7b
-  - commit: 1.7.1b-aarch64-linux
-    version: 1.7.1b
-  - commit: 1.7.2b-aarch64-linux
-    version: 1.7.2b
-  - commit: 1.7.4b-aarch64-linux
-    version: 1.7.4b
-  - commit: 1.7.5b-aarch64-linux
-    version: 1.7.5b
-  - commit: 1.7.6b-aarch64-linux
-    version: 1.7.6b
-  - commit: 1.8b-aarch64-linux
-    version: 1.8b
-  - commit: 1.8.1b-aarch64-linux
-    version: 1.8.1b
-  - commit: 1.8.2b-aarch64-linux
-    version: 1.8.2b
-  - commit: 1.9b-aarch64-linux
-    version: 1.9b
-  - commit: 1.9.1b-aarch64-linux
-    version: 1.9.1b
-  - commit: 1.10b-aarch64-linux
-    version: 1.10b
-  - commit: 1.10.1b-aarch64-linux
-    version: 1.10.1b
-  provides: zen-browser==zen
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
-  rank: 141
-- pkg: zen-browser.appimage
-  pkg_name: zen-browser
-  pkg_id: github.com.zen-browser.desktop.twilight
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.10.3t_2025-03-31at19_24_52_-aarch64-linux&download=zen-browser.png
-  description: Performance oriented Firefox-based web browser (Twilight)
-  version: Twilightbuild-1.10.3t(2025-03-31at19:24:52)
-  download_url: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:Twilightbuild-1.10.3t_2025-03-31at19_24_52_-aarch64-linux
-  size: 91 MB
-  bsum: 6370b50af1a6eb75eada6c850944fab88d7eecf2654886ab5089f77afa0a293c
-  shasum: ed46f1dfb80dbe4068ef643931c05c2213e72a547981b2e4fbdbf2c03c5da6e1
-  build_date: "2025-04-01T19:48:12Z"
-  src_urls:
-  - https://github.com/zen-browser/desktop
-  web_urls:
-  - https://zen-browser.app
-  - https://github.com/zen-browser/desktop
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.twilight.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.10.3t_2025-03-31at19_24_52_-aarch64-linux&download=zen-browser.log
-  snapshots:
-  - commit: 1.7t_2025-01-15-aarch64-linux
-    version: 1.7t_2025-01-15
-  - commit: 1.7t_2025-01-16-aarch64-linux
-    version: 1.7t_2025-01-16
-  - commit: Twilightbuild-1.7.2t_2025-01-21at22_18_15_-aarch64-linux
-    version: Twilightbuild-1.7.2t(2025-01-21at22:18:15)
-  - commit: Twilightbuild-1.7.2t_2025-01-25at23_03_24_-aarch64-linux
-    version: Twilightbuild-1.7.2t(2025-01-25at23:03:24)
-  - commit: Twilightbuild-1.7.4t_2025-01-30at23_03_43_-aarch64-linux
-    version: Twilightbuild-1.7.4t(2025-01-30at23:03:43)
-  - commit: Twilightbuild-1.7.4t_2025-02-01at09_34_05_-aarch64-linux
-    version: Twilightbuild-1.7.4t(2025-02-01at09:34:05)
-  - commit: Twilightbuild-1.7.4t_2025-02-01at23_12_22_-aarch64-linux
-    version: Twilightbuild-1.7.4t(2025-02-01at23:12:22)
-  - commit: Twilightbuild-1.7.4t_2025-02-02at16_58_54_-aarch64-linux
-    version: Twilightbuild-1.7.4t(2025-02-02at16:58:54)
-  - commit: Twilightbuild-1.7.5t_2025-02-04at10_17_36_-aarch64-linux
-    version: Twilightbuild-1.7.5t(2025-02-04at10:17:36)
-  - commit: Twilightbuild-1.7.6t_2025-02-05at14_21_09_-aarch64-linux
-    version: Twilightbuild-1.7.6t(2025-02-05at14:21:09)
-  - commit: Twilightbuild-1.7.6t_2025-02-07at13_39_46_-aarch64-linux
-    version: Twilightbuild-1.7.6t(2025-02-07at13:39:46)
-  - commit: Twilightbuild-1.7.7t_2025-02-08at23_03_35_-aarch64-linux
-    version: Twilightbuild-1.7.7t(2025-02-08at23:03:35)
-  - commit: Twilightbuild-1.7.7t_2025-02-09at23_03_26_-aarch64-linux
-    version: Twilightbuild-1.7.7t(2025-02-09at23:03:26)
-  - commit: Twilightbuild-1.7.7t_2025-02-11at12_46_32_-aarch64-linux
-    version: Twilightbuild-1.7.7t(2025-02-11at12:46:32)
-  - commit: Twilightbuild-1.7.7t_2025-02-12at11_40_35_-aarch64-linux
-    version: Twilightbuild-1.7.7t(2025-02-12at11:40:35)
-  - commit: Twilightbuild-1.7.7t_2025-02-14at19_14_03_-aarch64-linux
-    version: Twilightbuild-1.7.7t(2025-02-14at19:14:03)
-  - commit: Twilightbuild-1.7.7t_2025-02-16at06_51_50_-aarch64-linux
-    version: Twilightbuild-1.7.7t(2025-02-16at06:51:50)
-  - commit: 1.8t_2025-02-17-aarch64-linux
-    version: 1.8t_2025-02-17
-  - commit: 1.8t_2025-02-19-aarch64-linux
-    version: 1.8t_2025-02-19
-  - commit: 1.8t_2025-02-21-aarch64-linux
-    version: 1.8t_2025-02-21
-  - commit: 1.8t_2025-02-22-aarch64-linux
-    version: 1.8t_2025-02-22
-  - commit: 1.8t_2025-02-23-aarch64-linux
-    version: 1.8t_2025-02-23
-  - commit: Twilightbuild-1.8.1t_2025-02-24at09_55_52_-aarch64-linux
-    version: Twilightbuild-1.8.1t(2025-02-24at09:55:52)
-  - commit: Twilightbuild-1.8.1t_2025-02-25at14_25_38_-aarch64-linux
-    version: Twilightbuild-1.8.1t(2025-02-25at14:25:38)
-  - commit: Twilightbuild-1.8.2t_2025-02-25at23_11_44_-aarch64-linux
-    version: Twilightbuild-1.8.2t(2025-02-25at23:11:44)
-  - commit: Twilightbuild-1.8.2t_2025-02-28at07_38_17_-aarch64-linux
-    version: Twilightbuild-1.8.2t(2025-02-28at07:38:17)
-  - commit: Twilightbuild-1.8.2t_2025-03-01at13_25_05_-aarch64-linux
-    version: Twilightbuild-1.8.2t(2025-03-01at13:25:05)
-  - commit: Twilightbuild-1.8.2t_2025-03-02at13_03_49_-aarch64-linux
-    version: Twilightbuild-1.8.2t(2025-03-02at13:03:49)
-  - commit: Twilightbuild-1.8.2t_2025-03-03at09_57_11_-aarch64-linux
-    version: Twilightbuild-1.8.2t(2025-03-03at09:57:11)
-  - commit: Twilightbuild-1.8.2t_2025-03-04at14_22_07_-aarch64-linux
-    version: Twilightbuild-1.8.2t(2025-03-04at14:22:07)
-  - commit: Twilightbuild-1.8.2t_2025-03-05at12_06_34_-aarch64-linux
-    version: Twilightbuild-1.8.2t(2025-03-05at12:06:34)
-  - commit: 1.9t_2025-03-06-aarch64-linux
-    version: 1.9t_2025-03-06
-  - commit: 1.9t_2025-03-07-aarch64-linux
-    version: 1.9t_2025-03-07
-  - commit: Twilightbuild-1.9.1t_2025-03-09at14_35_21_-aarch64-linux
-    version: Twilightbuild-1.9.1t(2025-03-09at14:35:21)
-  - commit: Twilightbuild-1.9.1t_2025-03-10at15_43_55_-aarch64-linux
-    version: Twilightbuild-1.9.1t(2025-03-10at15:43:55)
-  - commit: Twilightbuild-1.9.1t_2025-03-10at23_03_30_-aarch64-linux
-    version: Twilightbuild-1.9.1t(2025-03-10at23:03:30)
-  - commit: Twilightbuild-1.9.1t_2025-03-11at23_03_26_-aarch64-linux
-    version: Twilightbuild-1.9.1t(2025-03-11at23:03:26)
-  - commit: 1.10t_2025-03-15-aarch64-linux
-    version: 1.10t_2025-03-15
-  - commit: 1.10t_2025-03-16-aarch64-linux
-    version: 1.10t_2025-03-16
-  - commit: 1.10t_2025-03-18-aarch64-linux
-    version: 1.10t_2025-03-18
-  - commit: Twilightbuild-1.10.1t_2025-03-21at07_05_26_-aarch64-linux
-    version: Twilightbuild-1.10.1t(2025-03-21at07:05:26)
-  - commit: Twilightbuild-1.10.1t_2025-03-23at09_42_45_-aarch64-linux
-    version: Twilightbuild-1.10.1t(2025-03-23at09:42:45)
-  - commit: Twilightbuild-1.10.1t_2025-03-24at23_08_45_-aarch64-linux
-    version: Twilightbuild-1.10.1t(2025-03-24at23:08:45)
-  - commit: Twilightbuild-1.10.3t_2025-03-27at23_03_27_-aarch64-linux
-    version: Twilightbuild-1.10.3t(2025-03-27at23:03:27)
-  - commit: Twilightbuild-1.10.3t_2025-03-28at23_03_26_-aarch64-linux
-    version: Twilightbuild-1.10.3t(2025-03-28at23:03:26)
-  provides: zen-browser==zen
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
-  rank: 140
-- pkg: librewolf.appimage
-  pkg_name: librewolf
-  pkg_id: gitlab.com.librewolf-community.browser.appimage.stable
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/librewolf/appimage/official/stable/librewolf?tag=v136.0.4-1-aarch64-linux&download=librewolf.png
-  description: A fork of Firefox, focused on privacy, security and freedom
-  version: v136.0.4-1
-  download_url: oci://ghcr.io/pkgforge/pkgcache/librewolf/appimage/official/stable/librewolf:v136.0.4-1-aarch64-linux
-  size: 101 MB
-  bsum: f96e942d657f0a070edff1129fdb7c7c64610749f856ca904cbeea5ce5dd781f
-  shasum: 1be716a2f25c2d6fd1c0ac5844e89f162159ac32bb8727b4d1a949eec97284db
-  build_date: "2025-03-28T19:19:01Z"
-  src_urls:
-  - https://gitlab.com/librewolf-community/browser/appimage
-  web_urls:
-  - https://librewolf.net
-  - https://librewolf-community.gitlab.io
-  - https://gitlab.com/librewolf-community/browser/appimage
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/librewolf/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/librewolf/appimage/official/stable/librewolf?tag=v136.0.4-1-aarch64-linux&download=librewolf.log
-  snapshots:
-  - commit: v135.0-1-aarch64-linux
-    version: v135.0-1
-  - commit: v136.0-1-aarch64-linux
-    version: v136.0-1
-  - commit: v136.0-2-aarch64-linux
-    version: v136.0-2
-  - commit: v136.0.1-1-aarch64-linux
-    version: v136.0.1-1
-  - commit: v136.0.2-1-aarch64-linux
-    version: v136.0.2-1
-  provides: librewolf
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://gitlab.com/librewolf-community/browser/appimage
-  rank: 43
 - pkg: brave.nixappimage
   pkg_name: brave
   pkg_id: nixpkgs.brave
@@ -579,6 +70,8 @@ pkgcache:
   - commit: 1.75.181-aarch64-linux
     version: 1.75.181
   provides: brave
+  license:
+  - MPL-2.0
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -624,6 +117,8 @@ pkgcache:
   - commit: 134.0.6998.35-aarch64-linux
     version: 134.0.6998.35
   provides: chromium==chromium-browser
+  license:
+  - BSD-3-Clause
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -656,6 +151,8 @@ pkgcache:
   - commit: 12.1.0-unstable-2025-02-01-aarch64-linux
     version: 12.1.0-unstable-2025-02-01
   provides: flameshot
+  license:
+  - GPL-3.0
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -684,6 +181,8 @@ pkgcache:
   - commit: 2.3.2-aarch64-linux
     version: 2.3.2
   provides: gearlever
+  license:
+  - GPL-3.0
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -714,6 +213,8 @@ pkgcache:
   - commit: 25.01.1-aarch64-linux
     version: 25.01.1
   provides: helix==hx
+  license:
+  - MPL-2.0
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -742,6 +243,8 @@ pkgcache:
   - commit: 0.10.3-aarch64-linux
     version: 0.10.3
   provides: neovim=>nvim
+  license:
+  - Apache-2.0
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -772,6 +275,8 @@ pkgcache:
   - commit: 6.2.4-aarch64-linux
     version: 6.2.4
   provides: simplex-desktop==simplex-chat-desktop
+  license:
+  - AGPL-3.0
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -806,6 +311,8 @@ pkgcache:
   - commit: 5.10.7-aarch64-linux
     version: 5.10.7
   provides: telegram-desktop==Telegram-Desktop
+  license:
+  - GPL-3.0
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -847,6 +354,8 @@ pkgcache:
   - commit: 133.0.6943.141-aarch64-linux
     version: 133.0.6943.141
   provides: chromium:ungoogled-chromium,chromium==chromium-browser
+  license:
+  - BSD-3-Clause
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -875,6 +384,8 @@ pkgcache:
   - commit: 3.31.5-aarch64-linux
     version: 3.31.5
   provides: cmake==cpack,cmake==ctest
+  license:
+  - Custom
   notes:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
@@ -899,6 +410,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/file/appimage.ppkg.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/file/appimage/ppkg/stable/file?tag=5.45-aarch64-linux&download=file.log
   provides: file
+  license:
+  - custom
   notes:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
@@ -926,6 +439,8 @@ pkgcache:
   - commit: 3.12.0-aarch64-linux
     version: 3.12.0
   provides: freerdp==freerdp-proxy,freerdp==freerdp-shadow-cli,freerdp==winpr-hash,freerdp==winpr-makecert,freerdp==wlfreerdp,freerdp==xfreerdp
+  license:
+  - Apache-2.0
   notes:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
@@ -949,6 +464,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/git/appimage.ppkg.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/git/appimage/ppkg/stable/git?tag=2.48.1-aarch64-linux&download=git.log
   provides: git==git-add,git==git-am,git==git-annotate,git==git-apply,git==git-archive,git==git-bisect,git==git-blame,git==git-branch,git==git-bugreport,git==git-bundle,git==git-cat-file,git==git-check-attr,git==git-check-ignore,git==git-check-mailmap,git==git-checkout,git==git-checkout-index,git==git-checkout--worker,git==git-check-ref-format,git==git-cherry,git==git-cherry-pick,git==git-clean,git==git-clone,git==git-column,git==git-commit,git==git-commit-graph,git==git-commit-tree,git==git-config,git==git-count-objects,git==git-credential,git==git-credential-cache,git==git-credential-cache--daemon,git==git-credential-store,git==git-describe,git==git-diagnose,git==git-diff,git==git-diff-files,git==git-diff-index,git==git-difftool,git==git-difftool--helper,git==git-diff-tree,git==git-fast-export,git==git-fetch,git==git-fetch-pack,git==git-filter-branch,git==git-fmt-merge-msg,git==git-for-each-ref,git==git-for-each-repo,git==git-format-patch,git==git-fsck,git==git-fsck-objects,git==git-fsmonitor--daemon,git==git-gc,git==git-get-tar-commit-id,git==git-grep,git==git-hash-object,git==git-help,git==git-hook,git==git-http-fetch,git==git-http-push,git==git-index-pack,git==git-init,git==git-init-db,git==git-interpret-trailers,git==git-log,git==git-ls-files,git==git-ls-remote,git==git-ls-tree,git==git-mailinfo,git==git-mailsplit,git==git-maintenance,git==git-merge,git==git-merge-base,git==git-merge-file,git==git-merge-index,git==git-merge-octopus,git==git-merge-one-file,git==git-merge-ours,git==git-merge-recursive,git==git-merge-resolve,git==git-merge-subtree,git==git-mergetool,git==git-mergetool--lib,git==git-merge-tree,git==git-mktag,git==git-mktree,git==git-multi-pack-index,git==git-mv,git==git-name-rev,git==git-notes,git==git-pack-objects,git==git-pack-redundant,git==git-pack-refs,git==git-patch-id,git==git-prune,git==git-prune-packed,git==git-pull,git==git-push,git==git-quiltimport,git==git-range-diff,git==git-read-tree,git==git-rebase,git==git-receive-pack,git==git-reflog,git==git-refs,git==git-remote,git==git-remote-ext,git==git-remote-fd,git==git-remote-ftp,git==git-remote-ftps,git==git-remote-http,git==git-remote-https,git==git-repack,git==git-replace,git==git-replay,git==git-request-pull,git==git-rerere,git==git-reset,git==git-restore,git==git-revert,git==git-rev-list,git==git-rev-parse,git==git-rm,git==git-send-pack,git==git-shell,git==git-sh-i18n,git==git-sh-i18n--envsubst,git==git-shortlog,git==git-show,git==git-show-branch,git==git-show-index,git==git-show-ref,git==git-sh-setup,git==git-sparse-checkout,git==git-stage,git==git-stash,git==git-status,git==git-stripspace,git==git-submodule,git==git-submodule--helper,git==git-switch,git==git-symbolic-ref,git==git-tag,git==git-unpack-file,git==git-unpack-objects,git==git-update-index,git==git-update-ref,git==git-update-server-info,git==git-upload-archive,git==git-upload-pack,git==git-var,git==git-verify-commit,git==git-verify-pack,git==git-verify-tag,git==git-version,git==git-web--browse,git==git-whatchanged,git==git-worktree,git==git-write-tree
+  license:
+  - GPL-2.0
   notes:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
@@ -973,6 +490,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/jless/appimage.ppkg.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/jless/appimage/ppkg/stable/jless?tag=0.9.0-aarch64-linux&download=jless.log
   provides: jless
+  license:
+  - MIT
   notes:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
@@ -997,6 +516,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/xrdp/appimage.ppkg.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/xrdp/appimage/ppkg/stable/xrdp?tag=0.10.2-aarch64-linux&download=xrdp.log
   provides: xrdp==xrdp-chansrv,xrdp==xrdp-dis,xrdp==xrdp-dumpfv1,xrdp==xrdp-genkeymap,xrdp==xrdp-keygen,xrdp==xrdp-sesadmin,xrdp==xrdp-sesman,xrdp==xrdp-sesrun
+  license:
+  - Apache-2.0
   notes:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
@@ -1027,6 +548,8 @@ pkgcache:
   - commit: 24.12.2-aarch64-linux
     version: 24.12.2
   provides: akregator
+  license:
+  - BSD-3-Clause
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1057,6 +580,8 @@ pkgcache:
   - commit: 1.11.93-aarch64-linux
     version: 1.11.93
   provides: element-desktop:riot-desktop
+  license:
+  - GPL-3.0
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1085,6 +610,8 @@ pkgcache:
   - commit: 24.12.2-aarch64-linux
     version: 24.12.2
   provides: falkon
+  license:
+  - GPL-3.0
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1111,6 +638,8 @@ pkgcache:
   - commit: 46.0-aarch64-linux
     version: "46.0"
   provides: ghex
+  license:
+  - GPL-2.0
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1137,6 +666,8 @@ pkgcache:
   - commit: 2.48.1-aarch64-linux
     version: 2.48.1
   provides: git==git-add,git==git-am,git==git-annotate,git==git-apply,git==git-archive,git==git-bisect,git==git-blame,git==git-branch,git==git-bugreport,git==git-bundle,git==git-cat-file,git==git-check-attr,git==git-check-ignore,git==git-check-mailmap,git==git-checkout,git==git-checkout-index,git==git-checkout--worker,git==git-check-ref-format,git==git-cherry,git==git-cherry-pick,git==git-clean,git==git-clone,git==git-column,git==git-commit,git==git-commit-graph,git==git-commit-tree,git==git-config,git==git-count-objects,git==git-credential,git==git-credential-cache,git==git-credential-cache--daemon,git==git-credential-store,git==git-describe,git==git-diagnose,git==git-diff,git==git-diff-files,git==git-diff-index,git==git-difftool,git==git-difftool--helper,git==git-diff-tree,git==git-fast-export,git==git-fetch,git==git-fetch-pack,git==git-filter-branch,git==git-fmt-merge-msg,git==git-for-each-ref,git==git-for-each-repo,git==git-format-patch,git==git-fsck,git==git-fsck-objects,git==git-fsmonitor--daemon,git==git-gc,git==git-get-tar-commit-id,git==git-grep,git==git-hash-object,git==git-help,git==git-hook,git==git-http-fetch,git==git-http-push,git==git-index-pack,git==git-init,git==git-init-db,git==git-interpret-trailers,git==git-log,git==git-ls-files,git==git-ls-remote,git==git-ls-tree,git==git-mailinfo,git==git-mailsplit,git==git-maintenance,git==git-merge,git==git-merge-base,git==git-merge-file,git==git-merge-index,git==git-merge-octopus,git==git-merge-one-file,git==git-merge-ours,git==git-merge-recursive,git==git-merge-resolve,git==git-merge-subtree,git==git-mergetool,git==git-mergetool--lib,git==git-merge-tree,git==git-mktag,git==git-mktree,git==git-multi-pack-index,git==git-mv,git==git-name-rev,git==git-notes,git==git-pack-objects,git==git-pack-redundant,git==git-pack-refs,git==git-patch-id,git==git-prune,git==git-prune-packed,git==git-pull,git==git-push,git==git-quiltimport,git==git-range-diff,git==git-read-tree,git==git-rebase,git==git-receive-pack,git==git-reflog,git==git-refs,git==git-remote,git==git-remote-ext,git==git-remote-fd,git==git-remote-ftp,git==git-remote-ftps,git==git-remote-http,git==git-remote-https,git==git-repack,git==git-replace,git==git-replay,git==git-request-pull,git==git-rerere,git==git-reset,git==git-restore,git==git-revert,git==git-rev-list,git==git-rev-parse,git==git-rm,git==git-send-pack,git==git-shell,git==git-sh-i18n,git==git-sh-i18n--envsubst,git==git-shortlog,git==git-show,git==git-show-branch,git==git-show-index,git==git-show-ref,git==git-sh-setup,git==git-sparse-checkout,git==git-stage,git==git-stash,git==git-status,git==git-stripspace,git==git-submodule,git==git-submodule--helper,git==git-switch,git==git-symbolic-ref,git==git-tag,git==git-unpack-file,git==git-unpack-objects,git==git-update-index,git==git-update-ref,git==git-update-server-info,git==git-upload-archive,git==git-upload-pack,git==git-var,git==git-verify-commit,git==git-verify-pack,git==git-verify-tag,git==git-version,git==git-web--browse,git==git-whatchanged,git==git-worktree,git==git-write-tree
+  license:
+  - GPL-2.0
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1161,6 +692,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/inkscape/runimage.alpine.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/inkscape/runimage/alpine/stable/inkscape?tag=1.4-aarch64-linux&download=inkscape.log
   provides: inkscape
+  license:
+  - GPL-2.0
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1190,6 +723,8 @@ pkgcache:
   - commit: 24.12.2-aarch64-linux
     version: 24.12.2
   provides: kdenlive
+  license:
+  - GPL-3.0
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1217,6 +752,8 @@ pkgcache:
   - commit: 5.2.6-aarch64-linux
     version: 5.2.6
   provides: krita
+  license:
+  - GPL-3.0
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1241,6 +778,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/nmap/runimage.alpine.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/nmap/runimage/alpine/stable/nmap?tag=7.95-aarch64-linux&download=nmap.log
   provides: nmap
+  license:
+  - custom
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1265,6 +804,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/wezterm/runimage.alpine.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/wezterm/runimage/alpine/stable/wezterm?tag=20240203.110809-aarch64-linux&download=wezterm.log
   provides: wezterm==open-wezterm-here,wezterm==strip-ansi-escapes,wezterm==wezterm-gui,wezterm==wezterm-mux-server
+  license:
+  - MIT
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1290,6 +831,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/blender/runimage.debian.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/blender/runimage/debian/stable/blender?tag=4.3.2-aarch64-linux&download=blender.log
   provides: blender
+  license:
+  - GPL
   notes:
   - Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1317,6 +860,8 @@ pkgcache:
   - commit: 6.07-aarch64-linux
     version: "6.07"
   provides: clamtk
+  license:
+  - GPL
   notes:
   - "This Package has been marked 'deprecaed': https://gitlab.com/dave_m/clamtk/-/issues/144"
   - Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage
@@ -1345,41 +890,14 @@ pkgcache:
   - commit: 1.14.5-aarch64-linux
     version: 1.14.5
   provides: chafa
+  license:
+  - GPL-3.0
   notes:
   - Built Using Sharun [alpine]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   rank: 9
-- pkg: nmap/nping.archive
-  pkg_name: nping
-  pkg_id: sharun.wrappe.alpine.nmap
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/nmap/archive/sharun/alpine/nping?tag=7.95-aarch64-linux&download=nping.png
-  description: Network packet generation tool/ping utility [nmap]
-  version: "7.95"
-  download_url: oci://ghcr.io/pkgforge/pkgcache/nmap/archive/sharun/alpine/nping:7.95-aarch64-linux
-  size: 3.9 MB
-  bsum: b08e3cc7d31ad04a5956b8bc2ab4533d55e27354f6d8df9271d7d9e79cd66190
-  shasum: bbb0b208f4beba8dc8c216ebc1f35cb07917895caebe7558e4961ce409a0cb10
-  build_date: "2025-04-01T02:22:23Z"
-  src_urls:
-  - https://github.com/nmap/nmap
-  web_urls:
-  - https://nmap.org
-  - https://github.com/nmap/nmap
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/nmap/archive.sharun.alpine.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/nmap/archive/sharun/alpine/nping?tag=7.95-aarch64-linux&download=nping.log
-  snapshots:
-  - commit: 7.95-aarch64-linux
-    version: "7.95"
-  provides: ncat,nmap,nping
-  notes:
-  - Built Using Sharun [alpine]. Check/Report @ https://github.com/VHSgunzo/sharun
-  - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
-  - "[PORTABLE] (Works on AnyLinux)"
-  - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  - Please use runimage version of nmap if this doesn't work
-  rank: 37
 - pkg: nmap/nmap.archive
   pkg_name: nmap
   pkg_id: sharun.wrappe.alpine.nmap
@@ -1402,6 +920,8 @@ pkgcache:
   - commit: 7.95-aarch64-linux
     version: "7.95"
   provides: ncat,nmap,nping
+  license:
+  - custom
   notes:
   - Built Using Sharun [alpine]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -1409,6 +929,37 @@ pkgcache:
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   - Please use runimage version of nmap if this doesn't work
   rank: 39
+- pkg: nmap/nping.archive
+  pkg_name: nping
+  pkg_id: sharun.wrappe.alpine.nmap
+  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/nmap/archive/sharun/alpine/nping?tag=7.95-aarch64-linux&download=nping.png
+  description: Network packet generation tool/ping utility [nmap]
+  version: "7.95"
+  download_url: oci://ghcr.io/pkgforge/pkgcache/nmap/archive/sharun/alpine/nping:7.95-aarch64-linux
+  size: 3.9 MB
+  bsum: b08e3cc7d31ad04a5956b8bc2ab4533d55e27354f6d8df9271d7d9e79cd66190
+  shasum: bbb0b208f4beba8dc8c216ebc1f35cb07917895caebe7558e4961ce409a0cb10
+  build_date: "2025-04-01T02:22:23Z"
+  src_urls:
+  - https://github.com/nmap/nmap
+  web_urls:
+  - https://nmap.org
+  - https://github.com/nmap/nmap
+  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/nmap/archive.sharun.alpine.yaml
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/nmap/archive/sharun/alpine/nping?tag=7.95-aarch64-linux&download=nping.log
+  snapshots:
+  - commit: 7.95-aarch64-linux
+    version: "7.95"
+  provides: ncat,nmap,nping
+  license:
+  - custom
+  notes:
+  - Built Using Sharun [alpine]. Check/Report @ https://github.com/VHSgunzo/sharun
+  - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
+  - "[PORTABLE] (Works on AnyLinux)"
+  - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
+  - Please use runimage version of nmap if this doesn't work
+  rank: 37
 - pkg: nmap/ncat.archive
   pkg_name: ncat
   pkg_id: sharun.wrappe.alpine.nmap
@@ -1431,6 +982,8 @@ pkgcache:
   - commit: 7.95-aarch64-linux
     version: "7.95"
   provides: ncat,nmap,nping
+  license:
+  - custom
   notes:
   - Built Using Sharun [alpine]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -1456,6 +1009,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/proxychains/archive.sharun.alpine.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/proxychains/archive/sharun/alpine/proxychains?tag=4.17-aarch64-linux&download=proxychains.log
   provides: proxychains==proxychains-ng,proxychains-daemon==proxychains-ng-daemon
+  license:
+  - GPL-2.0
   notes:
   - Built Using Sharun [alpine]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -1480,6 +1035,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/proxychains/archive.sharun.alpine.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/proxychains/archive/sharun/alpine/proxychains-daemon?tag=4.17-aarch64-linux&download=proxychains-daemon.log
   provides: proxychains==proxychains-ng,proxychains-daemon==proxychains-ng-daemon
+  license:
+  - GPL-2.0
   notes:
   - Built Using Sharun [alpine]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -1505,6 +1062,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/subversion/archive.sharun.alpine.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnadmin?tag=1.14.4-aarch64-linux&download=svnadmin.log
   provides: svn,svnadmin,svnbench,svndumpfilter,svnfsfs,svnlook,svnmucc,svnrdump,svnserve,svnsync,svnversion
+  license:
+  - Apache-2.0
   notes:
   - Built Using Sharun [alpine]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -1530,37 +1089,14 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/subversion/archive.sharun.alpine.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/subversion/archive/sharun/alpine/svndumpfilter?tag=1.14.4-aarch64-linux&download=svndumpfilter.log
   provides: svn,svnadmin,svnbench,svndumpfilter,svnfsfs,svnlook,svnmucc,svnrdump,svnserve,svnsync,svnversion
+  license:
+  - Apache-2.0
   notes:
   - Built Using Sharun [alpine]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   rank: 145
-- pkg: subversion/svn.archive
-  pkg_name: svn
-  pkg_id: sharun.wrappe.alpine.subversion
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/subversion/archive/sharun/alpine/svn?tag=1.14.4-aarch64-linux&download=svn.png
-  description: Subversion command line client tool [subversion]
-  version: 1.14.4
-  download_url: oci://ghcr.io/pkgforge/pkgcache/subversion/archive/sharun/alpine/svn:1.14.4-aarch64-linux
-  size: 5.3 MB
-  bsum: 440a774668674987611cca76802e9f50b564d3fcb01df4f4a30b9ebaa3d606a3
-  shasum: 15307d3a02e0cfc56f6e3b320c865802b7efde2ae630b9e1003b9adae830a917
-  build_date: "2025-04-01T03:53:35Z"
-  src_urls:
-  - https://github.com/apache/subversion
-  web_urls:
-  - https://subversion.apache.org
-  - https://github.com/apache/subversion
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/subversion/archive.sharun.alpine.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/subversion/archive/sharun/alpine/svn?tag=1.14.4-aarch64-linux&download=svn.log
-  provides: svn,svnadmin,svnbench,svndumpfilter,svnfsfs,svnlook,svnmucc,svnrdump,svnserve,svnsync,svnversion
-  notes:
-  - Built Using Sharun [alpine]. Check/Report @ https://github.com/VHSgunzo/sharun
-  - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
-  - "[PORTABLE] (Works on AnyLinux)"
-  - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 150
 - pkg: subversion/svnbench.archive
   pkg_name: svnbench
   pkg_id: sharun.wrappe.alpine.subversion
@@ -1580,6 +1116,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/subversion/archive.sharun.alpine.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnbench?tag=1.14.4-aarch64-linux&download=svnbench.log
   provides: svn,svnadmin,svnbench,svndumpfilter,svnfsfs,svnlook,svnmucc,svnrdump,svnserve,svnsync,svnversion
+  license:
+  - Apache-2.0
   notes:
   - Built Using Sharun [alpine]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -1605,12 +1143,122 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/subversion/archive.sharun.alpine.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnfsfs?tag=1.14.4-aarch64-linux&download=svnfsfs.log
   provides: svn,svnadmin,svnbench,svndumpfilter,svnfsfs,svnlook,svnmucc,svnrdump,svnserve,svnsync,svnversion
+  license:
+  - Apache-2.0
   notes:
   - Built Using Sharun [alpine]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   rank: 151
+- pkg: subversion/svnserve.archive
+  pkg_name: svnserve
+  pkg_id: sharun.wrappe.alpine.subversion
+  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnserve?tag=1.14.4-aarch64-linux&download=svnserve.png
+  description: Server for the 'svn' repository access method [subversion]
+  version: 1.14.4
+  download_url: oci://ghcr.io/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnserve:1.14.4-aarch64-linux
+  size: 2.6 MB
+  bsum: 075985a8cba21c7f4b4548c0a627e087bc78394f509272a1db045c2959e21083
+  shasum: 987d9d5c292653331bd99410ec5089065a827fb7b9ebc5c173a25267a27071f8
+  build_date: "2025-04-01T03:53:43Z"
+  src_urls:
+  - https://github.com/apache/subversion
+  web_urls:
+  - https://subversion.apache.org
+  - https://github.com/apache/subversion
+  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/subversion/archive.sharun.alpine.yaml
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnserve?tag=1.14.4-aarch64-linux&download=svnserve.log
+  provides: svn,svnadmin,svnbench,svndumpfilter,svnfsfs,svnlook,svnmucc,svnrdump,svnserve,svnsync,svnversion
+  license:
+  - Apache-2.0
+  notes:
+  - Built Using Sharun [alpine]. Check/Report @ https://github.com/VHSgunzo/sharun
+  - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
+  - "[PORTABLE] (Works on AnyLinux)"
+  - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
+  rank: 146
+- pkg: subversion/svnsync.archive
+  pkg_name: svnsync
+  pkg_id: sharun.wrappe.alpine.subversion
+  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnsync?tag=1.14.4-aarch64-linux&download=svnsync.png
+  description: Subversion repository synchronization tool [subversion]
+  version: 1.14.4
+  download_url: oci://ghcr.io/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnsync:1.14.4-aarch64-linux
+  size: 4.8 MB
+  bsum: 236e584c409230bff3eac83e4473dbc55bf1eeccd4df1fbf246dde8c09a30479
+  shasum: 6aa47e72ea308bb174118548f1efb0a60357d8407baff72b067780df25831f77
+  build_date: "2025-04-01T03:53:44Z"
+  src_urls:
+  - https://github.com/apache/subversion
+  web_urls:
+  - https://subversion.apache.org
+  - https://github.com/apache/subversion
+  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/subversion/archive.sharun.alpine.yaml
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnsync?tag=1.14.4-aarch64-linux&download=svnsync.log
+  provides: svn,svnadmin,svnbench,svndumpfilter,svnfsfs,svnlook,svnmucc,svnrdump,svnserve,svnsync,svnversion
+  license:
+  - Apache-2.0
+  notes:
+  - Built Using Sharun [alpine]. Check/Report @ https://github.com/VHSgunzo/sharun
+  - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
+  - "[PORTABLE] (Works on AnyLinux)"
+  - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
+  rank: 148
+- pkg: subversion/svn.archive
+  pkg_name: svn
+  pkg_id: sharun.wrappe.alpine.subversion
+  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/subversion/archive/sharun/alpine/svn?tag=1.14.4-aarch64-linux&download=svn.png
+  description: Subversion command line client tool [subversion]
+  version: 1.14.4
+  download_url: oci://ghcr.io/pkgforge/pkgcache/subversion/archive/sharun/alpine/svn:1.14.4-aarch64-linux
+  size: 5.3 MB
+  bsum: 440a774668674987611cca76802e9f50b564d3fcb01df4f4a30b9ebaa3d606a3
+  shasum: 15307d3a02e0cfc56f6e3b320c865802b7efde2ae630b9e1003b9adae830a917
+  build_date: "2025-04-01T03:53:35Z"
+  src_urls:
+  - https://github.com/apache/subversion
+  web_urls:
+  - https://subversion.apache.org
+  - https://github.com/apache/subversion
+  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/subversion/archive.sharun.alpine.yaml
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/subversion/archive/sharun/alpine/svn?tag=1.14.4-aarch64-linux&download=svn.log
+  provides: svn,svnadmin,svnbench,svndumpfilter,svnfsfs,svnlook,svnmucc,svnrdump,svnserve,svnsync,svnversion
+  license:
+  - Apache-2.0
+  notes:
+  - Built Using Sharun [alpine]. Check/Report @ https://github.com/VHSgunzo/sharun
+  - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
+  - "[PORTABLE] (Works on AnyLinux)"
+  - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
+  rank: 150
+- pkg: subversion/svnversion.archive
+  pkg_name: svnversion
+  pkg_id: sharun.wrappe.alpine.subversion
+  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnversion?tag=1.14.4-aarch64-linux&download=svnversion.png
+  description: Produce a compact version identifier for a working copy [subversion]
+  version: 1.14.4
+  download_url: oci://ghcr.io/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnversion:1.14.4-aarch64-linux
+  size: 2.4 MB
+  bsum: 7fe90ba96ab9a96ba1e978de510b1894d04a5d650df5ab589416c0dddc0b0660
+  shasum: 6f2b6ba103272b5aa389e00d6e10adf66da59ee7c6b5471989951d0b17784206
+  build_date: "2025-04-01T03:53:45Z"
+  src_urls:
+  - https://github.com/apache/subversion
+  web_urls:
+  - https://subversion.apache.org
+  - https://github.com/apache/subversion
+  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/subversion/archive.sharun.alpine.yaml
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnversion?tag=1.14.4-aarch64-linux&download=svnversion.log
+  provides: svn,svnadmin,svnbench,svndumpfilter,svnfsfs,svnlook,svnmucc,svnrdump,svnserve,svnsync,svnversion
+  license:
+  - Apache-2.0
+  notes:
+  - Built Using Sharun [alpine]. Check/Report @ https://github.com/VHSgunzo/sharun
+  - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
+  - "[PORTABLE] (Works on AnyLinux)"
+  - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
+  rank: 149
 - pkg: subversion/svnlook.archive
   pkg_name: svnlook
   pkg_id: sharun.wrappe.alpine.subversion
@@ -1630,6 +1278,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/subversion/archive.sharun.alpine.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnlook?tag=1.14.4-aarch64-linux&download=svnlook.log
   provides: svn,svnadmin,svnbench,svndumpfilter,svnfsfs,svnlook,svnmucc,svnrdump,svnserve,svnsync,svnversion
+  license:
+  - Apache-2.0
   notes:
   - Built Using Sharun [alpine]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -1655,6 +1305,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/subversion/archive.sharun.alpine.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnmucc?tag=1.14.4-aarch64-linux&download=svnmucc.log
   provides: svn,svnadmin,svnbench,svndumpfilter,svnfsfs,svnlook,svnmucc,svnrdump,svnserve,svnsync,svnversion
+  license:
+  - Apache-2.0
   notes:
   - Built Using Sharun [alpine]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -1680,87 +1332,14 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/subversion/archive.sharun.alpine.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnrdump?tag=1.14.4-aarch64-linux&download=svnrdump.log
   provides: svn,svnadmin,svnbench,svndumpfilter,svnfsfs,svnlook,svnmucc,svnrdump,svnserve,svnsync,svnversion
+  license:
+  - Apache-2.0
   notes:
   - Built Using Sharun [alpine]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   rank: 152
-- pkg: subversion/svnversion.archive
-  pkg_name: svnversion
-  pkg_id: sharun.wrappe.alpine.subversion
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnversion?tag=1.14.4-aarch64-linux&download=svnversion.png
-  description: Produce a compact version identifier for a working copy [subversion]
-  version: 1.14.4
-  download_url: oci://ghcr.io/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnversion:1.14.4-aarch64-linux
-  size: 2.4 MB
-  bsum: 7fe90ba96ab9a96ba1e978de510b1894d04a5d650df5ab589416c0dddc0b0660
-  shasum: 6f2b6ba103272b5aa389e00d6e10adf66da59ee7c6b5471989951d0b17784206
-  build_date: "2025-04-01T03:53:45Z"
-  src_urls:
-  - https://github.com/apache/subversion
-  web_urls:
-  - https://subversion.apache.org
-  - https://github.com/apache/subversion
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/subversion/archive.sharun.alpine.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnversion?tag=1.14.4-aarch64-linux&download=svnversion.log
-  provides: svn,svnadmin,svnbench,svndumpfilter,svnfsfs,svnlook,svnmucc,svnrdump,svnserve,svnsync,svnversion
-  notes:
-  - Built Using Sharun [alpine]. Check/Report @ https://github.com/VHSgunzo/sharun
-  - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
-  - "[PORTABLE] (Works on AnyLinux)"
-  - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 149
-- pkg: subversion/svnsync.archive
-  pkg_name: svnsync
-  pkg_id: sharun.wrappe.alpine.subversion
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnsync?tag=1.14.4-aarch64-linux&download=svnsync.png
-  description: Subversion repository synchronization tool [subversion]
-  version: 1.14.4
-  download_url: oci://ghcr.io/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnsync:1.14.4-aarch64-linux
-  size: 4.8 MB
-  bsum: 236e584c409230bff3eac83e4473dbc55bf1eeccd4df1fbf246dde8c09a30479
-  shasum: 6aa47e72ea308bb174118548f1efb0a60357d8407baff72b067780df25831f77
-  build_date: "2025-04-01T03:53:44Z"
-  src_urls:
-  - https://github.com/apache/subversion
-  web_urls:
-  - https://subversion.apache.org
-  - https://github.com/apache/subversion
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/subversion/archive.sharun.alpine.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnsync?tag=1.14.4-aarch64-linux&download=svnsync.log
-  provides: svn,svnadmin,svnbench,svndumpfilter,svnfsfs,svnlook,svnmucc,svnrdump,svnserve,svnsync,svnversion
-  notes:
-  - Built Using Sharun [alpine]. Check/Report @ https://github.com/VHSgunzo/sharun
-  - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
-  - "[PORTABLE] (Works on AnyLinux)"
-  - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 148
-- pkg: subversion/svnserve.archive
-  pkg_name: svnserve
-  pkg_id: sharun.wrappe.alpine.subversion
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnserve?tag=1.14.4-aarch64-linux&download=svnserve.png
-  description: Server for the 'svn' repository access method [subversion]
-  version: 1.14.4
-  download_url: oci://ghcr.io/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnserve:1.14.4-aarch64-linux
-  size: 2.6 MB
-  bsum: 075985a8cba21c7f4b4548c0a627e087bc78394f509272a1db045c2959e21083
-  shasum: 987d9d5c292653331bd99410ec5089065a827fb7b9ebc5c173a25267a27071f8
-  build_date: "2025-04-01T03:53:43Z"
-  src_urls:
-  - https://github.com/apache/subversion
-  web_urls:
-  - https://subversion.apache.org
-  - https://github.com/apache/subversion
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/subversion/archive.sharun.alpine.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnserve?tag=1.14.4-aarch64-linux&download=svnserve.log
-  provides: svn,svnadmin,svnbench,svndumpfilter,svnfsfs,svnlook,svnmucc,svnrdump,svnserve,svnsync,svnversion
-  notes:
-  - Built Using Sharun [alpine]. Check/Report @ https://github.com/VHSgunzo/sharun
-  - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
-  - "[PORTABLE] (Works on AnyLinux)"
-  - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 146
 - pkg: xhost.archive
   pkg_name: xhost
   pkg_id: sharun.wrappe.alpine.xhost
@@ -1782,6 +1361,8 @@ pkgcache:
   - commit: 1.0.10-aarch64-linux
     version: 1.0.10
   provides: xhost
+  license:
+  - custom
   notes:
   - Built Using Sharun [alpine]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -1806,6 +1387,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/xvfb-run/archive.sharun.alpine.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/xvfb-run/archive/sharun/alpine/xvfb-run?tag=1.20.10.3_LastdigitisDebianspkgrel-aarch64-linux&download=xvfb-run.log
   provides: xvfb-run
+  license:
+  - SGI-B-2.0
   notes:
   - Built Using Sharun [alpine]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -1852,6 +1435,8 @@ pkgcache:
   - commit: 4.4.0-aarch64-linux
     version: 4.4.0
   provides: wrangler
+  license:
+  - MIT
   notes:
   - Built Using Sharun [npm]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -1877,6 +1462,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/anipy-cli/archive.sharun.pypi.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/anipy-cli/archive/sharun/pypi/anipy-cli?tag=3.3.5-aarch64-linux&download=anipy-cli.log
   provides: anipy-cli
+  license:
+  - GPL-3.0
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -1905,6 +1492,8 @@ pkgcache:
   - commit: 1.9.2-aarch64-linux
     version: 1.9.2
   provides: apprise
+  license:
+  - BSD-2-Clause
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -1933,6 +1522,8 @@ pkgcache:
   - commit: 3.2.0-aarch64-linux
     version: 3.2.0
   provides: aqtinstall==aqt
+  license:
+  - MIT
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -1957,6 +1548,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/archey/archive.sharun.pypi.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/archey/archive/sharun/pypi/archey?tag=4.15.0.0-aarch64-linux&download=archey.log
   provides: archey==archey4
+  license:
+  - GPL-3.0
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -1981,6 +1574,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/audiobook-dl/archive.sharun.pypi.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/audiobook-dl/archive/sharun/pypi/audiobook-dl?tag=0.7.3-aarch64-linux&download=audiobook-dl.log
   provides: audiobook-dl
+  license:
+  - GPL-3.0
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -2044,6 +1639,8 @@ pkgcache:
   - commit: 1.38.23-aarch64-linux
     version: 1.38.23
   provides: aws==awscli,aws==aws-cli
+  license:
+  - Apache-2.0
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -2075,6 +1672,8 @@ pkgcache:
   - commit: 1.9.130-aarch64-linux
     version: 1.9.130
   provides: baddns
+  license:
+  - GPL-3.0
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -2100,6 +1699,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/beet/archive.sharun.pypi.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/beet/archive/sharun/pypi/beet?tag=2.2.0-aarch64-linux&download=beet.log
   provides: beet==beets
+  license:
+  - MIT
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -2128,6 +1729,8 @@ pkgcache:
   - commit: 3.2.0-aarch64-linux
     version: 3.2.0
   provides: certbot
+  license:
+  - Apache-2.0
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -2166,6 +1769,8 @@ pkgcache:
   - commit: HEAD-2ca977a-250325T114838-aarch64-linux
     version: "4.0"
   provides: commix
+  license:
+  - GPL-3.0
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -2202,6 +1807,8 @@ pkgcache:
   - commit: 1.11.1-aarch64-linux
     version: 1.11.1
   provides: credsweeper
+  license:
+  - MIT
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -2226,6 +1833,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/ddgr/archive.sharun.pypi.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ddgr/archive/sharun/pypi/ddgr?tag=2.2-aarch64-linux&download=ddgr.log
   provides: ddgr
+  license:
+  - GPL-3.0
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -2250,6 +1859,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/dvc/archive.sharun.pypi.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/dvc/archive/sharun/pypi/dvc?tag=3.59.1-aarch64-linux&download=dvc.log
   provides: dvc
+  license:
+  - Apache-2.0
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -2279,6 +1890,8 @@ pkgcache:
   - commit: 4.43.0-aarch64-linux
     version: 4.43.0
   provides: fanficfare
+  license:
+  - Apache-2.0
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -2304,6 +1917,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/getaltname/archive.sharun.pypi.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/getaltname/archive/sharun/pypi/gsan?tag=5.0.0-aarch64-linux&download=gsan.log
   provides: gsan==getaltname
+  license:
+  - MIT
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -2328,6 +1943,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/git-dumper/archive.sharun.pypi.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/git-dumper/archive/sharun/pypi/git-dumper?tag=1.0.8-aarch64-linux&download=git-dumper.log
   provides: git-dumper
+  license:
+  - MIT
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -2356,6 +1973,8 @@ pkgcache:
   - commit: 0.26.0-aarch64-linux
     version: 0.26.0
   provides: gptme
+  license:
+  - MIT
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -2381,6 +2000,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/gtts-cli/archive.sharun.pypi.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/gtts-cli/archive/sharun/pypi/gtts-cli?tag=2.5.4-aarch64-linux&download=gtts-cli.log
   provides: gtts-cli
+  license:
+  - MIT
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -2409,6 +2030,8 @@ pkgcache:
   - commit: 2.4.0-aarch64-linux
     version: 2.4.0
   provides: guarddog
+  license:
+  - Apache-2.0
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -2434,6 +2057,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/httpie/archive.sharun.pypi.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/httpie/archive/sharun/pypi/httpie?tag=3.2.4-aarch64-linux&download=httpie.log
   provides: httpie==http
+  license:
+  - BSD-3-Clause
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -2487,6 +2112,8 @@ pkgcache:
   - commit: 0.5.0-aarch64-linux
     version: 0.5.0
   provides: isd
+  license:
+  - GPL-3.0
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -2514,6 +2141,8 @@ pkgcache:
   - commit: 6.0.0-aarch64-linux
     version: 6.0.0
   provides: isort
+  license:
+  - MIT
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -2538,6 +2167,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/jc/archive.sharun.pypi.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/jc/archive/sharun/pypi/jc?tag=1.25.4-aarch64-linux&download=jc.log
   provides: jc
+  license:
+  - MIT
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -2566,6 +2197,8 @@ pkgcache:
   - commit: 4.2-aarch64-linux
     version: "4.2"
   provides: jrnl
+  license:
+  - GPL-3.0
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -2590,6 +2223,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/klp/archive.sharun.pypi.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/klp/archive/sharun/pypi/klp?tag=0.77.0-aarch64-linux&download=klp.log
   provides: klp
+  license:
+  - MIT
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -2617,6 +2252,8 @@ pkgcache:
   - commit: 1.1.0-aarch64-linux
     version: 1.1.0
   provides: linkook
+  license:
+  - MIT
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -2641,6 +2278,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/malwoverview/archive.sharun.pypi.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/malwoverview/archive/sharun/pypi/malwoverview?tag=6.1.1-aarch64-linux&download=malwoverview.log
   provides: malwoverview
+  license:
+  - GPL-3.0
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -2666,6 +2305,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/mitmproxy/archive.sharun.pypi.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/mitmproxy/archive/sharun/pypi/mitmproxy?tag=11.1.3-aarch64-linux&download=mitmproxy.log
   provides: mitmproxy
+  license:
+  - MIT
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -2704,6 +2345,8 @@ pkgcache:
   - commit: 3.54.0-aarch64-linux
     version: 3.54.0
   provides: oci==oci-cli
+  license:
+  - UPL-1.0
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -2729,6 +2372,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/pdfly/archive.sharun.pypi.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/pdfly/archive/sharun/pypi/pdfly?tag=0.4.0-aarch64-linux&download=pdfly.log
   provides: pdfly
+  license:
+  - BSD-3-Clause
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -2753,6 +2398,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/pg_activity/archive.sharun.pypi.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/pg_activity/archive/sharun/pypi/pg_activity?tag=3.6.0-aarch64-linux&download=pg_activity.log
   provides: pg_activity==pg-activity
+  license:
+  - Custom
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -2777,6 +2424,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/port-for/archive.sharun.pypi.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/port-for/archive/sharun/pypi/port-for?tag=0.7.4-aarch64-linux&download=port-for.log
   provides: port-for
+  license:
+  - MIT
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -2801,6 +2450,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/ps_mem/archive.sharun.pypi.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ps_mem/archive/sharun/pypi/ps_mem?tag=3.14-aarch64-linux&download=ps_mem.log
   provides: ps_mem==ps-mem
+  license:
+  - LGPL-2.1
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -2829,6 +2480,8 @@ pkgcache:
   - commit: 0.29-aarch64-linux
     version: "0.29"
   provides: puncia
+  license:
+  - GPL-3.0
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -2861,6 +2514,8 @@ pkgcache:
   - commit: 9.1.1-aarch64-linux
     version: 9.1.1
   provides: pyarmor
+  license:
+  - custom
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -2885,6 +2540,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/pyp/archive.sharun.pypi.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/pyp/archive/sharun/pypi/pyp?tag=1.3.0-aarch64-linux&download=pyp.log
   provides: pyp
+  license:
+  - MIT
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -2933,6 +2590,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/sandwine/archive.sharun.pypi.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/sandwine/archive/sharun/pypi/sandwine?tag=4.3.0-aarch64-linux&download=sandwine.log
   provides: sandwine
+  license:
+  - GPL-3.0
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -2963,6 +2622,8 @@ pkgcache:
   - commit: 4.9.0-aarch64-linux
     version: 4.9.0
   provides: scons
+  license:
+  - MIT
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -2987,6 +2648,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/shell-gpt/archive.sharun.pypi.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/shell-gpt/archive/sharun/pypi/sgpt?tag=1.4.4-aarch64-linux&download=sgpt.log
   provides: sgpt==shell-gpt
+  license:
+  - MIT
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -3011,6 +2674,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/sherlock/archive.sharun.pypi.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/sherlock/archive/sharun/pypi/sherlock?tag=0.15.0-aarch64-linux&download=sherlock.log
   provides: sherlock
+  license:
+  - MIT
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -3039,6 +2704,8 @@ pkgcache:
   - commit: 1.7-aarch64-linux
     version: "1.7"
   provides: shot-scraper
+  license:
+  - Apache-2.0
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -3064,6 +2731,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/showcert/archive.sharun.pypi.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/showcert/archive/sharun/pypi/showcert?tag=0.3.3-aarch64-linux&download=showcert.log
   provides: showcert
+  license:
+  - MIT
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -3088,6 +2757,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/snallygaster/archive.sharun.pypi.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/snallygaster/archive/sharun/pypi/snallygaster?tag=0.0.13-aarch64-linux&download=snallygaster.log
   provides: snallygaster
+  license:
+  - 0BSD
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -3113,6 +2784,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/streamlink/archive.sharun.pypi.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/streamlink/archive/sharun/pypi/streamlink?tag=7.1.3-aarch64-linux&download=streamlink.log
   provides: streamlink
+  license:
+  - BSD-2-Clause
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -3137,6 +2810,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/tldextract/archive.sharun.pypi.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/tldextract/archive/sharun/pypi/tldextract?tag=5.1.3-aarch64-linux&download=tldextract.log
   provides: tldextract
+  license:
+  - BSD-3-Clause
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -3167,6 +2842,8 @@ pkgcache:
   - commit: 1.54.0-aarch64-linux
     version: 1.54.0
   provides: tmuxp
+  license:
+  - MIT
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -3192,6 +2869,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/trafilatura/archive.sharun.pypi.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/trafilatura/archive/sharun/pypi/trafilatura?tag=2.0.0-aarch64-linux&download=trafilatura.log
   provides: trafilatura
+  license:
+  - Apache-2.0
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -3217,6 +2896,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/twine/archive.sharun.pypi.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/twine/archive/sharun/pypi/twine?tag=6.1.0-aarch64-linux&download=twine.log
   provides: twine
+  license:
+  - Apache-2.0
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -3244,6 +2925,8 @@ pkgcache:
   - commit: 2.10.0-aarch64-linux
     version: 2.10.0
   provides: twitch-dl
+  license:
+  - GPL-3.0
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -3272,6 +2955,8 @@ pkgcache:
   - commit: 1.3.17-aarch64-linux
     version: 1.3.17
   provides: udocker
+  license:
+  - Apache-2.0
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -3296,6 +2981,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/uro/archive.sharun.pypi.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/uro/archive/sharun/pypi/uro?tag=1.0.2-aarch64-linux&download=uro.log
   provides: uro
+  license:
+  - Apache-2.0
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -3320,6 +3007,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/wappalyzer/archive.sharun.pypi.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/wappalyzer/archive/sharun/pypi/wappalyzer?tag=1.0.11-aarch64-linux&download=wappalyzer.log
   provides: wappalyzer==wappalyzer-next
+  license:
+  - GPL-3.0
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -3349,6 +3038,8 @@ pkgcache:
   - commit: 0.19.2-aarch64-linux
     version: 0.19.2
   provides: xonsh
+  license:
+  - custom
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -3382,6 +3073,8 @@ pkgcache:
   - commit: 1.36.2-aarch64-linux
     version: 1.36.2
   provides: yamllint
+  license:
+  - GPL-3.0
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -3415,6 +3108,8 @@ pkgcache:
   - commit: 2025.3.27-aarch64-linux
     version: 2025.3.27
   provides: yt-dlp
+  license:
+  - Unlicense
   notes:
   - Built Using Sharun [pypi]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -3439,6 +3134,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/emailfinder/archive.sharun.source.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/emailfinder/archive/sharun/source/emailfinder?tag=HEAD-0676bc0-210907T170325-aarch64-linux&download=emailfinder.log
   provides: emailfinder
+  license:
+  - GPL-3.0
   notes:
   - Built Using Sharun [Source]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -3463,6 +3160,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/interlace/archive.sharun.source.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/interlace/archive/sharun/source/interlace?tag=HEAD-79b8949-230622T185041-aarch64-linux&download=interlace.log
   provides: interlace
+  license:
+  - GPL-3.0
   notes:
   - Built Using Sharun [Source]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -3487,6 +3186,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/metafinder/archive.sharun.source.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/metafinder/archive/sharun/source/metafinder?tag=HEAD-30c8475-231025T184726-aarch64-linux&download=metafinder.log
   provides: metafinder
+  license:
+  - GPL-3.0
   notes:
   - Built Using Sharun [Source]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -3515,6 +3216,8 @@ pkgcache:
   - commit: HEAD-ef6c91f-250302T101418-aarch64-linux
     version: 4.15.0.0
   provides: archey==archey4
+  license:
+  - GPL-3.0
   notes:
   - Built Using Sharun [Source]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -3539,6 +3242,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/dnsvalidator/archive.sharun.source.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/dnsvalidator/archive/sharun/source/dnsvalidator?tag=HEAD-146c9b0-230118T005036-aarch64-linux&download=dnsvalidator.log
   provides: dnsvalidator
+  license:
+  - GPL-3.0
   notes:
   - Built Using Sharun [Source]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -3568,6 +3273,8 @@ pkgcache:
   - commit: HEAD-28b7c8b-250306T182114-aarch64-linux
     version: 3.59.1
   provides: dvc
+  license:
+  - Apache-2.0
   notes:
   - Built Using Sharun [Source]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -3592,6 +3299,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/ghauri/archive.sharun.source.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghauri/archive/sharun/source/ghauri?tag=HEAD-d6bb1e5-250226T000945-aarch64-linux&download=ghauri.log
   provides: ghauri
+  license:
+  - MIT
   notes:
   - Built Using Sharun [Source]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -3645,6 +3354,8 @@ pkgcache:
   - commit: HEAD-1ae2337-250328T153709-aarch64-linux
     version: 0.29.3
   provides: huggingface-cli
+  license:
+  - Apache-2.0
   notes:
   - Built Using Sharun [Source]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -3669,6 +3380,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/name-that-hash/archive.sharun.source.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/name-that-hash/archive/sharun/source/nth?tag=HEAD-ba595d3-250303T210850-aarch64-linux&download=nth.log
   provides: nth==name-that-hash
+  license:
+  - GPL-3.0
   notes:
   - Built Using Sharun [Source]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -3725,6 +3438,8 @@ pkgcache:
   - commit: HEAD-f31fb4f-250330T152304-aarch64-linux
     version: 1.3.0
   provides: netexec==nxc
+  license:
+  - BSD-2-Clause
   notes:
   - Built Using Sharun [Source]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -3749,6 +3464,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/p1radup/archive.sharun.source.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/p1radup/archive/sharun/source/p1radup?tag=HEAD-1057c0c-240319T210034-aarch64-linux&download=p1radup.log
   provides: p1radup
+  license:
+  - MIT
   notes:
   - Built Using Sharun [Source]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -3773,6 +3490,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/porch-pirate/archive.sharun.source.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/porch-pirate/archive/sharun/source/porch-pirate?tag=HEAD-041fd30-240124T204726-aarch64-linux&download=porch-pirate.log
   provides: porch-pirate
+  license:
+  - GPL-3.0
   notes:
   - Built Using Sharun [Source]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -3821,6 +3540,8 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/wafw00f/archive.sharun.source.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/wafw00f/archive/sharun/source/wafw00f?tag=HEAD-2b94868-241231T121755-aarch64-linux&download=wafw00f.log
   provides: wafw00f
+  license:
+  - BSD-3-Clause
   notes:
   - Built Using Sharun [Source]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -3850,6 +3571,8 @@ pkgcache:
   - commit: HEAD-9b4a256-250305T174438-aarch64-linux
     version: NA-2025-03-05
   provides: xmap
+  license:
+  - Apache-2.0
   notes:
   - Built Using Sharun [Source]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -3881,6 +3604,8 @@ pkgcache:
   - commit: HEAD-81246a0-250309T225539-aarch64-linux
     version: NA-2025-03-09
   provides: xnlinkfinder==xnLinkFinder
+  license:
+  - MIT
   notes:
   - Built Using Sharun [Source]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -3932,6 +3657,8 @@ pkgcache:
   - commit: HEAD-6a6d97b-250329T111309-aarch64-linux
     version: 2025.03.27
   provides: yt-dlp
+  license:
+  - Unlicense
   notes:
   - Built Using Sharun [Source]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -3959,12 +3686,45 @@ pkgcache:
   - commit: HEAD-be51080-250302T133311-aarch64-linux
   - commit: HEAD-d62920e-250315T213847-aarch64-linux
   provides: zblocklist,ziterate,zmap,ztee,ztests
+  license:
+  - Apache-2.0
   notes:
   - Built Using Sharun [Source]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   rank: 110
+- pkg: zmap/zblocklist.archive
+  pkg_name: zblocklist
+  pkg_id: sharun.wrappe.source.zmap
+  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zmap/archive/sharun/source/zblocklist?tag=HEAD-35531d6-250326T123154-aarch64-linux&download=zblocklist.png
+  description: Tool for limiting and deduplicating a list of IP addresses using a blocklist or allowlist [zmap]
+  version: HEAD-35531d6-250326T123154
+  download_url: oci://ghcr.io/pkgforge/pkgcache/zmap/archive/sharun/source/zblocklist:HEAD-35531d6-250326T123154-aarch64-linux
+  size: 1.6 MB
+  bsum: 7ebb18a6d5f798ed5df48c73a68d0a46c0746ccbac73c6a6e3971b24476d8b5e
+  shasum: 0e341bd85fe9dc7e744eb5bb4ce7c3b4daf3bed437aa7e3c05b1b9ff781b3d59
+  build_date: "2025-03-28T19:42:31Z"
+  src_urls:
+  - https://github.com/zmap/zmap
+  web_urls:
+  - https://zmap.io
+  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/zmap/archive.sharun.source.yaml
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zmap/archive/sharun/source/zblocklist?tag=HEAD-35531d6-250326T123154-aarch64-linux&download=zblocklist.log
+  snapshots:
+  - commit: HEAD-be51080-250302T133311-aarch64-linux
+    version: 4.3.2
+  - commit: HEAD-d62920e-250315T213847-aarch64-linux
+    version: NA-2025-03-15
+  provides: zblocklist,ziterate,zmap,ztee,ztests
+  license:
+  - Apache-2.0
+  notes:
+  - Built Using Sharun [Source]. Check/Report @ https://github.com/VHSgunzo/sharun
+  - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
+  - "[PORTABLE] (Works on AnyLinux)"
+  - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
+  rank: 111
 - pkg: zmap/ziterate.archive
   pkg_name: ziterate
   pkg_id: sharun.wrappe.source.zmap
@@ -3986,6 +3746,8 @@ pkgcache:
   - commit: HEAD-be51080-250302T133311-aarch64-linux
   - commit: HEAD-d62920e-250315T213847-aarch64-linux
   provides: zblocklist,ziterate,zmap,ztee,ztests
+  license:
+  - Apache-2.0
   notes:
   - Built Using Sharun [Source]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -4013,41 +3775,14 @@ pkgcache:
   - commit: HEAD-be51080-250302T133311-aarch64-linux
   - commit: HEAD-d62920e-250315T213847-aarch64-linux
   provides: zblocklist,ziterate,zmap,ztee,ztests
+  license:
+  - Apache-2.0
   notes:
   - Built Using Sharun [Source]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   rank: 113
-- pkg: zmap/zblocklist.archive
-  pkg_name: zblocklist
-  pkg_id: sharun.wrappe.source.zmap
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zmap/archive/sharun/source/zblocklist?tag=HEAD-35531d6-250326T123154-aarch64-linux&download=zblocklist.png
-  description: Tool for limiting and deduplicating a list of IP addresses using a blocklist or allowlist [zmap]
-  version: HEAD-35531d6-250326T123154
-  download_url: oci://ghcr.io/pkgforge/pkgcache/zmap/archive/sharun/source/zblocklist:HEAD-35531d6-250326T123154-aarch64-linux
-  size: 1.6 MB
-  bsum: 7ebb18a6d5f798ed5df48c73a68d0a46c0746ccbac73c6a6e3971b24476d8b5e
-  shasum: 0e341bd85fe9dc7e744eb5bb4ce7c3b4daf3bed437aa7e3c05b1b9ff781b3d59
-  build_date: "2025-03-28T19:42:31Z"
-  src_urls:
-  - https://github.com/zmap/zmap
-  web_urls:
-  - https://zmap.io
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/zmap/archive.sharun.source.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zmap/archive/sharun/source/zblocklist?tag=HEAD-35531d6-250326T123154-aarch64-linux&download=zblocklist.log
-  snapshots:
-  - commit: HEAD-be51080-250302T133311-aarch64-linux
-    version: 4.3.2
-  - commit: HEAD-d62920e-250315T213847-aarch64-linux
-    version: NA-2025-03-15
-  provides: zblocklist,ziterate,zmap,ztee,ztests
-  notes:
-  - Built Using Sharun [Source]. Check/Report @ https://github.com/VHSgunzo/sharun
-  - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
-  - "[PORTABLE] (Works on AnyLinux)"
-  - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 111
 - pkg: zmap/ztests.archive
   pkg_name: ztests
   pkg_id: sharun.wrappe.source.zmap
@@ -4069,6 +3804,8 @@ pkgcache:
   - commit: HEAD-be51080-250302T133311-aarch64-linux
   - commit: HEAD-d62920e-250315T213847-aarch64-linux
   provides: zblocklist,ziterate,zmap,ztee,ztests
+  license:
+  - Apache-2.0
   notes:
   - Built Using Sharun [Source]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -4096,6 +3833,8 @@ pkgcache:
   - commit: v0.46.0-aarch64-linux
     version: v0.46.0
   provides: caido-cli
+  license:
+  - Unfree
   notes:
   - Built Using Sharun [Stable]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -4130,6 +3869,8 @@ pkgcache:
   - commit: 0.2-7078-aarch64-linux
     version: 0.2-7078
   provides: crave==crave-cli
+  license:
+  - proprietary
   notes:
   - Built Using Sharun [Stable]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -4161,6 +3902,8 @@ pkgcache:
   - commit: 2.39.1-aarch64-linux
     version: 2.39.1
   provides: fastfetch,flashfetch
+  license:
+  - MIT
   notes:
   - Built Using Sharun [Stable]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -4193,6 +3936,8 @@ pkgcache:
   - commit: 2.39.1-aarch64-linux
     version: 2.39.1
   provides: fastfetch,flashfetch
+  license:
+  - MIT
   notes:
   - Built Using Sharun [Stable]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
@@ -4200,63 +3945,6 @@ pkgcache:
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   - This version was repacked from official Deb & contains the most features
   rank: 47
-- pkg: sudo-rs/visudo.archive
-  pkg_name: visudo
-  pkg_id: sharun.wrappe.sudo-rs.source
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/sudo-rs/archive/sharun/source/visudo?tag=HEAD-37175bb-250401T132152-aarch64-linux&download=visudo.png
-  description: Edit the sudoers file [sudo-rs]
-  version: HEAD-37175bb-250401T132152
-  download_url: oci://ghcr.io/pkgforge/pkgcache/sudo-rs/archive/sharun/source/visudo:HEAD-37175bb-250401T132152-aarch64-linux
-  size: 2.2 MB
-  bsum: 517f015e14aed0710baf9cd3470219bfa6712bfb8d27a8cba43601b2d8da0ea9
-  shasum: 36ccba12d589ba1282ecdfc022e0e999f3b13f3b519bac16bb99c634e0f69273
-  build_date: "2025-04-01T19:50:47Z"
-  src_urls:
-  - https://github.com/trifectatechfoundation/sudo-rs
-  web_urls:
-  - https://github.com/trifectatechfoundation/sudo-rs
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/sudo-rs/archive.sharun.source.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/sudo-rs/archive/sharun/source/visudo?tag=HEAD-37175bb-250401T132152-aarch64-linux&download=visudo.log
-  snapshots:
-  - commit: HEAD-08d02fb-250213T234228-aarch64-linux
-    version: v0.2.3
-  - commit: HEAD-d7cef6e-250219T161002-aarch64-linux
-    version: v0.2.3
-  - commit: HEAD-07517e3-250221T100828-aarch64-linux
-    version: v0.2.3
-  - commit: HEAD-5a83009-250224T160456-aarch64-linux
-    version: v0.2.3
-  - commit: HEAD-b8d3439-250225T142353-aarch64-linux
-    version: v0.2.4
-  - commit: HEAD-5478630-250303T141745-aarch64-linux
-    version: v0.2.4
-  - commit: HEAD-4e7db7f-250305T214002-aarch64-linux
-    version: v0.2.4
-  - commit: HEAD-57a4699-250310T180232-aarch64-linux
-    version: v0.2.4
-  - commit: HEAD-bbc541c-250317T220957-aarch64-linux
-    version: v0.2.4
-  - commit: HEAD-ab02eb9-250321T004853-aarch64-linux
-    version: v0.2.4
-  - commit: HEAD-69d9a40-250325T181625-aarch64-linux
-    version: v0.2.4
-  - commit: HEAD-c8d958a-250328T140604-aarch64-linux
-    version: v0.2.4
-  - commit: HEAD-bceee7e-250331T103425-aarch64-linux
-    version: v0.2.4
-  provides: su,sudo,visudo
-  notes:
-  - Built From Source (Latest Git HEAD). Check/Report @ https://github.com/trifectatechfoundation/sudo-rs
-  - Built Using Sharun. Check/Report @ https://github.com/VHSgunzo/sharun
-  - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
-  - "[PORTABLE] (Works on AnyLinux)"
-  - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  - sudo must be owned by uid 0 and have the setuid bit set
-  - chown -v 'root:root' sudo
-  - chmod -v 'a=rx,u+ws' sudo
-  - Requires '/etc/sudoers' file & '/etc/sudoers.d' dir
-  - "Also requires PAM to be setup: https://github.com/trifectatechfoundation/sudo-rs#differences-from-original-sudo"
-  rank: 25
 - pkg: sudo-rs/su.archive
   pkg_name: su
   pkg_id: sharun.wrappe.sudo-rs.source
@@ -4302,6 +3990,8 @@ pkgcache:
   - commit: HEAD-bceee7e-250331T103425-aarch64-linux
     version: v0.2.4
   provides: su,sudo,visudo
+  license:
+  - MIT
   notes:
   - Built From Source (Latest Git HEAD). Check/Report @ https://github.com/trifectatechfoundation/sudo-rs
   - Built Using Sharun. Check/Report @ https://github.com/VHSgunzo/sharun
@@ -4359,6 +4049,8 @@ pkgcache:
   - commit: HEAD-bceee7e-250331T103425-aarch64-linux
     version: v0.2.4
   provides: su,sudo,visudo
+  license:
+  - MIT
   notes:
   - Built From Source (Latest Git HEAD). Check/Report @ https://github.com/trifectatechfoundation/sudo-rs
   - Built Using Sharun. Check/Report @ https://github.com/VHSgunzo/sharun
@@ -4371,6 +4063,65 @@ pkgcache:
   - Requires '/etc/sudoers' file & '/etc/sudoers.d' dir
   - "Also requires PAM to be setup: https://github.com/trifectatechfoundation/sudo-rs#differences-from-original-sudo"
   rank: 24
+- pkg: sudo-rs/visudo.archive
+  pkg_name: visudo
+  pkg_id: sharun.wrappe.sudo-rs.source
+  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/sudo-rs/archive/sharun/source/visudo?tag=HEAD-37175bb-250401T132152-aarch64-linux&download=visudo.png
+  description: Edit the sudoers file [sudo-rs]
+  version: HEAD-37175bb-250401T132152
+  download_url: oci://ghcr.io/pkgforge/pkgcache/sudo-rs/archive/sharun/source/visudo:HEAD-37175bb-250401T132152-aarch64-linux
+  size: 2.2 MB
+  bsum: 517f015e14aed0710baf9cd3470219bfa6712bfb8d27a8cba43601b2d8da0ea9
+  shasum: 36ccba12d589ba1282ecdfc022e0e999f3b13f3b519bac16bb99c634e0f69273
+  build_date: "2025-04-01T19:50:47Z"
+  src_urls:
+  - https://github.com/trifectatechfoundation/sudo-rs
+  web_urls:
+  - https://github.com/trifectatechfoundation/sudo-rs
+  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/sudo-rs/archive.sharun.source.yaml
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/sudo-rs/archive/sharun/source/visudo?tag=HEAD-37175bb-250401T132152-aarch64-linux&download=visudo.log
+  snapshots:
+  - commit: HEAD-08d02fb-250213T234228-aarch64-linux
+    version: v0.2.3
+  - commit: HEAD-d7cef6e-250219T161002-aarch64-linux
+    version: v0.2.3
+  - commit: HEAD-07517e3-250221T100828-aarch64-linux
+    version: v0.2.3
+  - commit: HEAD-5a83009-250224T160456-aarch64-linux
+    version: v0.2.3
+  - commit: HEAD-b8d3439-250225T142353-aarch64-linux
+    version: v0.2.4
+  - commit: HEAD-5478630-250303T141745-aarch64-linux
+    version: v0.2.4
+  - commit: HEAD-4e7db7f-250305T214002-aarch64-linux
+    version: v0.2.4
+  - commit: HEAD-57a4699-250310T180232-aarch64-linux
+    version: v0.2.4
+  - commit: HEAD-bbc541c-250317T220957-aarch64-linux
+    version: v0.2.4
+  - commit: HEAD-ab02eb9-250321T004853-aarch64-linux
+    version: v0.2.4
+  - commit: HEAD-69d9a40-250325T181625-aarch64-linux
+    version: v0.2.4
+  - commit: HEAD-c8d958a-250328T140604-aarch64-linux
+    version: v0.2.4
+  - commit: HEAD-bceee7e-250331T103425-aarch64-linux
+    version: v0.2.4
+  provides: su,sudo,visudo
+  license:
+  - MIT
+  notes:
+  - Built From Source (Latest Git HEAD). Check/Report @ https://github.com/trifectatechfoundation/sudo-rs
+  - Built Using Sharun. Check/Report @ https://github.com/VHSgunzo/sharun
+  - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
+  - "[PORTABLE] (Works on AnyLinux)"
+  - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
+  - sudo must be owned by uid 0 and have the setuid bit set
+  - chown -v 'root:root' sudo
+  - chmod -v 'a=rx,u+ws' sudo
+  - Requires '/etc/sudoers' file & '/etc/sudoers.d' dir
+  - "Also requires PAM to be setup: https://github.com/trifectatechfoundation/sudo-rs#differences-from-original-sudo"
+  rank: 25
 - pkg: twingate/twingate-notifier.archive
   pkg_name: twingate-notifier
   pkg_id: sharun.wrappe.twingate.stable
@@ -4393,40 +4144,14 @@ pkgcache:
   - commit: 2025.29.139348-aarch64-linux
     version: 2025.29.139348
   provides: twingate,twingated,twingate-notifier
+  license:
+  - Unfree
   notes:
   - Built Using Sharun [Deb Package]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   rank: 104
-- pkg: twingate/twingate.archive
-  pkg_name: twingate
-  pkg_id: sharun.wrappe.twingate.stable
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/twingate/archive/sharun/stable/twingate?tag=2025.72.142645-aarch64-linux&download=twingate.png
-  description: Zero trust remote access client for resource and networks [twingate]
-  version: 2025.72.142645
-  download_url: oci://ghcr.io/pkgforge/pkgcache/twingate/archive/sharun/stable/twingate:2025.72.142645-aarch64-linux
-  size: 8.2 MB
-  bsum: 2ed68104ead822aaac81c559167ebb5d3a319d2077c63537daa8100b736915df
-  shasum: 1f42d84e57bffb93defaa05a514180da3c479d92732f9272c5a65bca36b9a4ef
-  build_date: "2025-03-21T19:35:30Z"
-  src_urls:
-  - https://packages.twingate.com/deb:twingate
-  web_urls:
-  - https://www.twingate.com/docs
-  - https://www.twingate.com
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/twingate/archive.sharun.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/twingate/archive/sharun/stable/twingate?tag=2025.72.142645-aarch64-linux&download=twingate.log
-  snapshots:
-  - commit: 2025.29.139348-aarch64-linux
-    version: 2025.29.139348
-  provides: twingate,twingated,twingate-notifier
-  notes:
-  - Built Using Sharun [Deb Package]. Check/Report @ https://github.com/VHSgunzo/sharun
-  - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
-  - "[PORTABLE] (Works on AnyLinux)"
-  - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 102
 - pkg: twingate/twingated.archive
   pkg_name: twingated
   pkg_id: sharun.wrappe.twingate.stable
@@ -4449,12 +4174,44 @@ pkgcache:
   - commit: 2025.29.139348-aarch64-linux
     version: 2025.29.139348
   provides: twingate,twingated,twingate-notifier
+  license:
+  - Unfree
   notes:
   - Built Using Sharun [Deb Package]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   rank: 103
+- pkg: twingate/twingate.archive
+  pkg_name: twingate
+  pkg_id: sharun.wrappe.twingate.stable
+  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/twingate/archive/sharun/stable/twingate?tag=2025.72.142645-aarch64-linux&download=twingate.png
+  description: Zero trust remote access client for resource and networks [twingate]
+  version: 2025.72.142645
+  download_url: oci://ghcr.io/pkgforge/pkgcache/twingate/archive/sharun/stable/twingate:2025.72.142645-aarch64-linux
+  size: 8.2 MB
+  bsum: 2ed68104ead822aaac81c559167ebb5d3a319d2077c63537daa8100b736915df
+  shasum: 1f42d84e57bffb93defaa05a514180da3c479d92732f9272c5a65bca36b9a4ef
+  build_date: "2025-03-21T19:35:30Z"
+  src_urls:
+  - https://packages.twingate.com/deb:twingate
+  web_urls:
+  - https://www.twingate.com/docs
+  - https://www.twingate.com
+  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/twingate/archive.sharun.stable.yaml
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/twingate/archive/sharun/stable/twingate?tag=2025.72.142645-aarch64-linux&download=twingate.log
+  snapshots:
+  - commit: 2025.29.139348-aarch64-linux
+    version: 2025.29.139348
+  provides: twingate,twingated,twingate-notifier
+  license:
+  - Unfree
+  notes:
+  - Built Using Sharun [Deb Package]. Check/Report @ https://github.com/VHSgunzo/sharun
+  - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
+  - "[PORTABLE] (Works on AnyLinux)"
+  - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
+  rank: 102
 - pkg: zerotier-one.archive
   pkg_name: zerotier-one
   pkg_id: sharun.wrappe.zerotier.stable
@@ -4474,157 +4231,11 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/zerotier/archive.sharun.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zerotier/archive/sharun/stable/zerotier-one?tag=1.14.2-aarch64-linux&download=zerotier-one.log
   provides: zerotier-cli,zerotier-idtool,zerotier-one
+  license:
+  - BUSL
   notes:
   - Built Using Sharun [Deb Package]. Check/Report @ https://github.com/VHSgunzo/sharun
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   rank: 109
-- pkg: code-server.archive
-  pkg_name: code-server
-  pkg_id: wrappe.code-server.stable
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/code-server/archive/wrappe/stable/code-server?tag=v4.98.2-aarch64-linux&download=code-server.png
-  description: Run VS Code on any machine anywhere and access it in the browser
-  version: v4.98.2
-  download_url: oci://ghcr.io/pkgforge/pkgcache/code-server/archive/wrappe/stable/code-server:v4.98.2-aarch64-linux
-  size: 91 MB
-  bsum: bba51338e00e43440a4b7a64f59f59b2fdbde852baa8ec92de14756cc06b2427
-  shasum: 1bf5593f987b6d4ec4d83885eaea20b9b42aa260997dc87f8a081f70d48af4a6
-  build_date: "2025-03-16T14:38:27Z"
-  src_urls:
-  - https://github.com/coder/code-server
-  web_urls:
-  - https://coder.com/
-  - https://github.com/coder/code-server
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/code-server/archive.wrappe.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/code-server/archive/wrappe/stable/code-server?tag=v4.98.2-aarch64-linux&download=code-server.log
-  snapshots:
-  - commit: v4.97.2-aarch64-linux
-    version: v4.97.2
-  - commit: v4.98.0-aarch64-linux
-    version: v4.98.0
-  provides: code-server==vs-code-server
-  notes:
-  - Source Bundle fetched from Upstream. Check/Report @ https://github.com/coder/code-server
-  - Packed as-is using WrapPe. Check/Report @ https://github.com/Systemcluster/wrappe
-  - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
-  - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  - "Host Dependencies: A lot, please use soar log to view the ldd output"
-  rank: 101
-- pkg: openvscode-server.archive
-  pkg_name: openvscode-server
-  pkg_id: wrappe.openvscode-server.stable
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/openvscode-server/archive/wrappe/stable/openvscode-server?tag=openvscode-server-v1.98.2-aarch64-linux&download=openvscode-server.png
-  description: Run VS Code on any machine anywhere and access it in the browser (GitPod)
-  version: openvscode-server-v1.98.2
-  download_url: oci://ghcr.io/pkgforge/pkgcache/openvscode-server/archive/wrappe/stable/openvscode-server:openvscode-server-v1.98.2-aarch64-linux
-  size: 52 MB
-  bsum: b7bf3730531a43b9d97e3e139fec5a2490ab4e6fb3ba9f8570c4f91d24a72a46
-  shasum: 3dc1a25c56c6ffd9ffcd148f7ac7d2269d971724cb4b8dd17b82472a7bfe8ea9
-  build_date: "2025-04-01T19:29:46Z"
-  src_urls:
-  - https://github.com/gitpod-io/openvscode-server
-  web_urls:
-  - https://github.com/gitpod-io/openvscode-server
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/openvscode-server/archive.wrappe.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/openvscode-server/archive/wrappe/stable/openvscode-server?tag=openvscode-server-v1.98.2-aarch64-linux&download=openvscode-server.log
-  snapshots:
-  - commit: openvscode-server-v1.97.2-aarch64-linux
-    version: openvscode-server-v1.97.2
-  - commit: openvscode-server-v1.98.0-aarch64-linux
-    version: openvscode-server-v1.98.0
-  provides: openvscode-server
-  notes:
-  - Source Bundle fetched from Upstream. Check/Report @ https://github.com/gitpod-io/openvscode-server
-  - Packed as-is using WrapPe. Check/Report @ https://github.com/Systemcluster/wrappe
-  - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
-  - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  - "Host Dependencies: A lot, please use soar log to view the ldd output"
-  rank: 17
-- pkg: teamviewer.archive
-  pkg_name: teamviewer
-  pkg_id: wrappe.teamviewer
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/teamviewer/archive/wrappe/stable/teamviewer?tag=15.64.3-aarch64-linux&download=teamviewer.png
-  description: All-In-One Software for Remote Support and Online Meetings (Client)
-  version: 15.64.3
-  download_url: oci://ghcr.io/pkgforge/pkgcache/teamviewer/archive/wrappe/stable/teamviewer:15.64.3-aarch64-linux
-  size: 127 MB
-  bsum: 330b9ab5c6d96ccd3b819250b8623dc3e097ab76b8ab6824f181ceb352e007f4
-  shasum: 2990c71adf31170007805b460d706cc1dbfcc413ce4cf0c14befc6223cadeea7
-  build_date: "2025-03-25T19:40:27Z"
-  src_urls:
-  - https://www.teamviewer.com/en-us/download/linux/
-  web_urls:
-  - https://www.teamviewer.com
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/teamviewer/archive.wrappe.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/teamviewer/archive/wrappe/stable/teamviewer?tag=15.64.3-aarch64-linux&download=teamviewer.log
-  snapshots:
-  - commit: 15.62.4-aarch64-linux
-    version: 15.62.4
-  - commit: 15.63.4-aarch64-linux
-    version: 15.63.4
-  provides: teamviewer
-  notes:
-  - Source Bundle fetched from Upstream. Check/Report @ https://github.com/teamviewer/Launcher
-  - Packed as-is using WrapPe. Check/Report @ https://github.com/Systemcluster/wrappe
-  - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
-  - "Host Dependencies: A lot, please use soar log to view the ldd output"
-  - You might need to install libminizip
-  rank: 54
-- pkg: xashds.archive
-  pkg_name: xashds
-  pkg_id: wrappe.xashds
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/xashds/archive/wrappe/stable/xashds?tag=250401T120028-aarch64-linux&download=xashds.png
-  description: Xash3D FWGS Dedicated Server
-  version: 250401T120028
-  download_url: oci://ghcr.io/pkgforge/pkgcache/xashds/archive/wrappe/stable/xashds:250401T120028-aarch64-linux
-  size: 2.7 MB
-  bsum: 6335a73e1d8d7bc6d6f70fcfb6aed03eec6633f9c71690e349b3a3ad786f5ded
-  shasum: e141dd472ce1ea06a0fbe0fcac8242b80248d4313da7ceb2c6aee07bf1a63be1
-  build_date: "2025-04-01T19:39:50Z"
-  src_urls:
-  - https://github.com/FWGS/xash3d-fwgs
-  web_urls:
-  - https://github.com/FWGS/xash3d-fwgs
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/xashds/archive.wrappe.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/xashds/archive/wrappe/stable/xashds?tag=250401T120028-aarch64-linux&download=xashds.log
-  snapshots:
-  - commit: 250224T010841-aarch64-linux
-    version: 250224T010841
-  - commit: 250225T170538-aarch64-linux
-    version: 250225T170538
-  - commit: 250228T185428-aarch64-linux
-    version: 250228T185428
-  - commit: 250301T191638-aarch64-linux
-    version: 250301T191638
-  - commit: 250302T173149-aarch64-linux
-    version: 250302T173149
-  - commit: 250303T201127-aarch64-linux
-    version: 250303T201127
-  - commit: 250305T195007-aarch64-linux
-    version: 250305T195007
-  - commit: 250306T162424-aarch64-linux
-    version: 250306T162424
-  - commit: 250307T234812-aarch64-linux
-    version: 250307T234812
-  - commit: 250316T002822-aarch64-linux
-    version: 250316T002822
-  - commit: 250316T184711-aarch64-linux
-    version: 250316T184711
-  - commit: 250317T054447-aarch64-linux
-    version: 250317T054447
-  - commit: 250320T174519-aarch64-linux
-    version: 250320T174519
-  - commit: 250325T162526-aarch64-linux
-    version: 250325T162526
-  - commit: 250326T191509-aarch64-linux
-    version: 250326T191509
-  - commit: 250330T173653-aarch64-linux
-    version: 250330T173653
-  provides: xashds==xash
-  notes:
-  - Source Bundle fetched from Upstream. Check/Report @ https://github.com/FWGS/xash3d-fwgs
-  - Packed as-is using WrapPe. Check/Report @ https://github.com/Systemcluster/wrappe
-  - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
-  - "Host Dependencies: A lot, please use soar log to view the ldd output"
-  rank: 3

@@ -1,332 +1,4 @@
 pkgcache:
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: ""
-  pkg_name: ""
-- pkg: 86box.appimage
-  pkg_name: 86box
-  pkg_id: github.com.86Box.86Box.stable
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/86box/appimage/official/stable/86box?tag=v4.2.1-aarch64-linux&download=86box.png
-  description: Emulator of x86-based machines
-  version: v4.2.1
-  download_url: oci://ghcr.io/pkgforge/pkgcache/86box/appimage/official/stable/86box:v4.2.1-aarch64-linux
-  size: 52 MB
-  build_date: "2025-01-26T16:47:34Z"
-  src_urls:
-  - https://github.com/86Box/86Box
-  web_urls:
-  - https://86box.net
-  - https://86box.readthedocs.io
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/86box/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/86box/appimage/official/stable/86box?tag=v4.2.1-aarch64-linux&download=86box.log
-  snapshots:
-  - v4.2.1-aarch64-linux[v4.2.1]
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/86Box/86Box
-  - "You need to download ROMS: https://86box.readthedocs.io/en/latest/usage/roms.html"
-  rank: 131
-- pkg: ryujinx.appimage
-  pkg_name: ryujinx
-  pkg_id: github.com.Ryubing.Ryujinx.canary
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx?tag=1.2.357-aarch64-linux&download=ryujinx.svg
-  description: Nintendo Switch Emulator (Canary)
-  version: 1.2.357
-  download_url: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx:1.2.357-aarch64-linux
-  size: 29 MB
-  build_date: "2025-02-08T08:52:44Z"
-  src_urls:
-  - https://github.com/Ryubing/Canary-Releases
-  web_urls:
-  - https://github.com/Ryubing/Ryujinx
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/ryujinx/appimage.official.canary.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ryujinx/appimage/official/canary/ryujinx?tag=1.2.357-aarch64-linux&download=ryujinx.log
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/ryujinx/ryujinx
-  rank: 34
-- pkg: ryujinx.appimage
-  pkg_name: ryujinx
-  pkg_id: github.com.Ryubing.Ryujinx.stable
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx?tag=1.2.81-aarch64-linux&download=ryujinx.svg
-  description: Nintendo Switch Emulator
-  version: 1.2.81
-  download_url: oci://ghcr.io/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx:1.2.81-aarch64-linux
-  size: 29 MB
-  build_date: "2025-02-08T08:52:49Z"
-  src_urls:
-  - https://github.com/Ryubing/Ryujinx
-  web_urls:
-  - https://github.com/Ryubing/Ryujinx
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/ryujinx/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ryujinx/appimage/official/stable/ryujinx?tag=1.2.81-aarch64-linux&download=ryujinx.log
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/ryujinx/ryujinx
-  rank: 33
-- pkg: vesktop.appimage
-  pkg_name: vesktop
-  pkg_id: github.com.Vencord.Vesktop
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop?tag=v1.5.5-aarch64-linux&download=vesktop.png
-  description: A custom Discord App aiming to give you better performance and improve linux support
-  version: v1.5.5
-  download_url: oci://ghcr.io/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop:v1.5.5-aarch64-linux
-  size: 88 MB
-  build_date: "2025-03-05T15:04:48Z"
-  src_urls:
-  - https://github.com/Vencord/Vesktop
-  web_urls:
-  - https://github.com/Vencord/Vesktop
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/vesktop/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/vesktop/appimage/official/stable/vesktop?tag=v1.5.5-aarch64-linux&download=vesktop.log
-  snapshots:
-  - v1.5.4-aarch64-linux[v1.5.4]
-  - v1.5.5-aarch64-linux[v1.5.5]
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/Vencord/Vesktop
-  rank: 139
-- pkg: caido.appimage
-  pkg_name: caido
-  pkg_id: github.com.caido.caido.stable
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/caido/appimage/official/stable/caido?tag=v0.47.1-aarch64-linux&download=caido.png
-  description: Lightweight web security auditing toolkit
-  version: v0.47.1
-  download_url: oci://ghcr.io/pkgforge/pkgcache/caido/appimage/official/stable/caido:v0.47.1-aarch64-linux
-  size: 152 MB
-  build_date: "2025-03-21T18:55:37Z"
-  src_urls:
-  - https://github.com/caido/caido
-  web_urls:
-  - https://caido.io
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/caido/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/caido/appimage/official/stable/caido?tag=v0.47.1-aarch64-linux&download=caido.log
-  snapshots:
-  - v0.46.0-aarch64-linux[v0.46.0]
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/caido/caido
-  - "You may need to run this with: --no-sandbox"
-  rank: 98
 - pkg: pixelpulse2.appimage
   pkg_name: pixelpulse2
   pkg_id: github.com.pkgforge-dev.pixelpulse2
@@ -347,292 +19,14 @@ pkgcache:
   - 13615527848-aarch64-linux[13615527848]
   - 13618778201-aarch64-linux[13618778201]
   - 13751580923-aarch64-linux[13751580923]
+  license:
+  - MPL-2.0
   notes:
   - Pre Built AppImage, with Build-related changes. Check/Report @ https://github.com/pkgforge-dev/Pixelpulse2-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
   - Run it with --getudev flag the first time to configure udev rules. It may not detect the board otherwise
   - To reduce crashes, plug in your device after configuring the udev rule and opening the app
   rank: 93
-- pkg: ghostty.appimage
-  pkg_name: ghostty
-  pkg_id: github.com.psadi.ghostty-appimage.stable
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty?tag=v1.1.3_1-aarch64-linux&download=ghostty.png
-  description: Fast, native, feature-rich terminal emulator pushing modern features
-  version: v1.1.3+1
-  download_url: oci://ghcr.io/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty:v1.1.3_1-aarch64-linux
-  size: 65 MB
-  build_date: "2025-04-03T15:44:34Z"
-  src_urls:
-  - https://github.com/pkgforge-dev/ghostty-appimage
-  web_urls:
-  - https://ghostty.org
-  - https://github.com/ghostty-org/ghostty
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/ghostty/appimage.psadi.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghostty/appimage/psadi/stable/ghostty?tag=v1.1.3_1-aarch64-linux&download=ghostty.log
-  snapshots:
-  - v1.0.1_4-aarch64-linux[v1.0.1+4]
-  - v1.1.0-aarch64-linux[v1.1.0]
-  - v1.1.0_1-aarch64-linux[v1.1.0+1]
-  - v1.1.2-aarch64-linux[v1.1.2]
-  - v1.1.2_1-aarch64-linux[v1.1.2+1]
-  - v1.1.2_2-aarch64-linux[v1.1.2+2]
-  - v1.1.2_3-aarch64-linux[v1.1.2+3]
-  - v1.1.2_4-aarch64-linux[v1.1.2+4]
-  - v1.1.3-aarch64-linux[v1.1.3]
-  - v1.1.3_1-aarch64-linux[v1.1.3+1]
-  notes:
-  - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/ghostty-appimage
-  rank: 18
-- pkg: rustdesk.appimage
-  pkg_name: rustdesk
-  pkg_id: github.com.rustdesk.rustdesk.nightly
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk?tag=250204T131430-aarch64-linux&download=rustdesk.svg
-  description: FOSS Remote desktop application (Nightly)
-  version: 250204T131430
-  download_url: oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk:250204T131430-aarch64-linux
-  size: 63 MB
-  build_date: "2025-02-08T08:53:01Z"
-  src_urls:
-  - https://github.com/rustdesk/rustdesk
-  web_urls:
-  - https://github.com/rustdesk/rustdesk
-  - https://rustdesk.com
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/rustdesk/appimage.official.nightly.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/rustdesk/appimage/official/nightly/rustdesk?tag=250204T131430-aarch64-linux&download=rustdesk.log
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/rustdesk/rustdesk
-  rank: 31
-- pkg: rustdesk.appimage
-  pkg_name: rustdesk
-  pkg_id: github.com.rustdesk.rustdesk.stable
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk?tag=1.3.7-aarch64-linux&download=rustdesk.svg
-  description: FOSS Remote desktop application
-  version: 1.3.7
-  download_url: oci://ghcr.io/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk:1.3.7-aarch64-linux
-  size: 63 MB
-  build_date: "2025-02-08T08:53:20Z"
-  src_urls:
-  - https://github.com/rustdesk/rustdesk
-  web_urls:
-  - https://github.com/rustdesk/rustdesk
-  - https://rustdesk.com
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/rustdesk/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/rustdesk/appimage/official/stable/rustdesk?tag=1.3.7-aarch64-linux&download=rustdesk.log
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/rustdesk/rustdesk
-  rank: 32
-- pkg: tangent.appimage
-  pkg_name: tangent
-  pkg_id: github.com.suchnsuch.Tangent
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/tangent/appimage/official/stable/tangent?tag=0.8.4-aarch64-linux&download=tangent.png
-  description: A clean and powerful open source notes app
-  version: 0.8.4
-  download_url: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/stable/tangent:0.8.4-aarch64-linux
-  size: 91 MB
-  build_date: "2025-01-26T18:24:05Z"
-  src_urls:
-  - https://www.tangentnotes.com/Download
-  - https://github.com/suchnsuch/Tangent
-  web_urls:
-  - https://www.tangentnotes.com
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/tangent/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/tangent/appimage/official/stable/tangent?tag=0.8.4-aarch64-linux&download=tangent.log
-  snapshots:
-  - 0.8.4-aarch64-linux[0.8.4]
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/suchnsuch/Tangent
-  rank: 157
-- pkg: tangent.appimage
-  pkg_name: tangent
-  pkg_id: github.com.suchnsuch.Tangent.alpha
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent?tag=0.9.0-alpha.9-aarch64-linux&download=tangent.png
-  description: A clean and powerful open source notes app (alpha)
-  version: 0.9.0-alpha.9
-  download_url: oci://ghcr.io/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent:0.9.0-alpha.9-aarch64-linux
-  size: 92 MB
-  build_date: "2025-03-25T19:40:18Z"
-  src_urls:
-  - https://www.tangentnotes.com/Download
-  - https://github.com/suchnsuch/Tangent
-  web_urls:
-  - https://www.tangentnotes.com
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/tangent/appimage.official.alpha.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/tangent/appimage/official/alpha/tangent?tag=0.9.0-alpha.9-aarch64-linux&download=tangent.log
-  snapshots:
-  - 0.9.0-alpha.6-aarch64-linux[0.9.0-alpha.6]
-  - 0.9.0-alpha.7-aarch64-linux[0.9.0-alpha.7]
-  - 0.9.0-alpha.8-aarch64-linux[0.9.0-alpha.8]
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/suchnsuch/Tangent
-  rank: 156
-- pkg: escrcpy.appimage
-  pkg_name: escrcpy
-  pkg_id: github.com.viarotel-org.escrcpy
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/escrcpy/appimage/official/stable/escrcpy?tag=v1.29.2-aarch64-linux&download=escrcpy.png
-  description: Graphical Scrcpy to display and control Android, devices
-  version: v1.29.2
-  download_url: oci://ghcr.io/pkgforge/pkgcache/escrcpy/appimage/official/stable/escrcpy:v1.29.2-aarch64-linux
-  size: 89 MB
-  build_date: "2025-04-01T18:58:27Z"
-  src_urls:
-  - https://github.com/viarotel-org/escrcpy
-  web_urls:
-  - https://github.com/viarotel-org/escrcpy
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/escrcpy/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/escrcpy/appimage/official/stable/escrcpy?tag=v1.29.2-aarch64-linux&download=escrcpy.log
-  snapshots:
-  - v1.28.4-aarch64-linux[v1.28.4]
-  - v1.28.6-aarch64-linux[v1.28.6]
-  - v1.28.7-aarch64-linux[v1.28.7]
-  - v1.29.0-aarch64-linux[v1.29.0]
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/viarotel-org/escrcpy
-  rank: 6
-- pkg: zen-browser.appimage
-  pkg_name: zen-browser
-  pkg_id: github.com.zen-browser.desktop.beta
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser?tag=1.0.2-b.5-aarch64-linux&download=zen-browser.png
-  description: Performance oriented Firefox-based web browser (Beta)
-  version: 1.0.2-b.5
-  download_url: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser:1.0.2-b.5-aarch64-linux
-  size: 95 MB
-  build_date: "2025-01-26T18:33:48Z"
-  src_urls:
-  - https://github.com/zen-browser/desktop
-  web_urls:
-  - https://zen-browser.app
-  - https://github.com/zen-browser/desktop
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.beta.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/beta/zen-browser?tag=1.0.2-b.5-aarch64-linux&download=zen-browser.log
-  snapshots:
-  - 1.0.2-b.5-aarch64-linux[1.0.2-b.5]
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
-  rank: 142
-- pkg: zen-browser.appimage
-  pkg_name: zen-browser
-  pkg_id: github.com.zen-browser.desktop.stable
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.10.3b-aarch64-linux&download=zen-browser.png
-  description: Performance oriented Firefox-based web browser
-  version: 1.10.3b
-  download_url: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser:1.10.3b-aarch64-linux
-  size: 90 MB
-  build_date: "2025-03-28T19:39:04Z"
-  src_urls:
-  - https://github.com/zen-browser/desktop
-  web_urls:
-  - https://zen-browser.app
-  - https://github.com/zen-browser/desktop
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/stable/zen-browser?tag=1.10.3b-aarch64-linux&download=zen-browser.log
-  snapshots:
-  - 1.7b-aarch64-linux[1.7b]
-  - 1.7.1b-aarch64-linux[1.7.1b]
-  - 1.7.2b-aarch64-linux[1.7.2b]
-  - 1.7.4b-aarch64-linux[1.7.4b]
-  - 1.7.5b-aarch64-linux[1.7.5b]
-  - 1.7.6b-aarch64-linux[1.7.6b]
-  - 1.8b-aarch64-linux[1.8b]
-  - 1.8.1b-aarch64-linux[1.8.1b]
-  - 1.8.2b-aarch64-linux[1.8.2b]
-  - 1.9b-aarch64-linux[1.9b]
-  - 1.9.1b-aarch64-linux[1.9.1b]
-  - 1.10b-aarch64-linux[1.10b]
-  - 1.10.1b-aarch64-linux[1.10.1b]
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
-  rank: 141
-- pkg: zen-browser.appimage
-  pkg_name: zen-browser
-  pkg_id: github.com.zen-browser.desktop.twilight
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.10.3t_2025-03-31at19_24_52_-aarch64-linux&download=zen-browser.png
-  description: Performance oriented Firefox-based web browser (Twilight)
-  version: Twilightbuild-1.10.3t(2025-03-31at19:24:52)
-  download_url: oci://ghcr.io/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser:Twilightbuild-1.10.3t_2025-03-31at19_24_52_-aarch64-linux
-  size: 91 MB
-  build_date: "2025-04-01T19:48:12Z"
-  src_urls:
-  - https://github.com/zen-browser/desktop
-  web_urls:
-  - https://zen-browser.app
-  - https://github.com/zen-browser/desktop
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/zen-browser/appimage.official.twilight.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/zen-browser/appimage/official/twilight/zen-browser?tag=Twilightbuild-1.10.3t_2025-03-31at19_24_52_-aarch64-linux&download=zen-browser.log
-  snapshots:
-  - 1.7t_2025-01-15-aarch64-linux[1.7t_2025-01-15]
-  - 1.7t_2025-01-16-aarch64-linux[1.7t_2025-01-16]
-  - Twilightbuild-1.7.2t_2025-01-21at22_18_15_-aarch64-linux[Twilightbuild-1.7.2t(2025-01-21at22:18:15)]
-  - Twilightbuild-1.7.2t_2025-01-25at23_03_24_-aarch64-linux[Twilightbuild-1.7.2t(2025-01-25at23:03:24)]
-  - Twilightbuild-1.7.4t_2025-01-30at23_03_43_-aarch64-linux[Twilightbuild-1.7.4t(2025-01-30at23:03:43)]
-  - Twilightbuild-1.7.4t_2025-02-01at09_34_05_-aarch64-linux[Twilightbuild-1.7.4t(2025-02-01at09:34:05)]
-  - Twilightbuild-1.7.4t_2025-02-01at23_12_22_-aarch64-linux[Twilightbuild-1.7.4t(2025-02-01at23:12:22)]
-  - Twilightbuild-1.7.4t_2025-02-02at16_58_54_-aarch64-linux[Twilightbuild-1.7.4t(2025-02-02at16:58:54)]
-  - Twilightbuild-1.7.5t_2025-02-04at10_17_36_-aarch64-linux[Twilightbuild-1.7.5t(2025-02-04at10:17:36)]
-  - Twilightbuild-1.7.6t_2025-02-05at14_21_09_-aarch64-linux[Twilightbuild-1.7.6t(2025-02-05at14:21:09)]
-  - Twilightbuild-1.7.6t_2025-02-07at13_39_46_-aarch64-linux[Twilightbuild-1.7.6t(2025-02-07at13:39:46)]
-  - Twilightbuild-1.7.7t_2025-02-08at23_03_35_-aarch64-linux[Twilightbuild-1.7.7t(2025-02-08at23:03:35)]
-  - Twilightbuild-1.7.7t_2025-02-09at23_03_26_-aarch64-linux[Twilightbuild-1.7.7t(2025-02-09at23:03:26)]
-  - Twilightbuild-1.7.7t_2025-02-11at12_46_32_-aarch64-linux[Twilightbuild-1.7.7t(2025-02-11at12:46:32)]
-  - Twilightbuild-1.7.7t_2025-02-12at11_40_35_-aarch64-linux[Twilightbuild-1.7.7t(2025-02-12at11:40:35)]
-  - Twilightbuild-1.7.7t_2025-02-14at19_14_03_-aarch64-linux[Twilightbuild-1.7.7t(2025-02-14at19:14:03)]
-  - Twilightbuild-1.7.7t_2025-02-16at06_51_50_-aarch64-linux[Twilightbuild-1.7.7t(2025-02-16at06:51:50)]
-  - 1.8t_2025-02-17-aarch64-linux[1.8t_2025-02-17]
-  - 1.8t_2025-02-19-aarch64-linux[1.8t_2025-02-19]
-  - 1.8t_2025-02-21-aarch64-linux[1.8t_2025-02-21]
-  - 1.8t_2025-02-22-aarch64-linux[1.8t_2025-02-22]
-  - 1.8t_2025-02-23-aarch64-linux[1.8t_2025-02-23]
-  - Twilightbuild-1.8.1t_2025-02-24at09_55_52_-aarch64-linux[Twilightbuild-1.8.1t(2025-02-24at09:55:52)]
-  - Twilightbuild-1.8.1t_2025-02-25at14_25_38_-aarch64-linux[Twilightbuild-1.8.1t(2025-02-25at14:25:38)]
-  - Twilightbuild-1.8.2t_2025-02-25at23_11_44_-aarch64-linux[Twilightbuild-1.8.2t(2025-02-25at23:11:44)]
-  - Twilightbuild-1.8.2t_2025-02-28at07_38_17_-aarch64-linux[Twilightbuild-1.8.2t(2025-02-28at07:38:17)]
-  - Twilightbuild-1.8.2t_2025-03-01at13_25_05_-aarch64-linux[Twilightbuild-1.8.2t(2025-03-01at13:25:05)]
-  - Twilightbuild-1.8.2t_2025-03-02at13_03_49_-aarch64-linux[Twilightbuild-1.8.2t(2025-03-02at13:03:49)]
-  - Twilightbuild-1.8.2t_2025-03-03at09_57_11_-aarch64-linux[Twilightbuild-1.8.2t(2025-03-03at09:57:11)]
-  - Twilightbuild-1.8.2t_2025-03-04at14_22_07_-aarch64-linux[Twilightbuild-1.8.2t(2025-03-04at14:22:07)]
-  - Twilightbuild-1.8.2t_2025-03-05at12_06_34_-aarch64-linux[Twilightbuild-1.8.2t(2025-03-05at12:06:34)]
-  - 1.9t_2025-03-06-aarch64-linux[1.9t_2025-03-06]
-  - 1.9t_2025-03-07-aarch64-linux[1.9t_2025-03-07]
-  - Twilightbuild-1.9.1t_2025-03-09at14_35_21_-aarch64-linux[Twilightbuild-1.9.1t(2025-03-09at14:35:21)]
-  - Twilightbuild-1.9.1t_2025-03-10at15_43_55_-aarch64-linux[Twilightbuild-1.9.1t(2025-03-10at15:43:55)]
-  - Twilightbuild-1.9.1t_2025-03-10at23_03_30_-aarch64-linux[Twilightbuild-1.9.1t(2025-03-10at23:03:30)]
-  - Twilightbuild-1.9.1t_2025-03-11at23_03_26_-aarch64-linux[Twilightbuild-1.9.1t(2025-03-11at23:03:26)]
-  - 1.10t_2025-03-15-aarch64-linux[1.10t_2025-03-15]
-  - 1.10t_2025-03-16-aarch64-linux[1.10t_2025-03-16]
-  - 1.10t_2025-03-18-aarch64-linux[1.10t_2025-03-18]
-  - Twilightbuild-1.10.1t_2025-03-21at07_05_26_-aarch64-linux[Twilightbuild-1.10.1t(2025-03-21at07:05:26)]
-  - Twilightbuild-1.10.1t_2025-03-23at09_42_45_-aarch64-linux[Twilightbuild-1.10.1t(2025-03-23at09:42:45)]
-  - Twilightbuild-1.10.1t_2025-03-24at23_08_45_-aarch64-linux[Twilightbuild-1.10.1t(2025-03-24at23:08:45)]
-  - Twilightbuild-1.10.3t_2025-03-27at23_03_27_-aarch64-linux[Twilightbuild-1.10.3t(2025-03-27at23:03:27)]
-  - Twilightbuild-1.10.3t_2025-03-28at23_03_26_-aarch64-linux[Twilightbuild-1.10.3t(2025-03-28at23:03:26)]
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://github.com/zen-browser/desktop
-  rank: 140
-- pkg: librewolf.appimage
-  pkg_name: librewolf
-  pkg_id: gitlab.com.librewolf-community.browser.appimage.stable
-  icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/librewolf/appimage/official/stable/librewolf?tag=v136.0.4-1-aarch64-linux&download=librewolf.png
-  description: A fork of Firefox, focused on privacy, security and freedom
-  version: v136.0.4-1
-  download_url: oci://ghcr.io/pkgforge/pkgcache/librewolf/appimage/official/stable/librewolf:v136.0.4-1-aarch64-linux
-  size: 101 MB
-  build_date: "2025-03-28T19:19:01Z"
-  src_urls:
-  - https://gitlab.com/librewolf-community/browser/appimage
-  web_urls:
-  - https://librewolf.net
-  - https://librewolf-community.gitlab.io
-  - https://gitlab.com/librewolf-community/browser/appimage
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/librewolf/appimage.official.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/librewolf/appimage/official/stable/librewolf?tag=v136.0.4-1-aarch64-linux&download=librewolf.log
-  snapshots:
-  - v135.0-1-aarch64-linux[v135.0-1]
-  - v136.0-1-aarch64-linux[v136.0-1]
-  - v136.0-2-aarch64-linux[v136.0-2]
-  - v136.0.1-1-aarch64-linux[v136.0.1-1]
-  - v136.0.2-1-aarch64-linux[v136.0.2-1]
-  notes:
-  - Pre Built AppImage Fetched from Upstream. Check/Report @ https://gitlab.com/librewolf-community/browser/appimage
-  rank: 43
 - pkg: brave.nixappimage
   pkg_name: brave
   pkg_id: nixpkgs.brave
@@ -659,6 +53,8 @@ pkgcache:
   - 1.75.178-aarch64-linux[1.75.178]
   - 1.75.180-aarch64-linux[1.75.180]
   - 1.75.181-aarch64-linux[1.75.181]
+  license:
+  - MPL-2.0
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -692,6 +88,8 @@ pkgcache:
   - 133.0.6943.126-aarch64-linux[133.0.6943.126]
   - 133.0.6943.141-aarch64-linux[133.0.6943.141]
   - 134.0.6998.35-aarch64-linux[134.0.6998.35]
+  license:
+  - BSD-3-Clause
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -718,6 +116,8 @@ pkgcache:
   - 12.1.0-unstable-2024-12-03-aarch64-linux[12.1.0-unstable-2024-12-03]
   - 12.1.0-unstable-2025-01-19-aarch64-linux[12.1.0-unstable-2025-01-19]
   - 12.1.0-unstable-2025-02-01-aarch64-linux[12.1.0-unstable-2025-02-01]
+  license:
+  - GPL-3.0
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -742,6 +142,8 @@ pkgcache:
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/gearlever/nixappimage/nixpkgs/stable/gearlever?tag=2.3.2-aarch64-linux&download=gearlever.log
   snapshots:
   - 2.3.2-aarch64-linux[2.3.2]
+  license:
+  - GPL-3.0
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -767,6 +169,8 @@ pkgcache:
   snapshots:
   - 25.01-aarch64-linux[25.01]
   - 25.01.1-aarch64-linux[25.01.1]
+  license:
+  - MPL-2.0
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -791,6 +195,8 @@ pkgcache:
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/neovim/nixappimage/nixpkgs/stable/neovim?tag=0.10.4-aarch64-linux&download=neovim.log
   snapshots:
   - 0.10.3-aarch64-linux[0.10.3]
+  license:
+  - Apache-2.0
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -816,6 +222,8 @@ pkgcache:
   snapshots:
   - 6.2.3-aarch64-linux[6.2.3]
   - 6.2.4-aarch64-linux[6.2.4]
+  license:
+  - AGPL-3.0
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -843,6 +251,8 @@ pkgcache:
   - 5.10.3-aarch64-linux[5.10.3]
   - 5.10.5-aarch64-linux[5.10.5]
   - 5.10.7-aarch64-linux[5.10.7]
+  license:
+  - GPL-3.0
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -873,6 +283,8 @@ pkgcache:
   - 133.0.6943.98-aarch64-linux[133.0.6943.98]
   - 133.0.6943.126-aarch64-linux[133.0.6943.126]
   - 133.0.6943.141-aarch64-linux[133.0.6943.141]
+  license:
+  - BSD-3-Clause
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -897,6 +309,8 @@ pkgcache:
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/cmake/appimage/ppkg/stable/cmake?tag=3.31.5-aarch64-linux&download=cmake.log
   snapshots:
   - 3.31.5-aarch64-linux[3.31.5]
+  license:
+  - Custom
   notes:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
@@ -918,6 +332,8 @@ pkgcache:
   - https://github.com/file/file
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/file/appimage.ppkg.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/file/appimage/ppkg/stable/file?tag=5.45-aarch64-linux&download=file.log
+  license:
+  - custom
   notes:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
@@ -941,6 +357,8 @@ pkgcache:
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/freerdp/appimage/ppkg/stable/freerdp?tag=3.12.0-aarch64-linux&download=freerdp.log
   snapshots:
   - 3.12.0-aarch64-linux[3.12.0]
+  license:
+  - Apache-2.0
   notes:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
@@ -961,6 +379,8 @@ pkgcache:
   - https://git-scm.com/
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/git/appimage.ppkg.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/git/appimage/ppkg/stable/git?tag=2.48.1-aarch64-linux&download=git.log
+  license:
+  - GPL-2.0
   notes:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
@@ -982,6 +402,8 @@ pkgcache:
   - https://github.com/PaulJuliusMartinez/jless
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/jless/appimage.ppkg.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/jless/appimage/ppkg/stable/jless?tag=0.9.0-aarch64-linux&download=jless.log
+  license:
+  - MIT
   notes:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
@@ -1003,6 +425,8 @@ pkgcache:
   - https://github.com/neutrinolabs/xrdp
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/xrdp/appimage.ppkg.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/xrdp/appimage/ppkg/stable/xrdp?tag=0.10.2-aarch64-linux&download=xrdp.log
+  license:
+  - Apache-2.0
   notes:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
@@ -1027,6 +451,8 @@ pkgcache:
   - 24.12.0-aarch64-linux[24.12.0]
   - 24.12.1-aarch64-linux[24.12.1]
   - 24.12.2-aarch64-linux[24.12.2]
+  license:
+  - BSD-3-Clause
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1051,6 +477,8 @@ pkgcache:
   - 1.11.91-aarch64-linux[1.11.91]
   - 1.11.92-aarch64-linux[1.11.92]
   - 1.11.93-aarch64-linux[1.11.93]
+  license:
+  - GPL-3.0
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1075,6 +503,8 @@ pkgcache:
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/falkon/runimage/alpine/stable/falkon?tag=24.12.3-aarch64-linux&download=falkon.log
   snapshots:
   - 24.12.2-aarch64-linux[24.12.2]
+  license:
+  - GPL-3.0
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1097,6 +527,8 @@ pkgcache:
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghex/runimage/alpine/stable/ghex?tag=46.2-aarch64-linux&download=ghex.log
   snapshots:
   - 46.0-aarch64-linux[46.0]
+  license:
+  - GPL-2.0
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1119,6 +551,8 @@ pkgcache:
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/git/runimage/alpine/stable/git?tag=2.49.0-aarch64-linux&download=git.log
   snapshots:
   - 2.48.1-aarch64-linux[2.48.1]
+  license:
+  - GPL-2.0
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1140,6 +574,8 @@ pkgcache:
   - https://inkscape.org
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/inkscape/runimage.alpine.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/inkscape/runimage/alpine/stable/inkscape?tag=1.4-aarch64-linux&download=inkscape.log
+  license:
+  - GPL-2.0
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1164,6 +600,8 @@ pkgcache:
   snapshots:
   - 24.12.1-aarch64-linux[24.12.1]
   - 24.12.2-aarch64-linux[24.12.2]
+  license:
+  - GPL-3.0
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1187,6 +625,8 @@ pkgcache:
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/krita/runimage/alpine/stable/krita?tag=5.2.9-aarch64-linux&download=krita.log
   snapshots:
   - 5.2.6-aarch64-linux[5.2.6]
+  license:
+  - GPL-3.0
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1208,6 +648,8 @@ pkgcache:
   - https://github.com/nmap/nmap
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/nmap/runimage.alpine.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/nmap/runimage/alpine/stable/nmap?tag=7.95-aarch64-linux&download=nmap.log
+  license:
+  - custom
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1229,6 +671,8 @@ pkgcache:
   - https://wezfurlong.org/wezterm/
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/wezterm/runimage.alpine.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/wezterm/runimage/alpine/stable/wezterm?tag=20240203.110809-aarch64-linux&download=wezterm.log
+  license:
+  - MIT
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1251,6 +695,8 @@ pkgcache:
   - https://blender.org
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/blender/runimage.debian.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/blender/runimage/debian/stable/blender?tag=4.3.2-aarch64-linux&download=blender.log
+  license:
+  - GPL
   notes:
   - Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1274,6 +720,8 @@ pkgcache:
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk?tag=6.07-aarch64-linux&download=clamtk.log
   snapshots:
   - 6.07-aarch64-linux[6.07]
+  license:
+  - GPL
   notes:
   - "This Package has been marked 'deprecaed': https://gitlab.com/dave_m/clamtk/-/issues/144"
   - Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage
