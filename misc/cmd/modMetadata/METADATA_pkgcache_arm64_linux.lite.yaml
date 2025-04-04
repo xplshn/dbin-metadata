@@ -19,8 +19,7 @@ pkgcache:
   - 13615527848-aarch64-linux[13615527848]
   - 13618778201-aarch64-linux[13618778201]
   - 13751580923-aarch64-linux[13751580923]
-  license:
-  - MPL-2.0
+  license: MPL-2.0
   notes:
   - Pre Built AppImage, with Build-related changes. Check/Report @ https://github.com/pkgforge-dev/Pixelpulse2-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
@@ -53,8 +52,7 @@ pkgcache:
   - 1.75.178-aarch64-linux[1.75.178]
   - 1.75.180-aarch64-linux[1.75.180]
   - 1.75.181-aarch64-linux[1.75.181]
-  license:
-  - MPL-2.0
+  license: MPL-2.0
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -88,8 +86,7 @@ pkgcache:
   - 133.0.6943.126-aarch64-linux[133.0.6943.126]
   - 133.0.6943.141-aarch64-linux[133.0.6943.141]
   - 134.0.6998.35-aarch64-linux[134.0.6998.35]
-  license:
-  - BSD-3-Clause
+  license: BSD-3-Clause
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -116,8 +113,7 @@ pkgcache:
   - 12.1.0-unstable-2024-12-03-aarch64-linux[12.1.0-unstable-2024-12-03]
   - 12.1.0-unstable-2025-01-19-aarch64-linux[12.1.0-unstable-2025-01-19]
   - 12.1.0-unstable-2025-02-01-aarch64-linux[12.1.0-unstable-2025-02-01]
-  license:
-  - GPL-3.0
+  license: GPL-3.0
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -142,8 +138,7 @@ pkgcache:
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/gearlever/nixappimage/nixpkgs/stable/gearlever?tag=2.3.2-aarch64-linux&download=gearlever.log
   snapshots:
   - 2.3.2-aarch64-linux[2.3.2]
-  license:
-  - GPL-3.0
+  license: GPL-3.0
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -169,8 +164,7 @@ pkgcache:
   snapshots:
   - 25.01-aarch64-linux[25.01]
   - 25.01.1-aarch64-linux[25.01.1]
-  license:
-  - MPL-2.0
+  license: MPL-2.0
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -195,8 +189,7 @@ pkgcache:
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/neovim/nixappimage/nixpkgs/stable/neovim?tag=0.10.4-aarch64-linux&download=neovim.log
   snapshots:
   - 0.10.3-aarch64-linux[0.10.3]
-  license:
-  - Apache-2.0
+  license: Apache-2.0
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -222,8 +215,7 @@ pkgcache:
   snapshots:
   - 6.2.3-aarch64-linux[6.2.3]
   - 6.2.4-aarch64-linux[6.2.4]
-  license:
-  - AGPL-3.0
+  license: AGPL-3.0
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -251,8 +243,7 @@ pkgcache:
   - 5.10.3-aarch64-linux[5.10.3]
   - 5.10.5-aarch64-linux[5.10.5]
   - 5.10.7-aarch64-linux[5.10.7]
-  license:
-  - GPL-3.0
+  license: GPL-3.0
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -283,8 +274,7 @@ pkgcache:
   - 133.0.6943.98-aarch64-linux[133.0.6943.98]
   - 133.0.6943.126-aarch64-linux[133.0.6943.126]
   - 133.0.6943.141-aarch64-linux[133.0.6943.141]
-  license:
-  - BSD-3-Clause
+  license: BSD-3-Clause
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -309,8 +299,7 @@ pkgcache:
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/cmake/appimage/ppkg/stable/cmake?tag=3.31.5-aarch64-linux&download=cmake.log
   snapshots:
   - 3.31.5-aarch64-linux[3.31.5]
-  license:
-  - Custom
+  license: Custom
   notes:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
@@ -332,8 +321,7 @@ pkgcache:
   - https://github.com/file/file
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/file/appimage.ppkg.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/file/appimage/ppkg/stable/file?tag=5.45-aarch64-linux&download=file.log
-  license:
-  - custom
+  license: custom
   notes:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
@@ -357,8 +345,7 @@ pkgcache:
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/freerdp/appimage/ppkg/stable/freerdp?tag=3.12.0-aarch64-linux&download=freerdp.log
   snapshots:
   - 3.12.0-aarch64-linux[3.12.0]
-  license:
-  - Apache-2.0
+  license: Apache-2.0
   notes:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
@@ -379,8 +366,7 @@ pkgcache:
   - https://git-scm.com/
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/git/appimage.ppkg.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/git/appimage/ppkg/stable/git?tag=2.48.1-aarch64-linux&download=git.log
-  license:
-  - GPL-2.0
+  license: GPL-2.0
   notes:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
@@ -402,8 +388,7 @@ pkgcache:
   - https://github.com/PaulJuliusMartinez/jless
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/jless/appimage.ppkg.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/jless/appimage/ppkg/stable/jless?tag=0.9.0-aarch64-linux&download=jless.log
-  license:
-  - MIT
+  license: MIT
   notes:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
@@ -425,8 +410,7 @@ pkgcache:
   - https://github.com/neutrinolabs/xrdp
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/xrdp/appimage.ppkg.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/xrdp/appimage/ppkg/stable/xrdp?tag=0.10.2-aarch64-linux&download=xrdp.log
-  license:
-  - Apache-2.0
+  license: Apache-2.0
   notes:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
@@ -451,8 +435,7 @@ pkgcache:
   - 24.12.0-aarch64-linux[24.12.0]
   - 24.12.1-aarch64-linux[24.12.1]
   - 24.12.2-aarch64-linux[24.12.2]
-  license:
-  - BSD-3-Clause
+  license: BSD-3-Clause
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -477,8 +460,7 @@ pkgcache:
   - 1.11.91-aarch64-linux[1.11.91]
   - 1.11.92-aarch64-linux[1.11.92]
   - 1.11.93-aarch64-linux[1.11.93]
-  license:
-  - GPL-3.0
+  license: GPL-3.0
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -503,8 +485,7 @@ pkgcache:
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/falkon/runimage/alpine/stable/falkon?tag=24.12.3-aarch64-linux&download=falkon.log
   snapshots:
   - 24.12.2-aarch64-linux[24.12.2]
-  license:
-  - GPL-3.0
+  license: GPL-3.0
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -527,8 +508,7 @@ pkgcache:
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghex/runimage/alpine/stable/ghex?tag=46.2-aarch64-linux&download=ghex.log
   snapshots:
   - 46.0-aarch64-linux[46.0]
-  license:
-  - GPL-2.0
+  license: GPL-2.0
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -551,8 +531,7 @@ pkgcache:
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/git/runimage/alpine/stable/git?tag=2.49.0-aarch64-linux&download=git.log
   snapshots:
   - 2.48.1-aarch64-linux[2.48.1]
-  license:
-  - GPL-2.0
+  license: GPL-2.0
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -574,8 +553,7 @@ pkgcache:
   - https://inkscape.org
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/inkscape/runimage.alpine.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/inkscape/runimage/alpine/stable/inkscape?tag=1.4-aarch64-linux&download=inkscape.log
-  license:
-  - GPL-2.0
+  license: GPL-2.0
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -600,8 +578,7 @@ pkgcache:
   snapshots:
   - 24.12.1-aarch64-linux[24.12.1]
   - 24.12.2-aarch64-linux[24.12.2]
-  license:
-  - GPL-3.0
+  license: GPL-3.0
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -625,8 +602,7 @@ pkgcache:
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/krita/runimage/alpine/stable/krita?tag=5.2.9-aarch64-linux&download=krita.log
   snapshots:
   - 5.2.6-aarch64-linux[5.2.6]
-  license:
-  - GPL-3.0
+  license: GPL-3.0
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -648,8 +624,7 @@ pkgcache:
   - https://github.com/nmap/nmap
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/nmap/runimage.alpine.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/nmap/runimage/alpine/stable/nmap?tag=7.95-aarch64-linux&download=nmap.log
-  license:
-  - custom
+  license: custom
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -671,8 +646,7 @@ pkgcache:
   - https://wezfurlong.org/wezterm/
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/wezterm/runimage.alpine.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/wezterm/runimage/alpine/stable/wezterm?tag=20240203.110809-aarch64-linux&download=wezterm.log
-  license:
-  - MIT
+  license: MIT
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -695,8 +669,7 @@ pkgcache:
   - https://blender.org
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/blender/runimage.debian.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/blender/runimage/debian/stable/blender?tag=4.3.2-aarch64-linux&download=blender.log
-  license:
-  - GPL
+  license: GPL
   notes:
   - Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -720,8 +693,7 @@ pkgcache:
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk?tag=6.07-aarch64-linux&download=clamtk.log
   snapshots:
   - 6.07-aarch64-linux[6.07]
-  license:
-  - GPL
+  license: GPL
   notes:
   - "This Package has been marked 'deprecaed': https://gitlab.com/dave_m/clamtk/-/issues/144"
   - Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage

@@ -36,9 +36,7 @@
     }
    ],
    "provides": "pixelpulse2",
-   "license": [
-    "MPL-2.0"
-   ],
+   "license": "MPL-2.0",
    "notes": [
     "Pre Built AppImage, with Build-related changes. Check/Report @ https://github.com/pkgforge-dev/Pixelpulse2-AppImage",
     "[PORTABLE] (Works on AnyLinux)",
@@ -104,9 +102,7 @@
     }
    ],
    "provides": "brave",
-   "license": [
-    "MPL-2.0"
-   ],
+   "license": "MPL-2.0",
    "notes": [
     "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
     "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
@@ -176,9 +172,7 @@
     }
    ],
    "provides": "chromium==chromium-browser",
-   "license": [
-    "BSD-3-Clause"
-   ],
+   "license": "BSD-3-Clause",
    "notes": [
     "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
     "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
@@ -223,9 +217,7 @@
     }
    ],
    "provides": "flameshot",
-   "license": [
-    "GPL-3.0"
-   ],
+   "license": "GPL-3.0",
    "notes": [
     "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
     "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
@@ -262,9 +254,7 @@
     }
    ],
    "provides": "gearlever",
-   "license": [
-    "GPL-3.0"
-   ],
+   "license": "GPL-3.0",
    "notes": [
     "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
     "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
@@ -305,9 +295,7 @@
     }
    ],
    "provides": "helix==hx",
-   "license": [
-    "MPL-2.0"
-   ],
+   "license": "MPL-2.0",
    "notes": [
     "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
     "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
@@ -344,9 +332,7 @@
     }
    ],
    "provides": "neovim=\u003envim",
-   "license": [
-    "Apache-2.0"
-   ],
+   "license": "Apache-2.0",
    "notes": [
     "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
     "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
@@ -387,9 +373,7 @@
     }
    ],
    "provides": "simplex-desktop==simplex-chat-desktop",
-   "license": [
-    "AGPL-3.0"
-   ],
+   "license": "AGPL-3.0",
    "notes": [
     "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
     "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
@@ -438,9 +422,7 @@
     }
    ],
    "provides": "telegram-desktop==Telegram-Desktop",
-   "license": [
-    "GPL-3.0"
-   ],
+   "license": "GPL-3.0",
    "notes": [
     "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
     "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
@@ -504,9 +486,7 @@
     }
    ],
    "provides": "chromium:ungoogled-chromium,chromium==chromium-browser",
-   "license": [
-    "BSD-3-Clause"
-   ],
+   "license": "BSD-3-Clause",
    "notes": [
     "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
     "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
@@ -543,9 +523,7 @@
     }
    ],
    "provides": "cmake==cpack,cmake==ctest",
-   "license": [
-    "Custom"
-   ],
+   "license": "Custom",
    "notes": [
     "Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core",
     "[PORTABLE] (Works on AnyLinux)",
@@ -575,9 +553,7 @@
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/file/appimage.ppkg.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/file/appimage/ppkg/stable/file?tag=5.45-aarch64-linux\u0026download=file.log",
    "provides": "file",
-   "license": [
-    "custom"
-   ],
+   "license": "custom",
    "notes": [
     "Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core",
     "[PORTABLE] (Works on AnyLinux)",
@@ -613,9 +589,7 @@
     }
    ],
    "provides": "freerdp==freerdp-proxy,freerdp==freerdp-shadow-cli,freerdp==winpr-hash,freerdp==winpr-makecert,freerdp==wlfreerdp,freerdp==xfreerdp",
-   "license": [
-    "Apache-2.0"
-   ],
+   "license": "Apache-2.0",
    "notes": [
     "Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core",
     "[PORTABLE] (Works on AnyLinux)",
@@ -644,9 +618,7 @@
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/git/appimage.ppkg.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/git/appimage/ppkg/stable/git?tag=2.48.1-aarch64-linux\u0026download=git.log",
    "provides": "git==git-add,git==git-am,git==git-annotate,git==git-apply,git==git-archive,git==git-bisect,git==git-blame,git==git-branch,git==git-bugreport,git==git-bundle,git==git-cat-file,git==git-check-attr,git==git-check-ignore,git==git-check-mailmap,git==git-checkout,git==git-checkout-index,git==git-checkout--worker,git==git-check-ref-format,git==git-cherry,git==git-cherry-pick,git==git-clean,git==git-clone,git==git-column,git==git-commit,git==git-commit-graph,git==git-commit-tree,git==git-config,git==git-count-objects,git==git-credential,git==git-credential-cache,git==git-credential-cache--daemon,git==git-credential-store,git==git-describe,git==git-diagnose,git==git-diff,git==git-diff-files,git==git-diff-index,git==git-difftool,git==git-difftool--helper,git==git-diff-tree,git==git-fast-export,git==git-fetch,git==git-fetch-pack,git==git-filter-branch,git==git-fmt-merge-msg,git==git-for-each-ref,git==git-for-each-repo,git==git-format-patch,git==git-fsck,git==git-fsck-objects,git==git-fsmonitor--daemon,git==git-gc,git==git-get-tar-commit-id,git==git-grep,git==git-hash-object,git==git-help,git==git-hook,git==git-http-fetch,git==git-http-push,git==git-index-pack,git==git-init,git==git-init-db,git==git-interpret-trailers,git==git-log,git==git-ls-files,git==git-ls-remote,git==git-ls-tree,git==git-mailinfo,git==git-mailsplit,git==git-maintenance,git==git-merge,git==git-merge-base,git==git-merge-file,git==git-merge-index,git==git-merge-octopus,git==git-merge-one-file,git==git-merge-ours,git==git-merge-recursive,git==git-merge-resolve,git==git-merge-subtree,git==git-mergetool,git==git-mergetool--lib,git==git-merge-tree,git==git-mktag,git==git-mktree,git==git-multi-pack-index,git==git-mv,git==git-name-rev,git==git-notes,git==git-pack-objects,git==git-pack-redundant,git==git-pack-refs,git==git-patch-id,git==git-prune,git==git-prune-packed,git==git-pull,git==git-push,git==git-quiltimport,git==git-range-diff,git==git-read-tree,git==git-rebase,git==git-receive-pack,git==git-reflog,git==git-refs,git==git-remote,git==git-remote-ext,git==git-remote-fd,git==git-remote-ftp,git==git-remote-ftps,git==git-remote-http,git==git-remote-https,git==git-repack,git==git-replace,git==git-replay,git==git-request-pull,git==git-rerere,git==git-reset,git==git-restore,git==git-revert,git==git-rev-list,git==git-rev-parse,git==git-rm,git==git-send-pack,git==git-shell,git==git-sh-i18n,git==git-sh-i18n--envsubst,git==git-shortlog,git==git-show,git==git-show-branch,git==git-show-index,git==git-show-ref,git==git-sh-setup,git==git-sparse-checkout,git==git-stage,git==git-stash,git==git-status,git==git-stripspace,git==git-submodule,git==git-submodule--helper,git==git-switch,git==git-symbolic-ref,git==git-tag,git==git-unpack-file,git==git-unpack-objects,git==git-update-index,git==git-update-ref,git==git-update-server-info,git==git-upload-archive,git==git-upload-pack,git==git-var,git==git-verify-commit,git==git-verify-pack,git==git-verify-tag,git==git-version,git==git-web--browse,git==git-whatchanged,git==git-worktree,git==git-write-tree",
-   "license": [
-    "GPL-2.0"
-   ],
+   "license": "GPL-2.0",
    "notes": [
     "Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core",
     "[PORTABLE] (Works on AnyLinux)",
@@ -676,9 +648,7 @@
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/jless/appimage.ppkg.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/jless/appimage/ppkg/stable/jless?tag=0.9.0-aarch64-linux\u0026download=jless.log",
    "provides": "jless",
-   "license": [
-    "MIT"
-   ],
+   "license": "MIT",
    "notes": [
     "Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core",
     "[PORTABLE] (Works on AnyLinux)",
@@ -708,9 +678,7 @@
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/xrdp/appimage.ppkg.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/xrdp/appimage/ppkg/stable/xrdp?tag=0.10.2-aarch64-linux\u0026download=xrdp.log",
    "provides": "xrdp==xrdp-chansrv,xrdp==xrdp-dis,xrdp==xrdp-dumpfv1,xrdp==xrdp-genkeymap,xrdp==xrdp-keygen,xrdp==xrdp-sesadmin,xrdp==xrdp-sesman,xrdp==xrdp-sesrun",
-   "license": [
-    "Apache-2.0"
-   ],
+   "license": "Apache-2.0",
    "notes": [
     "Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core",
     "[PORTABLE] (Works on AnyLinux)",
@@ -753,9 +721,7 @@
     }
    ],
    "provides": "akregator",
-   "license": [
-    "BSD-3-Clause"
-   ],
+   "license": "BSD-3-Clause",
    "notes": [
     "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
@@ -798,9 +764,7 @@
     }
    ],
    "provides": "element-desktop:riot-desktop",
-   "license": [
-    "GPL-3.0"
-   ],
+   "license": "GPL-3.0",
    "notes": [
     "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
@@ -837,9 +801,7 @@
     }
    ],
    "provides": "falkon",
-   "license": [
-    "GPL-3.0"
-   ],
+   "license": "GPL-3.0",
    "notes": [
     "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
@@ -874,9 +836,7 @@
     }
    ],
    "provides": "ghex",
-   "license": [
-    "GPL-2.0"
-   ],
+   "license": "GPL-2.0",
    "notes": [
     "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
@@ -911,9 +871,7 @@
     }
    ],
    "provides": "git==git-add,git==git-am,git==git-annotate,git==git-apply,git==git-archive,git==git-bisect,git==git-blame,git==git-branch,git==git-bugreport,git==git-bundle,git==git-cat-file,git==git-check-attr,git==git-check-ignore,git==git-check-mailmap,git==git-checkout,git==git-checkout-index,git==git-checkout--worker,git==git-check-ref-format,git==git-cherry,git==git-cherry-pick,git==git-clean,git==git-clone,git==git-column,git==git-commit,git==git-commit-graph,git==git-commit-tree,git==git-config,git==git-count-objects,git==git-credential,git==git-credential-cache,git==git-credential-cache--daemon,git==git-credential-store,git==git-describe,git==git-diagnose,git==git-diff,git==git-diff-files,git==git-diff-index,git==git-difftool,git==git-difftool--helper,git==git-diff-tree,git==git-fast-export,git==git-fetch,git==git-fetch-pack,git==git-filter-branch,git==git-fmt-merge-msg,git==git-for-each-ref,git==git-for-each-repo,git==git-format-patch,git==git-fsck,git==git-fsck-objects,git==git-fsmonitor--daemon,git==git-gc,git==git-get-tar-commit-id,git==git-grep,git==git-hash-object,git==git-help,git==git-hook,git==git-http-fetch,git==git-http-push,git==git-index-pack,git==git-init,git==git-init-db,git==git-interpret-trailers,git==git-log,git==git-ls-files,git==git-ls-remote,git==git-ls-tree,git==git-mailinfo,git==git-mailsplit,git==git-maintenance,git==git-merge,git==git-merge-base,git==git-merge-file,git==git-merge-index,git==git-merge-octopus,git==git-merge-one-file,git==git-merge-ours,git==git-merge-recursive,git==git-merge-resolve,git==git-merge-subtree,git==git-mergetool,git==git-mergetool--lib,git==git-merge-tree,git==git-mktag,git==git-mktree,git==git-multi-pack-index,git==git-mv,git==git-name-rev,git==git-notes,git==git-pack-objects,git==git-pack-redundant,git==git-pack-refs,git==git-patch-id,git==git-prune,git==git-prune-packed,git==git-pull,git==git-push,git==git-quiltimport,git==git-range-diff,git==git-read-tree,git==git-rebase,git==git-receive-pack,git==git-reflog,git==git-refs,git==git-remote,git==git-remote-ext,git==git-remote-fd,git==git-remote-ftp,git==git-remote-ftps,git==git-remote-http,git==git-remote-https,git==git-repack,git==git-replace,git==git-replay,git==git-request-pull,git==git-rerere,git==git-reset,git==git-restore,git==git-revert,git==git-rev-list,git==git-rev-parse,git==git-rm,git==git-send-pack,git==git-shell,git==git-sh-i18n,git==git-sh-i18n--envsubst,git==git-shortlog,git==git-show,git==git-show-branch,git==git-show-index,git==git-show-ref,git==git-sh-setup,git==git-sparse-checkout,git==git-stage,git==git-stash,git==git-status,git==git-stripspace,git==git-submodule,git==git-submodule--helper,git==git-switch,git==git-symbolic-ref,git==git-tag,git==git-unpack-file,git==git-unpack-objects,git==git-update-index,git==git-update-ref,git==git-update-server-info,git==git-upload-archive,git==git-upload-pack,git==git-var,git==git-verify-commit,git==git-verify-pack,git==git-verify-tag,git==git-version,git==git-web--browse,git==git-whatchanged,git==git-worktree,git==git-write-tree",
-   "license": [
-    "GPL-2.0"
-   ],
+   "license": "GPL-2.0",
    "notes": [
     "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
@@ -943,9 +901,7 @@
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/inkscape/runimage.alpine.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/inkscape/runimage/alpine/stable/inkscape?tag=1.4-aarch64-linux\u0026download=inkscape.log",
    "provides": "inkscape",
-   "license": [
-    "GPL-2.0"
-   ],
+   "license": "GPL-2.0",
    "notes": [
     "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
@@ -985,9 +941,7 @@
     }
    ],
    "provides": "kdenlive",
-   "license": [
-    "GPL-3.0"
-   ],
+   "license": "GPL-3.0",
    "notes": [
     "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
@@ -1023,9 +977,7 @@
     }
    ],
    "provides": "krita",
-   "license": [
-    "GPL-3.0"
-   ],
+   "license": "GPL-3.0",
    "notes": [
     "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
@@ -1055,9 +1007,7 @@
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/nmap/runimage.alpine.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/nmap/runimage/alpine/stable/nmap?tag=7.95-aarch64-linux\u0026download=nmap.log",
    "provides": "nmap",
-   "license": [
-    "custom"
-   ],
+   "license": "custom",
    "notes": [
     "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
@@ -1087,9 +1037,7 @@
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/wezterm/runimage.alpine.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/wezterm/runimage/alpine/stable/wezterm?tag=20240203.110809-aarch64-linux\u0026download=wezterm.log",
    "provides": "wezterm==open-wezterm-here,wezterm==strip-ansi-escapes,wezterm==wezterm-gui,wezterm==wezterm-mux-server",
-   "license": [
-    "MIT"
-   ],
+   "license": "MIT",
    "notes": [
     "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
@@ -1120,9 +1068,7 @@
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/blender/runimage.debian.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/blender/runimage/debian/stable/blender?tag=4.3.2-aarch64-linux\u0026download=blender.log",
    "provides": "blender",
-   "license": [
-    "GPL"
-   ],
+   "license": "GPL",
    "notes": [
     "Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage",
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
@@ -1158,9 +1104,7 @@
     }
    ],
    "provides": "clamtk",
-   "license": [
-    "GPL"
-   ],
+   "license": "GPL",
    "notes": [
     "This Package has been marked 'deprecaed': https://gitlab.com/dave_m/clamtk/-/issues/144",
     "Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage",

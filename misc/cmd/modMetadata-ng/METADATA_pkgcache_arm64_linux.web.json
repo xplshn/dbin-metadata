@@ -33,9 +33,7 @@
      "version": "13751580923"
     }
    ],
-   "license": [
-    "MPL-2.0"
-   ],
+   "license": "MPL-2.0",
    "notes": [
     "Pre Built AppImage, with Build-related changes. Check/Report @ https://github.com/pkgforge-dev/Pixelpulse2-AppImage",
     "[PORTABLE] (Works on AnyLinux)",
@@ -98,9 +96,7 @@
      "version": "1.75.181"
     }
    ],
-   "license": [
-    "MPL-2.0"
-   ],
+   "license": "MPL-2.0",
    "notes": [
     "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
     "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
@@ -167,9 +163,7 @@
      "version": "134.0.6998.35"
     }
    ],
-   "license": [
-    "BSD-3-Clause"
-   ],
+   "license": "BSD-3-Clause",
    "notes": [
     "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
     "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
@@ -211,9 +205,7 @@
      "version": "12.1.0-unstable-2025-02-01"
     }
    ],
-   "license": [
-    "GPL-3.0"
-   ],
+   "license": "GPL-3.0",
    "notes": [
     "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
     "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
@@ -247,9 +239,7 @@
      "version": "2.3.2"
     }
    ],
-   "license": [
-    "GPL-3.0"
-   ],
+   "license": "GPL-3.0",
    "notes": [
     "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
     "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
@@ -287,9 +277,7 @@
      "version": "25.01.1"
     }
    ],
-   "license": [
-    "MPL-2.0"
-   ],
+   "license": "MPL-2.0",
    "notes": [
     "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
     "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
@@ -323,9 +311,7 @@
      "version": "0.10.3"
     }
    ],
-   "license": [
-    "Apache-2.0"
-   ],
+   "license": "Apache-2.0",
    "notes": [
     "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
     "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
@@ -363,9 +349,7 @@
      "version": "6.2.4"
     }
    ],
-   "license": [
-    "AGPL-3.0"
-   ],
+   "license": "AGPL-3.0",
    "notes": [
     "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
     "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
@@ -411,9 +395,7 @@
      "version": "5.10.7"
     }
    ],
-   "license": [
-    "GPL-3.0"
-   ],
+   "license": "GPL-3.0",
    "notes": [
     "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
     "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
@@ -474,9 +456,7 @@
      "version": "133.0.6943.141"
     }
    ],
-   "license": [
-    "BSD-3-Clause"
-   ],
+   "license": "BSD-3-Clause",
    "notes": [
     "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
     "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
@@ -510,9 +490,7 @@
      "version": "3.31.5"
     }
    ],
-   "license": [
-    "Custom"
-   ],
+   "license": "Custom",
    "notes": [
     "Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core",
     "[PORTABLE] (Works on AnyLinux)",
@@ -539,9 +517,7 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/file/appimage.ppkg.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/file/appimage/ppkg/stable/file?tag=5.45-aarch64-linux\u0026download=file.log",
-   "license": [
-    "custom"
-   ],
+   "license": "custom",
    "notes": [
     "Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core",
     "[PORTABLE] (Works on AnyLinux)",
@@ -574,9 +550,7 @@
      "version": "3.12.0"
     }
    ],
-   "license": [
-    "Apache-2.0"
-   ],
+   "license": "Apache-2.0",
    "notes": [
     "Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core",
     "[PORTABLE] (Works on AnyLinux)",
@@ -602,9 +576,7 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/git/appimage.ppkg.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/git/appimage/ppkg/stable/git?tag=2.48.1-aarch64-linux\u0026download=git.log",
-   "license": [
-    "GPL-2.0"
-   ],
+   "license": "GPL-2.0",
    "notes": [
     "Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core",
     "[PORTABLE] (Works on AnyLinux)",
@@ -631,9 +603,7 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/jless/appimage.ppkg.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/jless/appimage/ppkg/stable/jless?tag=0.9.0-aarch64-linux\u0026download=jless.log",
-   "license": [
-    "MIT"
-   ],
+   "license": "MIT",
    "notes": [
     "Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core",
     "[PORTABLE] (Works on AnyLinux)",
@@ -660,9 +630,7 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/xrdp/appimage.ppkg.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/xrdp/appimage/ppkg/stable/xrdp?tag=0.10.2-aarch64-linux\u0026download=xrdp.log",
-   "license": [
-    "Apache-2.0"
-   ],
+   "license": "Apache-2.0",
    "notes": [
     "Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core",
     "[PORTABLE] (Works on AnyLinux)",
@@ -702,9 +670,7 @@
      "version": "24.12.2"
     }
    ],
-   "license": [
-    "BSD-3-Clause"
-   ],
+   "license": "BSD-3-Clause",
    "notes": [
     "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
@@ -744,9 +710,7 @@
      "version": "1.11.93"
     }
    ],
-   "license": [
-    "GPL-3.0"
-   ],
+   "license": "GPL-3.0",
    "notes": [
     "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
@@ -780,9 +744,7 @@
      "version": "24.12.2"
     }
    ],
-   "license": [
-    "GPL-3.0"
-   ],
+   "license": "GPL-3.0",
    "notes": [
     "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
@@ -814,9 +776,7 @@
      "version": "46.0"
     }
    ],
-   "license": [
-    "GPL-2.0"
-   ],
+   "license": "GPL-2.0",
    "notes": [
     "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
@@ -848,9 +808,7 @@
      "version": "2.48.1"
     }
    ],
-   "license": [
-    "GPL-2.0"
-   ],
+   "license": "GPL-2.0",
    "notes": [
     "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
@@ -877,9 +835,7 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/inkscape/runimage.alpine.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/inkscape/runimage/alpine/stable/inkscape?tag=1.4-aarch64-linux\u0026download=inkscape.log",
-   "license": [
-    "GPL-2.0"
-   ],
+   "license": "GPL-2.0",
    "notes": [
     "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
@@ -916,9 +872,7 @@
      "version": "24.12.2"
     }
    ],
-   "license": [
-    "GPL-3.0"
-   ],
+   "license": "GPL-3.0",
    "notes": [
     "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
@@ -951,9 +905,7 @@
      "version": "5.2.6"
     }
    ],
-   "license": [
-    "GPL-3.0"
-   ],
+   "license": "GPL-3.0",
    "notes": [
     "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
@@ -980,9 +932,7 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/nmap/runimage.alpine.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/nmap/runimage/alpine/stable/nmap?tag=7.95-aarch64-linux\u0026download=nmap.log",
-   "license": [
-    "custom"
-   ],
+   "license": "custom",
    "notes": [
     "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
@@ -1009,9 +959,7 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/wezterm/runimage.alpine.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/wezterm/runimage/alpine/stable/wezterm?tag=20240203.110809-aarch64-linux\u0026download=wezterm.log",
-   "license": [
-    "MIT"
-   ],
+   "license": "MIT",
    "notes": [
     "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
@@ -1039,9 +987,7 @@
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/blender/runimage.debian.stable.yaml",
    "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/blender/runimage/debian/stable/blender?tag=4.3.2-aarch64-linux\u0026download=blender.log",
-   "license": [
-    "GPL"
-   ],
+   "license": "GPL",
    "notes": [
     "Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage",
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
@@ -1074,9 +1020,7 @@
      "version": "6.07"
     }
    ],
-   "license": [
-    "GPL"
-   ],
+   "license": "GPL",
    "notes": [
     "This Package has been marked 'deprecaed': https://gitlab.com/dave_m/clamtk/-/issues/144",
     "Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage",

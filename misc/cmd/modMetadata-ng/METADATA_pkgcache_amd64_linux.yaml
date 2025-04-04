@@ -27,8 +27,7 @@ pkgcache:
   - commit: 0.6-x86_64-linux
     version: "0.6"
   provides: citron
-  license:
-  - MIT
+  license: MIT
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Citron-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
@@ -61,8 +60,7 @@ pkgcache:
   - commit: 0.6-x86_64-linux
     version: "0.6"
   provides: citron
-  license:
-  - MIT
+  license: MIT
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Citron-AppImage
   - Optimized for x86-64-v3
@@ -106,8 +104,7 @@ pkgcache:
   - commit: v134.0.6998.89-x86_64-linux
     version: v134.0.6998.89
   provides: cromite==cromite-browser
-  license:
-  - GPL-3.0
+  license: GPL-3.0
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Cromite-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
@@ -134,8 +131,7 @@ pkgcache:
   - commit: 2.10.38-x86_64-linux
     version: 2.10.38
   provides: gimp
-  license:
-  - GPL-3.0
+  license: GPL-3.0
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/GIMP-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
@@ -167,8 +163,7 @@ pkgcache:
   - commit: 20250222-035321-x86_64-linux
     version: 20250222-035321
   provides: obs-studio
-  license:
-  - GPL-2.0
+  license: GPL-2.0
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/OBS-Studio-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
@@ -198,8 +193,7 @@ pkgcache:
   - commit: 1.17.1-1-x86_64-linux
     version: 1.17.1-1
   provides: ppsspp
-  license:
-  - GPL-2.0
+  license: GPL-2.0
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/PPSSPP-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
@@ -231,8 +225,7 @@ pkgcache:
   - commit: r27206.eaa9c9e3a-x86_64-linux
     version: r27206.eaa9c9e3a
   provides: torzu
-  license:
-  - GPL-3.0
+  license: GPL-3.0
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Torzu-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
@@ -264,8 +257,7 @@ pkgcache:
   - commit: r27206.eaa9c9e3a-x86_64-linux
     version: r27206.eaa9c9e3a
   provides: torzu
-  license:
-  - GPL-3.0
+  license: GPL-3.0
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Torzu-AppImage
   - Optimized for x86-64-v3
@@ -316,8 +308,7 @@ pkgcache:
   - commit: v0.40.0-30-g5ba7ee513-x86_64-linux
     version: v0.40.0-30-g5ba7ee513
   provides: mpv
-  license:
-  - GPL-2.0
+  license: GPL-2.0
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/mpv-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
@@ -348,8 +339,7 @@ pkgcache:
   - commit: 13751580923-x86_64-linux
     version: "13751580923"
   provides: pixelpulse2
-  license:
-  - MPL-2.0
+  license: MPL-2.0
   notes:
   - Pre Built AppImage, with Build-related changes. Check/Report @ https://github.com/pkgforge-dev/Pixelpulse2-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
@@ -379,8 +369,7 @@ pkgcache:
   - commit: 2.4.0-x86_64-linux
     version: 2.4.0
   provides: puddletag
-  license:
-  - GPL-3.0
+  license: GPL-3.0
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/puddletag-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
@@ -412,8 +401,7 @@ pkgcache:
   - commit: 1.2.7-1-x86_64-linux
     version: 1.2.7-1
   provides: strawberry
-  license:
-  - GPL-3.0
+  license: GPL-3.0
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/strawberry-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
@@ -455,8 +443,7 @@ pkgcache:
   - commit: 1.75.181-x86_64-linux
     version: 1.75.181
   provides: brave
-  license:
-  - MPL-2.0
+  license: MPL-2.0
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -502,8 +489,7 @@ pkgcache:
   - commit: 134.0.6998.35-x86_64-linux
     version: 134.0.6998.35
   provides: chromium==chromium-browser
-  license:
-  - BSD-3-Clause
+  license: BSD-3-Clause
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -543,8 +529,7 @@ pkgcache:
   - commit: 0.0.86-x86_64-linux
     version: 0.0.86
   provides: discord
-  license:
-  - Unfree
+  license: Unfree
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -580,8 +565,7 @@ pkgcache:
   - commit: 0.0.585-x86_64-linux
     version: 0.0.585
   provides: discord=>discord-canary
-  license:
-  - Unfree
+  license: Unfree
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -611,8 +595,7 @@ pkgcache:
   - commit: 0.0.67-x86_64-linux
     version: 0.0.67
   provides: discord=>discord-development
-  license:
-  - Unfree
+  license: Unfree
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -648,8 +631,7 @@ pkgcache:
   - commit: 0.0.130-x86_64-linux
     version: 0.0.130
   provides: discord=>discord-ptb
-  license:
-  - Unfree
+  license: Unfree
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -684,8 +666,7 @@ pkgcache:
   - commit: 12.1.0-unstable-2025-02-12-x86_64-linux
     version: 12.1.0-unstable-2025-02-12
   provides: flameshot
-  license:
-  - GPL-3.0
+  license: GPL-3.0
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -714,8 +695,7 @@ pkgcache:
   - commit: 2.3.2-x86_64-linux
     version: 2.3.2
   provides: gearlever
-  license:
-  - GPL-3.0
+  license: GPL-3.0
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -746,8 +726,7 @@ pkgcache:
   - commit: 25.01.1-x86_64-linux
     version: 25.01.1
   provides: helix==hx
-  license:
-  - MPL-2.0
+  license: MPL-2.0
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -776,8 +755,7 @@ pkgcache:
   - commit: 0.10.3-x86_64-linux
     version: 0.10.3
   provides: neovim=>nvim
-  license:
-  - Apache-2.0
+  license: Apache-2.0
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -808,8 +786,7 @@ pkgcache:
   - commit: 6.2.4-x86_64-linux
     version: 6.2.4
   provides: simplex-desktop==simplex-chat-desktop
-  license:
-  - AGPL-3.0
+  license: AGPL-3.0
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -844,8 +821,7 @@ pkgcache:
   - commit: 5.10.7-x86_64-linux
     version: 5.10.7
   provides: telegram-desktop==Telegram-Desktop
-  license:
-  - GPL-3.0
+  license: GPL-3.0
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -887,8 +863,7 @@ pkgcache:
   - commit: 133.0.6943.141-x86_64-linux
     version: 133.0.6943.141
   provides: chromium:ungoogled-chromium,chromium==chromium-browser
-  license:
-  - BSD-3-Clause
+  license: BSD-3-Clause
   notes:
   - Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
@@ -914,8 +889,7 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/cmake/appimage.ppkg.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/cmake/appimage/ppkg/stable/cmake?tag=3.31.5-x86_64-linux&download=cmake.log
   provides: cmake==cpack,cmake==ctest
-  license:
-  - Custom
+  license: Custom
   notes:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
@@ -940,8 +914,7 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/file/appimage.ppkg.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/file/appimage/ppkg/stable/file?tag=5.45-x86_64-linux&download=file.log
   provides: file
-  license:
-  - custom
+  license: custom
   notes:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
@@ -969,8 +942,7 @@ pkgcache:
   - commit: 3.12.0-x86_64-linux
     version: 3.12.0
   provides: freerdp==freerdp-proxy,freerdp==freerdp-shadow-cli,freerdp==winpr-hash,freerdp==winpr-makecert,freerdp==wlfreerdp,freerdp==xfreerdp
-  license:
-  - Apache-2.0
+  license: Apache-2.0
   notes:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
@@ -994,8 +966,7 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/git/appimage.ppkg.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/git/appimage/ppkg/stable/git?tag=2.48.1-x86_64-linux&download=git.log
   provides: git==git-add,git==git-am,git==git-annotate,git==git-apply,git==git-archive,git==git-bisect,git==git-blame,git==git-branch,git==git-bugreport,git==git-bundle,git==git-cat-file,git==git-check-attr,git==git-check-ignore,git==git-check-mailmap,git==git-checkout,git==git-checkout-index,git==git-checkout--worker,git==git-check-ref-format,git==git-cherry,git==git-cherry-pick,git==git-clean,git==git-clone,git==git-column,git==git-commit,git==git-commit-graph,git==git-commit-tree,git==git-config,git==git-count-objects,git==git-credential,git==git-credential-cache,git==git-credential-cache--daemon,git==git-credential-store,git==git-describe,git==git-diagnose,git==git-diff,git==git-diff-files,git==git-diff-index,git==git-difftool,git==git-difftool--helper,git==git-diff-tree,git==git-fast-export,git==git-fetch,git==git-fetch-pack,git==git-filter-branch,git==git-fmt-merge-msg,git==git-for-each-ref,git==git-for-each-repo,git==git-format-patch,git==git-fsck,git==git-fsck-objects,git==git-fsmonitor--daemon,git==git-gc,git==git-get-tar-commit-id,git==git-grep,git==git-hash-object,git==git-help,git==git-hook,git==git-http-fetch,git==git-http-push,git==git-index-pack,git==git-init,git==git-init-db,git==git-interpret-trailers,git==git-log,git==git-ls-files,git==git-ls-remote,git==git-ls-tree,git==git-mailinfo,git==git-mailsplit,git==git-maintenance,git==git-merge,git==git-merge-base,git==git-merge-file,git==git-merge-index,git==git-merge-octopus,git==git-merge-one-file,git==git-merge-ours,git==git-merge-recursive,git==git-merge-resolve,git==git-merge-subtree,git==git-mergetool,git==git-mergetool--lib,git==git-merge-tree,git==git-mktag,git==git-mktree,git==git-multi-pack-index,git==git-mv,git==git-name-rev,git==git-notes,git==git-pack-objects,git==git-pack-redundant,git==git-pack-refs,git==git-patch-id,git==git-prune,git==git-prune-packed,git==git-pull,git==git-push,git==git-quiltimport,git==git-range-diff,git==git-read-tree,git==git-rebase,git==git-receive-pack,git==git-reflog,git==git-refs,git==git-remote,git==git-remote-ext,git==git-remote-fd,git==git-remote-ftp,git==git-remote-ftps,git==git-remote-http,git==git-remote-https,git==git-repack,git==git-replace,git==git-replay,git==git-request-pull,git==git-rerere,git==git-reset,git==git-restore,git==git-revert,git==git-rev-list,git==git-rev-parse,git==git-rm,git==git-send-pack,git==git-shell,git==git-sh-i18n,git==git-sh-i18n--envsubst,git==git-shortlog,git==git-show,git==git-show-branch,git==git-show-index,git==git-show-ref,git==git-sh-setup,git==git-sparse-checkout,git==git-stage,git==git-stash,git==git-status,git==git-stripspace,git==git-submodule,git==git-submodule--helper,git==git-switch,git==git-symbolic-ref,git==git-tag,git==git-unpack-file,git==git-unpack-objects,git==git-update-index,git==git-update-ref,git==git-update-server-info,git==git-upload-archive,git==git-upload-pack,git==git-var,git==git-verify-commit,git==git-verify-pack,git==git-verify-tag,git==git-version,git==git-web--browse,git==git-whatchanged,git==git-worktree,git==git-write-tree
-  license:
-  - GPL-2.0
+  license: GPL-2.0
   notes:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
@@ -1020,8 +991,7 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/jless/appimage.ppkg.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/jless/appimage/ppkg/stable/jless?tag=0.9.0-x86_64-linux&download=jless.log
   provides: jless
-  license:
-  - MIT
+  license: MIT
   notes:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
@@ -1046,8 +1016,7 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/xrdp/appimage.ppkg.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/xrdp/appimage/ppkg/stable/xrdp?tag=0.10.2-x86_64-linux&download=xrdp.log
   provides: xrdp==xrdp-chansrv,xrdp==xrdp-dis,xrdp==xrdp-dumpfv1,xrdp==xrdp-genkeymap,xrdp==xrdp-keygen,xrdp==xrdp-sesadmin,xrdp==xrdp-sesman,xrdp==xrdp-sesrun
-  license:
-  - Apache-2.0
+  license: Apache-2.0
   notes:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
@@ -1078,8 +1047,7 @@ pkgcache:
   - commit: 24.12.2-x86_64-linux
     version: 24.12.2
   provides: akregator
-  license:
-  - BSD-3-Clause
+  license: BSD-3-Clause
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1110,8 +1078,7 @@ pkgcache:
   - commit: 1.11.93-x86_64-linux
     version: 1.11.93
   provides: element-desktop:riot-desktop
-  license:
-  - GPL-3.0
+  license: GPL-3.0
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1140,8 +1107,7 @@ pkgcache:
   - commit: 24.12.2-x86_64-linux
     version: 24.12.2
   provides: falkon
-  license:
-  - GPL-3.0
+  license: GPL-3.0
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1168,8 +1134,7 @@ pkgcache:
   - commit: 46.0-x86_64-linux
     version: "46.0"
   provides: ghex
-  license:
-  - GPL-2.0
+  license: GPL-2.0
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1196,8 +1161,7 @@ pkgcache:
   - commit: 2.48.1-x86_64-linux
     version: 2.48.1
   provides: git==git-add,git==git-am,git==git-annotate,git==git-apply,git==git-archive,git==git-bisect,git==git-blame,git==git-branch,git==git-bugreport,git==git-bundle,git==git-cat-file,git==git-check-attr,git==git-check-ignore,git==git-check-mailmap,git==git-checkout,git==git-checkout-index,git==git-checkout--worker,git==git-check-ref-format,git==git-cherry,git==git-cherry-pick,git==git-clean,git==git-clone,git==git-column,git==git-commit,git==git-commit-graph,git==git-commit-tree,git==git-config,git==git-count-objects,git==git-credential,git==git-credential-cache,git==git-credential-cache--daemon,git==git-credential-store,git==git-describe,git==git-diagnose,git==git-diff,git==git-diff-files,git==git-diff-index,git==git-difftool,git==git-difftool--helper,git==git-diff-tree,git==git-fast-export,git==git-fetch,git==git-fetch-pack,git==git-filter-branch,git==git-fmt-merge-msg,git==git-for-each-ref,git==git-for-each-repo,git==git-format-patch,git==git-fsck,git==git-fsck-objects,git==git-fsmonitor--daemon,git==git-gc,git==git-get-tar-commit-id,git==git-grep,git==git-hash-object,git==git-help,git==git-hook,git==git-http-fetch,git==git-http-push,git==git-index-pack,git==git-init,git==git-init-db,git==git-interpret-trailers,git==git-log,git==git-ls-files,git==git-ls-remote,git==git-ls-tree,git==git-mailinfo,git==git-mailsplit,git==git-maintenance,git==git-merge,git==git-merge-base,git==git-merge-file,git==git-merge-index,git==git-merge-octopus,git==git-merge-one-file,git==git-merge-ours,git==git-merge-recursive,git==git-merge-resolve,git==git-merge-subtree,git==git-mergetool,git==git-mergetool--lib,git==git-merge-tree,git==git-mktag,git==git-mktree,git==git-multi-pack-index,git==git-mv,git==git-name-rev,git==git-notes,git==git-pack-objects,git==git-pack-redundant,git==git-pack-refs,git==git-patch-id,git==git-prune,git==git-prune-packed,git==git-pull,git==git-push,git==git-quiltimport,git==git-range-diff,git==git-read-tree,git==git-rebase,git==git-receive-pack,git==git-reflog,git==git-refs,git==git-remote,git==git-remote-ext,git==git-remote-fd,git==git-remote-ftp,git==git-remote-ftps,git==git-remote-http,git==git-remote-https,git==git-repack,git==git-replace,git==git-replay,git==git-request-pull,git==git-rerere,git==git-reset,git==git-restore,git==git-revert,git==git-rev-list,git==git-rev-parse,git==git-rm,git==git-send-pack,git==git-shell,git==git-sh-i18n,git==git-sh-i18n--envsubst,git==git-shortlog,git==git-show,git==git-show-branch,git==git-show-index,git==git-show-ref,git==git-sh-setup,git==git-sparse-checkout,git==git-stage,git==git-stash,git==git-status,git==git-stripspace,git==git-submodule,git==git-submodule--helper,git==git-switch,git==git-symbolic-ref,git==git-tag,git==git-unpack-file,git==git-unpack-objects,git==git-update-index,git==git-update-ref,git==git-update-server-info,git==git-upload-archive,git==git-upload-pack,git==git-var,git==git-verify-commit,git==git-verify-pack,git==git-verify-tag,git==git-version,git==git-web--browse,git==git-whatchanged,git==git-worktree,git==git-write-tree
-  license:
-  - GPL-2.0
+  license: GPL-2.0
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1222,8 +1186,7 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/inkscape/runimage.alpine.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/inkscape/runimage/alpine/stable/inkscape?tag=1.4-x86_64-linux&download=inkscape.log
   provides: inkscape
-  license:
-  - GPL-2.0
+  license: GPL-2.0
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1253,8 +1216,7 @@ pkgcache:
   - commit: 24.12.2-x86_64-linux
     version: 24.12.2
   provides: kdenlive
-  license:
-  - GPL-3.0
+  license: GPL-3.0
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1282,8 +1244,7 @@ pkgcache:
   - commit: 5.2.6-x86_64-linux
     version: 5.2.6
   provides: krita
-  license:
-  - GPL-3.0
+  license: GPL-3.0
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1308,8 +1269,7 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/nmap/runimage.alpine.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/nmap/runimage/alpine/stable/nmap?tag=7.95-x86_64-linux&download=nmap.log
   provides: nmap
-  license:
-  - custom
+  license: custom
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1334,8 +1294,7 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/wezterm/runimage.alpine.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/wezterm/runimage/alpine/stable/wezterm?tag=20240203.110809-x86_64-linux&download=wezterm.log
   provides: wezterm==open-wezterm-here,wezterm==strip-ansi-escapes,wezterm==wezterm-gui,wezterm==wezterm-mux-server
-  license:
-  - MIT
+  license: MIT
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1365,8 +1324,7 @@ pkgcache:
   - commit: 1.0.0.81-x86_64-linux
     version: 1.0.0.81
   provides: steam
-  license:
-  - Unfree
+  license: Unfree
   notes:
   - Built Using RunImage [archlinux]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1396,8 +1354,7 @@ pkgcache:
   - commit: 19.0-x86_64-linux
     version: "19.0"
   provides: ddnet=>DDNet,ddnet=>DDNet-server
-  license:
-  - CC-BY-SA-3.0
+  license: CC-BY-SA-3.0
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1424,8 +1381,7 @@ pkgcache:
   - commit: 6.25.2.6046-x86_64-linux
     version: 6.25.2.6046
   provides: fdm==freedownloadmanager,fdm==free-download-manager
-  license:
-  - freeware
+  license: freeware
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1449,8 +1405,7 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/ffdec/runimage.cachyos.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ffdec/runimage/cachyos/stable/ffdec?tag=22.0.1-x86_64-linux&download=ffdec.log
   provides: ffdec
-  license:
-  - GPL-3.0
+  license: GPL-3.0
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1475,8 +1430,7 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/ghidra/runimage.cachyos.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghidra/runimage/cachyos/stable/ghidra?tag=11.3.1-x86_64-linux&download=ghidra.log
   provides: ghidra
-  license:
-  - Apache-2.0
+  license: Apache-2.0
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1501,8 +1455,7 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/gimp/runimage.cachyos.git.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/gimp/runimage/cachyos/git/gimp?tag=3.0.0.RC1.r40.0cd0206917-x86_64-linux&download=gimp.log
   provides: gimp
-  license:
-  - GPL-3.0
+  license: GPL-3.0
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1532,8 +1485,7 @@ pkgcache:
   - commit: 3.0.0-x86_64-linux
     version: 3.0.0
   provides: gimp
-  license:
-  - GPL-3.0
+  license: GPL-3.0
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1561,8 +1513,7 @@ pkgcache:
   - commit: 47.0-x86_64-linux
     version: "47.0"
   provides: gnome-boxes
-  license:
-  - GPL-2.0
+  license: GPL-2.0
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1592,8 +1543,7 @@ pkgcache:
   - commit: 1.2.r9.g514d63d-x86_64-linux
     version: 1.2.r9.g514d63d
   provides: goverlay
-  license:
-  - GPL-3.0
+  license: GPL-3.0
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1625,8 +1575,7 @@ pkgcache:
   - commit: 1.3_2-x86_64-linux
     version: "1.3_2"
   provides: goverlay
-  license:
-  - GPL-3.0
+  license: GPL-3.0
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1651,8 +1600,7 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/gpt4all/runimage.cachyos.git.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/gpt4all/runimage/cachyos/git/gpt4all?tag=3.3.0.r22.g767189d-x86_64-linux&download=gpt4all.log
   provides: gpt4all
-  license:
-  - MIT
+  license: MIT
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1681,8 +1629,7 @@ pkgcache:
   - commit: 4.14.0-x86_64-linux
     version: 4.14.0
   provides: gzdoom
-  license:
-  - GPL-3.0
+  license: GPL-3.0
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1707,8 +1654,7 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/haguichi/runimage.cachyos.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/haguichi/runimage/cachyos/stable/haguichi?tag=1.5.1-x86_64-linux&download=haguichi.log
   provides: haguichi
-  license:
-  - GPL-3.0
+  license: GPL-3.0
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1735,8 +1681,7 @@ pkgcache:
   - commit: 24.12-x86_64-linux
     version: "24.12"
   provides: kdeutils=>ark,kdeutils=>filelight,kdeutils=>francis,kdeutils=>isoimagewriter,kdeutils=>kalk,kdeutils=>kalm,kdeutils=>kate,kdeutils=>kbackup,kdeutils=>kcalc,kdeutils=>kcharselect,kdeutils=>kclock,kdeutils=>kdebugsettings,kdeutils:kde-utilities,kdeutils=>kdf,kdeutils=>kdialog,kdeutils=>keditbookmarks,kdeutils=>keysmith,kdeutils=>kfind,kdeutils=>kgpg,kdeutils=>kongress,kdeutils=>konsole,kdeutils=>krecorder,kdeutils=>kteatime,kdeutils=>ktimer,kdeutils=>ktrip,kdeutils=>kwalletmanager,kdeutils=>kweather,kdeutils=>kwrite,kdeutils=>markdownpart,kdeutils=>skanpage,kdeutils=>sweeper,kdeutils=>telly-skout,kdeutils=>yakuake
-  license:
-  - GPL-2.0
+  license: GPL-2.0
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1765,8 +1710,7 @@ pkgcache:
   - commit: 0.7.1-x86_64-linux
     version: 0.7.1
   provides: lact
-  license:
-  - MIT
+  license: MIT
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1794,8 +1738,7 @@ pkgcache:
   - commit: 3.8-x86_64-linux
     version: "3.8"
   provides: lazarus
-  license:
-  - GPL-2.0
+  license: GPL-2.0
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1820,8 +1763,7 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/libresprite/runimage.cachyos.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/libresprite/runimage/cachyos/stable/libresprite?tag=1.1.r59.ga678ddf-x86_64-linux&download=libresprite.log
   provides: libresprite
-  license:
-  - GPL-2.0
+  license: GPL-2.0
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1867,8 +1809,7 @@ pkgcache:
   - commit: 136.0.2_1-x86_64-linux
     version: 136.0.2_1
   provides: librewolf
-  license:
-  - MPL-2.0
+  license: MPL-2.0
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1896,8 +1837,7 @@ pkgcache:
   - commit: 1.0.1.r2.gf282e17-x86_64-linux
     version: 1.0.1.r2.gf282e17
   provides: mcpelauncher=>mcpelauncher-client,mcpelauncher=>mcpelauncher-error,mcpelauncher=>mcpelauncher-webview,mcpelauncher=>mcpelauncher-extract,mcpelauncher=>mcpelauncher-ui-qt
-  license:
-  - GPL-3.0
+  license: GPL-3.0
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1923,8 +1863,7 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/nheko/runimage.cachyos.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/nheko/runimage/cachyos/stable/nheko?tag=0.12.0-x86_64-linux&download=nheko.log
   provides: nheko
-  license:
-  - GPL-3.0
+  license: GPL-3.0
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1949,8 +1888,7 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/openboard/runimage.cachyos.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/openboard/runimage/cachyos/stable/openboard?tag=1.7.3-x86_64-linux&download=openboard.log
   provides: openboard
-  license:
-  - GPL-3.0
+  license: GPL-3.0
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -1978,8 +1916,7 @@ pkgcache:
   - commit: 0.1.0___channel____date__-_-x86_64-linux
     version: 0.1.0+$_channel+${_date//-}
   provides: ruffle
-  license:
-  - MIT
+  license: MIT
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -2012,8 +1949,7 @@ pkgcache:
   - commit: 4.0.1-x86_64-linux
     version: 4.0.1
   provides: spotube
-  license:
-  - BSD-4-Clause
+  license: BSD-4-Clause
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -2042,8 +1978,7 @@ pkgcache:
   - commit: 1.0.0.81-x86_64-linux
     version: 1.0.0.81
   provides: steam
-  license:
-  - Unfree
+  license: Unfree
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -2068,8 +2003,7 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/vscodium/runimage.cachyos.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/vscodium/runimage/cachyos/stable/vscodium?tag=1.96.4.25026-x86_64-linux&download=vscodium.log
   provides: vscodium==codium
-  license:
-  - MIT
+  license: MIT
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -2093,8 +2027,7 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/wezterm/runimage.cachyos.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/wezterm/runimage/cachyos/stable/wezterm?tag=20240203.110809.5046fc22-x86_64-linux&download=wezterm.log
   provides: wezterm==open-wezterm-here,wezterm==strip-ansi-escapes,wezterm==wezterm-gui,wezterm==wezterm-mux-server
-  license:
-  - MIT
+  license: MIT
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -2123,8 +2056,7 @@ pkgcache:
   - commit: 4.3.2-x86_64-linux
     version: 4.3.2
   provides: blender
-  license:
-  - GPL
+  license: GPL
   notes:
   - Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -2152,8 +2084,7 @@ pkgcache:
   - commit: 6.07-x86_64-linux
     version: "6.07"
   provides: clamtk
-  license:
-  - GPL
+  license: GPL
   notes:
   - "This Package has been marked 'deprecaed': https://gitlab.com/dave_m/clamtk/-/issues/144"
   - Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage
@@ -2178,8 +2109,7 @@ pkgcache:
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/deltapatcher/runimage.debian.stable.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/deltapatcher/runimage/debian/stable/deltapatcher?tag=v3.1.5-x86_64-linux&download=deltapatcher.log
   provides: deltapatcher==DeltaPatcher
-  license:
-  - GPL-2.0
+  license: GPL-2.0
   notes:
   - Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -2208,8 +2138,7 @@ pkgcache:
   - commit: 6.26-x86_64-linux
     version: "6.26"
   provides: fdm==freedownloadmanager,fdm==free-download-manager
-  license:
-  - freeware
+  license: freeware
   notes:
   - Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -2237,8 +2166,7 @@ pkgcache:
   - commit: v0.5.3-x86_64-linux
     version: v0.5.3
   provides: funkin==Funkin
-  license:
-  - Apache-2.0
+  license: Apache-2.0
   notes:
   - Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -2266,8 +2194,7 @@ pkgcache:
   - commit: 5.8.0-1.1-x86_64-linux
     version: 5.8.0-1.1
   provides: megasync
-  license:
-  - Custom
+  license: Custom
   notes:
   - Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
@@ -2296,8 +2223,7 @@ pkgcache:
   - commit: 250301T010230jq_error_writingoutputfailed_Brokenpipe-x86_64-linux
     version: 250301T010230jq:error:writingoutputfailed:Brokenpipe
   provides: ultimmc==UltimMC
-  license:
-  - Apache-2.0
+  license: Apache-2.0
   notes:
   - Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
