@@ -40,7 +40,7 @@
     "Run it with --getudev flag the first time to configure udev rules. It may not detect the board otherwise",
     "To reduce crashes, plug in your device after configuring the udev rule and opening the app"
    ],
-   "rank": 95
+   "rank": 94
   },
   {
    "pkg": "brave.nixappimage",
@@ -103,7 +103,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 134
+   "rank": 133
   },
   {
    "pkg": "chromium.nixappimage",
@@ -170,7 +170,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 132
+   "rank": 131
   },
   {
    "pkg": "flameshot.nixappimage",
@@ -212,7 +212,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 135
+   "rank": 134
   },
   {
    "pkg": "gearlever.nixappimage",
@@ -246,7 +246,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 136
+   "rank": 135
   },
   {
    "pkg": "helix.nixappimage",
@@ -284,7 +284,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 137
+   "rank": 136
   },
   {
    "pkg": "neovim.nixappimage",
@@ -318,7 +318,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 138
+   "rank": 137
   },
   {
    "pkg": "simplex-desktop.nixappimage",
@@ -356,7 +356,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 139
+   "rank": 138
   },
   {
    "pkg": "telegram-desktop.nixappimage",
@@ -402,7 +402,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 140
+   "rank": 139
   },
   {
    "pkg": "chromium.nixappimage",
@@ -463,7 +463,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 131
+   "rank": 130
   },
   {
    "pkg": "cmake.appimage",
@@ -496,7 +496,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 102
+   "rank": 101
   },
   {
    "pkg": "file.appimage",
@@ -523,7 +523,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 38
+   "rank": 37
   },
   {
    "pkg": "freerdp.appimage",
@@ -556,7 +556,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 108
+   "rank": 107
   },
   {
    "pkg": "git.appimage",
@@ -582,7 +582,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 31
+   "rank": 30
   },
   {
    "pkg": "jless.appimage",
@@ -609,7 +609,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 42
+   "rank": 41
   },
   {
    "pkg": "xrdp.appimage",
@@ -636,7 +636,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 119
+   "rank": 118
   },
   {
    "pkg": "akregator.runimage",
@@ -676,7 +676,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 157
+   "rank": 156
   },
   {
    "pkg": "element-desktop.runimage",
@@ -716,7 +716,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 30
+   "rank": 29
   },
   {
    "pkg": "falkon.runimage",
@@ -750,7 +750,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 37
+   "rank": 36
   },
   {
    "pkg": "ghex.runimage",
@@ -782,7 +782,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 22
+   "rank": 21
   },
   {
    "pkg": "git.runimage",
@@ -815,7 +815,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 21
+   "rank": 20
   },
   {
    "pkg": "inkscape.runimage",
@@ -841,7 +841,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 29
+   "rank": 28
   },
   {
    "pkg": "kdenlive.runimage",
@@ -878,7 +878,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 24
+   "rank": 23
   },
   {
    "pkg": "krita.runimage",
@@ -911,7 +911,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 28
+   "rank": 27
   },
   {
    "pkg": "nmap/nmap.runimage",
@@ -939,7 +939,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 44
+   "rank": 43
   },
   {
    "pkg": "wezterm.runimage",
@@ -966,7 +966,7 @@
     "Requires Fonts (On Host): https://wezfurlong.org/wezterm/config/fonts.html",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 20
+   "rank": 19
   },
   {
    "pkg": "blender.runimage",
@@ -993,7 +993,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 145
+   "rank": 144
   },
   {
    "pkg": "clamtk.runimage",
@@ -1027,7 +1027,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 5
+   "rank": 6
   }
  ]
 }
