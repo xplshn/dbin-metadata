@@ -85872,7 +85872,7 @@ pkgcache:
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Citron-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 25
+  rank: 30
 - pkg: citron.appimage
   pkg_name: citron
   pkg_id: github.com.pkgforge-dev.Citron-AppImage.v3
@@ -85906,7 +85906,7 @@ pkgcache:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Citron-AppImage
   - Optimized for x86-64-v3
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 26
+  rank: 29
 - pkg: cromite.appimage
   pkg_name: cromite
   pkg_id: github.com.pkgforge-dev.Cromite-AppImage
@@ -85949,7 +85949,7 @@ pkgcache:
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Cromite-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 10
+  rank: 13
 - pkg: gimp.appimage
   pkg_name: gimp
   pkg_id: github.com.pkgforge-dev.GIMP-AppImage
@@ -85974,7 +85974,7 @@ pkgcache:
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/GIMP-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 170
+  rank: 171
 - pkg: obs-studio.appimage
   pkg_name: obs-studio
   pkg_id: github.com.pkgforge-dev.OBS-Studio-AppImage.stable
@@ -86004,7 +86004,7 @@ pkgcache:
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/OBS-Studio-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 14
+  rank: 16
 - pkg: ppsspp.appimage
   pkg_name: ppsspp
   pkg_id: github.com.pkgforge-dev.PPSSPP-AppImage.stable
@@ -86032,7 +86032,7 @@ pkgcache:
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/PPSSPP-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 82
+  rank: 84
 - pkg: torzu.appimage
   pkg_name: torzu
   pkg_id: github.com.pkgforge-dev.Torzu-AppImage.stable
@@ -86062,7 +86062,7 @@ pkgcache:
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Torzu-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 29
+  rank: 34
 - pkg: torzu.appimage
   pkg_name: torzu
   pkg_id: github.com.pkgforge-dev.Torzu-AppImage.v3
@@ -86093,7 +86093,7 @@ pkgcache:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Torzu-AppImage
   - Optimized for x86-64-v3
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 30
+  rank: 33
 - pkg: mpv.appimage
   pkg_name: mpv
   pkg_id: github.com.pkgforge-dev.mpv-AppImage.stable
@@ -86174,7 +86174,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   - Run it with --getudev flag the first time to configure udev rules. It may not detect the board otherwise
   - To reduce crashes, plug in your device after configuring the udev rule and opening the app
-  rank: 187
+  rank: 188
 - pkg: puddletag.appimage
   pkg_name: puddletag
   pkg_id: github.com.pkgforge-dev.puddletag-AppImage.stable
@@ -86200,7 +86200,7 @@ pkgcache:
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/puddletag-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 79
+  rank: 82
 - pkg: strawberry.appimage
   pkg_name: strawberry
   pkg_id: github.com.pkgforge-dev.strawberry-AppImage.stable
@@ -86230,7 +86230,7 @@ pkgcache:
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/strawberry-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 71
+  rank: 74
 - pkg: brave.nixappimage
   pkg_name: brave
   pkg_id: nixpkgs.brave
@@ -86272,7 +86272,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 253
+  rank: 258
 - pkg: chromium.nixappimage
   pkg_name: chromium
   pkg_id: nixpkgs.chromium
@@ -86316,7 +86316,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 251
+  rank: 256
 - pkg: discord/discord.nixappimage
   pkg_name: discord
   pkg_id: nixpkgs.discord
@@ -86354,7 +86354,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 57
+  rank: 59
 - pkg: discord/discord.nixappimage
   pkg_name: discord
   pkg_id: nixpkgs.discord-canary
@@ -86388,7 +86388,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 56
+  rank: 60
 - pkg: discord/discord.nixappimage
   pkg_name: discord
   pkg_id: nixpkgs.discord-development
@@ -86416,7 +86416,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 55
+  rank: 58
 - pkg: discord/discord.nixappimage
   pkg_name: discord
   pkg_id: nixpkgs.discord-ptb
@@ -86450,7 +86450,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 58
+  rank: 61
 - pkg: flameshot.nixappimage
   pkg_name: flameshot
   pkg_id: nixpkgs.flameshot
@@ -86483,7 +86483,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 254
+  rank: 259
 - pkg: gearlever.nixappimage
   pkg_name: gearlever
   pkg_id: nixpkgs.gearlever
@@ -86510,7 +86510,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 255
+  rank: 260
 - pkg: helix.nixappimage
   pkg_name: helix
   pkg_id: nixpkgs.helix
@@ -86539,7 +86539,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 256
+  rank: 261
 - pkg: neovim.nixappimage
   pkg_name: neovim
   pkg_id: nixpkgs.neovim
@@ -86566,7 +86566,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 257
+  rank: 262
 - pkg: simplex-desktop.nixappimage
   pkg_name: simplex-desktop
   pkg_id: nixpkgs.simplex-chat-desktop
@@ -86595,7 +86595,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 258
+  rank: 263
 - pkg: telegram-desktop.nixappimage
   pkg_name: telegram-desktop
   pkg_id: nixpkgs.telegram-desktop
@@ -86628,7 +86628,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 259
+  rank: 264
 - pkg: chromium.nixappimage
   pkg_name: chromium
   pkg_id: nixpkgs.ungoogled-chromium
@@ -86668,7 +86668,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 250
+  rank: 255
 - pkg: cmake.appimage
   pkg_name: cmake
   pkg_id: ppkg.bundle.cmake.stable
@@ -86691,7 +86691,7 @@ pkgcache:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 196
+  rank: 197
 - pkg: file.appimage
   pkg_name: file
   pkg_id: ppkg.bundle.file.stable
@@ -86740,7 +86740,7 @@ pkgcache:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 203
+  rank: 204
 - pkg: git.appimage
   pkg_name: git
   pkg_id: ppkg.bundle.git.stable
@@ -86762,7 +86762,7 @@ pkgcache:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 87
+  rank: 88
 - pkg: jless.appimage
   pkg_name: jless
   pkg_id: ppkg.bundle.jless.stable
@@ -86808,7 +86808,7 @@ pkgcache:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 222
+  rank: 223
 - pkg: akregator.runimage
   pkg_name: akregator
   pkg_id: runimage.alpine.akregator
@@ -86868,7 +86868,7 @@ pkgcache:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 85
+  rank: 18
 - pkg: falkon.runimage
   pkg_name: falkon
   pkg_id: runimage.alpine.falkon
@@ -86920,7 +86920,7 @@ pkgcache:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 35
+  rank: 38
 - pkg: git.runimage
   pkg_name: git
   pkg_id: runimage.alpine.git
@@ -86946,7 +86946,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 34
+  rank: 37
 - pkg: inkscape.runimage
   pkg_name: inkscape
   pkg_id: runimage.alpine.inkscape
@@ -86968,7 +86968,7 @@ pkgcache:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 77
+  rank: 80
 - pkg: kdenlive.runimage
   pkg_name: kdenlive
   pkg_id: runimage.alpine.kdenlive
@@ -86996,7 +86996,7 @@ pkgcache:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 50
+  rank: 53
 - pkg: krita.runimage
   pkg_name: krita
   pkg_id: runimage.alpine.krita
@@ -87022,7 +87022,7 @@ pkgcache:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 69
+  rank: 72
 - pkg: nmap/nmap.runimage
   pkg_name: nmap
   pkg_id: runimage.alpine.nmap
@@ -87069,7 +87069,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "Requires Fonts (On Host): https://wezfurlong.org/wezterm/config/fonts.html"
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 105
+  rank: 104
 - pkg: steam.runimage
   pkg_name: steam
   pkg_id: runimage.archlinux.steam
@@ -87096,7 +87096,7 @@ pkgcache:
   - Built Using RunImage [archlinux]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 83
+  rank: 86
 - pkg: ddnet.runimage
   pkg_name: ddnet
   pkg_id: runimage.cachyos.ddnet
@@ -87151,7 +87151,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 153
+  rank: 146
 - pkg: ffdec.runimage
   pkg_name: ffdec
   pkg_id: runimage.cachyos.ffdec
@@ -87196,7 +87196,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 243
+  rank: 244
 - pkg: gimp.runimage
   pkg_name: gimp
   pkg_id: runimage.cachyos.gimp.git
@@ -87219,7 +87219,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 173
+  rank: 174
 - pkg: gimp.runimage
   pkg_name: gimp
   pkg_id: runimage.cachyos.gimp.stable
@@ -87247,7 +87247,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 174
+  rank: 175
 - pkg: gnome-boxes.runimage
   pkg_name: gnome-boxes
   pkg_id: runimage.cachyos.gnome-boxes.stable
@@ -87273,7 +87273,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 166
+  rank: 167
 - pkg: goverlay.runimage
   pkg_name: goverlay
   pkg_id: runimage.cachyos.goverlay.git
@@ -87301,7 +87301,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 152
+  rank: 155
 - pkg: goverlay.runimage
   pkg_name: goverlay
   pkg_id: runimage.cachyos.goverlay.stable
@@ -87331,7 +87331,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 151
+  rank: 154
 - pkg: gpt4all.runimage
   pkg_name: gpt4all
   pkg_id: runimage.cachyos.gpt4all.git
@@ -87354,7 +87354,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 181
+  rank: 182
 - pkg: gzdoom.runimage
   pkg_name: gzdoom
   pkg_id: runimage.cachyos.gzdoom
@@ -87381,7 +87381,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 164
+  rank: 165
 - pkg: haguichi.runimage
   pkg_name: haguichi
   pkg_id: runimage.cachyos.haguichi
@@ -87404,7 +87404,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 182
+  rank: 183
 - pkg: kdeutils.runimage
   pkg_name: kdeutils
   pkg_id: runimage.cachyos.kdeutils
@@ -87456,7 +87456,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 168
+  rank: 169
 - pkg: lazarus.runimage
   pkg_name: lazarus
   pkg_id: runimage.cachyos.lazarus
@@ -87482,7 +87482,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 41
+  rank: 44
 - pkg: libresprite.runimage
   pkg_name: libresprite
   pkg_id: runimage.cachyos.libresprite
@@ -87505,7 +87505,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 185
+  rank: 186
 - pkg: librewolf.runimage
   pkg_name: librewolf
   pkg_id: runimage.cachyos.librewolf
@@ -87549,7 +87549,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 86
+  rank: 87
 - pkg: mcpelauncher.runimage
   pkg_name: mcpelauncher
   pkg_id: runimage.cachyos.mcpelauncher
@@ -87575,7 +87575,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 167
+  rank: 168
 - pkg: nheko.runimage
   pkg_name: nheko
   pkg_id: runimage.cachyos.nheko
@@ -87599,7 +87599,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 184
+  rank: 185
 - pkg: openboard.runimage
   pkg_name: openboard
   pkg_id: runimage.cachyos.openboard
@@ -87622,7 +87622,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 186
+  rank: 187
 - pkg: ruffle.runimage
   pkg_name: ruffle
   pkg_id: runimage.cachyos.ruffle.nightly
@@ -87648,7 +87648,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 217
+  rank: 218
 - pkg: spotube.runimage
   pkg_name: spotube
   pkg_id: runimage.cachyos.spotube
@@ -87679,7 +87679,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 207
+  rank: 208
 - pkg: steam.runimage
   pkg_name: steam
   pkg_id: runimage.cachyos.steam
@@ -87706,7 +87706,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 84
+  rank: 85
 - pkg: vscodium.runimage
   pkg_name: vscodium
   pkg_id: runimage.cachyos.steam
@@ -87752,7 +87752,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "Requires Fonts (On Host): https://wezfurlong.org/wezterm/config/fonts.html"
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 104
+  rank: 105
 - pkg: blender.runimage
   pkg_name: blender
   pkg_id: runimage.debian.blender
@@ -87805,7 +87805,7 @@ pkgcache:
   - Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 9
+  rank: 8
 - pkg: deltapatcher.runimage
   pkg_name: deltapatcher
   pkg_id: runimage.debian.deltapatcher
@@ -87827,7 +87827,7 @@ pkgcache:
   - Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 150
+  rank: 153
 - pkg: fdm.runimage
   pkg_name: fdm
   pkg_id: runimage.debian.fdm
@@ -87854,7 +87854,7 @@ pkgcache:
   - Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 154
+  rank: 147
 - pkg: funkin.runimage
   pkg_name: funkin
   pkg_id: runimage.debian.funkin
@@ -87906,7 +87906,7 @@ pkgcache:
   - Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 244
+  rank: 245
 - pkg: ultimmc.runimage
   pkg_name: ultimmc
   pkg_id: runimage.debian.ultimmc
@@ -87933,7 +87933,7 @@ pkgcache:
   - Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 28
+  rank: 32
 - pkg: chafa.archive
   pkg_name: chafa
   pkg_id: sharun.wrappe.alpine.chafa
@@ -87960,7 +87960,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 17
+  rank: 21
 - pkg: nmap/ncat.archive
   pkg_name: ncat
   pkg_id: sharun.wrappe.alpine.nmap
@@ -88067,7 +88067,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 204
+  rank: 205
 - pkg: proxychains/proxychains-daemon.archive
   pkg_name: proxychains-daemon
   pkg_id: sharun.wrappe.alpine.proxychains
@@ -88090,7 +88090,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 205
+  rank: 206
 - pkg: subversion/svnadmin.archive
   pkg_name: svnadmin
   pkg_id: sharun.wrappe.alpine.subversion
@@ -88114,7 +88114,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 279
+  rank: 277
 - pkg: subversion/svnversion.archive
   pkg_name: svnversion
   pkg_id: sharun.wrappe.alpine.subversion
@@ -88138,7 +88138,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 275
+  rank: 279
 - pkg: subversion/svn.archive
   pkg_name: svn
   pkg_id: sharun.wrappe.alpine.subversion
@@ -88162,7 +88162,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 276
+  rank: 280
 - pkg: subversion/svnbench.archive
   pkg_name: svnbench
   pkg_id: sharun.wrappe.alpine.subversion
@@ -88186,7 +88186,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 270
+  rank: 275
 - pkg: subversion/svndumpfilter.archive
   pkg_name: svndumpfilter
   pkg_id: sharun.wrappe.alpine.subversion
@@ -88210,7 +88210,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 272
+  rank: 274
 - pkg: subversion/svnfsfs.archive
   pkg_name: svnfsfs
   pkg_id: sharun.wrappe.alpine.subversion
@@ -88234,7 +88234,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 271
+  rank: 276
 - pkg: subversion/svnlook.archive
   pkg_name: svnlook
   pkg_id: sharun.wrappe.alpine.subversion
@@ -88258,7 +88258,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 273
+  rank: 272
 - pkg: subversion/svnmucc.archive
   pkg_name: svnmucc
   pkg_id: sharun.wrappe.alpine.subversion
@@ -88282,7 +88282,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 274
+  rank: 273
 - pkg: subversion/svnrdump.archive
   pkg_name: svnrdump
   pkg_id: sharun.wrappe.alpine.subversion
@@ -88306,7 +88306,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 277
+  rank: 271
 - pkg: subversion/svnserve.archive
   pkg_name: svnserve
   pkg_id: sharun.wrappe.alpine.subversion
@@ -88330,7 +88330,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 280
+  rank: 270
 - pkg: subversion/svnsync.archive
   pkg_name: svnsync
   pkg_id: sharun.wrappe.alpine.subversion
@@ -88380,7 +88380,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 18
+  rank: 22
 - pkg: xvfb-run.archive
   pkg_name: xvfb-run
   pkg_id: sharun.wrappe.alpine.xvfb-run
@@ -88403,7 +88403,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 223
+  rank: 224
 - pkg: wrangler.archive
   pkg_name: wrangler
   pkg_id: sharun.wrappe.npm.wrangler
@@ -88450,7 +88450,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 88
+  rank: 19
 - pkg: anipy-cli.archive
   pkg_name: anipy-cli
   pkg_id: sharun.wrappe.pypi.anipy-cli
@@ -88474,7 +88474,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 138
+  rank: 139
 - pkg: apprise.archive
   pkg_name: apprise
   pkg_id: sharun.wrappe.pypi.apprise
@@ -88501,7 +88501,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 23
+  rank: 27
 - pkg: aqtinstall.archive
   pkg_name: aqtinstall
   pkg_id: sharun.wrappe.pypi.aqtinstall
@@ -88528,7 +88528,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 125
+  rank: 126
 - pkg: archey.archive
   pkg_name: archey
   pkg_id: sharun.wrappe.pypi.archey
@@ -88574,7 +88574,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 129
+  rank: 130
 - pkg: aws.archive
   pkg_name: aws
   pkg_id: sharun.wrappe.pypi.awscli
@@ -88668,7 +88668,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 127
+  rank: 128
 - pkg: beet.archive
   pkg_name: beet
   pkg_id: sharun.wrappe.pypi.beet
@@ -88692,7 +88692,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 124
+  rank: 125
 - pkg: certbot.archive
   pkg_name: certbot
   pkg_id: sharun.wrappe.pypi.certbot
@@ -88719,7 +88719,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 115
+  rank: 116
 - pkg: commix.archive
   pkg_name: commix
   pkg_id: sharun.wrappe.pypi.commix
@@ -88815,7 +88815,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 122
+  rank: 123
 - pkg: dvc.archive
   pkg_name: dvc
   pkg_id: sharun.wrappe.pypi.dvc
@@ -88838,7 +88838,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 139
+  rank: 141
 - pkg: fanficfare.archive
   pkg_name: fanficfare
   pkg_id: sharun.wrappe.pypi.fanficfare
@@ -88866,7 +88866,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 24
+  rank: 28
 - pkg: gsan.archive
   pkg_name: gsan
   pkg_id: sharun.wrappe.pypi.getaltname
@@ -88890,7 +88890,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 188
+  rank: 189
 - pkg: git-dumper.archive
   pkg_name: git-dumper
   pkg_id: sharun.wrappe.pypi.git-dumper
@@ -88913,7 +88913,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 146
+  rank: 149
 - pkg: gptme.archive
   pkg_name: gptme
   pkg_id: sharun.wrappe.pypi.gptme
@@ -88940,7 +88940,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 117
+  rank: 118
 - pkg: gtts-cli.archive
   pkg_name: gtts-cli
   pkg_id: sharun.wrappe.pypi.gtts-cli
@@ -88964,7 +88964,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 134
+  rank: 135
 - pkg: guarddog.archive
   pkg_name: guarddog
   pkg_id: sharun.wrappe.pypi.guarddog
@@ -88991,7 +88991,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 136
+  rank: 137
 - pkg: httpie.archive
   pkg_name: httpie
   pkg_id: sharun.wrappe.pypi.httpie
@@ -89015,7 +89015,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 130
+  rank: 131
 - pkg: image-bootstrap.archive
   pkg_name: image-bootstrap
   pkg_id: sharun.wrappe.pypi.image-bootstrap
@@ -89037,7 +89037,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 165
+  rank: 166
 - pkg: isd.archive
   pkg_name: isd
   pkg_id: sharun.wrappe.pypi.isd
@@ -89064,7 +89064,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 123
+  rank: 124
 - pkg: isort.archive
   pkg_name: isort
   pkg_id: sharun.wrappe.pypi.isort
@@ -89090,7 +89090,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 120
+  rank: 121
 - pkg: jc.archive
   pkg_name: jc
   pkg_id: sharun.wrappe.pypi.jc
@@ -89113,7 +89113,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 126
+  rank: 127
 - pkg: jrnl.archive
   pkg_name: jrnl
   pkg_id: sharun.wrappe.pypi.jrnl
@@ -89140,7 +89140,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 116
+  rank: 117
 - pkg: klp.archive
   pkg_name: klp
   pkg_id: sharun.wrappe.pypi.klp
@@ -89163,7 +89163,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 163
+  rank: 164
 - pkg: linkook.archive
   pkg_name: linkook
   pkg_id: sharun.wrappe.pypi.linkook
@@ -89189,7 +89189,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 141
+  rank: 142
 - pkg: malwoverview.archive
   pkg_name: malwoverview
   pkg_id: sharun.wrappe.pypi.malwoverview
@@ -89212,7 +89212,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 128
+  rank: 129
 - pkg: mitmproxy.archive
   pkg_name: mitmproxy
   pkg_id: sharun.wrappe.pypi.mitmproxy
@@ -89236,7 +89236,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 171
+  rank: 172
 - pkg: oci.archive
   pkg_name: oci
   pkg_id: sharun.wrappe.pypi.oci-cli
@@ -89273,7 +89273,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 19
+  rank: 23
 - pkg: pdfly.archive
   pkg_name: pdfly
   pkg_id: sharun.wrappe.pypi.pdfly
@@ -89297,7 +89297,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 135
+  rank: 136
 - pkg: pg_activity.archive
   pkg_name: pg_activity
   pkg_id: sharun.wrappe.pypi.pg_activity
@@ -89320,7 +89320,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 137
+  rank: 138
 - pkg: port-for.archive
   pkg_name: port-for
   pkg_id: sharun.wrappe.pypi.port-for
@@ -89343,7 +89343,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 172
+  rank: 173
 - pkg: ps_mem.archive
   pkg_name: ps_mem
   pkg_id: sharun.wrappe.pypi.ps_mem
@@ -89366,7 +89366,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 143
+  rank: 144
 - pkg: puncia.archive
   pkg_name: puncia
   pkg_id: sharun.wrappe.pypi.puncia
@@ -89393,7 +89393,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 189
+  rank: 190
 - pkg: pyarmor.archive
   pkg_name: pyarmor
   pkg_id: sharun.wrappe.pypi.pyarmor
@@ -89424,7 +89424,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 112
+  rank: 113
 - pkg: pyp.archive
   pkg_name: pyp
   pkg_id: sharun.wrappe.pypi.pyp
@@ -89447,7 +89447,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 147
+  rank: 150
 - pkg: resolve-march-native.archive
   pkg_name: resolve-march-native
   pkg_id: sharun.wrappe.pypi.resolve-march-native
@@ -89468,7 +89468,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 176
+  rank: 177
 - pkg: sandwine.archive
   pkg_name: sandwine
   pkg_id: sharun.wrappe.pypi.sandwine
@@ -89491,7 +89491,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 183
+  rank: 184
 - pkg: scons.archive
   pkg_name: scons
   pkg_id: sharun.wrappe.pypi.scons
@@ -89520,7 +89520,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 119
+  rank: 120
 - pkg: sgpt.archive
   pkg_name: sgpt
   pkg_id: sharun.wrappe.pypi.shell-gpt
@@ -89543,7 +89543,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 145
+  rank: 148
 - pkg: sherlock.archive
   pkg_name: sherlock
   pkg_id: sharun.wrappe.pypi.sherlock
@@ -89566,7 +89566,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 142
+  rank: 143
 - pkg: shot-scraper.archive
   pkg_name: shot-scraper
   pkg_id: sharun.wrappe.pypi.shot-scraper
@@ -89594,7 +89594,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   - "RUN: shot-scraper install (To Install Required Files)"
-  rank: 148
+  rank: 151
 - pkg: showcert.archive
   pkg_name: showcert
   pkg_id: sharun.wrappe.pypi.showcert
@@ -89617,7 +89617,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 177
+  rank: 178
 - pkg: snallygaster.archive
   pkg_name: snallygaster
   pkg_id: sharun.wrappe.pypi.snallygaster
@@ -89640,7 +89640,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 169
+  rank: 170
 - pkg: streamlink.archive
   pkg_name: streamlink
   pkg_id: sharun.wrappe.pypi.streamlink
@@ -89664,7 +89664,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 161
+  rank: 162
 - pkg: tldextract.archive
   pkg_name: tldextract
   pkg_id: sharun.wrappe.pypi.tldextract
@@ -89687,7 +89687,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 193
+  rank: 194
 - pkg: tmuxp.archive
   pkg_name: tmuxp
   pkg_id: sharun.wrappe.pypi.tmuxp
@@ -89716,7 +89716,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 118
+  rank: 119
 - pkg: trafilatura.archive
   pkg_name: trafilatura
   pkg_id: sharun.wrappe.pypi.trafilatura
@@ -89740,7 +89740,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 149
+  rank: 152
 - pkg: twine.archive
   pkg_name: twine
   pkg_id: sharun.wrappe.pypi.twine
@@ -89764,7 +89764,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 144
+  rank: 145
 - pkg: twitch-dl.archive
   pkg_name: twitch-dl
   pkg_id: sharun.wrappe.pypi.twitch-dl
@@ -89790,7 +89790,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 162
+  rank: 163
 - pkg: udocker.archive
   pkg_name: udocker
   pkg_id: sharun.wrappe.pypi.udocker
@@ -89817,7 +89817,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 22
+  rank: 26
 - pkg: uro.archive
   pkg_name: uro
   pkg_id: sharun.wrappe.pypi.uro
@@ -89840,7 +89840,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 191
+  rank: 192
 - pkg: wappalyzer.archive
   pkg_name: wappalyzer
   pkg_id: sharun.wrappe.pypi.wappalyzer
@@ -89864,7 +89864,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   - Requires Chrome/Firefox Drivers on Host
-  rank: 190
+  rank: 191
 - pkg: xonsh.archive
   pkg_name: xonsh
   pkg_id: sharun.wrappe.pypi.xonsh
@@ -89891,7 +89891,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 131
+  rank: 132
 - pkg: yamllint.archive
   pkg_name: yamllint
   pkg_id: sharun.wrappe.pypi.yamllint
@@ -89923,7 +89923,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 111
+  rank: 112
 - pkg: yt-dlp.archive
   pkg_name: yt-dlp
   pkg_id: sharun.wrappe.pypi.yt-dlp
@@ -89955,7 +89955,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 21
+  rank: 25
 - pkg: emailfinder.archive
   pkg_name: emailfinder
   pkg_id: sharun.wrappe.source.EmailFinder
@@ -89978,7 +89978,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 227
+  rank: 228
 - pkg: interlace.archive
   pkg_name: interlace
   pkg_id: sharun.wrappe.source.Interlace
@@ -90001,7 +90001,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 228
+  rank: 229
 - pkg: metafinder.archive
   pkg_name: metafinder
   pkg_id: sharun.wrappe.source.MetaFinder
@@ -90024,7 +90024,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 229
+  rank: 230
 - pkg: archey.archive
   pkg_name: archey
   pkg_id: sharun.wrappe.source.archey
@@ -90052,7 +90052,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 132
+  rank: 134
 - pkg: ciphey.archive
   pkg_name: ciphey
   pkg_id: sharun.wrappe.source.ciphey
@@ -90075,7 +90075,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 246
+  rank: 252
 - pkg: dnsvalidator.archive
   pkg_name: dnsvalidator
   pkg_id: sharun.wrappe.source.dnsvalidator
@@ -90098,7 +90098,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 224
+  rank: 225
 - pkg: dvc.archive
   pkg_name: dvc
   pkg_id: sharun.wrappe.source.dvc
@@ -90148,7 +90148,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 225
+  rank: 226
 - pkg: huggingface-cli.archive
   pkg_name: huggingface-cli
   pkg_id: sharun.wrappe.source.huggingface-cli
@@ -90201,7 +90201,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 15
+  rank: 10
 - pkg: nth.archive
   pkg_name: nth
   pkg_id: sharun.wrappe.source.name-that-hash
@@ -90224,7 +90224,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 226
+  rank: 227
 - pkg: netexec.archive
   pkg_name: netexec
   pkg_id: sharun.wrappe.source.netexec
@@ -90304,7 +90304,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 230
+  rank: 231
 - pkg: porch-pirate.archive
   pkg_name: porch-pirate
   pkg_id: sharun.wrappe.source.porch-pirate
@@ -90327,7 +90327,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 231
+  rank: 232
 - pkg: urless.archive
   pkg_name: urless
   pkg_id: sharun.wrappe.source.urless
@@ -90348,7 +90348,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 234
+  rank: 235
 - pkg: wafw00f.archive
   pkg_name: wafw00f
   pkg_id: sharun.wrappe.source.wafw00f
@@ -90371,7 +90371,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 235
+  rank: 236
 - pkg: xmap.archive
   pkg_name: xmap
   pkg_id: sharun.wrappe.source.xmap
@@ -90399,7 +90399,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 215
+  rank: 216
 - pkg: xnlinkfinder.archive
   pkg_name: xnlinkfinder
   pkg_id: sharun.wrappe.source.xnLinkFinder
@@ -90429,7 +90429,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 216
+  rank: 217
 - pkg: yt-dlp.archive
   pkg_name: yt-dlp
   pkg_id: sharun.wrappe.source.yt-dlp
@@ -90481,7 +90481,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 20
+  rank: 24
 - pkg: zmap/ztests.archive
   pkg_name: ztests
   pkg_id: sharun.wrappe.source.zmap
@@ -90507,7 +90507,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 212
+  rank: 213
 - pkg: zmap/ztee.archive
   pkg_name: ztee
   pkg_id: sharun.wrappe.source.zmap
@@ -90533,7 +90533,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 211
+  rank: 210
 - pkg: zmap/zmap.archive
   pkg_name: zmap
   pkg_id: sharun.wrappe.source.zmap
@@ -90559,7 +90559,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 210
+  rank: 212
 - pkg: zmap/ziterate.archive
   pkg_name: ziterate
   pkg_id: sharun.wrappe.source.zmap
@@ -90585,7 +90585,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 213
+  rank: 214
 - pkg: zmap/zblocklist.archive
   pkg_name: zblocklist
   pkg_id: sharun.wrappe.source.zmap
@@ -90613,7 +90613,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 209
+  rank: 211
 - pkg: caido-cli.archive
   pkg_name: caido-cli
   pkg_id: sharun.wrappe.stable.caido-cli
@@ -90640,7 +90640,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   - This version was repacked from official Release
-  rank: 202
+  rank: 203
 - pkg: crave.archive
   pkg_name: crave
   pkg_id: sharun.wrappe.stable.crave
@@ -90672,7 +90672,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 16
+  rank: 20
 - pkg: fastfetch/fastfetch.archive
   pkg_name: fastfetch
   pkg_id: sharun.wrappe.stable.fastfetch
@@ -90703,7 +90703,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   - This version was repacked from official Deb & contains the most features
-  rank: 113
+  rank: 114
 - pkg: fastfetch/flashfetch.archive
   pkg_name: flashfetch
   pkg_id: sharun.wrappe.stable.fastfetch
@@ -90734,7 +90734,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   - This version was repacked from official Deb & contains the most features
-  rank: 114
+  rank: 115
 - pkg: sanicdns.archive
   pkg_name: sanicdns
   pkg_id: sharun.wrappe.stable.sanicdns
@@ -90757,7 +90757,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 247
+  rank: 253
 - pkg: simplex-chat.archive
   pkg_name: simplex-chat
   pkg_id: sharun.wrappe.stable.simplex-chat
@@ -90786,7 +90786,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 33
+  rank: 12
 - pkg: sudo-rs/visudo.archive
   pkg_name: visudo
   pkg_id: sharun.wrappe.sudo-rs.source
@@ -90844,7 +90844,7 @@ pkgcache:
   - chmod -v 'a=rx,u+ws' sudo
   - Requires '/etc/sudoers' file & '/etc/sudoers.d' dir
   - "Also requires PAM to be setup: https://github.com/trifectatechfoundation/sudo-rs#differences-from-original-sudo"
-  rank: 68
+  rank: 71
 - pkg: sudo-rs/sudo.archive
   pkg_name: sudo
   pkg_id: sharun.wrappe.sudo-rs.source
@@ -90900,7 +90900,7 @@ pkgcache:
   - chmod -v 'a=rx,u+ws' sudo
   - Requires '/etc/sudoers' file & '/etc/sudoers.d' dir
   - "Also requires PAM to be setup: https://github.com/trifectatechfoundation/sudo-rs#differences-from-original-sudo"
-  rank: 67
+  rank: 69
 - pkg: sudo-rs/su.archive
   pkg_name: su
   pkg_id: sharun.wrappe.sudo-rs.source
@@ -90956,7 +90956,7 @@ pkgcache:
   - chmod -v 'a=rx,u+ws' sudo
   - Requires '/etc/sudoers' file & '/etc/sudoers.d' dir
   - "Also requires PAM to be setup: https://github.com/trifectatechfoundation/sudo-rs#differences-from-original-sudo"
-  rank: 66
+  rank: 70
 - pkg: twingate/twingated.archive
   pkg_name: twingated
   pkg_id: sharun.wrappe.twingate.stable
@@ -90983,7 +90983,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 200
+  rank: 199
 - pkg: twingate/twingate-notifier.archive
   pkg_name: twingate-notifier
   pkg_id: sharun.wrappe.twingate.stable
@@ -91010,7 +91010,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 199
+  rank: 201
 - pkg: twingate/twingate.archive
   pkg_name: twingate
   pkg_id: sharun.wrappe.twingate.stable
@@ -91037,7 +91037,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 198
+  rank: 200
 - pkg: zerotier-one.archive
   pkg_name: zerotier-one
   pkg_id: sharun.wrappe.zerotier.stable
@@ -91061,4 +91061,4 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 206
+  rank: 207

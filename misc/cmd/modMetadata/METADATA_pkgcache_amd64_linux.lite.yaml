@@ -25,7 +25,7 @@ pkgcache:
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Citron-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 25
+  rank: 30
 - pkg: citron.appimage
   pkg_name: citron
   pkg_id: github.com.pkgforge-dev.Citron-AppImage.v3
@@ -53,7 +53,7 @@ pkgcache:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Citron-AppImage
   - Optimized for x86-64-v3
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 26
+  rank: 29
 - pkg: cromite.appimage
   pkg_name: cromite
   pkg_id: github.com.pkgforge-dev.Cromite-AppImage
@@ -85,7 +85,7 @@ pkgcache:
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Cromite-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 10
+  rank: 13
 - pkg: gimp.appimage
   pkg_name: gimp
   pkg_id: github.com.pkgforge-dev.GIMP-AppImage
@@ -108,7 +108,7 @@ pkgcache:
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/GIMP-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 170
+  rank: 171
 - pkg: obs-studio.appimage
   pkg_name: obs-studio
   pkg_id: github.com.pkgforge-dev.OBS-Studio-AppImage.stable
@@ -134,7 +134,7 @@ pkgcache:
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/OBS-Studio-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 14
+  rank: 16
 - pkg: ppsspp.appimage
   pkg_name: ppsspp
   pkg_id: github.com.pkgforge-dev.PPSSPP-AppImage.stable
@@ -159,7 +159,7 @@ pkgcache:
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/PPSSPP-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 82
+  rank: 84
 - pkg: torzu.appimage
   pkg_name: torzu
   pkg_id: github.com.pkgforge-dev.Torzu-AppImage.stable
@@ -184,7 +184,7 @@ pkgcache:
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Torzu-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 29
+  rank: 34
 - pkg: torzu.appimage
   pkg_name: torzu
   pkg_id: github.com.pkgforge-dev.Torzu-AppImage.v3
@@ -210,7 +210,7 @@ pkgcache:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Torzu-AppImage
   - Optimized for x86-64-v3
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 30
+  rank: 33
 - pkg: mpv.appimage
   pkg_name: mpv
   pkg_id: github.com.pkgforge-dev.mpv-AppImage.stable
@@ -273,7 +273,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   - Run it with --getudev flag the first time to configure udev rules. It may not detect the board otherwise
   - To reduce crashes, plug in your device after configuring the udev rule and opening the app
-  rank: 187
+  rank: 188
 - pkg: puddletag.appimage
   pkg_name: puddletag
   pkg_id: github.com.pkgforge-dev.puddletag-AppImage.stable
@@ -297,7 +297,7 @@ pkgcache:
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/puddletag-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 79
+  rank: 82
 - pkg: strawberry.appimage
   pkg_name: strawberry
   pkg_id: github.com.pkgforge-dev.strawberry-AppImage.stable
@@ -323,7 +323,7 @@ pkgcache:
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/strawberry-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 71
+  rank: 74
 - pkg: brave.nixappimage
   pkg_name: brave
   pkg_id: nixpkgs.brave
@@ -356,7 +356,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 253
+  rank: 258
 - pkg: chromium.nixappimage
   pkg_name: chromium
   pkg_id: nixpkgs.chromium
@@ -390,7 +390,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 251
+  rank: 256
 - pkg: discord/discord.nixappimage
   pkg_name: discord
   pkg_id: nixpkgs.discord
@@ -420,7 +420,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 57
+  rank: 59
 - pkg: discord/discord.nixappimage
   pkg_name: discord
   pkg_id: nixpkgs.discord-canary
@@ -448,7 +448,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 56
+  rank: 60
 - pkg: discord/discord.nixappimage
   pkg_name: discord
   pkg_id: nixpkgs.discord-development
@@ -473,7 +473,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 55
+  rank: 58
 - pkg: discord/discord.nixappimage
   pkg_name: discord
   pkg_id: nixpkgs.discord-ptb
@@ -501,7 +501,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 58
+  rank: 61
 - pkg: flameshot.nixappimage
   pkg_name: flameshot
   pkg_id: nixpkgs.flameshot
@@ -529,7 +529,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 254
+  rank: 259
 - pkg: gearlever.nixappimage
   pkg_name: gearlever
   pkg_id: nixpkgs.gearlever
@@ -554,7 +554,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 255
+  rank: 260
 - pkg: helix.nixappimage
   pkg_name: helix
   pkg_id: nixpkgs.helix
@@ -580,7 +580,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 256
+  rank: 261
 - pkg: neovim.nixappimage
   pkg_name: neovim
   pkg_id: nixpkgs.neovim
@@ -605,7 +605,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 257
+  rank: 262
 - pkg: simplex-desktop.nixappimage
   pkg_name: simplex-desktop
   pkg_id: nixpkgs.simplex-chat-desktop
@@ -631,7 +631,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 258
+  rank: 263
 - pkg: telegram-desktop.nixappimage
   pkg_name: telegram-desktop
   pkg_id: nixpkgs.telegram-desktop
@@ -659,7 +659,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 259
+  rank: 264
 - pkg: chromium.nixappimage
   pkg_name: chromium
   pkg_id: nixpkgs.ungoogled-chromium
@@ -690,7 +690,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 250
+  rank: 255
 - pkg: cmake.appimage
   pkg_name: cmake
   pkg_id: ppkg.bundle.cmake.stable
@@ -712,7 +712,7 @@ pkgcache:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 196
+  rank: 197
 - pkg: file.appimage
   pkg_name: file
   pkg_id: ppkg.bundle.file.stable
@@ -758,7 +758,7 @@ pkgcache:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 203
+  rank: 204
 - pkg: git.appimage
   pkg_name: git
   pkg_id: ppkg.bundle.git.stable
@@ -779,7 +779,7 @@ pkgcache:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 87
+  rank: 88
 - pkg: jless.appimage
   pkg_name: jless
   pkg_id: ppkg.bundle.jless.stable
@@ -823,7 +823,7 @@ pkgcache:
   - Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 222
+  rank: 223
 - pkg: akregator.runimage
   pkg_name: akregator
   pkg_id: runimage.alpine.akregator
@@ -874,7 +874,7 @@ pkgcache:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 85
+  rank: 18
 - pkg: falkon.runimage
   pkg_name: falkon
   pkg_id: runimage.alpine.falkon
@@ -922,7 +922,7 @@ pkgcache:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 35
+  rank: 38
 - pkg: git.runimage
   pkg_name: git
   pkg_id: runimage.alpine.git
@@ -946,7 +946,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 34
+  rank: 37
 - pkg: inkscape.runimage
   pkg_name: inkscape
   pkg_id: runimage.alpine.inkscape
@@ -967,7 +967,7 @@ pkgcache:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 77
+  rank: 80
 - pkg: kdenlive.runimage
   pkg_name: kdenlive
   pkg_id: runimage.alpine.kdenlive
@@ -992,7 +992,7 @@ pkgcache:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 50
+  rank: 53
 - pkg: krita.runimage
   pkg_name: krita
   pkg_id: runimage.alpine.krita
@@ -1016,7 +1016,7 @@ pkgcache:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 69
+  rank: 72
 - pkg: nmap/nmap.runimage
   pkg_name: nmap
   pkg_id: runimage.alpine.nmap
@@ -1061,7 +1061,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "Requires Fonts (On Host): https://wezfurlong.org/wezterm/config/fonts.html"
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 105
+  rank: 104
 - pkg: steam.runimage
   pkg_name: steam
   pkg_id: runimage.archlinux.steam
@@ -1086,7 +1086,7 @@ pkgcache:
   - Built Using RunImage [archlinux]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 83
+  rank: 86
 - pkg: ddnet.runimage
   pkg_name: ddnet
   pkg_id: runimage.cachyos.ddnet
@@ -1135,7 +1135,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 153
+  rank: 146
 - pkg: ffdec.runimage
   pkg_name: ffdec
   pkg_id: runimage.cachyos.ffdec
@@ -1178,7 +1178,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 243
+  rank: 244
 - pkg: gimp.runimage
   pkg_name: gimp
   pkg_id: runimage.cachyos.gimp.git
@@ -1200,7 +1200,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 173
+  rank: 174
 - pkg: gimp.runimage
   pkg_name: gimp
   pkg_id: runimage.cachyos.gimp.stable
@@ -1225,7 +1225,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 174
+  rank: 175
 - pkg: gnome-boxes.runimage
   pkg_name: gnome-boxes
   pkg_id: runimage.cachyos.gnome-boxes.stable
@@ -1249,7 +1249,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 166
+  rank: 167
 - pkg: goverlay.runimage
   pkg_name: goverlay
   pkg_id: runimage.cachyos.goverlay.git
@@ -1274,7 +1274,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 152
+  rank: 155
 - pkg: goverlay.runimage
   pkg_name: goverlay
   pkg_id: runimage.cachyos.goverlay.stable
@@ -1300,7 +1300,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 151
+  rank: 154
 - pkg: gpt4all.runimage
   pkg_name: gpt4all
   pkg_id: runimage.cachyos.gpt4all.git
@@ -1322,7 +1322,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 181
+  rank: 182
 - pkg: gzdoom.runimage
   pkg_name: gzdoom
   pkg_id: runimage.cachyos.gzdoom
@@ -1347,7 +1347,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 164
+  rank: 165
 - pkg: haguichi.runimage
   pkg_name: haguichi
   pkg_id: runimage.cachyos.haguichi
@@ -1369,7 +1369,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 182
+  rank: 183
 - pkg: kdeutils.runimage
   pkg_name: kdeutils
   pkg_id: runimage.cachyos.kdeutils
@@ -1416,7 +1416,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 168
+  rank: 169
 - pkg: lazarus.runimage
   pkg_name: lazarus
   pkg_id: runimage.cachyos.lazarus
@@ -1440,7 +1440,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 41
+  rank: 44
 - pkg: libresprite.runimage
   pkg_name: libresprite
   pkg_id: runimage.cachyos.libresprite
@@ -1462,7 +1462,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 185
+  rank: 186
 - pkg: librewolf.runimage
   pkg_name: librewolf
   pkg_id: runimage.cachyos.librewolf
@@ -1496,7 +1496,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 86
+  rank: 87
 - pkg: mcpelauncher.runimage
   pkg_name: mcpelauncher
   pkg_id: runimage.cachyos.mcpelauncher
@@ -1520,7 +1520,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 167
+  rank: 168
 - pkg: nheko.runimage
   pkg_name: nheko
   pkg_id: runimage.cachyos.nheko
@@ -1543,7 +1543,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 184
+  rank: 185
 - pkg: openboard.runimage
   pkg_name: openboard
   pkg_id: runimage.cachyos.openboard
@@ -1565,7 +1565,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 186
+  rank: 187
 - pkg: ruffle.runimage
   pkg_name: ruffle
   pkg_id: runimage.cachyos.ruffle.nightly
@@ -1589,7 +1589,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 217
+  rank: 218
 - pkg: spotube.runimage
   pkg_name: spotube
   pkg_id: runimage.cachyos.spotube
@@ -1616,7 +1616,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 207
+  rank: 208
 - pkg: steam.runimage
   pkg_name: steam
   pkg_id: runimage.cachyos.steam
@@ -1641,7 +1641,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 84
+  rank: 85
 - pkg: vscodium.runimage
   pkg_name: vscodium
   pkg_id: runimage.cachyos.steam
@@ -1685,7 +1685,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "Requires Fonts (On Host): https://wezfurlong.org/wezterm/config/fonts.html"
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 104
+  rank: 105
 - pkg: blender.runimage
   pkg_name: blender
   pkg_id: runimage.debian.blender
@@ -1734,7 +1734,7 @@ pkgcache:
   - Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 9
+  rank: 8
 - pkg: deltapatcher.runimage
   pkg_name: deltapatcher
   pkg_id: runimage.debian.deltapatcher
@@ -1755,7 +1755,7 @@ pkgcache:
   - Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 150
+  rank: 153
 - pkg: fdm.runimage
   pkg_name: fdm
   pkg_id: runimage.debian.fdm
@@ -1779,7 +1779,7 @@ pkgcache:
   - Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 154
+  rank: 147
 - pkg: funkin.runimage
   pkg_name: funkin
   pkg_id: runimage.debian.funkin
@@ -1827,7 +1827,7 @@ pkgcache:
   - Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 244
+  rank: 245
 - pkg: ultimmc.runimage
   pkg_name: ultimmc
   pkg_id: runimage.debian.ultimmc
@@ -1851,4 +1851,4 @@ pkgcache:
   - Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 28
+  rank: 32

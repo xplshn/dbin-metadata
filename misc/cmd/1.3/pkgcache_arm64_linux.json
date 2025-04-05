@@ -1290,7 +1290,7 @@
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)",
     "Please use runimage version of nmap if this doesn't work"
    ],
-   "rank": 39
+   "rank": 40
   },
   {
    "pkg": "nmap/ncat.archive",
@@ -1330,7 +1330,7 @@
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)",
     "Please use runimage version of nmap if this doesn't work"
    ],
-   "rank": 40
+   "rank": 39
   },
   {
    "pkg": "proxychains/proxychains.archive",
@@ -1362,7 +1362,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 108
+   "rank": 109
   },
   {
    "pkg": "proxychains/proxychains-daemon.archive",
@@ -1394,7 +1394,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 109
+   "rank": 108
   },
   {
    "pkg": "subversion/svnadmin.archive",
@@ -1427,7 +1427,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 154
+   "rank": 146
   },
   {
    "pkg": "subversion/svndumpfilter.archive",
@@ -1460,7 +1460,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 150
+   "rank": 145
   },
   {
    "pkg": "subversion/svnbench.archive",
@@ -1493,7 +1493,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 153
+   "rank": 155
   },
   {
    "pkg": "subversion/svnfsfs.archive",
@@ -1526,7 +1526,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 151
+   "rank": 152
   },
   {
    "pkg": "subversion/svnserve.archive",
@@ -1559,7 +1559,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 149
+   "rank": 148
   },
   {
    "pkg": "subversion/svnsync.archive",
@@ -1592,7 +1592,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 148
+   "rank": 154
   },
   {
    "pkg": "subversion/svn.archive",
@@ -1625,7 +1625,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 152
+   "rank": 153
   },
   {
    "pkg": "subversion/svnversion.archive",
@@ -1658,7 +1658,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 146
+   "rank": 147
   },
   {
    "pkg": "subversion/svnlook.archive",
@@ -1691,7 +1691,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 147
+   "rank": 151
   },
   {
    "pkg": "subversion/svnmucc.archive",
@@ -1724,7 +1724,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 155
+   "rank": 150
   },
   {
    "pkg": "subversion/svnrdump.archive",
@@ -1757,7 +1757,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 145
+   "rank": 149
   },
   {
    "pkg": "xhost.archive",
@@ -4092,7 +4092,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 16
+   "rank": 15
   },
   {
    "pkg": "emailfinder.archive",
@@ -4863,7 +4863,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 15
+   "rank": 16
   },
   {
    "pkg": "zmap/zmap.archive",
@@ -4903,7 +4903,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 111
+   "rank": 113
   },
   {
    "pkg": "zmap/zblocklist.archive",
@@ -4945,7 +4945,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 113
+   "rank": 111
   },
   {
    "pkg": "zmap/ziterate.archive",
@@ -4985,7 +4985,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 115
+   "rank": 114
   },
   {
    "pkg": "zmap/ztee.archive",
@@ -5025,7 +5025,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 114
+   "rank": 115
   },
   {
    "pkg": "zmap/ztests.archive",
@@ -5199,7 +5199,7 @@
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)",
     "This version was repacked from official Deb \u0026 contains the most features"
    ],
-   "rank": 48
+   "rank": 47
   },
   {
    "pkg": "fastfetch/flashfetch.archive",
@@ -5246,7 +5246,7 @@
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)",
     "This version was repacked from official Deb \u0026 contains the most features"
    ],
-   "rank": 47
+   "rank": 48
   },
   {
    "pkg": "sudo-rs/su.archive",
@@ -5573,7 +5573,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 104
+   "rank": 103
   },
   {
    "pkg": "twingate/twingated.archive",
@@ -5651,7 +5651,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 103
+   "rank": 104
   },
   {
    "pkg": "zerotier-one.archive",
