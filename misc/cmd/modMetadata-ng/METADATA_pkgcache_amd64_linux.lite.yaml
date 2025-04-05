@@ -498,7 +498,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 56
+  rank: 57
 - pkg: discord/discord.nixappimage
   pkg_name: discord
   pkg_id: nixpkgs.discord-canary
@@ -531,7 +531,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 58
+  rank: 56
 - pkg: discord/discord.nixappimage
   pkg_name: discord
   pkg_id: nixpkgs.discord-development
@@ -591,7 +591,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 57
+  rank: 58
 - pkg: flameshot.nixappimage
   pkg_name: flameshot
   pkg_id: nixpkgs.flameshot
@@ -969,17 +969,17 @@ pkgcache:
   pkg_name: element-desktop
   pkg_id: runimage.alpine.element-desktop
   description: A glossy Matrix collaboration client for desktop
-  version: 1.11.95
-  download_url: oci://ghcr.io/pkgforge/pkgcache/element-desktop/runimage/alpine/stable/element-desktop:1.11.95-x86_64-linux
-  size: 222 MB
-  bsum: 7166b949e85da1a1e8946b942f56d34c890964a440b642694e03ef2bd7efd4f6
-  build_date: "2025-03-12T20:14:34Z"
+  version: 1.11.96
+  download_url: oci://ghcr.io/pkgforge/pkgcache/element-desktop/runimage/alpine/stable/element-desktop:1.11.96-x86_64-linux
+  size: 221 MB
+  bsum: 1a085e178beec2bd01c82bc4419c30444350848863aa372d7d24307297b37143
+  build_date: "2025-04-04T19:17:23Z"
   src_urls:
   - https://gitlab.alpinelinux.org/alpine/aports/-/tree/master/testing/element-desktop
   web_urls:
   - https://github.com/element-hq/element-desktop
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/element-desktop/runimage.alpine.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/element-desktop/runimage/alpine/stable/element-desktop?tag=1.11.95-x86_64-linux&download=element-desktop.log
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/element-desktop/runimage/alpine/stable/element-desktop?tag=1.11.96-x86_64-linux&download=element-desktop.log
   snapshots:
   - commit: 1.11.91-x86_64-linux
     version: 1.11.91
@@ -987,6 +987,8 @@ pkgcache:
     version: 1.11.92
   - commit: 1.11.93-x86_64-linux
     version: 1.11.93
+  - commit: 1.11.95-x86_64-linux
+    version: 1.11.95
   license: GPL-3.0
   notes:
   - Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage
@@ -1211,23 +1213,23 @@ pkgcache:
   - Built Using RunImage [archlinux]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 84
+  rank: 83
 - pkg: ddnet.runimage
   pkg_name: ddnet
   pkg_id: runimage.cachyos.ddnet
   description: Cooperative online platform game based on Teeworlds
-  version: "19.0"
-  download_url: oci://ghcr.io/pkgforge/pkgcache/ddnet/runimage/cachyos/stable/ddnet:19.0-x86_64-linux
-  size: 295 MB
-  bsum: 3fa09fbd68f4b661c8a2f86ab223b188d65ae7d77b75d6da25c27b7e0fb8a72e
-  build_date: "2025-04-01T19:09:34Z"
+  version: "19.1"
+  download_url: oci://ghcr.io/pkgforge/pkgcache/ddnet/runimage/cachyos/stable/ddnet:19.1-x86_64-linux
+  size: 296 MB
+  bsum: 60134cda692b46aa8af06c6957bde18fc4d0e96a48102da3197bfdab555b11fe
+  build_date: "2025-04-04T18:56:42Z"
   src_urls:
   - https://github.com/ddnet/ddnet
   web_urls:
   - https://ddnet.org
   - https://github.com/ddnet/ddnet
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/ddnet/runimage.cachyos.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ddnet/runimage/cachyos/stable/ddnet?tag=19.0-x86_64-linux&download=ddnet.log
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ddnet/runimage/cachyos/stable/ddnet?tag=19.1-x86_64-linux&download=ddnet.log
   snapshots:
   - commit: 18.9.1-x86_64-linux
     version: 18.9.1
@@ -1243,20 +1245,22 @@ pkgcache:
   pkg_name: fdm
   pkg_id: runimage.cachyos.fdm
   description: A powerful modern download accelerator and organizer
-  version: 6.26.0.6142
-  download_url: oci://ghcr.io/pkgforge/pkgcache/fdm/runimage/cachyos/stable/fdm:6.26.0.6142-x86_64-linux
-  size: 299 MB
-  bsum: e044a2b693c711fb3ec3ca02ad25d5c82bdcdb5d576c2faf1e3b32cc9795b202
-  build_date: "2025-03-16T14:49:31Z"
+  version: 6.26.1.6177
+  download_url: oci://ghcr.io/pkgforge/pkgcache/fdm/runimage/cachyos/stable/fdm:6.26.1.6177-x86_64-linux
+  size: 295 MB
+  bsum: d383ee2ca59290d360ba176f4abb80bb9a7f32e32fba043b861634b95ef7ac08
+  build_date: "2025-04-04T19:14:40Z"
   src_urls:
   - https://www.freedownloadmanager.org/download-fdm-for-linux.htm
   web_urls:
   - https://www.freedownloadmanager.org
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/fdm/runimage.cachyos.stable.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/fdm/runimage/cachyos/stable/fdm?tag=6.26.0.6142-x86_64-linux&download=fdm.log
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/fdm/runimage/cachyos/stable/fdm?tag=6.26.1.6177-x86_64-linux&download=fdm.log
   snapshots:
   - commit: 6.25.2.6046-x86_64-linux
     version: 6.25.2.6046
+  - commit: 6.26.0.6142-x86_64-linux
+    version: 6.26.0.6142
   license: freeware
   notes:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
@@ -1406,7 +1410,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 151
+  rank: 152
 - pkg: goverlay.runimage
   pkg_name: goverlay
   pkg_id: runimage.cachyos.goverlay.stable
@@ -1435,7 +1439,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 152
+  rank: 151
 - pkg: gpt4all.runimage
   pkg_name: gpt4all
   pkg_id: runimage.cachyos.gpt4all.git
@@ -1796,7 +1800,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 83
+  rank: 84
 - pkg: vscodium.runimage
   pkg_name: vscodium
   pkg_id: runimage.cachyos.steam
@@ -1872,9 +1876,9 @@ pkgcache:
   description: GTK front-end for Clam Antivirus
   version: "6.07"
   download_url: oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk:6.07-x86_64-linux
-  size: 69 MB
-  bsum: d255cec951dcfd8f897fc2750815b7c33a8338b5313da8f4bcfb6c43f839b2b2
-  build_date: "2025-04-01T19:00:42Z"
+  size: 70 MB
+  bsum: 16158d09a995c3534f1dcc186d50ffea666dac6483c8d5c8168ee1b04b9afdcf
+  build_date: "2025-04-04T19:01:17Z"
   src_urls:
   - https://github.com/dave-theunsub/clamtk
   - https://gitlab.com/dave_m/clamtk

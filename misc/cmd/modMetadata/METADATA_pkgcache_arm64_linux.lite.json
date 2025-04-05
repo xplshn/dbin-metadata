@@ -453,7 +453,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 30
+   "rank": 31
   },
   {
    "pkg": "jless.appimage",
@@ -545,11 +545,11 @@
    "pkg_name": "element-desktop",
    "pkg_id": "runimage.alpine.element-desktop",
    "description": "A glossy Matrix collaboration client for desktop",
-   "version": "1.11.95",
-   "download_url": "oci://ghcr.io/pkgforge/pkgcache/element-desktop/runimage/alpine/stable/element-desktop:1.11.95-aarch64-linux",
+   "version": "1.11.96",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/element-desktop/runimage/alpine/stable/element-desktop:1.11.96-aarch64-linux",
    "size": "211 MB",
-   "bsum": "bd5aeeac9c1f02f0796ea5578d4c7719e9d4c1cf3fc2ccefca33b7fd4e1a8f63",
-   "build_date": "2025-03-12T21:21:03Z",
+   "bsum": "5bc80b45fcf2fcab6a84280932e2f1e3da19243d1afa1d7d1990012373b83d3a",
+   "build_date": "2025-04-04T19:18:12Z",
    "src_urls": [
     "https://gitlab.alpinelinux.org/alpine/aports/-/tree/master/testing/element-desktop"
    ],
@@ -557,11 +557,12 @@
     "https://github.com/element-hq/element-desktop"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/element-desktop/runimage.alpine.stable.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/element-desktop/runimage/alpine/stable/element-desktop?tag=1.11.95-aarch64-linux\u0026download=element-desktop.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/element-desktop/runimage/alpine/stable/element-desktop?tag=1.11.96-aarch64-linux\u0026download=element-desktop.log",
    "snapshots": [
     "1.11.91-aarch64-linux[1.11.91]",
     "1.11.92-aarch64-linux[1.11.92]",
-    "1.11.93-aarch64-linux[1.11.93]"
+    "1.11.93-aarch64-linux[1.11.93]",
+    "1.11.95-aarch64-linux[1.11.95]"
    ],
    "license": "GPL-3.0",
    "notes": [
@@ -569,7 +570,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 29
+   "rank": 9
   },
   {
    "pkg": "falkon.runimage",
@@ -629,7 +630,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 21
+   "rank": 23
   },
   {
    "pkg": "git.runimage",
@@ -659,7 +660,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 20
+   "rank": 22
   },
   {
    "pkg": "inkscape.runimage",
@@ -685,7 +686,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 28
+   "rank": 30
   },
   {
    "pkg": "kdenlive.runimage",
@@ -716,7 +717,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 23
+   "rank": 25
   },
   {
    "pkg": "krita.runimage",
@@ -746,7 +747,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 27
+   "rank": 29
   },
   {
    "pkg": "nmap/nmap.runimage",
@@ -801,7 +802,7 @@
     "Requires Fonts (On Host): https://wezfurlong.org/wezterm/config/fonts.html",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 19
+   "rank": 21
   },
   {
    "pkg": "blender.runimage",
@@ -838,8 +839,8 @@
    "version": "6.07",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk:6.07-aarch64-linux",
    "size": "67 MB",
-   "bsum": "ea31bd11afcca964cf9eea4782a9ff5b7770900029112e4b0c03c801782bea9a",
-   "build_date": "2025-04-01T18:59:13Z",
+   "bsum": "9dbd149c36c9d71e4f872cab387a79144ec71e66fb7873f9ee695595c31d6df9",
+   "build_date": "2025-04-04T18:55:33Z",
    "src_urls": [
     "https://github.com/dave-theunsub/clamtk",
     "https://gitlab.com/dave_m/clamtk"
@@ -859,7 +860,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 6
+   "rank": 5
   }
  ]
 }

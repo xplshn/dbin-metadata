@@ -774,7 +774,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 56
+   "rank": 57
   },
   {
    "pkg": "discord/discord.nixappimage",
@@ -825,7 +825,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 58
+   "rank": 56
   },
   {
    "pkg": "discord/discord.nixappimage",
@@ -915,7 +915,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 57
+   "rank": 58
   },
   {
    "pkg": "flameshot.nixappimage",
@@ -1454,11 +1454,11 @@
    "pkg_name": "element-desktop",
    "pkg_id": "runimage.alpine.element-desktop",
    "description": "A glossy Matrix collaboration client for desktop",
-   "version": "1.11.95",
-   "download_url": "oci://ghcr.io/pkgforge/pkgcache/element-desktop/runimage/alpine/stable/element-desktop:1.11.95-x86_64-linux",
-   "size": "222 MB",
-   "bsum": "7166b949e85da1a1e8946b942f56d34c890964a440b642694e03ef2bd7efd4f6",
-   "build_date": "2025-03-12T20:14:34Z",
+   "version": "1.11.96",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/element-desktop/runimage/alpine/stable/element-desktop:1.11.96-x86_64-linux",
+   "size": "221 MB",
+   "bsum": "1a085e178beec2bd01c82bc4419c30444350848863aa372d7d24307297b37143",
+   "build_date": "2025-04-04T19:17:23Z",
    "src_urls": [
     "https://gitlab.alpinelinux.org/alpine/aports/-/tree/master/testing/element-desktop"
    ],
@@ -1466,7 +1466,7 @@
     "https://github.com/element-hq/element-desktop"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/element-desktop/runimage.alpine.stable.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/element-desktop/runimage/alpine/stable/element-desktop?tag=1.11.95-x86_64-linux\u0026download=element-desktop.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/element-desktop/runimage/alpine/stable/element-desktop?tag=1.11.96-x86_64-linux\u0026download=element-desktop.log",
    "snapshots": [
     {
      "commit": "1.11.91-x86_64-linux",
@@ -1479,6 +1479,10 @@
     {
      "commit": "1.11.93-x86_64-linux",
      "version": "1.11.93"
+    },
+    {
+     "commit": "1.11.95-x86_64-linux",
+     "version": "1.11.95"
     }
    ],
    "license": [
@@ -1791,18 +1795,18 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 84
+   "rank": 83
   },
   {
    "pkg": "ddnet.runimage",
    "pkg_name": "ddnet",
    "pkg_id": "runimage.cachyos.ddnet",
    "description": "Cooperative online platform game based on Teeworlds",
-   "version": "19.0",
-   "download_url": "oci://ghcr.io/pkgforge/pkgcache/ddnet/runimage/cachyos/stable/ddnet:19.0-x86_64-linux",
-   "size": "295 MB",
-   "bsum": "3fa09fbd68f4b661c8a2f86ab223b188d65ae7d77b75d6da25c27b7e0fb8a72e",
-   "build_date": "2025-04-01T19:09:34Z",
+   "version": "19.1",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/ddnet/runimage/cachyos/stable/ddnet:19.1-x86_64-linux",
+   "size": "296 MB",
+   "bsum": "60134cda692b46aa8af06c6957bde18fc4d0e96a48102da3197bfdab555b11fe",
+   "build_date": "2025-04-04T18:56:42Z",
    "src_urls": [
     "https://github.com/ddnet/ddnet"
    ],
@@ -1811,7 +1815,7 @@
     "https://github.com/ddnet/ddnet"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/ddnet/runimage.cachyos.stable.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ddnet/runimage/cachyos/stable/ddnet?tag=19.0-x86_64-linux\u0026download=ddnet.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ddnet/runimage/cachyos/stable/ddnet?tag=19.1-x86_64-linux\u0026download=ddnet.log",
    "snapshots": [
     {
      "commit": "18.9.1-x86_64-linux",
@@ -1837,11 +1841,11 @@
    "pkg_name": "fdm",
    "pkg_id": "runimage.cachyos.fdm",
    "description": "A powerful modern download accelerator and organizer",
-   "version": "6.26.0.6142",
-   "download_url": "oci://ghcr.io/pkgforge/pkgcache/fdm/runimage/cachyos/stable/fdm:6.26.0.6142-x86_64-linux",
-   "size": "299 MB",
-   "bsum": "e044a2b693c711fb3ec3ca02ad25d5c82bdcdb5d576c2faf1e3b32cc9795b202",
-   "build_date": "2025-03-16T14:49:31Z",
+   "version": "6.26.1.6177",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/fdm/runimage/cachyos/stable/fdm:6.26.1.6177-x86_64-linux",
+   "size": "295 MB",
+   "bsum": "d383ee2ca59290d360ba176f4abb80bb9a7f32e32fba043b861634b95ef7ac08",
+   "build_date": "2025-04-04T19:14:40Z",
    "src_urls": [
     "https://www.freedownloadmanager.org/download-fdm-for-linux.htm"
    ],
@@ -1849,11 +1853,15 @@
     "https://www.freedownloadmanager.org"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/fdm/runimage.cachyos.stable.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/fdm/runimage/cachyos/stable/fdm?tag=6.26.0.6142-x86_64-linux\u0026download=fdm.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/fdm/runimage/cachyos/stable/fdm?tag=6.26.1.6177-x86_64-linux\u0026download=fdm.log",
    "snapshots": [
     {
      "commit": "6.25.2.6046-x86_64-linux",
      "version": "6.25.2.6046"
+    },
+    {
+     "commit": "6.26.0.6142-x86_64-linux",
+     "version": "6.26.0.6142"
     }
    ],
    "license": [
@@ -2063,7 +2071,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 151
+   "rank": 152
   },
   {
    "pkg": "goverlay.runimage",
@@ -2106,7 +2114,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 152
+   "rank": 151
   },
   {
    "pkg": "gpt4all.runimage",
@@ -2614,7 +2622,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 83
+   "rank": 84
   },
   {
    "pkg": "vscodium.runimage",
@@ -2716,9 +2724,9 @@
    "description": "GTK front-end for Clam Antivirus",
    "version": "6.07",
    "download_url": "oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk:6.07-x86_64-linux",
-   "size": "69 MB",
-   "bsum": "d255cec951dcfd8f897fc2750815b7c33a8338b5313da8f4bcfb6c43f839b2b2",
-   "build_date": "2025-04-01T19:00:42Z",
+   "size": "70 MB",
+   "bsum": "16158d09a995c3534f1dcc186d50ffea666dac6483c8d5c8168ee1b04b9afdcf",
+   "build_date": "2025-04-04T19:01:17Z",
    "src_urls": [
     "https://github.com/dave-theunsub/clamtk",
     "https://gitlab.com/dave_m/clamtk"
@@ -2990,7 +2998,7 @@
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)",
     "Please use runimage version of nmap if this doesn't work"
    ],
-   "rank": 99
+   "rank": 100
   },
   {
    "pkg": "nmap/nmap.archive",
@@ -3064,7 +3072,7 @@
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)",
     "Please use runimage version of nmap if this doesn't work"
    ],
-   "rank": 100
+   "rank": 99
   },
   {
    "pkg": "proxychains/proxychains.archive",
@@ -3152,7 +3160,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 272
+   "rank": 279
   },
   {
    "pkg": "subversion/svnversion.archive",
@@ -3212,7 +3220,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 270
+   "rank": 276
   },
   {
    "pkg": "subversion/svnbench.archive",
@@ -3242,7 +3250,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 277
+   "rank": 270
   },
   {
    "pkg": "subversion/svndumpfilter.archive",
@@ -3272,7 +3280,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 271
+   "rank": 272
   },
   {
    "pkg": "subversion/svnfsfs.archive",
@@ -3302,7 +3310,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 274
+   "rank": 271
   },
   {
    "pkg": "subversion/svnlook.archive",
@@ -3332,7 +3340,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 279
+   "rank": 273
   },
   {
    "pkg": "subversion/svnmucc.archive",
@@ -3362,7 +3370,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 278
+   "rank": 274
   },
   {
    "pkg": "subversion/svnrdump.archive",
@@ -3392,7 +3400,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 280
+   "rank": 277
   },
   {
    "pkg": "subversion/svnserve.archive",
@@ -3422,7 +3430,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 273
+   "rank": 280
   },
   {
    "pkg": "subversion/svnsync.archive",
@@ -3452,7 +3460,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 276
+   "rank": 278
   },
   {
    "pkg": "xhost.archive",
@@ -3523,11 +3531,11 @@
    "pkg_name": "wrangler",
    "pkg_id": "sharun.wrappe.npm.wrangler",
    "description": "Command-line interface for all things Cloudflare Workers",
-   "version": "4.6.0",
-   "download_url": "oci://ghcr.io/pkgforge/pkgcache/wrangler/archive/sharun/npm/wrangler:4.6.0-x86_64-linux",
-   "size": "121 MB",
-   "bsum": "7be151c5e78a7f2f462333ba8422ad282fe01b8f597241f5635fb1dc41acec03",
-   "build_date": "2025-03-28T19:33:09Z",
+   "version": "4.7.2",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/wrangler/archive/sharun/npm/wrangler:4.7.2-x86_64-linux",
+   "size": "115 MB",
+   "bsum": "17be130ddb229bf337c2464ba770b071317adc904737895eeb7ca65277d8ef4a",
+   "build_date": "2025-04-04T19:38:31Z",
    "src_urls": [
     "https://www.npmjs.com/package/wrangler"
    ],
@@ -3536,7 +3544,7 @@
     "https://github.com/cloudflare/workers-sdk"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/wrangler/archive.sharun.npm.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/wrangler/archive/sharun/npm/wrangler?tag=4.6.0-x86_64-linux\u0026download=wrangler.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/wrangler/archive/sharun/npm/wrangler?tag=4.7.2-x86_64-linux\u0026download=wrangler.log",
    "snapshots": [
     {
      "commit": "3.109.3-x86_64-linux",
@@ -3577,6 +3585,10 @@
     {
      "commit": "4.4.0-x86_64-linux",
      "version": "4.4.0"
+    },
+    {
+     "commit": "4.6.0-x86_64-linux",
+     "version": "4.6.0"
     }
    ],
    "license": [
@@ -3755,11 +3767,11 @@
    "pkg_name": "aws",
    "pkg_id": "sharun.wrappe.pypi.awscli",
    "description": "Universal Command Line Interface for Amazon Web Services",
-   "version": "1.38.24",
-   "download_url": "oci://ghcr.io/pkgforge/pkgcache/awscli/archive/sharun/pypi/aws:1.38.24-x86_64-linux",
-   "size": "35 MB",
-   "bsum": "7cd4461eb5e16982605c1f199b474b27b7a92cbd800a520a5d270e8d73140b4a",
-   "build_date": "2025-04-01T19:05:10Z",
+   "version": "1.38.27",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/awscli/archive/sharun/pypi/aws:1.38.27-x86_64-linux",
+   "size": "36 MB",
+   "bsum": "f469fbc1b1d738dd5118b5f221f4a7cb1fda17d763e9f6c34a589badf58671c0",
+   "build_date": "2025-04-04T19:07:08Z",
    "src_urls": [
     "https://pypi.org/project/awscli"
    ],
@@ -3767,7 +3779,7 @@
     "https://github.com/aws/aws-cli"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/awscli/archive.sharun.pypi.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/awscli/archive/sharun/pypi/aws?tag=1.38.24-x86_64-linux\u0026download=aws.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/awscli/archive/sharun/pypi/aws?tag=1.38.27-x86_64-linux\u0026download=aws.log",
    "snapshots": [
     {
      "commit": "1.37.25-x86_64-linux",
@@ -3844,6 +3856,10 @@
     {
      "commit": "1.38.23-x86_64-linux",
      "version": "1.38.23"
+    },
+    {
+     "commit": "1.38.24-x86_64-linux",
+     "version": "1.38.24"
     }
    ],
    "license": [
@@ -3971,11 +3987,11 @@
    "pkg_name": "commix",
    "pkg_id": "sharun.wrappe.pypi.commix",
    "description": "Automated All-in-One OS Command Injection and Exploitation Tool",
-   "version": "HEAD-7f82a22-250330T094417",
-   "download_url": "oci://ghcr.io/pkgforge/pkgcache/commix/archive/sharun/pypi/commix:HEAD-7f82a22-250330T094417-x86_64-linux",
+   "version": "HEAD-947878c-250402T072511",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/commix/archive/sharun/pypi/commix:HEAD-947878c-250402T072511-x86_64-linux",
    "size": "18 MB",
-   "bsum": "dec477f7fcfc13f1efc9bdc0e88e0e30aeccad9cc073c16dd94a8a8c520c6aee",
-   "build_date": "2025-03-30T18:52:44Z",
+   "bsum": "61b3381ced05511b939528d05e80f867052ecdf7f8cf15f1a01b1f9ce159081c",
+   "build_date": "2025-04-04T18:57:57Z",
    "src_urls": [
     "https://github.com/commixproject/commix"
    ],
@@ -3984,7 +4000,7 @@
     "https://github.com/commixproject/commix"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/commix/archive.sharun.pypi.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/commix/archive/sharun/pypi/commix?tag=HEAD-7f82a22-250330T094417-x86_64-linux\u0026download=commix.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/commix/archive/sharun/pypi/commix?tag=HEAD-947878c-250402T072511-x86_64-linux\u0026download=commix.log",
    "snapshots": [
     {
      "commit": "HEAD-bf8aa0f-250221T082852-x86_64-linux"
@@ -4007,6 +4023,10 @@
     },
     {
      "commit": "HEAD-2ca977a-250325T114838-x86_64-linux",
+     "version": "4.0"
+    },
+    {
+     "commit": "HEAD-7f82a22-250330T094417-x86_64-linux",
      "version": "4.0"
     }
    ],
@@ -4129,7 +4149,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 140
+   "rank": 139
   },
   {
    "pkg": "fanficfare.archive",
@@ -5594,7 +5614,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 20
+   "rank": 21
   },
   {
    "pkg": "emailfinder.archive",
@@ -5816,7 +5836,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 139
+   "rank": 140
   },
   {
    "pkg": "ghauri.archive",
@@ -5852,11 +5872,11 @@
    "pkg_name": "huggingface-cli",
    "pkg_id": "sharun.wrappe.source.huggingface-cli",
    "description": "The official Python client for the Huggingface Hub",
-   "version": "HEAD-6378820-250331T170049",
-   "download_url": "oci://ghcr.io/pkgforge/pkgcache/huggingface-cli/archive/sharun/source/huggingface-cli:HEAD-6378820-250331T170049-x86_64-linux",
+   "version": "HEAD-44dad7a-250403T145914",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/huggingface-cli/archive/sharun/source/huggingface-cli:HEAD-44dad7a-250403T145914-x86_64-linux",
    "size": "23 MB",
-   "bsum": "4534e531ba486a9ca58e7564ced1912408e4b0d503b49cbde6b3825f58ecf3cf",
-   "build_date": "2025-04-01T19:20:03Z",
+   "bsum": "dfe6710b23e6ca29914ea2c56aedc1fc0e78a83822c3887fa41132e665dd54f6",
+   "build_date": "2025-04-04T19:17:08Z",
    "src_urls": [
     "https://github.com/huggingface/huggingface_hub"
    ],
@@ -5864,7 +5884,7 @@
     "https://huggingface.co/docs/huggingface_hub"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/huggingface-cli/archive.sharun.source.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/huggingface-cli/archive/sharun/source/huggingface-cli?tag=HEAD-6378820-250331T170049-x86_64-linux\u0026download=huggingface-cli.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/huggingface-cli/archive/sharun/source/huggingface-cli?tag=HEAD-44dad7a-250403T145914-x86_64-linux\u0026download=huggingface-cli.log",
    "snapshots": [
     {
      "commit": "HEAD-290aa26-250220T155158-x86_64-linux"
@@ -5920,6 +5940,10 @@
     {
      "commit": "HEAD-1ae2337-250328T153709-x86_64-linux",
      "version": "0.29.3"
+    },
+    {
+     "commit": "HEAD-6378820-250331T170049-x86_64-linux",
+     "version": "0.30.1"
     }
    ],
    "license": [
@@ -5967,11 +5991,11 @@
    "pkg_name": "netexec",
    "pkg_id": "sharun.wrappe.source.netexec",
    "description": "The Network Execution (CrackMapExec) Tool",
-   "version": "HEAD-677e254-250401T005358",
-   "download_url": "oci://ghcr.io/pkgforge/pkgcache/netexec/archive/sharun/source/netexec:HEAD-677e254-250401T005358-x86_64-linux",
-   "size": "85 MB",
-   "bsum": "24686ea4636a3376338a3b62f99251123bb83b3f17c6ec77612bb6a7538281dd",
-   "build_date": "2025-04-01T19:25:19Z",
+   "version": "HEAD-98062cb-250403T210356",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/netexec/archive/sharun/source/netexec:HEAD-98062cb-250403T210356-x86_64-linux",
+   "size": "84 MB",
+   "bsum": "4dd0c673693ee7ad08f576e66a2dd9241a42c9cd87a2feabc8f243c079c0db9f",
+   "build_date": "2025-04-04T19:29:16Z",
    "src_urls": [
     "https://github.com/Pennyw0rth/NetExec"
    ],
@@ -5980,7 +6004,7 @@
     "https://www.netexec.wiki"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/netexec/archive.sharun.source.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/netexec/archive/sharun/source/netexec?tag=HEAD-677e254-250401T005358-x86_64-linux\u0026download=netexec.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/netexec/archive/sharun/source/netexec?tag=HEAD-98062cb-250403T210356-x86_64-linux\u0026download=netexec.log",
    "snapshots": [
     {
      "commit": "HEAD-307aa24-250221T102654-x86_64-linux",
@@ -6040,6 +6064,10 @@
     },
     {
      "commit": "HEAD-f31fb4f-250330T152304-x86_64-linux",
+     "version": "1.3.0"
+    },
+    {
+     "commit": "HEAD-677e254-250401T005358-x86_64-linux",
      "version": "1.3.0"
     }
    ],
@@ -6254,11 +6282,11 @@
    "pkg_name": "yt-dlp",
    "pkg_id": "sharun.wrappe.source.yt-dlp",
    "description": "CLI program to download videos from YouTube and other sites",
-   "version": "HEAD-349f366-250331T215427",
-   "download_url": "oci://ghcr.io/pkgforge/pkgcache/yt-dlp/archive/sharun/source/yt-dlp:HEAD-349f366-250331T215427-x86_64-linux",
+   "version": "HEAD-e184753-250403T210224",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/yt-dlp/archive/sharun/source/yt-dlp:HEAD-e184753-250403T210224-x86_64-linux",
    "size": "26 MB",
-   "bsum": "aba06449035729b571c1271782fc6ffa48cbcbe0dea25e380c224934bc8dae3e",
-   "build_date": "2025-04-01T19:51:22Z",
+   "bsum": "6f3a81ddfe39490c3d700c10230dca67bf3092d75744c833afb3af030b884a5b",
+   "build_date": "2025-04-04T19:42:15Z",
    "src_urls": [
     "https://github.com/yt-dlp/yt-dlp"
    ],
@@ -6266,7 +6294,7 @@
     "https://github.com/yt-dlp/yt-dlp"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/yt-dlp/archive.sharun.source.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/yt-dlp/archive/sharun/source/yt-dlp?tag=HEAD-349f366-250331T215427-x86_64-linux\u0026download=yt-dlp.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/yt-dlp/archive/sharun/source/yt-dlp?tag=HEAD-e184753-250403T210224-x86_64-linux\u0026download=yt-dlp.log",
    "snapshots": [
     {
      "commit": "HEAD-0bb3978-250223T191606-x86_64-linux",
@@ -6319,6 +6347,10 @@
     {
      "commit": "HEAD-6a6d97b-250329T111309-x86_64-linux",
      "version": "2025.03.27"
+    },
+    {
+     "commit": "HEAD-349f366-250331T215427-x86_64-linux",
+     "version": "2025.03.31"
     }
    ],
    "license": [
@@ -6330,7 +6362,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 21
+   "rank": 20
   },
   {
    "pkg": "zmap/ztests.archive",
@@ -6367,7 +6399,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 210
+   "rank": 212
   },
   {
    "pkg": "zmap/ztee.archive",
@@ -6404,7 +6436,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 212
+   "rank": 211
   },
   {
    "pkg": "zmap/zmap.archive",
@@ -6441,7 +6473,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 211
+   "rank": 210
   },
   {
    "pkg": "zmap/ziterate.archive",
@@ -6605,11 +6637,11 @@
    "pkg_name": "fastfetch",
    "pkg_id": "sharun.wrappe.stable.fastfetch",
    "description": "Fast and feature-rich tool displaying system information",
-   "version": "2.39.1",
-   "download_url": "oci://ghcr.io/pkgforge/pkgcache/fastfetch/archive/sharun/stable/fastfetch:2.39.1-x86_64-linux",
+   "version": "2.40.2",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/fastfetch/archive/sharun/stable/fastfetch:2.40.2-x86_64-linux",
    "size": "5.4 MB",
-   "bsum": "fcc387d159e2e1197952c252b52691254336deb4400aaebcc28bae63953fe101",
-   "build_date": "2025-04-01T01:57:50Z",
+   "bsum": "3ce1a775cd0b587b636e782dc7630d01a282ec6622ff49f3f535eb692ed580b4",
+   "build_date": "2025-04-04T19:07:24Z",
    "src_urls": [
     "https://github.com/fastfetch-cli/fastfetch"
    ],
@@ -6617,7 +6649,7 @@
     "https://github.com/fastfetch-cli/fastfetch"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/fastfetch/archive.sharun.stable.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/fastfetch/archive/sharun/stable/fastfetch?tag=2.39.1-x86_64-linux\u0026download=fastfetch.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/fastfetch/archive/sharun/stable/fastfetch?tag=2.40.2-x86_64-linux\u0026download=fastfetch.log",
    "snapshots": [
     {
      "commit": "2.37.0-x86_64-linux",
@@ -6649,11 +6681,11 @@
    "pkg_name": "flashfetch",
    "pkg_id": "sharun.wrappe.stable.fastfetch",
    "description": "Fastfetch with minimal features \u0026 configuration [fastfetch]",
-   "version": "2.39.1",
-   "download_url": "oci://ghcr.io/pkgforge/pkgcache/fastfetch/archive/sharun/stable/flashfetch:2.39.1-x86_64-linux",
+   "version": "2.40.2",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/fastfetch/archive/sharun/stable/flashfetch:2.40.2-x86_64-linux",
    "size": "5.1 MB",
-   "bsum": "ca28efb5cab6d4187a0f297a5208837d49f73d05147c4c0f716f54646c7e83cb",
-   "build_date": "2025-04-01T01:57:51Z",
+   "bsum": "73b3acf39177b82b6b3c5bf9ced021b4b5474767b92b9918e3d6e98401ba75d6",
+   "build_date": "2025-04-04T19:07:26Z",
    "src_urls": [
     "https://github.com/fastfetch-cli/fastfetch"
    ],
@@ -6661,7 +6693,7 @@
     "https://github.com/fastfetch-cli/fastfetch"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/fastfetch/archive.sharun.stable.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/fastfetch/archive/sharun/stable/flashfetch?tag=2.39.1-x86_64-linux\u0026download=flashfetch.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/fastfetch/archive/sharun/stable/flashfetch?tag=2.40.2-x86_64-linux\u0026download=flashfetch.log",
    "snapshots": [
     {
      "commit": "2.37.0-x86_64-linux",
@@ -6722,11 +6754,11 @@
    "pkg_name": "simplex-chat",
    "pkg_id": "sharun.wrappe.stable.simplex-chat",
    "description": "A 100% private-by-design chat platform for the command-line",
-   "version": "v6.3.0",
-   "download_url": "oci://ghcr.io/pkgforge/pkgcache/simplex-chat/archive/sharun/stable/simplex-chat:v6.3.0-x86_64-linux",
+   "version": "v6.3.1",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/simplex-chat/archive/sharun/stable/simplex-chat:v6.3.1-x86_64-linux",
    "size": "17 MB",
-   "bsum": "0de1b7fbf528cb9e5a1a8c558bfea3f96b07480a975c65c7eff0e3aa81ec1d45",
-   "build_date": "2025-04-01T01:59:13Z",
+   "bsum": "86af02af2ddd611fb98c35a8de0bc347722edef79a638c9499a7264cc4ef40f0",
+   "build_date": "2025-04-04T19:28:23Z",
    "src_urls": [
     "https://github.com/simplex-chat/simplex-chat"
    ],
@@ -6735,7 +6767,7 @@
     "https://github.com/simplex-chat/simplex-chat"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/simplex-chat/archive.sharun.stable.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/simplex-chat/archive/sharun/stable/simplex-chat?tag=v6.3.0-x86_64-linux\u0026download=simplex-chat.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/simplex-chat/archive/sharun/stable/simplex-chat?tag=v6.3.1-x86_64-linux\u0026download=simplex-chat.log",
    "snapshots": [
     {
      "commit": "v6.2.5-x86_64-linux",
@@ -6762,11 +6794,11 @@
    "pkg_name": "visudo",
    "pkg_id": "sharun.wrappe.sudo-rs.source",
    "description": "Edit the sudoers file [sudo-rs]",
-   "version": "HEAD-37175bb-250401T132152",
-   "download_url": "oci://ghcr.io/pkgforge/pkgcache/sudo-rs/archive/sharun/source/visudo:HEAD-37175bb-250401T132152-x86_64-linux",
-   "size": "2.5 MB",
-   "bsum": "ef487b9056c2bdff60406de9d2de46bf37073f624850a9f02f358d89ed43ae47",
-   "build_date": "2025-04-01T19:45:12Z",
+   "version": "HEAD-d3f999b-250402T135645",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/sudo-rs/archive/sharun/source/visudo:HEAD-d3f999b-250402T135645-x86_64-linux",
+   "size": "2.4 MB",
+   "bsum": "c77a5c103d84e0ff8578e5405cdb9340c05696b0a1a57819833ad8efe246d8d7",
+   "build_date": "2025-04-04T19:30:28Z",
    "src_urls": [
     "https://github.com/trifectatechfoundation/sudo-rs"
    ],
@@ -6774,7 +6806,7 @@
     "https://github.com/trifectatechfoundation/sudo-rs"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/sudo-rs/archive.sharun.source.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/sudo-rs/archive/sharun/source/visudo?tag=HEAD-37175bb-250401T132152-x86_64-linux\u0026download=visudo.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/sudo-rs/archive/sharun/source/visudo?tag=HEAD-d3f999b-250402T135645-x86_64-linux\u0026download=visudo.log",
    "snapshots": [
     {
      "commit": "HEAD-08d02fb-250213T234228-x86_64-linux",
@@ -6827,6 +6859,10 @@
     {
      "commit": "HEAD-bceee7e-250331T103425-x86_64-linux",
      "version": "v0.2.4"
+    },
+    {
+     "commit": "HEAD-37175bb-250401T132152-x86_64-linux",
+     "version": "v0.2.5"
     }
    ],
    "license": [
@@ -6844,18 +6880,18 @@
     "Requires '/etc/sudoers' file \u0026 '/etc/sudoers.d' dir",
     "Also requires PAM to be setup: https://github.com/trifectatechfoundation/sudo-rs#differences-from-original-sudo"
    ],
-   "rank": 66
+   "rank": 68
   },
   {
    "pkg": "sudo-rs/sudo.archive",
    "pkg_name": "sudo",
    "pkg_id": "sharun.wrappe.sudo-rs.source",
    "description": "Execute a command as another user [sudo-rs]",
-   "version": "HEAD-37175bb-250401T132152",
-   "download_url": "oci://ghcr.io/pkgforge/pkgcache/sudo-rs/archive/sharun/source/sudo:HEAD-37175bb-250401T132152-x86_64-linux",
+   "version": "HEAD-d3f999b-250402T135645",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/sudo-rs/archive/sharun/source/sudo:HEAD-d3f999b-250402T135645-x86_64-linux",
    "size": "1.9 MB",
-   "bsum": "a1549dcbe001f4383dceba768aa55a184573a7b00971d0824c80321b8f8cc15d",
-   "build_date": "2025-04-01T19:45:09Z",
+   "bsum": "b6466ebfe66eac1a11ab4414aa7ca2e94530fe04791a1affc1c5e785453c6b41",
+   "build_date": "2025-04-04T19:30:25Z",
    "src_urls": [
     "https://github.com/trifectatechfoundation/sudo-rs"
    ],
@@ -6863,7 +6899,7 @@
     "https://github.com/trifectatechfoundation/sudo-rs"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/sudo-rs/archive.sharun.source.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/sudo-rs/archive/sharun/source/sudo?tag=HEAD-37175bb-250401T132152-x86_64-linux\u0026download=sudo.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/sudo-rs/archive/sharun/source/sudo?tag=HEAD-d3f999b-250402T135645-x86_64-linux\u0026download=sudo.log",
    "snapshots": [
     {
      "commit": "HEAD-d7cef6e-250219T161002-x86_64-linux",
@@ -6912,6 +6948,10 @@
     {
      "commit": "HEAD-bceee7e-250331T103425-x86_64-linux",
      "version": "v0.2.4"
+    },
+    {
+     "commit": "HEAD-37175bb-250401T132152-x86_64-linux",
+     "version": "v0.2.5"
     }
    ],
    "license": [
@@ -6936,11 +6976,11 @@
    "pkg_name": "su",
    "pkg_id": "sharun.wrappe.sudo-rs.source",
    "description": "Change user id or become root [sudo-rs]",
-   "version": "HEAD-37175bb-250401T132152",
-   "download_url": "oci://ghcr.io/pkgforge/pkgcache/sudo-rs/archive/sharun/source/su:HEAD-37175bb-250401T132152-x86_64-linux",
+   "version": "HEAD-d3f999b-250402T135645",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/sudo-rs/archive/sharun/source/su:HEAD-d3f999b-250402T135645-x86_64-linux",
    "size": "3.4 MB",
-   "bsum": "b41c7e4e59560d691dccba03ad0ba00f0c21f1d03596325e065d73836a21638f",
-   "build_date": "2025-04-01T19:45:07Z",
+   "bsum": "c8b0fa6ec12cf3ba75ec855f929192f0608797906a903d679e58591c77399653",
+   "build_date": "2025-04-04T19:30:22Z",
    "src_urls": [
     "https://github.com/trifectatechfoundation/sudo-rs"
    ],
@@ -6948,7 +6988,7 @@
     "https://github.com/trifectatechfoundation/sudo-rs"
    ],
    "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/sudo-rs/archive.sharun.source.yaml",
-   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/sudo-rs/archive/sharun/source/su?tag=HEAD-37175bb-250401T132152-x86_64-linux\u0026download=su.log",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/sudo-rs/archive/sharun/source/su?tag=HEAD-d3f999b-250402T135645-x86_64-linux\u0026download=su.log",
    "snapshots": [
     {
      "commit": "HEAD-d7cef6e-250219T161002-x86_64-linux",
@@ -6997,6 +7037,10 @@
     {
      "commit": "HEAD-bceee7e-250331T103425-x86_64-linux",
      "version": "v0.2.4"
+    },
+    {
+     "commit": "HEAD-37175bb-250401T132152-x86_64-linux",
+     "version": "v0.2.5"
     }
    ],
    "license": [
@@ -7014,7 +7058,7 @@
     "Requires '/etc/sudoers' file \u0026 '/etc/sudoers.d' dir",
     "Also requires PAM to be setup: https://github.com/trifectatechfoundation/sudo-rs#differences-from-original-sudo"
    ],
-   "rank": 68
+   "rank": 66
   },
   {
    "pkg": "twingate/twingated.archive",
@@ -7050,7 +7094,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 199
+   "rank": 200
   },
   {
    "pkg": "twingate/twingate-notifier.archive",
@@ -7086,7 +7130,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 200
+   "rank": 199
   },
   {
    "pkg": "twingate/twingate.archive",
