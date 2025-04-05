@@ -813,34 +813,6 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   rank: 12
-- pkg: nmap/nmap.archive
-  pkg_name: nmap
-  pkg_id: sharun.wrappe.alpine.nmap
-  description: Network exploration tool and security/port scanner [nmap]
-  version: "7.95"
-  download_url: oci://ghcr.io/pkgforge/pkgcache/nmap/archive/sharun/alpine/nmap:7.95-aarch64-linux
-  size: 4.7 MB
-  bsum: d26ea92642d721c8b3fb373edebcf1d24c9cd9f4a9292fd2d5c6afe1b7d5d0d9
-  build_date: "2025-04-01T02:22:22Z"
-  src_urls:
-  - https://github.com/nmap/nmap
-  web_urls:
-  - https://nmap.org
-  - https://github.com/nmap/nmap
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/nmap/archive.sharun.alpine.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/nmap/archive/sharun/alpine/nmap?tag=7.95-aarch64-linux&download=nmap.log
-  snapshots:
-  - commit: 7.95-aarch64-linux
-    version: "7.95"
-  license:
-  - custom
-  notes:
-  - Built Using Sharun [alpine]. Check/Report @ https://github.com/VHSgunzo/sharun
-  - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
-  - "[PORTABLE] (Works on AnyLinux)"
-  - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  - Please use runimage version of nmap if this doesn't work
-  rank: 38
 - pkg: nmap/nping.archive
   pkg_name: nping
   pkg_id: sharun.wrappe.alpine.nmap
@@ -857,6 +829,34 @@ pkgcache:
   - https://github.com/nmap/nmap
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/nmap/archive.sharun.alpine.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/nmap/archive/sharun/alpine/nping?tag=7.95-aarch64-linux&download=nping.log
+  snapshots:
+  - commit: 7.95-aarch64-linux
+    version: "7.95"
+  license:
+  - custom
+  notes:
+  - Built Using Sharun [alpine]. Check/Report @ https://github.com/VHSgunzo/sharun
+  - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
+  - "[PORTABLE] (Works on AnyLinux)"
+  - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
+  - Please use runimage version of nmap if this doesn't work
+  rank: 39
+- pkg: nmap/nmap.archive
+  pkg_name: nmap
+  pkg_id: sharun.wrappe.alpine.nmap
+  description: Network exploration tool and security/port scanner [nmap]
+  version: "7.95"
+  download_url: oci://ghcr.io/pkgforge/pkgcache/nmap/archive/sharun/alpine/nmap:7.95-aarch64-linux
+  size: 4.7 MB
+  bsum: d26ea92642d721c8b3fb373edebcf1d24c9cd9f4a9292fd2d5c6afe1b7d5d0d9
+  build_date: "2025-04-01T02:22:22Z"
+  src_urls:
+  - https://github.com/nmap/nmap
+  web_urls:
+  - https://nmap.org
+  - https://github.com/nmap/nmap
+  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/nmap/archive.sharun.alpine.yaml
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/nmap/archive/sharun/alpine/nmap?tag=7.95-aarch64-linux&download=nmap.log
   snapshots:
   - commit: 7.95-aarch64-linux
     version: "7.95"
@@ -896,30 +896,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   - Please use runimage version of nmap if this doesn't work
-  rank: 39
-- pkg: proxychains/proxychains.archive
-  pkg_name: proxychains
-  pkg_id: sharun.wrappe.alpine.proxychains
-  description: Redirect any TCP connection through a proxy or proxy chain
-  version: "4.17"
-  download_url: oci://ghcr.io/pkgforge/pkgcache/proxychains/archive/sharun/alpine/proxychains:4.17-aarch64-linux
-  size: 752 KB
-  bsum: 1fef346af7589cff130527df2954318fc970a046476b53452e1164823a20a970
-  build_date: "2025-02-28T17:49:11Z"
-  src_urls:
-  - https://github.com/rofl0r/proxychains-ng
-  web_urls:
-  - https://github.com/rofl0r/proxychains-ng
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/proxychains/archive.sharun.alpine.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/proxychains/archive/sharun/alpine/proxychains?tag=4.17-aarch64-linux&download=proxychains.log
-  license:
-  - GPL-2.0
-  notes:
-  - Built Using Sharun [alpine]. Check/Report @ https://github.com/VHSgunzo/sharun
-  - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
-  - "[PORTABLE] (Works on AnyLinux)"
-  - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 108
+  rank: 38
 - pkg: proxychains/proxychains-daemon.archive
   pkg_name: proxychains-daemon
   pkg_id: sharun.wrappe.alpine.proxychains
@@ -943,22 +920,45 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   rank: 109
-- pkg: subversion/svnadmin.archive
-  pkg_name: svnadmin
+- pkg: proxychains/proxychains.archive
+  pkg_name: proxychains
+  pkg_id: sharun.wrappe.alpine.proxychains
+  description: Redirect any TCP connection through a proxy or proxy chain
+  version: "4.17"
+  download_url: oci://ghcr.io/pkgforge/pkgcache/proxychains/archive/sharun/alpine/proxychains:4.17-aarch64-linux
+  size: 752 KB
+  bsum: 1fef346af7589cff130527df2954318fc970a046476b53452e1164823a20a970
+  build_date: "2025-02-28T17:49:11Z"
+  src_urls:
+  - https://github.com/rofl0r/proxychains-ng
+  web_urls:
+  - https://github.com/rofl0r/proxychains-ng
+  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/proxychains/archive.sharun.alpine.yaml
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/proxychains/archive/sharun/alpine/proxychains?tag=4.17-aarch64-linux&download=proxychains.log
+  license:
+  - GPL-2.0
+  notes:
+  - Built Using Sharun [alpine]. Check/Report @ https://github.com/VHSgunzo/sharun
+  - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
+  - "[PORTABLE] (Works on AnyLinux)"
+  - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
+  rank: 108
+- pkg: subversion/svnrdump.archive
+  pkg_name: svnrdump
   pkg_id: sharun.wrappe.alpine.subversion
-  description: Subversion repository administration tool [subversion]
+  description: Subversion remote repository dumper and loader [subversion]
   version: 1.14.4
-  download_url: oci://ghcr.io/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnadmin:1.14.4-aarch64-linux
-  size: 2.5 MB
-  bsum: d3a72c79aadb4d82cdb2902ec51c57381eabe892a8f328fe2395c6b306f01570
-  build_date: "2025-04-01T03:53:36Z"
+  download_url: oci://ghcr.io/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnrdump:1.14.4-aarch64-linux
+  size: 5.2 MB
+  bsum: 21af369a723e7e15abd30e49a624f90d7b845551f680df03c781eb9b85bbd22f
+  build_date: "2025-04-01T03:53:42Z"
   src_urls:
   - https://github.com/apache/subversion
   web_urls:
   - https://subversion.apache.org
   - https://github.com/apache/subversion
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/subversion/archive.sharun.alpine.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnadmin?tag=1.14.4-aarch64-linux&download=svnadmin.log
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnrdump?tag=1.14.4-aarch64-linux&download=svnrdump.log
   license:
   - Apache-2.0
   notes:
@@ -966,31 +966,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 155
-- pkg: subversion/svndumpfilter.archive
-  pkg_name: svndumpfilter
-  pkg_id: sharun.wrappe.alpine.subversion
-  description: Filter a subversion repository 'dumpfile' [subversion]
-  version: 1.14.4
-  download_url: oci://ghcr.io/pkgforge/pkgcache/subversion/archive/sharun/alpine/svndumpfilter:1.14.4-aarch64-linux
-  size: 2.5 MB
-  bsum: 8fd5f9f3899f7fecedf506bd954ec46c84786b269446c78f093a28184f170196
-  build_date: "2025-04-01T03:53:38Z"
-  src_urls:
-  - https://github.com/apache/subversion
-  web_urls:
-  - https://subversion.apache.org
-  - https://github.com/apache/subversion
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/subversion/archive.sharun.alpine.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/subversion/archive/sharun/alpine/svndumpfilter?tag=1.14.4-aarch64-linux&download=svndumpfilter.log
-  license:
-  - Apache-2.0
-  notes:
-  - Built Using Sharun [alpine]. Check/Report @ https://github.com/VHSgunzo/sharun
-  - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
-  - "[PORTABLE] (Works on AnyLinux)"
-  - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 147
+  rank: 153
 - pkg: subversion/svnbench.archive
   pkg_name: svnbench
   pkg_id: sharun.wrappe.alpine.subversion
@@ -1007,6 +983,30 @@ pkgcache:
   - https://github.com/apache/subversion
   build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/subversion/archive.sharun.alpine.yaml
   build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnbench?tag=1.14.4-aarch64-linux&download=svnbench.log
+  license:
+  - Apache-2.0
+  notes:
+  - Built Using Sharun [alpine]. Check/Report @ https://github.com/VHSgunzo/sharun
+  - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
+  - "[PORTABLE] (Works on AnyLinux)"
+  - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
+  rank: 145
+- pkg: subversion/svndumpfilter.archive
+  pkg_name: svndumpfilter
+  pkg_id: sharun.wrappe.alpine.subversion
+  description: Filter a subversion repository 'dumpfile' [subversion]
+  version: 1.14.4
+  download_url: oci://ghcr.io/pkgforge/pkgcache/subversion/archive/sharun/alpine/svndumpfilter:1.14.4-aarch64-linux
+  size: 2.5 MB
+  bsum: 8fd5f9f3899f7fecedf506bd954ec46c84786b269446c78f093a28184f170196
+  build_date: "2025-04-01T03:53:38Z"
+  src_urls:
+  - https://github.com/apache/subversion
+  web_urls:
+  - https://subversion.apache.org
+  - https://github.com/apache/subversion
+  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/subversion/archive.sharun.alpine.yaml
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/subversion/archive/sharun/alpine/svndumpfilter?tag=1.14.4-aarch64-linux&download=svndumpfilter.log
   license:
   - Apache-2.0
   notes:
@@ -1038,6 +1038,54 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
+  rank: 148
+- pkg: subversion/svnlook.archive
+  pkg_name: svnlook
+  pkg_id: sharun.wrappe.alpine.subversion
+  description: Subversion repository examination tool [subversion]
+  version: 1.14.4
+  download_url: oci://ghcr.io/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnlook:1.14.4-aarch64-linux
+  size: 2.5 MB
+  bsum: a15c3d56ea9c19f6e77224d842135c8e10ca5a58ffa2186e83b6376e0962dffe
+  build_date: "2025-04-01T03:53:40Z"
+  src_urls:
+  - https://github.com/apache/subversion
+  web_urls:
+  - https://subversion.apache.org
+  - https://github.com/apache/subversion
+  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/subversion/archive.sharun.alpine.yaml
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnlook?tag=1.14.4-aarch64-linux&download=svnlook.log
+  license:
+  - Apache-2.0
+  notes:
+  - Built Using Sharun [alpine]. Check/Report @ https://github.com/VHSgunzo/sharun
+  - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
+  - "[PORTABLE] (Works on AnyLinux)"
+  - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
+  rank: 147
+- pkg: subversion/svnmucc.archive
+  pkg_name: svnmucc
+  pkg_id: sharun.wrappe.alpine.subversion
+  description: Multiple URL Command Client for Subversion [subversion]
+  version: 1.14.4
+  download_url: oci://ghcr.io/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnmucc:1.14.4-aarch64-linux
+  size: 5.2 MB
+  bsum: f637cc84685a04492080c4811bca0dfaede6f01460926010f49298bfe7360ef6
+  build_date: "2025-04-01T03:53:41Z"
+  src_urls:
+  - https://github.com/apache/subversion
+  web_urls:
+  - https://subversion.apache.org
+  - https://github.com/apache/subversion
+  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/subversion/archive.sharun.alpine.yaml
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnmucc?tag=1.14.4-aarch64-linux&download=svnmucc.log
+  license:
+  - Apache-2.0
+  notes:
+  - Built Using Sharun [alpine]. Check/Report @ https://github.com/VHSgunzo/sharun
+  - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
+  - "[PORTABLE] (Works on AnyLinux)"
+  - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   rank: 151
 - pkg: subversion/svnserve.archive
   pkg_name: svnserve
@@ -1062,7 +1110,55 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 145
+  rank: 154
+- pkg: subversion/svnadmin.archive
+  pkg_name: svnadmin
+  pkg_id: sharun.wrappe.alpine.subversion
+  description: Subversion repository administration tool [subversion]
+  version: 1.14.4
+  download_url: oci://ghcr.io/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnadmin:1.14.4-aarch64-linux
+  size: 2.5 MB
+  bsum: d3a72c79aadb4d82cdb2902ec51c57381eabe892a8f328fe2395c6b306f01570
+  build_date: "2025-04-01T03:53:36Z"
+  src_urls:
+  - https://github.com/apache/subversion
+  web_urls:
+  - https://subversion.apache.org
+  - https://github.com/apache/subversion
+  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/subversion/archive.sharun.alpine.yaml
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnadmin?tag=1.14.4-aarch64-linux&download=svnadmin.log
+  license:
+  - Apache-2.0
+  notes:
+  - Built Using Sharun [alpine]. Check/Report @ https://github.com/VHSgunzo/sharun
+  - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
+  - "[PORTABLE] (Works on AnyLinux)"
+  - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
+  rank: 150
+- pkg: subversion/svn.archive
+  pkg_name: svn
+  pkg_id: sharun.wrappe.alpine.subversion
+  description: Subversion command line client tool [subversion]
+  version: 1.14.4
+  download_url: oci://ghcr.io/pkgforge/pkgcache/subversion/archive/sharun/alpine/svn:1.14.4-aarch64-linux
+  size: 5.3 MB
+  bsum: 440a774668674987611cca76802e9f50b564d3fcb01df4f4a30b9ebaa3d606a3
+  build_date: "2025-04-01T03:53:35Z"
+  src_urls:
+  - https://github.com/apache/subversion
+  web_urls:
+  - https://subversion.apache.org
+  - https://github.com/apache/subversion
+  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/subversion/archive.sharun.alpine.yaml
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/subversion/archive/sharun/alpine/svn?tag=1.14.4-aarch64-linux&download=svn.log
+  license:
+  - Apache-2.0
+  notes:
+  - Built Using Sharun [alpine]. Check/Report @ https://github.com/VHSgunzo/sharun
+  - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
+  - "[PORTABLE] (Works on AnyLinux)"
+  - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
+  rank: 146
 - pkg: subversion/svnsync.archive
   pkg_name: svnsync
   pkg_id: sharun.wrappe.alpine.subversion
@@ -1087,30 +1183,6 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   rank: 152
-- pkg: subversion/svn.archive
-  pkg_name: svn
-  pkg_id: sharun.wrappe.alpine.subversion
-  description: Subversion command line client tool [subversion]
-  version: 1.14.4
-  download_url: oci://ghcr.io/pkgforge/pkgcache/subversion/archive/sharun/alpine/svn:1.14.4-aarch64-linux
-  size: 5.3 MB
-  bsum: 440a774668674987611cca76802e9f50b564d3fcb01df4f4a30b9ebaa3d606a3
-  build_date: "2025-04-01T03:53:35Z"
-  src_urls:
-  - https://github.com/apache/subversion
-  web_urls:
-  - https://subversion.apache.org
-  - https://github.com/apache/subversion
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/subversion/archive.sharun.alpine.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/subversion/archive/sharun/alpine/svn?tag=1.14.4-aarch64-linux&download=svn.log
-  license:
-  - Apache-2.0
-  notes:
-  - Built Using Sharun [alpine]. Check/Report @ https://github.com/VHSgunzo/sharun
-  - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
-  - "[PORTABLE] (Works on AnyLinux)"
-  - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 148
 - pkg: subversion/svnversion.archive
   pkg_name: svnversion
   pkg_id: sharun.wrappe.alpine.subversion
@@ -1134,79 +1206,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 150
-- pkg: subversion/svnlook.archive
-  pkg_name: svnlook
-  pkg_id: sharun.wrappe.alpine.subversion
-  description: Subversion repository examination tool [subversion]
-  version: 1.14.4
-  download_url: oci://ghcr.io/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnlook:1.14.4-aarch64-linux
-  size: 2.5 MB
-  bsum: a15c3d56ea9c19f6e77224d842135c8e10ca5a58ffa2186e83b6376e0962dffe
-  build_date: "2025-04-01T03:53:40Z"
-  src_urls:
-  - https://github.com/apache/subversion
-  web_urls:
-  - https://subversion.apache.org
-  - https://github.com/apache/subversion
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/subversion/archive.sharun.alpine.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnlook?tag=1.14.4-aarch64-linux&download=svnlook.log
-  license:
-  - Apache-2.0
-  notes:
-  - Built Using Sharun [alpine]. Check/Report @ https://github.com/VHSgunzo/sharun
-  - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
-  - "[PORTABLE] (Works on AnyLinux)"
-  - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 146
-- pkg: subversion/svnmucc.archive
-  pkg_name: svnmucc
-  pkg_id: sharun.wrappe.alpine.subversion
-  description: Multiple URL Command Client for Subversion [subversion]
-  version: 1.14.4
-  download_url: oci://ghcr.io/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnmucc:1.14.4-aarch64-linux
-  size: 5.2 MB
-  bsum: f637cc84685a04492080c4811bca0dfaede6f01460926010f49298bfe7360ef6
-  build_date: "2025-04-01T03:53:41Z"
-  src_urls:
-  - https://github.com/apache/subversion
-  web_urls:
-  - https://subversion.apache.org
-  - https://github.com/apache/subversion
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/subversion/archive.sharun.alpine.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnmucc?tag=1.14.4-aarch64-linux&download=svnmucc.log
-  license:
-  - Apache-2.0
-  notes:
-  - Built Using Sharun [alpine]. Check/Report @ https://github.com/VHSgunzo/sharun
-  - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
-  - "[PORTABLE] (Works on AnyLinux)"
-  - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 154
-- pkg: subversion/svnrdump.archive
-  pkg_name: svnrdump
-  pkg_id: sharun.wrappe.alpine.subversion
-  description: Subversion remote repository dumper and loader [subversion]
-  version: 1.14.4
-  download_url: oci://ghcr.io/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnrdump:1.14.4-aarch64-linux
-  size: 5.2 MB
-  bsum: 21af369a723e7e15abd30e49a624f90d7b845551f680df03c781eb9b85bbd22f
-  build_date: "2025-04-01T03:53:42Z"
-  src_urls:
-  - https://github.com/apache/subversion
-  web_urls:
-  - https://subversion.apache.org
-  - https://github.com/apache/subversion
-  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/subversion/archive.sharun.alpine.yaml
-  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/subversion/archive/sharun/alpine/svnrdump?tag=1.14.4-aarch64-linux&download=svnrdump.log
-  license:
-  - Apache-2.0
-  notes:
-  - Built Using Sharun [alpine]. Check/Report @ https://github.com/VHSgunzo/sharun
-  - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
-  - "[PORTABLE] (Works on AnyLinux)"
-  - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 153
+  rank: 155
 - pkg: xhost.archive
   pkg_name: xhost
   pkg_id: sharun.wrappe.alpine.xhost
@@ -1256,6 +1256,121 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   rank: 119
+- pkg: cloudflare-warp/warp-dex.archive
+  pkg_name: warp-dex
+  pkg_id: sharun.wrappe.cloudflare-warp.stable
+  description: CLI to perform DEX (Digital Experience Monitoring) tests [cloudflare-warp]
+  version: 2025.2.600.0
+  download_url: oci://ghcr.io/pkgforge/pkgcache/cloudflare-warp/archive/sharun/stable/warp-dex:2025.2.600.0-aarch64-linux
+  size: 5.3 MB
+  bsum: 696b8845d0072790d3fd42acdd1337879b46658d1617a005b9a70af10b627e55
+  build_date: "2025-04-05T15:06:10Z"
+  src_urls:
+  - https://pkg.cloudflareclient.com/
+  web_urls:
+  - https://developers.cloudflare.com/warp-client/
+  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/cloudflare-warp/archive.sharun.stable.yaml
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/cloudflare-warp/archive/sharun/stable/warp-dex?tag=2025.2.600.0-aarch64-linux&download=warp-dex.log
+  license:
+  - Unfree
+  notes:
+  - Built Using Sharun [Deb Package]. Check/Report @ https://github.com/VHSgunzo/sharun
+  - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
+  - "[PORTABLE] (Works on AnyLinux)"
+  - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
+  rank: 162
+- pkg: cloudflare-warp/warp-diag.archive
+  pkg_name: warp-diag
+  pkg_id: sharun.wrappe.cloudflare-warp.stable
+  description: CLI to diagnose & troubleshoot Warp Connections [cloudflare-warp]
+  version: 2025.2.600.0
+  download_url: oci://ghcr.io/pkgforge/pkgcache/cloudflare-warp/archive/sharun/stable/warp-diag:2025.2.600.0-aarch64-linux
+  size: 9.6 MB
+  bsum: 184812c9e5007a9d39efb4e4752ab655b2261a216cbac38779d44fb69af74135
+  build_date: "2025-04-05T15:06:10Z"
+  src_urls:
+  - https://pkg.cloudflareclient.com/
+  web_urls:
+  - https://developers.cloudflare.com/warp-client/
+  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/cloudflare-warp/archive.sharun.stable.yaml
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/cloudflare-warp/archive/sharun/stable/warp-diag?tag=2025.2.600.0-aarch64-linux&download=warp-diag.log
+  license:
+  - Unfree
+  notes:
+  - Built Using Sharun [Deb Package]. Check/Report @ https://github.com/VHSgunzo/sharun
+  - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
+  - "[PORTABLE] (Works on AnyLinux)"
+  - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
+  rank: 160
+- pkg: cloudflare-warp/warp-svc.archive
+  pkg_name: warp-svc
+  pkg_id: sharun.wrappe.cloudflare-warp.stable
+  description: Cloudflare WARP Service Manager/Daemon [cloudflare-warp]
+  version: 2025.2.600.0
+  download_url: oci://ghcr.io/pkgforge/pkgcache/cloudflare-warp/archive/sharun/stable/warp-svc:2025.2.600.0-aarch64-linux
+  size: 16 MB
+  bsum: fe7a6645160d0bd78d2e3b90ddfe3e43b85708854d3f9e147ac3d09ed2a09aea
+  build_date: "2025-04-05T15:06:11Z"
+  src_urls:
+  - https://pkg.cloudflareclient.com/
+  web_urls:
+  - https://developers.cloudflare.com/warp-client/
+  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/cloudflare-warp/archive.sharun.stable.yaml
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/cloudflare-warp/archive/sharun/stable/warp-svc?tag=2025.2.600.0-aarch64-linux&download=warp-svc.log
+  license:
+  - Unfree
+  notes:
+  - Built Using Sharun [Deb Package]. Check/Report @ https://github.com/VHSgunzo/sharun
+  - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
+  - "[PORTABLE] (Works on AnyLinux)"
+  - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
+  rank: 161
+- pkg: cloudflare-warp/warp-taskbar.archive
+  pkg_name: warp-taskbar
+  pkg_id: sharun.wrappe.cloudflare-warp.stable
+  description: Cloudflare WARP Taskbar Applet [cloudflare-warp]
+  version: 2025.2.600.0
+  download_url: oci://ghcr.io/pkgforge/pkgcache/cloudflare-warp/archive/sharun/stable/warp-taskbar:2025.2.600.0-aarch64-linux
+  size: 14 MB
+  bsum: f215f74731a2e67868bf551513e2b94ce9a4909e1073f733a6c58edcc4f94dcd
+  build_date: "2025-04-05T15:06:11Z"
+  src_urls:
+  - https://pkg.cloudflareclient.com/
+  web_urls:
+  - https://developers.cloudflare.com/warp-client/
+  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/cloudflare-warp/archive.sharun.stable.yaml
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/cloudflare-warp/archive/sharun/stable/warp-taskbar?tag=2025.2.600.0-aarch64-linux&download=warp-taskbar.log
+  license:
+  - Unfree
+  notes:
+  - Built Using Sharun [Deb Package]. Check/Report @ https://github.com/VHSgunzo/sharun
+  - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
+  - "[PORTABLE] (Works on AnyLinux)"
+  - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
+  rank: 159
+- pkg: cloudflare-warp/warp-cli.archive
+  pkg_name: warp-cli
+  pkg_id: sharun.wrappe.cloudflare-warp.stable
+  description: Cloudflare WARP client [cloudflare-warp]
+  version: 2025.2.600.0
+  download_url: oci://ghcr.io/pkgforge/pkgcache/cloudflare-warp/archive/sharun/stable/warp-cli:2025.2.600.0-aarch64-linux
+  size: 5.4 MB
+  bsum: 78d40462b07442ea2eaa417b64e5d3ba3d1ea3f8cfeac028a2b2361b518338fa
+  build_date: "2025-04-05T15:06:09Z"
+  src_urls:
+  - https://pkg.cloudflareclient.com/
+  web_urls:
+  - https://developers.cloudflare.com/warp-client/
+  build_script: https://github.com/pkgforge/soarpkgs/blob/main/packages/cloudflare-warp/archive.sharun.stable.yaml
+  build_log: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/cloudflare-warp/archive/sharun/stable/warp-cli?tag=2025.2.600.0-aarch64-linux&download=warp-cli.log
+  license:
+  - Unfree
+  notes:
+  - Built Using Sharun [Deb Package]. Check/Report @ https://github.com/VHSgunzo/sharun
+  - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
+  - "[PORTABLE] (Works on AnyLinux)"
+  - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
+  rank: 163
 - pkg: wrangler.archive
   pkg_name: wrangler
   pkg_id: sharun.wrappe.npm.wrangler
@@ -3338,7 +3453,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 111
+  rank: 113
 - pkg: zmap/zblocklist.archive
   pkg_name: zblocklist
   pkg_id: sharun.wrappe.source.zmap
@@ -3366,7 +3481,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 113
+  rank: 112
 - pkg: zmap/ziterate.archive
   pkg_name: ziterate
   pkg_id: sharun.wrappe.source.zmap
@@ -3392,7 +3507,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 112
+  rank: 115
 - pkg: zmap/ztee.archive
   pkg_name: ztee
   pkg_id: sharun.wrappe.source.zmap
@@ -3418,7 +3533,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 115
+  rank: 111
 - pkg: zmap/ztests.archive
   pkg_name: ztests
   pkg_id: sharun.wrappe.source.zmap
@@ -3681,7 +3796,7 @@ pkgcache:
   - chmod -v 'a=rx,u+ws' sudo
   - Requires '/etc/sudoers' file & '/etc/sudoers.d' dir
   - "Also requires PAM to be setup: https://github.com/trifectatechfoundation/sudo-rs#differences-from-original-sudo"
-  rank: 26
+  rank: 27
 - pkg: sudo-rs/visudo.archive
   pkg_name: visudo
   pkg_id: sharun.wrappe.sudo-rs.source
@@ -3739,7 +3854,7 @@ pkgcache:
   - chmod -v 'a=rx,u+ws' sudo
   - Requires '/etc/sudoers' file & '/etc/sudoers.d' dir
   - "Also requires PAM to be setup: https://github.com/trifectatechfoundation/sudo-rs#differences-from-original-sudo"
-  rank: 27
+  rank: 26
 - pkg: twingate/twingate-notifier.archive
   pkg_name: twingate-notifier
   pkg_id: sharun.wrappe.twingate.stable
@@ -3766,7 +3881,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 104
+  rank: 103
 - pkg: twingate/twingated.archive
   pkg_name: twingated
   pkg_id: sharun.wrappe.twingate.stable
@@ -3793,7 +3908,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 103
+  rank: 105
 - pkg: twingate/twingate.archive
   pkg_name: twingate
   pkg_id: sharun.wrappe.twingate.stable
@@ -3820,7 +3935,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 105
+  rank: 104
 - pkg: zerotier-one.archive
   pkg_name: zerotier-one
   pkg_id: sharun.wrappe.zerotier.stable
