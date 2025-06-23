@@ -15,61 +15,61 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      
+
     steps:
       - name: Install Dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y git curl zstd gzip
-          
+
           export DBIN_INSTALL_DIR="$PWD"
           wget -qO- "https://raw.githubusercontent.com/xplshn/dbin/master/stubdl" | sh -s -- add dbin
           V="$(./dbin -v | awk '{print $3}')"
           echo "V=$V" >> $GITHUB_ENV
-    
+
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           path: master
           filter: "blob:none"
           fetch-depth: 1
-    
+
       - name: Setup Go
         uses: actions/setup-go@v5
         with:
           go-version: 'stable'
-    
+
       - name: Setup Environment Variables
         run: |
           SYSTMP=$(dirname $(mktemp -u))
           #USER_AGENT=$(curl -sL 'https://pub.ajam.dev/repos/Azathothas/Wordlists/Misc/User-Agents/ua_chrome_macos_latest.txt')
           echo "SYSTMP=$SYSTMP" >> $GITHUB_ENV
           #echo "USER_AGENT=$USER_AGENT" >&2
-          
+
           # Initialize metadata generation tracking
           echo "TOTAL_GENERATORS=4" >> $GITHUB_ENV
           echo "SUCCESSFUL_GENERATORS=0" >> $GITHUB_ENV
         shell: sh
-    
+
       - name: Run Metadata Generators
         run: |
           run_generator() {
             SCRIPT_URL="$1"
             FOLDER_NAME="$2"
-            
+
             # Calculate initial size, handling case where directory might not exist
             BEFORE_SIZE=0
             if [ -d "$GITHUB_WORKSPACE/master/misc/cmd/$FOLDER_NAME" ]; then
               BEFORE_SIZE=$(du -sb "$GITHUB_WORKSPACE/master/misc/cmd/$FOLDER_NAME" 2>/dev/null | awk '{print $1}')
             fi
-            
+
             mkdir -p "$GITHUB_WORKSPACE/master/misc/cmd/$FOLDER_NAME"
             curl -sL "$SCRIPT_URL" -o "$GITHUB_WORKSPACE/master/misc/cmd/$FOLDER_NAME/main.go"
             cd "$GITHUB_WORKSPACE/master/misc/cmd/$FOLDER_NAME" || { echo "Failed to change directory"; return 1; }
-            
+
             go mod init "github.com/xplshn/$FOLDER_NAME"
             go mod tidy
-            
+
             if go run ./main.go; then
               # Explicitly set generator success
               JSON_COUNT=$(find . -name "*.json" -type f -size +0b | wc -l)
@@ -89,14 +89,14 @@ jobs:
               echo "Generator $FOLDER_NAME failed" >&2
               return 1
             fi
-    
+
             # Clean up intermediate files
             find . -type f ! -name "*.json" ! -name "*.yaml" ! -name "*.cbor" ! -name "*.msgp" ! -name "*.gz" ! -name "*.zst*" ! -name "*.txt" -delete
-    
+
             # After metadata generation, check the new size of the directory
             AFTER_SIZE=$(du -sb "$GITHUB_WORKSPACE/master/misc/cmd/$FOLDER_NAME" 2>/dev/null | awk '{print $1}')
             SIZE_DIFF=$((AFTER_SIZE - BEFORE_SIZE))
-    
+
             # Log warning for files with size loss >= 500 KB
             if [ "$SIZE_DIFF" -lt -500000 ]; then
               echo -e "\033[33mWarning: The size of files in $FOLDER_NAME has decreased by more than 500 KB ($SIZE_DIFF bytes).\033[0m" >&2
@@ -106,10 +106,10 @@ jobs:
               fi
             fi
           }
-    
+
           # Reset tracking files
           : > "$GITHUB_WORKSPACE/excluded_files.txt"
-    
+
           # Run generators, allowing each to continue even if one fails
           run_generator "https://raw.githubusercontent.com/xplshn/dbin/master/misc/cmd/flatpakAppStreamScrapper/scrapper.go" "flatpakAppStreamScrapper" || true
           run_generator "https://raw.githubusercontent.com/xplshn/dbin/master/misc/cmd/dbinRepoIndexGenerators/1.6/generator.go" "1.6" || true
@@ -120,7 +120,7 @@ jobs:
           run_generator "https://raw.githubusercontent.com/xplshn/dbin/master/misc/cmd/modMetadata/modMetadata.go" "modMetadata" || true
           #run_generator "https://raw.githubusercontent.com/xplshn/dbin/master/misc/cmd/AM-support/meta-to-am.go" "AM-support" || true
         shell: sh
-    
+
       - name: Determine Metadata Generation Success
         run: |
           # Check if at least one generator succeeded
@@ -132,54 +132,69 @@ jobs:
             echo "No successful metadata generators"
           fi
         shell: sh
-    
-      - name: Reset History to Single Commit
+
+      - name: Reset History to last 10 commits
         if: env.HAS_META == 'TRUE'
         run: |
           cd "$GITHUB_WORKSPACE/master"
+
           # Configure Git user identity
           git config user.name 'xplshn'
           git config user.email 'anto@xplshn.com.ar'
-          
-          # Pull latest changes to ensure we have the remote history
-          git pull origin master --depth=1
-          
-          # Checkout a new orphan branch
-          git checkout --orphan temp
-          git add -A
-          git commit -m "Re:Init (Latest metadata update)"
-          
-          # Delete the old master branch
-          git branch -D master
-          # Rename temp to master
-          git branch -m master
-          # Force push to remote
-          git push -f origin master
-          
-          echo "Successfully reset history to single commit"
-          echo "RESET_STATUS=SUCCESS" >> $GITHUB_ENV
+
+          # Unshallow the repository to fetch full history
+          git fetch --unshallow origin master || git fetch origin master
+
+          # Count the number of commits in the master branch
+          COMMIT_COUNT=$(git rev-list --count master)
+          echo "Total commits in master branch: $COMMIT_COUNT"
+
+          # Check if there are more than 10 commits
+          if [ "$COMMIT_COUNT" -gt 10 ]; then
+            # Find the commit SHA that is 10 commits before HEAD
+            TARGET_COMMIT=$(git rev-list --reverse master | head -n 10 | tail -n 1)
+            echo "Target commit to reset to (10th from HEAD): $TARGET_COMMIT"
+
+            # Reset the branch to the target commit
+            git reset --hard "$TARGET_COMMIT"
+
+            # Stage all current files (to include new metadata)
+            git add -A
+
+            # Commit the current state
+            git commit -m "Reset to last 10 commits and update metadata"
+
+            # Force push to remote
+            git push -f origin master
+
+            echo "Successfully reset history to last 10 commits"
+            echo "RESET_STATUS=SUCCESS" >> $GITHUB_ENV
+          else
+            echo "Commit count ($COMMIT_COUNT) is 10 or fewer; no reset needed"
+            echo "RESET_STATUS=SKIPPED" >> $GITHUB_ENV
+          fi
         shell: sh
-    
+
       - name: Get DateTime
         if: env.HAS_META == 'TRUE'
         run: |
           UTC_TIME=$(TZ='UTC' date +'%Y-%m-%d (%I:%M:%S %p)')
           echo "UTC_TIME=$UTC_TIME" >> $GITHUB_ENV
         shell: sh
-    
+
       - name: Commit Files
         if: env.HAS_META == 'TRUE'
         run: |
           cd "$GITHUB_WORKSPACE/master"
-          
+
           # Stage all files
           git add --all
-          
+
           # Unstage excluded files
           while IFS= read -r EXCLUDED_FILE; do
             [ -n "$EXCLUDED_FILE" ] && git reset -- "$EXCLUDED_FILE"
           done < "$GITHUB_WORKSPACE/excluded_files.txt"
-          
+
           # Check if there are any changes to commit
           if ! git diff --cached --quiet; then
             git config user.name 'xplshn'
