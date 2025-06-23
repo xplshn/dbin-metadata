@@ -143,7 +143,7 @@ jobs:
           echo "UTC_TIME=$UTC_TIME" >> $GITHUB_ENV
 
           # Ensure full history by fetching all commits
-          git fetch --no-tags --prune --depth=1 origin master || { echo "Failed to fetch full history"; exit 1; }
+          git fetch --no-tags --prune --depth=12 origin master || { echo "Failed to fetch full history"; exit 1; }
 
           # Count the number of commits in the master branch
           COMMIT_COUNT=$(git rev-list --count origin/master)
