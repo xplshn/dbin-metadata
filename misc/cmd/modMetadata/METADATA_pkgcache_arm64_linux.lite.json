@@ -1,0 +1,1033 @@
+{
+ "pkgcache": [
+  {
+   "pkg": "pixelpulse2.appimage",
+   "pkg_name": "pixelpulse2",
+   "pkg_id": "github.com.pkgforge-dev.pixelpulse2",
+   "description": "Pixelpulse2 is a user interface for analog systems exploration.",
+   "version": "14379866776",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/pixelpulse2/appimage/pkgforge-dev/stable/pixelpulse2:14379866776-aarch64-linux",
+   "size": "94 MB",
+   "bsum": "2b45f3ab9fe146148ce0909708a0ad9a2877a40c3a89a61efe675a1fb5672b57",
+   "build_date": "2025-04-11T19:36:11Z",
+   "src_urls": [
+    "https://github.com/pkgforge-dev/Pixelpulse2-AppImage"
+   ],
+   "web_urls": [
+    "https://wiki.analog.com/university/tools/m1k/pixelpulse",
+    "https://sounddrill31.github.io/Pixelpulse2/"
+   ],
+   "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/pixelpulse2/appimage.pkgforge-dev.stable.yaml",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/pixelpulse2/appimage/pkgforge-dev/stable/pixelpulse2?tag=14379866776-aarch64-linux\u0026download=pixelpulse2.log",
+   "snapshots": [
+    "13615527848-aarch64-linux[13615527848]",
+    "13618778201-aarch64-linux[13618778201]",
+    "13751580923-aarch64-linux[13751580923]",
+    "13907245614-aarch64-linux[13907245614]"
+   ],
+   "license": "MPL-2.0",
+   "notes": [
+    "Pre Built AppImage, with Build-related changes. Check/Report @ https://github.com/pkgforge-dev/Pixelpulse2-AppImage",
+    "[PORTABLE] (Works on AnyLinux)",
+    "Run it with --getudev flag the first time to configure udev rules. It may not detect the board otherwise",
+    "To reduce crashes, plug in your device after configuring the udev rule and opening the app"
+   ],
+   "rank": 169
+  },
+  {
+   "pkg": "brave.nixappimage",
+   "pkg_name": "brave",
+   "pkg_id": "nixpkgs.brave",
+   "description": "Privacy-oriented browser for Desktop and Laptop computers",
+   "version": "1.79.118",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/brave/nixappimage/nixpkgs/stable/brave:1.79.118-aarch64-linux",
+   "size": "377 MB",
+   "bsum": "fda9a99bd7716ba829168f4c54c40b92ee54cf0dfa44889f61e0e30cefc8b0c0",
+   "build_date": "2025-06-03T19:11:01Z",
+   "src_urls": [
+    "https://github.com/brave/brave-browser"
+   ],
+   "web_urls": [
+    "https://brave.com",
+    "https://github.com/brave/brave-browser",
+    "https://github.com/srevinsaju/Brave-AppImage"
+   ],
+   "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/brave/nixappimage.nixpkgs.stable.yaml",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/brave/nixappimage/nixpkgs/stable/brave?tag=1.79.118-aarch64-linux\u0026download=brave.log",
+   "snapshots": [
+    "1.73.104-aarch64-linux[1.73.104]",
+    "1.74.48-aarch64-linux[1.74.48]",
+    "1.74.50-aarch64-linux[1.74.50]",
+    "1.74.51-aarch64-linux[1.74.51]",
+    "1.75.175-aarch64-linux[1.75.175]",
+    "1.75.178-aarch64-linux[1.75.178]",
+    "1.75.180-aarch64-linux[1.75.180]",
+    "1.75.181-aarch64-linux[1.75.181]",
+    "1.76.73-aarch64-linux[1.76.73]",
+    "1.77.97-aarch64-linux[1.77.97]",
+    "1.77.101-aarch64-linux[1.77.101]",
+    "1.78.97-aarch64-linux[1.78.97]",
+    "1.78.102-aarch64-linux[1.78.102]"
+   ],
+   "license": "MPL-2.0",
+   "notes": [
+    "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
+    "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
+    "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
+    "[PORTABLE] (Works on AnyLinux)"
+   ],
+   "rank": 103
+  },
+  {
+   "pkg": "chromium.nixappimage",
+   "pkg_name": "chromium",
+   "pkg_id": "nixpkgs.chromium",
+   "description": "Open source web browser from Google (Stable)",
+   "version": "137.0.7151.55",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium:137.0.7151.55-aarch64-linux",
+   "size": "354 MB",
+   "bsum": "ff472fd0658c7838525ee605440f4e49c43aa990857e78ae696eeba403483d43",
+   "build_date": "2025-05-30T19:03:30Z",
+   "src_urls": [
+    "https://github.com/chromium/chromium"
+   ],
+   "web_urls": [
+    "https://www.chromium.org",
+    "https://chromium.googlesource.com/chromium/src",
+    "https://github.com/chromium/chromium"
+   ],
+   "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/chromium/nixappimage.nixpkgs.stable.yaml",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/stable/chromium?tag=137.0.7151.55-aarch64-linux\u0026download=chromium.log",
+   "snapshots": [
+    "131.0.6778.264-aarch64-linux[131.0.6778.264]",
+    "132.0.6834.83-aarch64-linux[132.0.6834.83]",
+    "132.0.6834.110-aarch64-linux[132.0.6834.110]",
+    "132.0.6834.159-aarch64-linux[132.0.6834.159]",
+    "133.0.6943.53-aarch64-linux[133.0.6943.53]",
+    "133.0.6943.98-aarch64-linux[133.0.6943.98]",
+    "133.0.6943.126-aarch64-linux[133.0.6943.126]",
+    "133.0.6943.141-aarch64-linux[133.0.6943.141]",
+    "134.0.6998.35-aarch64-linux[134.0.6998.35]",
+    "134.0.6998.88-aarch64-linux[134.0.6998.88]",
+    "135.0.7049.95-aarch64-linux[135.0.7049.95]",
+    "135.0.7049.114-aarch64-linux[135.0.7049.114]",
+    "136.0.7103.59-aarch64-linux[136.0.7103.59]",
+    "136.0.7103.92-aarch64-linux[136.0.7103.92]",
+    "136.0.7103.113-aarch64-linux[136.0.7103.113]"
+   ],
+   "license": "BSD-3-Clause",
+   "notes": [
+    "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
+    "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
+    "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
+    "[PORTABLE] (Works on AnyLinux)"
+   ],
+   "rank": 100
+  },
+  {
+   "pkg": "flameshot.nixappimage",
+   "pkg_name": "flameshot",
+   "pkg_id": "nixpkgs.flameshot",
+   "description": "Powerful and simple to use screenshot software",
+   "version": "12.1.0-unstable-2025-05-04",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/flameshot/nixappimage/nixpkgs/unstable/flameshot:12.1.0-unstable-2025-05-04-aarch64-linux",
+   "size": "99 MB",
+   "bsum": "dca15c6ca3b9c82f3f4de91c71ffb7362c17a8d470d350d1e801a273048e1ab7",
+   "build_date": "2025-05-09T19:12:47Z",
+   "src_urls": [
+    "https://github.com/flameshot/flameshot"
+   ],
+   "web_urls": [
+    "https://flameshot.org",
+    "https://github.com/flameshot-org/flameshot"
+   ],
+   "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/flameshot/nixappimage.nixpkgs.unstable.yaml",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/flameshot/nixappimage/nixpkgs/unstable/flameshot?tag=12.1.0-unstable-2025-05-04-aarch64-linux\u0026download=flameshot.log",
+   "snapshots": [
+    "12.1.0-unstable-2024-12-03-aarch64-linux[12.1.0-unstable-2024-12-03]",
+    "12.1.0-unstable-2025-01-19-aarch64-linux[12.1.0-unstable-2025-01-19]",
+    "12.1.0-unstable-2025-02-01-aarch64-linux[12.1.0-unstable-2025-02-01]",
+    "12.1.0-unstable-2025-02-12-aarch64-linux[12.1.0-unstable-2025-02-12]",
+    "12.1.0-unstable-2025-04-07-aarch64-linux[12.1.0-unstable-2025-04-07]"
+   ],
+   "license": "GPL-3.0",
+   "notes": [
+    "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
+    "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
+    "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
+    "[PORTABLE] (Works on AnyLinux)"
+   ],
+   "rank": 117
+  },
+  {
+   "pkg": "gearlever.nixappimage",
+   "pkg_name": "gearlever",
+   "pkg_id": "nixpkgs.gearlever",
+   "description": "Manage AppImages with ease",
+   "version": "3.2.2",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/gearlever/nixappimage/nixpkgs/stable/gearlever:3.2.2-aarch64-linux",
+   "size": "306 MB",
+   "bsum": "6019bedd1286bf482639c1d58d21ca490629c67d155828d2f6a8b4160d97f93d",
+   "build_date": "2025-04-25T19:20:23Z",
+   "src_urls": [
+    "https://github.com/mijorus/gearlever"
+   ],
+   "web_urls": [
+    "https://gearlever.mijorus.it",
+    "https://mijorus.it/projects/gearlever"
+   ],
+   "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/gearlever/nixappimage.nixpkgs.stable.yaml",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/gearlever/nixappimage/nixpkgs/stable/gearlever?tag=3.2.2-aarch64-linux\u0026download=gearlever.log",
+   "snapshots": [
+    "2.3.2-aarch64-linux[2.3.2]"
+   ],
+   "license": "GPL-3.0",
+   "notes": [
+    "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
+    "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
+    "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
+    "[PORTABLE] (Works on AnyLinux)"
+   ],
+   "rank": 106
+  },
+  {
+   "pkg": "helix.nixappimage",
+   "pkg_name": "helix",
+   "pkg_id": "nixpkgs.helix",
+   "description": "Fast modal terminal-based text editor",
+   "version": "25.01.1",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/helix/nixappimage/nixpkgs/stable/helix:25.01.1-aarch64-linux",
+   "size": "28 MB",
+   "bsum": "1454d175f77eb982e4cd50a0255d1c77e751fd57dc37cafe62eaed93fc9b6f38",
+   "build_date": "2025-01-26T17:50:52Z",
+   "src_urls": [
+    "https://github.com/helix-editor/helix"
+   ],
+   "web_urls": [
+    "https://helix-editor.com",
+    "https://github.com/helix-editor/helix"
+   ],
+   "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/helix/nixappimage.nixpkgs.stable.yaml",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/helix/nixappimage/nixpkgs/stable/helix?tag=25.01.1-aarch64-linux\u0026download=helix.log",
+   "snapshots": [
+    "25.01-aarch64-linux[25.01]",
+    "25.01.1-aarch64-linux[25.01.1]"
+   ],
+   "license": "MPL-2.0",
+   "notes": [
+    "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
+    "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
+    "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
+    "[PORTABLE] (Works on AnyLinux)"
+   ],
+   "rank": 119
+  },
+  {
+   "pkg": "neovim.nixappimage",
+   "pkg_name": "neovim",
+   "pkg_id": "nixpkgs.neovim",
+   "description": "Vim text editor fork focused on extensibility and agility",
+   "version": "0.11.2",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/neovim/nixappimage/nixpkgs/stable/neovim:0.11.2-aarch64-linux",
+   "size": "32 MB",
+   "bsum": "e2e29e1217833fa7c165e38a929e252fe4405284a7bea73bfb6f4322fb0f80fa",
+   "build_date": "2025-06-01T19:09:45Z",
+   "src_urls": [
+    "https://github.com/neovim/neovim"
+   ],
+   "web_urls": [
+    "https://neovim.io",
+    "https://neovim.org"
+   ],
+   "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/neovim/nixappimage.nixpkgs.stable.yaml",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/neovim/nixappimage/nixpkgs/stable/neovim?tag=0.11.2-aarch64-linux\u0026download=neovim.log",
+   "snapshots": [
+    "0.10.3-aarch64-linux[0.10.3]",
+    "0.10.4-aarch64-linux[0.10.4]",
+    "0.11.1-aarch64-linux[0.11.1]"
+   ],
+   "license": "Apache-2.0",
+   "notes": [
+    "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
+    "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
+    "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
+    "[PORTABLE] (Works on AnyLinux)"
+   ],
+   "rank": 116
+  },
+  {
+   "pkg": "simplex-desktop.nixappimage",
+   "pkg_name": "simplex-desktop",
+   "pkg_id": "nixpkgs.simplex-chat-desktop",
+   "description": "Desktop application for SimpleX Chat, A 100% private-by-design chat platform",
+   "version": "6.3.4",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/simplex-desktop/nixappimage/nixpkgs/stable/simplex-desktop:6.3.4-aarch64-linux",
+   "size": "520 MB",
+   "bsum": "b095af19d8c1950216e9b1a89037fbd75efab23b5f934ec74cd040eea62c050a",
+   "build_date": "2025-05-20T19:41:18Z",
+   "src_urls": [
+    "https://github.com/simplex-chat/simplex-chat"
+   ],
+   "web_urls": [
+    "https://simplex.chat",
+    "https://github.com/simplex-chat/simplex-chat"
+   ],
+   "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/simplex-desktop/nixappimage.nixpkgs.stable.yaml",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/simplex-desktop/nixappimage/nixpkgs/stable/simplex-desktop?tag=6.3.4-aarch64-linux\u0026download=simplex-desktop.log",
+   "snapshots": [
+    "6.2.3-aarch64-linux[6.2.3]",
+    "6.2.4-aarch64-linux[6.2.4]",
+    "6.2.5-aarch64-linux[6.2.5]",
+    "6.3.1-aarch64-linux[6.3.1]",
+    "6.3.2-aarch64-linux[6.3.2]",
+    "6.3.3-aarch64-linux[6.3.3]"
+   ],
+   "license": "AGPL-3.0",
+   "notes": [
+    "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
+    "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
+    "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
+    "[PORTABLE] (Works on AnyLinux)"
+   ],
+   "rank": 152
+  },
+  {
+   "pkg": "telegram-desktop.nixappimage",
+   "pkg_name": "telegram-desktop",
+   "pkg_id": "nixpkgs.telegram-desktop",
+   "description": "Official desktop version of Telegram messaging app",
+   "version": "5.13.1",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop:5.13.1-aarch64-linux",
+   "size": "382 MB",
+   "bsum": "5c1a3ce92f4e3d2acc003ef45cde5f8bdbb6b52cde2110971bcb85d3b9670134",
+   "build_date": "2025-04-20T19:30:26Z",
+   "src_urls": [
+    "https://github.com/telegramdesktop/tdesktop"
+   ],
+   "web_urls": [
+    "https://desktop.telegram.org",
+    "https://github.com/telegramdesktop/tdesktop"
+   ],
+   "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/telegram-desktop/nixappimage.nixpkgs.stable.yaml",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/telegram-desktop/nixappimage/nixpkgs/stable/telegram-desktop?tag=5.13.1-aarch64-linux\u0026download=telegram-desktop.log",
+   "snapshots": [
+    "5.10.2-aarch64-linux[5.10.2]",
+    "5.10.3-aarch64-linux[5.10.3]",
+    "5.10.5-aarch64-linux[5.10.5]",
+    "5.10.7-aarch64-linux[5.10.7]",
+    "5.11.1-aarch64-linux[5.11.1]"
+   ],
+   "license": "GPL-3.0",
+   "notes": [
+    "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
+    "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
+    "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
+    "[PORTABLE] (Works on AnyLinux)"
+   ],
+   "rank": 153
+  },
+  {
+   "pkg": "chromium.nixappimage",
+   "pkg_name": "chromium",
+   "pkg_id": "nixpkgs.ungoogled-chromium",
+   "description": "Open source web browser from Google, with dependencies on Google web services removed (Ungoogled)",
+   "version": "137.0.7151.55",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium:137.0.7151.55-aarch64-linux",
+   "size": "356 MB",
+   "bsum": "88419f2b98f8897166a06a42ba78a821700b5ab3f6a5edb0f8e375983695c123",
+   "build_date": "2025-05-30T19:05:55Z",
+   "src_urls": [
+    "https://github.com/ungoogled-software/ungoogled-chromium"
+   ],
+   "web_urls": [
+    "https://github.com/ungoogled-software/ungoogled-chromium"
+   ],
+   "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/chromium/nixappimage.nixpkgs.ungoogled.yaml",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/chromium/nixappimage/nixpkgs/ungoogled/chromium?tag=137.0.7151.55-aarch64-linux\u0026download=chromium.log",
+   "snapshots": [
+    "131.0.6778.264-aarch64-linux[131.0.6778.264]",
+    "132.0.6834.83-aarch64-linux[132.0.6834.83]",
+    "132.0.6834.110-aarch64-linux[132.0.6834.110]",
+    "132.0.6834.159-aarch64-linux[132.0.6834.159]",
+    "133.0.6943.53-aarch64-linux[133.0.6943.53]",
+    "133.0.6943.98-aarch64-linux[133.0.6943.98]",
+    "133.0.6943.126-aarch64-linux[133.0.6943.126]",
+    "133.0.6943.141-aarch64-linux[133.0.6943.141]",
+    "134.0.6998.35-aarch64-linux[134.0.6998.35]",
+    "135.0.7049.95-aarch64-linux[135.0.7049.95]",
+    "136.0.7103.59-aarch64-linux[136.0.7103.59]",
+    "136.0.7103.113-aarch64-linux[136.0.7103.113]"
+   ],
+   "license": "BSD-3-Clause",
+   "notes": [
+    "Built Using Nixpkgs. Check/Report @ https://github.com/NixOS/nixpkgs",
+    "Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage",
+    "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
+    "[PORTABLE] (Works on AnyLinux)"
+   ],
+   "rank": 101
+  },
+  {
+   "pkg": "bear.appimage",
+   "pkg_name": "bear",
+   "pkg_id": "ppkg.bundle.bear.stable",
+   "description": "Generate a compilation database for clang tooling",
+   "version": "3.1.6",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/bear/appimage/ppkg/stable/bear:3.1.6-aarch64-linux",
+   "size": "17 MB",
+   "bsum": "2e3ddbbcd720584492b1ea3f5d36737d4914cd7e6922213c80713cd1af5adcbd",
+   "build_date": "2025-04-09T04:03:04Z",
+   "src_urls": [
+    "https://github.com/rizsotto/Bear"
+   ],
+   "web_urls": [
+    "https://github.com/rizsotto/Bear"
+   ],
+   "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/bear/appimage.ppkg.stable.yaml",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/bear/appimage/ppkg/stable/bear?tag=3.1.6-aarch64-linux\u0026download=bear.log",
+   "license": "GPL-3.0",
+   "notes": [
+    "Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core",
+    "[PORTABLE] (Works on AnyLinux)",
+    "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
+   ],
+   "rank": 95
+  },
+  {
+   "pkg": "binutils.appimage",
+   "pkg_name": "binutils",
+   "pkg_id": "ppkg.bundle.binutils.stable",
+   "description": "Tools for manipulating binaries (linker, assembler, etc.) [alias=bintools]",
+   "version": "2.43.1",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/binutils/appimage/ppkg/stable/binutils:2.43.1-aarch64-linux",
+   "size": "57 MB",
+   "bsum": "d9153343495e7d4fc0275c3cac2fc5b292d5b3828abc0f13697c839bce878606",
+   "build_date": "2025-04-12T15:12:04Z",
+   "src_urls": [
+    "https://sourceware.org/git/gitweb.cgi?p=binutils-gdb.git"
+   ],
+   "web_urls": [
+    "https://www.gnu.org/software/binutils/"
+   ],
+   "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/binutils/appimage.ppkg.stable.yaml",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/binutils/appimage/ppkg/stable/binutils?tag=2.43.1-aarch64-linux\u0026download=binutils.log",
+   "notes": [
+    "Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core",
+    "This is the multilib version \u0026 works for many targets",
+    "[PORTABLE] (Works on AnyLinux)",
+    "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
+   ],
+   "rank": 97
+  },
+  {
+   "pkg": "cmake.appimage",
+   "pkg_name": "cmake",
+   "pkg_id": "ppkg.bundle.cmake.stable",
+   "description": "Cross-platform, open-source build system",
+   "version": "3.31.7",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/cmake/appimage/ppkg/stable/cmake:3.31.7-aarch64-linux",
+   "size": "30 MB",
+   "bsum": "a0db25d910c5559c811e26f01d66f6ea6c6966af22a9e717da16e1275064a173",
+   "build_date": "2025-06-03T19:08:37Z",
+   "src_urls": [
+    "https://gitlab.kitware.com/cmake/cmake"
+   ],
+   "web_urls": [
+    "https://www.cmake.org",
+    "https://gitlab.kitware.com/cmake/cmake"
+   ],
+   "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/cmake/appimage.ppkg.stable.yaml",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/cmake/appimage/ppkg/stable/cmake?tag=3.31.7-aarch64-linux\u0026download=cmake.log",
+   "snapshots": [
+    "3.31.5-aarch64-linux[3.31.5]"
+   ],
+   "license": "Custom",
+   "notes": [
+    "Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core",
+    "[PORTABLE] (Works on AnyLinux)",
+    "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
+   ],
+   "rank": 5
+  },
+  {
+   "pkg": "file.appimage",
+   "pkg_name": "file",
+   "pkg_id": "ppkg.bundle.file.stable",
+   "description": "Determine the type of a file from its contents",
+   "version": "5.45",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/file/appimage/ppkg/stable/file:5.45-aarch64-linux",
+   "size": "2.7 MB",
+   "bsum": "7b184beadda6f4227587a57d31c8abd14de70cd9fbc50985d698aff23df72a2e",
+   "build_date": "2025-04-12T06:09:14Z",
+   "src_urls": [
+    "https://github.com/file/file"
+   ],
+   "web_urls": [
+    "https://www.darwinsys.com/file/",
+    "https://github.com/file/file"
+   ],
+   "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/file/appimage.ppkg.stable.yaml",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/file/appimage/ppkg/stable/file?tag=5.45-aarch64-linux\u0026download=file.log",
+   "snapshots": [
+    "5.45-aarch64-linux[5.45]"
+   ],
+   "license": "custom",
+   "notes": [
+    "Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core",
+    "[PORTABLE] (Works on AnyLinux)",
+    "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
+   ],
+   "rank": 113
+  },
+  {
+   "pkg": "freerdp.appimage",
+   "pkg_name": "freerdp",
+   "pkg_id": "ppkg.bundle.freerdp.stable",
+   "description": "Free implementation of the Remote Desktop Protocol [freerdp]",
+   "version": "3.12.0",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/freerdp/appimage/ppkg/stable/freerdp:3.12.0-aarch64-linux",
+   "size": "245 MB",
+   "bsum": "466b1ec62f1521c0f94df10584fdc06a2cb452de4afe2e2d09ec3ec3ebfb0249",
+   "build_date": "2025-03-02T19:41:44Z",
+   "src_urls": [
+    "https://github.com/FreeRDP/FreeRDP"
+   ],
+   "web_urls": [
+    "https://www.freerdp.com",
+    "https://github.com/FreeRDP/FreeRDP"
+   ],
+   "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/freerdp/appimage.ppkg.stable.yaml",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/freerdp/appimage/ppkg/stable/freerdp?tag=3.12.0-aarch64-linux\u0026download=freerdp.log",
+   "snapshots": [
+    "3.12.0-aarch64-linux[3.12.0]"
+   ],
+   "license": "Apache-2.0",
+   "notes": [
+    "Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core",
+    "[PORTABLE] (Works on AnyLinux)",
+    "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
+   ],
+   "rank": 62
+  },
+  {
+   "pkg": "gcc.appimage",
+   "pkg_name": "gcc",
+   "pkg_id": "ppkg.bundle.gcc.stable",
+   "description": "GNU Compiler Collection",
+   "version": "12.2.0",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/gcc/appimage/ppkg/stable/gcc:12.2.0-aarch64-linux",
+   "size": "109 MB",
+   "bsum": "881bd392c06792b88c100ff5ad2eb2f0ee4e075aebdddc5b5f5c37203ce5fcc3",
+   "build_date": "2025-04-13T19:56:51Z",
+   "src_urls": [
+    "https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git"
+   ],
+   "web_urls": [
+    "https://www.gnu.org/software/gcc/"
+   ],
+   "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/gcc/appimage.ppkg.stable.yaml",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/gcc/appimage/ppkg/stable/gcc?tag=12.2.0-aarch64-linux\u0026download=gcc.log",
+   "notes": [
+    "Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core",
+    "[PORTABLE] (Works on AnyLinux)",
+    "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
+   ],
+   "rank": 98
+  },
+  {
+   "pkg": "git.appimage",
+   "pkg_name": "git",
+   "pkg_id": "ppkg.bundle.git.stable",
+   "description": "Fast, scalable, distributed revision control system",
+   "version": "2.48.1",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/git/appimage/ppkg/stable/git:2.48.1-aarch64-linux",
+   "size": "33 MB",
+   "bsum": "4d8b23dad4f52348cc2ceca0187d952de29e113805e0a51c2e1f86e28d10d183",
+   "build_date": "2025-02-10T08:41:12Z",
+   "src_urls": [
+    "https://github.com/git/git"
+   ],
+   "web_urls": [
+    "https://git-scm.com/"
+   ],
+   "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/git/appimage.ppkg.stable.yaml",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/git/appimage/ppkg/stable/git?tag=2.48.1-aarch64-linux\u0026download=git.log",
+   "license": "GPL-2.0",
+   "notes": [
+    "Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core",
+    "[PORTABLE] (Works on AnyLinux)",
+    "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
+   ],
+   "rank": 139
+  },
+  {
+   "pkg": "jless.appimage",
+   "pkg_name": "jless",
+   "pkg_id": "ppkg.bundle.jless.stable",
+   "description": "Command-line pager for JSON data",
+   "version": "0.9.0",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/jless/appimage/ppkg/stable/jless:0.9.0-aarch64-linux",
+   "size": "3.0 MB",
+   "bsum": "1cda72facfefd40eef9770605dbe5b1c1084f83d8f44999be282887d04aa10a2",
+   "build_date": "2025-02-13T19:21:56Z",
+   "src_urls": [
+    "https://github.com/PaulJuliusMartinez/jless"
+   ],
+   "web_urls": [
+    "https://jless.io",
+    "https://github.com/PaulJuliusMartinez/jless"
+   ],
+   "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/jless/appimage.ppkg.stable.yaml",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/jless/appimage/ppkg/stable/jless?tag=0.9.0-aarch64-linux\u0026download=jless.log",
+   "license": "MIT",
+   "notes": [
+    "Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core",
+    "[PORTABLE] (Works on AnyLinux)",
+    "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
+   ],
+   "rank": 163
+  },
+  {
+   "pkg": "keepalived.appimage",
+   "pkg_name": "keepalived",
+   "pkg_id": "ppkg.bundle.keepalived.stable",
+   "description": "Health Checking for Linux Virtual Server \u0026 High-Availability",
+   "version": "2.3.1",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/keepalived/appimage/ppkg/stable/keepalived:2.3.1-aarch64-linux",
+   "size": "4.7 MB",
+   "bsum": "b979e44ecea1c14012baba1e13f36f57e60d114a4e429564a2c6ed88e4ec6e47",
+   "build_date": "2025-05-14T10:37:36Z",
+   "src_urls": [
+    "https://github.com/acassen/keepalived"
+   ],
+   "web_urls": [
+    "https://github.com/acassen/keepalived"
+   ],
+   "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/keepalived/appimage.ppkg.stable.yaml",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/keepalived/appimage/ppkg/stable/keepalived?tag=2.3.1-aarch64-linux\u0026download=keepalived.log",
+   "license": "GPL-2.0",
+   "notes": [
+    "Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core",
+    "[PORTABLE] (Works on AnyLinux)",
+    "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
+   ],
+   "rank": 99
+  },
+  {
+   "pkg": "verilator.appimage",
+   "pkg_name": "verilator",
+   "pkg_id": "ppkg.bundle.verilator.stable",
+   "description": "Verilog/SystemVerilog simulator",
+   "version": "5.036",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/verilator/appimage/ppkg/stable/verilator:5.036-aarch64-linux",
+   "size": "10 MB",
+   "bsum": "93a5b4ae2a5e9d0b8d1119d4eb19f5a6a35209f7b43e4083586e2337a23e5e06",
+   "build_date": "2025-05-16T04:44:41Z",
+   "src_urls": [
+    "https://github.com/verilator/verilator"
+   ],
+   "web_urls": [
+    "https://github.com/verilator/verilator"
+   ],
+   "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/verilator/appimage.ppkg.stable.yaml",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/verilator/appimage/ppkg/stable/verilator?tag=5.036-aarch64-linux\u0026download=verilator.log",
+   "license": "LGPL-3.0",
+   "notes": [
+    "Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core",
+    "[PORTABLE] (Works on AnyLinux)",
+    "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
+   ],
+   "rank": 102
+  },
+  {
+   "pkg": "xrdp.appimage",
+   "pkg_name": "xrdp",
+   "pkg_id": "ppkg.bundle.xrdp.stable",
+   "description": "Open source Remote Desktop Protocol (RDP) server [xrdp]",
+   "version": "0.10.2",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/xrdp/appimage/ppkg/stable/xrdp:0.10.2-aarch64-linux",
+   "size": "7.5 MB",
+   "bsum": "c7c7cef981acae0677b361d6be1a7647399990bdf87d03a98c628ef22a6f0d00",
+   "build_date": "2025-03-04T14:12:10Z",
+   "src_urls": [
+    "https://github.com/neutrinolabs/xrdp"
+   ],
+   "web_urls": [
+    "https://www.xrdp.org",
+    "https://github.com/neutrinolabs/xrdp"
+   ],
+   "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/xrdp/appimage.ppkg.stable.yaml",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/xrdp/appimage/ppkg/stable/xrdp?tag=0.10.2-aarch64-linux\u0026download=xrdp.log",
+   "license": "Apache-2.0",
+   "notes": [
+    "Built Using ppkg. Check/Report @ https://github.com/leleliu008/ppkg-formula-repository-official-core",
+    "[PORTABLE] (Works on AnyLinux)",
+    "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
+   ],
+   "rank": 69
+  },
+  {
+   "pkg": "akregator.runimage",
+   "pkg_name": "akregator",
+   "pkg_id": "runimage.alpine.akregator",
+   "description": "KDE RSS feed reader",
+   "version": "25.04.0",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/akregator/runimage/alpine/stable/akregator:25.04.0-aarch64-linux",
+   "size": "306 MB",
+   "bsum": "dbe45b6a8d5b8a68c5c2846df307b231368a3d1976f2348154b9bdc391864c8c",
+   "build_date": "2025-04-25T18:58:42Z",
+   "src_urls": [
+    "https://invent.kde.org/pim/akregator"
+   ],
+   "web_urls": [
+    "https://apps.kde.org/akregator"
+   ],
+   "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/akregator/runimage.alpine.stable.yaml",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/akregator/runimage/alpine/stable/akregator?tag=25.04.0-aarch64-linux\u0026download=akregator.log",
+   "snapshots": [
+    "24.12.0-aarch64-linux[24.12.0]",
+    "24.12.1-aarch64-linux[24.12.1]",
+    "24.12.2-aarch64-linux[24.12.2]",
+    "24.12.3-aarch64-linux[24.12.3]"
+   ],
+   "license": "BSD-3-Clause",
+   "notes": [
+    "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
+    "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
+    "[PORTABLE] (Works on AnyLinux)"
+   ],
+   "rank": 123
+  },
+  {
+   "pkg": "element-desktop.runimage",
+   "pkg_name": "element-desktop",
+   "pkg_id": "runimage.alpine.element-desktop",
+   "description": "A glossy Matrix collaboration client for desktop",
+   "version": "1.11.100",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/element-desktop/runimage/alpine/stable/element-desktop:1.11.100-aarch64-linux",
+   "size": "217 MB",
+   "bsum": "5798c819eccfc0908ed340e5b3b2b18a2cbe1f8c4d5b42dc46a8421397d15fc3",
+   "build_date": "2025-05-09T19:09:16Z",
+   "src_urls": [
+    "https://gitlab.alpinelinux.org/alpine/aports/-/tree/master/testing/element-desktop"
+   ],
+   "web_urls": [
+    "https://github.com/element-hq/element-desktop"
+   ],
+   "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/element-desktop/runimage.alpine.stable.yaml",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/element-desktop/runimage/alpine/stable/element-desktop?tag=1.11.100-aarch64-linux\u0026download=element-desktop.log",
+   "snapshots": [
+    "1.11.91-aarch64-linux[1.11.91]",
+    "1.11.92-aarch64-linux[1.11.92]",
+    "1.11.93-aarch64-linux[1.11.93]",
+    "1.11.95-aarch64-linux[1.11.95]",
+    "1.11.96-aarch64-linux[1.11.96]",
+    "1.11.97-aarch64-linux[1.11.97]",
+    "1.11.99-aarch64-linux[1.11.99]"
+   ],
+   "license": "GPL-3.0",
+   "notes": [
+    "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
+    "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
+    "[PORTABLE] (Works on AnyLinux)"
+   ],
+   "rank": 174
+  },
+  {
+   "pkg": "falkon.runimage",
+   "pkg_name": "falkon",
+   "pkg_id": "runimage.alpine.falkon",
+   "description": "Fast, lightweight web browser based on QtWebEngine",
+   "version": "25.04.0",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/falkon/runimage/alpine/stable/falkon:25.04.0-aarch64-linux",
+   "size": "255 MB",
+   "bsum": "42870bc73f833cc2d281790a8ddd72420800e8b848d23202e6b43ed8119d35e1",
+   "build_date": "2025-04-25T19:08:12Z",
+   "src_urls": [
+    "https://gitlab.alpinelinux.org/alpine/aports/-/tree/master/community/falkon"
+   ],
+   "web_urls": [
+    "https://apps.kde.org/falkon",
+    "https://invent.kde.org/network/falkon",
+    "https://github.com/KDE/falkon"
+   ],
+   "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/falkon/runimage.alpine.stable.yaml",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/falkon/runimage/alpine/stable/falkon?tag=25.04.0-aarch64-linux\u0026download=falkon.log",
+   "snapshots": [
+    "24.12.2-aarch64-linux[24.12.2]",
+    "24.12.3-aarch64-linux[24.12.3]"
+   ],
+   "license": "GPL-3.0",
+   "notes": [
+    "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
+    "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
+    "[PORTABLE] (Works on AnyLinux)"
+   ],
+   "rank": 144
+  },
+  {
+   "pkg": "ghex.runimage",
+   "pkg_name": "ghex",
+   "pkg_id": "runimage.alpine.ghex",
+   "description": "A simple Binary/Hex editor",
+   "version": "46.2",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/ghex/runimage/alpine/stable/ghex:46.2-aarch64-linux",
+   "size": "135 MB",
+   "bsum": "3085027f86369a46f7124cf699445093d336bc326319a5df628e094da4312c0b",
+   "build_date": "2025-03-04T18:56:58Z",
+   "src_urls": [
+    "https://gitlab.gnome.org/GNOME/ghex"
+   ],
+   "web_urls": [
+    "https://wiki.gnome.org/Apps/Ghex"
+   ],
+   "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/ghex/runimage.alpine.stable.yaml",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/ghex/runimage/alpine/stable/ghex?tag=46.2-aarch64-linux\u0026download=ghex.log",
+   "snapshots": [
+    "46.0-aarch64-linux[46.0]"
+   ],
+   "license": "GPL-2.0",
+   "notes": [
+    "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
+    "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
+    "[PORTABLE] (Works on AnyLinux)"
+   ],
+   "rank": 135
+  },
+  {
+   "pkg": "git.runimage",
+   "pkg_name": "git",
+   "pkg_id": "runimage.alpine.git",
+   "description": "Fast, scalable, distributed revision control system",
+   "version": "2.49.0",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/git/runimage/alpine/stable/git:2.49.0-aarch64-linux",
+   "size": "39 MB",
+   "bsum": "e28941cc96455e466ff5ff86dbea9ab981aff0244737a0ea0963493bcb9a3373",
+   "build_date": "2025-03-16T14:50:54Z",
+   "src_urls": [
+    "https://github.com/git/git"
+   ],
+   "web_urls": [
+    "https://git-scm.com/"
+   ],
+   "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/git/runimage.alpine.stable.yaml",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/git/runimage/alpine/stable/git?tag=2.49.0-aarch64-linux\u0026download=git.log",
+   "snapshots": [
+    "2.48.1-aarch64-linux[2.48.1]"
+   ],
+   "license": "GPL-2.0",
+   "notes": [
+    "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
+    "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
+    "[PORTABLE] (Works on AnyLinux)",
+    "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
+   ],
+   "rank": 131
+  },
+  {
+   "pkg": "inkscape.runimage",
+   "pkg_name": "inkscape",
+   "pkg_id": "runimage.alpine.inkscape",
+   "description": "FOSS Vector Graphics Editor",
+   "version": "1.4",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/inkscape/runimage/alpine/stable/inkscape:1.4-aarch64-linux",
+   "size": "74 MB",
+   "bsum": "552c6f7c05f889b9aefa1ea30b07ce340ef105b71b3178e1585806b49c30296a",
+   "build_date": "2025-02-02T14:34:36Z",
+   "src_urls": [
+    "https://gitlab.alpinelinux.org/alpine/aports/-/tree/master/community/inkscape"
+   ],
+   "web_urls": [
+    "https://inkscape.org"
+   ],
+   "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/inkscape/runimage.alpine.stable.yaml",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/inkscape/runimage/alpine/stable/inkscape?tag=1.4-aarch64-linux\u0026download=inkscape.log",
+   "license": "GPL-2.0",
+   "notes": [
+    "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
+    "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
+    "[PORTABLE] (Works on AnyLinux)"
+   ],
+   "rank": 140
+  },
+  {
+   "pkg": "kdenlive.runimage",
+   "pkg_name": "kdenlive",
+   "pkg_id": "runimage.alpine.kdenlive",
+   "description": "FOSS video editor, based on MLT Framework and KDE Frameworks",
+   "version": "25.04.0",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/kdenlive/runimage/alpine/stable/kdenlive:25.04.0-aarch64-linux",
+   "size": "208 MB",
+   "bsum": "6f77d640c4bd291b59bc9435f59df4a128b3a55e46830f4e4954710a01d47bcb",
+   "build_date": "2025-04-25T19:15:30Z",
+   "src_urls": [
+    "https://gitlab.alpinelinux.org/alpine/aports/-/tree/master/community/kdenlive"
+   ],
+   "web_urls": [
+    "https://apps.kde.org/kdenlive",
+    "https://invent.kde.org/multimedia/kdenlive"
+   ],
+   "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/kdenlive/runimage.alpine.stable.yaml",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/kdenlive/runimage/alpine/stable/kdenlive?tag=25.04.0-aarch64-linux\u0026download=kdenlive.log",
+   "snapshots": [
+    "24.12.1-aarch64-linux[24.12.1]",
+    "24.12.2-aarch64-linux[24.12.2]",
+    "24.12.3-aarch64-linux[24.12.3]"
+   ],
+   "license": "GPL-3.0",
+   "notes": [
+    "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
+    "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
+    "[PORTABLE] (Works on AnyLinux)"
+   ],
+   "rank": 137
+  },
+  {
+   "pkg": "krita.runimage",
+   "pkg_name": "krita",
+   "pkg_id": "runimage.alpine.krita",
+   "description": "A free and open source painting application",
+   "version": "5.2.9",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/krita/runimage/alpine/stable/krita:5.2.9-aarch64-linux",
+   "size": "199 MB",
+   "bsum": "853126ca467bab7543ee74accf87d1fa3328d24b57bad4e68433cd4118b82da0",
+   "build_date": "2025-02-03T15:06:09Z",
+   "src_urls": [
+    "https://gitlab.alpinelinux.org/alpine/aports/-/tree/master/community/krita"
+   ],
+   "web_urls": [
+    "https://krita.org",
+    "https://invent.kde.org/graphics/krita"
+   ],
+   "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/krita/runimage.alpine.stable.yaml",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/krita/runimage/alpine/stable/krita?tag=5.2.9-aarch64-linux\u0026download=krita.log",
+   "snapshots": [
+    "5.2.6-aarch64-linux[5.2.6]"
+   ],
+   "license": "GPL-3.0",
+   "notes": [
+    "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
+    "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
+    "[PORTABLE] (Works on AnyLinux)"
+   ],
+   "rank": 138
+  },
+  {
+   "pkg": "nmap/nmap.runimage",
+   "pkg_name": "nmap",
+   "pkg_id": "runimage.alpine.nmap",
+   "description": "Network exploration tool and security/port scanner",
+   "version": "7.97",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/nmap/runimage/alpine/stable/nmap:7.97-aarch64-linux",
+   "size": "37 MB",
+   "bsum": "08313b1754ad8b2254c2e365515c91e2ef9cec4287804be341187c750bf438ca",
+   "build_date": "2025-05-20T19:22:12Z",
+   "src_urls": [
+    "https://github.com/nmap/nmap"
+   ],
+   "web_urls": [
+    "https://nmap.org",
+    "https://github.com/nmap/nmap"
+   ],
+   "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/nmap/runimage.alpine.stable.yaml",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/nmap/runimage/alpine/stable/nmap?tag=7.97-aarch64-linux\u0026download=nmap.log",
+   "snapshots": [
+    "7.95-aarch64-linux[7.95]",
+    "7.96-aarch64-linux[7.96]"
+   ],
+   "license": "custom",
+   "notes": [
+    "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
+    "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
+    "[PORTABLE] (Works on AnyLinux)",
+    "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
+   ],
+   "rank": 168
+  },
+  {
+   "pkg": "wezterm.runimage",
+   "pkg_name": "wezterm",
+   "pkg_id": "runimage.alpine.wezterm",
+   "description": "A GPU-accelerated cross-platform terminal emulator and multiplexer",
+   "version": "20240203.110809",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/wezterm/runimage/alpine/stable/wezterm:20240203.110809-aarch64-linux",
+   "size": "105 MB",
+   "bsum": "0fd934ea58d3b26f10f7cec2d928af04113f75230ef4213489350bbea23da8e7",
+   "build_date": "2025-01-27T18:42:11Z",
+   "src_urls": [
+    "https://github.com/wez/wezterm"
+   ],
+   "web_urls": [
+    "https://wezfurlong.org/wezterm/"
+   ],
+   "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/wezterm/runimage.alpine.stable.yaml",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/wezterm/runimage/alpine/stable/wezterm?tag=20240203.110809-aarch64-linux\u0026download=wezterm.log",
+   "license": "MIT",
+   "notes": [
+    "Built Using RunImage [alpine]. Check/Report @ https://github.com/VHSgunzo/runimage",
+    "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
+    "Requires Fonts (On Host): https://wezfurlong.org/wezterm/config/fonts.html",
+    "[PORTABLE] (Works on AnyLinux)"
+   ],
+   "rank": 130
+  },
+  {
+   "pkg": "blender.runimage",
+   "pkg_name": "blender",
+   "pkg_id": "runimage.debian.blender",
+   "description": "A fully integrated 3D graphics creation suite",
+   "version": "4.3.2",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/blender/runimage/debian/stable/blender:4.3.2-aarch64-linux",
+   "size": "305 MB",
+   "bsum": "3de3aa87f258e32544f64d302aca117ff1fcb344458b36646d4b36d3494678e5",
+   "build_date": "2025-01-26T16:54:51Z",
+   "src_urls": [
+    "https://blender.org",
+    "https://github.com/blender/blender"
+   ],
+   "web_urls": [
+    "https://blender.org"
+   ],
+   "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/blender/runimage.debian.stable.yaml",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/blender/runimage/debian/stable/blender?tag=4.3.2-aarch64-linux\u0026download=blender.log",
+   "license": "GPL",
+   "notes": [
+    "Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage",
+    "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
+    "[PORTABLE] (Works on AnyLinux)"
+   ],
+   "rank": 124
+  },
+  {
+   "pkg": "clamtk.runimage",
+   "pkg_name": "clamtk",
+   "pkg_id": "runimage.debian.clamtk",
+   "description": "GTK front-end for Clam Antivirus",
+   "version": "6.07",
+   "download_url": "oci://ghcr.io/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk:6.07-aarch64-linux",
+   "size": "65 MB",
+   "bsum": "004d2e8999690b49890cc786da8b8abf6f1b0b988ebf20055e2340932dd850b8",
+   "build_date": "2025-06-03T19:13:23Z",
+   "src_urls": [
+    "https://github.com/dave-theunsub/clamtk",
+    "https://gitlab.com/dave_m/clamtk"
+   ],
+   "web_urls": [
+    "https://github.com/dave-theunsub/clamtk"
+   ],
+   "build_script": "https://github.com/pkgforge/soarpkgs/blob/main/packages/clamtk/runimage.debian.stable.yaml",
+   "build_log": "https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/clamtk/runimage/debian/stable/clamtk?tag=6.07-aarch64-linux\u0026download=clamtk.log",
+   "snapshots": [
+    "6.07-aarch64-linux[6.07]"
+   ],
+   "license": "GPL",
+   "notes": [
+    "This Package has been marked 'deprecaed': https://gitlab.com/dave_m/clamtk/-/issues/144",
+    "Built Using RunImage [debian]. Check/Report @ https://github.com/VHSgunzo/runimage",
+    "Learn more @ https://docs.pkgforge.dev/formats/packages/runimage",
+    "[PORTABLE] (Works on AnyLinux)"
+   ],
+   "rank": 2
+  }
+ ]
+}

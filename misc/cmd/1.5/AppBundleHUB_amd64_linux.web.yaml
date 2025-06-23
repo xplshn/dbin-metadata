@@ -1,0 +1,233 @@
+AppBundleHUB:
+- pkg: android-tools.dwfs.AppBundle
+  pkg_name: Android Tools
+  pkg_id: github.com.xplshn.appbundlehub.android-tools
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v106-20250619230113/android-tools-19_06_2025-xplshn.dwfs.AppBundle
+  size: 9.35 MB
+  build_date: "2025-06-19"
+- pkg: audacity.dwfs.AppBundle
+  pkg_name: Audacity
+  pkg_id: github.com.xplshn.appbundlehub.audacity
+  app_id: org.audacityteam.Audacity
+  icon: https://dl.flathub.org/media/org/audacityteam/Audacity/16022ed38a8bc470aa3182288b2599a7/icons/128x128/org.audacityteam.Audacity.png
+  description: Audacity is the world&apos;s most popular audio editing and recording app
+  description_long: Audacity is the world&apos;s most popular audio editing and recording app.
+  screenshots:
+  - https://dl.flathub.org/media/org/audacityteam/Audacity/16022ed38a8bc470aa3182288b2599a7/screenshots/image-1_orig.png
+  version: 3.7.0
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v106-20250619230113/audacity-19_06_2025-xplshn.dwfs.AppBundle
+  size: 139.72 MB
+  build_date: "2025-06-19"
+  categories: AudioVideo,Audio
+- pkg: brave.dwfs.AppBundle
+  pkg_name: Brave
+  pkg_id: github.com.xplshn.appbundlehub.brave
+  app_id: com.brave.Browser
+  icon: https://dl.flathub.org/media/com/brave/Browser/9e753ce3201b4fd6efc93dd6b87f0cba/icons/128x128/com.brave.Browser.png
+  description: Fast Internet, AI, Adblock
+  description_long: |-
+    Brave is on a mission to fix the web by giving users a safer, faster and better browsing
+          experience while growing support for content creators through a new attention-based ecosystem
+          of rewards.
+  screenshots:
+  - https://dl.flathub.org/media/com/brave/Browser/9e753ce3201b4fd6efc93dd6b87f0cba/screenshots/image-1_orig.png
+  - https://dl.flathub.org/media/com/brave/Browser/9e753ce3201b4fd6efc93dd6b87f0cba/screenshots/image-2_orig.png
+  version: 1.73.91
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v106-20250619230113/brave-19_06_2025-xplshn.dwfs.AppBundle
+  size: 364.74 MB
+  build_date: "2025-06-19"
+  categories: Network,WebBrowser
+- pkg: chromium.dwfs.AppBundle
+  pkg_name: Chromium Web Browser
+  pkg_id: github.com.xplshn.appbundlehub.chromium
+  app_id: org.chromium.Chromium
+  icon: https://dl.flathub.org/media/org/chromium/Chromium/7bf840901446fdf28fad531c5a37075a/icons/128x128/org.chromium.Chromium.png
+  description: The web browser from Chromium project
+  description_long: "\n    Chromium is an open-source browser project that aims to build a safer, faster,\n    and more stable way to experience the web.\n    "
+  screenshots:
+  - https://dl.flathub.org/media/org/chromium/Chromium/7bf840901446fdf28fad531c5a37075a/screenshots/image-1_orig.png
+  version: 131.0.6778.85
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v106-20250619230113/chromium-19_06_2025-xplshn.dwfs.AppBundle
+  size: 220.75 MB
+  build_date: "2025-06-19"
+  categories: Network,WebBrowser
+- pkg: dunst.dwfs.AppBundle
+  pkg_name: Dunst
+  pkg_id: github.com.xplshn.appbundlehub.dunst
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v106-20250619230113/dunst-19_06_2025-xplshn.dwfs.AppBundle
+  size: 8.99 MB
+  build_date: "2025-06-19"
+- pkg: eden.dwfs.AppBundle
+  pkg_name: Eden
+  pkg_id: github.com.xplshn.appbundlehub.eden
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v106-20250619230113/eden-19_06_2025-xplshn.dwfs.AppBundle
+  size: 93.97 MB
+  build_date: "2025-06-18"
+- pkg: engrampa.dwfs.AppBundle
+  pkg_name: Engrampa
+  pkg_id: github.com.xplshn.appbundlehub.engrampa
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v106-20250619230113/engrampa-19_06_2025-xplshn.dwfs.AppBundle
+  size: 12.17 MB
+  build_date: "2025-06-19"
+- pkg: falkon.dwfs.AppBundle
+  pkg_name: Org.Kde.Falkon
+  pkg_id: github.com.xplshn.appbundlehub.falkon
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v106-20250619230113/falkon-19_06_2025-xplshn.dwfs.AppBundle
+  size: 267.22 MB
+  build_date: "2025-06-19"
+- pkg: firefox.dwfs.AppBundle
+  pkg_name: Firefox
+  pkg_id: github.com.xplshn.appbundlehub.firefox
+  app_id: org.mozilla.firefox
+  description: Fast, Private &amp; Safe Web Browser
+  description_long: "When it comes to your life online, you have a choice: accept the factory settings or put your privacy first. When you choose Firefox as your default browser, you’re choosing to protect your data while supporting an independent tech company. Firefox is also the only major browser backed by a non-profit fighting to give you more openness, transparency and control of your life online. Join hundreds of millions of people who choose to protect what&apos;s important by choosing Firefox - a web browser designed to be fast, easy to use, customizable and private."
+  screenshots:
+  - https://raw.githubusercontent.com/mozilla-releng/scriptworker-scripts/master/pushflatpakscript/media/screenshots/image1.png
+  - https://raw.githubusercontent.com/mozilla-releng/scriptworker-scripts/master/pushflatpakscript/media/screenshots/image2.png
+  - https://raw.githubusercontent.com/mozilla-releng/scriptworker-scripts/master/pushflatpakscript/media/screenshots/image3.png
+  version: 132.0.2
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v106-20250619230113/firefox-19_06_2025-xplshn.dwfs.AppBundle
+  size: 184.45 MB
+  build_date: "2025-06-19"
+  categories: Network,WebBrowser
+- pkg: imageMagick.dwfs.AppBundle
+  pkg_name: ImageMagick
+  pkg_id: github.com.xplshn.appbundlehub.imageMagick
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v106-20250619230113/imageMagick-19_06_2025-xplshn.dwfs.AppBundle
+  size: 7.89 MB
+  build_date: "2025-06-19"
+- pkg: mousepad.dwfs.AppBundle
+  pkg_name: Mousepad
+  pkg_id: github.com.xplshn.appbundlehub.mousepad
+  app_id: org.xfce.mousepad
+  icon: https://dl.flathub.org/media/org/xfce/mousepad/e80f32822455cb1a3096d8600c76608f/icons/128x128/org.xfce.mousepad.png
+  description: Mousepad is a simple text editor for the Xfce desktop environment
+  description_long: Mousepad има за цел да бъде лесен за използване и бърз редактор. Нашата цел е редактор за бързо редактиране на текстови файлове, а не среда за разработка или редактор с огромен куп приставки.
+  screenshots:
+  - https://dl.flathub.org/media/org/xfce/mousepad/e80f32822455cb1a3096d8600c76608f/screenshots/image-1_orig.png
+  version: 0.6.3
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v106-20250619230113/mousepad-19_06_2025-xplshn.dwfs.AppBundle
+  size: 12.66 MB
+  build_date: "2025-06-19"
+  categories: Utility,TextEditor
+- pkg: openarena-quake3e.dwfs.AppBundle
+  pkg_name: OpenArena
+  pkg_id: github.com.xplshn.appbundlehub.openarena-quake3e
+  app_id: openarena-quake3e
+  description: Free and open source first-person shooter
+  description_long: "\n    <p>\n      OpenArena is a free and open source first-person shooter game based\n      heavily on the Quake III Arena-style deathmatch.\n      Score frags to win the game using a balanced set of weapons each designed\n      for different situations.\n      Guns include a chaingun, rocket launcher, shotgun, and railgun.\n    </p>\n    <p>\n      OpenArena's style of play is very fast and requires skill to be played\n      successfully online.\n      Gameplay modes include Deathmatch, Team Deathmatch, Tournament, Capture\n      the Flag, Elimination, CTF Elimination, Last Man Standing and Double\n      Domination.\n    </p>\n    <p>\n      This version of OpenArena is based on the Quake3e engine,\n      I do not take credit for the work done by the OpenArena team nor Eugene, who develops the Quake3e engine used by this AppBundle.\n    </p>\n    <p>\n      The OAX patch has been applied, which adds support for more screen resolutions and makes the game playable in modern systems.\n      It also includes bugfixes and improvements. Connections to unpatched servers do work and present no issues.\n    </p>\n  "
+  screenshots:
+  - http://www.openarena.ws/e107_images/custom/085-1.jpg
+  - http://www.openarena.ws/e107_images/custom/085-6.jpg
+  - http://www.openarena.ws/e107_images/custom/085-16.jpg
+  - http://openarena.ws/e107_images/custom/085-13.jpg
+  - http://openarena.ws/e107_images/custom/085-3.jpg
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v106-20250619230113/openarena-quake3e.dwfs.AppBundle
+  size: 393.23 MB
+  build_date: "2025-05-29"
+- pkg: pcmanfm.dwfs.AppBundle
+  pkg_name: Pcmanfm
+  pkg_id: github.com.xplshn.appbundlehub.pcmanfm
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v106-20250619230113/pcmanfm-19_06_2025-xplshn.dwfs.AppBundle
+  size: 12.39 MB
+  build_date: "2025-06-19"
+- pkg: pcsx2.dwfs.AppBundle
+  pkg_name: Pcsx2
+  pkg_id: github.com.xplshn.appbundlehub.pcsx2
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v106-20250619230113/pcsx2-19_06_2025-xplshn.dwfs.AppBundle
+  size: 148.56 MB
+  build_date: "2025-06-19"
+- pkg: polybar.dwfs.AppBundle
+  pkg_name: Polybar
+  pkg_id: github.com.xplshn.appbundlehub.polybar
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v106-20250619230113/polybar-19_06_2025-xplshn.dwfs.AppBundle
+  size: 11.43 MB
+  build_date: "2025-06-19"
+- pkg: qbittorrent.dwfs.AppBundle
+  pkg_name: qBittorrent
+  pkg_id: github.com.xplshn.appbundlehub.qbittorrent
+  app_id: org.qbittorrent.qBittorrent
+  icon: https://dl.flathub.org/media/org/qbittorrent/qBittorrent/cc851d3ec33d7f7311d2a4ca4d807c0b/icons/128x128/org.qbittorrent.qBittorrent.png
+  description: An open-source Bittorrent client
+  description_long: "\n      The qBittorrent project aims to provide an open-source software alternative to µTorrent.\n      Additionally, qBittorrent runs and provides the same features on all major platforms (FreeBSD, Linux, macOS, OS/2, Windows).\n      qBittorrent is based on the Qt toolkit and libtorrent-rasterbar library.\n    "
+  screenshots:
+  - https://dl.flathub.org/media/org/qbittorrent/qBittorrent/cc851d3ec33d7f7311d2a4ca4d807c0b/screenshots/image-1_orig.png
+  - https://dl.flathub.org/media/org/qbittorrent/qBittorrent/cc851d3ec33d7f7311d2a4ca4d807c0b/screenshots/image-2_orig.png
+  - https://dl.flathub.org/media/org/qbittorrent/qBittorrent/cc851d3ec33d7f7311d2a4ca4d807c0b/screenshots/image-3_orig.png
+  - https://dl.flathub.org/media/org/qbittorrent/qBittorrent/cc851d3ec33d7f7311d2a4ca4d807c0b/screenshots/image-4_orig.png
+  version: 5.0.2
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v106-20250619230113/qbittorrent-19_06_2025-xplshn.dwfs.AppBundle
+  size: 128.74 MB
+  build_date: "2025-06-19"
+  categories: Network,FileTransfer,P2P
+- pkg: quake3e.dwfs.AppBundle
+  pkg_name: Quake3e (engine)
+  pkg_id: github.com.xplshn.appbundlehub.quake3e
+  app_id: quake3e
+  description: Quake 3 Enhanced engine
+  description_long: "\n    <p>\n      This is a modern Quake III Arena engine aimed to be fast, secure and compatible with all existing Q3A mods.\n      It is based on last non-SDL source dump of ioquake3 with latest upstream fixes applied.\n    </p>\n    <p>\n      Key features:\n      <ul>\n        <li>Optimized OpenGL renderer</li>\n        <li>Optimized Vulkan renderer</li>\n        <li>Raw mouse input support, enabled automatically instead of DirectInput(\\in_mouse 1) if available</li>\n        <li>Unlagged mouse events processing, can be reverted by setting \\in_lagged 1</li>\n        <li>\\in_minimize - hotkey for minimize/restore main window (win32-only, direct replacement for Q3Minimizer)</li>\n        <li>\\video-pipe - to use external ffmpeg binary as an encoder for better quality and smaller output files</li>\n        <li>Significantly reworked QVM (Quake Virtual Machine)</li>\n        <li>Improved server-side DoS protection, much reduced memory usage</li>\n        <li>Raised filesystem limits (up to 20,000 maps can be handled in a single directory)</li>\n        <li>Reworked Zone memory allocator, no more out-of-memory errors</li>\n        <li>Non-intrusive support for SDL2 backend (video, audio, input), selectable at compile time</li>\n        <li>Tons of bug fixes and other improvements</li>\n        <li>Vulkan renderer based on Quake-III-Arena-Kenny-Edition with many additions:</li>\n        <ul>\n          <li>High-quality per-pixel dynamic lighting</li>\n          <li>Very fast flares (\\r_flares 1)</li>\n          <li>Anisotropic filtering (\\r_ext_texture_filter_anisotropic)</li>\n          <li>Greatly reduced API overhead (call/dispatch ratio)</li>\n          <li>Flexible vertex buffer memory management to allow loading huge maps</li>\n          <li>Multiple command buffers to reduce processing bottlenecks</li>\n          <li>Reversed depth buffer to eliminate z-fighting on big maps</li>\n          <li>Merged lightmaps (atlases)</li>\n          <li>Multitexturing optimizations</li>\n          <li>Static world surfaces cached in VBO (\\r_vbo 1)</li>\n          <li>Useful debug markers for tools like RenderDoc</li>\n          <li>Fixed framebuffer corruption on some Intel iGPUs</li>\n          <li>Offscreen rendering, enabled with \\r_fbo 1, all following requires it enabled:</li>\n          <ul>\n            <li>ScreenMap texture rendering - to create realistic environment reflections</li>\n            <li>Multisample anti-aliasing (\\r_ext_multisample)</li>\n            <li>Supersample anti-aliasing (\\r_ext_supersample)</li>\n            <li>Per-window gamma-correction which is important for screen-capture tools like OBS</li>\n            <li>You can minimize game window any time during \\video|\\video-pipe recording</li>\n            <li>High dynamic range render targets (\\r_hdr 1) to avoid color banding</li>\n            <li>Bloom post-processing effect</li>\n            <li>Arbitrary resolution rendering</li>\n            <li>Greyscale mode</li>\n          </ul>\n        </ul>\n      </ul>\n    </p>\n  "
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v106-20250619230113/quake3e.dwfs.AppBundle
+  size: 8.36 MB
+  build_date: "2025-05-29"
+- pkg: ristretto.dwfs.AppBundle
+  pkg_name: Ristretto
+  pkg_id: github.com.xplshn.appbundlehub.ristretto
+  app_id: org.xfce.ristretto
+  icon: https://dl.flathub.org/media/org/xfce/ristretto/f2df290130ab77a925dfb62f209189ec/icons/128x128/org.xfce.ristretto.png
+  description: Fast and lightweight image viewer
+  description_long: Ristretto — хуткая і лёгкаважная праграма для прагляду выяў для працоўнага асяроддзя Xfce.
+  screenshots:
+  - https://dl.flathub.org/media/org/xfce/ristretto/f2df290130ab77a925dfb62f209189ec/screenshots/image-1_orig.png
+  version: 0.13.2
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v106-20250619230113/ristretto-19_06_2025-xplshn.dwfs.AppBundle
+  size: 12.71 MB
+  build_date: "2025-06-19"
+  categories: Graphics,Viewer
+- pkg: scrcpy.AppDir.AppBundle
+  pkg_name: Scrcpy
+  pkg_id: github.com.xplshn.appbundlehub.scrcpy
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v106-20250619230113/scrcpy-19_06_2025-xplshn.AppDir.dwfs.AppBundle
+  size: 39.24 MB
+  build_date: "2025-06-19"
+- pkg: steam.dwfs.AppBundle
+  pkg_name: Steam
+  pkg_id: github.com.xplshn.appbundlehub.steam
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v106-20250619230113/steam-19_06_2025-xplshn.dwfs.AppBundle
+  size: 281.63 MB
+  build_date: "2025-06-19"
+- pkg: thunar.dwfs.AppBundle
+  pkg_name: Thunar
+  pkg_id: github.com.xplshn.appbundlehub.thunar
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v106-20250619230113/thunar-19_06_2025-xplshn.dwfs.AppBundle
+  size: 12.51 MB
+  build_date: "2025-06-19"
+- pkg: xfce4-multicall.AppDir.AppBundle
+  pkg_name: Xfce4 Multicall
+  pkg_id: github.com.xplshn.appbundlehub.xfce4-multicall
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v106-20250619230113/xfce4-multicall-19_06_2025-xplshn.AppDir.dwfs.AppBundle
+  size: 18.53 MB
+  build_date: "2025-06-19"
+- pkg: xfce4-power-manager.dwfs.AppBundle
+  pkg_name: Xfce4 Power Manager
+  pkg_id: github.com.xplshn.appbundlehub.xfce4-power-manager
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v106-20250619230113/xfce4-power-manager-19_06_2025-xplshn.dwfs.AppBundle
+  size: 12.34 MB
+  build_date: "2025-06-19"
+- pkg: xfce4-screenshooter.dwfs.AppBundle
+  pkg_name: Xfce4 Screenshooter
+  pkg_id: github.com.xplshn.appbundlehub.xfce4-screenshooter
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v106-20250619230113/xfce4-screenshooter-19_06_2025-xplshn.dwfs.AppBundle
+  size: 12.29 MB
+  build_date: "2025-06-19"
+- pkg: xfce4-taskmanager.dwfs.AppBundle
+  pkg_name: Xfce4 Taskmanager
+  pkg_id: github.com.xplshn.appbundlehub.xfce4-taskmanager
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v106-20250619230113/xfce4-taskmanager-19_06_2025-xplshn.dwfs.AppBundle
+  size: 12.39 MB
+  build_date: "2025-06-19"
+- pkg: xfce4-terminal.dwfs.AppBundle
+  pkg_name: Xfce4 Terminal
+  pkg_id: github.com.xplshn.appbundlehub.xfce4-terminal
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v106-20250619230113/xfce4-terminal-19_06_2025-xplshn.dwfs.AppBundle
+  size: 16.16 MB
+  build_date: "2025-06-19"
