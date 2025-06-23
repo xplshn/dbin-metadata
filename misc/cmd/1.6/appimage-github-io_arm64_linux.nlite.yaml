@@ -465,9 +465,9 @@ appimage-github-io:
   pkg_name: freecad2
   pkg_id: appimage.github.io.FreeCAD2.FreeCAD
   description: FreeCAD is a parametric 3D modeler. Parametric modeling allows you to easily modify your design by going back into your model history and changing its parameters. FreeCAD is open source (LGPL license) and completely modular, allowing for very advanced extension and customization. FreeCAD is multiplatfom, and reads and writes many open file formats such as STEP, IGES, STL and others
-  version: weekly-2025.06.16
-  download_url: https://github.com/FreeCAD/FreeCAD/releases/download/weekly-2025.06.16/FreeCAD_weekly-2025.06.16-Linux-aarch64-py311.AppImage
-  size: 719.28 MB
+  version: weekly-2025.06.23
+  download_url: https://github.com/FreeCAD/FreeCAD/releases/download/weekly-2025.06.23/FreeCAD_weekly-2025.06.23-Linux-aarch64-py311.AppImage
+  size: 720.12 MB
   src_urls:
   - https://github.com/FreeCAD/FreeCAD/releases
   web_urls:
@@ -1280,7 +1280,7 @@ appimage-github-io:
   pkg_id: appimage.github.io.Thorium_Reader.edrlab
   description: Desktop application to read ebooks
   version: latest-linux-arm
-  download_url: https://github.com/edrlab/thorium-reader/releases/download/latest-linux-arm/Thorium-3.2.0-alpha.1.15776738927-arm64.AppImage
+  download_url: https://github.com/edrlab/thorium-reader/releases/download/latest-linux-arm/Thorium-3.2.0-alpha.1.15834120897-arm64.AppImage
   size: 132.35 MB
   src_urls:
   - https://github.com/edrlab/thorium-reader/releases
@@ -1323,8 +1323,8 @@ appimage-github-io:
   pkg_name: trezor_suite
   pkg_id: appimage.github.io.Trezor_Suite.trezor
   description: Trezor Suite desktop application
-  version: v25.6.2
-  download_url: https://github.com/trezor/trezor-suite/releases/download/v25.6.2/Trezor-Suite-25.6.2-linux-arm64.AppImage
+  version: v25.6.3
+  download_url: https://github.com/trezor/trezor-suite/releases/download/v25.6.3/Trezor-Suite-25.6.3-linux-arm64.AppImage
   size: 174.18 MB
   src_urls:
   - https://github.com/trezor/trezor-suite/releases
@@ -1897,7 +1897,7 @@ appimage-github-io:
   description: An interactive sequencer for the intermedia arts
   version: continuous
   download_url: https://github.com/ossia/score/releases/download/continuous/ossia.score-master-linux-aarch64.AppImage
-  size: 150.69 MB
+  size: 150.74 MB
   src_urls:
   - https://github.com/OSSIA/score/releases
   web_urls:

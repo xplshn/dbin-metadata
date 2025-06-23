@@ -146,7 +146,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 101
+  rank: 100
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/chromium/nixappimage/nixpkgs/stable/chromium
 - pkg: flameshot.nixappimage
   pkg_name: flameshot
@@ -407,7 +407,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 100
+  rank: 101
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/chromium/nixappimage/nixpkgs/ungoogled/chromium
 - pkg: bear.appimage
   pkg_name: bear
@@ -1125,7 +1125,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   - Please use runimage version of nmap if this doesn't work
-  rank: 166
+  rank: 165
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/nmap/archive/sharun/alpine/nmap
 - pkg: nmap/nping
   pkg_name: nping
@@ -1189,7 +1189,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   - Please use runimage version of nmap if this doesn't work
-  rank: 165
+  rank: 166
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/nmap/archive/sharun/alpine/ncat
 - pkg: oils/osh
   pkg_name: osh
@@ -1212,7 +1212,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 105
+  rank: 104
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/oils/archive/sharun/alpine/osh
 - pkg: oils/ysh
   pkg_name: ysh
@@ -1235,7 +1235,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 104
+  rank: 105
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/oils/archive/sharun/alpine/ysh
 - pkg: powertop
   pkg_name: powertop
@@ -1333,7 +1333,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 83
+  rank: 86
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/subversion/archive/sharun/alpine/svnversion
 - pkg: subversion/svn
   pkg_name: svn
@@ -1391,7 +1391,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 81
+  rank: 88
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/subversion/archive/sharun/alpine/svnadmin
 - pkg: subversion/svnsync
   pkg_name: svnsync
@@ -1420,7 +1420,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 84
+  rank: 87
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/subversion/archive/sharun/alpine/svnsync
 - pkg: subversion/svnserve
   pkg_name: svnserve
@@ -1449,7 +1449,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 89
+  rank: 83
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/subversion/archive/sharun/alpine/svnserve
 - pkg: subversion/svndumpfilter
   pkg_name: svndumpfilter
@@ -1478,7 +1478,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 82
+  rank: 81
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/subversion/archive/sharun/alpine/svndumpfilter
 - pkg: subversion/svnrdump
   pkg_name: svnrdump
@@ -1507,7 +1507,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 80
+  rank: 89
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/subversion/archive/sharun/alpine/svnrdump
 - pkg: subversion/svnmucc
   pkg_name: svnmucc
@@ -1536,7 +1536,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 87
+  rank: 85
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/subversion/archive/sharun/alpine/svnmucc
 - pkg: subversion/svnlook
   pkg_name: svnlook
@@ -1565,7 +1565,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 85
+  rank: 84
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/subversion/archive/sharun/alpine/svnlook
 - pkg: subversion/svnfsfs
   pkg_name: svnfsfs
@@ -1594,7 +1594,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 88
+  rank: 82
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/subversion/archive/sharun/alpine/svnfsfs
 - pkg: subversion/svnbench
   pkg_name: svnbench
@@ -1623,7 +1623,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 86
+  rank: 80
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/subversion/archive/sharun/alpine/svnbench
 - pkg: xhost
   pkg_name: xhost
@@ -1702,7 +1702,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 91
+  rank: 90
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/cloudflare-warp/archive/sharun/stable/warp-diag
 - pkg: cloudflare-warp/warp-cli
   pkg_name: warp-cli
@@ -1732,7 +1732,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 94
+  rank: 92
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/cloudflare-warp/archive/sharun/stable/warp-cli
 - pkg: cloudflare-warp/warp-dex
   pkg_name: warp-dex
@@ -1762,7 +1762,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 93
+  rank: 94
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/cloudflare-warp/archive/sharun/stable/warp-dex
 - pkg: cloudflare-warp/warp-svc
   pkg_name: warp-svc
@@ -1792,7 +1792,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 90
+  rank: 93
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/cloudflare-warp/archive/sharun/stable/warp-svc
 - pkg: cloudflare-warp/warp-taskbar
   pkg_name: warp-taskbar
@@ -1822,7 +1822,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 92
+  rank: 91
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/cloudflare-warp/archive/sharun/stable/warp-taskbar
 - pkg: wrangler
   pkg_name: wrangler
@@ -2029,7 +2029,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 156
+  rank: 155
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/archey/archive/sharun/pypi/archey
 - pkg: audiobook-dl
   pkg_name: audiobook-dl
@@ -3873,7 +3873,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 155
+  rank: 156
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/archey/archive/sharun/source/archey
 - pkg: dnsvalidator
   pkg_name: dnsvalidator
@@ -4497,7 +4497,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 57
+  rank: 58
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/zmap/archive/sharun/source/zmap
 - pkg: zmap/ziterate
   pkg_name: ziterate
@@ -4561,7 +4561,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 58
+  rank: 57
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/zmap/archive/sharun/source/zblocklist
 - pkg: caido-cli
   pkg_name: caido-cli
@@ -4788,7 +4788,7 @@ pkgcache:
   - chmod -v 'a=rx,u+ws' sudo
   - Requires '/etc/sudoers' file & '/etc/sudoers.d' dir
   - "Also requires PAM to be setup: https://github.com/trifectatechfoundation/sudo-rs#differences-from-original-sudo"
-  rank: 125
+  rank: 127
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/sudo-rs/archive/sharun/source/su
 - pkg: sudo-rs/sudo
   pkg_name: sudo
@@ -4936,7 +4936,7 @@ pkgcache:
   - chmod -v 'a=rx,u+ws' sudo
   - Requires '/etc/sudoers' file & '/etc/sudoers.d' dir
   - "Also requires PAM to be setup: https://github.com/trifectatechfoundation/sudo-rs#differences-from-original-sudo"
-  rank: 127
+  rank: 125
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/aarch64-linux/sudo-rs/archive/sharun/source/visudo
 - pkg: twingate/twingated
   pkg_name: twingated
