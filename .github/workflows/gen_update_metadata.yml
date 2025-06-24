@@ -32,7 +32,7 @@ jobs:
         with:
           path: master
           filter: "blob:none"
-          fetch-depth: 0  # Fetch full history to avoid shallow clone issues
+          fetch-depth: 1
 
       - name: Setup Go
         uses: actions/setup-go@v5
@@ -150,17 +150,17 @@ jobs:
           echo "Total commits in master branch: $COMMIT_COUNT"
 
           # Check if there are more than 10 commits
-          if [ "$COMMIT_COUNT" -gt 10 ]; then
-            # Find the commit SHA that is 10 commits before HEAD
-            TARGET_COMMIT=$(git rev-list --reverse origin/master | head -n 10 | tail -n 1)
-            echo "Target commit to reset to (10th from HEAD): $TARGET_COMMIT"
-
-            # Reset the branch to the target commit
-            git checkout master || { echo "Failed to checkout master branch"; exit 1; }
-            git reset --hard "$TARGET_COMMIT" || { echo "Failed to reset to target commit"; exit 1; }
-          else
+          #if [ "$COMMIT_COUNT" -gt 10 ]; then
+          #  # Find the commit SHA that is 10 commits before HEAD
+          #  TARGET_COMMIT=$(git rev-list --reverse origin/master | head -n 10 | tail -n 1)
+          #  echo "Target commit to reset to (10th from HEAD): $TARGET_COMMIT"
+          #
+          #  # Reset the branch to the target commit
+          #  git checkout master || { echo "Failed to checkout master branch"; exit 1; }
+          #  git reset --hard "$TARGET_COMMIT" || { echo "Failed to reset to target commit"; exit 1; }
+          #else
             echo "Commit count ($COMMIT_COUNT) is 10 or fewer; no reset needed"
-          fi
+          #fi
 
           # Stage all files
           git add --all
@@ -182,10 +182,10 @@ jobs:
           fi
 
           # Force push if reset was performed
-          if [ "$COMMIT_COUNT" -gt 10 ]; then
-            git push -f origin master || { echo "Failed to force push"; exit 1; }
-            echo "Successfully reset history to last 10 commits"
-          fi
+          #if [ "$COMMIT_COUNT" -gt 10 ]; then
+          #  git push -f origin master || { echo "Failed to force push"; exit 1; }
+          #  echo "Successfully reset history to last 10 commits"
+          #fi
         shell: sh
 
       - name: Exit & Report Metadata Generation Status
