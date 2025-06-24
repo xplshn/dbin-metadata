@@ -33,6 +33,13 @@ jobs:
           path: master
           filter: "blob:none"
           fetch-depth: 1
+          sparse-checkout: |
+            /*
+            !/.github
+            !/CNAME
+            !/LICENSE
+            !/README.md
+
 
       - name: Setup Go
         uses: actions/setup-go@v5
