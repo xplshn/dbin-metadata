@@ -34,7 +34,8 @@ jobs:
           filter: "blob:none"
           fetch-depth: 1
           sparse-checkout: |
-            *
+            --skip-checks
+            ./*
             !/cmd
 
       - name: Setup Go
