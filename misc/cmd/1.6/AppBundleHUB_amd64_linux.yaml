@@ -2,10 +2,10 @@ AppBundleHUB:
 - pkg: android-tools.dwfs.AppBundle
   pkg_name: Android Tools
   pkg_id: github.com.xplshn.appbundlehub.android-tools
-  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v113-20250624164059/android-tools-24_06_2025-xplshn.dwfs.AppBundle
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v114-20250624173023/android-tools-24_06_2025-xplshn.dwfs.AppBundle
   size: 9.01 MB
-  bsum: a160d2629d92ba2e71a695ca89dbe0e0b573570ec98d6d664cdd01721a4de175
-  shasum: 1ea304f7f0a71514bae1ff94725c01f4724603aea54a0cef9dd221fe0afa0096
+  bsum: 21462a1ab2d2e8d68a7ac9c343f8feb900a167c1c49277f18d1635dc545b9712
+  shasum: e045a50901444e71bb523bbaf3cda801f7fe36cc011841330f556ac2f020fbdd
   build_date: "2025-06-24"
 - pkg: audacity.dwfs.AppBundle
   pkg_name: Audacity
@@ -17,10 +17,10 @@ AppBundleHUB:
   screenshots:
   - https://dl.flathub.org/media/org/audacityteam/Audacity/16022ed38a8bc470aa3182288b2599a7/screenshots/image-1_orig.png
   version: 3.7.0
-  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v113-20250624164059/audacity-24_06_2025-xplshn.dwfs.AppBundle
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v114-20250624173023/audacity-24_06_2025-xplshn.dwfs.AppBundle
   size: 139.78 MB
-  bsum: d727fc0091292b13d5d7139273a9164d10ae8f08aa80ad99517a10716486df13
-  shasum: 20b6f3325a49a2ffdd44c31f6f49f7c4f0426e70a96a51838713177a52c09731
+  bsum: 4f61df6dccf52d21b12453dd30ab7cbf8f408a539b8be09c1281d74e1cc8054c
+  shasum: 9c9f148d28ff96ac0f250e236a16cae1cb97e42448db9fcef616f3214665d332
   build_date: "2025-06-24"
   categories: AudioVideo,Audio
 - pkg: brave.dwfs.AppBundle
@@ -37,10 +37,10 @@ AppBundleHUB:
   - https://dl.flathub.org/media/com/brave/Browser/9e753ce3201b4fd6efc93dd6b87f0cba/screenshots/image-1_orig.png
   - https://dl.flathub.org/media/com/brave/Browser/9e753ce3201b4fd6efc93dd6b87f0cba/screenshots/image-2_orig.png
   version: 1.73.91
-  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v113-20250624164059/brave-24_06_2025-xplshn.dwfs.AppBundle
-  size: 365.36 MB
-  bsum: ce58cc2ed293f941c3caeae30bb127f680958ed23f3cd2c3e29f37848ca057fd
-  shasum: dc54254e7e1251277335b56b007aaeca137687d29c87650cce0ba5b7f5c7c6bf
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v114-20250624173023/brave-24_06_2025-xplshn.dwfs.AppBundle
+  size: 365.32 MB
+  bsum: 557b27ee8ee8fd19055b45b055ebc1a7dfeba35ae363dd6a9ada41959265c801
+  shasum: 8a6ae31aaae85fae15c4bc0b0de0e647ab50a6f524cfa357a97dc84c226cc70f
   build_date: "2025-06-24"
   categories: Network,WebBrowser
 - pkg: caja.dwfs.AppBundle
@@ -53,10 +53,10 @@ AppBundleHUB:
   - "\n    https://alexpl.fedorapeople.org/AppData/caja/screens/caja_01.png\n   "
   - "\n    https://alexpl.fedorapeople.org/AppData/caja/screens/caja_02.png\n   "
   - "\n    https://alexpl.fedorapeople.org/AppData/caja/screens/caja_03.png\n   "
-  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v113-20250624164059/caja-24_06_2025-xplshn.dwfs.AppBundle
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v114-20250624173023/caja-24_06_2025-xplshn.dwfs.AppBundle
   size: 13.50 MB
-  bsum: 959b85ad84bc9626b2fbf163ef32d1c1d03353965409a84bf8cc1749ceaea230
-  shasum: f657c9408d1033395e47c0e79c80093dbc169b25d4b854ca51d92f2ad77b6870
+  bsum: 3c686225c82cf696b6197fbefaa362f49694be793a9a796a60e22a945b41fabe
+  shasum: b082ac0b1d70b1118df3a5c82e0c8653b070d2029970653d78edd329cf70ff9c
   build_date: "2025-06-24"
 - pkg: chromium.dwfs.AppBundle
   pkg_name: Chromium Web Browser
@@ -68,24 +68,24 @@ AppBundleHUB:
   screenshots:
   - https://dl.flathub.org/media/org/chromium/Chromium/7bf840901446fdf28fad531c5a37075a/screenshots/image-1_orig.png
   version: 131.0.6778.85
-  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v113-20250624164059/chromium-24_06_2025-xplshn.dwfs.AppBundle
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v114-20250624173023/chromium-24_06_2025-xplshn.dwfs.AppBundle
   size: 220.98 MB
-  bsum: dd7606548e69be5e8f205bf6b04ac97e86c3938a174a7281091d741012b0f842
-  shasum: 449a77a86e5fc5a7418844f447dddc0a6b627c07b2c07e40bc7c321ae8ffb704
+  bsum: d4cd55c4129a8ad121295ff1f700c054971fb66327299df17276e8344888f5f8
+  shasum: cef18ddf330aac2d0c533340d3f8638249d953f3ca474c97e182980756cfc788
   build_date: "2025-06-24"
   categories: Network,WebBrowser
 - pkg: dunst.dwfs.AppBundle
   pkg_name: Dunst
   pkg_id: github.com.xplshn.appbundlehub.dunst
-  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v113-20250624164059/dunst-24_06_2025-xplshn.dwfs.AppBundle
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v114-20250624173023/dunst-24_06_2025-xplshn.dwfs.AppBundle
   size: 8.47 MB
-  bsum: 02a06e8c6ad02d600726742c84e1ba92a102c7f88c3638f43df35e8625cf59d1
-  shasum: abf85022196ebe769e237c082a95400c3b0bf7a464e361a28b6558e7e9c874e9
+  bsum: de798686cded752718c409842393f518dc9644bf74ea329354e8fc6dc60947d9
+  shasum: 22e890a35f0f4b1f7710ad410933dac2f33e4b458f8081fd45a83f77edbb46fb
   build_date: "2025-06-24"
 - pkg: eden.dwfs.AppBundle
   pkg_name: Eden
   pkg_id: github.com.xplshn.appbundlehub.eden
-  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v113-20250624164059/eden-24_06_2025-xplshn.dwfs.AppBundle
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v114-20250624173023/eden-24_06_2025-xplshn.dwfs.AppBundle
   size: 94.07 MB
   bsum: 5e5f62d9acf264cde725f79e4a3195eb5c86bfa59056e8872c35008629ae6880
   shasum: 6c0159144308f4bb71173b11d679a53a3705d555c646138193e2201e8ad88f6c
@@ -93,18 +93,18 @@ AppBundleHUB:
 - pkg: engrampa.dwfs.AppBundle
   pkg_name: Engrampa
   pkg_id: github.com.xplshn.appbundlehub.engrampa
-  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v113-20250624164059/engrampa-24_06_2025-xplshn.dwfs.AppBundle
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v114-20250624173023/engrampa-24_06_2025-xplshn.dwfs.AppBundle
   size: 12.10 MB
-  bsum: 707de632e144c1c2c049490a4f7386f097a4ba941dce51fd27f70cdefcf199bd
-  shasum: ef7de481bb7cd7ab451747f5e3332046fb499d4eb3af0527fdd7d9e10504f3dc
+  bsum: b43456e6d5ccb68c6f74622c6913b515cd8c33c0a823619b1a1eb7f05f759dff
+  shasum: 7c170b5f388f1994436bcb844bd9091b15c3532f66eb9778a8a84eb5452ea2bf
   build_date: "2025-06-24"
 - pkg: falkon.dwfs.AppBundle
   pkg_name: Org.Kde.Falkon
   pkg_id: github.com.xplshn.appbundlehub.falkon
-  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v113-20250624164059/falkon-24_06_2025-xplshn.dwfs.AppBundle
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v114-20250624173023/falkon-24_06_2025-xplshn.dwfs.AppBundle
   size: 267.88 MB
-  bsum: 8abe4e022647543f4e39c9fd7d1016dabbc73c326e6494572a652f972ab7e4a9
-  shasum: adddb13419c6701f9aeafd76c18ec52aab3237f50d6072a5d800ba7b1c8be66b
+  bsum: 8ed8c93cde9eb7b5449bd4cd211b1ed51081d9daefab68edfc3cc963fe3ca9a3
+  shasum: 650c1dcf619204f7c2cea65649c76d76d939f8cab5bbd81a0304e5a6a3c19c32
   build_date: "2025-06-24"
 - pkg: firefox.dwfs.AppBundle
   pkg_name: Firefox
@@ -117,19 +117,19 @@ AppBundleHUB:
   - https://raw.githubusercontent.com/mozilla-releng/scriptworker-scripts/master/pushflatpakscript/media/screenshots/image2.png
   - https://raw.githubusercontent.com/mozilla-releng/scriptworker-scripts/master/pushflatpakscript/media/screenshots/image3.png
   version: 132.0.2
-  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v113-20250624164059/firefox-24_06_2025-xplshn.dwfs.AppBundle
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v114-20250624173023/firefox-24_06_2025-xplshn.dwfs.AppBundle
   size: 184.39 MB
-  bsum: aa426c253112aa55294bc4f7f5d85d5ae63023bb0144b63d835503952e4048ca
-  shasum: a8fd3d190fde7aa3d0b745824c62a5ef5608195806da3265ae737005515d46c9
+  bsum: 4340ded87e81743cf0072f8e1d8916c4ab95db86b2e1e5ec73fc46ff14de2fea
+  shasum: 51f8e2a4963b4d9d363b06b237dcbbaa4a88c34dc62990f708dc7ba5eb983b78
   build_date: "2025-06-24"
   categories: Network,WebBrowser
 - pkg: imageMagick.dwfs.AppBundle
   pkg_name: ImageMagick
   pkg_id: github.com.xplshn.appbundlehub.imageMagick
-  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v113-20250624164059/imageMagick-24_06_2025-xplshn.dwfs.AppBundle
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v114-20250624173023/imageMagick-24_06_2025-xplshn.dwfs.AppBundle
   size: 7.89 MB
-  bsum: ae56fb718ea719b2239217916c4c058a97e42c427b94c2e515a28674979d0154
-  shasum: 12426b89e7b1d5892fc2f9603451eacacddb110e639fae9c19ab978a5efefd4c
+  bsum: 6e6741c699192ace1b45c95fda23427ba738f8e791a47359f8e925ff7608fe19
+  shasum: bb72634bfb30c35b6f8f65316a8840d0ef2f619b5f8c596245c50e44f6418133
   build_date: "2025-06-24"
 - pkg: mousepad.dwfs.AppBundle
   pkg_name: Mousepad
@@ -141,10 +141,10 @@ AppBundleHUB:
   screenshots:
   - https://dl.flathub.org/media/org/xfce/mousepad/e80f32822455cb1a3096d8600c76608f/screenshots/image-1_orig.png
   version: 0.6.3
-  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v113-20250624164059/mousepad-24_06_2025-xplshn.dwfs.AppBundle
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v114-20250624173023/mousepad-24_06_2025-xplshn.dwfs.AppBundle
   size: 12.67 MB
-  bsum: da328c9193c010c426e6e5c2b7f15be9d8d88e744528a9378f86da4d1311794c
-  shasum: 02377ae852fca165045bafb44a8d3c00a5af180ca5f2ff063f61fca6b2988aa2
+  bsum: cd5181242566aae30f25d14dbb435ebfafee2d0d78141e0471456b1db28602fa
+  shasum: df2f62c39422589797dadf325e13e61b7e7f4bc851859012a915746b662cbf43
   build_date: "2025-06-24"
   categories: Utility,TextEditor
 - pkg: mpv.dwfs.AppBundle
@@ -157,10 +157,10 @@ AppBundleHUB:
   screenshots:
   - https://dl.flathub.org/media/io/mpv/Mpv/7f11eac9f1d476c2085e34aa19fdcb56/screenshots/image-1_orig.png
   version: v0.39.0
-  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v113-20250624164059/mpv-24_06_2025-xplshn.dwfs.AppBundle
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v114-20250624173023/mpv-24_06_2025-xplshn.dwfs.AppBundle
   size: 35.58 MB
-  bsum: 1d67fbf616676e084a44f882697bcd7a7bd1f80446a0360a19fa4f6421290211
-  shasum: e4e5c2316854ea489ede743f1178574e31bb1bcc589df1817e6e943153368624
+  bsum: 83b0aa4d3b3353aedfb1299b5db3652a5952b2ce7840045bcc0a3546d48f8bc3
+  shasum: 1a66944e3597e0a6bb0960e16d2b5364394bce746e5fa52d9e90fe4da72f26c3
   build_date: "2025-06-24"
   categories: AudioVideo,Audio,Video,Player,TV
 - pkg: openarena-quake3e.dwfs.AppBundle
@@ -175,7 +175,7 @@ AppBundleHUB:
   - http://www.openarena.ws/e107_images/custom/085-16.jpg
   - http://openarena.ws/e107_images/custom/085-13.jpg
   - http://openarena.ws/e107_images/custom/085-3.jpg
-  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v113-20250624164059/openarena-quake3e.dwfs.AppBundle
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v114-20250624173023/openarena-quake3e.dwfs.AppBundle
   size: 393.23 MB
   bsum: d21b3861ec290393d0fc07217f208f7304ec1df22a89ecbc29cccb1801e88623
   shasum: 14a4cb55b7d3e10c0baa0c30e81c575ad03041ce996a718b5e6084dce1455bd6
@@ -183,26 +183,26 @@ AppBundleHUB:
 - pkg: pcmanfm.dwfs.AppBundle
   pkg_name: Pcmanfm
   pkg_id: github.com.xplshn.appbundlehub.pcmanfm
-  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v113-20250624164059/pcmanfm-24_06_2025-xplshn.dwfs.AppBundle
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v114-20250624173023/pcmanfm-24_06_2025-xplshn.dwfs.AppBundle
   size: 12.20 MB
-  bsum: fe9597727fcab0985a5fdcc59932db592b3bbbe0cc9fd547b20102b171366652
-  shasum: fb6ccd086d8108ae285dd6e53c2b3e6c293a340c5de09659ca035e0ecb189447
+  bsum: 02bc0a6154484bf02977391863e260134f1f87b7204a790a8a89f9623f89af9b
+  shasum: 8536748f39d531e11575776c9bdde82f75aa0f6f589e3e9d9d297dbf9a386841
   build_date: "2025-06-24"
 - pkg: pcsx2.dwfs.AppBundle
   pkg_name: Pcsx2
   pkg_id: github.com.xplshn.appbundlehub.pcsx2
-  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v113-20250624164059/pcsx2-24_06_2025-xplshn.dwfs.AppBundle
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v114-20250624173023/pcsx2-24_06_2025-xplshn.dwfs.AppBundle
   size: 149.22 MB
-  bsum: 8cb69e48f08d7b3034a1731867c0ea7104afba81bd886f7cc9e66a0b6e97cc28
-  shasum: ee49c2f3bca3281cde89d76703130762791f7f7ee8a62e4f3f57117fc35922d1
+  bsum: 58d00d6065b7345fb7a9a0074406cd83cc350b4875a999f0e5f9c68957d894db
+  shasum: 5c411bc0696592eff75b355a0192137b376bc133672e5024eb5ae177a526a391
   build_date: "2025-06-24"
 - pkg: polybar.dwfs.AppBundle
   pkg_name: Polybar
   pkg_id: github.com.xplshn.appbundlehub.polybar
-  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v113-20250624164059/polybar-24_06_2025-xplshn.dwfs.AppBundle
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v114-20250624173023/polybar-24_06_2025-xplshn.dwfs.AppBundle
   size: 12.15 MB
-  bsum: 245192670440f27d3538e52516e71fcf0fb03ef8e4a9fcc12cf63252fe662d76
-  shasum: 8b89214ebb2b66bd370a21de5891e232b69dbb51381a78928d170812542bf4c6
+  bsum: 05b39506020f8770179e83ec3977a921bb0d601d09fc379ccf0e7117271a1521
+  shasum: 6849859affeb7a5fab913a2f1ad1b29edb46f48ae0020bd04a5c2c293421b29d
   build_date: "2025-06-24"
 - pkg: qbittorrent.dwfs.AppBundle
   pkg_name: qBittorrent
@@ -217,10 +217,10 @@ AppBundleHUB:
   - https://dl.flathub.org/media/org/qbittorrent/qBittorrent/cc851d3ec33d7f7311d2a4ca4d807c0b/screenshots/image-3_orig.png
   - https://dl.flathub.org/media/org/qbittorrent/qBittorrent/cc851d3ec33d7f7311d2a4ca4d807c0b/screenshots/image-4_orig.png
   version: 5.0.2
-  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v113-20250624164059/qbittorrent-24_06_2025-xplshn.dwfs.AppBundle
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v114-20250624173023/qbittorrent-24_06_2025-xplshn.dwfs.AppBundle
   size: 129.04 MB
-  bsum: 20475697160c1d0b4171b86521c84027719e199bfdf975501dbb3b4e800385fb
-  shasum: 99557e505438f7861887cf87043e36cab6f6e39fac3f5ae85fa45aba21f97ce9
+  bsum: 09ccd03080dc44b114376ee0124a09112886a5738414a225d1070f4ac0ead4d4
+  shasum: d3624634401f9e6421e5f6bac789b5969e98c45fa12c29c82a7235f84b56cae3
   build_date: "2025-06-24"
   categories: Network,FileTransfer,P2P
 - pkg: quake3e.dwfs.AppBundle
@@ -229,7 +229,7 @@ AppBundleHUB:
   app_id: quake3e
   description: Quake 3 Enhanced engine
   description_long: "\n    <p>\n      This is a modern Quake III Arena engine aimed to be fast, secure and compatible with all existing Q3A mods.\n      It is based on last non-SDL source dump of ioquake3 with latest upstream fixes applied.\n    </p>\n    <p>\n      Key features:\n      <ul>\n        <li>Optimized OpenGL renderer</li>\n        <li>Optimized Vulkan renderer</li>\n        <li>Raw mouse input support, enabled automatically instead of DirectInput(\\in_mouse 1) if available</li>\n        <li>Unlagged mouse events processing, can be reverted by setting \\in_lagged 1</li>\n        <li>\\in_minimize - hotkey for minimize/restore main window (win32-only, direct replacement for Q3Minimizer)</li>\n        <li>\\video-pipe - to use external ffmpeg binary as an encoder for better quality and smaller output files</li>\n        <li>Significantly reworked QVM (Quake Virtual Machine)</li>\n        <li>Improved server-side DoS protection, much reduced memory usage</li>\n        <li>Raised filesystem limits (up to 20,000 maps can be handled in a single directory)</li>\n        <li>Reworked Zone memory allocator, no more out-of-memory errors</li>\n        <li>Non-intrusive support for SDL2 backend (video, audio, input), selectable at compile time</li>\n        <li>Tons of bug fixes and other improvements</li>\n        <li>Vulkan renderer based on Quake-III-Arena-Kenny-Edition with many additions:</li>\n        <ul>\n          <li>High-quality per-pixel dynamic lighting</li>\n          <li>Very fast flares (\\r_flares 1)</li>\n          <li>Anisotropic filtering (\\r_ext_texture_filter_anisotropic)</li>\n          <li>Greatly reduced API overhead (call/dispatch ratio)</li>\n          <li>Flexible vertex buffer memory management to allow loading huge maps</li>\n          <li>Multiple command buffers to reduce processing bottlenecks</li>\n          <li>Reversed depth buffer to eliminate z-fighting on big maps</li>\n          <li>Merged lightmaps (atlases)</li>\n          <li>Multitexturing optimizations</li>\n          <li>Static world surfaces cached in VBO (\\r_vbo 1)</li>\n          <li>Useful debug markers for tools like RenderDoc</li>\n          <li>Fixed framebuffer corruption on some Intel iGPUs</li>\n          <li>Offscreen rendering, enabled with \\r_fbo 1, all following requires it enabled:</li>\n          <ul>\n            <li>ScreenMap texture rendering - to create realistic environment reflections</li>\n            <li>Multisample anti-aliasing (\\r_ext_multisample)</li>\n            <li>Supersample anti-aliasing (\\r_ext_supersample)</li>\n            <li>Per-window gamma-correction which is important for screen-capture tools like OBS</li>\n            <li>You can minimize game window any time during \\video|\\video-pipe recording</li>\n            <li>High dynamic range render targets (\\r_hdr 1) to avoid color banding</li>\n            <li>Bloom post-processing effect</li>\n            <li>Arbitrary resolution rendering</li>\n            <li>Greyscale mode</li>\n          </ul>\n        </ul>\n      </ul>\n    </p>\n  "
-  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v113-20250624164059/quake3e.dwfs.AppBundle
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v114-20250624173023/quake3e.dwfs.AppBundle
   size: 8.36 MB
   bsum: e7a5f8b95ba104774f719eeb60f581e1936d0d5c4bf8d92cb78c67fabada2247
   shasum: c275d371a5a2ddaf23b96848770563a7cfe0a7bb1bdc737a024c0db40c148395
@@ -244,73 +244,73 @@ AppBundleHUB:
   screenshots:
   - https://dl.flathub.org/media/org/xfce/ristretto/f2df290130ab77a925dfb62f209189ec/screenshots/image-1_orig.png
   version: 0.13.2
-  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v113-20250624164059/ristretto-24_06_2025-xplshn.dwfs.AppBundle
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v114-20250624173023/ristretto-24_06_2025-xplshn.dwfs.AppBundle
   size: 12.54 MB
-  bsum: b83f9e90a3f5727ad06b942072042d1a5a950cbc6677fee00a86741a1ff780ec
-  shasum: eab16cce2b148fab25f13fff47b494e598f55512898b19afcc3c4dc5d72b41b4
+  bsum: d402a967efd1f5744d1b3b1ee0b282129223b3506fe355879eee41509be7bd3b
+  shasum: bf4efe17d3570231ac438e7f72a6fd5bee86d542da2e36d572c1e00c7f2d8a16
   build_date: "2025-06-24"
   categories: Graphics,Viewer
-- pkg: scrcpy.AppDir.AppBundle
+- pkg: scrcpy.dwfs.AppBundle
   pkg_name: Scrcpy
   pkg_id: github.com.xplshn.appbundlehub.scrcpy
-  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v113-20250624164059/scrcpy-24_06_2025-xplshn.AppDir.dwfs.AppBundle
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v114-20250624173023/scrcpy-24_06_2025-xplshn.dwfs.AppBundle
   size: 39.51 MB
-  bsum: d4ca13a94589609b2cc81d80b977a553cd44a02905ac68b8fd57f2da35426bf3
-  shasum: f6ca907a9854f2464d53d22744961121230de3e07cbcc905f4de85f13b5bb5b3
+  bsum: f49249dd2a388932d88d4eb73a47cfb77b80538791c4d52fde823f0f9b3cdfc1
+  shasum: 75a8dfd29a80a5a103adbab8005661dce046d5d86f6604cce962da4f5981e14c
   build_date: "2025-06-24"
 - pkg: steam.dwfs.AppBundle
   pkg_name: Steam
   pkg_id: github.com.xplshn.appbundlehub.steam
-  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v113-20250624164059/steam-24_06_2025-xplshn.dwfs.AppBundle
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v114-20250624173023/steam-24_06_2025-xplshn.dwfs.AppBundle
   size: 282.49 MB
-  bsum: f737fdfdc3e72c1ff81f6c9e15bb4993cde974fce797849cf068bcca1d1dbf6b
-  shasum: e780228d25f5a3a4d5ec1fc8ac495212a72a1a4f717554ce591c5c81a055183f
+  bsum: 87546e7c586e07ca1fa01d24aaf4b2c0b179d7babbb0c37b6b6b859a49afd5a2
+  shasum: a44649dcf137d2ae4971b1740542ceefbdb9237f3ac901c9cc4d27af5872b106
   build_date: "2025-06-24"
 - pkg: thunar.dwfs.AppBundle
   pkg_name: Thunar
   pkg_id: github.com.xplshn.appbundlehub.thunar
-  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v113-20250624164059/thunar-24_06_2025-xplshn.dwfs.AppBundle
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v114-20250624173023/thunar-24_06_2025-xplshn.dwfs.AppBundle
   size: 12.42 MB
-  bsum: 2033c05f072fa942bd71edf71947e9eb9e560115f8e5197c6f42ef2464ae167b
-  shasum: 871ce04bb1071627f75ada55c11a9228df78ef3cc45a9987d8074d7a8bb26504
+  bsum: 100d8bf933505ab6fbf5d1cf68d2ebb93a35c058a05c1995ada2baf8cc1b1679
+  shasum: c1253255fd1602eee08c9b9b2e8fdd9128d0d793a31579f738c9303f0d1ed706
   build_date: "2025-06-24"
-- pkg: xfce4-multicall.AppDir.AppBundle
+- pkg: xfce4-multicall.dwfs.AppBundle
   pkg_name: Xfce4 Multicall
   pkg_id: github.com.xplshn.appbundlehub.xfce4-multicall
-  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v113-20250624164059/xfce4-multicall-24_06_2025-xplshn.AppDir.dwfs.AppBundle
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v114-20250624173023/xfce4-multicall-24_06_2025-xplshn.dwfs.AppBundle
   size: 18.22 MB
-  bsum: 45d898a5842d9724222cd61d71ec003759959df7e322fc67820c6ea000fb7897
-  shasum: 22e177d81c4b90d4f14d1d5ecc93bfeab971eee5596e41b023011a57164b6597
+  bsum: ac204fdb298ab3fb2c27d803c8e532eacf3681c996e773a9c5965ffb23152f85
+  shasum: f01c22d8bc66c068fb33189190e45121dd38ba2e2822e8edf6fdd16ff9f8d1e0
   build_date: "2025-06-24"
 - pkg: xfce4-power-manager.dwfs.AppBundle
   pkg_name: Xfce4 Power Manager
   pkg_id: github.com.xplshn.appbundlehub.xfce4-power-manager
-  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v113-20250624164059/xfce4-power-manager-24_06_2025-xplshn.dwfs.AppBundle
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v114-20250624173023/xfce4-power-manager-24_06_2025-xplshn.dwfs.AppBundle
   size: 12.16 MB
-  bsum: 43621455d23b634ccf37aea5a7ab402fdfdf45e330faa422418534a1acc6c782
-  shasum: ba7cb61dc810a2d8431d5bdfb3503355da5b5c7e39d7173a99f4f854282e6a20
+  bsum: 331fa79197e73e7d844e2c92c2e2ce74779e7fd4c3231bbe78f34107df0cfa25
+  shasum: 9dbe27d55c48f834d00f583fdc798968d8a5341100b4da3604d9ba125d9ffae7
   build_date: "2025-06-24"
 - pkg: xfce4-screenshooter.dwfs.AppBundle
   pkg_name: Xfce4 Screenshooter
   pkg_id: github.com.xplshn.appbundlehub.xfce4-screenshooter
-  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v113-20250624164059/xfce4-screenshooter-24_06_2025-xplshn.dwfs.AppBundle
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v114-20250624173023/xfce4-screenshooter-24_06_2025-xplshn.dwfs.AppBundle
   size: 12.11 MB
-  bsum: cbf2af4470a69f73dbfa36a44deba4bcc3132e3c03f774096acfcd96e3cb6f67
-  shasum: 3365a1414e50b46311a5c007a6781ae1b532381e55606dcf43114a7d3c37876e
+  bsum: d58e838264c9d23469659c970c31d0b650ede636b00c957e3b788b9e867db0ce
+  shasum: 575d8d67af9969a1f80df4364b2cdd89b2d44970ddaba66733c7b32ab04e3958
   build_date: "2025-06-24"
 - pkg: xfce4-taskmanager.dwfs.AppBundle
   pkg_name: Xfce4 Taskmanager
   pkg_id: github.com.xplshn.appbundlehub.xfce4-taskmanager
-  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v113-20250624164059/xfce4-taskmanager-24_06_2025-xplshn.dwfs.AppBundle
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v114-20250624173023/xfce4-taskmanager-24_06_2025-xplshn.dwfs.AppBundle
   size: 12.30 MB
-  bsum: 4d9ea9919568bdd4ed62198e6ed95a217a84a1546df5a78e0f9e988b7c1b1039
-  shasum: 11efe06b11d0108d426df6027e69028d54330c5af32bdebf8b011b68f8eebb17
+  bsum: 8f7feb4b9371ec2bcc3e94e34cf693e5fa5f8457be06cfc4dbd43d1a113b16d9
+  shasum: e517144c8d24586b69399993b34941c40c5f586fe84c94ecea302d3131e7bc59
   build_date: "2025-06-24"
 - pkg: xfce4-terminal.dwfs.AppBundle
   pkg_name: Xfce4 Terminal
   pkg_id: github.com.xplshn.appbundlehub.xfce4-terminal
-  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v113-20250624164059/xfce4-terminal-24_06_2025-xplshn.dwfs.AppBundle
+  download_url: https://github.com/xplshn/AppBundleHUB/releases/download/v114-20250624173023/xfce4-terminal-24_06_2025-xplshn.dwfs.AppBundle
   size: 15.84 MB
-  bsum: ae11c097837b28096b10b16a0f3a066352bc9c9b165061c14854c4050fb6f201
-  shasum: 06ef5aca5af5935ccfc9178562f19ecc35255fd681dabd7b4c0bc97260ce3b05
+  bsum: bb8cadbb43406443b797dd8efc7340fdd2f9212a6518ce195728bb49f90e2fd5
+  shasum: 9689f8af04acd7a2db527c9875b0b02feb0db005393362895d23af334c208c48
   build_date: "2025-06-24"
