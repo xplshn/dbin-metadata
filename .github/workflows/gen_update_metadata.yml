@@ -35,11 +35,7 @@ jobs:
           fetch-depth: 1
           sparse-checkout: |
             /*
-            !/.github
-            !/CNAME
-            !/LICENSE
-            !/README.md
-
+            !/cmd
 
       - name: Setup Go
         uses: actions/setup-go@v5
