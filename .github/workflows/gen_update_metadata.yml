@@ -133,7 +133,7 @@ jobs:
           fi
         shell: sh
 
-      - name: Reset History and Commit Metadata
+      - name: Commit Metadata
         if: env.HAS_META == 'TRUE'
         run: |
           cd "$GITHUB_WORKSPACE/master"
@@ -142,33 +142,24 @@ jobs:
           git config user.name 'xplshn'
           git config user.email 'anto@xplshn.com.ar'
 
-          git config core.sparseCheckout false
+          # Expand sparse-checkout to include misc/cmd/ without fetching existing files
+          git sparse-checkout init --cone
+          git sparse-checkout set --no-cone --skip-checks ./* !/cmd /misc/cmd/
+          # Avoid fetching binary files; only update the index for new files
+          git read-tree -m -u HEAD  # Update the working tree to include new paths
 
           # Get UTC time for commit message
           UTC_TIME=$(TZ='UTC' date +'%Y-%m-%d (%I:%M:%S %p)')
           echo "UTC_TIME=$UTC_TIME" >> $GITHUB_ENV
 
-          # Ensure full history by fetching all commits
+          # Ensure full history by fetching all commits (still sparse, so no binaries)
           git fetch --no-tags --prune --depth=12 origin master || { echo "Failed to fetch full history"; exit 1; }
 
           # Count the number of commits in the master branch
           COMMIT_COUNT=$(git rev-list --count origin/master)
           echo "Total commits in master branch: $COMMIT_COUNT"
 
-          # Check if there are more than 10 commits
-          #if [ "$COMMIT_COUNT" -gt 10 ]; then
-          #  # Find the commit SHA that is 10 commits before HEAD
-          #  TARGET_COMMIT=$(git rev-list --reverse origin/master | head -n 10 | tail -n 1)
-          #  echo "Target commit to reset to (10th from HEAD): $TARGET_COMMIT"
-          #
-          #  # Reset the branch to the target commit
-          #  git checkout master || { echo "Failed to checkout master branch"; exit 1; }
-          #  git reset --hard "$TARGET_COMMIT" || { echo "Failed to reset to target commit"; exit 1; }
-          #else
-            echo "Commit count ($COMMIT_COUNT) is 10 or fewer; no reset needed"
-          #fi
-
-          # Stage all files
+          # Stage all files (includes newly generated files in misc/cmd/)
           git add --all
 
           # Unstage excluded files
@@ -187,11 +178,9 @@ jobs:
             echo "RESET_STATUS=SKIPPED" >> $GITHUB_ENV
           fi
 
-          # Force push if reset was performed
-          #if [ "$COMMIT_COUNT" -gt 10 ]; then
-          #  git push -f origin master || { echo "Failed to force push"; exit 1; }
-          #  echo "Successfully reset history to last 10 commits"
-          #fi
+          # Reapply original sparse-checkout to exclude /cmd
+          git sparse-checkout init --cone
+          git sparse-checkout set --skip-checks ./* !/cmd
         shell: sh
 
       - name: Exit & Report Metadata Generation Status
