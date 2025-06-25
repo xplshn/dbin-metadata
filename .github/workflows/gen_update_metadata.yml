@@ -142,7 +142,7 @@ jobs:
           git config user.name 'xplshn'
           git config user.email 'anto@xplshn.com.ar'
 
-          git sparse-checkout set ./cmd
+          git config core.sparseCheckout false
 
           # Get UTC time for commit message
           UTC_TIME=$(TZ='UTC' date +'%Y-%m-%d (%I:%M:%S %p)')
