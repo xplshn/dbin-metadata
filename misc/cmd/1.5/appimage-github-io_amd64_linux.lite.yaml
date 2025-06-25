@@ -311,8 +311,8 @@ appimage-github-io:
   pkg_name: antares
   pkg_id: appimage.github.io.Antares.Fabio286
   description: A cross-platform easy to use SQL client
-  version: v0.7.35-beta.1
-  download_url: https://github.com/antares-sql/antares/releases/download/v0.7.35-beta.1/Antares-0.7.35-beta.1-linux_x86_64.AppImage
+  version: v0.7.35
+  download_url: https://github.com/antares-sql/antares/releases/download/v0.7.35/Antares-0.7.35-linux_x86_64.AppImage
   size: 155.59 MB
   src_urls:
   - https://github.com/Fabio286/antares/releases
@@ -619,9 +619,9 @@ appimage-github-io:
   pkg_name: artisan
   pkg_id: appimage.github.io.Artisan.artisan-roaster-scope
   description: Visualizes the coffee roasting process
-  version: continuous
-  download_url: https://github.com/artisan-roaster-scope/artisan/releases/download/continuous/artisan-linux-3.1.5.AppImage
-  size: 306.66 MB
+  version: v3.2.0
+  download_url: https://github.com/artisan-roaster-scope/artisan/releases/download/v3.2.0/artisan-linux-3.2.0.AppImage
+  size: 306.67 MB
   src_urls:
   - https://github.com/artisan-roaster-scope/artisan/releases
   web_urls:
@@ -2775,9 +2775,9 @@ appimage-github-io:
   pkg_name: cryptomator
   pkg_id: appimage.github.io.Cryptomator.cryptomator
   description: "Cryptomator provides easy-to-use, transparent, client-side encryption for your cloud. It protects your documents from unauthorized access and prying eyes, while you will still be able to view and edit your documents locally. By not requiring any registration or account and performing all encryption locally, it gives you back control over your data and ensures your privacy. Cryptomator is offered for all major platforms (including Android and iOS). Cryptomator encrypts file contents and names using the widespread industry standard AES. Your passphrase is protected against brute forcing attempts using scrypt. Additionally, directory structures get obfuscated. For more info about the Cryptomator encryption scheme, check out the online documentation. Cryptomator is a free and open-source software licensed under the GPLv3. This allows anyone to check our code. Thus, it is impossible to introduce backdoors for third parties or to hide vulnerabilities, so you do not need to trust Cryptomator. Also, vendor lock-ins are impossible. Even if we decided to stop development: The source code is already cloned by hundreds of other developers and development can be picked up by others"
-  version: 1.17.0-beta1
-  download_url: https://github.com/cryptomator/cryptomator/releases/download/1.17.0-beta1/cryptomator-1.17.0-beta1-x86_64.AppImage
-  size: 53.81 MB
+  version: 1.17.0
+  download_url: https://github.com/cryptomator/cryptomator/releases/download/1.17.0/cryptomator-1.17.0-x86_64.AppImage
+  size: 53.80 MB
   src_urls:
   - https://github.com/cryptomator/cryptomator/releases
   web_urls:
@@ -3039,8 +3039,8 @@ appimage-github-io:
   pkg_name: dbgate
   pkg_id: appimage.github.io.DbGate.dbgate
   description: Opensource database administration tool
-  version: v6.5.3-premium-beta.1
-  download_url: https://github.com/dbgate/dbgate/releases/download/v6.5.3-premium-beta.1/dbgate-premium-6.5.3-premium-beta.1-linux_x86_64.AppImage
+  version: v6.5.4
+  download_url: https://github.com/dbgate/dbgate/releases/download/v6.5.4/dbgate-premium-6.5.4-linux_x86_64.AppImage
   size: 156.64 MB
   src_urls:
   - https://github.com/dbgate/dbgate/releases
@@ -3326,7 +3326,7 @@ appimage-github-io:
   pkg_id: appimage.github.io.Discord.srevinsaju
   description: All-in-one voice and text chat for gamers that's free, secure, and works on both your desktop and phone
   version: stable
-  download_url: https://github.com/srevinsaju/discord-appimage/releases/download/stable/Discord-0.0.98-x86_64.AppImage
+  download_url: https://github.com/srevinsaju/discord-appimage/releases/download/stable/Discord-0.0.99-x86_64.AppImage
   size: 101.63 MB
   src_urls:
   - https://github.com/srevinsaju/discord-appimage/releases
@@ -3789,7 +3789,7 @@ appimage-github-io:
   description: Space exploration and combat game
   version: continuous
   download_url: https://github.com/endless-sky/endless-sky/releases/download/continuous/Endless_Sky-continuous-x86_64.AppImage
-  size: 348.81 MB
+  size: 347.04 MB
   src_urls:
   - https://github.com/endless-sky/endless-sky/releases
   web_urls:
@@ -4294,8 +4294,8 @@ appimage-github-io:
   pkg_id: appimage.github.io.Firefox.srevinsaju
   description: Browse the World Wide Web
   version: firefox-nightly
-  download_url: https://github.com/srevinsaju/Firefox-Appimage/releases/download/firefox-nightly/firefox-nightly-141.0.r20250619214031-x86_64.AppImage
-  size: 115.06 MB
+  download_url: https://github.com/srevinsaju/Firefox-Appimage/releases/download/firefox-nightly/firefox-nightly-142.0.r20250625034313-x86_64.AppImage
+  size: 115.00 MB
   src_urls:
   - https://github.com/srevinsaju/Firefox-Appimage/releases
   web_urls:
@@ -4601,9 +4601,9 @@ appimage-github-io:
   pkg_name: freecad2
   pkg_id: appimage.github.io.FreeCAD2.FreeCAD
   description: FreeCAD is a parametric 3D modeler. Parametric modeling allows you to easily modify your design by going back into your model history and changing its parameters. FreeCAD is open source (LGPL license) and completely modular, allowing for very advanced extension and customization. FreeCAD is multiplatfom, and reads and writes many open file formats such as STEP, IGES, STL and others
-  version: weekly-2025.06.16
-  download_url: https://github.com/FreeCAD/FreeCAD/releases/download/weekly-2025.06.16/FreeCAD_weekly-2025.06.16-Linux-x86_64-py311.AppImage
-  size: 796.29 MB
+  version: weekly-2025.06.23
+  download_url: https://github.com/FreeCAD/FreeCAD/releases/download/weekly-2025.06.23/FreeCAD_weekly-2025.06.23-Linux-x86_64-py311.AppImage
+  size: 797.15 MB
   src_urls:
   - https://github.com/FreeCAD/FreeCAD/releases
   web_urls:
@@ -4733,9 +4733,9 @@ appimage-github-io:
   pkg_name: gdevelop
   pkg_id: appimage.github.io.GDevelop.4ian
   description: GDevelop 5 IDE running on the Electron runtime
-  version: v5.5.231
-  download_url: https://github.com/4ian/GDevelop/releases/download/v5.5.231/GDevelop-5-5.5.231.AppImage
-  size: 163.45 MB
+  version: v5.5.232
+  download_url: https://github.com/4ian/GDevelop/releases/download/v5.5.232/GDevelop-5-5.5.232.AppImage
+  size: 164.01 MB
   src_urls:
   - https://github.com/4ian/GDevelop/releases
   web_urls:
@@ -4865,9 +4865,9 @@ appimage-github-io:
   pkg_name: gvim
   pkg_id: appimage.github.io.GVim.vim
   description: Edit text files
-  version: v9.1.1471
-  download_url: https://github.com/vim/vim-appimage/releases/download/v9.1.1471/GVim-v9.1.1471.glibc2.34-x86_64.AppImage
-  size: 45.50 MB
+  version: v9.1.1478
+  download_url: https://github.com/vim/vim-appimage/releases/download/v9.1.1478/GVim-v9.1.1478.glibc2.34-x86_64.AppImage
+  size: 45.28 MB
   src_urls:
   - https://github.com/vim/vim-appimage/releases
   web_urls:
@@ -4998,8 +4998,8 @@ appimage-github-io:
   pkg_id: appimage.github.io.Ghostty.psadi
   description: Ghostty is a terminal emulator that differentiates itself by being fast, feature-rich, and native. While there are many excellent terminal emulators available, they all force you to choose between speed, features, or native UIs. Ghostty provides all three. In all categories, I am not trying to claim that Ghostty is the best (i.e. the fastest, most feature-rich, or most native). But Ghostty is competitive in all three categories and Ghostty doesn&apos;t make you choose between them. Ghostty also intends to push the boundaries of what is possible with a terminal emulator by exposing modern, opt-in features that enable CLI tool developers to build more feature rich, interactive applications. While aiming for this ambitious goal, our first step is to make Ghostty one of the best fully standards compliant terminal emulator, remaining compatible with all existing shells and software while supporting all of the latest terminal innovations in the ecosystem. You can use Ghostty as a drop-in replacement for your existing terminal emulator
   version: tip
-  download_url: https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.1.4-main%2Bd0e1452-x86_64.AppImage
-  size: 59.99 MB
+  download_url: https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.1.4-main%2B00aad86-x86_64.AppImage
+  size: 63.12 MB
   src_urls:
   - https://github.com/psadi/ghostty-appimage/releases
   web_urls:
@@ -5283,9 +5283,9 @@ appimage-github-io:
   pkg_name: gpgfrontend
   pkg_id: appimage.github.io.GpgFrontend.saturneric
   description: A Cross-Platform OpenPGP Frontend Software
-  version: v2.1.9
-  download_url: https://github.com/saturneric/GpgFrontend/releases/download/v2.1.9/GpgFrontend-2.1.9-linux-x86_64.AppImage
-  size: 56.63 MB
+  version: nightly
+  download_url: https://github.com/saturneric/GpgFrontend/releases/download/nightly/Gpg_Frontend-a4fc74e-x86_64.AppImage
+  size: 56.79 MB
   src_urls:
   - https://github.com/saturneric/GpgFrontend/releases
   web_urls:
@@ -6383,9 +6383,9 @@ appimage-github-io:
   pkg_name: kdiskmark
   pkg_id: appimage.github.io.KDiskMark.JonMagon
   description: A disk drive benchmark tool
-  version: 3.1.4
-  download_url: https://github.com/JonMagon/KDiskMark/releases/download/3.1.4/KDiskMark-3.1.4-fio-3.35-x86_64.AppImage
-  size: 42.88 MB
+  version: 3.2.0
+  download_url: https://github.com/JonMagon/KDiskMark/releases/download/3.2.0/KDiskMark-3.2.0-fio-3.40-x86_64.AppImage
+  size: 50.11 MB
   src_urls:
   - https://github.com/JonMagon/KDiskMark/releases
   web_urls:
@@ -7066,8 +7066,8 @@ appimage-github-io:
   pkg_id: appimage.github.io.LiberTEM.LiberTEM
   description: The LiberTEM project develops an open software platform for pixelated/4D scanning transmission electron microscopy
   version: continuous
-  download_url: https://github.com/LiberTEM/LiberTEM/releases/download/continuous/LiberTEM-437231c-x86_64.AppImage
-  size: 433.11 MB
+  download_url: https://github.com/LiberTEM/LiberTEM/releases/download/continuous/LiberTEM-4239efb-x86_64.AppImage
+  size: 431.42 MB
   src_urls:
   - https://github.com/LiberTEM/LiberTEM/releases
   web_urls:
@@ -7131,8 +7131,8 @@ appimage-github-io:
   pkg_name: liketaskmanager
   pkg_id: appimage.github.io.LikeTaskManager.rejuce
   description: Tool that mimics the permformance monitoring of windows task manager under linux
-  version: v2.4
-  download_url: https://github.com/rejuce/LikeTaskManager/releases/download/v2.4/LikeTaskManager-x86_64.AppImage
+  version: v3.1.0
+  download_url: https://github.com/rejuce/LikeTaskManager/releases/download/v3.1.0/LikeTaskManager-x86_64.AppImage
   size: 42.43 MB
   src_urls:
   - https://github.com/rejuce/LikeTaskManager/releases
@@ -7396,8 +7396,8 @@ appimage-github-io:
   pkg_id: appimage.github.io.MMapper.MUME
   description: "MMapper is a graphical mapper for a MUD named MUME (Multi-Users in Middle Earth). The game is traditionally played in a text-only mode, but MMapper tries to represent the virtual world in user-friendly graphical environment. It acts as a proxy between a telnet client and a MUD server, being able to analyze game data in real time and show player&apos;s position in a map. Features: Automatic room creation during mapping Automatic connection of new rooms Terrain detection (forest, road, mountain, etc) Exits detections Fast OpenGL rendering Pseudo 3D layers and drag and drop mouse operations Multi platform support Group manager support to see other people on your map"
   version: beta
-  download_url: https://github.com/MUME/MMapper/releases/download/beta/MMapper-25.06.1-11-ga086a444-x86_64.AppImage
-  size: 37.82 MB
+  download_url: https://github.com/MUME/MMapper/releases/download/beta/MMapper-25.06.2-2-g2aee3327-x86_64.AppImage
+  size: 38.51 MB
   src_urls:
   - https://github.com/MUME/MMapper/releases
   web_urls:
@@ -8297,9 +8297,9 @@ appimage-github-io:
   pkg_name: museeks
   pkg_id: appimage.github.io.Museeks.KeitIG
   description: A simple, clean and cross-platform music player, written with Node.js, Electron and React.js
-  version: 0.21.1
-  download_url: https://github.com/martpie/museeks/releases/download/0.21.1/Museeks_0.21.1_amd64.AppImage
-  size: 97.18 MB
+  version: 0.22.0
+  download_url: https://github.com/martpie/museeks/releases/download/0.22.0/Museeks_0.22.0_amd64.AppImage
+  size: 96.73 MB
   src_urls:
   - https://github.com/KeitIG/museeks/releases
   web_urls:
@@ -8518,8 +8518,8 @@ appimage-github-io:
   pkg_id: appimage.github.io.Naev.naev
   description: Naev is a 2D space trading and combat game, taking inspiration from the Escape Velocity series, among others. You pilot a space ship from a top-down perspective, and are more or less free to do what you want. As the genre name implies, you’re able to trade and engage in combat at will. Beyond that, there’s an ever-growing number of storyline missions, equipment, and ships; Even the galaxy itself grows larger with each release. For the literarily-inclined, there are large amounts of lore accompanying everything from planets to equipment
   version: nightly
-  download_url: https://github.com/naev/naev/releases/download/nightly/naev-0.13.0-alpha.7%2B545.gb8ea268b3f-linux-x86-64.AppImage
-  size: 583.11 MB
+  download_url: https://github.com/naev/naev/releases/download/nightly/naev-0.13.0-alpha.7%2B578.gd43bacb7b4-linux-x86-64.AppImage
+  size: 580.00 MB
   src_urls:
   - https://github.com/naev/naev/releases
   web_urls:
@@ -8869,9 +8869,9 @@ appimage-github-io:
   pkg_name: onlyoffice
   pkg_id: appimage.github.io.ONLYOFFICE.ONLYOFFICE
   description: "ONLYOFFICE Desktop Editors is a free office suite that combines text, spreadsheet and presentation editors allowing to create, view and edit documents stored on your Windows/Linux PC or Mac without an Internet connection. It is fully compatible with Office Open XML formats: .docx, .xlsx, .pptx"
-  version: v8.3.3
-  download_url: https://github.com/ONLYOFFICE/appimage-desktopeditors/releases/download/v8.3.3/DesktopEditors-x86_64.AppImage
-  size: 410.89 MB
+  version: v9.0.0
+  download_url: https://github.com/ONLYOFFICE/appimage-desktopeditors/releases/download/v9.0.0/DesktopEditors-x86_64.AppImage
+  size: 425.78 MB
   src_urls:
   - https://github.com/ONLYOFFICE/appimage-desktopeditors/releases
   web_urls:
@@ -10915,9 +10915,9 @@ appimage-github-io:
   pkg_name: quentier
   pkg_id: appimage.github.io.Quentier.d1vanov
   description: "Quentier is a cross-platform note taking app capable of working as Evernote client. It can also be used for local note taking as well, without the necessity to even have the Evernote account. Quentier supports the following features: * Synchronization of user data (notebooks, notes, tags, saved searches) with Evernote servers * Evernote search syntax can be used for data searching within the local database * Printing of notes and converting them to pdf files * Ability to open several notes simultaneously in either tabbed or windowed interface * Ability to switch between accounts - both local and Evernote ones"
-  version: continuous-development
-  download_url: https://github.com/d1vanov/quentier/releases/download/continuous-development/Quentier-development-x86_64.AppImage
-  size: 173.64 MB
+  version: continuous-master
+  download_url: https://github.com/d1vanov/quentier/releases/download/continuous-master/Quentier-master-x86_64.AppImage
+  size: 163.54 MB
   src_urls:
   - https://github.com/d1vanov/quentier/releases
   web_urls:
@@ -10981,9 +10981,9 @@ appimage-github-io:
   pkg_name: quickviewer
   pkg_id: appimage.github.io.QuickViewer.kanryu
   description: A image viewer application for folders/archives, it can show images very fast
-  version: v1.2.1
-  download_url: https://github.com/kanryu/quickviewer/releases/download/v1.2.1/QuickViewer-1.2.1-x64.AppImage
-  size: 35.35 MB
+  version: v1.2.2
+  download_url: https://github.com/kanryu/quickviewer/releases/download/v1.2.2/QuickViewer-1.2.2-x64.AppImage
+  size: 32.81 MB
   src_urls:
   - https://github.com/kanryu/quickviewer/releases
   web_urls:
@@ -12192,8 +12192,8 @@ appimage-github-io:
   pkg_id: appimage.github.io.Serial_Studio.Serial-Studio
   description: Multi-purpose serial data visualization & processing program
   version: continuous
-  download_url: https://github.com/Serial-Studio/Serial-Studio/releases/download/continuous/Serial-Studio-3.1.5-Linux-x86_64.AppImage
-  size: 68.93 MB
+  download_url: https://github.com/Serial-Studio/Serial-Studio/releases/download/continuous/Serial-Studio-3.1.6-Linux-x86_64.AppImage
+  size: 68.23 MB
   src_urls:
   - https://github.com/Serial-Studio/Serial-Studio/releases
   web_urls:
@@ -13137,9 +13137,9 @@ appimage-github-io:
   pkg_name: stellarium
   pkg_id: appimage.github.io.Stellarium.Stellarium
   description: "Stellarium renders 3D photo-realistic skies in real time with OpenGL. It displays stars, constellations, planets and nebulae, and has many other features including multiple panoramic landscapes, fog, light pollution simulation and a built-in scripting engine. Stellarium comes with a star catalogue of about 600 thousand stars and it is possible to download extra catalogues with up to 210 million stars. Stellarium has multiple sky cultures - see the constellations from the traditions of Polynesian, Inuit, Navajo, Korean, Lakota, Egyptian and Chinese astronomers, as well as the traditional Western constellations. It is also possible to visit other planets in the solar system - see what the sky looked like to the Apollo astronauts, or what the rings of Saturn looks like from Titan"
-  version: v25.1
-  download_url: https://github.com/Stellarium/stellarium/releases/download/v25.1/Stellarium-25.1-qt5-x86_64.AppImage
-  size: 351.02 MB
+  version: v25.2
+  download_url: https://github.com/Stellarium/stellarium/releases/download/v25.2/Stellarium-25.2-qt5-x86_64.AppImage
+  size: 350.02 MB
   src_urls:
   - https://github.com/Stellarium/stellarium/releases
   web_urls:
@@ -13842,8 +13842,8 @@ appimage-github-io:
   pkg_id: appimage.github.io.Thorium_Reader.edrlab
   description: Desktop application to read ebooks
   version: latest-linux-intel
-  download_url: https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.2.0-alpha.1.15709157845.AppImage
-  size: 131.76 MB
+  download_url: https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.2.0-alpha.1.15834120897.AppImage
+  size: 132.04 MB
   src_urls:
   - https://github.com/edrlab/thorium-reader/releases
   web_urls:
@@ -13995,8 +13995,8 @@ appimage-github-io:
   pkg_name: trezor_suite
   pkg_id: appimage.github.io.Trezor_Suite.trezor
   description: Trezor Suite desktop application
-  version: v25.6.2
-  download_url: https://github.com/trezor/trezor-suite/releases/download/v25.6.2/Trezor-Suite-25.6.2-linux-x86_64.AppImage
+  version: v25.6.3
+  download_url: https://github.com/trezor/trezor-suite/releases/download/v25.6.3/Trezor-Suite-25.6.3-linux-x86_64.AppImage
   size: 174.59 MB
   src_urls:
   - https://github.com/trezor/trezor-suite/releases
@@ -14171,9 +14171,9 @@ appimage-github-io:
   pkg_name: tutanota
   pkg_id: appimage.github.io.Tutanota.tutao
   description: The desktop client for Tutanota, the secure e-mail service
-  version: tutanota-desktop-release-287.250616.0
-  download_url: https://github.com/tutao/tutanota/releases/download/tutanota-desktop-release-287.250616.0/tutanota-desktop-linux.AppImage
-  size: 157.97 MB
+  version: tutanota-desktop-release-293.250624.0
+  download_url: https://github.com/tutao/tutanota/releases/download/tutanota-desktop-release-293.250624.0/tutanota-desktop-linux.AppImage
+  size: 158.03 MB
   src_urls:
   - https://github.com/tutao/tutanota/releases
   web_urls:
@@ -14239,7 +14239,7 @@ appimage-github-io:
   description: UltraGrid low-latency audio and video network transmission system
   version: continuous
   download_url: https://github.com/CESNET/UltraGrid/releases/download/continuous/UltraGrid-continuous-x86_64.AppImage
-  size: 147.37 MB
+  size: 147.50 MB
   src_urls:
   - https://github.com/CESNET/UltraGrid/releases
   web_urls:
@@ -14921,7 +14921,7 @@ appimage-github-io:
   description: You are the regent of a small clan. Your task is to build an ever growing settlement. Every member of your clan will do his or her part to produce more resources to further this growth. Widelands offers a single-player mode with campaigns that tell stories of the tribes and their struggle in the Widelands universe. However, settling really starts when you unite with friends over the Internet or LAN to build up new empires together – or to crush each other in the dusts of war. Widelands also offers an artificial intelligence to challenge you
   version: latest
   download_url: https://github.com/widelands/widelands/releases/download/latest/Widelands-daily-Debug-clang-12-x86_64.AppImage
-  size: 456.35 MB
+  size: 456.37 MB
   src_urls:
   - https://github.com/widelands/widelands/releases
   web_urls:
@@ -15029,8 +15029,8 @@ appimage-github-io:
   pkg_name: workflowy
   pkg_id: appimage.github.io.WorkFlowy.workflowy
   description: Make Lists. Not War
-  version: v4.1.2506111337
-  download_url: https://github.com/workflowy/desktop/releases/download/v4.1.2506111337/WorkFlowy-x86_64.AppImage
+  version: v4.1.2506251432
+  download_url: https://github.com/workflowy/desktop/releases/download/v4.1.2506251432/WorkFlowy-x86_64.AppImage
   size: 123.96 MB
   src_urls:
   - https://github.com/workflowy/desktop/releases
@@ -17934,7 +17934,7 @@ appimage-github-io:
   pkg_id: appimage.github.io.mandelbulber2.buddhi1980
   description: Visit 3D Fractal World
   version: continuous
-  download_url: https://github.com/buddhi1980/mandelbulber2/releases/download/continuous/Mandelbulber_v2-431bb6a-x86_64.AppImage
+  download_url: https://github.com/buddhi1980/mandelbulber2/releases/download/continuous/Mandelbulber_v2-160dcd6-x86_64.AppImage
   size: 155.34 MB
   src_urls:
   - https://github.com/buddhi1980/mandelbulber2/releases
@@ -18661,7 +18661,7 @@ appimage-github-io:
   description: An interactive sequencer for the intermedia arts
   version: continuous
   download_url: https://github.com/ossia/score/releases/download/continuous/ossia.score-master-linux-x86_64.AppImage
-  size: 305.39 MB
+  size: 305.42 MB
   src_urls:
   - https://github.com/OSSIA/score/releases
   web_urls:
@@ -18945,9 +18945,9 @@ appimage-github-io:
   pkg_name: pnpm
   pkg_id: appimage.github.io.pnpm.simnalamburt
   description: 📦 pnpm in a single file, powered by AppImage
-  version: v10.12.1
-  download_url: https://github.com/simnalamburt/pnpm.appimage/releases/download/v10.12.1/pnpm-x86_64.AppImage
-  size: 4.66 MB
+  version: v10.12.3
+  download_url: https://github.com/simnalamburt/pnpm.appimage/releases/download/v10.12.3/pnpm-x86_64.AppImage
+  size: 4.29 MB
   src_urls:
   - https://github.com/simnalamburt/pnpm.appimage/releases
   web_urls:
@@ -19716,7 +19716,7 @@ appimage-github-io:
   pkg_id: appimage.github.io.sqlitebrowser.sqlitebrowser
   description: "DB Browser for SQLite is a high quality, visual, open source tool to create, design, and edit database files compatible with SQLite. It is for users and developers wanting to create databases, search, and edit data. It uses a familiar spreadsheet-like interface, and you don&apos;t need to learn complicated SQL commands. Controls and wizards are available for users to: Create and compact database files Create, define, modify and delete tables Create, define and delete indexes Browse, edit, add and delete records Search records Import and export records as text Import and export tables from/to CSV files Import and export databases from/to SQL dump files Issue SQL queries and inspect the results Examine a log of all SQL commands issued by the application"
   version: nightly
-  download_url: https://github.com/sqlitebrowser/sqlitebrowser/releases/download/nightly/DB.Browser.for.SQLCipher-20250608-x86.64.AppImage
+  download_url: https://github.com/sqlitebrowser/sqlitebrowser/releases/download/nightly/DB.Browser.for.SQLCipher-20250621-x86.64.AppImage
   size: 38.93 MB
   src_urls:
   - https://github.com/sqlitebrowser/sqlitebrowser/releases
@@ -19781,8 +19781,8 @@ appimage-github-io:
   pkg_name: sticker-convert
   pkg_id: appimage.github.io.sticker-convert.laggykiller
   description: Convert (animated) stickers between WhatsApp, Telegram, Signal, Line, Kakao, iMessage, with ability to download stickers from some of the messaging platforms. Written in Python. Able to run in CLI and GUI mode
-  version: v2.13.2.1
-  download_url: https://github.com/laggykiller/sticker-convert/releases/download/v2.13.2.1/sticker-convert-x86_64.AppImage
+  version: v2.13.2.2
+  download_url: https://github.com/laggykiller/sticker-convert/releases/download/v2.13.2.2/sticker-convert-x86_64.AppImage
   size: 112.64 MB
   src_urls:
   - https://github.com/laggykiller/sticker-convert/releases
@@ -19913,8 +19913,8 @@ appimage-github-io:
   pkg_name: sunshine
   pkg_id: appimage.github.io.sunshine.LizardByte
   description: Offering low latency, cloud gaming server capabilities with support for AMD, Intel, and Nvidia GPUs for hardware encoding. Software encoding is also available. You can connect to Sunshine from any Moonlight client on a variety of devices. A web UI is provided to allow configuration, and client pairing, from your favorite web browser. Pair from the local server or any mobile device
-  version: v2025.617.220707
-  download_url: https://github.com/LizardByte/Sunshine/releases/download/v2025.617.220707/sunshine.AppImage
+  version: v2025.625.131539
+  download_url: https://github.com/LizardByte/Sunshine/releases/download/v2025.625.131539/sunshine.AppImage
   size: 41.21 MB
   src_urls:
   - https://github.com/LizardByte/Sunshine/releases

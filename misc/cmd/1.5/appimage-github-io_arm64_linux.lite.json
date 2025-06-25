@@ -33,9 +33,9 @@
    "pkg_name": "antares",
    "pkg_id": "appimage.github.io.Antares.Fabio286",
    "description": "A cross-platform easy to use SQL client",
-   "version": "v0.7.34",
-   "download_url": "https://github.com/antares-sql/antares/releases/download/v0.7.34/Antares-0.7.34-linux_arm64.AppImage",
-   "size": "154.91 MB",
+   "version": "v0.7.35",
+   "download_url": "https://github.com/antares-sql/antares/releases/download/v0.7.35/Antares-0.7.35-linux_arm64.AppImage",
+   "size": "155.98 MB",
    "src_urls": [
     "https://github.com/Fabio286/antares/releases"
    ],
@@ -397,8 +397,8 @@
    "pkg_name": "cryptomator",
    "pkg_id": "appimage.github.io.Cryptomator.cryptomator",
    "description": "Cryptomator provides easy-to-use, transparent, client-side encryption for your cloud. It protects your documents from unauthorized access and prying eyes, while you will still be able to view and edit your documents locally. By not requiring any registration or account and performing all encryption locally, it gives you back control over your data and ensures your privacy. Cryptomator is offered for all major platforms (including Android and iOS). Cryptomator encrypts file contents and names using the widespread industry standard AES. Your passphrase is protected against brute forcing attempts using scrypt. Additionally, directory structures get obfuscated. For more info about the Cryptomator encryption scheme, check out the online documentation. Cryptomator is a free and open-source software licensed under the GPLv3. This allows anyone to check our code. Thus, it is impossible to introduce backdoors for third parties or to hide vulnerabilities, so you do not need to trust Cryptomator. Also, vendor lock-ins are impossible. Even if we decided to stop development: The source code is already cloned by hundreds of other developers and development can be picked up by others",
-   "version": "1.17.0-beta1",
-   "download_url": "https://github.com/cryptomator/cryptomator/releases/download/1.17.0-beta1/cryptomator-1.17.0-beta1-aarch64.AppImage",
+   "version": "1.17.0",
+   "download_url": "https://github.com/cryptomator/cryptomator/releases/download/1.17.0/cryptomator-1.17.0-aarch64.AppImage",
    "size": "53.03 MB",
    "src_urls": [
     "https://github.com/cryptomator/cryptomator/releases"
@@ -425,9 +425,9 @@
    "pkg_name": "dbgate",
    "pkg_id": "appimage.github.io.DbGate.dbgate",
    "description": "Opensource database administration tool",
-   "version": "v6.5.2",
-   "download_url": "https://github.com/dbgate/dbgate/releases/download/v6.5.2/dbgate-latest-arm64.AppImage",
-   "size": "151.95 MB",
+   "version": "v6.5.4",
+   "download_url": "https://github.com/dbgate/dbgate/releases/download/v6.5.4/dbgate-latest-arm64.AppImage",
+   "size": "151.97 MB",
    "src_urls": [
     "https://github.com/dbgate/dbgate/releases"
    ],
@@ -593,9 +593,9 @@
    "pkg_name": "freecad2",
    "pkg_id": "appimage.github.io.FreeCAD2.FreeCAD",
    "description": "FreeCAD is a parametric 3D modeler. Parametric modeling allows you to easily modify your design by going back into your model history and changing its parameters. FreeCAD is open source (LGPL license) and completely modular, allowing for very advanced extension and customization. FreeCAD is multiplatfom, and reads and writes many open file formats such as STEP, IGES, STL and others",
-   "version": "weekly-2025.06.16",
-   "download_url": "https://github.com/FreeCAD/FreeCAD/releases/download/weekly-2025.06.16/FreeCAD_weekly-2025.06.16-Linux-aarch64-py311.AppImage",
-   "size": "719.28 MB",
+   "version": "weekly-2025.06.23",
+   "download_url": "https://github.com/FreeCAD/FreeCAD/releases/download/weekly-2025.06.23/FreeCAD_weekly-2025.06.23-Linux-aarch64-py311.AppImage",
+   "size": "720.12 MB",
    "src_urls": [
     "https://github.com/FreeCAD/FreeCAD/releases"
    ],
@@ -649,9 +649,9 @@
    "pkg_name": "gdevelop",
    "pkg_id": "appimage.github.io.GDevelop.4ian",
    "description": "GDevelop 5 IDE running on the Electron runtime",
-   "version": "v5.5.231",
-   "download_url": "https://github.com/4ian/GDevelop/releases/download/v5.5.231/GDevelop-5-5.5.231-arm64.AppImage",
-   "size": "169.38 MB",
+   "version": "v5.5.232",
+   "download_url": "https://github.com/4ian/GDevelop/releases/download/v5.5.232/GDevelop-5-5.5.232-arm64.AppImage",
+   "size": "169.94 MB",
    "src_urls": [
     "https://github.com/4ian/GDevelop/releases"
    ],
@@ -678,8 +678,8 @@
    "pkg_id": "appimage.github.io.Ghostty.psadi",
    "description": "Ghostty is a terminal emulator that differentiates itself by being fast, feature-rich, and native. While there are many excellent terminal emulators available, they all force you to choose between speed, features, or native UIs. Ghostty provides all three. In all categories, I am not trying to claim that Ghostty is the best (i.e. the fastest, most feature-rich, or most native). But Ghostty is competitive in all three categories and Ghostty doesn\u0026apos;t make you choose between them. Ghostty also intends to push the boundaries of what is possible with a terminal emulator by exposing modern, opt-in features that enable CLI tool developers to build more feature rich, interactive applications. While aiming for this ambitious goal, our first step is to make Ghostty one of the best fully standards compliant terminal emulator, remaining compatible with all existing shells and software while supporting all of the latest terminal innovations in the ecosystem. You can use Ghostty as a drop-in replacement for your existing terminal emulator",
    "version": "tip",
-   "download_url": "https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.1.4-main%2Bd0e1452-aarch64.AppImage",
-   "size": "44.52 MB",
+   "download_url": "https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.1.4-main%2B00aad86-aarch64.AppImage",
+   "size": "63.00 MB",
    "src_urls": [
     "https://github.com/psadi/ghostty-appimage/releases"
    ],
@@ -761,9 +761,9 @@
    "pkg_name": "gpgfrontend",
    "pkg_id": "appimage.github.io.GpgFrontend.saturneric",
    "description": "A Cross-Platform OpenPGP Frontend Software",
-   "version": "v2.1.9",
-   "download_url": "https://github.com/saturneric/GpgFrontend/releases/download/v2.1.9/GpgFrontend-2.1.9-linux-aarch64.AppImage",
-   "size": "56.35 MB",
+   "version": "nightly",
+   "download_url": "https://github.com/saturneric/GpgFrontend/releases/download/nightly/Gpg_Frontend-a4fc74e-aarch64.AppImage",
+   "size": "56.83 MB",
    "src_urls": [
     "https://github.com/saturneric/GpgFrontend/releases"
    ],
@@ -1462,8 +1462,8 @@
    "pkg_id": "appimage.github.io.Serial_Studio.Serial-Studio",
    "description": "Multi-purpose serial data visualization \u0026 processing program",
    "version": "continuous",
-   "download_url": "https://github.com/Serial-Studio/Serial-Studio/releases/download/continuous/Serial-Studio-3.1.5-Linux-arm64.AppImage",
-   "size": "68.17 MB",
+   "download_url": "https://github.com/Serial-Studio/Serial-Studio/releases/download/continuous/Serial-Studio-3.1.6-Linux-arm64.AppImage",
+   "size": "67.46 MB",
    "src_urls": [
     "https://github.com/Serial-Studio/Serial-Studio/releases"
    ],
@@ -1630,8 +1630,8 @@
    "pkg_id": "appimage.github.io.Thorium_Reader.edrlab",
    "description": "Desktop application to read ebooks",
    "version": "latest-linux-arm",
-   "download_url": "https://github.com/edrlab/thorium-reader/releases/download/latest-linux-arm/Thorium-3.2.0-alpha.1.15709157845-arm64.AppImage",
-   "size": "132.08 MB",
+   "download_url": "https://github.com/edrlab/thorium-reader/releases/download/latest-linux-arm/Thorium-3.2.0-alpha.1.15834120897-arm64.AppImage",
+   "size": "132.35 MB",
    "src_urls": [
     "https://github.com/edrlab/thorium-reader/releases"
    ],
@@ -1685,8 +1685,8 @@
    "pkg_name": "trezor_suite",
    "pkg_id": "appimage.github.io.Trezor_Suite.trezor",
    "description": "Trezor Suite desktop application",
-   "version": "v25.6.2",
-   "download_url": "https://github.com/trezor/trezor-suite/releases/download/v25.6.2/Trezor-Suite-25.6.2-linux-arm64.AppImage",
+   "version": "v25.6.3",
+   "download_url": "https://github.com/trezor/trezor-suite/releases/download/v25.6.3/Trezor-Suite-25.6.3-linux-arm64.AppImage",
    "size": "174.18 MB",
    "src_urls": [
     "https://github.com/trezor/trezor-suite/releases"
@@ -1743,7 +1743,7 @@
    "description": "UltraGrid low-latency audio and video network transmission system",
    "version": "continuous",
    "download_url": "https://github.com/CESNET/UltraGrid/releases/download/continuous/UltraGrid-latest-arm64.AppImage",
-   "size": "112.34 MB",
+   "size": "112.33 MB",
    "src_urls": [
     "https://github.com/CESNET/UltraGrid/releases"
    ],
@@ -2359,7 +2359,7 @@
    "description": "Neovim is a refactor of the Vim text editor designed to encourage new features, advanced UIs, and powerful extensions",
    "version": "nightly",
    "download_url": "https://github.com/neovim/neovim/releases/download/nightly/nvim-linux-arm64.appimage",
-   "size": "18.36 MB",
+   "size": "18.39 MB",
    "src_urls": [
     "https://github.com/neovim/neovim/releases"
    ],
@@ -2415,7 +2415,7 @@
    "description": "An interactive sequencer for the intermedia arts",
    "version": "continuous",
    "download_url": "https://github.com/ossia/score/releases/download/continuous/ossia.score-master-linux-aarch64.AppImage",
-   "size": "150.69 MB",
+   "size": "150.75 MB",
    "src_urls": [
     "https://github.com/OSSIA/score/releases"
    ],
@@ -2469,9 +2469,9 @@
    "pkg_name": "pnpm",
    "pkg_id": "appimage.github.io.pnpm.simnalamburt",
    "description": "📦 pnpm in a single file, powered by AppImage",
-   "version": "v10.12.1",
-   "download_url": "https://github.com/simnalamburt/pnpm.appimage/releases/download/v10.12.1/pnpm-aarch64.AppImage",
-   "size": "4.67 MB",
+   "version": "v10.12.3",
+   "download_url": "https://github.com/simnalamburt/pnpm.appimage/releases/download/v10.12.3/pnpm-aarch64.AppImage",
+   "size": "4.29 MB",
    "src_urls": [
     "https://github.com/simnalamburt/pnpm.appimage/releases"
    ],
@@ -2526,7 +2526,7 @@
    "pkg_id": "appimage.github.io.sqlitebrowser.sqlitebrowser",
    "description": "DB Browser for SQLite is a high quality, visual, open source tool to create, design, and edit database files compatible with SQLite. It is for users and developers wanting to create databases, search, and edit data. It uses a familiar spreadsheet-like interface, and you don\u0026apos;t need to learn complicated SQL commands. Controls and wizards are available for users to: Create and compact database files Create, define, modify and delete tables Create, define and delete indexes Browse, edit, add and delete records Search records Import and export records as text Import and export tables from/to CSV files Import and export databases from/to SQL dump files Issue SQL queries and inspect the results Examine a log of all SQL commands issued by the application",
    "version": "nightly",
-   "download_url": "https://github.com/sqlitebrowser/sqlitebrowser/releases/download/nightly/DB.Browser.for.SQLCipher-20250608-aarch64.AppImage",
+   "download_url": "https://github.com/sqlitebrowser/sqlitebrowser/releases/download/nightly/DB.Browser.for.SQLCipher-20250621-aarch64.AppImage",
    "size": "38.12 MB",
    "src_urls": [
     "https://github.com/sqlitebrowser/sqlitebrowser/releases"
@@ -2553,9 +2553,9 @@
    "pkg_name": "sticker-convert",
    "pkg_id": "appimage.github.io.sticker-convert.laggykiller",
    "description": "Convert (animated) stickers between WhatsApp, Telegram, Signal, Line, Kakao, iMessage, with ability to download stickers from some of the messaging platforms. Written in Python. Able to run in CLI and GUI mode",
-   "version": "v2.13.2.1",
-   "download_url": "https://github.com/laggykiller/sticker-convert/releases/download/v2.13.2.1/sticker-convert-aarch64.AppImage",
-   "size": "105.80 MB",
+   "version": "v2.13.2.2",
+   "download_url": "https://github.com/laggykiller/sticker-convert/releases/download/v2.13.2.2/sticker-convert-aarch64.AppImage",
+   "size": "105.78 MB",
    "src_urls": [
     "https://github.com/laggykiller/sticker-convert/releases"
    ],
