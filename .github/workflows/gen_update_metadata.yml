@@ -132,4 +132,5 @@ jobs:
         run: |
           [ "$HAS_META" = "FALSE" ] && { echo "No successful metadata generators found."; exit 1; }
           [ "$SUCCESSFUL_GENERATORS" -lt "$TOTAL_GENERATORS" ] && echo "WARNING: Only $SUCCESSFUL_GENERATORS out of $TOTAL_GENERATORS metadata generators succeeded."
+          exit 0
         shell: sh
