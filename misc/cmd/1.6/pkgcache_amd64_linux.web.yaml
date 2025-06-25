@@ -32,7 +32,7 @@ pkgcache:
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Citron-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 112
+  rank: 111
 - pkg: citron.appimage
   pkg_name: citron
   pkg_id: github.com.pkgforge-dev.Citron-AppImage.v3
@@ -67,7 +67,7 @@ pkgcache:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Citron-AppImage
   - Optimized for x86-64-v3
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 111
+  rank: 112
 - pkg: cromite.appimage
   pkg_name: cromite
   pkg_id: github.com.pkgforge-dev.Cromite-AppImage
@@ -262,7 +262,7 @@ pkgcache:
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Torzu-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 126
+  rank: 125
 - pkg: torzu.appimage
   pkg_name: torzu
   pkg_id: github.com.pkgforge-dev.Torzu-AppImage.v3
@@ -298,7 +298,7 @@ pkgcache:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Torzu-AppImage
   - Optimized for x86-64-v3
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 125
+  rank: 126
 - pkg: mpv.appimage
   pkg_name: mpv
   pkg_id: github.com.pkgforge-dev.mpv-AppImage.stable
@@ -601,7 +601,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 181
+  rank: 182
 - pkg: discord/discord.nixappimage
   pkg_name: discord
   pkg_id: nixpkgs.discord
@@ -705,7 +705,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 272
+  rank: 271
 - pkg: discord/discord.nixappimage
   pkg_name: discord
   pkg_id: nixpkgs.discord-development
@@ -745,7 +745,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 273
+  rank: 272
 - pkg: discord/discord.nixappimage
   pkg_name: discord
   pkg_id: nixpkgs.discord-ptb
@@ -795,7 +795,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 271
+  rank: 273
 - pkg: flameshot.nixappimage
   pkg_name: flameshot
   pkg_id: nixpkgs.flameshot
@@ -1096,7 +1096,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 182
+  rank: 181
 - pkg: bear.appimage
   pkg_name: bear
   pkg_id: ppkg.bundle.bear.stable
@@ -1689,7 +1689,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "Requires Fonts (On Host): https://wezfurlong.org/wezterm/config/fonts.html"
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 216
+  rank: 217
 - pkg: steam.runimage
   pkg_name: steam
   pkg_id: runimage.archlinux.steam
@@ -2577,7 +2577,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "Requires Fonts (On Host): https://wezfurlong.org/wezterm/config/fonts.html"
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 217
+  rank: 216
 - pkg: blender.runimage
   pkg_name: blender
   pkg_id: runimage.debian.blender
@@ -2885,7 +2885,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   - Please use runimage version of nmap if this doesn't work
-  rank: 287
+  rank: 288
 - pkg: nmap/ncat
   pkg_name: ncat
   pkg_id: sharun.wrappe.alpine.nmap
@@ -2916,7 +2916,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   - Please use runimage version of nmap if this doesn't work
-  rank: 288
+  rank: 287
 - pkg: nmap/nping
   pkg_name: nping
   pkg_id: sharun.wrappe.alpine.nmap
@@ -2969,7 +2969,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 185
+  rank: 186
 - pkg: oils/osh
   pkg_name: osh
   pkg_id: sharun.wrappe.alpine.oils
@@ -2991,7 +2991,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 186
+  rank: 185
 - pkg: powertop
   pkg_name: powertop
   pkg_id: sharun.wrappe.alpine.powertop
@@ -3113,7 +3113,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 134
+  rank: 131
 - pkg: subversion/svn
   pkg_name: svn
   pkg_id: sharun.wrappe.alpine.subversion
@@ -3169,7 +3169,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 135
+  rank: 137
 - pkg: subversion/svnbench
   pkg_name: svnbench
   pkg_id: sharun.wrappe.alpine.subversion
@@ -3197,7 +3197,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 129
+  rank: 138
 - pkg: subversion/svndumpfilter
   pkg_name: svndumpfilter
   pkg_id: sharun.wrappe.alpine.subversion
@@ -3225,7 +3225,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 131
+  rank: 134
 - pkg: subversion/svnlook
   pkg_name: svnlook
   pkg_id: sharun.wrappe.alpine.subversion
@@ -3253,7 +3253,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 132
+  rank: 135
 - pkg: subversion/svnmucc
   pkg_name: svnmucc
   pkg_id: sharun.wrappe.alpine.subversion
@@ -3281,7 +3281,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 130
+  rank: 133
 - pkg: subversion/svnrdump
   pkg_name: svnrdump
   pkg_id: sharun.wrappe.alpine.subversion
@@ -3309,7 +3309,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 137
+  rank: 129
 - pkg: subversion/svnserve
   pkg_name: svnserve
   pkg_id: sharun.wrappe.alpine.subversion
@@ -3337,7 +3337,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 138
+  rank: 130
 - pkg: subversion/svnversion
   pkg_name: svnversion
   pkg_id: sharun.wrappe.alpine.subversion
@@ -3365,7 +3365,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 133
+  rank: 132
 - pkg: xhost
   pkg_name: xhost
   pkg_id: sharun.wrappe.alpine.xhost
@@ -3441,7 +3441,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 143
+  rank: 147
 - pkg: cloudflare-warp/warp-dex
   pkg_name: warp-dex
   pkg_id: sharun.wrappe.cloudflare-warp.stable
@@ -3470,7 +3470,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 147
+  rank: 143
 - pkg: cloudflare-warp/warp-cli
   pkg_name: warp-cli
   pkg_id: sharun.wrappe.cloudflare-warp.stable
@@ -3499,7 +3499,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 145
+  rank: 146
 - pkg: cloudflare-warp/warp-taskbar
   pkg_name: warp-taskbar
   pkg_id: sharun.wrappe.cloudflare-warp.stable
@@ -3528,7 +3528,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 146
+  rank: 145
 - pkg: cloudflare-warp/warp-svc
   pkg_name: warp-svc
   pkg_id: sharun.wrappe.cloudflare-warp.stable
@@ -4208,7 +4208,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 194
+  rank: 195
 - pkg: fanficfare
   pkg_name: fanficfare
   pkg_id: sharun.wrappe.pypi.fanficfare
@@ -5452,7 +5452,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 22
+  rank: 23
 - pkg: emailfinder
   pkg_name: emailfinder
   pkg_id: sharun.wrappe.source.EmailFinder
@@ -5642,7 +5642,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 195
+  rank: 194
 - pkg: ghauri
   pkg_name: ghauri
   pkg_id: sharun.wrappe.source.ghauri
@@ -6081,7 +6081,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 23
+  rank: 22
 - pkg: zmap/zblocklist
   pkg_name: zblocklist
   pkg_id: sharun.wrappe.source.zmap
@@ -6114,7 +6114,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 79
+  rank: 77
 - pkg: zmap/ziterate
   pkg_name: ziterate
   pkg_id: sharun.wrappe.source.zmap
@@ -6143,7 +6143,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 78
+  rank: 76
 - pkg: zmap/zmap
   pkg_name: zmap
   pkg_id: sharun.wrappe.source.zmap
@@ -6172,7 +6172,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 80
+  rank: 79
 - pkg: zmap/ztests
   pkg_name: ztests
   pkg_id: sharun.wrappe.source.zmap
@@ -6201,7 +6201,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 76
+  rank: 80
 - pkg: zmap/ztee
   pkg_name: ztee
   pkg_id: sharun.wrappe.source.zmap
@@ -6230,7 +6230,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 77
+  rank: 78
 - pkg: caido-cli
   pkg_name: caido-cli
   pkg_id: sharun.wrappe.stable.caido-cli
@@ -6709,7 +6709,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 75
+  rank: 74
 - pkg: twingate/twingate
   pkg_name: twingate
   pkg_id: sharun.wrappe.twingate.stable
@@ -6739,7 +6739,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 74
+  rank: 75
 - pkg: zerotier-one
   pkg_name: zerotier-one
   pkg_id: sharun.wrappe.zerotier.stable
