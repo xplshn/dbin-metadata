@@ -1199,9 +1199,9 @@ appimage-github-io:
   pkg_id: appimage.github.io.Bitwarden.bitwarden
   icon: https://raw.githubusercontent.com/AppImage/appimage.github.io/refs/heads/master/database/icons/Bitwarden/icons/128x128/bitwarden.png
   description: A secure and free password manager for all of your devices
-  version: desktop-v2025.5.1
-  download_url: https://github.com/bitwarden/clients/releases/download/desktop-v2025.5.1/Bitwarden-2025.5.1-x86_64.AppImage
-  size: 118.96 MB
+  version: desktop-v2025.6.0
+  download_url: https://github.com/bitwarden/clients/releases/download/desktop-v2025.6.0/Bitwarden-2025.6.0-x86_64.AppImage
+  size: 123.77 MB
   src_urls:
   - https://github.com/bitwarden/clients/releases
   web_urls:
@@ -19011,9 +19011,9 @@ appimage-github-io:
   pkg_name: nrf_connect
   pkg_id: appimage.github.io.nRF_Connect.NordicSemiconductor
   description: nRF Connect for PC
-  version: v5.2.0
-  download_url: https://github.com/NordicSemiconductor/pc-nrfconnect-launcher/releases/download/v5.2.0/nrfconnect-5.2.0-x86_64.AppImage
-  size: 183.22 MB
+  version: v5.2.1-rc.1
+  download_url: https://github.com/NordicSemiconductor/pc-nrfconnect-launcher/releases/download/v5.2.1-rc.1/nrfconnect-5.2.1-rc.1-x86_64.AppImage
+  size: 188.23 MB
   src_urls:
   - https://github.com/NordicSemiconductor/pc-nrfconnect-core/releases
   web_urls:
