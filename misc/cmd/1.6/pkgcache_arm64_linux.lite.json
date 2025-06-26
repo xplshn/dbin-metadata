@@ -229,7 +229,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 100
+   "rank": 101
   },
   {
    "pkg": "flameshot.nixappimage",
@@ -599,7 +599,7 @@
     "Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage",
     "[PORTABLE] (Works on AnyLinux)"
    ],
-   "rank": 101
+   "rank": 100
   },
   {
    "pkg": "bear.appimage",
@@ -1516,7 +1516,7 @@
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)",
     "Please use runimage version of nmap if this doesn't work"
    ],
-   "rank": 167
+   "rank": 165
   },
   {
    "pkg": "nmap/nping",
@@ -1600,7 +1600,7 @@
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)",
     "Please use runimage version of nmap if this doesn't work"
    ],
-   "rank": 165
+   "rank": 167
   },
   {
    "pkg": "oils/osh",
@@ -1708,7 +1708,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 65
+   "rank": 64
   },
   {
    "pkg": "proxychains/proxychains-daemon",
@@ -1735,7 +1735,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 64
+   "rank": 65
   },
   {
    "pkg": "subversion/svnversion",
@@ -1846,7 +1846,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 80
+   "rank": 89
   },
   {
    "pkg": "subversion/svnsync",
@@ -1883,7 +1883,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 89
+   "rank": 81
   },
   {
    "pkg": "subversion/svnserve",
@@ -1957,7 +1957,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 86
+   "rank": 82
   },
   {
    "pkg": "subversion/svnrdump",
@@ -1994,7 +1994,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 82
+   "rank": 86
   },
   {
    "pkg": "subversion/svnmucc",
@@ -2068,7 +2068,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 87
+   "rank": 80
   },
   {
    "pkg": "subversion/svnfsfs",
@@ -2142,7 +2142,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 81
+   "rank": 87
   },
   {
    "pkg": "xhost",
@@ -2242,7 +2242,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 91
+   "rank": 93
   },
   {
    "pkg": "cloudflare-warp/warp-cli",
@@ -2322,7 +2322,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 93
+   "rank": 91
   },
   {
    "pkg": "cloudflare-warp/warp-svc",
@@ -2362,7 +2362,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 94
+   "rank": 90
   },
   {
    "pkg": "cloudflare-warp/warp-taskbar",
@@ -2402,7 +2402,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 90
+   "rank": 94
   },
   {
    "pkg": "wrangler",
@@ -2712,7 +2712,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 155
+   "rank": 156
   },
   {
    "pkg": "audiobook-dl",
@@ -5200,7 +5200,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 156
+   "rank": 155
   },
   {
    "pkg": "dnsvalidator",
@@ -6062,7 +6062,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 61
+   "rank": 59
   },
   {
    "pkg": "zmap/ztee",
@@ -6106,7 +6106,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 58
+   "rank": 61
   },
   {
    "pkg": "zmap/zmap",
@@ -6150,7 +6150,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 57
+   "rank": 60
   },
   {
    "pkg": "zmap/ziterate",
@@ -6194,7 +6194,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 60
+   "rank": 57
   },
   {
    "pkg": "zmap/zblocklist",
@@ -6242,7 +6242,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 59
+   "rank": 58
   },
   {
    "pkg": "caido-cli",
@@ -6588,7 +6588,7 @@
     "Requires '/etc/sudoers' file \u0026 '/etc/sudoers.d' dir",
     "Also requires PAM to be setup: https://github.com/trifectatechfoundation/sudo-rs#differences-from-original-sudo"
    ],
-   "rank": 125
+   "rank": 127
   },
   {
    "pkg": "sudo-rs/sudo",
@@ -6711,7 +6711,7 @@
     "Requires '/etc/sudoers' file \u0026 '/etc/sudoers.d' dir",
     "Also requires PAM to be setup: https://github.com/trifectatechfoundation/sudo-rs#differences-from-original-sudo"
    ],
-   "rank": 127
+   "rank": 125
   },
   {
    "pkg": "sudo-rs/visudo",
@@ -6875,7 +6875,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 55
+   "rank": 56
   },
   {
    "pkg": "twingate/twingate-notifier",
@@ -6916,7 +6916,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 56
+   "rank": 54
   },
   {
    "pkg": "twingate/twingate",
@@ -6957,7 +6957,7 @@
     "[PORTABLE] (Works on AnyLinux)",
     "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
    ],
-   "rank": 54
+   "rank": 55
   },
   {
    "pkg": "zerotier-one",

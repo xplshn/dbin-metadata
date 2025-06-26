@@ -249,7 +249,7 @@ pkgcache:
   notes:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Torzu-AppImage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 125
+  rank: 126
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/torzu/appimage/pkgforge-dev/stable/torzu
 - pkg: torzu.appimage
   pkg_name: torzu
@@ -286,7 +286,7 @@ pkgcache:
   - Fetched from Pre Built Community Created AppImage. Check/Report @ https://github.com/pkgforge-dev/Torzu-AppImage
   - Optimized for x86-64-v3
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 126
+  rank: 125
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/torzu/appimage/pkgforge-dev/v3/torzu
 - pkg: mpv.appimage
   pkg_name: mpv
@@ -568,7 +568,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 182
+  rank: 181
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/chromium/nixappimage/nixpkgs/stable/chromium
 - pkg: discord/discord.nixappimage
   pkg_name: discord
@@ -662,7 +662,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 273
+  rank: 272
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/discord/nixappimage/nixpkgs/canary/discord
 - pkg: discord/discord.nixappimage
   pkg_name: discord
@@ -697,7 +697,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 272
+  rank: 273
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/discord/nixappimage/nixpkgs/development/discord
 - pkg: discord/discord.nixappimage
   pkg_name: discord
@@ -1013,7 +1013,7 @@ pkgcache:
   - Packed Using NixAppImage. Check/Report @ https://github.com/pkgforge/nix-appimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/nixappimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 181
+  rank: 182
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/chromium/nixappimage/nixpkgs/ungoogled/chromium
 - pkg: bear.appimage
   pkg_name: bear
@@ -1589,7 +1589,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "Requires Fonts (On Host): https://wezfurlong.org/wezterm/config/fonts.html"
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 216
+  rank: 217
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/wezterm/runimage/alpine/stable/wezterm
 - pkg: steam.runimage
   pkg_name: steam
@@ -1618,7 +1618,7 @@ pkgcache:
   - Built Using RunImage [archlinux]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 294
+  rank: 295
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/steam/runimage/archlinux/stable/steam
 - pkg: ddnet.runimage
   pkg_name: ddnet
@@ -1763,7 +1763,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 121
+  rank: 122
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/gimp/runimage/cachyos/git/gimp
 - pkg: gimp.runimage
   pkg_name: gimp
@@ -1796,7 +1796,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 122
+  rank: 121
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/gimp/runimage/cachyos/stable/gimp
 - pkg: gnome-boxes.runimage
   pkg_name: gnome-boxes
@@ -2328,7 +2328,7 @@ pkgcache:
   - Built Using RunImage [cachyos]. Check/Report @ https://github.com/VHSgunzo/runimage
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 295
+  rank: 294
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/steam/runimage/cachyos/stable/steam
 - pkg: vscodium.runimage
   pkg_name: vscodium
@@ -2380,7 +2380,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/runimage
   - "Requires Fonts (On Host): https://wezfurlong.org/wezterm/config/fonts.html"
   - "[PORTABLE] (Works on AnyLinux)"
-  rank: 217
+  rank: 216
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/wezterm/runimage/cachyos/stable/wezterm
 - pkg: blender.runimage
   pkg_name: blender
@@ -2678,7 +2678,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   - Please use runimage version of nmap if this doesn't work
-  rank: 288
+  rank: 289
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/nmap/archive/sharun/alpine/nmap
 - pkg: nmap/ncat
   pkg_name: ncat
@@ -2710,7 +2710,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   - Please use runimage version of nmap if this doesn't work
-  rank: 287
+  rank: 288
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/nmap/archive/sharun/alpine/ncat
 - pkg: nmap/nping
   pkg_name: nping
@@ -2742,7 +2742,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   - Please use runimage version of nmap if this doesn't work
-  rank: 289
+  rank: 287
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/nmap/archive/sharun/alpine/nping
 - pkg: oils/ysh
   pkg_name: ysh
@@ -2765,7 +2765,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 185
+  rank: 186
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/oils/archive/sharun/alpine/ysh
 - pkg: oils/osh
   pkg_name: osh
@@ -2788,7 +2788,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 186
+  rank: 185
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/oils/archive/sharun/alpine/osh
 - pkg: powertop
   pkg_name: powertop
@@ -2834,7 +2834,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 84
+  rank: 83
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/proxychains/archive/sharun/alpine/proxychains-daemon
 - pkg: proxychains/proxychains
   pkg_name: proxychains
@@ -2857,7 +2857,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 83
+  rank: 84
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/proxychains/archive/sharun/alpine/proxychains
 - pkg: subversion/svnfsfs
   pkg_name: svnfsfs
@@ -2886,7 +2886,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 132
+  rank: 136
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/subversion/archive/sharun/alpine/svnfsfs
 - pkg: subversion/svnsync
   pkg_name: svnsync
@@ -2915,7 +2915,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 129
+  rank: 130
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/subversion/archive/sharun/alpine/svnsync
 - pkg: subversion/svn
   pkg_name: svn
@@ -2973,7 +2973,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 138
+  rank: 131
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/subversion/archive/sharun/alpine/svnadmin
 - pkg: subversion/svnbench
   pkg_name: svnbench
@@ -3002,7 +3002,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 136
+  rank: 129
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/subversion/archive/sharun/alpine/svnbench
 - pkg: subversion/svndumpfilter
   pkg_name: svndumpfilter
@@ -3031,7 +3031,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 130
+  rank: 135
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/subversion/archive/sharun/alpine/svndumpfilter
 - pkg: subversion/svnlook
   pkg_name: svnlook
@@ -3060,7 +3060,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 131
+  rank: 134
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/subversion/archive/sharun/alpine/svnlook
 - pkg: subversion/svnmucc
   pkg_name: svnmucc
@@ -3089,7 +3089,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 137
+  rank: 138
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/subversion/archive/sharun/alpine/svnmucc
 - pkg: subversion/svnrdump
   pkg_name: svnrdump
@@ -3118,7 +3118,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 135
+  rank: 132
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/subversion/archive/sharun/alpine/svnrdump
 - pkg: subversion/svnserve
   pkg_name: svnserve
@@ -3147,7 +3147,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 133
+  rank: 137
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/subversion/archive/sharun/alpine/svnserve
 - pkg: subversion/svnversion
   pkg_name: svnversion
@@ -3176,7 +3176,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 134
+  rank: 133
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/subversion/archive/sharun/alpine/svnversion
 - pkg: xhost
   pkg_name: xhost
@@ -3315,7 +3315,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 144
+  rank: 146
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/cloudflare-warp/archive/sharun/stable/warp-cli
 - pkg: cloudflare-warp/warp-taskbar
   pkg_name: warp-taskbar
@@ -3345,7 +3345,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 145
+  rank: 144
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/cloudflare-warp/archive/sharun/stable/warp-taskbar
 - pkg: cloudflare-warp/warp-svc
   pkg_name: warp-svc
@@ -3375,7 +3375,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 146
+  rank: 145
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/cloudflare-warp/archive/sharun/stable/warp-svc
 - pkg: wrangler
   pkg_name: wrangler
@@ -3584,7 +3584,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 265
+  rank: 266
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/archey/archive/sharun/pypi/archey
 - pkg: audiobook-dl
   pkg_name: audiobook-dl
@@ -4042,7 +4042,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 194
+  rank: 195
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/dvc/archive/sharun/pypi/dvc
 - pkg: fanficfare
   pkg_name: fanficfare
@@ -5330,7 +5330,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 22
+  rank: 23
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/yt-dlp/archive/sharun/pypi/yt-dlp
 - pkg: emailfinder
   pkg_name: emailfinder
@@ -5430,7 +5430,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 266
+  rank: 265
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/archey/archive/sharun/source/archey
 - pkg: ciphey
   pkg_name: ciphey
@@ -5527,7 +5527,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 195
+  rank: 194
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/dvc/archive/sharun/source/dvc
 - pkg: ghauri
   pkg_name: ghauri
@@ -5977,7 +5977,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 23
+  rank: 22
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/yt-dlp/archive/sharun/source/yt-dlp
 - pkg: zmap/zblocklist
   pkg_name: zblocklist
@@ -6011,7 +6011,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 79
+  rank: 76
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/zmap/archive/sharun/source/zblocklist
 - pkg: zmap/ziterate
   pkg_name: ziterate
@@ -6071,7 +6071,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 77
+  rank: 79
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/zmap/archive/sharun/source/zmap
 - pkg: zmap/ztests
   pkg_name: ztests
@@ -6131,7 +6131,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 76
+  rank: 77
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/zmap/archive/sharun/source/ztee
 - pkg: caido-cli
   pkg_name: caido-cli
@@ -6237,7 +6237,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   - This version was repacked from official Deb & contains the most features
-  rank: 239
+  rank: 238
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/fastfetch/archive/sharun/stable/fastfetch
 - pkg: fastfetch/flashfetch
   pkg_name: flashfetch
@@ -6280,7 +6280,7 @@ pkgcache:
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
   - This version was repacked from official Deb & contains the most features
-  rank: 238
+  rank: 239
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/fastfetch/archive/sharun/stable/flashfetch
 - pkg: sanicdns
   pkg_name: sanicdns
@@ -6413,7 +6413,7 @@ pkgcache:
   - chmod -v 'a=rx,u+ws' sudo
   - Requires '/etc/sudoers' file & '/etc/sudoers.d' dir
   - "Also requires PAM to be setup: https://github.com/trifectatechfoundation/sudo-rs#differences-from-original-sudo"
-  rank: 212
+  rank: 211
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/sudo-rs/archive/sharun/source/su
 - pkg: sudo-rs/sudo
   pkg_name: sudo
@@ -6485,7 +6485,7 @@ pkgcache:
   - chmod -v 'a=rx,u+ws' sudo
   - Requires '/etc/sudoers' file & '/etc/sudoers.d' dir
   - "Also requires PAM to be setup: https://github.com/trifectatechfoundation/sudo-rs#differences-from-original-sudo"
-  rank: 211
+  rank: 213
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/sudo-rs/archive/sharun/source/sudo
 - pkg: sudo-rs/visudo
   pkg_name: visudo
@@ -6559,7 +6559,7 @@ pkgcache:
   - chmod -v 'a=rx,u+ws' sudo
   - Requires '/etc/sudoers' file & '/etc/sudoers.d' dir
   - "Also requires PAM to be setup: https://github.com/trifectatechfoundation/sudo-rs#differences-from-original-sudo"
-  rank: 213
+  rank: 212
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/sudo-rs/archive/sharun/source/visudo
 - pkg: twingate/twingate-notifier
   pkg_name: twingate-notifier
@@ -6590,7 +6590,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 73
+  rank: 75
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/twingate/archive/sharun/stable/twingate-notifier
 - pkg: twingate/twingated
   pkg_name: twingated
@@ -6621,7 +6621,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 75
+  rank: 74
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/twingate/archive/sharun/stable/twingated
 - pkg: twingate/twingate
   pkg_name: twingate
@@ -6652,7 +6652,7 @@ pkgcache:
   - Learn more @ https://docs.pkgforge.dev/formats/packages/archive
   - "[PORTABLE] (Works on AnyLinux)"
   - "[NO_DESKTOP_INTEGRATION] (Does not need desktop integration)"
-  rank: 74
+  rank: 73
   web_manifest: https://pkgs.pkgforge.dev/repo/pkgcache/x86_64-linux/twingate/archive/sharun/stable/twingate
 - pkg: zerotier-one
   pkg_name: zerotier-one
