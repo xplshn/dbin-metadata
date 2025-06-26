@@ -5428,8 +5428,8 @@ appimage-github-io:
   icon: https://raw.githubusercontent.com/AppImage/appimage.github.io/refs/heads/master/database/icons/Ghostty/icons/128x128/com.mitchellh.ghostty.png
   description: Ghostty is a terminal emulator that differentiates itself by being fast, feature-rich, and native. While there are many excellent terminal emulators available, they all force you to choose between speed, features, or native UIs. Ghostty provides all three. In all categories, I am not trying to claim that Ghostty is the best (i.e. the fastest, most feature-rich, or most native). But Ghostty is competitive in all three categories and Ghostty doesn&apos;t make you choose between them. Ghostty also intends to push the boundaries of what is possible with a terminal emulator by exposing modern, opt-in features that enable CLI tool developers to build more feature rich, interactive applications. While aiming for this ambitious goal, our first step is to make Ghostty one of the best fully standards compliant terminal emulator, remaining compatible with all existing shells and software while supporting all of the latest terminal innovations in the ecosystem. You can use Ghostty as a drop-in replacement for your existing terminal emulator
   version: tip
-  download_url: https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.1.4-main%2B00aad86-x86_64.AppImage
-  size: 63.12 MB
+  download_url: https://github.com/pkgforge-dev/ghostty-appimage/releases/download/tip/Ghostty-1.1.4-main%2Bfa47db5-x86_64.AppImage
+  size: 62.41 MB
   src_urls:
   - https://github.com/psadi/ghostty-appimage/releases
   web_urls:
@@ -9005,9 +9005,9 @@ appimage-github-io:
   pkg_id: appimage.github.io.Museeks.KeitIG
   icon: https://raw.githubusercontent.com/AppImage/appimage.github.io/refs/heads/master/database/icons/Museeks/icons/128x128/museeks.png
   description: A simple, clean and cross-platform music player, written with Node.js, Electron and React.js
-  version: 0.22.0
-  download_url: https://github.com/martpie/museeks/releases/download/0.22.0/Museeks_0.22.0_amd64.AppImage
-  size: 96.73 MB
+  version: 0.22.1
+  download_url: https://github.com/martpie/museeks/releases/download/0.22.1/Museeks_0.22.1_amd64.AppImage
+  size: 96.72 MB
   src_urls:
   - https://github.com/KeitIG/museeks/releases
   web_urls:
@@ -13225,7 +13225,7 @@ appimage-github-io:
   description: Multi-purpose serial data visualization & processing program
   version: continuous
   download_url: https://github.com/Serial-Studio/Serial-Studio/releases/download/continuous/Serial-Studio-3.1.6-Linux-x86_64.AppImage
-  size: 68.23 MB
+  size: 68.26 MB
   src_urls:
   - https://github.com/Serial-Studio/Serial-Studio/releases
   web_urls:
