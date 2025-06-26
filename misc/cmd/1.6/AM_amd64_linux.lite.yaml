@@ -26,8 +26,8 @@ AM:
   version: 0ad
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/0ad-prerelease%2Fx86_64-Linux%2F0ad/0ad-prerelease
   size: 1.8 GB
-  bsum: 6cc0d9f37ff4185287b233ec8504d90b22be463e6c9d1b9d4c5417a0d1ee17b5
-  build_date: "2025-06-23T18:32:47Z"
+  bsum: 2c958f1bb386f5c81008bdacfae187e84c8f12a262f65c69d66f8f90e6618001
+  build_date: "2025-06-21T18:25:53Z"
   src_urls:
   - https://github.com/0ad-matters/0ad-appimage
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/0ad-prerelease
@@ -48,7 +48,7 @@ AM:
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/0ad%2Fx86_64-Linux%2F0270/0ad
   size: 1.7 GB
   bsum: 7265913a26e79a626d64cac6bed7de4ebc6c837c54e213f68f0eae2e38d55522
-  build_date: "2025-06-23T18:29:24Z"
+  build_date: "2025-06-21T18:22:14Z"
   src_urls:
   - https://github.com/0ad-matters/0ad-appimage
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/0ad
@@ -68,8 +68,8 @@ AM:
   version: 1.1.2
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/2ship%2Fx86_64-Linux%2F112/2ship
   size: 11 MB
-  bsum: e774cb710b98aaa7b8090845ce86600737f6e7edd1a3e708b697fe5b82584995
-  build_date: "2025-06-23T18:28:46Z"
+  bsum: 1729a8295fe22b02c55cd09904cc11913beaf2f1938f041f2497b7350f8592fd
+  build_date: "2025-06-21T18:23:28Z"
   src_urls:
   - https://github.com/HarbourMasters/2ship2harkinian
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/2ship
@@ -89,8 +89,8 @@ AM:
   version: 3D
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/3d-puzzles%2Fx86_64-Linux%2F3D/3d-puzzles
   size: 2.9 MB
-  bsum: 3c01ea7018c7b93e2344d7068e48ae84992d658af71abee0bfcb1edc34751b24
-  build_date: "2025-06-23T18:28:42Z"
+  bsum: f1114b885343c7fd6c522b8b5efd09b135d328171690f9513c9f769fc67a4daa
+  build_date: "2025-06-21T18:23:26Z"
   src_urls:
   - https://github.com/volatilflerovium/3D-Puzzles
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/3d-puzzles
@@ -110,8 +110,8 @@ AM:
   version: Player432Hz
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/432hz-player%2Fx86_64-Linux%2FPlayer432Hz/432hz-player
   size: 15 MB
-  bsum: d53e5d5f5984c53c57798626af938e14fa6682af3f5ce64ac56b95020fb85c98
-  build_date: "2025-06-23T18:29:42Z"
+  bsum: 702eff6a261eb1fcc9629c40e773a0c2b7b9d49496f79fb53ff5ba2ebd001967
+  build_date: "2025-06-21T18:22:16Z"
   src_urls:
   - https://github.com/mysteryx93/NaturalGroundingPlayer
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/432hz-player
@@ -131,8 +131,8 @@ AM:
   version: 7z2409
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/7zip%2Fx86_64-Linux%2F7z2409/7zip.bundle.tar.zstd
   size: 3.0 MB
-  bsum: 6edb1d7a5c8a9d6c867272d6026892a60a281144f5432eef0bd3193f22064c81
-  build_date: "2025-06-23T18:28:53Z"
+  bsum: 15496e1ec9e47c9c21921326cdd23997dab6f3d9eac5d04c1f219478bf41cc02
+  build_date: "2025-06-21T18:23:07Z"
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/7zip
   build_log: https://huggingface.co/datasets/pkgforge/AMcache/resolve/7zip%2Fx86_64-Linux%2F7z2409/7zip.log
   maintainers: AM (https://github.com/ivan-hc/AM)
@@ -151,8 +151,8 @@ AM:
   version: 4.2.1
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/86box%2Fx86_64-Linux%2F421/86box
   size: 61 MB
-  bsum: 5e516e445ef8df1964839f9c1ebb734c6b446341452fdd9b946107b752296164
-  build_date: "2025-06-23T18:30:34Z"
+  bsum: b2b9bbb4f2a19541701b36fa4d0395a253a243d88dd642d6652130b39b652dfd
+  build_date: "2025-06-21T18:22:53Z"
   src_urls:
   - https://github.com/86Box/86Box
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/86box
@@ -172,8 +172,8 @@ AM:
   version: 1.3.1
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/9launcher%2Fx86_64-Linux%2F131/9launcher
   size: 118 MB
-  bsum: f8580e56a0dee0a92520ad072bdab7b0312111e15c04de48fc625d5685b083a0
-  build_date: "2025-06-23T18:30:35Z"
+  bsum: a150303359b07fc8c5cc11b8e4605199f1ed4577e614662148c2fc4a7da6d5fb
+  build_date: "2025-06-21T18:23:39Z"
   src_urls:
   - https://github.com/wearrrrr/9Launcher
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/9launcher
@@ -193,8 +193,8 @@ AM:
   version: 1.6.241
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/aaaaxy%2Fx86_64-Linux%2F16241/aaaaxy
   size: 35 MB
-  bsum: 340ea9f71e8a1fa61a91f106380f90abee7319b3e074cbaaefb22283996528ff
-  build_date: "2025-06-23T18:29:03Z"
+  bsum: f6fb67a848994c41608c39d476527090e3f1e21edc709aef63785cd9478cba80
+  build_date: "2025-06-21T18:22:15Z"
   src_urls:
   - https://github.com/divVerent/aaaaxy
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/aaaaxy
@@ -214,8 +214,8 @@ AM:
   version: 3.0.6
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/abiword%2Fx86_64-Linux%2F306/abiword
   size: 64 MB
-  bsum: ce8d14ca722fe3bc9f3a461fa8ec3fe650be1ebd070c437f3149af3e4ab957b7
-  build_date: "2025-06-23T18:28:46Z"
+  bsum: 6253da7156ffa6337d7582788491d48a95b40e0fac1eafc62c0949d75ee149a0
+  build_date: "2025-06-21T18:22:10Z"
   src_urls:
   - https://github.com/ivan-hc/Abiword-appimage
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/abiword
@@ -236,7 +236,7 @@ AM:
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/accessimap-lecteur-der%2Fx86_64-Linux%2F0034/accessimap-lecteur-der
   size: 52 MB
   bsum: 215f29ab76d0270fa9c0007d9a409710083c92486c766351a101600377c7a425
-  build_date: "2025-06-23T18:29:20Z"
+  build_date: "2025-06-21T18:22:29Z"
   src_urls:
   - https://github.com/makinacorpus/accessimap-lecteur-der
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/accessimap-lecteur-der
@@ -256,8 +256,8 @@ AM:
   version: 3.2.3
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/acestream%2Fx86_64-Linux%2F323/acestream
   size: 120 MB
-  bsum: 76a4788fd3c55d92fb8d2505bb91d08ecff4901a6c204ccd95fb4dbb3f8b288f
-  build_date: "2025-06-23T18:29:55Z"
+  bsum: f16843cfcb6e08ed1091d5c32d6c74d9f348d4822a63ba3f40f9717b25f54721
+  build_date: "2025-06-21T18:23:51Z"
   src_urls:
   - https://github.com/bro2020/acestream-appimage
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/acestream
@@ -277,8 +277,8 @@ AM:
   version: 1.20.2
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/acreom%2Fx86_64-Linux%2F1202/acreom
   size: 148 MB
-  bsum: f02145a989fd40d60ad48811c5a14d5878af3e073ded2b579f53068119b6c243
-  build_date: "2025-06-23T18:30:31Z"
+  bsum: 3282df2c762ea527c57c97e26fc51e3059b94c58a3a0092e74f107e042b1227d
+  build_date: "2025-06-21T18:23:48Z"
   src_urls:
   - https://github.com/Acreom/releases
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/acreom
@@ -298,8 +298,8 @@ AM:
   version: 0.0.148
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/actual%2Fx86_64-Linux%2F00148/actual
   size: 85 MB
-  bsum: 25c9ce49ba090d553fd9348cb928ece6720a2700019c1962aefa789294ef93a1
-  build_date: "2025-06-23T18:29:25Z"
+  bsum: e28aad38a189607b59b3c25593ad13b650c9fac0e9468e645a1136fbb6b792da
+  build_date: "2025-06-21T18:23:52Z"
   src_urls:
   - https://actualbudget.com/
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/actual
@@ -319,8 +319,8 @@ AM:
   version: 36.0.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/adb%2Fx86_64-Linux%2F3600/adb.bundle.tar.zstd
   size: 7.0 MB
-  bsum: 79e9fe3c165ac02f95344ea2f5b401d33aea5a9759f0cfe97c5b4d4b643b5719
-  build_date: "2025-06-23T18:29:14Z"
+  bsum: 255f63eb8e3a4f51e50f2268e24ed675016a3f834d827d970efca7463616dc52
+  build_date: "2025-06-21T18:22:29Z"
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/adb
   build_log: https://huggingface.co/datasets/pkgforge/AMcache/resolve/adb%2Fx86_64-Linux%2F3600/adb.log
   maintainers: AM (https://github.com/ivan-hc/AM)
@@ -361,8 +361,8 @@ AM:
   version: 2.5.2
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/advanced-passgen%2Fx86_64-Linux%2F252/advanced-passgen
   size: 106 MB
-  bsum: 56f5afa1933cf6d7322807fb2a834e6e8c726007bb8273b5c8bb217ebd3065d1
-  build_date: "2025-06-23T18:30:18Z"
+  bsum: 371fc012f2c6d0b038661bbcd0fdf056c592314932a4ce9e6169fc9b7c683e8a
+  build_date: "2025-06-21T18:22:38Z"
   src_urls:
   - https://codedead.com/software/advanced-passgen
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/advanced-passgen
@@ -382,8 +382,8 @@ AM:
   version: 17.0.9
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/advanced-rest-client%2Fx86_64-Linux%2F1709/advanced-rest-client
   size: 110 MB
-  bsum: 122aacae86141688e19715c1e231d3efef895bce235a33c5ef3c7778dda77e8a
-  build_date: "2025-06-23T18:29:47Z"
+  bsum: e97f0714874cc4b9801568707f18c491ad7df6df658d8527fba2ae9b51a536c6
+  build_date: "2025-06-21T18:23:03Z"
   src_urls:
   - https://github.com/advanced-rest-client/arc-electron
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/advanced-rest-client
@@ -403,8 +403,8 @@ AM:
   version: 0.0.7
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/afetch%2Fx86_64-Linux%2F007/afetch.bundle.tar.zstd
   size: 1.2 MB
-  bsum: 328866c986f2d6e174dba37cc7af401fd2839b8cc62a079b232ea1942c86bed8
-  build_date: "2025-06-23T18:30:50Z"
+  bsum: ac17a4d3abfd0f4fa2880d5fdeb9b52a6c8f363c59022bddad1aeb16aabd13d7
+  build_date: "2025-06-21T18:23:33Z"
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/afetch
   build_log: https://huggingface.co/datasets/pkgforge/AMcache/resolve/afetch%2Fx86_64-Linux%2F007/afetch.log
   maintainers: AM (https://github.com/ivan-hc/AM)
@@ -423,8 +423,8 @@ AM:
   version: 0.22.4
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/affine-beta%2Fx86_64-Linux%2F0224/affine-beta
   size: 175 MB
-  bsum: 6d7541e861bddffa5576bb92ca45672cd25f5b5b628ee62dc26cd0e5b72734c3
-  build_date: "2025-06-23T18:31:27Z"
+  bsum: a2613c5767a4e16c0095c1826cdb56a805e8a64c4133b21b036e53ccf910eccb
+  build_date: "2025-06-21T18:24:53Z"
   src_urls:
   - https://github.com/toeverything/AFFiNE
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/affine-beta
@@ -444,8 +444,8 @@ AM:
   version: 0.23.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/affine-canary%2Fx86_64-Linux%2F0230/affine-canary
   size: 175 MB
-  bsum: ed26b85e1b3b2b8b4f9ff34585b5680b1155190c54e6a5ce6dc03afc9f0f91f5
-  build_date: "2025-06-23T06:31:20Z"
+  bsum: c5823430b25ddb4626b5f0a1ac91c72c351013d74461a52c7c0942d123fbd87e
+  build_date: "2025-06-21T18:25:42Z"
   src_urls:
   - https://github.com/toeverything/AFFiNE
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/affine-canary
@@ -465,8 +465,8 @@ AM:
   version: 0.22.4
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/affine%2Fx86_64-Linux%2F0224/affine
   size: 175 MB
-  bsum: e0f762cdfaec3869ac3c9c4692d8965f4f5aa352e5222ce033e083eaa12ad20a
-  build_date: "2025-06-23T18:30:48Z"
+  bsum: f846c1add0b4e93b6ccd87e545e99f072a7cb78c1b67a41dfc9419fb7d0f9ede
+  build_date: "2025-06-21T18:23:28Z"
   src_urls:
   - https://github.com/toeverything/AFFiNE
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/affine
@@ -487,7 +487,7 @@ AM:
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/agregore%2Fx86_64-Linux%2F2121/agregore
   size: 166 MB
   bsum: 9e22b0bbf95c27b3abeb45ff78b68512f4e0dc6ce587292213dfb79a6223da36
-  build_date: "2025-06-23T18:31:25Z"
+  build_date: "2025-06-21T18:23:41Z"
   src_urls:
   - https://github.com/AgregoreWeb/agregore-browser
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/agregore
@@ -507,8 +507,8 @@ AM:
   version: 2.4.3
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/ai-bot-workspace%2Fx86_64-Linux%2F243/ai-bot-workspace
   size: 50 MB
-  bsum: 4f0a21e6604370fc24f212fcde3426f9a521839a89394d9a1d7a47ffb14d8b2f
-  build_date: "2025-06-23T18:30:49Z"
+  bsum: 5ab5630fb7ed154c6b6d8d775be5d1be5469f83d7dae194b2e82936c5aa1df2d
+  build_date: "2025-06-21T18:24:29Z"
   src_urls:
   - https://github.com/jmerle/ai-bot-workspace
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ai-bot-workspace
@@ -528,8 +528,8 @@ AM:
   version: 0.29.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/aichat%2Fx86_64-Linux%2F0290/aichat.bundle.tar.zstd
   size: 5.4 MB
-  bsum: 762f60081a6c6ed994926a42f65230fd69895587abc7611e57be6dc549ad7856
-  build_date: "2025-06-23T18:31:18Z"
+  bsum: 5b0855465e5f50f8471b2428979b0b7b58ae8e8dff81a14b1aa19e834f0589ad
+  build_date: "2025-06-21T18:25:27Z"
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/aichat
   build_log: https://huggingface.co/datasets/pkgforge/AMcache/resolve/aichat%2Fx86_64-Linux%2F0290/aichat.log
   maintainers: AM (https://github.com/ivan-hc/AM)
@@ -548,8 +548,8 @@ AM:
   version: "0.3"
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/aidm%2Fx86_64-Linux%2F03/aidm
   size: 147 MB
-  bsum: 40c376238218baf51dc198d92a4f112c47bbbd5212ffd7bbf4861e6e9d36e46c
-  build_date: "2025-06-23T18:32:35Z"
+  bsum: 3a4fb912820b272ba922b128d3b5ba718723859d2192f3a3c9c94f6583ac741b
+  build_date: "2025-06-21T18:24:17Z"
   src_urls:
   - https://github.com/Alexsussa/AIDM
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/aidm
@@ -569,8 +569,8 @@ AM:
   version: 1.1.2
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/aillio-ts%2Fx86_64-Linux%2F112/aillio-ts
   size: 57 MB
-  bsum: 9a821480fe966f69fa2d4e82902f41084fb64e7d37eaa14a381c59197802129e
-  build_date: "2025-06-23T18:31:27Z"
+  bsum: 0d0b4d924f78d0c91117152b2faa365b48fb9b2744c7dfc3dfd1f5a568c59173
+  build_date: "2025-06-21T18:25:39Z"
   src_urls:
   - https://github.com/roastworld/roast-time-release
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/aillio-ts
@@ -590,8 +590,8 @@ AM:
   version: 1.8.6
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/aim%2Fx86_64-Linux%2F186/aim.bundle.tar.zstd
   size: 7.1 MB
-  bsum: 1036f45ab894ff43235399b3bd65f827547a61ed8515b68021a75bff82f11e20
-  build_date: "2025-06-23T18:32:56Z"
+  bsum: afab5ab434470b8a32c70cfee1cff27786a7432408ecdb740c0500c1b196dd86
+  build_date: "2025-06-21T18:25:47Z"
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/aim
   build_log: https://huggingface.co/datasets/pkgforge/AMcache/resolve/aim%2Fx86_64-Linux%2F186/aim.log
   maintainers: AM (https://github.com/ivan-hc/AM)
@@ -610,8 +610,8 @@ AM:
   version: 1.0.4
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/aiming-pro%2Fx86_64-Linux%2F104/aiming-pro
   size: 87 MB
-  bsum: a019ac7e0d9f1daee718616e2dd0260ba14242a60050aa61cab159b4e1675e7f
-  build_date: "2025-06-23T18:32:01Z"
+  bsum: 4b5a97428d6b03f95aad0bf546f6ee8359f63bfb7f503ada5fa9f462636ef6b0
+  build_date: "2025-06-21T18:25:11Z"
   src_urls:
   - https://aiming.pro
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/aiming-pro
@@ -631,8 +631,8 @@ AM:
   version: 0.4.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/air-controller-desktop%2Fx86_64-Linux%2F040/air-controller-desktop
   size: 13 MB
-  bsum: 568aa0957f12ce2d9d6c2ac7a4216bec7d4ad1c15986b12847123ace2fadb375
-  build_date: "2025-06-23T18:31:52Z"
+  bsum: 2df7a29b0123b0478dacf0fa9c3f2bff544936aece15675003ecd0ff4a50a160
+  build_date: "2025-06-21T18:26:22Z"
   src_urls:
   - https://ac.yhdm360.cn/
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/air-controller-desktop
@@ -652,8 +652,8 @@ AM:
   version: 2.6.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/airspaces%2Fx86_64-Linux%2F260/airspaces
   size: 51 MB
-  bsum: a7736f4efa366a6b8a3be9bb6cfb125afc63807d67e13d156248bbd4796e0b5f
-  build_date: "2025-06-23T18:32:44Z"
+  bsum: b5b80b8f61b458dd73ad1569183256fd85eea624f0edb35d05fcccc359e056b7
+  build_date: "2025-06-21T18:26:57Z"
   src_urls:
   - https://github.com/foucdeg/x-plane-map-electron
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/airspaces
@@ -674,7 +674,7 @@ AM:
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/aisap%2Fx86_64-Linux%2F0105/aisap
   size: 2.7 MB
   bsum: fa08ff52478a15453656c699200de00ecdff020fafdf70cc091d4247507f3c43
-  build_date: "2025-06-23T18:31:55Z"
+  build_date: "2025-06-21T18:25:54Z"
   src_urls:
   - https://github.com/mgord9518/aisap
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/aisap
@@ -694,8 +694,8 @@ AM:
   version: 3.22.35
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/aisleriot%2Fx86_64-Linux%2F32235/aisleriot
   size: 67 MB
-  bsum: 7d93692fba1b2dba351908a39b54f54ae7efe89c57878645c01ea942d9e83855
-  build_date: "2025-06-23T18:32:07Z"
+  bsum: 12a05a66d2e0562c97c453eb1087bba80c23c95dbe7fcea4e25616b2429486b6
+  build_date: "2025-06-21T18:25:14Z"
   src_urls:
   - https://github.com/ivan-hc/Aisleriot-appimage
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/aisleriot
@@ -715,8 +715,8 @@ AM:
   version: 0.7.2
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/akasha%2Fx86_64-Linux%2F072/akasha
   size: 66 MB
-  bsum: 7e0cd171523ed7d5ecf7b0b7ca376839632c88a8f644da9490aeb9a5b396d26b
-  build_date: "2025-06-23T18:32:25Z"
+  bsum: 5c0fd4a7a7284d0ca22ae5fc0e121384a460583d0be3ffd84078fa6e822ae1da
+  build_date: "2025-06-21T18:25:20Z"
   src_urls:
   - https://github.com/AKASHAorg
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/akasha
@@ -736,8 +736,8 @@ AM:
   version: 1.10.1
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/akuse%2Fx86_64-Linux%2F1101/akuse
   size: 95 MB
-  bsum: 3261d193c8e34a0aac19debcf8c09b3ab41c2d1f07ff1998ad80b75e125e34e2
-  build_date: "2025-06-23T18:32:44Z"
+  bsum: 47f3cff6500823e89f2bb338c7383ed690ead66c77ac0034166210c2f0600e7f
+  build_date: "2025-06-21T18:25:39Z"
   src_urls:
   - https://github.com/akuse-app/akuse
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/akuse
@@ -758,7 +758,7 @@ AM:
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/alacritty%2Fx86_64-Linux%2F0151/alacritty
   size: 38 MB
   bsum: 3bcbf3e620f8581abd706ce9b1f0dbd8f5a72c5b5f82cf5e33c1cf3ea79d9e80
-  build_date: "2025-06-23T18:32:37Z"
+  build_date: "2025-06-21T18:25:59Z"
   src_urls:
   - https://github.com/pkgforge-dev/alacritty-AppImage
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alacritty
@@ -778,8 +778,8 @@ AM:
   version: 4.2.1
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/albafetch%2Fx86_64-Linux%2F421/albafetch.bundle.tar.zstd
   size: 136 KB
-  bsum: 0f79d4578b16dc276c7d9ed41abee3f9d11c32245e9c6d4133ab552de1fdf137
-  build_date: "2025-06-23T18:32:36Z"
+  bsum: 76a9eefe3c42300981f1562a9021a531bf6523c87afcd901df783edc3559e753
+  build_date: "2025-06-21T18:26:02Z"
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/albafetch
   build_log: https://huggingface.co/datasets/pkgforge/AMcache/resolve/albafetch%2Fx86_64-Linux%2F421/albafetch.log
   maintainers: AM (https://github.com/ivan-hc/AM)
@@ -798,8 +798,8 @@ AM:
   version: 3.2.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/alduin%2Fx86_64-Linux%2F320/alduin
   size: 76 MB
-  bsum: 3bb28e695ac341be6ed39a457297acaee1646dfda1f2df64502c4949236a013b
-  build_date: "2025-06-23T18:33:36Z"
+  bsum: 7e02911f7b11a1c25dcce43ad9abb1e45b65099d1d79f9bd70cd9517aada2c0e
+  build_date: "2025-06-21T18:26:58Z"
   src_urls:
   - https://alduinapp.github.io/
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alduin
@@ -820,7 +820,7 @@ AM:
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/alephium-wallet%2Fx86_64-Linux%2F220/alephium-wallet
   size: 95 MB
   bsum: beb78ef4a2f60881dedecc2f535c90789454dc0ad6aa2ab6dd4003688e05c7cc
-  build_date: "2025-06-23T18:34:49Z"
+  build_date: "2025-06-21T18:25:56Z"
   src_urls:
   - https://alephium.org/
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alephium-wallet
@@ -840,8 +840,8 @@ AM:
   version: 0.13.1
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/alexandria%2Fx86_64-Linux%2F0131/alexandria
   size: 71 MB
-  bsum: 9403a4bfa6ff99db98bcadcfea038c87c9ea49d29f8a8b999c7128654fec2b2b
-  build_date: "2025-06-23T18:33:32Z"
+  bsum: 93b622786c2c6b43af7a51278fbc2d10b5a16eb0dfebb19f2d2e802eb64e8fa1
+  build_date: "2025-06-21T18:26:49Z"
   src_urls:
   - https://github.com/btpf/Alexandria
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alexandria
@@ -861,8 +861,8 @@ AM:
   version: 2021.12.12
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/alien-tec-ui%2Fx86_64-Linux%2F20211212/alien-tec-ui
   size: 86 MB
-  bsum: c06b28c2d6e25a2520b14cc5b9a6570771dcb72a902e82a640ed0d0742d379b4
-  build_date: "2025-06-23T18:34:31Z"
+  bsum: 4aa314f62d7195f6f7a6b76eb63f5fb01e8f89c82e5582ace86f6289cb14e3c5
+  build_date: "2025-06-21T18:25:08Z"
   src_urls:
   - https://sourceforge.net/projects/alien-tec-ui/
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alien-tec-ui
@@ -882,8 +882,8 @@ AM:
   version: 1.0.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/allusion%2Fx86_64-Linux%2F100/allusion
   size: 85 MB
-  bsum: 15d6247387eac6b4942dc3d7d062dd512c888d0fd6622d8eb4581d098a3e5b66
-  build_date: "2025-06-23T18:34:55Z"
+  bsum: e592bc3c447c4b8b7cc1ec549192734faed3a674fd6e9a940224036268f78d58
+  build_date: "2025-06-21T18:26:46Z"
   src_urls:
   - https://github.com/allusion-app/Allusion
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/allusion
@@ -925,8 +925,8 @@ AM:
   version: 1.0.8
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/alpine-flatimage%2Fx86_64-Linux%2F108/alpine-flatimage.bundle.tar.zstd
   size: 44 MB
-  bsum: 25e8a35f8a6e189d83c20137868b60c1a8e022b53e4173bd639404ded6eeb2a5
-  build_date: "2025-06-23T18:34:19Z"
+  bsum: db38b0b6322e4071e7cf50111b10e6814916468b2f6431dd6f02858644947885
+  build_date: "2025-06-21T18:28:03Z"
   src_urls:
   - https://github.com/ruanformigoni/flatimage
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alpine-flatimage
@@ -948,7 +948,7 @@ AM:
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/alr2appimage%2Fx86_64-Linux%2F100/alr2appimage
   size: 2.4 MB
   bsum: 91114e25a62d7218aada615354a094e9bd270ec6184626f520dc36b8912203bd
-  build_date: "2025-06-23T18:34:16Z"
+  build_date: "2025-06-21T18:26:54Z"
   src_urls:
   - https://github.com/mgrojo/alr2appimage
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alr2appimage
@@ -968,8 +968,8 @@ AM:
   version: 8.2.5
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/altair%2Fx86_64-Linux%2F825/altair
   size: 139 MB
-  bsum: c545a3a8112cf2b287575d3b021ee508bd4ad6c4f6fd6a5f81b72020572998f9
-  build_date: "2025-06-23T12:43:31Z"
+  bsum: 9346691ea71b7f312367c8b6e9dface6ac4853ddcc850b0b29bf8edfdca18b3b
+  build_date: "2025-06-21T18:27:22Z"
   src_urls:
   - https://github.com/altair-graphql/altair
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/altair
@@ -989,8 +989,8 @@ AM:
   version: 3.4.2
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/altitude%2Fx86_64-Linux%2F342/altitude
   size: 304 MB
-  bsum: 7f7326672b3f78740722df51541170e535ee4c5167438f158182c6998a34c30c
-  build_date: "2025-06-23T18:34:55Z"
+  bsum: 3e9ebeb2e50b6a237e76e1bbf3ebdf6d4a7eb4e1164fc77e75663775435db93c
+  build_date: "2025-06-21T18:27:56Z"
   src_urls:
   - https://github.com/TheLindaProjectInc/Altitude
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/altitude
@@ -1010,8 +1010,8 @@ AM:
   version: 5.7.1
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/altus%2Fx86_64-Linux%2F571/altus
   size: 102 MB
-  bsum: 246c1ec191093592c2d1eecbac368fce749e9aebfba7f174e5a257c8422b9de0
-  build_date: "2025-06-23T18:34:14Z"
+  bsum: 3d0aba369456a04fa108d43b3c7a361bef0a4bd8c8d7845c178fa4c50426e86a
+  build_date: "2025-06-21T18:27:32Z"
   src_urls:
   - https://github.com/amanharwara/altus
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/altus
@@ -1031,8 +1031,8 @@ AM:
   version: 18.2.6
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/alvr%2Fx86_64-Linux%2F1826/alvr
   size: 16 MB
-  bsum: 5dd217269ddbf852bfcf38a02eb9a95a9e725d370af429970c9842fa810d5070
-  build_date: "2025-06-23T06:33:57Z"
+  bsum: cc8addcc7edd1d0354b2f95c3c3bada1dcb23731d8aad91a2e15f4c36fcdeb86
+  build_date: "2025-06-21T18:27:12Z"
   src_urls:
   - https://github.com/elpinguinoopensource/alvr-appimage
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/alvr
@@ -1052,8 +1052,8 @@ AM:
   version: 3.2.81
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/amarok%2Fx86_64-Linux%2F3281/amarok
   size: 314 MB
-  bsum: 854420dc59681c57fedd73e7d0a9448f0de37e5d1ded649daedfdc87dd85a05d
-  build_date: "2025-06-23T06:33:33Z"
+  bsum: 939167eb2563456faf2ab7f9164d3a2e4db94d312f003ebb08ec19f8928f16f0
+  build_date: "2025-06-21T18:27:30Z"
   src_urls:
   - https://github.com/ivan-hc/Amarok-appimage
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/amarok
@@ -1073,8 +1073,8 @@ AM:
   version: 1.67.2
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/amazingmarvin%2Fx86_64-Linux%2F1672/amazingmarvin
   size: 113 MB
-  bsum: d713b201e1854b992672f4347aa64da94637cfa4c24978d705c7a4f5474d4d0e
-  build_date: "2025-06-23T06:34:52Z"
+  bsum: 495dd3cc549dc7c0bba2a7a97d43e012af6c6c1858e62566f0030e0d1d930973
+  build_date: "2025-06-21T18:28:04Z"
   src_urls:
   - https://amazingmarvin.com/
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/amazingmarvin
@@ -1094,8 +1094,8 @@ AM:
   version: 2025.06.18
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/amazon-q%2Fx86_64-Linux%2F20250618/amazon-q
   size: 306 MB
-  bsum: d74217fdb7d07c4b4e4aaed955857c5aa15f6b284124388fd25c0f395731cbf5
-  build_date: "2025-06-23T18:34:24Z"
+  bsum: 269fdf5f5dfbb39998deea8bbcf6cb4d7e1142b40201ebdafeedb0ec7d3010b1
+  build_date: "2025-06-21T18:28:26Z"
   src_urls:
   - https://aws.amazon.com
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/amazon-q
@@ -1138,7 +1138,7 @@ AM:
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/amdgpu_top%2Fx86_64-Linux%2F0105/amdgpu_top
   size: 8.4 MB
   bsum: 3fe694f91230c1edafcd3fada13428b711df8f38f7c0929050fae9909eb584c3
-  build_date: "2025-06-23T01:29:52Z"
+  build_date: "2025-06-21T18:28:12Z"
   src_urls:
   - https://github.com/Umio-Yasuno/amdgpu_top
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/amdgpu_top
@@ -1178,8 +1178,8 @@ AM:
   version: 1.3.3
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/amusiz%2Fx86_64-Linux%2F133/amusiz
   size: 180 MB
-  bsum: 2383c4dcb196ef43a7652b2614f61b5858e7e9f9b3475d6f89a1699373a3c103
-  build_date: "2025-06-23T01:32:30Z"
+  bsum: 28fa3826a538eb0b01ffdb5e4690cde5f9041d758a6c270a9fee585d4185e022
+  build_date: "2025-06-21T18:28:24Z"
   src_urls:
   - https://github.com/mirkobrombin/Amusiz
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/amusiz
@@ -1199,8 +1199,8 @@ AM:
   version: 2.0.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/anavis%2Fx86_64-Linux%2F200/anavis
   size: 78 MB
-  bsum: 3a4b82d5cd7d2e791ecef5ec1f70f16c3891e76324a084c234ac3a048cf60abe
-  build_date: "2025-06-23T01:30:12Z"
+  bsum: c17854554b006aeaad36d1d1a6d4c8f957667b94eb1f8dfb0c22d5a9d475827f
+  build_date: "2025-06-21T18:28:11Z"
   src_urls:
   - https://anavis.de/
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/anavis
@@ -1220,8 +1220,8 @@ AM:
   version: 1.3.12
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/anchor%2Fx86_64-Linux%2F1312/anchor
   size: 89 MB
-  bsum: 567c33d06ce6fe232b79cd10fa3b7b29574ce42fce06770247c2068b0068d441
-  build_date: "2025-06-23T01:30:41Z"
+  bsum: de4f3dd18317d1a0261b941da3ec4b51c559080a1ef9741c4c21d688093d9d94
+  build_date: "2025-06-21T18:28:38Z"
   src_urls:
   - https://greymass.com/anchor/
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/anchor
@@ -1261,8 +1261,8 @@ AM:
   version: 3.1.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/android-messages-desktop%2Fx86_64-Linux%2F310/android-messages-desktop
   size: 66 MB
-  bsum: 1b69e453ff624e0913851bb1a5e34c675ed9720da3f5580c8d4f543e15e17de7
-  build_date: "2025-06-23T01:30:41Z"
+  bsum: 42f60b2fcf808955f2353d3cc792f8decc8d10174042d973d0080c6d9279e5db
+  build_date: "2025-06-21T18:28:39Z"
   src_urls:
   - https://github.com/chrisknepper/android-messages-desktop
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/android-messages-desktop
@@ -1283,7 +1283,7 @@ AM:
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/android-studio-latest%2Fx86_64-Linux%2F20251112/android-studio-latest
   size: 1.4 GB
   bsum: 2f19a95ddd44c622c06da4b44ceac19461a637c3cd79e4d897d4f4bb81dcd9ee
-  build_date: "2025-06-23T01:28:17Z"
+  build_date: "2025-06-21T18:29:40Z"
   src_urls:
   - https://github.com/zyrouge/android-studio-appimages
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/android-studio-latest
@@ -1304,7 +1304,7 @@ AM:
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/android-studio%2Fx86_64-Linux%2F20243215/android-studio
   size: 1.2 GB
   bsum: a36d319c9feb0620131552e712f4911dd9bc06ea3a719391bdf482a905eb318d
-  build_date: "2025-06-23T01:29:44Z"
+  build_date: "2025-06-21T18:28:30Z"
   src_urls:
   - https://github.com/zyrouge/android-studio-appimages
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/android-studio
@@ -1325,7 +1325,7 @@ AM:
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/android-tools%2Fx86_64-Linux%2F3600/android-tools
   size: 9.0 MB
   bsum: 880cc35e2aeb637a3da4326938e8773c020a2fa79c1dab55053905a608dafa9f
-  build_date: "2025-06-23T01:30:17Z"
+  build_date: "2025-06-21T18:28:54Z"
   src_urls:
   - https://github.com/Samueru-sama/android-tools-AppImage
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/android-tools
@@ -1345,8 +1345,8 @@ AM:
   version: 3.9.9.3
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/animashooter-junior%2Fx86_64-Linux%2F3993/animashooter-junior
   size: 47 MB
-  bsum: 5decda69b0e6acbeab9b0dba124bc1fa390d09e0a05d4866623b3c64232f90f1
-  build_date: "2025-06-23T01:30:26Z"
+  bsum: a6359b31e5cd4207d4b8975e07aab38e4058333fbb857b8a8e29970338f17972
+  build_date: "2025-06-21T18:29:05Z"
   src_urls:
   - https://www.animashooter.com
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/animashooter-junior
@@ -1366,8 +1366,8 @@ AM:
   version: 3.9.9.3
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/animashooter-pioneer%2Fx86_64-Linux%2F3993/animashooter-pioneer
   size: 49 MB
-  bsum: a56480d2dd0214199c973586ff36d41730d84f3ab695f8d40c36949f0b1db86b
-  build_date: "2025-06-23T01:30:35Z"
+  bsum: 2ebd4d416b85f39bbf0d4ed5aece9d1e5c929e27ed343cd52351af088b611321
+  build_date: "2025-06-21T18:30:00Z"
   src_urls:
   - https://www.animashooter.com
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/animashooter-pioneer
@@ -1387,8 +1387,8 @@ AM:
   version: 0.5.8
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/animos%2Fx86_64-Linux%2F058/animos
   size: 141 MB
-  bsum: ef2f9b0711c5f0d8a400d51402f038fee63e3a7a9072e0e18cf964f24bf9f040
-  build_date: "2025-06-23T01:31:20Z"
+  bsum: 3e96603fcfdffadaa27a505f37a5562960f3c928572f12dc25d3b0e1613ec2ce
+  build_date: "2025-06-21T18:29:48Z"
   src_urls:
   - https://animos.cf/
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/animos
@@ -1408,8 +1408,8 @@ AM:
   version: 0.0.4
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/aniship%2Fx86_64-Linux%2F004/aniship
   size: 88 MB
-  bsum: a36ea8e36a4cedd42d852ebe31b38e72e972ddca5a234fc2289bcb5ad37aa815
-  build_date: "2025-06-23T01:32:36Z"
+  bsum: 52404a70bbdfcb89c272a5ef29a6be63d125fe2c939eb63136c126da5b69b501
+  build_date: "2025-06-21T18:29:48Z"
   src_urls:
   - https://t.me/aniship
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/aniship
@@ -1429,8 +1429,8 @@ AM:
   version: 3.13.5
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/ankama-launcher%2Fx86_64-Linux%2F3135/ankama-launcher
   size: 170 MB
-  bsum: 525e6c00a139ef01d2539170dd87b97efa2314ba8cc913d9ecef0520ea16c391
-  build_date: "2025-06-23T01:31:15Z"
+  bsum: 2e0bffa813d44383c57ff4f1c143ed063e1467cbfd5f488f914da265e2009f3e
+  build_date: "2025-06-21T18:29:51Z"
   src_urls:
   - https://ankama.com
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ankama-launcher
@@ -1471,7 +1471,7 @@ AM:
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/anklang%2Fx86_64-Linux%2F030/anklang
   size: 105 MB
   bsum: ef79fa11790e3e15ed5cebb404cfa53dc96906968320ddbfdd7f9d3bf25d4785
-  build_date: "2025-06-23T18:34:31Z"
+  build_date: "2025-06-21T18:29:58Z"
   src_urls:
   - https://github.com/tim-janik/anklang
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/anklang
@@ -1491,8 +1491,8 @@ AM:
   version: 1.7.1
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/another-redis-desktop-manager%2Fx86_64-Linux%2F171/another-redis-desktop-manager
   size: 75 MB
-  bsum: 6f159f835e87cc2f9af7d170a13458224ee94e4fe0038226078552b163dbd537
-  build_date: "2025-06-23T18:34:21Z"
+  bsum: 326c5311e73b46c1f5f6b38ec3b021eef343be4b149795024186bc4ca3b0e26a
+  build_date: "2025-06-21T18:30:13Z"
   src_urls:
   - https://github.com/qishibo/AnotherRedisDesktopManager
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/another-redis-desktop-manager
@@ -1513,7 +1513,7 @@ AM:
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/ant-downloader%2Fx86_64-Linux%2F136/ant-downloader
   size: 85 MB
   bsum: 350b06672920e5ab71b775f033c7512a82136e6414ce98fd5ca781081cda9b5b
-  build_date: "2025-06-23T18:34:03Z"
+  build_date: "2025-06-21T18:31:05Z"
   src_urls:
   - https://github.com/anatasluo/ant
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ant-downloader
@@ -1533,8 +1533,8 @@ AM:
   version: 0.7.35
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/antares%2Fx86_64-Linux%2F0735/antares
   size: 142 MB
-  bsum: 3a046b9d2b94e18d5d27b3240f421a82c719a9152844b1db555334b42f55c0e0
-  build_date: "2025-06-23T18:35:28Z"
+  bsum: 88490171c3f4c05ccbc24882e12b28f6927a6043ac245db0f7305b1bfff5c7f8
+  build_date: "2025-06-21T18:29:35Z"
   src_urls:
   - https://github.com/antares-sql/antares
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/antares
@@ -1554,8 +1554,8 @@ AM:
   version: 3.5.1
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/antimicrox%2Fx86_64-Linux%2F351/antimicrox
   size: 44 MB
-  bsum: 14fc473042bc8abaf05437427e485d7bebd19d2167e133dea1e488bdba9a085a
-  build_date: "2025-06-23T18:34:47Z"
+  bsum: 39d20bb0976042aeb989c82357b4af788afe61c23da0f9b873b7bfeccac14794
+  build_date: "2025-06-21T18:30:14Z"
   src_urls:
   - https://github.com/AntiMicroX/antimicrox
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/antimicrox
@@ -1575,8 +1575,8 @@ AM:
   version: 7.0.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/anydesk%2Fx86_64-Linux%2F700/anydesk
   size: 20 MB
-  bsum: 5ccc7b995e5a27ffc7568211832336bebb358b39b355d7bac93fc0055f5e5d60
-  build_date: "2025-06-23T18:34:54Z"
+  bsum: f6f097efdc81a88ceda4a6649f5a6809b880f92a56375c3854c47ea362e9e9d8
+  build_date: "2025-06-21T18:30:05Z"
   src_urls:
   - https://github.com/ivan-hc/Anydesk-appimage
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/anydesk
@@ -1596,8 +1596,8 @@ AM:
   version: 1.8.2
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/anything-llm%2Fx86_64-Linux%2F182/anything-llm
   size: 296 MB
-  bsum: 6117fe7ca5cb0eb85a39720390d2ea3340e6902a0c2a8466caa6b847c390b408
-  build_date: "2025-06-23T18:36:17Z"
+  bsum: 01ea67e5959f6ccce0345a3390b3032fc2cd8374a62c6360bd98c24c42efb782
+  build_date: "2025-06-21T18:32:20Z"
   src_urls:
   - https://useanything.com
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/anything-llm
@@ -1638,8 +1638,8 @@ AM:
   version: 2023.09.05
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/anzeigenchef%2Fx86_64-Linux%2F20230905/anzeigenchef
   size: 100 MB
-  bsum: 07475745f84e4048e9ccba976749a772e472781eb7951c07d55a543ff395ecdc
-  build_date: "2025-06-23T18:36:54Z"
+  bsum: d874566ce2f34f85ce591580a9f7040467eda4cdc5f5eefa7f84ac8d20cad2f4
+  build_date: "2025-06-21T18:30:27Z"
   src_urls:
   - https://anzeigenchef.roundcubes.de
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/anzeigenchef
@@ -1660,7 +1660,7 @@ AM:
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/aphelion-wallet%2Fx86_64-Linux%2F410/aphelion-wallet
   size: 106 MB
   bsum: 68b59a782b64416a51b325338da1fdf95371aa95aa13510536372ad549a8c111
-  build_date: "2025-06-23T18:37:13Z"
+  build_date: "2025-06-21T18:30:33Z"
   src_urls:
   - https://github.com/aphtoken/aph-wallet-gui
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/aphelion-wallet
@@ -1680,8 +1680,8 @@ AM:
   version: 1.0.7
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/aphototoollibre%2Fx86_64-Linux%2F107/aphototoollibre
   size: 42 MB
-  bsum: 1981933e9357b7b8b5f23e3b2f28861abd21a90e93047e7f93c65e2d940fab57
-  build_date: "2025-06-23T18:35:54Z"
+  bsum: 10f245bb11b20d48e4431f7cb27443ac0e46fd9ce7f22b4601790c2684a010fa
+  build_date: "2025-06-21T18:31:00Z"
   src_urls:
   - https://github.com/aphototool/A-Photo-Tool-Libre
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/aphototoollibre
@@ -1701,8 +1701,8 @@ AM:
   version: 2.7.18
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/apifox%2Fx86_64-Linux%2F2718/apifox
   size: 165 MB
-  bsum: 16005b1212d1ca4ce28abb79558f6deb7f0655b61342d7d8e9012e09729d16f6
-  build_date: "2025-06-23T18:38:04Z"
+  bsum: 51eda6e01cd926d941fb1536847c32f9108a945f3e6984c154c27743deae8b5d
+  build_date: "2025-06-21T18:31:56Z"
   src_urls:
   - https://apifox.com/
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/apifox
@@ -1722,8 +1722,8 @@ AM:
   version: 1.7.2
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/apk-editor-studio%2Fx86_64-Linux%2F172/apk-editor-studio
   size: 53 MB
-  bsum: 3ae2290c09da1c8c56d207dd45915040a2b5e540aa3f694a7fb0fcd73f2aaef1
-  build_date: "2025-06-23T18:36:10Z"
+  bsum: aad3bf5e6af824f419310d334239e813a0883e1a7f765e500dfa278bccde64b5
+  build_date: "2025-06-21T18:32:45Z"
   src_urls:
   - https://github.com/kefir500/apk-editor-studio
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/apk-editor-studio
@@ -1743,8 +1743,8 @@ AM:
   version: 2.2.1
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/apla%2Fx86_64-Linux%2F221/apla
   size: 77 MB
-  bsum: 392c6d74d63c6690bd7e09faaf9a48b31a4afe0c124282e991854f98f1199ea4
-  build_date: "2025-06-23T18:37:50Z"
+  bsum: cac38c5189c3367815921fea61a0210541e862bcca2f3ad10c862ab56be90638
+  build_date: "2025-06-21T18:31:50Z"
   src_urls:
   - https://github.com/AplaProject/apla-front
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/apla
@@ -1764,8 +1764,8 @@ AM:
   version: 2.1.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/app-outlet%2Fx86_64-Linux%2F210/app-outlet
   size: 103 MB
-  bsum: bd59ad8480120840d3f53ff6d4572b8c38ec79381013914664e5d420279ff526
-  build_date: "2025-06-23T18:37:25Z"
+  bsum: b76f2cd7405ef1c407debeab4de3b47fc27a65a713cd1f21fa3b735db0e1988a
+  build_date: "2025-06-21T18:32:02Z"
   src_urls:
   - https://appoutlet.github.io
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/app-outlet
@@ -1806,8 +1806,8 @@ AM:
   version: 0.2.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/apphub%2Fx86_64-Linux%2F020/apphub
   size: 82 MB
-  bsum: 547d8052fe34a61363c32964e1f40329cb71049f0c9c8efe214265cceba374f0
-  build_date: "2025-06-23T18:36:27Z"
+  bsum: 4a5309e9999dd5e9ce84edbc7d915f0070be8a5f520a4e5f51358a5e1abad308
+  build_date: "2025-06-21T18:32:09Z"
   src_urls:
   - https://github.com/francesco-gaglione/AppHub
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/apphub
@@ -1827,8 +1827,8 @@ AM:
   version: 1.1.1.dev32%2Bg2709a3b
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/appimage-builder%2Fx86_64-Linux%2F111dev322Bg2709a3b/appimage-builder
   size: 60 MB
-  bsum: 37cbe77538b31fcc250b944b9d67a144e9a7503085bb9f503e7eb4be2a93149d
-  build_date: "2025-06-23T18:36:27Z"
+  bsum: 641ccc92982df4d1e8697f53051082be05ba139e51f1d09374f976136b506180
+  build_date: "2025-06-20T01:28:48Z"
   src_urls:
   - https://github.com/AppImageCrafters/appimage-builder
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appimage-builder
@@ -1890,8 +1890,8 @@ AM:
   version: "2022"
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/appimagehelper%2Fx86_64-Linux%2F2022/appimagehelper
   size: 30 MB
-  bsum: 74242133630f1cfc643b7d3bd4bbe0f30afda643bb98f3ab7ab99f3cbffcde11
-  build_date: "2025-06-23T12:47:30Z"
+  bsum: 6b9ff587a86d4f4bf9453a14646bbe52b2c66bad1d7365cf431ea1246a5fa8b8
+  build_date: "2025-06-21T18:32:13Z"
   src_urls:
   - https://gitlab.com/posktomten/appimagehelper
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appimagehelper
@@ -1975,7 +1975,7 @@ AM:
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/appimagetool%2Fx86_64-Linux%2F20250601/appimagetool
   size: 15 MB
   bsum: 40c9594e4084a81ab68973146ab632df0c108ee8b91e754e3fbbfc8834ad97eb
-  build_date: "2025-06-23T18:37:55Z"
+  build_date: "2025-06-21T18:32:15Z"
   src_urls:
   - https://github.com/AppImage/appimagetool
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appimagetool
@@ -2018,7 +2018,7 @@ AM:
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/appimageupdate%2Fx86_64-Linux%2F20250516/appimageupdate
   size: 47 MB
   bsum: 0760c3db290a764c8c1d3620dcb7664e00654bddd4d41f6398961d3295f2054b
-  build_date: "2025-06-23T12:46:14Z"
+  build_date: "2025-06-21T18:31:59Z"
   src_urls:
   - https://github.com/AppImage/AppImageUpdate
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appimageupdate
@@ -2038,31 +2038,12 @@ AM:
   version: 2.0.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/appimageupdater%2Fx86_64-Linux%2F200/appimageupdater
   size: 35 MB
-  bsum: d7b4b14ecb7a275558b19fe7bec9f300670369ce0b64aebedb49f847e467ee33
-  build_date: "2025-06-23T12:46:37Z"
+  bsum: 0fa748441726c1af4ab5a1801d6e3218ce5221372185fd9ccf836897787377c3
+  build_date: "2025-06-21T18:32:04Z"
   src_urls:
   - https://github.com/antony-jr/AppImageUpdater
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appimageupdater
   build_log: https://huggingface.co/datasets/pkgforge/AMcache/resolve/appimageupdater%2Fx86_64-Linux%2F200/appimageupdater.log
-  maintainers: AM (https://github.com/ivan-hc/AM)
-  notes:
-  - "[EXTERNAL] (This is an unofficial, third-party repository)"
-  - "[UNTRUSTED] (We CAN NOT guarantee the authenticity, validity or security)"
-  - This package was auto-built, cached & uploaded using AM
-  - "Provided by: https://github.com/ivan-hc/AM"
-  - "Learn More: https://docs.pkgforge.dev/repositories/external/am"
-  - Please create an Issue or send a PR for an official Package
-- pkg: appimageupdatetool.appimage
-  pkg_name: appimageupdatetool
-  pkg_id: AM.x86_64.appimageupdatetool.appimageupdatetool
-  description: No description available
-  version: d4ad02589
-  download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/appimageupdatetool%2Fx86_64-Linux%2Fd4ad02589/appimageupdatetool
-  size: 5.7 MB
-  bsum: 2d0f0b27d646cce751f34825938eb0939ffcc9aea07b5a9c815352eb5e38bc04
-  build_date: "2025-06-23T18:36:33Z"
-  build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appimageupdatetool
-  build_log: https://huggingface.co/datasets/pkgforge/AMcache/resolve/appimageupdatetool%2Fx86_64-Linux%2Fd4ad02589/appimageupdatetool.log
   maintainers: AM (https://github.com/ivan-hc/AM)
   notes:
   - "[EXTERNAL] (This is an unofficial, third-party repository)"
@@ -2122,8 +2103,8 @@ AM:
   version: "1.0"
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/appinstall%2Fx86_64-Linux%2F10/appinstall.bundle.tar.zstd
   size: 1.5 MB
-  bsum: a463abb7e6278fbd369df7e859ba30a158e14a5f26ad285135eff35fb51eb0bb
-  build_date: "2025-06-23T18:37:56Z"
+  bsum: 086db488aed1656c9a0bef6ee7460f6074f09919e7694ef03d862505589176bf
+  build_date: "2025-06-21T18:33:11Z"
   src_urls:
   - https://github.com/Drosaca/appImageInstaller
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/appinstall
@@ -2165,8 +2146,8 @@ AM:
   version: 1.11.10
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/aptakube%2Fx86_64-Linux%2F11110/aptakube
   size: 82 MB
-  bsum: 17ef8cfb2a0e7ef11aef59a0ee62f427405796904532bffe4a7c961be2253526
-  build_date: "2025-06-23T18:38:13Z"
+  bsum: 0a3543704fe954fc12b2bfb0864d28b1f91f958ee46769353d376af09d3b0de2
+  build_date: "2025-06-21T01:28:10Z"
   src_urls:
   - https://aptakube.com/
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/aptakube
@@ -2186,8 +2167,8 @@ AM:
   version: 11.2.9
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/apx-gcs%2Fx86_64-Linux%2F1129/apx-gcs
   size: 68 MB
-  bsum: ed4efa3576095bb79f1f60affe30485caba214c6c45a25f9bfb183c518c61318
-  build_date: "2025-06-23T12:50:33Z"
+  bsum: bb69d2bf04658a6b8a95f87df330d246d21d195ab6715090dce85fa0121b1431
+  build_date: "2025-06-20T01:32:07Z"
   src_urls:
   - https://github.com/uavos/apx-gcs
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/apx-gcs
@@ -2207,8 +2188,8 @@ AM:
   version: 1.1.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/aranym%2Fx86_64-Linux%2F110/aranym
   size: 3.6 MB
-  bsum: 50e4b0107df0180751c723ecac5c12036b7e67291a18cd23a77eaae312a4a914
-  build_date: "2025-06-23T12:46:42Z"
+  bsum: 081c30935a801db76d857738ee3da371f03ad3b1699f5de99ebee32cc332478c
+  build_date: "2025-06-20T01:31:06Z"
   src_urls:
   - https://aranym.github.io/
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/aranym
@@ -2228,8 +2209,8 @@ AM:
   version: "7.1"
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/arcade-manager%2Fx86_64-Linux%2F71/arcade-manager
   size: 109 MB
-  bsum: 6a58c11ae9642960e96ca6beaf13118ac58fa830ace521f1d04f2d582f9c3c5d
-  build_date: "2025-06-23T12:49:04Z"
+  bsum: 48aba7440c9ec05d69b4ae4bed7a5f21567c8d4223efd913e700c680438d0036
+  build_date: "2025-06-20T01:31:16Z"
   src_urls:
   - https://github.com/cosmo0/arcade-manager
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/arcade-manager
@@ -2271,8 +2252,8 @@ AM:
   version: 1.0.8
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/arch-flatimage%2Fx86_64-Linux%2F108/arch-flatimage.bundle.tar.zstd
   size: 377 MB
-  bsum: 2fc18fa05d4ac672d9a368df695386256384748ef81d121b113f4f03523d1436
-  build_date: "2025-06-23T18:37:20Z"
+  bsum: aaba0e51dcf7c9a718af7d5d161b8067d6d28d32b90714499aecd77a9948f87d
+  build_date: "2025-06-21T18:32:16Z"
   src_urls:
   - https://github.com/ruanformigoni/flatimage
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/arch-flatimage
@@ -2293,8 +2274,8 @@ AM:
   version: 0.1.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/archipel%2Fx86_64-Linux%2F010/archipel
   size: 84 MB
-  bsum: 850f4bee7139570f0a183b5623b644a5b5c9acebb097d90349773e03adb2c5e3
-  build_date: "2025-06-23T12:47:40Z"
+  bsum: 63069cabbc9f15046256c288c90b14fa3de572130051f8de191e76655be1d31f
+  build_date: "2025-06-20T01:31:55Z"
   src_urls:
   - https://github.com/arso-project/archipel
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/archipel
@@ -2314,8 +2295,8 @@ AM:
   version: 0.6.2
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/archipelago%2Fx86_64-Linux%2F062/archipelago
   size: 79 MB
-  bsum: 87a886a57d02b0440eb35b41daac5327b66d24dbc386dc250b1b621028c1e2db
-  build_date: "2025-06-23T12:47:32Z"
+  bsum: da66c0231dafbe3295d3fa68436f98d896883d37cba085fe72e5dfa8ab2992e2
+  build_date: "2025-06-20T01:32:55Z"
   src_urls:
   - https://github.com/ArchipelagoMW/Archipelago
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/archipelago
@@ -2331,16 +2312,16 @@ AM:
 - pkg: archiveweb.page.appimage
   pkg_name: archiveweb.page
   pkg_id: AM.x86_64.archiveweb.page.archiveweb.page
-  description: No description available
-  version: v0.15.2
-  download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/archivewebpage%2Fx86_64-Linux%2Fv0152/archiveweb.page
+  description: A High-Fidelity Web Archiving Extension for Chrome and Chromium based browsers
+  version: 0.15.2
+  download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/archivewebpage%2Fx86_64-Linux%2F0152/archiveweb.page
   size: 110 MB
-  bsum: 621d89d19eafec394ed5466501dc3b44481ae01e64e1cd49ce9267a1db20be58
-  build_date: "2025-06-20T01:33:20Z"
+  bsum: b09a155ea768bf86df66e7b1cfadb699b9a232918338c710d8553da5bc823d5a
+  build_date: "2025-06-21T18:33:14Z"
   src_urls:
   - https://github.com/webrecorder/archiveweb.page
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/archiveweb.page
-  build_log: https://huggingface.co/datasets/pkgforge/AMcache/resolve/archivewebpage%2Fx86_64-Linux%2Fv0152/archiveweb.page.log
+  build_log: https://huggingface.co/datasets/pkgforge/AMcache/resolve/archivewebpage%2Fx86_64-Linux%2F0152/archiveweb.page.log
   maintainers: AM (https://github.com/ivan-hc/AM)
   notes:
   - "[EXTERNAL] (This is an unofficial, third-party repository)"
@@ -2356,8 +2337,8 @@ AM:
   version: 2.3.6
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/arduino-ide%2Fx86_64-Linux%2F236/arduino-ide
   size: 176 MB
-  bsum: 38a47f608e5e56a477ef56c4153317bfb5cb71c6f8e37b0261661a1dad33f763
-  build_date: "2025-06-23T12:48:21Z"
+  bsum: ee1bd659a41dc0274c202c99389f1e0efacad47154ac263b3d9ebab6e9329963
+  build_date: "2025-06-20T01:31:54Z"
   src_urls:
   - https://github.com/arduino/arduino-ide
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/arduino-ide
@@ -2397,9 +2378,9 @@ AM:
   description: AppImage for the ares emulator
   version: 073d7a537
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/ares%2Fx86_64-Linux%2F073d7a537/ares
-  size: 112 MB
-  bsum: e3ee807abe2e431400491792dca7b3c6471e0ef772f2e5565f17bc546db990d9
-  build_date: "2025-06-23T12:47:33Z"
+  size: 113 MB
+  bsum: 0eb19df57511afc85a1fd18aa217bb91923cae9978d88e651ef3704f74a9ecea
+  build_date: "2025-06-21T18:32:44Z"
   src_urls:
   - https://github.com/bmsuseluda/ares-emu-appimage
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ares
@@ -2415,12 +2396,12 @@ AM:
 - pkg: ark.desktop.wallet.appimage
   pkg_name: ark.desktop.wallet
   pkg_id: AM.x86_64.ark.desktop.wallet.ark.desktop.wallet
-  description: Ark Ecosystem Desktop Wallet
+  description: No description available
   version: 2.9.5
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/arkdesktopwallet%2Fx86_64-Linux%2F295/ark.desktop.wallet
   size: 92 MB
-  bsum: 3f5034d2ae8e8ea705ff02ff53f5944fd4f8b7156bbe45eba3322185fd4538bb
-  build_date: "2025-06-23T12:48:30Z"
+  bsum: aab920dbf8737d300ab89f80258a1b3a0b65ac2c682c2dbfe483d05cf9014fcb
+  build_date: "2025-06-20T01:33:23Z"
   src_urls:
   - https://github.com/ArkEcosystem/desktop-wallet
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ark.desktop.wallet
@@ -2441,7 +2422,7 @@ AM:
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/ark%2Fx86_64-Linux%2F2504/kdeutils
   size: 381 MB
   bsum: 720ae3f41707bbcd65940399791e347665aaa0eb485100841f0f91e02e94d9e5
-  build_date: "2025-06-23T12:48:07Z"
+  build_date: "2025-06-21T18:33:22Z"
   src_urls:
   - https://github.com/ivan-hc/KDE-utils-appimage
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ark
@@ -2461,8 +2442,8 @@ AM:
   version: "20230301"
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/arkaway%2Fx86_64-Linux%2F20230301/arkaway
   size: 20 MB
-  bsum: 64572d92d93331e46cb3565a68b48fe92e67ff60361b61e858882bc2127b009e
-  build_date: "2025-06-23T12:49:06Z"
+  bsum: 6ca6bec6f9aaec47d85317b2fbf8d5df34e40e329897acbae48d5701058a4c60
+  build_date: "2025-06-20T01:32:01Z"
   src_urls:
   - https://github.com/son-link/arkaway
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/arkaway
@@ -2482,8 +2463,8 @@ AM:
   version: "3"
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/arma3-unix-launcher%2Fx86_64-Linux%2F3/arma3-unix-launcher
   size: 32 MB
-  bsum: 5ba59abbaa6d315663acbc36a960ea0bc90d8710d1a404281aa070fbd2a95b39
-  build_date: "2025-06-23T12:49:48Z"
+  bsum: a6347b34c5b36ac3e5a079d089b4113d0b817b7dc275f3e139711fa91d7a67eb
+  build_date: "2025-06-20T01:32:02Z"
   src_urls:
   - https://github.com/muttleyxd/arma3-unix-launcher
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/arma3-unix-launcher
@@ -2503,8 +2484,8 @@ AM:
   version: 0.2.9.2.3
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/armagetronad%2Fx86_64-Linux%2F02923/armagetronad
   size: 3.6 MB
-  bsum: 4e49c0fb756940d9a6e2879b1ef7db8952d9afd8cea6bce477d27ea6d03e1085
-  build_date: "2025-06-23T12:48:42Z"
+  bsum: 844fffea2fa3827739527704330295fabceb4def95452d156e3ecf555997e565
+  build_date: "2025-06-21T18:33:23Z"
   src_urls:
   - https://github.com/ArmagetronAd/armagetronad
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/armagetronad
@@ -2524,8 +2505,8 @@ AM:
   version: 1.1.5
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/armcord%2Fx86_64-Linux%2F115/armcord
   size: 110 MB
-  bsum: 19858b6fad024c327e554beb446af8b2848c724735d2b82334cddbc168e4bdde
-  build_date: "2025-06-23T12:49:15Z"
+  bsum: 5b324d6c748b9dce24f60ada3d2026f087b91e419174e450ea13ee6fb734e046
+  build_date: "2025-06-20T01:34:42Z"
   src_urls:
   - https://github.com/ArmCord/ArmCord
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/armcord
@@ -2567,8 +2548,8 @@ AM:
   version: 1.0.4
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/artifact%2Fx86_64-Linux%2F104/artifact
   size: 171 MB
-  bsum: 024094b34e1a94d587306da846c20e5896186bec8bdf23b2ea2c06cd72a0da97
-  build_date: "2025-06-23T12:51:03Z"
+  bsum: f15a0f873ed5bb8363d4bdb4068e68a048873cc7c961cd4007e194ff1e870342
+  build_date: "2025-06-20T01:35:13Z"
   src_urls:
   - https://www.bitbreeds.com/artifact/
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artifact
@@ -2588,8 +2569,8 @@ AM:
   version: 3.2.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/artisan%2Fx86_64-Linux%2F320/artisan
   size: 283 MB
-  bsum: 0f75dcd36b0b6b817fd81d9dab4fd3fbc6596cd5888f8d91534dd26da58eccff
-  build_date: "2025-06-23T12:50:50Z"
+  bsum: 284801a93703e3bf1a7c28176d5aa39af202f4ab075825c51191694c8037bc26
+  build_date: "2025-06-21T18:34:00Z"
   src_urls:
   - https://github.com/artisan-roaster-scope/artisan
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artisan
@@ -2609,8 +2590,8 @@ AM:
   version: "2.20"
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/artix%2Fx86_64-Linux%2F220/artix
   size: 85 MB
-  bsum: 7b16d41ad6aa389c4b17de2cdf803d7a2f949c150e02537bde2d0150eddbfb03
-  build_date: "2025-06-23T12:49:34Z"
+  bsum: be395600829bb6752f8ab20d40a91327f8247b82622da81189e00fb11bd50e5c
+  build_date: "2025-06-20T01:33:37Z"
   src_urls:
   - https://www.artix.com
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/artix
@@ -2630,8 +2611,8 @@ AM:
   version: 1.0.2
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/asarui%2Fx86_64-Linux%2F102/asarui
   size: 48 MB
-  bsum: d5585edf57f1dbeee31fdb11acab316ea84e0c0c69fe019dd493a2ec26b0e357
-  build_date: "2025-06-23T12:49:26Z"
+  bsum: 9d0ef925acfaee7658798bcfeaf8816ebf09ea116a860fb50d51c3e911d9a8a5
+  build_date: "2025-06-20T01:33:25Z"
   src_urls:
   - https://github.com/myazarc/AsarUI
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/asarui
@@ -2651,8 +2632,8 @@ AM:
   version: 1.40.2
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/asgardex%2Fx86_64-Linux%2F1402/asgardex
   size: 244 MB
-  bsum: b9d92a1f5778ea2773c09a33d8afb2784bdb5d2d668a18f1fac1e3899255cdce
-  build_date: "2025-06-23T12:51:45Z"
+  bsum: 1d4009c375d54cf253921ad28b6dffbcf1718c0fe5b304cdfcc45a8a094c2ae2
+  build_date: "2025-06-20T01:34:08Z"
   src_urls:
   - https://github.com/thorchain/asgardex-electron
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/asgardex
@@ -2672,8 +2653,8 @@ AM:
   version: 1.1.3
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/astroffers%2Fx86_64-Linux%2F113/astroffers
   size: 101 MB
-  bsum: d144a73bc16cc77771bdc86f9b046a0484a8a45cbbdcda9452bc3f1b61f5e3d8
-  build_date: "2025-06-23T12:50:23Z"
+  bsum: 39ae2c378ed1f30bc5215626082dc2184850da04dd06f978b8b473dcd58dba8f
+  build_date: "2025-06-21T18:31:44Z"
   src_urls:
   - https://github.com/jayhasyee/astroffers
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/astroffers
@@ -2693,8 +2674,8 @@ AM:
   version: 1.4.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/astrofox%2Fx86_64-Linux%2F140/astrofox
   size: 113 MB
-  bsum: dc13b9cb63797eb4f6354a2fc4802a508f4300e96e8c985a8ca2aab5c3118e6e
-  build_date: "2025-06-23T12:51:36Z"
+  bsum: 7fb008b0f319a81eaec31746d4aab1f8d62dc2ecbeebe96e7256957fdd1405b6
+  build_date: "2025-06-21T18:33:59Z"
   src_urls:
   - https://appimage.github.io/Astrofox/
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/astrofox
@@ -2714,8 +2695,8 @@ AM:
   version: 0.0.3
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/astroshutter%2Fx86_64-Linux%2F003/astroshutter
   size: 31 MB
-  bsum: b4187ca1f8de729b1f5062b32979ec5b1578f1cadca87d242807384579b0ece2
-  build_date: "2025-06-23T12:51:40Z"
+  bsum: ead1c215f3341e0e72122eb47adb56207c22d4cd4f8656aa49d7ef44ef87a405
+  build_date: "2025-06-20T01:34:32Z"
   src_urls:
   - https://github.com/vleeuwenmenno/AstroShutter
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/astroshutter
@@ -2735,8 +2716,8 @@ AM:
   version: 3.0.1
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/asunder%2Fx86_64-Linux%2F301/asunder
   size: 60 MB
-  bsum: dfa88d573ed74f00b50a0ffb38ab6868c5f0ee1bda196ff6f9698b58bd890bff
-  build_date: "2025-06-23T12:50:43Z"
+  bsum: 32fc5546a7f24d83489857c322bc1246a6db076f52a5e3d370220d5f2f9cbd73
+  build_date: "2025-06-20T01:33:49Z"
   src_urls:
   - https://github.com/ivan-hc/Database-of-pkg2appimaged-packages
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/asunder
@@ -2756,8 +2737,8 @@ AM:
   version: atomicwallet-2.76.4.AppImage
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/atomicwallet%2Fx86_64-Linux%2Fatomicwallet-2764AppImage/atomicwallet
   size: 116 MB
-  bsum: 6a7a3a049be4bc9ed51d8249f71feca7e2623127082e5c4e26f1b4f2daa23efd
-  build_date: "2025-06-23T12:51:16Z"
+  bsum: 960d1a262659d03d7bd5574534c232788aad5d3bef72d21bc4771e201a369df2
+  build_date: "2025-06-20T01:34:05Z"
   src_urls:
   - https://atomicwallet.io/
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/atomicwallet
@@ -2777,8 +2758,8 @@ AM:
   version: 4.4.2
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/audacious%2Fx86_64-Linux%2F442/audacious
   size: 101 MB
-  bsum: 88b299a85e28f63d5faeac1927edf780b593a8107cc7a859ea62c34be43fbc9a
-  build_date: "2025-06-23T12:50:50Z"
+  bsum: 3b1e168ca6c9f34e7a027126cd570b36886a311857f94f747c0d8dfa0ebb0bc3
+  build_date: "2025-06-20T01:33:43Z"
   src_urls:
   - https://github.com/ivan-hc/Database-of-pkg2appimaged-packages
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/audacious
@@ -2799,7 +2780,7 @@ AM:
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/audacity%2Fx86_64-Linux%2F374/audacity
   size: 105 MB
   bsum: a4b84e1de71a3297e20b2c9f204a130300164f309a181138e252f10c1b4019a8
-  build_date: "2025-06-23T12:50:44Z"
+  build_date: "2025-06-21T18:33:35Z"
   src_urls:
   - https://www.audacityteam.org
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/audacity
@@ -2819,8 +2800,8 @@ AM:
   version: 0.3.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/audapolis%2Fx86_64-Linux%2F030/audapolis
   size: 250 MB
-  bsum: f0bbc74777507d3fce03cf4cfb283d203ccd589701de5448ef5d288f68b5c198
-  build_date: "2025-06-23T12:53:32Z"
+  bsum: 7b195b397b939f79779d3a11b1a72026da038af18adbb082c37388124851fd22
+  build_date: "2025-06-20T01:34:55Z"
   src_urls:
   - https://github.com/bugbakery/audapolis
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/audapolis
@@ -2840,8 +2821,8 @@ AM:
   version: 1.12.1
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/audiomoth%2Fx86_64-Linux%2F1121/audiomoth
   size: 89 MB
-  bsum: 62494a8311feb159c4cae143562c9cf9298581e57a0bca47abfee59e27b98c43
-  build_date: "2025-06-23T12:51:59Z"
+  bsum: d1c6714d01ce6e720560b054221ec8dd1b2f4f11b841c0c374e6bdf8aeff5d5a
+  build_date: "2025-06-21T18:34:06Z"
   src_urls:
   - https://github.com/OpenAcousticDevices/AudioMoth-Configuration-App
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/audiomoth
@@ -2861,8 +2842,8 @@ AM:
   version: 1.16.11
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/augur%2Fx86_64-Linux%2F11611/augur
   size: 145 MB
-  bsum: b790fa7a29c01100945369d9c391ceef0c3e45759c087a868730d9cc94f467bd
-  build_date: "2025-06-23T12:52:31Z"
+  bsum: 33a2ad766248453df338aac733c0f02fbc06c3d3bad3f57f25fddfda6a059a6a
+  build_date: "2025-06-20T01:35:10Z"
   src_urls:
   - https://github.com/AugurProject/augur-app
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/augur
@@ -2882,8 +2863,8 @@ AM:
   version: 2.5.4
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/auryo%2Fx86_64-Linux%2F254/auryo
   size: 82 MB
-  bsum: 9d7042a395410ee6a538e99f4d923ea38f77ec4fa3bcc421144a9ab50863cbfb
-  build_date: "2025-06-23T12:53:22Z"
+  bsum: ceae4c61bee0701eaf7c8f651fdbe319253e20e836a73c42ee527ea59d12dc83
+  build_date: "2025-06-20T01:34:59Z"
   src_urls:
   - https://auryo.com/
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/auryo
@@ -2903,8 +2884,8 @@ AM:
   version: 6.1.1
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/authme%2Fx86_64-Linux%2F611/authme
   size: 123 MB
-  bsum: 691a5a9117ca1fc908a1a55e060eeab2614ef9f673c4932be99a32e0e9a34a32
-  build_date: "2025-06-23T12:52:02Z"
+  bsum: 4a710f64a75672a40e8d69e11db425bd3bc75cdbfb8d1f89708dcf13171c447f
+  build_date: "2025-06-21T18:34:20Z"
   src_urls:
   - https://github.com/Levminer/authme
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/authme
@@ -2924,8 +2905,8 @@ AM:
   version: 2.5.0.glibc2.17
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/authy%2Fx86_64-Linux%2F250glibc217/authy
   size: 77 MB
-  bsum: e29b361140ad724368818576032fe6cd3fd4c4639f0f30297198fa9579aee645
-  build_date: "2025-06-23T12:53:09Z"
+  bsum: c30bef5e6b063cee2d6aee7da13fe1df96631462687629393b69f137b9944951
+  build_date: "2025-06-21T18:34:25Z"
   src_urls:
   - https://github.com/ryuuzaki42/Authy_AppImage
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/authy
@@ -2945,8 +2926,8 @@ AM:
   version: 1.0.24
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/autoedit2%2Fx86_64-Linux%2F1024/autoedit2
   size: 116 MB
-  bsum: 9ff4ff551227f03908a2962a6cd072521414790180a5ddd0e2037ab27d93037d
-  build_date: "2025-06-23T12:53:38Z"
+  bsum: 877ed77d9ba3dfb91e5b209be28787726f69630b95e93266809a032f225b3ca1
+  build_date: "2025-06-20T01:36:17Z"
   src_urls:
   - https://github.com/OpenNewsLabs/autoEdit_2
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/autoedit2
@@ -3009,8 +2990,8 @@ AM:
   version: 2.8.1
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/avidemux-qt%2Fx86_64-Linux%2F281/avidemux-qt
   size: 80 MB
-  bsum: 4cc0357c2b200e516f6fb6361a56cd385510a1942f847a7df3df4023869b504b
-  build_date: "2025-06-23T12:52:36Z"
+  bsum: f1c99821c2b04b4ab1d618cd30dc24fe97198d828513c0d657694d51032b731a
+  build_date: "2025-06-20T01:36:35Z"
   src_urls:
   - https://github.com/ivan-hc/Avidemux-unofficial-appimage
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/avidemux-qt
@@ -3030,8 +3011,8 @@ AM:
   version: 2.8.1
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/avidemux%2Fx86_64-Linux%2F281/avidemux
   size: 40 MB
-  bsum: 153540fcd93d6a79fcc1bc734cd72ec087a83a0cbc70a68a21f8bb745b5c03aa
-  build_date: "2025-06-23T12:52:52Z"
+  bsum: e220141dcae9649aa01733c2671252d541b5a0d8afd63574338ea1d3b45127af
+  build_date: "2025-06-20T01:37:09Z"
   src_urls:
   - https://github.com/mean00/avidemux2
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/avidemux
@@ -3073,8 +3054,8 @@ AM:
   version: 1.100.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/avogadro2%2Fx86_64-Linux%2F11000/avogadro2
   size: 125 MB
-  bsum: c006839e5218875743c83f71b9011bb41cbf211755833df363c6a74784d0a280
-  build_date: "2025-06-23T12:54:08Z"
+  bsum: f55a34d6c3b1e1b9d1024e1053c328a9a4c7f7cb58912fb4ae23a2ff38639d5e
+  build_date: "2025-06-20T01:37:04Z"
   src_urls:
   - https://two.avogadro.cc/
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/avogadro2
@@ -3094,8 +3075,8 @@ AM:
   version: 3.26.101
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/awakened-poe-trade%2Fx86_64-Linux%2F326101/awakened-poe-trade
   size: 102 MB
-  bsum: 91ad842bc26dd0f36c7c7ac2b0795c21e63e7958b457b8db1bfa4b58d037b49b
-  build_date: "2025-06-23T12:54:37Z"
+  bsum: c9444af0fa6c1a893d53714cd5c2c64b53553e227be68acbf97cf03f14fefe5e
+  build_date: "2025-06-20T01:38:19Z"
   src_urls:
   - https://snosme.github.io/awakened-poe-trade/download
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/awakened-poe-trade
@@ -3115,8 +3096,8 @@ AM:
   version: 3.3.8.9
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/axe-electrum%2Fx86_64-Linux%2F3389/axe-electrum
   size: 45 MB
-  bsum: 7480a227391ecfc038d3d5705fc26396edb70b35a033099de30d7dd4f6681810
-  build_date: "2025-06-23T12:53:16Z"
+  bsum: 3f4ff2cbb16e438939fd066b84fcac701f924628e36b3d10ae653da4a2cfd291
+  build_date: "2025-06-20T01:36:46Z"
   src_urls:
   - https://github.com/AXErunners/electrum-axe
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/axe-electrum
@@ -3136,8 +3117,8 @@ AM:
   version: 2.0.1
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/axolotl%2Fx86_64-Linux%2F201/axolotl
   size: 87 MB
-  bsum: d95f09c4dfa434bb3c5cdb674496fd5db94c7149e6d6867b1b3bdafdbfe7140f
-  build_date: "2025-06-23T12:53:36Z"
+  bsum: b3a5f8ef2725774159a492e994f9aaee5aec85829c4b455a50e144820fb4f6d0
+  build_date: "2025-06-21T12:37:18Z"
   src_urls:
   - https://github.com/nanu-c/axolotl
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/axolotl
@@ -3157,8 +3138,8 @@ AM:
   version: 1.12.1
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/aya%2Fx86_64-Linux%2F1121/aya
   size: 103 MB
-  bsum: f7c6771a67d465de0eb93148a60b328eadc359651403a84758b34d10e7c9143b
-  build_date: "2025-06-23T01:39:31Z"
+  bsum: d01dfe9c9efc0c057b1bcc6620762af746141c883e90c3243c156890e57f1315
+  build_date: "2025-06-20T01:37:18Z"
   src_urls:
   - https://github.com/liriliri/aya
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/aya
@@ -3179,7 +3160,7 @@ AM:
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/azahar-enhanced%2Fx86_64-Linux%2F2122/azahar-enhanced
   size: 100 MB
   bsum: 534b8b0eedfa23ede830c03821593b784d5e5943acc1594a059c87d87b2916c6
-  build_date: "2025-06-23T12:53:09Z"
+  build_date: "2025-06-21T12:34:53Z"
   src_urls:
   - https://github.com/pkgforge-dev/Azahar-AppImage-Enhanced
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/azahar-enhanced
@@ -3199,8 +3180,8 @@ AM:
   version: 4.5.4
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/badlion%2Fx86_64-Linux%2F454/badlion
   size: 183 MB
-  bsum: 937bdacfde9fea76e4c9d7ccbff8af6e794a8f1b9996763d59d8e06f5b03d615
-  build_date: "2025-06-23T12:54:07Z"
+  bsum: 897791215385e77ea9875e8940e6c946eef9f51e978067e58e1d13babcd4df8b
+  build_date: "2025-06-20T01:37:33Z"
   src_urls:
   - https://client.badlion.net/
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/badlion
@@ -3220,8 +3201,8 @@ AM:
   version: 1.2.3
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/baijimangaviewer%2Fx86_64-Linux%2F123/baijimangaviewer
   size: 63 MB
-  bsum: c0426c4310dd4757a0ea372e30c44cd96459fe185e4a3a6c86d0cf6b6bfb5104
-  build_date: "2025-06-23T01:39:47Z"
+  bsum: e2e4dc411fed33801a1f794d90029684ae9d1101d91cf9dead806f96ffc30258
+  build_date: "2025-06-21T12:36:15Z"
   src_urls:
   - https://github.com/shizkun/manga-viewer
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/baijimangaviewer
@@ -3237,12 +3218,12 @@ AM:
 - pkg: bambustudio.appimage
   pkg_name: bambustudio
   pkg_id: AM.x86_64.bambustudio.bambustudio
-  description: PC Software for BambuLabs 3D printers
+  description: PC Software for BambuLab's 3D printers
   version: 02.01.01.52
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/bambustudio%2Fx86_64-Linux%2F02010152/bambustudio
   size: 117 MB
-  bsum: 61a71b30537c742270c0d2375910d7e28a1eca1496dd551a42bd316c8fa99a93
-  build_date: "2025-06-23T12:53:58Z"
+  bsum: a9d2611f3d91768c3c85aebf52fc58810c578b8c43050a7ec3f98808177347a8
+  build_date: "2025-06-20T01:38:32Z"
   src_urls:
   - https://github.com/bambulab/BambuStudio
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bambustudio
@@ -3284,7 +3265,7 @@ AM:
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/baobab-gtk3%2Fx86_64-Linux%2F3380/baobab-gtk3
   size: 3.8 MB
   bsum: 0bbdcb612ee60bfc7ea622f2c4c4f4167442c162eda90d5296e6077c6c8be9b4
-  build_date: "2025-06-23T01:40:14Z"
+  build_date: "2025-06-21T12:37:13Z"
   src_urls:
   - https://github.com/ivan-hc/Database-of-pkg2appimaged-packages
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/baobab-gtk3
@@ -3326,7 +3307,7 @@ AM:
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/basilisk2%2Fx86_64-Linux%2F2025/basilisk2
   size: 24 MB
   bsum: bea303d1b423bbdf99f6fb6e89b3368e3544cb4c48145787ffb431a64fb5323a
-  build_date: "2025-06-23T01:40:06Z"
+  build_date: "2025-06-21T12:38:19Z"
   src_urls:
   - https://github.com/Korkman/macemu-appimage-builder
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/basilisk2
@@ -3367,8 +3348,8 @@ AM:
   version: 2.22.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/batch-explorer%2Fx86_64-Linux%2F2220/batch-explorer
   size: 179 MB
-  bsum: 10337f7b6761e063e084666fa09a24d548b8a815372a8b1c2a9fa2cda2ea13bf
-  build_date: "2025-06-23T01:41:15Z"
+  bsum: 597610d3169b9a8362a521217616d3363951ad16eb6da4d9391d16873af94568
+  build_date: "2025-06-21T12:39:14Z"
   src_urls:
   - https://azure.github.io/BatchExplorer/
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/batch-explorer
@@ -3410,8 +3391,8 @@ AM:
   version: 0.10.7
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/bauh%2Fx86_64-Linux%2F0107/bauh
   size: 73 MB
-  bsum: 67332aac0a8068622bf257ad0e28df43b68ed4dd74a6e3be7cb302e216ef8016
-  build_date: "2025-06-23T12:56:13Z"
+  bsum: 96cda46e56e37fc72e9c09f205f6f1f5fae6a9b044a0b67c0090cde241518758
+  build_date: "2025-06-21T12:37:37Z"
   src_urls:
   - https://github.com/vinifmor/bauh
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bauh
@@ -3431,8 +3412,8 @@ AM:
   version: 1.7.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/bazecor%2Fx86_64-Linux%2F170/bazecor
   size: 124 MB
-  bsum: be4030b5b4b31f8833b800615fcd5d52611c32ba46e142d8acb720921f76707c
-  build_date: "2025-06-23T12:54:39Z"
+  bsum: fbe8ee6b0a24bd0455685be3285038904ce3bbf0f86e29e8b7ad0f55dcda9aaf
+  build_date: "2025-06-21T12:42:44Z"
   src_urls:
   - https://github.com/Dygmalab/Bazecor
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bazecor
@@ -3473,8 +3454,8 @@ AM:
   version: 1.17.1
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/bdash%2Fx86_64-Linux%2F1171/bdash
   size: 85 MB
-  bsum: 71ff8046940ac718ee212a05d95d08288321a69c8102899808252c696de9e943
-  build_date: "2025-06-23T12:56:28Z"
+  bsum: da247a8b0ff94b2b35f5b4ae07cf90a4de8f6a1ed8383cec52eb5b6b3b8da26e
+  build_date: "2025-06-21T12:38:52Z"
   src_urls:
   - https://github.com/bdash-app/bdash
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bdash
@@ -3494,8 +3475,8 @@ AM:
   version: 7.5.13840.5763.zip
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/beam-wallet%2Fx86_64-Linux%2F75138405763zip/beam-wallet
   size: 158 MB
-  bsum: 2ffcb295b794260ceab54c7faba4dd2223a1d1dfa8b9a174501d4dc2de50a040
-  build_date: "2025-06-23T01:42:01Z"
+  bsum: 33cb050f55c6db27e320a63af0e5c7222eb0677319c5f85dce6049e8b27f460b
+  build_date: "2025-06-21T12:38:08Z"
   src_urls:
   - https://beam.mw/
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/beam-wallet
@@ -3511,12 +3492,12 @@ AM:
 - pkg: bearly.appimage
   pkg_name: bearly
   pkg_id: AM.x86_64.bearly.bearly
-  description: The worlds best AI at your fingertips
+  description: The world's best AI at your fingertips
   version: 3.0.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/bearly%2Fx86_64-Linux%2F300/bearly
   size: 89 MB
-  bsum: d467318bf2f01a0c64a8920c274341571de0668ad0400c41f26c9bf1fbfe5cab
-  build_date: "2025-06-23T12:55:51Z"
+  bsum: 307644755147750fbf4bf8de259d0d370560fafdcde3e65264522885bc600037
+  build_date: "2025-06-20T01:38:30Z"
   src_urls:
   - https://github.com/bearlyai/releases
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bearly
@@ -3536,8 +3517,8 @@ AM:
   version: 0.3.9
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/beatconnect-client%2Fx86_64-Linux%2F039/beatconnect-client
   size: 72 MB
-  bsum: 1fb9d5511cbdf277c479f534a9f752e8690b2436adcc18251556ba3cb1982f0e
-  build_date: "2025-06-23T12:55:22Z"
+  bsum: 8db648d559cd60c1567217bc5b2f2866989d8750b228767430b37b188535da32
+  build_date: "2025-06-21T12:38:05Z"
   src_urls:
   - https://github.com/yadPe/beatconnect_client
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/beatconnect-client
@@ -3558,7 +3539,7 @@ AM:
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/beaver-notes%2Fx86_64-Linux%2F400/beaver-notes
   size: 120 MB
   bsum: 20be3f4991e33fe0917cc06f3b80350bb9d943e2ce2a6c7f010456893c7eb901
-  build_date: "2025-06-23T01:42:42Z"
+  build_date: "2025-06-21T12:38:09Z"
   src_urls:
   - https://github.com/Beaver-Notes/Beaver-Notes
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/beaver-notes
@@ -3635,12 +3616,12 @@ AM:
 - pkg: bench-cli.appimage
   pkg_name: bench-cli
   pkg_id: AM.x86_64.bench-cli.bench-cli
-  description: CLI tool to benchmark commands, written in Fortran
+  description: CLI tool to benchmark commands, written in `Fortran`
   version: 2021.12.07
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/bench-cli%2Fx86_64-Linux%2F20211207/bench-cli
   size: 2.6 MB
-  bsum: 0293c28bba9c4ed8eb860717a7a26bb47c861b4550173593d749d053d5ccbdb0
-  build_date: "2025-06-23T12:57:00Z"
+  bsum: 45d990d3042dc2aafa9c5a207d760d92630fdcffed5929bcb37d728436cd33ee
+  build_date: "2025-06-21T12:39:55Z"
   src_urls:
   - https://github.com/Lateralus138/bench-cli
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bench-cli
@@ -3660,8 +3641,8 @@ AM:
   version: 1.0.6
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/better-osu-skills%2Fx86_64-Linux%2F106/better-osu-skills
   size: 137 MB
-  bsum: fa8aa45dcf4eb44eb6bdd1195b698c2e3a4f8a0675488c0489047bb2240f050b
-  build_date: "2025-06-23T12:56:00Z"
+  bsum: 124b3577d4d6c1b98181f25a9d545d83a6fa3104edf31f9a6575e3188b56d01b
+  build_date: "2025-06-21T12:39:42Z"
   src_urls:
   - https://github.com/straightcurve/better-osuskills
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/better-osu-skills
@@ -3681,8 +3662,8 @@ AM:
   version: 3.1.3
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/bettercrewlink%2Fx86_64-Linux%2F313/bettercrewlink
   size: 120 MB
-  bsum: 8e05267c2cc76c36916993ae5088249319e7cd9755133b809e0be3d0e0f89eed
-  build_date: "2025-06-23T12:57:23Z"
+  bsum: 0a9ab4358eef0921b2eaad3592c0a9a46c12945697ceb9d3bba720bef6809523
+  build_date: "2025-06-21T12:39:10Z"
   src_urls:
   - https://github.com/OhMyGuus/BetterCrewLink
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bettercrewlink
@@ -3702,8 +3683,8 @@ AM:
   version: 1.2.1
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/bettersis%2Fx86_64-Linux%2F121/bettersis
   size: 47 MB
-  bsum: 78920d254064ea19286ad482377f909fdf4961f73495832116678acd80c51d30
-  build_date: "2025-06-23T12:56:20Z"
+  bsum: 184f720a38bfc154feb7323f1413cf804b38ca2888a3196141e8b4ea408b8c96
+  build_date: "2025-06-20T01:39:42Z"
   src_urls:
   - https://github.com/mario33881/betterSIS
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bettersis
@@ -3723,8 +3704,8 @@ AM:
   version: "0.1"
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/beurerscalemanager%2Fx86_64-Linux%2F01/beurerscalemanager
   size: 8.1 MB
-  bsum: bc8a91b0c574937e267e52d7327f1193444b9e9c33fdef4f8b77dd3a47e07e84
-  build_date: "2025-06-23T01:42:30Z"
+  bsum: 655cae28fa31f486e931ebbc512d41838f5a9e1985ad8b436eca9e3826eb8f7d
+  build_date: "2025-06-21T12:38:37Z"
   src_urls:
   - https://github.com/daald/beurerscalemanager-appimage
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/beurerscalemanager
@@ -3744,8 +3725,8 @@ AM:
   version: 1.2988.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/beyond-all-reason%2Fx86_64-Linux%2F129880/beyond-all-reason
   size: 108 MB
-  bsum: 87abfa2f48e71f2112089226144c91e0990c36c5c0b98de28768d10901f32d81
-  build_date: "2025-06-23T12:56:26Z"
+  bsum: f64a72a0a0bc99fdb19ee62e05c9bc1fcd54f72a7c9d4a2b2ab9010de1bbe2fe
+  build_date: "2025-06-21T12:40:28Z"
   src_urls:
   - https://www.beyondallreason.info
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/beyond-all-reason
@@ -3765,8 +3746,8 @@ AM:
   version: 1.0.1
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/bezique%2Fx86_64-Linux%2F101/bezique
   size: 28 MB
-  bsum: 27e562c183dd8d864ba37e3d304e0f8313c49105c3b3710016ea63436466a0ba
-  build_date: "2025-06-23T12:56:14Z"
+  bsum: 8f824a0e2b9658b67e499d506e58fd663c2e501c183f59bfb2bc14528877c954
+  build_date: "2025-06-21T12:39:11Z"
   src_urls:
   - https://github.com/Sriep/Bezique
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bezique
@@ -3807,8 +3788,8 @@ AM:
   version: 1.27.4
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/biblemultithelife%2Fx86_64-Linux%2F1274/biblemultithelife
   size: 62 MB
-  bsum: af0b341fa202f956208a5570778586cd98fde4604d0ed326662e8364d68991d2
-  build_date: "2025-06-23T01:42:39Z"
+  bsum: 71366bd1c5a642229d749c01f7b8ea38d738d3359151130dedf4560e2776ba0f
+  build_date: "2025-06-21T12:39:22Z"
   src_urls:
   - https://www.biblemulti.org
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/biblemultithelife
@@ -3824,12 +3805,12 @@ AM:
 - pkg: bidirectional.appimage
   pkg_name: bidirectional
   pkg_id: AM.x86_64.bidirectional.bidirectional
-  description: Write Arabic text on apps that dont support the bidirectional text
+  description: Write Arabic text on apps that don't support the bidirectional text
   version: 0.3.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/bidirectional%2Fx86_64-Linux%2F030/bidirectional
   size: 65 MB
-  bsum: eb2c992029db046633b68355a20212f306bef729fbafcc94c023393f298dbd33
-  build_date: "2025-06-23T12:56:27Z"
+  bsum: 4aecd65a567ac3453bdc92ad88e6540c420aea94d927cf6345f69f9a4b873580
+  build_date: "2025-06-21T12:39:59Z"
   src_urls:
   - https://github.com/samirdjelal/bidirectional
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bidirectional
@@ -3849,8 +3830,8 @@ AM:
   version: 1.16.5
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/bilibili%2Fx86_64-Linux%2F1165/bilibili
   size: 276 MB
-  bsum: 1ff8b51d2d3e5e592537e0b5006e53ba915c8777d54135062bac327676eef1d1
-  build_date: "2025-06-23T01:43:54Z"
+  bsum: fe81d4410467bf942f89e3092e6aeb438275edd7f95e87f01cdd7ab18f63f9df
+  build_date: "2025-06-21T12:41:47Z"
   src_urls:
   - https://github.com/msojocs/bilibili-linux
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bilibili
@@ -3870,8 +3851,8 @@ AM:
   version: 3.3.3
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/bilibilivideodownload%2Fx86_64-Linux%2F333/bilibilivideodownload
   size: 105 MB
-  bsum: 05cec861c5ab84533212aedd9b2d8b8243e09c50b27517eeb6df03adac7aa61e
-  build_date: "2025-06-23T12:57:55Z"
+  bsum: 283312f5c29049c9d14c5cbf0300d3c53bcc0ab3b5b8b12cd2335cbcab572767
+  build_date: "2025-06-21T12:36:50Z"
   src_urls:
   - https://github.com/blogwy/BilibiliVideoDownload
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bilibilivideodownload
@@ -3891,8 +3872,8 @@ AM:
   version: 0.5.3
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/biliup-app%2Fx86_64-Linux%2F053/biliup-app
   size: 112 MB
-  bsum: fba94b47703c46a58a70838ca6ad33d170305ad545587ccf82e76d390c0b6274
-  build_date: "2025-06-23T12:57:05Z"
+  bsum: 9a812ac69926ccd4bd4d4145689fe82080e6d9a56019ea4c6317b93828d3567c
+  build_date: "2025-06-21T12:40:09Z"
   src_urls:
   - https://github.com/ForgQi/biliup-app
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/biliup-app
@@ -3913,7 +3894,7 @@ AM:
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/billard-gl%2Fx86_64-Linux%2F175/billard-gl
   size: 1.9 MB
   bsum: d0c8085229cc81e2a10acd6793106a1ab052803b60f2b90b737e5507130c1518
-  build_date: "2025-06-23T12:57:55Z"
+  build_date: "2025-06-21T12:39:46Z"
   src_urls:
   - https://github.com/ivan-hc/Database-of-pkg2appimaged-packages
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/billard-gl
@@ -3933,8 +3914,8 @@ AM:
   version: 1.1.1
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/billyfrontier%2Fx86_64-Linux%2F111/billyfrontier
   size: 83 MB
-  bsum: a6ea8fe1e1d58cc8a467c3b37073399eb494939b10d8334a319fe2c895f2cf49
-  build_date: "2025-06-23T12:58:15Z"
+  bsum: 9c4751fe222865475131443b29d20946a4bad0b3f2bda8f055f41707e2c2f527
+  build_date: "2025-06-21T12:41:03Z"
   src_urls:
   - https://github.com/jorio/BillyFrontier
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/billyfrontier
@@ -3954,8 +3935,8 @@ AM:
   version: 1.0.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/bingada%2Fx86_64-Linux%2F100/bingada
   size: 16 MB
-  bsum: 911f85bdc15e355a4b5c169eb50fb53131aa488bdbf0a0ec22e95aa6e7a8b9be
-  build_date: "2025-06-23T12:58:23Z"
+  bsum: 7a8400c3a30e1e2de0793d9c380b7131e18045a2d7273cd93c995b75fd757acc
+  build_date: "2025-06-21T12:39:42Z"
   src_urls:
   - https://github.com/jfuica/bingada
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bingada
@@ -3975,8 +3956,8 @@ AM:
   version: 0.2.1
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/binglite%2Fx86_64-Linux%2F021/binglite
   size: 66 MB
-  bsum: 1de8ebf867e1f25ac5fc1b8b27914c37075549b453996d3dd765b53c8a4be23d
-  build_date: "2025-06-23T12:57:33Z"
+  bsum: 1016805e753f4f30e2ba5d06dad44ad7c8cac67d192eadf03ade5c9efe7f84aa
+  build_date: "2025-06-21T12:41:42Z"
   src_urls:
   - https://github.com/I-Info/BingLite
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/binglite
@@ -3996,8 +3977,8 @@ AM:
   version: 0.3.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/bioanimation%2Fx86_64-Linux%2F030/bioanimation
   size: 70 MB
-  bsum: a508a69ebd0024d46aef9a583967296731b0133656a6c5817340920eda8e87b5
-  build_date: "2025-06-23T12:57:29Z"
+  bsum: 4cfae858c7adb4127baa4d41f7ce676564c02d26426bb466a0df7b9dec74ab99
+  build_date: "2025-06-21T12:41:32Z"
   src_urls:
   - https://github.com/ccnydss/bioanimation
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bioanimation
@@ -4018,7 +3999,7 @@ AM:
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/biplanes-revival%2Fx86_64-Linux%2F121/biplanes-revival
   size: 6.5 MB
   bsum: 046f9d3bf1e1fd79d42fdb0852d8b0a729d751cdeef129c18602ac6b3d41bd22
-  build_date: "2025-06-23T12:58:31Z"
+  build_date: "2025-06-21T12:40:34Z"
   src_urls:
   - https://github.com/regular-dev/biplanes-revival
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/biplanes-revival
@@ -4038,8 +4019,8 @@ AM:
   version: 0.8.3
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/birds-kitchen%2Fx86_64-Linux%2F083/birds-kitchen
   size: 199 MB
-  bsum: ddfb00e84f34d597904c647c1e68f34b8044612a1ca16c2d14fb6c0a5b171cd3
-  build_date: "2025-06-23T01:45:46Z"
+  bsum: ab57503d4eaad23477f9946d2b26b6b0fba6bca891ae6c5b329817f49cef41a1
+  build_date: "2025-06-21T12:41:41Z"
   src_urls:
   - https://github.com/fredserva/birdskitchen
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/birds-kitchen
@@ -4059,8 +4040,8 @@ AM:
   version: 4.47.3
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/bitbox-wallet%2Fx86_64-Linux%2F4473/bitbox-wallet
   size: 146 MB
-  bsum: bf7cdb40829a5799fe3058f03266ee18a81fea283539cff4607d5c3fac948132
-  build_date: "2025-06-23T01:44:14Z"
+  bsum: fd1818eaeb83126923f2bcef2f51e0d8f5acea56aac870fe56f571145d5e86df
+  build_date: "2025-06-21T12:41:50Z"
   src_urls:
   - https://bitbox.swiss/app/
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bitbox-wallet
@@ -4102,8 +4083,8 @@ AM:
   version: 5.0.210216
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/bitshares%2Fx86_64-Linux%2F50210216/bitshares
   size: 56 MB
-  bsum: 5fa97494a327afca3e5a4778ceedef2a31ef1624116b2ab963ade6b74d4c19ac
-  build_date: "2025-06-23T01:44:19Z"
+  bsum: a40dfe8a846b1af1c81477c09bd505dd79a8a90e88d4cbf18f8d3bd56f9aeaa3
+  build_date: "2025-06-21T12:40:56Z"
   src_urls:
   - https://github.com/bitshares/bitshares-ui
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bitshares
@@ -4123,8 +4104,8 @@ AM:
   version: 2025.5.1
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/bitwarden%2Fx86_64-Linux%2F202551/bitwarden
   size: 109 MB
-  bsum: 2f874c23f3105affedebfc2fe74f028006ec766ebde77b210ad4d01cf67c126b
-  build_date: "2025-06-23T01:44:18Z"
+  bsum: 7c250eeb639350733aaed1b910c86408bee269889cc941bac9320de8715ca6cb
+  build_date: "2025-06-21T12:41:05Z"
   src_urls:
   - https://github.com/bitwarden/clients
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bitwarden
@@ -4144,8 +4125,8 @@ AM:
   version: 1.1.1
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/biying%2Fx86_64-Linux%2F111/biying
   size: 40 MB
-  bsum: f8fd4b69531e25e7d2605bda162d04c0db20cff51b9d04b38e24540c6740c335
-  build_date: "2025-06-23T12:57:35Z"
+  bsum: c3067abc24139755ff06adaef658442e4228bb25f922c50900ee977acecd1905
+  build_date: "2025-06-21T12:41:08Z"
   src_urls:
   - https://github.com/iovxw/biying
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/biying
@@ -4166,7 +4147,7 @@ AM:
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/black-chocobo%2Fx86_64-Linux%2F20250316/black-chocobo
   size: 36 MB
   bsum: bc5d911a854a9b7041a7372c6e17ad3762467de39c16f45adbd8302dc7d4e89f
-  build_date: "2025-06-23T12:58:01Z"
+  build_date: "2025-06-21T12:42:13Z"
   src_urls:
   - https://github.com/sithlord48/blackchocobo
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/black-chocobo
@@ -4186,8 +4167,8 @@ AM:
   version: 4.1.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/blacknut%2Fx86_64-Linux%2F410/blacknut
   size: 89 MB
-  bsum: e8d6092e6a64a2b8f48e7c46beaddb36854f719b6ea5a2422f2255fe30efb111
-  build_date: "2025-06-23T12:57:45Z"
+  bsum: b7a01a216e1b9c4b7fe85bdd6e89c7464daf1883543fcf8f5eb5c2ddf87bf088
+  build_date: "2025-06-21T12:41:20Z"
   src_urls:
   - https://www.blacknut.com
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/blacknut
@@ -4207,8 +4188,8 @@ AM:
   version: 1.2.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/blank%2Fx86_64-Linux%2F120/blank
   size: 77 MB
-  bsum: 90ad59817dcad9035c5b47cc090d266f1c5dfe90b7fbc94cc856b567661d69dc
-  build_date: "2025-06-23T01:45:08Z"
+  bsum: 1541ffd68601c1bb4cdfd78b3087bd77e0e15bb9ec0a88592798361c9ca7e7a6
+  build_date: "2025-06-21T12:42:44Z"
   src_urls:
   - https://github.com/FPurchess/blank
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/blank
@@ -4228,8 +4209,8 @@ AM:
   version: 0.6.3
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/blastem%2Fx86_64-Linux%2F063/blastem
   size: 5.6 MB
-  bsum: 1df19a2dbe9d0c67aab789ff718641f943f5b1dd3975796023c30e59f4331a7c
-  build_date: "2025-06-23T01:45:10Z"
+  bsum: 8182b5ba2d5b277105579ae06498bd75af1a4461eb24e70eb7f05b3a02b773bb
+  build_date: "2025-06-21T12:42:09Z"
   src_urls:
   - https://github.com/mantralunar/blastem
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/blastem
@@ -4249,8 +4230,8 @@ AM:
   version: 4.4.2
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/blender%2Fx86_64-Linux%2F442/blender
   size: 406 MB
-  bsum: ed3a7c87638eb1c02642a30eb04873b2a0359ee0bc5d169d2b02435652f29caa
-  build_date: "2025-06-23T01:45:15Z"
+  bsum: 03d57ddcb0887cdf2f6a288a5bba6f9ed406190ece892d9115dec1fa2892364b
+  build_date: "2025-06-21T12:41:16Z"
   src_urls:
   - https://github.com/ivan-hc/Blender-appimage
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/blender
@@ -4270,8 +4251,8 @@ AM:
   version: 1.0.18
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/blensor%2Fx86_64-Linux%2F1018/blensor
   size: 146 MB
-  bsum: 42567fea113acd9d7b3bade2cbc53c6fceba5c9d666d54b9ebfc943306325c32
-  build_date: "2025-06-23T12:59:26Z"
+  bsum: e1d555a42cefc26032924d6d0ff972d490250e3f8f94aaf7a19c1dfe563b3734
+  build_date: "2025-06-21T12:46:03Z"
   src_urls:
   - https://www.blensor.org
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/blensor
@@ -4291,8 +4272,8 @@ AM:
   version: 1.7.4
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/blink%2Fx86_64-Linux%2F174/blink
   size: 38 MB
-  bsum: 85488a3221ea7bd943d4c50681863b24f8461f4d73a2d3b6f042b6c0bb09b607
-  build_date: "2025-06-23T12:59:17Z"
+  bsum: a9ccc99342f03a9be1e06fa24ab652cfdf616ac5bccebfa81865e9f5ea230f18
+  build_date: "2025-06-21T12:42:35Z"
   src_urls:
   - https://github.com/ychclone/blink
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/blink
@@ -4312,8 +4293,8 @@ AM:
   version: "4"
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/blizzard-4%2Fx86_64-Linux%2F4/blizzard-4
   size: 69 MB
-  bsum: 28b83cc34dd0f961382da4528a98b92cc7ef9feb2f7d37d05d03e53ad6f32ef2
-  build_date: "2025-06-23T12:58:05Z"
+  bsum: 9b7d94d329dbd5711971ec0cd19e52e14a14ec53429f0cb130a591a7c3257555
+  build_date: "2025-06-21T12:49:08Z"
   src_urls:
   - https://github.com/danielfspencer/blizzard-4
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/blizzard-4
@@ -4333,8 +4314,8 @@ AM:
   version: "2.1"
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/blobdrop%2Fx86_64-Linux%2F21/blobdrop
   size: 33 MB
-  bsum: cf45031fbf319f0ace765c980bb1eed8d14066cc9a87fa939c1a54bd6d34f998
-  build_date: "2025-06-23T01:46:31Z"
+  bsum: 91398a2445c706791c9cdbdb003d50413498c638978101d6e9541c8be53d32c1
+  build_date: "2025-06-21T12:43:14Z"
   src_urls:
   - https://github.com/vimpostor/blobdrop
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/blobdrop
@@ -4354,8 +4335,8 @@ AM:
   version: 1.9.5
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/block-dx%2Fx86_64-Linux%2F195/block-dx
   size: 116 MB
-  bsum: 48cac7e4dad78c44faa9ec1eff9e42168fd72e91f99bee4ea779c80c666ceb36
-  build_date: "2025-06-23T01:46:54Z"
+  bsum: 05efc0184d7a64d85279b95f5752c80e429efdb3a9774e57081b37acf3fffb61
+  build_date: "2025-06-21T12:42:45Z"
   src_urls:
   - https://blockdx.com/
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/block-dx
@@ -4375,8 +4356,8 @@ AM:
   version: 4.12.5
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/blockbench%2Fx86_64-Linux%2F4125/blockbench
   size: 100 MB
-  bsum: c9da5e1616bdc118827bcf25f85e5abbd86c2964caf60dc50ec66ab0a7bc08c1
-  build_date: "2025-06-23T12:58:00Z"
+  bsum: ffc9106b94cf8021fee2ae18226a555165c6b68c27792bb6f96b48dec4e41169
+  build_date: "2025-06-21T12:44:09Z"
   src_urls:
   - https://www.blockbench.net/
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/blockbench
@@ -4396,8 +4377,8 @@ AM:
   version: 2.0.25
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/blockstream-green%2Fx86_64-Linux%2F2025/blockstream-green
   size: 63 MB
-  bsum: 12208c27ee95e97e0fea6144e5c2318f9435a645bb6a0a1e4e0609b0643d7280
-  build_date: "2025-06-22T06:35:33Z"
+  bsum: 09ec0ec49decc0ddbd04321836e88e00524752a8d83620431e14ad94742c6a32
+  build_date: "2025-06-21T12:44:27Z"
   src_urls:
   - https://blockstream.com/green/
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/blockstream-green
@@ -4417,8 +4398,8 @@ AM:
   version: 2.0.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/bloks%2Fx86_64-Linux%2F200/bloks
   size: 81 MB
-  bsum: f5eb0f9d8daebc7d52f0a3d30e54d7d573060dec7b5bf23818d3729584fff905
-  build_date: "2025-06-22T06:35:55Z"
+  bsum: 1faab1677bee41c762528ac7a331b468e1071e52b6e49da9fcfcfe01b9c5cb5a
+  build_date: "2025-06-21T12:43:14Z"
   src_urls:
   - https://github.com/eoscafe/bloks-desktop
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bloks
@@ -4438,8 +4419,8 @@ AM:
   version: 1.5.3
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/bloomrpc%2Fx86_64-Linux%2F153/bloomrpc
   size: 93 MB
-  bsum: 21d721d20975c5871b102825767918e8cac0d47b1e33eda96a1695cc20314eb6
-  build_date: "2025-06-22T06:35:49Z"
+  bsum: 5b13aa72e2ebad5fa80eb4428cede6a950701a85b0ff6099d0e441682964c226
+  build_date: "2025-06-21T12:43:20Z"
   src_urls:
   - https://github.com/uw-labs/bloomrpc
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bloomrpc
@@ -4459,8 +4440,8 @@ AM:
   version: 1.6.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/blowfish%2Fx86_64-Linux%2F160/blowfish
   size: 73 MB
-  bsum: 0b7ec5033380cabbde178d4b42f547f7b3c22ac45c6058af11993c0169c5e1ff
-  build_date: "2025-06-23T12:59:19Z"
+  bsum: 94c575378b0cc528204c30187f30d4ba609a1fdaaed51473950f1beb5f5fb80a
+  build_date: "2025-06-21T12:44:29Z"
   src_urls:
   - https://github.com/kremalicious/blowfish
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/blowfish
@@ -4480,8 +4461,8 @@ AM:
   version: ad96b38
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/blueglow%2Fx86_64-Linux%2Fad96b38/blueglow
   size: 34 MB
-  bsum: 7511e543d9b0beb70e70b07107b77fe299d963fdd8601a15dc2e805c6b22de38
-  build_date: "2025-06-22T06:36:11Z"
+  bsum: f48406c919c9a2b6690266f6e8dfa9858639692a2a21e3fe2bc437f18c2792b7
+  build_date: "2025-06-21T12:44:26Z"
   src_urls:
   - https://github.com/antony-jr/blue-glow
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/blueglow
@@ -4501,8 +4482,8 @@ AM:
   version: 0.2.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/boardgamestar%2Fx86_64-Linux%2F020/boardgamestar
   size: 146 MB
-  bsum: 217c265c05197dd5a7a1d21a3d768c84df97486b3cd638584f5281be933d4249
-  build_date: "2025-06-22T06:36:22Z"
+  bsum: 9f271e08388c9a32bb873e828e3ee0cdba73c56c94ea4ba6dddd775e0bfed26e
+  build_date: "2025-06-21T12:43:50Z"
   src_urls:
   - https://boardgamestar.com/
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/boardgamestar
@@ -4522,8 +4503,8 @@ AM:
   version: 0.9.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/bodacious%2Fx86_64-Linux%2F090/bodacious
   size: 13 MB
-  bsum: 2fa002a1e422504a232fdd5a201b0a1012cc3b4fdb40bbfea01cb7a6875f4c8b
-  build_date: "2025-06-23T12:59:23Z"
+  bsum: e2a189ea7f5add5adeab1828b961c5fb1721af79b54d609366d8038dfbcd72cf
+  build_date: "2025-06-21T12:44:23Z"
   src_urls:
   - https://github.com/bleonard252/bodacious
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bodacious
@@ -4543,8 +4524,8 @@ AM:
   version: 0.9.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/bodhi%2Fx86_64-Linux%2F090/bodhi
   size: 110 MB
-  bsum: 65220035c0f0810b35275bb28000f04e8721325c60b55cfdaed06ae4d54d6146
-  build_date: "2025-06-23T12:58:38Z"
+  bsum: 90abaf7968ff1baaf42dad43ac253ebded79dfbe15b1f5239bb180069eb76d6e
+  build_date: "2025-06-21T12:43:39Z"
   src_urls:
   - https://github.com/bodhiproject/bodhi-app
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bodhi
@@ -4564,8 +4545,8 @@ AM:
   version: "25.04"
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/bomber%2Fx86_64-Linux%2F2504/kdegames
   size: 376 MB
-  bsum: a64f97388ca85b8c2909909b764362a2ffd80ae73beba3fddbe832ad441905c0
-  build_date: "2025-06-23T13:02:30Z"
+  bsum: 12e970ec5943ed387c9308810a8b12002305394e3a624c7a90d9afa13700c3a7
+  build_date: "2025-06-21T12:43:26Z"
   src_urls:
   - https://github.com/ivan-hc/KDE-games-suite-appimage
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bomber
@@ -4585,8 +4566,8 @@ AM:
   version: 0.6.1
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/bongocat%2Fx86_64-Linux%2F061/bongocat
   size: 80 MB
-  bsum: 7d99a2f56e3806c511481b13d157fe7d84811dd956cccb82cf61106a1a8f6e62
-  build_date: "2025-06-23T13:00:45Z"
+  bsum: 1d35303b9b9d8d1d598b4b177fb4e528aecd014c900833b8c017d4ad81485ade
+  build_date: "2025-06-21T18:34:28Z"
   src_urls:
   - https://github.com/ayangweb/BongoCat
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bongocat
@@ -4628,8 +4609,8 @@ AM:
   version: 1.0.1
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/book-manager%2Fx86_64-Linux%2F101/book-manager
   size: 80 MB
-  bsum: 301caf00e5e78e58a8b9b97b53c0a24352ea3a94d806afad66ad08683a640d44
-  build_date: "2025-06-23T12:59:37Z"
+  bsum: 077d3ffa254a9dac124187a0450645eeb97d9c5a3292513cecfd0664ab23a931
+  build_date: "2025-06-21T12:45:02Z"
   src_urls:
   - https://github.com/bdTechies/book-manager
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/book-manager
@@ -4649,8 +4630,8 @@ AM:
   version: 0.1.2
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/bookmarks-manager%2Fx86_64-Linux%2F012/bookmarks-manager
   size: 89 MB
-  bsum: 3428a8be0c057f1619d6d5443e75356c4783c93e96ae7ea9d0903ab09eaaca69
-  build_date: "2025-06-23T12:59:06Z"
+  bsum: e273f2a74a7ab0b014a59b056adb26d5af84edb331ee8de99e0ea864fb11b6c8
+  build_date: "2025-06-21T12:44:48Z"
   src_urls:
   - https://github.com/Hunlongyu/bookmarks-manager
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bookmarks-manager
@@ -4670,8 +4651,8 @@ AM:
   version: 0.23.1
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/boost-note%2Fx86_64-Linux%2F0231/boost-note
   size: 76 MB
-  bsum: 22baff86354fb49c7e60f20d5cf068aa69168b44cf7a9f5d9d291414e91eec02
-  build_date: "2025-06-23T12:59:26Z"
+  bsum: ad5529a420d09401166a41a65bd169c2a34ca622b9e0bad02ed1576434820f73
+  build_date: "2025-06-21T12:46:28Z"
   src_urls:
   - https://github.com/BoostIO/BoostNote-App
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/boost-note
@@ -4691,8 +4672,8 @@ AM:
   version: 5.0.3
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/boostchanger%2Fx86_64-Linux%2F503/boostchanger
   size: 86 MB
-  bsum: 2d96e4907978d2c77624e25392a47e8c8649ee56b26fc47b7f9ef03b2cc730a6
-  build_date: "2025-06-23T12:59:28Z"
+  bsum: 365f81de75d3cb78688e2f038a79acf19022f604970cd9a2d8ba439e570ce27f
+  build_date: "2025-06-21T12:45:33Z"
   src_urls:
   - https://github.com/nbebaw/boostchanger
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/boostchanger
@@ -4712,8 +4693,8 @@ AM:
   version: 0.12.1
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/botclient%2Fx86_64-Linux%2F0121/botclient
   size: 122 MB
-  bsum: 331abab13922ec2d130e8ec7084212a6a2cad590490bf1432219f57e240129ea
-  build_date: "2025-06-23T13:00:54Z"
+  bsum: b8e7135b58284d7c056a2bdcd6c4061aa76b41972c8ab7a703c1fc377f8fc325
+  build_date: "2025-06-21T12:45:44Z"
   src_urls:
   - https://github.com/DarkGuy10/BotClient
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/botclient
@@ -4733,8 +4714,8 @@ AM:
   version: 4.15.1
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/botframework-emulator%2Fx86_64-Linux%2F4151/botframework-emulator
   size: 231 MB
-  bsum: d048f10d5f297559f2cff0aa502dd8558af2660e35db459a7b6b76385c03ebc7
-  build_date: "2025-06-23T13:01:14Z"
+  bsum: 6d1881b7f75bf1e5c91346d7ce08969f00ec5273812e310a40a5987c2e6df0d4
+  build_date: "2025-06-21T12:47:11Z"
   src_urls:
   - https://aka.ms/botemulator
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/botframework-emulator
@@ -4754,8 +4735,8 @@ AM:
   version: 1.7.5
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/botim%2Fx86_64-Linux%2F175/botim
   size: 92 MB
-  bsum: 9b7c694b8fa96d37ef5a75e672199418dbbc6d035d03e81e1b5b1340961c44e4
-  build_date: "2025-06-22T06:38:01Z"
+  bsum: 51b325edbc4240ae784693a46cca77fa3f0cbcb0255c92bf996a5442f02f32f6
+  build_date: "2025-06-21T12:46:12Z"
   src_urls:
   - https://botim.me
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/botim
@@ -4775,8 +4756,8 @@ AM:
   version: 0.4.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/bottlebats%2Fx86_64-Linux%2F040/bottlebats
   size: 53 MB
-  bsum: f5cf1cacbfd27126c98dfe6b4256a0a8995c6c2ee8eb0931ee31b3ad77be7b26
-  build_date: "2025-06-23T12:59:53Z"
+  bsum: 1b5a3be36b9c5752f5448f9bd5dcadabfeaf8308fa1d6ec96293b5aa2873ab57
+  build_date: "2025-06-21T12:41:49Z"
   src_urls:
   - https://github.com/ZeusWPI/MOZAIC
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bottlebats
@@ -4796,8 +4777,8 @@ AM:
   version: "2.6"
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/bottlenose%2Fx86_64-Linux%2F26/bottlenose
   size: 123 MB
-  bsum: c920b275fe41429a5d6d4506962b0e045dee1628e1338186a3a11b33ed293917
-  build_date: "2025-06-22T06:37:51Z"
+  bsum: 153787707dfcea57ba82152a599a53c89b69942ff25b6a5adfdd21c079bae2e2
+  build_date: "2025-06-21T12:46:18Z"
   src_urls:
   - https://github.com/quinton-ashley/bottlenose
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bottlenose
@@ -4818,7 +4799,7 @@ AM:
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/bottles%2Fx86_64-Linux%2F5121/bottles
   size: 269 MB
   bsum: 1912373c737145d8dabf9c19b7718c15c27532861c29ff27c14c82773c1a2445
-  build_date: "2025-06-23T12:59:43Z"
+  build_date: "2025-06-21T12:45:28Z"
   src_urls:
   - https://github.com/bottlesdevs/Bottles
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bottles
@@ -4838,8 +4819,8 @@ AM:
   version: "25.04"
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/bovo%2Fx86_64-Linux%2F2504/kdegames
   size: 376 MB
-  bsum: a64f97388ca85b8c2909909b764362a2ffd80ae73beba3fddbe832ad441905c0
-  build_date: "2025-06-23T13:01:04Z"
+  bsum: 12e970ec5943ed387c9308810a8b12002305394e3a624c7a90d9afa13700c3a7
+  build_date: "2025-06-21T12:46:48Z"
   src_urls:
   - https://github.com/ivan-hc/KDE-games-suite-appimage
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bovo
@@ -4881,8 +4862,8 @@ AM:
   version: 0.0.8
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/brainverse%2Fx86_64-Linux%2F008/brainverse
   size: 104 MB
-  bsum: 03e55f2c9d8ea390a9430e2e0b0c13e166355d4559591271b9c32c57747249f1
-  build_date: "2025-06-23T13:00:02Z"
+  bsum: 7ae8bddfb8d01f91afc4d4d82269f4274c513cf219a9a2fb966247c6c8e42fcb
+  build_date: "2025-06-21T12:46:13Z"
   src_urls:
   - https://github.com/ReproNim/brainverse
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/brainverse
@@ -4902,8 +4883,8 @@ AM:
   version: 0.15.1
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/brainwaves%2Fx86_64-Linux%2F0151/brainwaves
   size: 94 MB
-  bsum: c578c31426d90c951a95c14cfc64bb5e03c97fde533d5f4dacf3af7f03e9824b
-  build_date: "2025-06-23T13:01:54Z"
+  bsum: 20152fccce216103db594d74792cf94bf32dee0a8f8b756e58fbbe812a12055e
+  build_date: "2025-06-21T12:46:11Z"
   src_urls:
   - https://github.com/makebrainwaves/BrainWaves
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/brainwaves
@@ -5251,8 +5232,8 @@ AM:
   version: 1.79.126
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/brave%2Fx86_64-Linux%2F179126/brave
   size: 161 MB
-  bsum: 275aa8c1542052b48c1171514f7e57c88c2f4279278a59591b6ad0f9b6f232dc
-  build_date: "2025-06-23T18:37:28Z"
+  bsum: 09bacf3cecc8e7b4e66682c4d5502b6c488fdfaaf36cc7914544e5c3998c04c1
+  build_date: "2025-06-21T18:34:24Z"
   src_urls:
   - https://github.com/brave/brave-browser
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/brave
@@ -5332,8 +5313,8 @@ AM:
   version: 0.7.2
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/bread%2Fx86_64-Linux%2F072/bread
   size: 28 MB
-  bsum: d1b6e88b20601f7d1d67f0d918e393c1f2c107a137bdc778186ce017660f4004
-  build_date: "2025-06-23T13:01:54Z"
+  bsum: c7fc08f4486d25788327642fef8abe57b316012329b1ff3fe87c308d3f5a0de8
+  build_date: "2025-06-21T12:46:12Z"
   src_urls:
   - https://github.com/pegvin/bread
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bread
@@ -5353,8 +5334,8 @@ AM:
   version: 1.3.2
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/breaktimer%2Fx86_64-Linux%2F132/breaktimer
   size: 100 MB
-  bsum: 7857d0e76c460f8f48a002a136e9c8bc82ca4c0a209e85bd7f89beded6bc6448
-  build_date: "2025-06-23T13:01:09Z"
+  bsum: b1a24f1c77fe7aa69ac51be5857b41a3bc11c36e76b13d86be453aeb9514742a
+  build_date: "2025-06-21T12:46:36Z"
   src_urls:
   - https://breaktimer.app/
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/breaktimer
@@ -5374,8 +5355,8 @@ AM:
   version: 2024.12.3
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/brickstore%2Fx86_64-Linux%2F2024123/brickstore
   size: 71 MB
-  bsum: 3e06d58389c8b8197af91ec1ca17552d455c8333edf251d299907d468a87d767
-  build_date: "2025-06-23T13:01:09Z"
+  bsum: 48de88639240e70e194813d3c5cfb145d24cbdce23318dc611f35614a77efec7
+  build_date: "2025-06-21T12:47:41Z"
   src_urls:
   - https://github.com/rgriebl/brickstore
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/brickstore
@@ -5395,8 +5376,8 @@ AM:
   version: 2025.0.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/bridge%2Fx86_64-Linux%2F202500/bridge
   size: 346 MB
-  bsum: 6bfa99498e3ad8b58faf8b0cfdf9f1132f95c881a0334e55c4a97f9058504508
-  build_date: "2025-06-23T13:05:11Z"
+  bsum: 07f831b9b9e9191755ef4e8bc83fa5396393d9d439d060f67527152a3ba5af60
+  build_date: "2025-06-21T12:47:47Z"
   src_urls:
   - https://quixel.com/bridge
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bridge
@@ -5416,8 +5397,8 @@ AM:
   version: 0.18.1
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/brisqi%2Fx86_64-Linux%2F0181/brisqi
   size: 152 MB
-  bsum: fa3cf58feb982dd69889352e9c211beaee3ad106b01616fbf867a36da0669f7c
-  build_date: "2025-06-22T06:39:21Z"
+  bsum: 74f817ec89dd7f56c7cacc16ffdc15f787e47c4e8b76408618feda65c9447599
+  build_date: "2025-06-21T12:48:55Z"
   src_urls:
   - https://github.com/Brisqi/releases
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/brisqi
@@ -5437,8 +5418,8 @@ AM:
   version: 0.9.11.1
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/browservice%2Fx86_64-Linux%2F09111/browservice
   size: 240 MB
-  bsum: 0b605c0ddeaecc37750935d1046dfb7b1732be8dc9408c620084a5a26fa0de30
-  build_date: "2025-06-23T13:01:28Z"
+  bsum: 45caeadb533ad35c72e2791b3c8aeb19b74213bd58a31dba2d42a3292f726ef9
+  build_date: "2025-06-21T12:48:02Z"
   src_urls:
   - https://github.com/ttalvitie/browservice
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/browservice
@@ -5458,8 +5439,8 @@ AM:
   version: 1.4.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/brs-emu-app%2Fx86_64-Linux%2F140/brs-emu-app
   size: 93 MB
-  bsum: a001f7cf598973587d425e9244b32ab4a0af8c306d8dfccbe00f36aba836b861
-  build_date: "2025-06-22T06:39:21Z"
+  bsum: 2357d13b2ae370e1a3f34c87869457cdf7344842e23e9a02d3974b9b7d3f50f4
+  build_date: "2025-06-21T12:47:33Z"
   src_urls:
   - https://lvcabral.com/brs/
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/brs-emu-app
@@ -5479,8 +5460,8 @@ AM:
   version: 2.6.1
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/bruno%2Fx86_64-Linux%2F261/bruno
   size: 123 MB
-  bsum: 7b5321c5e494b41a5e4c89ec41d3ecbaba911cf5e4ef3778c27ff6b467286a5f
-  build_date: "2025-06-23T13:02:03Z"
+  bsum: 94533f5ac4272ee1c8c8d92317b301170a5bbfaf39a8a80668bbac601379556f
+  build_date: "2025-06-21T18:34:59Z"
   src_urls:
   - https://github.com/usebruno/bruno
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bruno
@@ -5500,8 +5481,8 @@ AM:
   version: "1.20"
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/bscanfftwebcam%2Fx86_64-Linux%2F120/bscanfftwebcam
   size: 16 MB
-  bsum: ad8c053e6ec0ac63883685efb64a30968a7ea3a6624770e1857e26e7d4bf970b
-  build_date: "2025-06-23T13:01:22Z"
+  bsum: e32c5c2c84615ef7b6edfa599a28af7a559af064c5dc4d5d84ef44f49a5b7bdf
+  build_date: "2025-06-21T12:54:45Z"
   src_urls:
   - https://github.com/hn-88/FDOCT
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bscanfftwebcam
@@ -5521,8 +5502,8 @@ AM:
   version: 0.5.2
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/bts-ce-lite%2Fx86_64-Linux%2F052/bts-ce-lite
   size: 262 MB
-  bsum: 9ed3230b221b9f16ea3d514fbce9131261d509e44b35ee0b0b90db7573fcbc6a
-  build_date: "2025-06-23T13:02:06Z"
+  bsum: 273db6d69f525adf7864ae60ad1cf81c7875632ad36ffb3ad79f921db04a75ee
+  build_date: "2025-06-21T12:48:18Z"
   src_urls:
   - https://www.bodastage.org/bts-ce-lite/.
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bts-ce-lite
@@ -5542,8 +5523,8 @@ AM:
   version: 0.1.4
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/buche%2Fx86_64-Linux%2F014/buche
   size: 56 MB
-  bsum: 51906f1e3ff5ecb37d8630f272f7d0e16bb8193ef38e49e3641458ead8c4dcd4
-  build_date: "2025-06-23T13:01:32Z"
+  bsum: 514c05c0801108153b001d00da96c49c1b231f0a35335728daf3a9a9060228cd
+  build_date: "2025-06-21T12:49:16Z"
   src_urls:
   - https://github.com/breuleux/buche
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/buche
@@ -5563,8 +5544,8 @@ AM:
   version: 0.80.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/buckets%2Fx86_64-Linux%2F0800/buckets
   size: 103 MB
-  bsum: d9e578ace4859b73640780a59884449fc8308e8723933d250094b23ed5a8b896
-  build_date: "2025-06-23T13:03:11Z"
+  bsum: 4fa55360c13c6a8e84f6a1e011b1b32c0eef1b66d8ff4f982cbfa8ced71ec53e
+  build_date: "2025-06-21T12:47:53Z"
   src_urls:
   - https://www.budgetwithbuckets.com/
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/buckets
@@ -5580,12 +5561,12 @@ AM:
 - pkg: bugdom.appimage
   pkg_name: bugdom
   pkg_id: AM.x86_64.bugdom.bugdom
-  description: Pangea Softwares Bugdom game
+  description: Pangea Software's Bugdom game
   version: 1.3.4
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/bugdom%2Fx86_64-Linux%2F134/bugdom
   size: 50 MB
-  bsum: b5dcdb033a9ad9e9e86439f7d5d01907d19bf27445ce786739dd978c9577266d
-  build_date: "2025-06-23T13:02:04Z"
+  bsum: 4f876e6479bfa81703090cc29b7c91a5f36792932b2f90710723118524497fd0
+  build_date: "2025-06-21T12:48:00Z"
   src_urls:
   - https://github.com/jorio/Bugdom
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bugdom
@@ -5605,8 +5586,8 @@ AM:
   version: 4.0.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/bugdom2%2Fx86_64-Linux%2F400/bugdom2
   size: 127 MB
-  bsum: 2a841d2b8c3dcffe0bbfb883c14586df87b5e9a2e07a936597633bed4960adcc
-  build_date: "2025-06-23T13:03:10Z"
+  bsum: 1deaf3692dd505f9d95d960faa13e40993c9ed7f3ce58bb59abe7049f9b7f271
+  build_date: "2025-06-21T12:48:23Z"
   src_urls:
   - https://github.com/jorio/Bugdom2
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bugdom2
@@ -5648,8 +5629,8 @@ AM:
   version: 0.3.1
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/bulkreviewer%2Fx86_64-Linux%2F031/bulkreviewer
   size: 90 MB
-  bsum: 745bf25506fb6bbc1f8ebe1c8d7a480601194411322d382aeb9cdc141a960aa2
-  build_date: "2025-06-23T13:02:16Z"
+  bsum: 409d29ec3a48aa42f1e8266638856fd29813d86b82e52eb7cc3a807caefb4aa9
+  build_date: "2025-06-21T12:48:17Z"
   src_urls:
   - https://github.com/bulk-reviewer/bulk-reviewer
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bulkreviewer
@@ -5669,8 +5650,8 @@ AM:
   version: 1.12.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/bulkurlopener%2Fx86_64-Linux%2F1120/bulkurlopener
   size: 74 MB
-  bsum: 80d194280ce12b249105af765fe2c6db04291e457f0385fd883c23c7168741ae
-  build_date: "2025-06-22T06:39:44Z"
+  bsum: 821127d757f32e781607b837641b4f3b1915efdcb3840032d068f82ce66283dd
+  build_date: "2025-06-21T12:49:55Z"
   src_urls:
   - https://github.com/EuanRiggans/BulkURLOpener
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bulkurlopener
@@ -5690,8 +5671,8 @@ AM:
   version: 0.9.10
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/bunqdesktop%2Fx86_64-Linux%2F0910/bunqdesktop
   size: 73 MB
-  bsum: 01b4c519b55fa8d18181513d0325d3aa08bfa1df789a7617e43bedd306487b0e
-  build_date: "2025-06-23T13:03:52Z"
+  bsum: 000565481418232bc91e4bb30b99919b3c956280af0d18ad8fe3876f7bf60ca9
+  build_date: "2025-06-21T12:48:59Z"
   src_urls:
   - https://github.com/BunqCommunity/BunqDesktop
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bunqdesktop
@@ -5711,8 +5692,8 @@ AM:
   version: 6.1.4
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/burning-series%2Fx86_64-Linux%2F614/burning-series
   size: 193 MB
-  bsum: 28aa35d4775396731101e38c57f9f9b3ce5ae23d06b2830cabfd6a207460e25a
-  build_date: "2025-06-22T06:39:53Z"
+  bsum: 92d753083eb34c4ead2af2f1ee02d84aa3bf8b99f8fc50946c3503fc25d3371b
+  build_date: "2025-06-21T12:50:25Z"
   src_urls:
   - https://github.com/DATL4G/BurningSeries-Android
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/burning-series
@@ -5733,7 +5714,7 @@ AM:
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/buttercup%2Fx86_64-Linux%2F2281/buttercup
   size: 100 MB
   bsum: b72a57b8a6a995005cf6a00489d67648a2bcbd499bb8578589f069db81723bc0
-  build_date: "2025-06-22T06:40:12Z"
+  build_date: "2025-06-21T12:49:10Z"
   src_urls:
   - https://github.com/buttercup/buttercup-desktop
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/buttercup
@@ -5753,8 +5734,8 @@ AM:
   version: 0.4.3
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/bypass-cors%2Fx86_64-Linux%2F043/bypass-cors
   size: 48 MB
-  bsum: da20158f799d419ddfff88cfa3e0dca483f73fd99e2366a3a44c3442a7a3f3cd
-  build_date: "2025-06-22T06:40:59Z"
+  bsum: 87aeff7b77b8344336f21c776eacfa3422b0e19dbc21639a3e79b56024608d92
+  build_date: "2025-06-21T12:50:22Z"
   src_urls:
   - https://github.com/chrishham/BypassCors
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bypass-cors
@@ -5774,8 +5755,8 @@ AM:
   version: d94707a
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/bytespeichertrayicon%2Fx86_64-Linux%2Fd94707a/bytespeichertrayicon
   size: 22 MB
-  bsum: 495865ce80ee82557a30b9365434176d7d5443532fb34498125f5228885acd20
-  build_date: "2025-06-23T13:02:29Z"
+  bsum: 17f32b4baba939d922aa033a2862f5b985dbb1d973d675686fda87f042368060
+  build_date: "2025-06-21T12:47:06Z"
   src_urls:
   - https://github.com/Bytespeicher/BytespeicherTrayIcon
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/bytespeichertrayicon
@@ -5795,8 +5776,8 @@ AM:
   version: 8.0.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/cabal-desktop%2Fx86_64-Linux%2F800/cabal-desktop
   size: 107 MB
-  bsum: 08ddd124f345b7a9dc1b4caf49a676efe0c65e06778ccfaa57bd39ee469066e2
-  build_date: "2025-06-23T13:02:55Z"
+  bsum: dac291798af0be0e366a4d9ac7ff7c070c1a0de3cf169df41bc67d51f2dc0616
+  build_date: "2025-06-21T12:49:42Z"
   src_urls:
   - https://github.com/cabal-club/cabal-desktop
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cabal-desktop
@@ -5835,8 +5816,8 @@ AM:
   version: 2.47.6
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/cacher%2Fx86_64-Linux%2F2476/cacher
   size: 98 MB
-  bsum: 2876e385b1fdd49051eef1e1e82064ccad3728157c25b7184b4124f6e09563ed
-  build_date: "2025-06-23T13:03:32Z"
+  bsum: 9c8f40a87a482c5a93c16a009e6b6e3793a6fcd0df25edab4ab6b177ff17d47a
+  build_date: "2025-06-21T12:49:41Z"
   src_urls:
   - https://www.cacher.io/
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cacher
@@ -5856,8 +5837,8 @@ AM:
   version: 0.0.3
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/cadmus%2Fx86_64-Linux%2F003/cadmus
   size: 31 MB
-  bsum: e2505d0ab506b568d6303b3b89c146332be2e1cba58d947991817362c0b592e3
-  build_date: "2025-06-23T13:02:51Z"
+  bsum: 2bab207c62824932e9dc3c5eb23171d0c920c702fd9ca0235ba6f1661b99c07b
+  build_date: "2025-06-21T12:49:36Z"
   src_urls:
   - https://github.com/josh-richardson/cadmus/
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cadmus
@@ -5877,8 +5858,8 @@ AM:
   version: 2.6.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/caesium%2Fx86_64-Linux%2F260/caesium
   size: 37 MB
-  bsum: 2ecc66f09c30b73ffd5f645d6b562fcfd386881361138ed36afd7baba64bdbd9
-  build_date: "2025-06-23T13:03:02Z"
+  bsum: 4fdff54e782079d7049f50a720421c071a7814f327aa401f8493b73bb52a1076
+  build_date: "2025-06-21T12:49:18Z"
   src_urls:
   - https://github.com/larygwil/caesium-image-compressor
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/caesium
@@ -5921,7 +5902,7 @@ AM:
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/calibre%2Fx86_64-Linux%2F840/calibre
   size: 231 MB
   bsum: fc9427eaf2968e8e54d2cdcce3d2d81fee1cd31634ec0e3d8a42fff4ee178528
-  build_date: "2025-06-22T06:41:54Z"
+  build_date: "2025-06-21T12:51:17Z"
   src_urls:
   - https://github.com/kovidgoyal/calibre
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/calibre
@@ -5941,8 +5922,8 @@ AM:
   version: 1.3.2
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/calm-circles%2Fx86_64-Linux%2F132/calm-circles
   size: 22 MB
-  bsum: 02456c60a20b86604a7c02b8ebf85adc3de80f1d5db1231638c98a6866934e18
-  build_date: "2025-06-23T13:03:47Z"
+  bsum: 2652cedea4191a5766e9bb13d293412d7a3e6ea0d1413a61ad76c75252e3c1f7
+  build_date: "2025-06-21T12:50:58Z"
   src_urls:
   - https://github.com/VitoVan/calm
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/calm-circles
@@ -5962,8 +5943,8 @@ AM:
   version: 1.3.2
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/calm-fan%2Fx86_64-Linux%2F132/calm-fan
   size: 22 MB
-  bsum: 1bdc7fc47b3b1dc50f5a81fa0c69330121cc792eb5fe1f50a779f11e1780e1ba
-  build_date: "2025-06-23T13:03:35Z"
+  bsum: b93f8df33ba931171bdcd6dbf55338e850d3d3f2efc7fb60d7c3c70888885a8c
+  build_date: "2025-06-21T12:47:29Z"
   src_urls:
   - https://github.com/VitoVan/calm
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/calm-fan
@@ -5983,8 +5964,8 @@ AM:
   version: 1.3.2
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/calm-meditator%2Fx86_64-Linux%2F132/calm-meditator
   size: 24 MB
-  bsum: 5279e431d3c9f9f1aa51aec2c1f403600ca18ed5e4d45cc11d9a5376ad45d97f
-  build_date: "2025-06-23T13:03:20Z"
+  bsum: 3ec5a293b821b9c08eb81a2b4b7cff57f6553fa5bfd832d91a8f32b39234409c
+  build_date: "2025-06-21T12:51:56Z"
   src_urls:
   - https://github.com/VitoVan/calm
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/calm-meditator
@@ -6004,8 +5985,8 @@ AM:
   version: 1.3.2
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/calm-mondrian%2Fx86_64-Linux%2F132/calm-mondrian
   size: 22 MB
-  bsum: 29f6b414c2847039ed1f2af6619db759e293bd97001a02d14ca1b33d4de233fd
-  build_date: "2025-06-23T13:04:43Z"
+  bsum: 6dd3aba4517c29b20de0a317c9c6f95ccdbfe4c6b08d05b37f78a45cb09ea279
+  build_date: "2025-06-21T12:50:00Z"
   src_urls:
   - https://github.com/VitoVan/calm
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/calm-mondrian
@@ -6025,8 +6006,8 @@ AM:
   version: 3.0.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/candycrisis%2Fx86_64-Linux%2F300/candycrisis
   size: 9.9 MB
-  bsum: 72429ad58ab975182ca217497ff72c981ec7e77e3465114d90e0b0e3874ee8ec
-  build_date: "2025-06-23T13:04:56Z"
+  bsum: c59063470f43323149e83428afc82c4fddc27150e664dd92e354a337b71f868b
+  build_date: "2025-06-21T12:51:13Z"
   src_urls:
   - https://github.com/jorio/CandyCrisis
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/candycrisis
@@ -6047,7 +6028,7 @@ AM:
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/capbattleship%2Fx86_64-Linux%2F361/capbattleship
   size: 122 MB
   bsum: e3a4aa613ba08bc2904dea45cb78f081e02f4b263ac630c242829e586b90b150
-  build_date: "2025-06-23T01:51:28Z"
+  build_date: "2025-06-21T12:49:59Z"
   src_urls:
   - https://capbattleship.tuxfamily.org
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/capbattleship
@@ -6067,8 +6048,8 @@ AM:
   version: 2.60.3
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/caprine%2Fx86_64-Linux%2F2603/caprine
   size: 99 MB
-  bsum: 2b9df86e5f47654e764caac7e6e19f2a4ae2714e050449d0fa563ff6dfb64fac
-  build_date: "2025-06-22T06:41:57Z"
+  bsum: 01e8ddbe0ea68ff98284ff3515f62a63bde7a489516be217a1cc0f2179280d3b
+  build_date: "2025-06-21T12:51:00Z"
   src_urls:
   - https://github.com/sindresorhus/caprine
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/caprine
@@ -6088,8 +6069,8 @@ AM:
   version: 1.10.1
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/cardo%2Fx86_64-Linux%2F1101/cardo
   size: 83 MB
-  bsum: 187e0384f8c85553247e92a85b39a34d55918c4753bdead3c768658b6faa096d
-  build_date: "2025-06-22T06:41:56Z"
+  bsum: f0dea578d6ef880e2609958e9612ed35e48ce0afe57a904b6fd80bfc4bee7a50
+  build_date: "2025-06-21T12:50:47Z"
   src_urls:
   - https://github.com/n0vella/cardo
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cardo
@@ -6109,8 +6090,8 @@ AM:
   version: 2.2.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/cargo%2Fx86_64-Linux%2F220/cargo
   size: 1.9 MB
-  bsum: 8c2f76361b910df318fec8784448352bd109c9c153545bee623b0409b1ac87d0
-  build_date: "2025-06-23T13:04:01Z"
+  bsum: fbd69a957e3a7649eaa23a4ea4bed8fd0360dbd1236cf5ca379977ee9fe0a948
+  build_date: "2025-06-21T12:53:47Z"
   src_urls:
   - https://github.com/StratusFearMe21/cargo-appimage
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cargo
@@ -6130,8 +6111,8 @@ AM:
   version: 2.5.2
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/carpenters%2Fx86_64-Linux%2F252/carpenters
   size: 51 MB
-  bsum: 0835f64d20ec35c33ec733eca09c0dd27b9bc84c8dcdf793093f5f1fe37c642e
-  build_date: "2025-06-23T13:04:12Z"
+  bsum: f09dcd673b655cb1c2b9813b014f7453d709e6de321bf0e77a31de3ab28e7fc1
+  build_date: "2025-06-21T12:50:42Z"
   src_urls:
   - https://github.com/uhlibraries-digital/carpenters
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/carpenters
@@ -6152,7 +6133,7 @@ AM:
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/carta%2Fx86_64-Linux%2F410/carta
   size: 106 MB
   bsum: 80444dc98ab638de3bcb602921923a02e2db63f6ce59456edda6d0868b321534
-  build_date: "2025-06-23T13:03:53Z"
+  build_date: "2025-06-21T12:51:00Z"
   src_urls:
   - https://github.com/CARTAvis/carta
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/carta
@@ -6172,8 +6153,8 @@ AM:
   version: 0.6.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/casm%2Fx86_64-Linux%2F060/casm
   size: 3.7 MB
-  bsum: 11f62ba976b72a7769d8557356041fe7c81986e2f6116599c8a4658f9dd7f138
-  build_date: "2025-06-22T06:42:49Z"
+  bsum: 9dd0aa9bcc93698a91abf1decde2ce2418b90272e2c73be946d869ca48d05cc3
+  build_date: "2025-06-21T12:52:23Z"
   src_urls:
   - https://github.com/casm-lang/casm
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/casm
@@ -6193,8 +6174,8 @@ AM:
   version: 2.0.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/casterr%2Fx86_64-Linux%2F200/casterr
   size: 98 MB
-  bsum: 5d9a3f99a6fea3d435afddd10bb2d0edfa415450dfc047af1812f25a0f9ca8c5
-  build_date: "2025-06-23T13:04:01Z"
+  bsum: da140e8e70d5ced8448bd1e41c224a45e5fab1bf890cefcd4d11e343a5f064d8
+  build_date: "2025-06-21T12:51:06Z"
   src_urls:
   - https://casterr.sbond.co/
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/casterr
@@ -6214,8 +6195,8 @@ AM:
   version: 1a84315
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/castersoundboard%2Fx86_64-Linux%2F1a84315/castersoundboard
   size: 22 MB
-  bsum: 0eb8cbfad3edf4c9d0b763693881d1770c640214b441ab4eddadcc905d166874
-  build_date: "2025-06-23T13:04:58Z"
+  bsum: 5aeddede609de1fd832a6bf4a0b93ef6b86e57a26062be9df4d402b9c51e2e83
+  build_date: "2025-06-21T12:51:35Z"
   src_urls:
   - https://github.com/covarianttensor/CasterSoundboard
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/castersoundboard
@@ -6235,8 +6216,8 @@ AM:
   version: 3.9.6
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/catalyst%2Fx86_64-Linux%2F396/catalyst
   size: 110 MB
-  bsum: f26c1ce7d2757e4a9af3527396970369c1089dddd76904e5dc023446f75ed136
-  build_date: "2025-06-23T13:04:27Z"
+  bsum: e5c4fa44143668c1ac952622a015f37060e32e4284159aa4950a281c8ff8b218
+  build_date: "2025-06-21T12:51:47Z"
   src_urls:
   - https://github.com/CatalystDevOrg/Catalyst
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/catalyst
@@ -6256,8 +6237,8 @@ AM:
   version: 3.4.7
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/catcher%2Fx86_64-Linux%2F347/catcher
   size: 98 MB
-  bsum: c6d2c1af6bb03f65e1716025ab577870919476e1c2f62a26ed478e0be9f737c9
-  build_date: "2025-06-23T13:04:46Z"
+  bsum: 74a6dec0c2b1ba1c370212650046171bb5d13eaaffba82b5ab25f8bebc52affc
+  build_date: "2025-06-21T12:52:00Z"
   src_urls:
   - https://github.com/testathor/CATcher
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/catcher
@@ -6277,8 +6258,8 @@ AM:
   version: "1.0"
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/cavoke%2Fx86_64-Linux%2F10/cavoke
   size: 66 MB
-  bsum: 4a68540c29f703ed451d0dfc318cd03271ca4896b18c5b1ab31172d9372524f2
-  build_date: "2025-06-23T13:06:08Z"
+  bsum: 9c2244ab94581ccb51ed01b09d13528b46a1cf65efa52b8f50068402c8d21936
+  build_date: "2025-06-21T12:52:43Z"
   src_urls:
   - https://github.com/cavoke-project/cavoke
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cavoke
@@ -6298,8 +6279,8 @@ AM:
   version: 22.0.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/cbetar2%2Fx86_64-Linux%2F2200/cbetar2
   size: 87 MB
-  bsum: 1f9ba4daf68fba74936ba58e7d28dda66c08ae5e707ec91ebe8f869684adb5fc
-  build_date: "2025-06-22T06:42:32Z"
+  bsum: 758f9fd4441abee832dcdd42910c255e2d5b32abe0889c60a8b76c7e47cadf56
+  build_date: "2025-06-21T12:51:54Z"
   src_urls:
   - https://github.com/MrMYHuang/cbetar2
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cbetar2
@@ -6320,7 +6301,7 @@ AM:
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/cccp%2Fx86_64-Linux%2F222572560/cccp
   size: 56 MB
   bsum: e07d7a28551ce2da3748a019f899d9a3093240438674214a42d9e054de0036e3
-  build_date: "2025-06-22T06:43:37Z"
+  build_date: "2025-06-21T12:53:08Z"
   src_urls:
   - https://github.com/cortex-command-community/Cortex-Command-Community-Project
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cccp
@@ -6340,8 +6321,8 @@ AM:
   version: 1.1.1
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/celeste64%2Fx86_64-Linux%2F111/celeste64.bundle.tar.zstd
   size: 27 MB
-  bsum: 61cc87749fe87f0ebcd9c79d5b68cc2daccde6c8ed414660ead9145741d3889e
-  build_date: "2025-06-23T13:05:12Z"
+  bsum: 4890b8142e077fc847fcb559716cd1689ac21f9a6fd15e3eb1c5ca35432339e4
+  build_date: "2025-06-21T12:52:07Z"
   src_urls:
   - https://github.com/ExOK/Celeste64
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/celeste64
@@ -6362,8 +6343,8 @@ AM:
   version: 1.7.0~git20250619+a7df5ef
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/celestia-dev%2Fx86_64-Linux%2F170git20250619a7df5ef/celestia-dev
   size: 233 MB
-  bsum: ab0fb7e1a94ab3771e24b57d64f725fe522769e008ada106612cba625adc25a7
-  build_date: "2025-06-23T18:38:10Z"
+  bsum: d940de905a4385ffebf92b0aa29032cd986416f997fd6da102f598db5bb63a7c
+  build_date: "2025-06-20T12:57:20Z"
   src_urls:
   - https://celestiaproject.space
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/celestia-dev
@@ -6404,8 +6385,8 @@ AM:
   version: 1.6.4+git11.ca0d641
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/celestia%2Fx86_64-Linux%2F164git11ca0d641/celestia
   size: 48 MB
-  bsum: 4c5f17f39959745b268d6ee3d3c43501e862e68a6bd31381783a0a60adf7d991
-  build_date: "2025-06-22T06:43:03Z"
+  bsum: 264e38e69ed9647323546f58d219910f994e193f3267e9dd0b91e9aeb2f79d94
+  build_date: "2025-06-20T12:58:22Z"
   src_urls:
   - https://celestiaproject.space
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/celestia
@@ -6425,8 +6406,8 @@ AM:
   version: 2.5.3
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/celoterminal-bin%2Fx86_64-Linux%2F253/celoterminal-bin
   size: 104 MB
-  bsum: 364d3ac9c644aa1b786f5c7541903ee84d45134d0472642f00e7e6d8d6c995f6
-  build_date: "2025-06-22T06:42:55Z"
+  bsum: a96dd9df72ddaa2fa8ed4dd4dcfd246a65ca74c8270828bbc49d8c92eb93d242
+  build_date: "2025-06-20T12:59:05Z"
   src_urls:
   - https://github.com/zviadm/celoterminal
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/celoterminal-bin
@@ -6447,7 +6428,7 @@ AM:
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/cemu%2Fx86_64-Linux%2F26/cemu
   size: 59 MB
   bsum: bb24d42ad7cef3110280bc06730c4b008790443a3a91161bffcfc0238cdc93aa
-  build_date: "2025-06-22T06:43:14Z"
+  build_date: "2025-06-20T12:57:52Z"
   src_urls:
   - https://github.com/cemu-project/Cemu
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cemu
@@ -6509,8 +6490,8 @@ AM:
   version: 1.5.1
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/chain-desktop-wallet%2Fx86_64-Linux%2F151/chain-desktop-wallet
   size: 216 MB
-  bsum: 776f6b47f30046279c011be8491ce7bd1137327bcafffedc737459571cb46460
-  build_date: "2025-06-22T06:43:53Z"
+  bsum: 76d211d6e35708d1ad07fab4d21cef9ebb7b1c790369a9e0387d9274fe02287f
+  build_date: "2025-06-20T12:59:56Z"
   src_urls:
   - https://crypto.com/defi-wallet
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/chain-desktop-wallet
@@ -6572,8 +6553,8 @@ AM:
   version: 1.85.110
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/chatall%2Fx86_64-Linux%2F185110/chatall
   size: 103 MB
-  bsum: 276fb383548338d2a052832f2d6a1a267c5d9acc74cdb930e29569e3b3a9272f
-  build_date: "2025-06-22T06:44:20Z"
+  bsum: 5d5c8d83718be2d9bd7690cd71aea2bb9205a27c0e75dc906d1d9ebc8349dc45
+  build_date: "2025-06-20T12:58:52Z"
   src_urls:
   - https://chatall.ai/
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/chatall
@@ -6593,8 +6574,8 @@ AM:
   version: 0.10.4
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/chatbox%2Fx86_64-Linux%2F0104/chatbox
   size: 88 MB
-  bsum: 7207e9ab0701374315aead90b8e2b168f4dbfd38759b68750d31115e1ffa8eb5
-  build_date: "2025-06-22T06:43:49Z"
+  bsum: 8be47710d5847d35c24a059a2f83e740c5937d67655cf99905fed097f1842b3f
+  build_date: "2025-06-20T12:58:29Z"
   src_urls:
   - https://github.com/Bin-Huang/chatbox
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/chatbox
@@ -6656,8 +6637,8 @@ AM:
   version: 1.4.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/chatpad-ai%2Fx86_64-Linux%2F140/chatpad-ai
   size: 92 MB
-  bsum: cbafd989db77997d8a507fd527002aed5998432799122818da1b6701bf70b327
-  build_date: "2025-06-22T06:44:30Z"
+  bsum: a7640270a4e2afe25e292c6de553136f6a0a63ff856527dd8a4b31a3aba1c92d
+  build_date: "2025-06-20T12:58:39Z"
   src_urls:
   - https://chatpad.ai/
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/chatpad-ai
@@ -6695,15 +6676,15 @@ AM:
   pkg_name: chatterino2
   pkg_id: AM.x86_64.chatterino2.chatterino2
   description: Second installment of the Twitch chat client
-  version: 2025.06.21
-  download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/chatterino2%2Fx86_64-Linux%2F20250621/chatterino2
+  version: 2025.06.17
+  download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/chatterino2%2Fx86_64-Linux%2F20250617/chatterino2
   size: 34 MB
-  bsum: 729c2811f46eec1bcb1784f1a6432b3ac36f64b5242699f1f9514e064ee6daac
-  build_date: "2025-06-22T06:44:17Z"
+  bsum: 51ec60ff601393300c9089837206f36f0e957086819b89974f6a9e140096dd6e
+  build_date: "2025-06-20T18:35:05Z"
   src_urls:
   - https://chatterino.com
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/chatterino2
-  build_log: https://huggingface.co/datasets/pkgforge/AMcache/resolve/chatterino2%2Fx86_64-Linux%2F20250621/chatterino2.log
+  build_log: https://huggingface.co/datasets/pkgforge/AMcache/resolve/chatterino2%2Fx86_64-Linux%2F20250617/chatterino2.log
   maintainers: AM (https://github.com/ivan-hc/AM)
   notes:
   - "[EXTERNAL] (This is an unofficial, third-party repository)"
@@ -6719,8 +6700,8 @@ AM:
   version: 3.0.6
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/cheatbreaker%2Fx86_64-Linux%2F306/cheatbreaker
   size: 119 MB
-  bsum: 517ff860e1f28cb9c7471624f988d96e174b64a57c6b787202fa908272d641b8
-  build_date: "2025-06-22T06:44:39Z"
+  bsum: 970fe259b3f3c18541f4502998fde9f5d3c18f75754b85d591a4a90eb42fb017
+  build_date: "2025-06-20T12:59:30Z"
   src_urls:
   - https://github.com/CheatBreakerNet/Launcher
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cheatbreaker
@@ -6741,7 +6722,7 @@ AM:
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/chemcanvas%2Fx86_64-Linux%2F0728/chemcanvas
   size: 33 MB
   bsum: cf646b3388f23436e04b38a8fa10727c0941cfa3409e31752ce8569810805df5
-  build_date: "2025-06-22T06:44:12Z"
+  build_date: "2025-06-20T12:59:12Z"
   src_urls:
   - https://github.com/ksharindam/chemcanvas
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/chemcanvas
@@ -6758,15 +6739,15 @@ AM:
   pkg_name: cherry-studio
   pkg_id: AM.x86_64.cherry-studio.cherry-studio
   description: Cherry Studio is a desktop client that supports for multiple LLM providers
-  version: 1.4.3
-  download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/cherry-studio%2Fx86_64-Linux%2F143/cherry-studio
-  size: 120 MB
-  bsum: d1e063ba5f4a96602f3097608a18cb8ef32359bdf26614f3acf731a1fdcca546
-  build_date: "2025-06-19T01:28:03Z"
+  version: 1.5.0
+  download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/cherry-studio%2Fx86_64-Linux%2F150/cherry-studio
+  size: 131 MB
+  bsum: b8720e12a9673d05d814a7bb2821e6d4b87e7abfb0d931166386663df17eb2e9
+  build_date: "2025-06-20T18:35:50Z"
   src_urls:
   - https://github.com/kangfenmao/cherry-studio
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cherry-studio
-  build_log: https://huggingface.co/datasets/pkgforge/AMcache/resolve/cherry-studio%2Fx86_64-Linux%2F143/cherry-studio.log
+  build_log: https://huggingface.co/datasets/pkgforge/AMcache/resolve/cherry-studio%2Fx86_64-Linux%2F150/cherry-studio.log
   maintainers: AM (https://github.com/ivan-hc/AM)
   notes:
   - "[EXTERNAL] (This is an unofficial, third-party repository)"
@@ -6825,8 +6806,8 @@ AM:
   version: 40dae09
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/chimeradesk-kvm%2Fx86_64-Linux%2F40dae09/chimeradesk-kvm
   size: 26 MB
-  bsum: bf49ee7748951fee61d9eb0486739ef589fe4065b4a71a6f53b625dec3d7892a
-  build_date: "2025-06-22T06:44:31Z"
+  bsum: f1725b6c07065764ab782001148a909cec6adbcbc77c7705978284a7e5ac690e
+  build_date: "2025-06-20T12:59:26Z"
   src_urls:
   - https://github.com/morrolinux/ChimeraDesk
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/chimeradesk-kvm
@@ -6909,8 +6890,8 @@ AM:
   version: 139.0.7232.3
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/chromium-edge%2Fx86_64-Linux%2F139072323/chromium-edge
   size: 141 MB
-  bsum: 81d972d60b20294034ba31975cfbcdf4f652c4d65970881b02dc5f2ca7a26da7
-  build_date: "2025-06-22T06:44:37Z"
+  bsum: 42a88bcce88be2c78c73eed038238faa1a1a7afbd34945bbfd186eed395db4f0
+  build_date: "2025-06-20T13:00:32Z"
   src_urls:
   - https://github.com/ivan-hc/Chromium-Web-Browser-appimage
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/chromium-edge
@@ -6951,8 +6932,8 @@ AM:
   version: 137.0.7151.103
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/chromium%2Fx86_64-Linux%2F13707151103/chromium
   size: 140 MB
-  bsum: 53c699f128f8457390552f4da5dbb1134ef338018d9738b2cceffd53af7308bd
-  build_date: "2025-06-22T06:44:37Z"
+  bsum: 205140cb2f71ac0ede94ee942bcd6d50e12af737e648f8ade2d7df8bcecd7415
+  build_date: "2025-06-20T12:59:30Z"
   src_urls:
   - https://github.com/ivan-hc/Chromium-Web-Browser-appimage
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/chromium
@@ -7014,8 +6995,8 @@ AM:
   version: "20250430"
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/cinelerra-gg%2Fx86_64-Linux%2F20250430/cinelerra-gg
   size: 154 MB
-  bsum: 865da901d3eeb71c69b7b4f98a6a530dddb0d6b2e33747da583805ea29ff6252
-  build_date: "2025-06-22T06:47:09Z"
+  bsum: 216c6e404fc8b8f2d2fb122b3a54e62e43fb1da7fd9cec5106ead47dc2abf0e6
+  build_date: "2025-06-20T12:59:49Z"
   src_urls:
   - https://www.cinelerra-gg.org
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cinelerra-gg
@@ -7056,8 +7037,8 @@ AM:
   version: 1.14.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/circle-z%2Fx86_64-Linux%2F1140/circle-z
   size: 108 MB
-  bsum: 87189292ac82527ace1736af056626b4c40f2ecc03215a4838602505c30c9423
-  build_date: "2025-06-22T06:45:55Z"
+  bsum: e449633600be82019c6eb4752971435c0e4e3c5ffa01abac3d1d348fdd7b9662
+  build_date: "2025-06-20T13:00:18Z"
   src_urls:
   - https://github.com/rossprogram/circle-z
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/circle-z
@@ -7077,8 +7058,8 @@ AM:
   version: 1.10.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/circuitblocks%2Fx86_64-Linux%2F1100/circuitblocks
   size: 130 MB
-  bsum: d9db4149eeb4456f3f632f4bc914216841b27499f4dbb65f646b85e3be36782b
-  build_date: "2025-06-22T06:46:04Z"
+  bsum: 289fd75e7635a08c85b6f2e78ce6d80df547d15d5bc9fb611e0bcb6b975c65ba
+  build_date: "2025-06-20T13:00:18Z"
   src_urls:
   - https://github.com/CircuitMess/CircuitBlocks
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/circuitblocks
@@ -7098,8 +7079,8 @@ AM:
   version: 046538bb4
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/citron-nightly%2Fx86_64-Linux%2F046538bb4/citron-nightly
   size: 113 MB
-  bsum: 1f5055fddf75c36431e4f0025b49bd166f36e73ac6402a9958b63b6c2282a619
-  build_date: "2025-06-22T06:45:27Z"
+  bsum: 732b8ef2887222325a73d493e63fa4480b0b61661e42c1d1c92e1bb522070109
+  build_date: "2025-06-20T13:00:49Z"
   src_urls:
   - https://github.com/pkgforge-dev/Citron-AppImage
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/citron-nightly
@@ -7183,8 +7164,8 @@ AM:
   version: 1.3.8
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/clash-verge%2Fx86_64-Linux%2F138/clash-verge
   size: 96 MB
-  bsum: 5a8692aa0118534a155f83ba1f10874c2cc008ef048e9c3a9a5c5998510fada1
-  build_date: "2025-06-23T13:07:26Z"
+  bsum: fa04678ee9ad2810c671dadda9ab4fdb909242f8772570b1d7836c7ad96a30ac
+  build_date: "2025-06-20T01:45:36Z"
   src_urls:
   - https://github.com/zzzgydi/clash-verge
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/clash-verge
@@ -7204,8 +7185,8 @@ AM:
   version: 1.2.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/classicimageviewer%2Fx86_64-Linux%2F120/classicimageviewer
   size: 54 MB
-  bsum: b194ef6cc26ced971f129f26b80009b22253a38ea83423c475ddea2883c0a2ff
-  build_date: "2025-06-22T06:45:55Z"
+  bsum: 0c0e752c7b96971eb94edf8c21401c4eb57cf6323faf35a26dcaca2df5ba2e2c
+  build_date: "2025-06-20T12:59:53Z"
   src_urls:
   - https://github.com/classicimageviewer/ClassicImageViewer
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/classicimageviewer
@@ -7267,8 +7248,8 @@ AM:
   version: "1.2"
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/clementineremote%2Fx86_64-Linux%2F12/clementineremote
   size: 38 MB
-  bsum: cb615c9c49cf0c9db510baa66a2ea58ca65607c41cc2bbd2683487f672a1ee36
-  build_date: "2025-06-22T06:46:11Z"
+  bsum: 9e918c0eff725ef0339a2a8741de0ebbd887fdb03033c81938d80c6d1e364b8f
+  build_date: "2025-06-20T13:00:17Z"
   src_urls:
   - https://github.com/mbruel/ClementineRemote
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/clementineremote
@@ -7331,8 +7312,8 @@ AM:
   version: 3.9.10
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/clipgrab%2Fx86_64-Linux%2F3910/clipgrab
   size: 84 MB
-  bsum: 7a47ac0849556b662805c623cd6be6673f1a06560fb3c7feca4e894708b5c97e
-  build_date: "2025-06-22T06:47:45Z"
+  bsum: 444a6b4c952dcc9aca8b63b57bc93d4349ec6727e771a4eaa02a1edfba4b099a
+  build_date: "2025-06-20T13:00:21Z"
   src_urls:
   - https://clipgrab.org/
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/clipgrab
@@ -7436,8 +7417,8 @@ AM:
   version: "1.4"
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/clownmdemu%2Fx86_64-Linux%2F14/clownmdemu
   size: 3.3 MB
-  bsum: 116202ac76fc7f075bfab13c495f8c32c41c63c506eb1c9bb3348e115594e5be
-  build_date: "2025-06-22T06:46:40Z"
+  bsum: 2e0aed390b15ef898996249c87a201b749dc5c88eddd5e61f0e2dc0d9a363561
+  build_date: "2025-06-20T12:59:58Z"
   src_urls:
   - https://github.com/Clownacy/clownmdemu-frontend
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/clownmdemu
@@ -7479,7 +7460,7 @@ AM:
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/cncra2yr%2Fx86_64-Linux%2F8673/cncra2yr
   size: 591 MB
   bsum: 1d4d6328852e0a20c75cb64e9658cbec11c4632b899184929fae676ec7dfbeef
-  build_date: "2025-06-22T06:47:23Z"
+  build_date: "2025-06-20T13:00:24Z"
   src_urls:
   - https://github.com/mmtrt/cncra2yr_AppImage
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cncra2yr
@@ -7499,8 +7480,8 @@ AM:
   version: 1.3.6
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/coal-launcher%2Fx86_64-Linux%2F136/coal-launcher
   size: 93 MB
-  bsum: b6b7a0d9f911286e8aece5fc9d9c900eadf81feb265d3b074fb801c23752e37c
-  build_date: "2025-06-22T06:47:27Z"
+  bsum: 22a345f60aef43d7c472d9dad0ee51fccef22d220a8e5822b09954e7954f2632
+  build_date: "2025-06-20T13:01:46Z"
   src_urls:
   - https://bobuxstation.github.io/Coal-Web/launcher.html
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/coal-launcher
@@ -7561,8 +7542,8 @@ AM:
   version: 2.6.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/coderunner-pake%2Fx86_64-Linux%2F260/coderunner-pake
   size: 76 MB
-  bsum: 3a9dbb42682dce9960f09d24fdf425219ba53b3b68df59a687359c5ce0f7866d
-  build_date: "2025-06-22T06:46:23Z"
+  bsum: 908617041bc8a773cfc184fe77fc1bf117856a1ea983e15ebb6626ead562255f
+  build_date: "2025-06-20T13:00:40Z"
   src_urls:
   - https://github.com/tw93/Pake
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/coderunner-pake
@@ -7582,8 +7563,8 @@ AM:
   version: 6.9.8
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/coinstac%2Fx86_64-Linux%2F698/coinstac
   size: 110 MB
-  bsum: d560d5b6616c4bb8325c6a770f5c489defc2e1bda0a561ab6fee4ac9c73dc950
-  build_date: "2025-06-22T06:47:43Z"
+  bsum: 392a0bf0efd451db451fc1c08f601587bcd31efd703ed94d163974bac6ba1898
+  build_date: "2025-06-20T13:01:11Z"
   src_urls:
   - https://github.com/trendscenter/coinstac
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/coinstac
@@ -7624,8 +7605,8 @@ AM:
   version: 1.4.4
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/colon%2Fx86_64-Linux%2F144/colon
   size: 50 MB
-  bsum: d8449c35a1a85452e6d6b4de470eba53c8a55ca1c8b5bc9de2f023cd82b5c43d
-  build_date: "2025-06-22T06:47:31Z"
+  bsum: 2ce1be554f27f57a8ab5cf7a51d1ca21f14eb30cdc71dc10ef5a125bb0700b81
+  build_date: "2025-06-20T13:01:48Z"
   src_urls:
   - https://github.com/Chhekur/colon-ide
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/colon
@@ -7645,8 +7626,8 @@ AM:
   version: "0.22"
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/colorgenerator%2Fx86_64-Linux%2F022/colorgenerator
   size: 6.1 MB
-  bsum: 5bf0863547fd74dc898c3e77c4ec2d646e8a1a6e438f565a755623e9c53e41e0
-  build_date: "2025-06-22T06:47:35Z"
+  bsum: e26b9c636280af8a117845df002c2894ff1950a05aae333e5886b3e70246b804
+  build_date: "2025-06-20T13:01:49Z"
   src_urls:
   - https://github.com/YaShock/color-generator
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/colorgenerator
@@ -7666,8 +7647,8 @@ AM:
   version: 2.2.2
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/colorpicker%2Fx86_64-Linux%2F222/colorpicker
   size: 76 MB
-  bsum: d1f7340830834d6f1294f5e5e5d0bff3d7e15647b14b667ed98419aa048b5199
-  build_date: "2025-06-22T06:47:44Z"
+  bsum: e4ae2cea0994548aefdcb803a7d2ec19303426aa580e5cac38b073cf567ba77b
+  build_date: "2025-06-20T13:02:09Z"
   src_urls:
   - https://github.com/Toinane/colorpicker
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/colorpicker
@@ -7708,8 +7689,8 @@ AM:
   version: 3.10.2
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/comic-book-reader%2Fx86_64-Linux%2F3102/comic-book-reader
   size: 166 MB
-  bsum: c97c1047e6c8535e00652492d8524cdabb23bdd5fdf9d0ca1ff82fb199edb09a
-  build_date: "2025-06-22T06:48:03Z"
+  bsum: d82a9e747f4434ebd391ed760e9abfda87a4da229d928169e0e49dd16d7fce8a
+  build_date: "2025-06-20T13:01:30Z"
   src_urls:
   - https://github.com/binarynonsense/comic-book-reader
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/comic-book-reader
@@ -7793,8 +7774,8 @@ AM:
   version: 0.8.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/compass%2Fx86_64-Linux%2F080/compass
   size: 556 MB
-  bsum: 887e6c307bff8d5e0a002a3275d07a8d79c10d2372813286a20c05204c0a2d75
-  build_date: "2025-06-22T06:49:54Z"
+  bsum: 522a22f5275eabc5b26e14ec33c6c5bf8e131ba38595d9d25c6fcb9e5d8fa83a
+  build_date: "2025-06-20T13:04:09Z"
   src_urls:
   - https://github.com/hpuhr/COMPASS
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/compass
@@ -7877,8 +7858,8 @@ AM:
   version: 1.3.3
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/consoleworkbench%2Fx86_64-Linux%2F133/consoleworkbench
   size: 53 MB
-  bsum: 2eaa2b5088ef8eedfd03aa38c07d6eef3c9cd9a32de1f8ec5760f5bbc1f0feab
-  build_date: "2025-06-22T06:48:38Z"
+  bsum: 208d00402c5f800b4796dd7b07bcdfc4a370e06d58405c0fb6bb605896cf7786
+  build_date: "2025-06-20T13:01:44Z"
   src_urls:
   - https://github.com/easyops-cn/console-workbench
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/consoleworkbench
@@ -7899,7 +7880,7 @@ AM:
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/contour%2Fx86_64-Linux%2F0617494/contour
   size: 316 MB
   bsum: 2339aff5a45f4846e3b62129ecd06f7f6e676239316b698739f3ff9bed2a50b1
-  build_date: "2025-06-22T06:50:26Z"
+  build_date: "2025-06-20T13:02:55Z"
   src_urls:
   - https://github.com/contour-terminal/contour
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/contour
@@ -7961,8 +7942,8 @@ AM:
   version: dac2b4f
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/cool-retro-term%2Fx86_64-Linux%2Fdac2b4f/cool-retro-term
   size: 31 MB
-  bsum: fa50ce2003954b2350f1cd1073caef605147a78a9f84ba3b17332cec80619d69
-  build_date: "2025-06-22T06:49:14Z"
+  bsum: 66c672040009544da38f4a1336163a3db8b9ce9767246532bd392b4b945ec2e1
+  build_date: "2025-06-20T13:01:35Z"
   src_urls:
   - https://github.com/Swordfish90/cool-retro-term
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cool-retro-term
@@ -8025,7 +8006,7 @@ AM:
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/copytranslator%2Fx86_64-Linux%2F1000/copytranslator
   size: 74 MB
   bsum: 7b0fb547da91a93c965678b35c73157e6d1d49a900482235fd76456c6e22dd96
-  build_date: "2025-06-22T06:49:59Z"
+  build_date: "2025-06-20T13:02:56Z"
   src_urls:
   - https://copytranslator.github.io
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/copytranslator
@@ -8045,8 +8026,8 @@ AM:
   version: 0.1.2
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/cordlauncher%2Fx86_64-Linux%2F012/cordlauncher
   size: 59 MB
-  bsum: cc028e3939e6fdd764da0854cacc67d315450282c19b5ee040b4855f8e43ca6e
-  build_date: "2025-06-22T06:45:54Z"
+  bsum: b9eea55ef1960c6665039ec81256640b1fa8f2173f2ae2e8c251c6d726672363
+  build_date: "2025-06-20T13:02:35Z"
   src_urls:
   - https://github.com/ProtocolONE/cord.launcher
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/cordlauncher
@@ -8066,8 +8047,8 @@ AM:
   version: d5f6110
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/coreaction%2Fx86_64-Linux%2Fd5f6110/coreaction
   size: 26 MB
-  bsum: e43c600810a08b0a2fa318081f052fb7402a974fb4841a9650ced656a286ea2b
-  build_date: "2025-06-22T06:49:04Z"
+  bsum: 6aff492e527f73e1fe778be34b58cc1e2aa84bb7b990ebf9eb6b6b378f487226
+  build_date: "2025-06-20T13:02:03Z"
   src_urls:
   - https://gitlab.com/cubocore
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/coreaction
@@ -8087,8 +8068,8 @@ AM:
   version: d5f6110
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/corearchiver%2Fx86_64-Linux%2Fd5f6110/corearchiver
   size: 27 MB
-  bsum: 84f5c5b8bdc331002c4126775c3db4cfbbf0801267223cfa1df787699293e4ab
-  build_date: "2025-06-22T06:49:02Z"
+  bsum: 69a155dfa6044b918e55834e86aab140d8e30501b88276d746b94a1be267ac5e
+  build_date: "2025-06-20T13:02:01Z"
   src_urls:
   - https://gitlab.com/cubocore
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/corearchiver
@@ -8129,8 +8110,8 @@ AM:
   version: d5f6110
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/coregarage%2Fx86_64-Linux%2Fd5f6110/coregarage
   size: 27 MB
-  bsum: c6805750b03efb3e71edf2052ccd64f7643e63208b5b000ab0e14be3345ef4ad
-  build_date: "2025-06-22T06:49:19Z"
+  bsum: c84504accf65c29b9fe3f2907461446e267a76ae744356bb75d87a2a8f5bc89f
+  build_date: "2025-06-20T13:02:04Z"
   src_urls:
   - https://gitlab.com/cubocore
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/coregarage
@@ -8150,8 +8131,8 @@ AM:
   version: d5f6110
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/corehunt%2Fx86_64-Linux%2Fd5f6110/corehunt
   size: 26 MB
-  bsum: 14d734b32d38d87e3b7f37e04a9bddd7af237a1bb4451ac611d858045d4c1d28
-  build_date: "2025-06-22T06:49:26Z"
+  bsum: 3cd0450625b0fc9b448b0a7ada0e796a7cd3581528b968c845cc5b5859db4cd4
+  build_date: "2025-06-20T13:02:11Z"
   src_urls:
   - https://gitlab.com/cubocore
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/corehunt
@@ -8171,8 +8152,8 @@ AM:
   version: d5f6110
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/coreimage%2Fx86_64-Linux%2Fd5f6110/coreimage
   size: 26 MB
-  bsum: c01fdbc25942e4596fc9eedf6c652021d0a5111de8b0b2b664c80e7d4d23ec69
-  build_date: "2025-06-22T06:49:10Z"
+  bsum: abc8d4649f991d3fb900ec8e11d9c64e72ece815702cfda6e2e5ca7748240d0c
+  build_date: "2025-06-20T13:03:21Z"
   src_urls:
   - https://gitlab.com/cubocore
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/coreimage
@@ -8192,8 +8173,8 @@ AM:
   version: d5f6110
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/coreinfo%2Fx86_64-Linux%2Fd5f6110/coreinfo
   size: 31 MB
-  bsum: ac739b3014326c1d4b05602c11f9c87818e2c50109a047bea161a4a4e86f338b
-  build_date: "2025-06-22T06:48:09Z"
+  bsum: bdb9be1afaaa8804212852b61d35fe402317754c7bcd045378ac89af58200345
+  build_date: "2025-06-20T13:02:35Z"
   src_urls:
   - https://gitlab.com/cubocore
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/coreinfo
@@ -8234,8 +8215,8 @@ AM:
   version: d5f6110
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/corepad%2Fx86_64-Linux%2Fd5f6110/corepad
   size: 26 MB
-  bsum: b21602af00ac830b551b4ff8e354712b9b65a24120f2f81d2fec05210f586119
-  build_date: "2025-06-22T06:49:21Z"
+  bsum: 80f07e5151c9d52c9f3b793a8a14fb86f3f2e49dd4dd0d181ebcf715a4c4163f
+  build_date: "2025-06-20T13:02:36Z"
   src_urls:
   - https://gitlab.com/cubocore
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/corepad
@@ -8255,8 +8236,8 @@ AM:
   version: d5f6110
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/corepaint%2Fx86_64-Linux%2Fd5f6110/corepaint
   size: 26 MB
-  bsum: ac9bce8a0773f924fbac8cb7b0ac4ef24e7d67670f4e111d2fd760ecc93a50a8
-  build_date: "2025-06-22T06:49:32Z"
+  bsum: 10e4718b76278fb3c9c63b795b7dd86fef6bc9d1de4d64bed5c54d99c7c9041d
+  build_date: "2025-06-20T13:02:49Z"
   src_urls:
   - https://gitlab.com/cubocore
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/corepaint
@@ -8297,8 +8278,8 @@ AM:
   version: d5f6110
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/corerenamer%2Fx86_64-Linux%2Fd5f6110/corerenamer
   size: 26 MB
-  bsum: 6a533143c1fe6ea327900316709d49bd465df6e866033e4ca30ea735a7258b69
-  build_date: "2025-06-22T06:49:27Z"
+  bsum: 3290742eaecd86a386ee8b8a98eb1938624b8efcda7f17580e14d08eb066a345
+  build_date: "2025-06-20T13:04:02Z"
   src_urls:
   - https://gitlab.com/cubocore
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/corerenamer
@@ -8318,8 +8299,8 @@ AM:
   version: d5f6110
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/coreshot%2Fx86_64-Linux%2Fd5f6110/coreshot
   size: 27 MB
-  bsum: 8b34a49ba62361b58cf3f9d1ad4354a30538734acd06ff4e5f6e5eb69fa3f84b
-  build_date: "2025-06-22T06:49:36Z"
+  bsum: 708d90f92a711a2bf67405c363780e2b163aeb4c5de0828a24dd3c1c97d58877
+  build_date: "2025-06-20T13:03:31Z"
   src_urls:
   - https://gitlab.com/cubocore
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/coreshot
@@ -8381,8 +8362,8 @@ AM:
   version: d5f6110
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/coreterminal%2Fx86_64-Linux%2Fd5f6110/coreterminal
   size: 26 MB
-  bsum: e00f3dd1bf6995ebdc09482004428b61953b3373e33031c4010afebb097787b5
-  build_date: "2025-06-22T06:50:00Z"
+  bsum: f3a405c9ec8392d13abcee027e2bb21b218eef3578d9a0e81eb389515d56b2a2
+  build_date: "2025-06-20T13:03:16Z"
   src_urls:
   - https://gitlab.com/cubocore
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/coreterminal
@@ -9244,8 +9225,8 @@ AM:
   version: 5.3.0%2B6.g7771198f2c
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/darktable-nightly%2Fx86_64-Linux%2F5302B6g7771198f2c/darktable-nightly
   size: 160 MB
-  bsum: 26d33a822033686cc8533f8c35cab5922028f1ee9c06b62aa80fccbe6819cd5d
-  build_date: "2025-06-23T06:54:52Z"
+  bsum: fc04745c160a6df3ed14810f70dfcbd7ef3b6bda6a659cdb3a921dd16f675ad7
+  build_date: "2025-06-20T18:36:27Z"
   src_urls:
   - https://github.com/darktable-org/darktable
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/darktable-nightly
@@ -12852,8 +12833,8 @@ AM:
   version: 0.81.2.glibc2.34
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/extraterm%2Fx86_64-Linux%2F0812glibc234/extraterm
   size: 54 MB
-  bsum: 8b4bce0a549eafc05344930190762bd853c01f31aa645b9c15b46d8f45c432fd
-  build_date: "2025-06-21T01:41:17Z"
+  bsum: a0187ae9b93205c10bdf5c0583084220180ebe20c7883260b04f194567b5b91a
+  build_date: "2025-06-20T18:35:39Z"
   src_urls:
   - https://github.com/sedwards2009/extraterm
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/extraterm
@@ -12999,8 +12980,8 @@ AM:
   version: 2.5.2.382
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/fafarunner%2Fx86_64-Linux%2F252382/fafarunner
   size: 29 MB
-  bsum: 2e2cc904703dfe4d0d9f89ab032e7dd1d168635329cf6a22b5e7ea4bb741baf7
-  build_date: "2025-06-21T01:41:08Z"
+  bsum: 6a993f6330dd086edbc4b6e2f7b4f5740b0482d53bb221ff4b1468d152f34e34
+  build_date: "2025-06-20T18:35:29Z"
   src_urls:
   - https://github.com/fafarunner/fafarunner
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/fafarunner
@@ -13104,8 +13085,8 @@ AM:
   version: 1.18.28
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/farmhand%2Fx86_64-Linux%2F11828/farmhand
   size: 208 MB
-  bsum: d04bea24d4aba717cd26c1406517d414dd6c547ab247328d1d8afddbc71dd9e7
-  build_date: "2025-06-21T01:41:38Z"
+  bsum: 51a54050af1c6ee3338e491bd4fdb0c4b7cb24eae8c426a2919bc0b99f6d8e9b
+  build_date: "2025-06-20T18:36:04Z"
   src_urls:
   - https://github.com/jeremyckahn/farmhand
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/farmhand
@@ -13779,8 +13760,8 @@ AM:
   version: continuous-beta
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/firefox-beta-appimage%2Fx86_64-Linux%2Fcontinuous-beta/firefox-beta
   size: 94 MB
-  bsum: c16227caa30d9d5d7cc1ca2058571d7dd5375bb81b580b04291001011f05b522
-  build_date: "2025-06-21T01:40:46Z"
+  bsum: ac1687f3a6ffc3fd16ff3f2eb0c2e9cf865fc202d51f5be4960b690de5822e3b
+  build_date: "2025-06-20T18:35:57Z"
   src_urls:
   - https://github.com/ivan-hc/Firefox-appimage
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-beta-appimage
@@ -13800,8 +13781,8 @@ AM:
   version: continuous-devedition
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/firefox-devedition-appimage%2Fx86_64-Linux%2Fcontinuous-devedition/firefox-devedition
   size: 94 MB
-  bsum: 948a7acf66dd76a447101174193c0d493d88eeaf59ec83ad0533a659a4b6ac86
-  build_date: "2025-06-21T01:41:22Z"
+  bsum: 1b860a974e5f311e164e211a13bfabee15c374a3b90878f699ce3457e5a285f8
+  build_date: "2025-06-20T18:36:13Z"
   src_urls:
   - https://github.com/ivan-hc/Firefox-appimage
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/firefox-devedition-appimage
@@ -14074,8 +14055,8 @@ AM:
   version: 0.0.34
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/flightgear-airports%2Fx86_64-Linux%2F0034/flightgear-airports
   size: 91 MB
-  bsum: c92e0bcdeec04cd2e8dd2b0b0ef6f8c10d186e5eaedc71111d23e0ec17937c18
-  build_date: "2025-06-21T01:41:50Z"
+  bsum: 6ee6d4cd18cc9727937d3f84513e2f8aac3228e57da4e436c8545066f8971b0b
+  build_date: "2025-06-20T18:36:30Z"
   src_urls:
   - https://github.com/Portree-Kid/flightgear-airports
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/flightgear-airports
@@ -14600,8 +14581,8 @@ AM:
   version: 0.6.11
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/frame-eth-dev%2Fx86_64-Linux%2F0611/frame-eth-dev
   size: 153 MB
-  bsum: 2ff04ec54a07395ff16406edde72a734180deb8d193954ca8183c064965ee1a4
-  build_date: "2025-06-21T01:41:43Z"
+  bsum: 852ab2470ed786463a9ad7eca25f82508fb465fe2edf6e5a04e3d1643d910faa
+  build_date: "2025-06-20T18:37:00Z"
   src_urls:
   - https://frame.sh/
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/frame-eth-dev
@@ -15122,12 +15103,12 @@ AM:
 - pkg: gameimage
   pkg_name: gameimage
   pkg_id: AM.x86_64.gameimage.gameimage.bundle
-  description: Pack a runner/emulator/game and its configs in a single AppImage
+  description: Pack a runner/emulator/game and it's configs in a single AppImage
   version: 1.6.1
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/gameimage%2Fx86_64-Linux%2F161/gameimage.bundle.tar.zstd
   size: 95 MB
-  bsum: b3685778bdc1bf810a7f85cbe9ceeda0015b67214428e9c6c285ee615b9df753
-  build_date: "2025-06-22T18:38:54Z"
+  bsum: a38252ec97215d01a031c49912854950284bd8595dc87977b55c9df691f48f52
+  build_date: "2025-06-20T18:36:58Z"
   src_urls:
   - https://github.com/ruanformigoni/gameimage
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gameimage
@@ -15149,7 +15130,7 @@ AM:
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/gams-studio%2Fx86_64-Linux%2F1212/gams-studio
   size: 169 MB
   bsum: 94a0aeb24c0dc8130e71d77324d3e0844a7cc1146bc45b6b9288fc47f3f66ec8
-  build_date: "2025-06-22T01:51:01Z"
+  build_date: "2025-06-20T18:36:33Z"
   src_urls:
   - https://github.com/GAMS-dev/studio
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gams-studio
@@ -15716,7 +15697,7 @@ AM:
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/gimp-git%2Fx86_64-Linux%2F5492540845e1961b/gimp-git
   size: 198 MB
   bsum: 754db1ffffe98716fbb99c3141250033149fbaae6047406d3e09ba6a1af65a0b
-  build_date: "2025-06-21T01:41:50Z"
+  build_date: "2025-06-20T18:36:36Z"
   src_urls:
   - https://github.com/ivan-hc/GIMP-appimage
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gimp-git
@@ -16156,8 +16137,8 @@ AM:
   version: 3.8.2
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/gmail-desktop%2Fx86_64-Linux%2F382/gmail-desktop
   size: 103 MB
-  bsum: 6ce852ca7bd7e9e2e53dd5f7a9436da0692fa0e82e2a658b4195bc0756a0e887
-  build_date: "2025-06-21T01:42:14Z"
+  bsum: a38e78c28d19bc2b13edac81909a7a44e3a6d90cd73afe6f20164e49431af21a
+  build_date: "2025-06-20T18:37:40Z"
   src_urls:
   - https://github.com/timche/gmail-desktop
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/gmail-desktop
@@ -16410,8 +16391,8 @@ AM:
   version: 138.0.7204.35
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/google-chrome-beta%2Fx86_64-Linux%2F1380720435/google-chrome-beta
   size: 147 MB
-  bsum: 5bfe6fe7f56e26a556b15ca39f02341b1357c475b27a0561ef9fc083114357bf
-  build_date: "2025-06-22T01:51:01Z"
+  bsum: 000fcfe2aa3a10e951868b64a5c90bbfaa9292598770f68266fbd6f3cfcda55d
+  build_date: "2025-06-20T18:37:03Z"
   src_urls:
   - https://github.com/ivan-hc/Chrome-appimage
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/google-chrome-beta
@@ -16579,7 +16560,7 @@ AM:
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/goverlay%2Fx86_64-Linux%2F0afd39236/goverlay
   size: 54 MB
   bsum: c3dde0772535698e40f55aa64343e0f573abbd5cdd0002a91d37447949d6b711
-  build_date: "2025-06-21T01:41:46Z"
+  build_date: "2025-06-20T18:38:08Z"
   src_urls:
   - https://github.com/benjamimgois/goverlay
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/goverlay
@@ -17316,7 +17297,7 @@ AM:
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/hapee%2Fx86_64-Linux%2F030/hapee
   size: 77 MB
   bsum: 2c8224348851f7ee0ce44ecf60e178dbbe90db5f8b931368d705121ef7ed1ff2
-  build_date: "2025-06-21T01:42:03Z"
+  build_date: "2025-06-20T18:38:05Z"
   src_urls:
   - https://github.com/hugetiny/Hapee
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/hapee
@@ -17336,8 +17317,8 @@ AM:
   version: 0.3.10
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/harmonoid%2Fx86_64-Linux%2F0310/harmonoid.bundle.tar.zstd
   size: 16 MB
-  bsum: 2bdb3511ab8cae39dbe9f6712ff3ec4dd15a5f24e58d32c2803fd4684b8b01de
-  build_date: "2025-06-21T01:43:30Z"
+  bsum: 45fb13d90a9179ed42ff186d3f14ef24e5bd91d3fd4da873c8a585cdd7e0d265
+  build_date: "2025-06-20T18:34:43Z"
   src_urls:
   - https://harmonoid.com
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/harmonoid
@@ -17841,8 +17822,8 @@ AM:
   version: 2.16.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/houdoku%2Fx86_64-Linux%2F2160/houdoku
   size: 152 MB
-  bsum: b65b023eecb45f4d1e31eb0b08195228803713a068dba3d69ec8a4ff0b924a4a
-  build_date: "2025-06-21T01:42:55Z"
+  bsum: c97427607efb717f66a8eb4a605a3f7107e07760c3e34fde5556078437c8c7d4
+  build_date: "2025-06-20T18:38:23Z"
   src_urls:
   - https://houdoku.org/
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/houdoku
@@ -18030,8 +18011,8 @@ AM:
   version: 1.6.4
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/hw-probe%2Fx86_64-Linux%2F164/hw-probe
   size: 5.7 MB
-  bsum: 4df6cb408c806804d60bbb4ce1365de8d529bf1896a896d92acb8bc5434e19a6
-  build_date: "2025-06-21T01:42:42Z"
+  bsum: d621d6086c7b060b7f6380af59369f8f47ef2fade5079374e91ee01527ebe488
+  build_date: "2025-06-20T18:37:51Z"
   src_urls:
   - https://github.com/linuxhw/hw-probe
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/hw-probe
@@ -18072,8 +18053,8 @@ AM:
   version: 1.2.4
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/hydrogen-music%2Fx86_64-Linux%2F124/hydrogen-music
   size: 82 MB
-  bsum: dfb1193d4af033d8ad9bcbcec64b7d13a216f6e5f5d92693e37782d099680048
-  build_date: "2025-06-21T01:44:10Z"
+  bsum: c14fff9465fdfa63109ba3baccc17200bcdb127f9bf8bedd2c8ea41daa1e0abe
+  build_date: "2025-06-20T18:38:19Z"
   src_urls:
   - https://github.com/hydrogen-music/hydrogen
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/hydrogen-music
@@ -18093,8 +18074,8 @@ AM:
   version: 4.0.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/hyper%2Fx86_64-Linux%2F400/hyper
   size: 92 MB
-  bsum: 0717ed57c502e9b45b8628796ca34310311695395f88fab7886fe2f2bafb076c
-  build_date: "2025-06-21T01:42:51Z"
+  bsum: cf5ba071cfd0e1cab6ca07514b5850c39f1ee1f06e52ca638b8fd5fbfc8ddc3a
+  build_date: "2025-06-20T18:38:46Z"
   src_urls:
   - https://github.com/vercel/hyper
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/hyper
@@ -18220,7 +18201,7 @@ AM:
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/i3%2Fx86_64-Linux%2F424/i3
   size: 5.0 MB
   bsum: d51d5a2c0ced8d6513048ac45a1682452bc2b11f6cf84c6fec4913162d6ba5c9
-  build_date: "2025-06-22T18:39:02Z"
+  build_date: "2025-06-20T18:38:23Z"
   src_urls:
   - https://github.com/Samueru-sama/i3-AppImage
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/i3
@@ -18283,8 +18264,8 @@ AM:
   version: 2025.02.09
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/ibus-rime%2Fx86_64-Linux%2F20250209/ibus-rime
   size: 7.3 MB
-  bsum: 54ec8fa66b82a01a45e77aa8696d6bad25b74c8e30c8a6c1af38b66cc520cd9b
-  build_date: "2025-06-21T01:42:50Z"
+  bsum: 3a4cf70ad714e80e4faff0be8dce32be40d820def9fe937d215190711f4b258f
+  build_date: "2025-06-20T18:38:17Z"
   src_urls:
   - https://github.com/hchunhui/ibus-rime.AppImage
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/ibus-rime
@@ -18791,8 +18772,8 @@ AM:
   version: 1.4.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/innerbreeze%2Fx86_64-Linux%2F140/innerbreeze
   size: 12 MB
-  bsum: 20bf28ece30a983ee049c2b70acfa0ceecbd645f9a4d98d9e5761b3b5c218b94
-  build_date: "2025-06-21T01:44:17Z"
+  bsum: 51ab8821db1f3a202f9cb44a832b3b95f06b0458cb80f179aa39f64d3d9c96c4
+  build_date: "2025-06-20T18:39:41Z"
   src_urls:
   - https://github.com/naoxio/inbreeze
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/innerbreeze
@@ -18812,8 +18793,8 @@ AM:
   version: 5afb39f
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/insight%2Fx86_64-Linux%2F5afb39f/insight
   size: 124 MB
-  bsum: f3ffd3cc7df1085b36c45bb1ce148258bd0ad4ab810861c88f2c28d29a1aa7b1
-  build_date: "2025-06-21T01:44:50Z"
+  bsum: 21d60dbbca57f574a6f59e145863d0335bf278cb34782b969a3bb69f7fb997ec
+  build_date: "2025-06-20T18:38:35Z"
   src_urls:
   - https://github.com/antony-jr/insight
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/insight
@@ -18854,8 +18835,8 @@ AM:
   version: 0.2.3
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/insomnium%2Fx86_64-Linux%2F023/insomnium
   size: 120 MB
-  bsum: f976a04ec3a16e84e5923b90408346254fc5e68b1b60791b1f3ae74844990f17
-  build_date: "2025-06-21T01:43:54Z"
+  bsum: 5e557e8de33f8ff0cbe040e0674a5a76502585b40c2f51099363a16ba8496a5b
+  build_date: "2025-06-20T18:38:54Z"
   src_urls:
   - https://github.com/ArchGPT/insomnium
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/insomnium
@@ -18980,8 +18961,8 @@ AM:
   version: 1.0.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/invoice-generator%2Fx86_64-Linux%2F100/invoice-generator
   size: 56 MB
-  bsum: 2c587852b00f0aa53d966690cb6331bf8f5c1595a70b69fcd44a24ca75cbfc61
-  build_date: "2025-06-21T01:43:30Z"
+  bsum: e3c6e6bd50069c774e58741432f67fcbce57d14a716275b6fabda8a5a014f781
+  build_date: "2025-06-20T18:38:41Z"
   src_urls:
   - https://github.com/bhavyaagg/Invoice-Generator-Electron
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/invoice-generator
@@ -19190,8 +19171,8 @@ AM:
   version: 2.0.2
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/isolate%2Fx86_64-Linux%2F202/isolate
   size: 45 MB
-  bsum: 309af32160517f0c818fabc462487918cc0201fd273333bea08014a6cea6f370
-  build_date: "2025-06-21T01:43:32Z"
+  bsum: 66dc008cc1827d1b25d677c27073314a61710d64ab1c71ec6d29a40fc3e02ed1
+  build_date: "2025-06-20T18:39:07Z"
   src_urls:
   - https://github.com/seenaburns/isolate
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/isolate
@@ -19379,8 +19360,8 @@ AM:
   version: "1.1"
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/jdmrpackinstaller%2Fx86_64-Linux%2F11/jdmrpackinstaller
   size: 87 MB
-  bsum: e6c068c897b69045b0f4408074b133a90bbe31345efbf4cf69247aa3ffe10a06
-  build_date: "2025-06-21T01:43:46Z"
+  bsum: f68cafe730645016967c57598723ae630b2851fe7a39ed45a5b5e94a70a40686
+  build_date: "2025-06-20T18:39:05Z"
   src_urls:
   - https://sourceforge.net/projects/jdmrpackinstaller/
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/jdmrpackinstaller
@@ -21609,7 +21590,7 @@ AM:
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/konquest%2Fx86_64-Linux%2F2504/kdegames
   size: 376 MB
   bsum: 12e970ec5943ed387c9308810a8b12002305394e3a624c7a90d9afa13700c3a7
-  build_date: "2025-06-21T01:43:30Z"
+  build_date: "2025-06-20T18:38:58Z"
   src_urls:
   - https://github.com/ivan-hc/KDE-games-suite-appimage
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/konquest
@@ -21629,8 +21610,8 @@ AM:
   version: 2.0.2
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/koodo-reader%2Fx86_64-Linux%2F202/koodo-reader
   size: 111 MB
-  bsum: 1af64d0dcbef092c308a3390788eaf014d166fbcecbe7c4afade96dafac8de04
-  build_date: "2025-06-21T01:44:11Z"
+  bsum: 0c741eaa3aaf5e2e134bb5cf089b162e38da4d0186efc3d416d356e3384a70e4
+  build_date: "2025-06-20T18:39:12Z"
   src_urls:
   - https://github.com/troyeguo/koodo-reader
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/koodo-reader
@@ -22408,8 +22389,8 @@ AM:
   version: 0.4.2
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/lapce%2Fx86_64-Linux%2F042/lapce
   size: 19 MB
-  bsum: 0eb65c186d02807917913733d51327a2d373ff14aa09f79b6b165ed9747e4d42
-  build_date: "2025-06-22T18:39:44Z"
+  bsum: 3ecf0fabd3db1bba6bf0202b1e2fc596ff14418852cb359e2ca37445635cf395
+  build_date: "2025-06-20T18:40:05Z"
   src_urls:
   - https://github.com/lapce/lapce
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lapce
@@ -23253,7 +23234,7 @@ AM:
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/linuxqq%2Fx86_64-Linux%2F3218/linuxqq
   size: 206 MB
   bsum: 848495edc59de8038f36cdbb1733df5dc0e72e1e763f139cf8468683b4e7ea45
-  build_date: "2025-06-22T01:53:31Z"
+  build_date: "2025-06-20T18:41:03Z"
   src_urls:
   - https://im.qq.com/linuxqq/
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/linuxqq
@@ -23841,8 +23822,8 @@ AM:
   version: 3.3.11
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/lunar-client%2Fx86_64-Linux%2F3311/lunar-client
   size: 112 MB
-  bsum: 1015f2779a48cd685d92b2d3bdf1524bd341c614d23b0c58cef6621e73bd445a
-  build_date: "2025-06-22T01:52:55Z"
+  bsum: 69a98b31d287d44dd8d1b310d9781fb2691a84fa4f0425ec37c1e64884df9de0
+  build_date: "2025-06-20T18:40:35Z"
   src_urls:
   - https://www.lunarclient.com
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/lunar-client
@@ -25228,8 +25209,8 @@ AM:
   version: 139.0.3380.1
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/microsoft-edge-dev%2Fx86_64-Linux%2F139033801/microsoft-edge-dev
   size: 221 MB
-  bsum: c4165eca13409123b4a81666f2fad8ab842deacd3298f936aaec8152cd5d2436
-  build_date: "2025-06-22T01:49:34Z"
+  bsum: 6aab0392a1655567756347f3e421ce08f7aaa69c9401c00853e9901fe90a3f35
+  build_date: "2025-06-20T18:40:41Z"
   src_urls:
   - https://www.microsoft.com
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/microsoft-edge-dev
@@ -27138,15 +27119,15 @@ AM:
   pkg_name: neanes
   pkg_id: AM.x86_64.neanes.neanes
   description: A scorewriter for notating Byzantine chant in Byzantine notation
-  version: 0.4.103
-  download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/neanes%2Fx86_64-Linux%2F04103/neanes
+  version: 0.4.102
+  download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/neanes%2Fx86_64-Linux%2F04102/neanes
   size: 224 MB
-  bsum: 3f83857a625bd4beb9e5d76c1d9f148004e4b3048fea617b7a799a83bde5bb7e
-  build_date: "2025-06-22T01:53:32Z"
+  bsum: 0b8e2a652b0bf6cf947442cb4ef3dcbee20b595608ffb98415e78e9aab2ef693
+  build_date: "2025-06-20T18:41:48Z"
   src_urls:
   - https://danielgarthur.github.io/neanes/
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/neanes
-  build_log: https://huggingface.co/datasets/pkgforge/AMcache/resolve/neanes%2Fx86_64-Linux%2F04103/neanes.log
+  build_log: https://huggingface.co/datasets/pkgforge/AMcache/resolve/neanes%2Fx86_64-Linux%2F04102/neanes.log
   maintainers: AM (https://github.com/ivan-hc/AM)
   notes:
   - "[EXTERNAL] (This is an unofficial, third-party repository)"
@@ -28047,7 +28028,7 @@ AM:
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/notepadnext%2Fx86_64-Linux%2F012/notepadnext
   size: 33 MB
   bsum: 1fc73864e4c72003ee02cab32efaed0f404d6d957272f8cd0eb9ccd1e9cee185
-  build_date: "2025-06-22T01:51:53Z"
+  build_date: "2025-06-20T18:42:39Z"
   src_urls:
   - https://github.com/dail8859/NotepadNext
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/notepadnext
@@ -30675,8 +30656,8 @@ AM:
   version: 8f8cc3d5
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/pcsx-redux%2Fx86_64-Linux%2F8f8cc3d5/pcsx-redux
   size: 189 MB
-  bsum: 1d1a0c6ecb369a7017077bb858865cc9156a700b18cbe4fe49147ba45047e3aa
-  build_date: "2025-06-22T18:41:22Z"
+  bsum: 7b3d4fd9ad7176e9147791d501f755379a86982be1f2ffdb27a5c7769a737ce8
+  build_date: "2025-06-20T18:47:24Z"
   src_urls:
   - https://github.com/grumpycoders/pcsx-redux
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pcsx-redux
@@ -31053,8 +31034,8 @@ AM:
   version: 0.1.12
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/pho%2Fx86_64-Linux%2F0112/pho.bundle.tar.zstd
   size: 2.9 MB
-  bsum: e4573c4c45928f0b241afddaaa7e7f962b6872e691c54aff0c7aa703113bf64a
-  build_date: "2025-06-22T18:40:27Z"
+  bsum: 30582f93c65b891d60bd40509427d547609b5037667851c7c602b32cc9c71b34
+  build_date: "2025-06-20T18:46:20Z"
   src_urls:
   - https://github.com/ericm/yup
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/pho
@@ -37741,8 +37722,8 @@ AM:
   version: 1.0.0
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/shradiko%2Fx86_64-Linux%2F100/shradiko.bundle.tar.zstd
   size: 3.4 MB
-  bsum: 11370dde20fc83d160cc69a76f2434ac69103bb10a9657423e60254efd1eeead
-  build_date: "2025-06-22T18:45:59Z"
+  bsum: 24e230d8903df60f604aeea7d702a2e2c526a02f6d7f207851ac74121f083510
+  build_date: "2025-06-19T01:43:40Z"
   src_urls:
   - https://github.com/universe-software/shradiko
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/shradiko
@@ -38964,8 +38945,8 @@ AM:
   version: 0.6.3
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/soar%2Fx86_64-Linux%2F063/soar.bundle.tar.zstd
   size: 3.5 MB
-  bsum: 6d36b30c306da8fea1b7cdc57d167b725fb45a5161599bf2dee0ea5dfe884d27
-  build_date: "2025-06-22T18:50:30Z"
+  bsum: 80fb1b9d195e4dc9d42e0e4e3c78e27971d7c38130aef3b54fbee79f52b46b54
+  build_date: "2025-06-19T01:42:26Z"
   src_urls:
   - https://github.com/pkgforge/soar
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/soar
@@ -45155,8 +45136,8 @@ AM:
   version: 3.0.21
   download_url: https://huggingface.co/datasets/pkgforge/AMcache/resolve/vlc%2Fx86_64-Linux%2F3021/vlc
   size: 141 MB
-  bsum: e815814f93e1a3a386b98723f074b4bbb10a0b504653519dc5453a09e5cce34d
-  build_date: "2025-06-22T10:19:10Z"
+  bsum: 8e47298b8450d9e33aa5033e34e14356ffdc890f4471cc13cc4c0205b6187566
+  build_date: "2025-06-19T01:50:45Z"
   src_urls:
   - https://github.com/ivan-hc/VLC-appimage
   build_script: https://github.com/ivan-hc/AM/blob/main/programs/x86_64/vlc
