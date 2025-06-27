@@ -36,22 +36,33 @@ jobs:
         with:
           go-version: stable
 
-      - name: Prepare Directories
-        run: |
-          mkdir -p out
+      - name: Prepare Output Directory
+        run: mkdir -p out
         shell: sh
 
       - name: Run Metadata Generators
         run: |
           run_generator() {
-            local folder="$1" generator_path="$2"
-            local outdir="out/$folder"
-            mkdir -p "$outdir"
-            cd "dbin/$generator_path" || return 1
-            go run . && {
-              echo "Generator $folder succeeded"
-              find . -type f \( -name '*.json' -o -name '*.yaml' -o -name '*.cbor' \) -exec cp --parents {} "../../$outdir/" \;
+            folder="$1"
+            generator_path="$2"
+            base_path="dbin/$generator_path"
+
+            cd "$base_path" || return 1
+            go run . || {
+              echo "Generator $folder failed"
+              cd - >/dev/null
+              return 1
             }
+            echo "Generator $folder succeeded"
+
+            find . -type f \( -name '*.json' -o -name '*.yaml' -o -name '*.cbor' \) | while IFS= read -r f; do
+              full_path="$base_path/$f"
+              rel_path="${full_path#dbin/}"
+              out_path="out/$rel_path"
+              mkdir -p "$(dirname "$out_path")"
+              cp "$full_path" "$out_path"
+            done
+
             cd - >/dev/null
           }
 
@@ -67,16 +78,13 @@ jobs:
       - name: Upload Changed Files to dbin-metadata (via API)
         run: |
           upload_if_changed() {
-            local file="$1"
-            local relpath="${file#out/}"
-            local encoded content_sha remote_info
+            file="$1"
+            relpath="${file#out/}"
             echo "Processing: $relpath"
 
-            # Try fetching existing file metadata
             remote_info=$(curl -s -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
               "https://api.github.com/repos/$REPO/contents/$relpath?ref=$BRANCH")
 
-            # Skip if content is unchanged
             remote_sha=$(echo "$remote_info" | jq -r '.sha')
             remote_content=$(echo "$remote_info" | jq -r '.content' | base64 -d 2>/dev/null || echo "")
             local_content=$(cat "$file")
@@ -99,7 +107,8 @@ jobs:
               }' \
               "https://api.github.com/repos/$REPO/contents/$relpath"
           }
+
           find out/ -type f | while IFS= read -r file; do
-              upload_if_changed "$file"
+            upload_if_changed "$file"
           done
         shell: sh
