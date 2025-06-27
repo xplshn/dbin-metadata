@@ -99,8 +99,7 @@ jobs:
               }' \
               "https://api.github.com/repos/$REPO/contents/$relpath"
           }
-
-          find out/ -type f -print0 | while IFS= read -r -d '' file; do
-            upload_if_changed "$file"
+          find out/ -type f | while IFS= read -r file; do
+              upload_if_changed "$file"
           done
         shell: sh
