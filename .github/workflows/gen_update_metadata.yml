@@ -80,31 +80,32 @@ jobs:
             file="$1"
             relpath="${file#out/}"
             echo "Processing: $relpath"
-
+          
             remote_info=$(curl -s -H "Authorization: Bearer $GITHUB_TOKEN" \
               "https://api.github.com/repos/$REPO/contents/$relpath?ref=$BRANCH")
-
+          
             remote_sha=$(echo "$remote_info" | jq -r '.sha')
             remote_content=$(echo "$remote_info" | jq -r '.content' | base64 -d 2>/dev/null || echo "")
             local_content=$(cat "$file")
-
+          
             [ "$remote_content" = "$local_content" ] && {
               echo "Unchanged: $relpath"
               return
             }
-
+          
             echo "Uploading: $relpath"
             encoded=$(base64 -w 0 "$file")
-
+          
+            tmpfile="$(mktemp)"
+            printf '{\n  "message": "Update %s",\n  "content": "%s",\n  "branch": "%s",\n  "sha": "%s"\n}' \
+              "$relpath" "$encoded" "$BRANCH" "$remote_sha" >"$tmpfile"
+          
             curl -s -X PUT -H "Authorization: Bearer $GITHUB_TOKEN" \
               -H "Content-Type: application/json" \
-              -d '{
-                "message": "Update '"$relpath"'",
-                "content": "'"$encoded"'",
-                "branch": "'"$BRANCH"'",
-                "sha": "'"$remote_sha"'"
-              }' \
+              --data-binary "@$tmpfile" \
               "https://api.github.com/repos/$REPO/contents/$relpath"
+          
+            rm -f "$tmpfile"
           }
 
           find out/ -type f | while IFS= read -r file; do
