@@ -1,102 +1,204 @@
-name: Generate Metadata
+name: 🐧🧬 Generate Metadata 🖳🧬
 
 on:
   workflow_dispatch:
+    inputs:
+      allow_large_size_loss:
+        description: 'Allow committing files with size loss >= 500 KB (warning only)'
+        type: boolean
+        default: false
   schedule:
-    - cron: "0,30 * * * *"
+    - cron: "0,30 * * * *"  # Every 30 minutes
 
 jobs:
-  generate:
+  gen-metadata:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    env:
-      REPO: xplshn/dbin-metadata
-      BRANCH: master
+
     steps:
-      - name: Install Tools
+      - name: Install Dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y git curl zstd gzip
 
-      - name: Clone dbin source
-        run: |
-          git clone --depth=1 https://github.com/xplshn/dbin.git
+          export DBIN_INSTALL_DIR="$PWD"
+          wget -qO- "https://raw.githubusercontent.com/xplshn/dbin/master/stubdl" | sh -s -- add dbin
+          V="$(./dbin -v | awk '{print $3}')"
+          echo "V=$V" >> $GITHUB_ENV
 
-      - name: Generate metadata
-        run: |
-          mkdir -p out/
-          run_generator() {
-            folder="$1"
-            generator_dir="dbin/misc/cmd/dbinRepoIndexGenerators/$folder"
-            out_dir="misc/cmd/$folder"
-
-            echo "Running generator for $folder..."
-
-            mkdir -p "$out_dir"
-            cd "$generator_dir" || exit 1
-
-            go run . || exit 1
-
-            cd - >/dev/null
-
-            find "$generator_dir" -type f \( -name "*.json" -o -name "*.yaml" -o -name "*.cbor" \) -exec gzip -k -9 {} \;
-            find "$generator_dir" -type f \( -name "*.json" -o -name "*.yaml" -o -name "*.cbor" \) -exec zstd -qf -k {} \;
-
-            find "$generator_dir" -type f \( -name "*.json" -o -name "*.yaml" -o -name "*.cbor" -o -name "*.gz" -o -name "*.zst" \) \
-              -exec cp --parents {} "$out_dir/" \;
-          }
-
-          run_generator "1.3"
-          run_generator "1.4"
-          run_generator "1.5"
-          run_generator "1.6"
-
-          run_mod_generator() {
-            name="$1"
-            src="dbin/misc/cmd/$name"
-            dest="misc/cmd/$name"
-            mkdir -p "$dest"
-            cd "$src" || exit 1
-            go run . || exit 1
-            cd - >/dev/null
-
-            find "$src" -type f \( -name "*.json" -o -name "*.yaml" -o -name "*.cbor" \) -exec gzip -k -9 {} \;
-            find "$src" -type f \( -name "*.json" -o -name "*.yaml" -o -name "*.cbor" \) -exec zstd -qf -k {} \;
-
-            find "$src" -type f \( -name "*.json" -o -name "*.yaml" -o -name "*.cbor" -o -name "*.gz" -o -name "*.zst" \) \
-              -exec cp --parents {} "$dest/" \;
-          }
-
-          run_mod_generator "modMetadata"
-          run_mod_generator "modMetadata-ng"
-          run_mod_generator "flatpakAppStreamScrapper"
-
-      - name: Checkout metadata repository (sparse)
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          repository: xplshn/dbin-metadata
-          path: metadata
-          sparse-checkout: |
-            misc/cmd/
+          path: master
+          filter: "blob:none"
           fetch-depth: 1
+          sparse-checkout: |
+            --skip-checks
+            ./*
+            !/cmd
 
-      - name: Copy over new metadata
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: 'stable'
+
+      - name: Setup Environment Variables
         run: |
-          cp -r misc/cmd/* metadata/misc/cmd/
+          SYSTMP=$(dirname $(mktemp -u))
+          echo "SYSTMP=$SYSTMP" >> $GITHUB_ENV
+          # Initialize metadata generation tracking
+          echo "TOTAL_GENERATORS=4" >> $GITHUB_ENV
+          echo "SUCCESSFUL_GENERATORS=0" >> $GITHUB_ENV
+        shell: sh
 
-      - name: Commit and Push
+      - name: Run Metadata Generators
         run: |
-          cd metadata
-          git config user.name "xplshn"
-          git config user.email "anto@xplshn.com.ar"
-          git add misc/cmd/
+          run_generator() {
+            SCRIPT_URL="$1"
+            FOLDER_NAME="$2"
 
-          git diff --cached --quiet && {
-            echo "No changes to commit"
-            exit 0
+            # Calculate initial size, handling case where directory might not exist
+            BEFORE_SIZE=0
+            if [ -d "$GITHUB_WORKSPACE/master/misc/cmd/$FOLDER_NAME" ]; then
+              BEFORE_SIZE=$(du -sb "$GITHUB_WORKSPACE/master/misc/cmd/$FOLDER_NAME" 2>/dev/null | awk '{print $1}')
+            fi
+
+            mkdir -p "$GITHUB_WORKSPACE/master/misc/cmd/$FOLDER_NAME"
+            curl -sL "$SCRIPT_URL" -o "$GITHUB_WORKSPACE/master/misc/cmd/$FOLDER_NAME/main.go"
+            cd "$GITHUB_WORKSPACE/master/misc/cmd/$FOLDER_NAME" || { echo "Failed to change directory"; return 1; }
+
+            go mod init "github.com/xplshn/$FOLDER_NAME"
+            go mod tidy
+
+            if go run ./main.go; then
+              # Explicitly set generator success
+              JSON_COUNT=$(find . -name "*.json" -type f -size +0b | wc -l)
+              if [ "$JSON_COUNT" -gt 0 ]; then
+                echo "Generator $FOLDER_NAME succeeded" >&2
+                # Increment successful generators
+                SUCCESSFUL_GENERATORS=$((SUCCESSFUL_GENERATORS + 1))
+                echo "SUCCESSFUL_GENERATORS=$SUCCESSFUL_GENERATORS" >> $GITHUB_ENV
+                # Generate compressed GZ files
+                find . -name "*.gz" -type f -exec rm {} \;
+                find . \( -name "*.json" -o -name "*.yaml" -o -name "*.cbor" -o -name "*.msgp" -o -name "*.txt" \) -type f -size +0c -exec sh -c 'gzip -k -7 "$1" && zstd -f -k "$1"' sh {} \;
+              else
+                echo "No JSON files generated by $FOLDER_NAME" >&2
+                return 1
+              fi
+            else
+              echo "Generator $FOLDER_NAME failed" >&2
+              return 1
+            fi
+
+            # Clean up intermediate files
+            find . -type f ! -name "*.json" ! -name "*.yaml" ! -name "*.cbor" ! -name "*.msgp" ! -name "*.gz" ! -name "*.zst*" ! -name "*.txt" -delete
+
+            # After metadata generation, check the new size of the directory
+            AFTER_SIZE=$(du -sb "$GITHUB_WORKSPACE/master/misc/cmd/$FOLDER_NAME" 2>/dev/null | awk '{print $1}')
+            SIZE_DIFF=$((AFTER_SIZE - BEFORE_SIZE))
+
+            # Log warning for files with size loss >= 500 KB
+            if [ "$SIZE_DIFF" -lt -500000 ]; then
+              echo -e "\033[33mWarning: The size of files in $FOLDER_NAME has decreased by more than 500 KB ($SIZE_DIFF bytes).\033[0m" >&2
+              # Exclude files unless allow_large_size_loss is true
+              if [ "${{ github.event.inputs.allow_large_size_loss }}" != "true" ]; then
+                echo "$FOLDER_NAME" >> "$GITHUB_WORKSPACE/excluded_files.txt"
+              fi
+            fi
           }
 
-          now=$(TZ=UTC date "+%Y-%m-%d (%H:%M:%S)")
-          git commit -m "Update repository index files <-- $now"
-          git push origin master
+          # Reset tracking files
+          : > "$GITHUB_WORKSPACE/excluded_files.txt"
+
+          # Run generators, allowing each to continue even if one fails
+          run_generator "https://raw.githubusercontent.com/xplshn/dbin/master/misc/cmd/flatpakAppStreamScrapper/scrapper.go" "flatpakAppStreamScrapper" || true
+          run_generator "https://raw.githubusercontent.com/xplshn/dbin/master/misc/cmd/dbinRepoIndexGenerators/1.6/generator.go" "1.6" || true
+          run_generator "https://raw.githubusercontent.com/xplshn/dbin/master/misc/cmd/dbinRepoIndexGenerators/1.5/generator.go" "1.5" || true
+          run_generator "https://raw.githubusercontent.com/xplshn/dbin/master/misc/cmd/dbinRepoIndexGenerators/1.4/generator.go" "1.4" || true
+          run_generator "https://raw.githubusercontent.com/xplshn/dbin/master/misc/cmd/dbinRepoIndexGenerators/1.3/generator.go" "1.3" || true
+          run_generator "https://raw.githubusercontent.com/xplshn/dbin/master/misc/cmd/modMetadata-ng/modMetadata-ng.go" "modMetadata-ng" || true
+          run_generator "https://raw.githubusercontent.com/xplshn/dbin/master/misc/cmd/modMetadata/modMetadata.go" "modMetadata" || true
+        shell: sh
+
+      - name: Determine Metadata Generation Success
+        run: |
+          # Check if at least one generator succeeded
+          if [ "$SUCCESSFUL_GENERATORS" -gt 0 ]; then
+            echo "HAS_META=TRUE" >> $GITHUB_ENV
+            echo "Metadata generation partially or fully successful"
+          else
+            echo "HAS_META=FALSE" >> $GITHUB_ENV
+            echo "No successful metadata generators"
+          fi
+        shell: sh
+
+      - name: Reset History and Commit Metadata
+        if: env.HAS_META == 'TRUE'
+        run: |
+          cd "$GITHUB_WORKSPACE/master"
+
+          # Configure Git user identity
+          git config user.name 'xplshn'
+          git config user.email 'anto@xplshn.com.ar'
+
+          # Get UTC time for commit message
+          UTC_TIME=$(TZ='UTC' date +'%Y-%m-%d (%I:%M:%S %p)')
+          echo "UTC_TIME=$UTC_TIME" >> $GITHUB_ENV
+
+          # Ensure full history by fetching all commits
+          git fetch --no-tags --prune --depth=12 origin master || { echo "Failed to fetch full history"; exit 1; }
+
+          # Count the number of commits in the master branch
+          COMMIT_COUNT=$(git rev-list --count origin/master)
+          echo "Total commits in master branch: $COMMIT_COUNT"
+
+          # Check if there are more than 10 commits
+          #if [ "$COMMIT_COUNT" -gt 10 ]; then
+          #  # Find the commit SHA that is 10 commits before HEAD
+          #  TARGET_COMMIT=$(git rev-list --reverse origin/master | head -n 10 | tail -n 1)
+          #  echo "Target commit to reset to (10th from HEAD): $TARGET_COMMIT"
+          #
+          #  # Reset the branch to the target commit
+          #  git checkout master || { echo "Failed to checkout master branch"; exit 1; }
+          #  git reset --hard "$TARGET_COMMIT" || { echo "Failed to reset to target commit"; exit 1; }
+          #else
+            echo "Commit count ($COMMIT_COUNT) is 10 or fewer; no reset needed"
+          #fi
+
+          # Stage all files
+          git add --all
+
+          # Unstage excluded files
+          while IFS= read -r EXCLUDED_FILE; do
+            [ -n "$EXCLUDED_FILE" ] && git reset -- "$EXCLUDED_FILE"
+          done < "$GITHUB_WORKSPACE/excluded_files.txt"
+
+          # Check if there are changes to commit
+          if ! git diff --cached --quiet; then
+            git commit -m "✅ Update repository index files 🛍️🧬 <-- $UTC_TIME ⌚" || { echo "Failed to commit changes"; exit 1; }
+            git push origin master || { echo "Failed to push changes"; exit 1; }
+            echo "Successfully committed changes"
+            echo "RESET_STATUS=SUCCESS" >> $GITHUB_ENV
+          else
+            echo "No changes to commit"
+            echo "RESET_STATUS=SKIPPED" >> $GITHUB_ENV
+          fi
+
+          # Force push if reset was performed
+          #if [ "$COMMIT_COUNT" -gt 10 ]; then
+          #  git push -f origin master || { echo "Failed to force push"; exit 1; }
+          #  echo "Successfully reset history to last 10 commits"
+          #fi
+        shell: sh
+
+      - name: Exit & Report Metadata Generation Status
+        run: |
+          if [ "$HAS_META" = "FALSE" ]; then
+            echo "No successful metadata generators found."
+            exit 1
+          elif [ "$SUCCESSFUL_GENERATORS" -lt "$TOTAL_GENERATORS" ]; then
+            echo "WARNING: Only $SUCCESSFUL_GENERATORS out of $TOTAL_GENERATORS metadata generators succeeded."
+            exit 0
+          fi
+        shell: sh
