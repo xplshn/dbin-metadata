@@ -44,9 +44,9 @@ pkgcache:
   icon: https://dl.flathub.org/media/com/brave/Browser/9e753ce3201b4fd6efc93dd6b87f0cba/icons/128x128/com.brave.Browser.png
   description: Privacy-oriented browser for Desktop and Laptop computers
   description_long: |-
-    Brave is on a mission to fix the web by giving users a safer, faster and better browsing
-          experience while growing support for content creators through a new attention-based ecosystem
-          of rewards.
+    Brave is on a mission to fix the web by giving users a safer, faster and better browsing experience while growing support for content creators through a new attention-based ecosystem of rewards.
+    
+     Browse faster by blocking ads and trackers that violate your privacy and cost you time and money.
   screenshots:
   - https://dl.flathub.org/media/com/brave/Browser/9e753ce3201b4fd6efc93dd6b87f0cba/screenshots/image-1_orig.png
   - https://dl.flathub.org/media/com/brave/Browser/9e753ce3201b4fd6efc93dd6b87f0cba/screenshots/image-2_orig.png
@@ -109,7 +109,7 @@ pkgcache:
   app_id: org.chromium.Chromium
   icon: https://dl.flathub.org/media/org/chromium/Chromium/7bf840901446fdf28fad531c5a37075a/icons/128x128/org.chromium.Chromium.png
   description: Open source web browser from Google (Stable)
-  description_long: "\n    Chromium is an open-source browser project that aims to build a safer, faster,\n    and more stable way to experience the web.\n    "
+  description_long: "Chromium is an open-source browser project that aims to build a safer, faster, and more stable way to experience the web. \r\n\r\n We invite you to join our effort to build a powerful platform for developing a new generation of web applications. "
   screenshots:
   - https://dl.flathub.org/media/org/chromium/Chromium/7bf840901446fdf28fad531c5a37075a/screenshots/image-1_orig.png
   version: 137.0.7151.55
@@ -261,7 +261,14 @@ pkgcache:
   app_id: com.helix_editor.Helix
   icon: https://dl.flathub.org/media/com/helix_editor/Helix/56fc4deb249511d38d1c6ac0df3844e9/icons/128x128/com.helix_editor.Helix.png
   description: Fast modal terminal-based text editor
-  description_long: "\n      مُحَرِّرُ نُصُوصٍ يَعمَلُ فِي الطَّرَفِيَّة، مُستَلهَمٌ مِن Kakoune وَ Neovim وَمَكتُوبٌ بِلُغَةِ رَست البَرمَجِيَّة.\n    "
+  description_long: |
+    Helix is a terminal-based text editor inspired by Kakoune / Neovim and written in Rust. 
+    
+     
+    Vim-like modal editing 
+    Multiple selections 
+    Built-in language server support 
+    Smart, incremental syntax highlighting and code editing via tree-sitter 
   screenshots:
   - https://dl.flathub.org/media/com/helix_editor/Helix/56fc4deb249511d38d1c6ac0df3844e9/screenshots/image-1_orig.png
   version: 25.01.1
@@ -341,7 +348,7 @@ pkgcache:
   app_id: chat.simplex.simplex
   icon: https://dl.flathub.org/media/chat/simplex/simplex/6a1eb8b6aea47e919afb6ac3f90306be/icons/128x128/chat.simplex.simplex.png
   description: Desktop application for SimpleX Chat, A 100% private-by-design chat platform
-  description_long: "SimpleX - the first messaging platform that has no user identifiers, not even random numbers!"
+  description_long: "SimpleX - the first messaging platform that has no user identifiers, not even random numbers!\r\n\r\n Security assessment was done by Trail of Bits in November 2022.\r\n\r\n SimpleX Chat features:\r\n\r\n \r\nend-to-end encrypted messages, with editing, replies and deletion of messages. \r\nsending end-to-end encrypted images and files. \r\nsingle-use and long-term user addresses. \r\nsecret chat groups - only group members know it exists and who is the member. \r\nend-to-end encrypted audio and video calls. \r\nprivate instant notifications. \r\nportable chat profile - you can transfer your chat contacts and history to another device (terminal or mobile). \r\n \r\n\r\nSimpleX Chat advantages:\r\n\r\n \r\nFull privacy of your identity, profile, contacts and metadata: unlike any other existing messaging platform, SimpleX uses no phone numbers or any other identifiers assigned to the users - not even random numbers. This protects the privacy of who you are communicating with, hiding it from SimpleX platform servers and from any observers. \r\nComplete protection against spam and abuse: as you have no identifier on SimpleX platform, you cannot be contacted unless you share a one-time invitation link or an optional temporary user address. \r\nFull ownership, control and security of your data: SimpleX stores all user data on client devices, the messages are only held temporarily on SimpleX relay servers until they are received. \r\nDecentralized network: you can use SimpleX with your own servers and still communicate with people using the servers that are pre-configured in the apps or any other SimpleX servers. \r\n \r\n\r\nYou can connect to anybody you know via link or scan QR code (in the video call or in person) and start sending messages instantly - no emails, phone numbers or passwords needed.\r\n\r\n Your profile and contacts are only stored in the app on your device - our servers do not have access to this information.\r\n\r\n All messages are end-to-end encrypted using open-source double-ratchet protocol; the messages are routed via our servers using open-source SimpleX Messaging Protocol."
   screenshots:
   - https://dl.flathub.org/media/chat/simplex/simplex/6a1eb8b6aea47e919afb6ac3f90306be/screenshots/image-1_orig.png
   version: 6.3.4
@@ -388,7 +395,7 @@ pkgcache:
   app_id: org.telegram.desktop
   icon: https://dl.flathub.org/media/org/telegram/desktop/f6d612c5d71a9559f525f38839914a63/icons/128x128/org.telegram.desktop.png
   description: Official desktop version of Telegram messaging app
-  description_long: Pure instant messaging — simple, fast, secure, and synced across all your devices. One of the world&apos;s top 10 most downloaded apps with over 500 million active users.
+  description_long: "Pure instant messaging — simple, fast, secure, and synced across all your devices. One of the world's top 10 most downloaded apps with over 500 million active users.\r\n\r\n FAST: Telegram is the fastest messaging app on the market, connecting people via a unique, distributed network of data centers around the globe.\r\n\r\n SYNCED: You can access your messages from all your phones, tablets and computers at once. Telegram apps are standalone, so you don’t need to keep your phone connected. Start typing on one device and finish the message from another. Never lose your data again.\r\n\r\n UNLIMITED: You can send media and files, without any limits on their type and size. Your entire chat history will require no disk space on your device, and will be securely stored in the Telegram cloud for as long as you need it.\r\n\r\n SECURE: We made it our mission to provide the best security combined with ease of use. Everything on Telegram, including chats, groups, media, etc. is encrypted using a combination of 256-bit symmetric AES encryption, 2048-bit RSA encryption, and Diffie–Hellman secure key exchange.\r\n\r\n 100% FREE & OPEN: Telegram has a fully documented and free API for developers, open source apps and verifiable builds to prove the app you download is built from the exact same source code that is published.\r\n\r\n POWERFUL: You can create group chats with up to 200,000 members, share large videos, documents of any type (.DOCX, .MP3, .ZIP, etc.) up to 2 GB each, and even set up bots for specific tasks. Telegram is the perfect tool for hosting online communities and coordinating teamwork.\r\n\r\n RELIABLE: Built to deliver your messages using as little data as possible, Telegram is the most reliable messaging system ever made. It works even on the weakest mobile connections.\r\n\r\n FUN: Telegram has powerful photo and video editing tools, animated stickers and emoji, fully customizable themes to change the appearance of your app, and an open sticker/GIF platform to cater to all your expressive needs.\r\n\r\n SIMPLE: While providing an unprecedented array of features, we take great care to keep the interface clean. Telegram is so simple you already know how to use it.\r\n\r\n PRIVATE: We take your privacy seriously and will never give any third parties access to your data. You can delete any message you ever sent or received for both sides, at any time and without a trace. Telegram will never use your data to show you ads.\r\n\r\n We keep expanding the boundaries of what you can do with a messaging app. Don’t wait years for older messengers to catch up with Telegram — join the revolution today."
   screenshots:
   - https://dl.flathub.org/media/org/telegram/desktop/f6d612c5d71a9559f525f38839914a63/screenshots/image-1_orig.png
   version: 5.13.1
@@ -434,9 +441,22 @@ pkgcache:
   icon: https://dl.flathub.org/media/io/github/ungoogled_software.ungoogled_chromium/08ff5f12864ce878e2c5d1ec094329e0/icons/128x128/io.github.ungoogled_software.ungoogled_chromium.png
   description: Open source web browser from Google, with dependencies on Google web services removed (Ungoogled)
   description_long: |-
-    Ungoogled Chromium is Google Chromium, sans dependency on Google web services. It also
-          features some tweaks to enhance privacy, control, and transparency <em>(almost all of which
-          require manual activation or enabling)</em>.
+    Ungoogled Chromium is Google Chromium, sans dependency on Google web services. It also features some tweaks to enhance privacy, control, and transparency (almost all of which require manual activation or enabling).
+    
+     Ungoogled Chromium retains the default Chromium experience as closely as possible. Unlike other Chromium forks that have their own visions of a web browser, Ungoogled Chromium is essentially a drop-in replacement for Chromium.
+    
+     Without signing in to a Google Account, Chromium does pretty well in terms of security and privacy. However, Chromium still has some dependency on Google web services and binaries. In addition, Google designed Chromium to be easy and intuitive for users, which means they compromise on transparency and control of inner operations.
+    
+     Ungoogled Chromium addresses these issues in the following ways:
+    
+     
+    Remove all remaining background requests to any web services while building and running the browser 
+    Remove all code specific to Google web services 
+    Remove all uses of pre-made binaries from the source code, and replace them with user-provided alternatives when possible 
+    Disable features that inhibit control and transparency, and add or modify features that promote them (these changes will almost always require manual activation or enabling) 
+     
+    
+    These features are implemented as configuration flags, patches, and custom scripts.
   screenshots:
   - https://dl.flathub.org/media/io/github/ungoogled_software.ungoogled_chromium/08ff5f12864ce878e2c5d1ec094329e0/screenshots/image-1_orig.png
   - https://dl.flathub.org/media/io/github/ungoogled_software.ungoogled_chromium/08ff5f12864ce878e2c5d1ec094329e0/screenshots/image-2_orig.png
@@ -796,7 +816,7 @@ pkgcache:
   app_id: org.kde.akregator
   icon: https://dl.flathub.org/media/org/kde/akregator/4e4a4193c12c51e88676a5cfb294ed45/icons/128x128/org.kde.akregator.png
   description: KDE RSS feed reader
-  description_long: «أكريغاتور» هو قارئ تغذيات الأخبار. يتيح لك «أكريغاتور» متابعة أخبار المواقع، والمدوّنات وأيّ مواقع أخرى تدعم RSS/Atom، ذلك لإلغاء حاجة التماس التّحديثات يدويًّا عبر متصفّح الوبّ. صُمِّم «أكريغاتور» ليكون سهل الاستخدام وقويًّا كفاية لقراءة مئات مصادر الأخبار براحة. كما يأتي مع تكامل «كنكر» لإضافة تغذيات الأخبار وأيضًا يحتوي متصفّحًا داخليًّا لتسهيل قراءة الأخبار.
+  description_long: "Akregator is a news feed reader. It enables you to follow news sites, blogs and other RSS/Atom-enabled websites without the need to manually check for updates using a web browser. Akregator is designed to be both easy to use and to be powerful enough to read hundreds of news sources conveniently. It comes with a fast search, advanced archiving functionality and an internal browser for easy news reading. "
   screenshots:
   - https://dl.flathub.org/media/org/kde/akregator/4e4a4193c12c51e88676a5cfb294ed45/screenshots/image-1_orig.png
   version: 25.04.0
@@ -837,7 +857,7 @@ pkgcache:
   app_id: im.riot.Riot
   icon: https://dl.flathub.org/media/im/riot/Riot/8ec9953759013c3d6b9173c6b2ba8977/icons/128x128/im.riot.Riot.png
   description: A glossy Matrix collaboration client for desktop
-  description_long: "More than group chat: communication"
+  description_long: "More than group chat: communication\r\n\r\n \r\nCommunicate with your team and out of network colleagues more efficiently: use dedicated rooms which persist information from their creation and forever. \r\nForget group emails: join or create rooms per topic, per team, per event… Decide the level of transparency you want to provide across the organisation or project. \r\nCut through the noise by creating notifications that are customised by you and for you. \r\nGrab the attention of your colleague by calling out their name and don’t miss a thing with keyword alerts. \r\nDeploy bots for fun or practical use with our integrations store. \r\n \r\n\r\nPreliminary Wayland support since 1.7.25.\r\n\r\n To try running Element natively under Wayland, run:\r\n\r\n flatpak run im.riot.Riot --enable-features=UseOzonePlatform,WebRTCPipeWireCapturer --ozone-platform=wayland\r\n\r\n For GNOME, window decorations are currently missing and you'll have to use keyboard shortcuts instead to resize the window."
   screenshots:
   - https://dl.flathub.org/media/im/riot/Riot/8ec9953759013c3d6b9173c6b2ba8977/screenshots/image-1_orig.png
   version: 1.11.100
@@ -919,7 +939,10 @@ pkgcache:
   app_id: org.gnome.GHex
   icon: https://dl.flathub.org/media/org/gnome/GHex/0c7623be230d8441eff6867b1959c57f/icons/128x128/org.gnome.GHex.png
   description: A simple Binary/Hex editor
-  description_long: "\n      GHex is a hex editor for the GNOME desktop.\n    "
+  description_long: |-
+    GHex is a hex editor for the GNOME desktop.
+    
+     GHex can load raw data from binary files and display them for editing in the traditional hex editor view. The display is split in two columns, with hexadecimal values in one column and the ASCII representation in the other. GHex is a useful tool for working with raw data.
   screenshots:
   - https://dl.flathub.org/media/org/gnome/GHex/0c7623be230d8441eff6867b1959c57f/screenshots/image-1_orig.png
   - https://dl.flathub.org/media/org/gnome/GHex/0c7623be230d8441eff6867b1959c57f/screenshots/image-2_orig.png
@@ -986,7 +1009,12 @@ pkgcache:
   app_id: org.inkscape.Inkscape
   icon: https://dl.flathub.org/media/org/inkscape/Inkscape/21e92689231a3254414f25a728404a8e/icons/128x128/org.inkscape.Inkscape.png
   description: FOSS Vector Graphics Editor
-  description_long: "\n      A Free and open source vector graphics editor. It offers a rich set of features and is widely used for both artistic and technical illustrations such as cartoons, clip art, logos, typography, diagramming and flowcharting.\n    "
+  description_long: |-
+    A Free and open source vector graphics editor. It offers a rich set of features and is widely used for both artistic and technical illustrations such as cartoons, clip art, logos, typography, diagramming and flowcharting.
+    
+     It uses vector graphics to allow for sharp printouts and renderings at unlimited resolution and is not bound to a fixed number of pixels like raster graphics. Inkscape uses the standardised SVG file format as its main format, which is supported by many other applications including web browsers.
+    
+     Inkscape supports many advanced SVG features (markers, clones, alpha blending, etc.) and great care is taken in designing a streamlined interface. It is very easy to edit nodes, perform complex path operations, trace bitmaps and much more. We also aim to maintain a thriving user and developer community by using open, community-oriented development.
   screenshots:
   - https://dl.flathub.org/media/org/inkscape/Inkscape/21e92689231a3254414f25a728404a8e/screenshots/image-1_orig.png
   version: "1.4"
@@ -1054,7 +1082,14 @@ pkgcache:
   app_id: org.kde.krita
   icon: https://dl.flathub.org/media/org/kde/krita/acd04194da59b87ece9ddc8d17c3973e/icons/128x128/org.kde.krita.png
   description: A free and open source painting application
-  description_long: كريتا هو استديو فنون رقميّة بمزايا شاملة.
+  description_long: |-
+    Krita is the full-featured digital art studio.
+    
+     It is perfect for sketching and painting, and presents an end–to–end solution for creating digital painting files from scratch by masters.
+    
+     Krita is a great choice for creating concept art, comics, textures for rendering and matte paintings. Krita supports many colorspaces like RGB and CMYK at 8 and 16 bits integer channels, as well as 16 and 32 bits floating point channels. 
+    
+     Have fun painting with the advanced brush engines, amazing filters and many handy features that make Krita enormously productive.
   screenshots:
   - https://dl.flathub.org/media/org/kde/krita/acd04194da59b87ece9ddc8d17c3973e/screenshots/image-1_orig.png
   - https://dl.flathub.org/media/org/kde/krita/acd04194da59b87ece9ddc8d17c3973e/screenshots/image-2_orig.png
@@ -1132,7 +1167,12 @@ pkgcache:
   app_id: org.wezfurlong.wezterm
   icon: https://api.ghcr.pkgforge.dev/pkgforge/pkgcache/wezterm/runimage/alpine/stable/wezterm?tag=20240203.110809-aarch64-linux&download=wezterm.png
   description: A GPU-accelerated cross-platform terminal emulator and multiplexer
-  description_long: WezTerm is a terminal emulator with support for modern features such as fonts with ligatures, hyperlinks, multiple windows, tabs and split panes.
+  description_long: |-
+    WezTerm is a terminal emulator with support for modern features such as fonts with ligatures, hyperlinks, multiple windows, tabs and split panes.
+    
+    Configuration is expressed using Lua and many powerful functions are provided to help you customize your terminal to your workflow.
+    
+    Integrated ssh allows using multiple tabs and panes without requiring tmux to be installed on the remote host, and remote wezterm multiplexer support allows tmux+mosh style workflows without using tmux or mosh, while providing a fully native GUI locally.
   screenshots:
   - https://wezfurlong.org/wezterm/screenshots/wezterm-vday-screenshot.png
   - https://wezfurlong.org/wezterm/screenshots/two.png
@@ -1168,7 +1208,7 @@ pkgcache:
   app_id: org.blender.Blender
   icon: https://dl.flathub.org/media/org/blender/Blender/a649700418494e877bfd80d496f2aeb7/icons/128x128/org.blender.Blender.png
   description: A fully integrated 3D graphics creation suite
-  description_long: "\n            Blender is the free and open source 3D creation suite. It supports\n            the entirety of the 3D pipeline — modeling, rigging, animation,\n            simulation, rendering, compositing, motion tracking, and video\n            editing.\n        "
+  description_long: "Blender is the free and open source 3D creation suite. It supports the entirety of the 3D pipeline — modeling, rigging, animation, simulation, rendering, compositing, motion tracking, and video editing. \r\n\r\n Blender is a public project, made by hundreds of people from around the world; by studios and individual artists, professionals and hobbyists, scientists, students, VFX experts, animators, game artists, modders, and the list goes on. "
   screenshots:
   - https://dl.flathub.org/media/org/blender/Blender/a649700418494e877bfd80d496f2aeb7/screenshots/image-1_orig.png
   - https://dl.flathub.org/media/org/blender/Blender/a649700418494e877bfd80d496f2aeb7/screenshots/image-2_orig.png
