@@ -1,8 +1,10 @@
 name: Generate Metadata
+
 on:
   workflow_dispatch:
   schedule:
     - cron: "0,30 * * * *"
+
 jobs:
   generate:
     runs-on: ubuntu-latest
@@ -11,90 +13,90 @@ jobs:
     env:
       REPO: xplshn/dbin-metadata
       BRANCH: master
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - name: Install Tools
         run: |
           sudo apt-get update
-          sudo apt-get install -y curl git jq zstd gzip
-        shell: sh
-      - name: Clone dbin
+          sudo apt-get install -y git curl zstd gzip
+
+      - name: Clone dbin source
         run: |
           git clone --depth=1 https://github.com/xplshn/dbin.git
-        shell: sh
-      - name: Prepare out/ dir
-        run: mkdir -p out
-        shell: sh
-      - name: Run Generators and Copy Output
+
+      - name: Generate metadata
         run: |
+          mkdir -p out/
           run_generator() {
-            version="$1"
-            src_dir="dbin/misc/cmd/dbinRepoIndexGenerators/$version"
-            out_dir="out/misc/cmd/$version"
-            echo "Running generator $version..."
+            folder="$1"
+            generator_dir="dbin/misc/cmd/dbinRepoIndexGenerators/$folder"
+            out_dir="misc/cmd/$folder"
+
+            echo "Running generator for $folder..."
+
             mkdir -p "$out_dir"
-            cd "$src_dir" || return 1
-            go run . || { echo "Generator $version failed"; cd - >/dev/null; return 1; }
+            cd "$generator_dir" || exit 1
+
+            go run . || exit 1
+
             cd - >/dev/null
-            find "$src_dir" -type f \( -name '*.json' -o -name '*.yaml' -o -name '*.cbor' \) | while IFS= read -r f; do
-              relname=$(basename "$f")
-              cp "$f" "$out_dir/$relname"
-            done
+
+            find "$generator_dir" -type f \( -name "*.json" -o -name "*.yaml" -o -name "*.cbor" \) -exec gzip -k -9 {} \;
+            find "$generator_dir" -type f \( -name "*.json" -o -name "*.yaml" -o -name "*.cbor" \) -exec zstd -qf -k {} \;
+
+            find "$generator_dir" -type f \( -name "*.json" -o -name "*.yaml" -o -name "*.cbor" -o -name "*.gz" -o -name "*.zst" \) \
+              -exec cp --parents {} "$out_dir/" \;
           }
-          run_generator 1.3
-          run_generator 1.4
-          run_generator 1.5
-          run_generator 1.6
-          run_misc() {
+
+          run_generator "1.3"
+          run_generator "1.4"
+          run_generator "1.5"
+          run_generator "1.6"
+
+          run_mod_generator() {
             name="$1"
             src="dbin/misc/cmd/$name"
-            out="out/misc/cmd/$name"
-            mkdir -p "$out"
-            cd "$src" || return 1
-            go run . || { echo "Generator $name failed"; cd - >/dev/null; return 1; }
+            dest="misc/cmd/$name"
+            mkdir -p "$dest"
+            cd "$src" || exit 1
+            go run . || exit 1
             cd - >/dev/null
-            find "$src" -type f \( -name '*.json' -o -name '*.yaml' -o -name '*.cbor' \) | while IFS= read -r f; do
-              relname=$(basename "$f")
-              cp "$f" "$out/$relname"
-            done
+
+            find "$src" -type f \( -name "*.json" -o -name "*.yaml" -o -name "*.cbor" \) -exec gzip -k -9 {} \;
+            find "$src" -type f \( -name "*.json" -o -name "*.yaml" -o -name "*.cbor" \) -exec zstd -qf -k {} \;
+
+            find "$src" -type f \( -name "*.json" -o -name "*.yaml" -o -name "*.cbor" -o -name "*.gz" -o -name "*.zst" \) \
+              -exec cp --parents {} "$dest/" \;
           }
-          run_misc flatpakAppStreamScrapper
-          run_misc modMetadata
-          run_misc modMetadata-ng
-        shell: sh
-      - name: Upload If Changed
+
+          run_mod_generator "modMetadata"
+          run_mod_generator "modMetadata-ng"
+          run_mod_generator "flatpakAppStreamScrapper"
+
+      - name: Checkout metadata repository (sparse)
+        uses: actions/checkout@v4
+        with:
+          repository: xplshn/dbin-metadata
+          path: metadata
+          sparse-checkout: |
+            misc/cmd/
+          fetch-depth: 1
+
+      - name: Copy over new metadata
         run: |
-          upload_if_changed() {
-            file="$1"
-            relpath="${file#out/}"
-            echo "Processing: $relpath"
-            remote_info=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
-              "https://api.github.com/repos/$REPO/contents/$relpath?ref=$BRANCH")
-            remote_sha=$(echo "$remote_info" | jq -r '.sha // empty')
-            remote_content=$(echo "$remote_info" | jq -r '.content // empty' | base64 -d 2>/dev/null || echo "")
-            local_content=$(cat "$file")
-            [ "$remote_content" = "$local_content" ] && {
-              echo "Unchanged: $relpath"
-              return
-            }
-            echo "Uploading: $relpath"
-            encoded=$(base64 -w 0 "$file")
-            tmpfile="$(mktemp)"
-            if [ -n "$remote_sha" ] && [ "$remote_sha" != "null" ]; then
-              printf '{\n  "message": "Update %s",\n  "content": "%s",\n  "branch": "%s",\n  "sha": "%s"\n}' \
-                "$relpath" "$encoded" "$BRANCH" "$remote_sha" >"$tmpfile"
-            else
-              printf '{\n  "message": "Create %s",\n  "content": "%s",\n  "branch": "%s"\n}' \
-                "$relpath" "$encoded" "$BRANCH" >"$tmpfile"
-            fi
-            response=$(curl -s -X PUT -H "Authorization: token $GITHUB_TOKEN" \
-              -H "Content-Type: application/json" \
-              --data-binary "@$tmpfile" \
-              "https://api.github.com/repos/$REPO/contents/$relpath")
-            echo "$response"
-            rm -f "$tmpfile"
+          cp -r misc/cmd/* metadata/misc/cmd/
+
+      - name: Commit and Push
+        run: |
+          cd metadata
+          git config user.name "xplshn"
+          git config user.email "anto@xplshn.com.ar"
+          git add misc/cmd/
+
+          git diff --cached --quiet && {
+            echo "No changes to commit"
+            exit 0
           }
-          find out/ -type f | while IFS= read -r file; do
-            upload_if_changed "$file"
-          done
-        shell: sh
+
+          now=$(TZ=UTC date "+%Y-%m-%d (%H:%M:%S)")
+          git commit -m "Update repository index files <-- $now"
+          git push origin master
