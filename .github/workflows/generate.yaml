@@ -23,7 +23,6 @@ jobs:
           export DBIN_INSTALL_DIR="$PWD"
           wget -qO- "https://raw.githubusercontent.com/xplshn/dbin/master/stubdl" | sh -s -- add dbin
           echo "V=$(./dbin -v | awk '{print $3}')" >> $GITHUB_ENV
-
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
@@ -42,7 +41,6 @@ jobs:
           echo "SYSTMP=$(dirname $(mktemp -u))" >> $GITHUB_ENV
           echo "TOTAL_GENERATORS=4" >> $GITHUB_ENV
           echo "SUCCESSFUL_GENERATORS=0" >> $GITHUB_ENV
-
       - name: Run Metadata Generators
         run: |
           run_generator() {
@@ -81,7 +79,6 @@ jobs:
           run_generator "https://raw.githubusercontent.com/xplshn/dbin/master/misc/cmd/dbinRepoIndexGenerators/1.3/generator.go" "1.3" || true
           run_generator "https://raw.githubusercontent.com/xplshn/dbin/master/misc/cmd/modMetadata-ng/modMetadata-ng.go" "modMetadata-ng" || true
           run_generator "https://raw.githubusercontent.com/xplshn/dbin/master/misc/cmd/modMetadata/modMetadata.go" "modMetadata" || true
-
       - name: Determine Metadata Generation Success
         run: |
           [ "$SUCCESSFUL_GENERATORS" -gt 0 ] && {
@@ -91,22 +88,21 @@ jobs:
             echo "HAS_META=FALSE" >> $GITHUB_ENV
             echo "No successful metadata generators"
           }
-
       - name: Reset History and Commit Metadata
         if: env.HAS_META == 'TRUE'
         run: |
           cd "$GITHUB_WORKSPACE/master" || exit 1
           git config user.name 'xplshn'
           git config user.email 'anto@xplshn.com.ar'
-
+          # Save current changes (generated metadata) before history manipulation
+          git add .
+          git stash save "WIP: Generated Metadata" || echo "No changes to stash" # Prevents failure if no changes to stash
           # Fetch master branch with depth to ensure we have enough history to rebase
           # Ensure we fetch at least 11 commits if we want to keep 10 (current HEAD + 9 previous)
           git fetch origin master:master-remote --depth=11 || exit 1
-
           # Count current local commits
           LOCAL_COMMIT_COUNT=$(git rev-list --count HEAD)
           echo "Current local commit count before rebase: $LOCAL_COMMIT_COUNT"
-
           # If the local branch has more than 10 commits, rebase to keep only the last 10.
           # The 10th commit from HEAD (inclusive of HEAD) is HEAD~9.
           # We want to rebase onto HEAD~9, effectively making it the new root.
@@ -115,29 +111,24 @@ jobs:
             echo "Trimming history to the last 10 commits..."
             # Create a temporary branch at the 10th commit from HEAD
             git branch temp_10_commits HEAD~9
-
             # Checkout this temporary branch
             git checkout temp_10_commits
-
             # Rebase the master branch onto this new root.
             # This effectively truncates master to only the last 10 commits.
             git rebase --onto temp_10_commits master
-
             # Move master to the rebased position and delete the temp branch
             git branch -f master temp_10_commits
             git branch -D temp_10_commits
-
             echo "History trimmed. New local commit count: $(git rev-list --count master)"
           else
             echo "10 or fewer commits detected ($LOCAL_COMMIT_COUNT). No history trimming needed yet."
           fi
-
+          # Reapply the stashed changes (generated metadata)
+          git stash pop || echo "No stashed changes to pop" # Prevents failure if no changes to pop
           git add --all
-
           while IFS= read -r EXCLUDED_FILE; do
             [ -n "$EXCLUDED_FILE" ] && git reset -- "$EXCLUDED_FILE"
           done < "$GITHUB_WORKSPACE/excluded_files.txt"
-
           # Check if there are actual changes to commit
           if ! git diff --cached --quiet; then
             UTC_TIME=$(TZ='UTC' date +'%Y-%m-%d (%I:%M:%S %p)')
@@ -151,11 +142,9 @@ jobs:
             echo "No changes to commit"
             echo "RESET_STATUS=SKIPPED" >> $GITHUB_ENV
           fi
-
           # Aggressively garbage collect to truly reduce local repo size.
           # This helps in subsequent fetches and overall runner disk usage.
           git gc --prune=now --aggressive --force
-
       - name: Report Metadata Generation Status
         run: |
           [ "$HAS_META" = "FALSE" ] && { echo "No successful metadata generators found."; exit 1; }
