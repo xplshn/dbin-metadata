@@ -1,0 +1,109 @@
+# original file: https://github.com/pkgforge/metadata/blob/main/.github/workflows/reset_commits.yaml
+# credits go to Ajam (@Azathothas)
+name: ♻️☢️ Reset ☢️🗑️
+concurrency:
+  group: "${{ github.workflow }}-${{ github.ref }}"
+  cancel-in-progress: true
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  reset:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          path: master
+          fetch-depth: "1"
+          filter: "blob:none"
+
+      - name: Setup Env
+        run: |
+          set +x ; set +e
+          git config --global "user.email" "anto@xplshn.com.ar"
+          git config --global "user.name" "xplshn"
+        continue-on-error: true
+
+      - name: Check Commit Count (Reset if >30)
+        run: |
+          set +x ; set +e
+          pushd "$(mktemp -d)" &>/dev/null && git clone --filter="blob:none" "${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}" "TEMPREPO" &>/dev/null
+          cd "./TEMPREPO" && CLONED_DIR="$(realpath "." | tr -d '[:space:]')" || exit 1
+          export CLONED_DIR="${CLONED_DIR}"
+          COMMIT_NUMS="$(git rev-list --count HEAD | tr -d '[:space:]')"
+          export COMMIT_NUMS="${COMMIT_NUMS}"
+          echo "COMMIT_NUMS=${COMMIT_NUMS}" >> "${GITHUB_ENV}"
+          rm -rf "${CLONED_DIR}" 2>/dev/null && popd &>/dev/null
+          cd "${GITHUB_WORKSPACE}/master" || exit 1
+          if [ "${COMMIT_NUMS}" -gt 30 ]; then
+              echo "[+] Total number of commits exceeds 30. (${COMMIT_NUMS})"
+              echo "${COMMIT_NUMS}" > "/tmp/COMMIT_NUM"
+              echo "RESET_HISTORY=YES" >> "${GITHUB_ENV}"
+          else
+              echo "[+] Total number of commits is healthy. (${COMMIT_NUMS})"
+              echo "RESET_HISTORY=NO" >> "${GITHUB_ENV}"
+          fi
+          pushd "${GITHUB_WORKSPACE}/master" &>/dev/null &&\
+           git pull origin master --no-edit 2>/dev/null
+           git pull origin master --ff-only ; git merge --no-ff -m "Merge & Sync"
+          popd &>/dev/null
+        continue-on-error: true
+
+      - name: Get DateTime
+        if: env.RESET_HISTORY == 'YES'
+        run: |
+          set +x ; set +e
+          UTC_TIME="$(TZ='UTC' date +'%Y-%m-%d_%I_%M_%S_%p' | tr -d '[:space:]')"
+          echo "UTC_TIME=${UTC_TIME}" >> "${GITHUB_ENV}"
+        continue-on-error: true
+
+      #- name: Releaser (Resetter)
+      #  if: env.RESET_HISTORY == 'YES'
+      #  uses: softprops/action-gh-release@v2.2.1
+      #  with:
+      #    name: "reset-${{ env.UTC_TIME }}"
+      #    tag_name: "reset-${{ env.UTC_TIME }}"
+      #    prerelease: true
+      #    draft: false
+      #    generate_release_notes: false
+      #    files: |
+      #      /tmp/COMMIT_NUM
+      #  continue-on-error: false
+
+      - name: Commit Reset
+        if: env.RESET_HISTORY == 'YES'
+        run: |
+          set +x ; set +e
+          cd "${GITHUB_WORKSPACE}/master" || exit 1
+          git pull origin master --no-edit 2>/dev/null
+          git pull origin master --ff-only ; git merge --no-ff -m "Merge & Sync"
+          git checkout --orphan temp
+
+          for f in $(find . -type f); do
+            case "$(file "$f")" in
+              *"ASCII text"*) ;; # keep
+              *) ;;
+              #*) echo "Skipping binary or non-text file: $f"; git reset "$f";;
+            esac
+          done
+
+          git add --all --verbose && git commit -m "✅ Commits Reset (${COMMIT_NUMS} Exceeded > 30) ☢️"
+          git branch -D "master"
+          git branch -m "master"
+          git push --set-upstream origin master --force
+        continue-on-error: true
+
+      - uses: stefanzweifel/git-auto-commit-action@v6
+        if: env.RESET_HISTORY == 'YES'
+        with:
+          repository: ./master
+          commit_user_name: xplshn
+          commit_user_email: anto@xplshn.com.ar
+          commit_message: "✅ Commits Reset (Exceeded > 30) ☢️"
+        continue-on-error: true
